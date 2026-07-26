@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aprovei Simulado — provas reais do ENEM e vestibulares</title>
+<meta name="description" content="App gratuito com provas oficiais do ENEM (2018–2025) e dos vestibulares FUVEST, UNESP e UNICAMP, com resposta comentada em cada questão.">
+<meta property="og:title" content="Aprovei Simulado">
+<meta property="og:description" content="Provas reais do ENEM e vestibulares com resposta comentada. Grátis e sem login.">
+<meta property="og:image" content="img/destaque.png">
+<meta property="og:type" content="website">
+<link rel="icon" href="img/icone.png">
+<style>
+  :root{
+    --verde:#ccf539;
+    --preto:#0e0e0e;
+    --carvao:#161616;
+    --borda:#262626;
+    --texto:#e9e9e9;
+    --suave:#a0a0a0;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--preto);color:var(--texto);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  a{color:var(--verde)}
+
+  /* topo */
+  header{border-bottom:1px solid var(--borda);position:sticky;top:0;background:rgba(14,14,14,.92);backdrop-filter:blur(8px);z-index:10}
+  .nav{display:flex;align-items:center;gap:14px;padding:14px 0}
+  .nav img{width:40px;height:40px;border-radius:11px}
+  .nav strong{font-size:1.05rem;letter-spacing:.2px}
+  .nav .sp{flex:1}
+  .nav a{color:var(--suave);text-decoration:none;font-size:.92rem;margin-left:20px}
+  .nav a:hover{color:var(--verde)}
+
+  /* hero */
+  .hero{padding:80px 0 64px;display:grid;grid-template-columns:1fr auto;gap:48px;align-items:center}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem);line-height:1.1;letter-spacing:-1px;font-weight:800}
+  .hero h1 span{color:var(--verde)}
+  .hero p.sub{color:var(--suave);font-size:1.14rem;margin-top:18px;max-width:33em}
+  .hero img{width:190px;height:190px;border-radius:44px;border:1px solid var(--borda)}
+  .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+  .badge{border:1px solid var(--borda);background:var(--carvao);border-radius:999px;padding:7px 15px;font-size:.85rem;color:var(--suave)}
+  .badge b{color:var(--verde);font-weight:600}
+  .cta{display:inline-block;margin-top:30px;background:var(--verde);color:#101010;font-weight:700;
+       text-decoration:none;padding:14px 28px;border-radius:12px;font-size:1rem}
+  .cta.soon{background:transparent;color:var(--suave);border:1px dashed var(--borda);font-weight:500;cursor:default}
+
+  /* numeros */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:16px;padding:8px 0 64px}
+  .stat{background:var(--carvao);border:1px solid var(--borda);border-radius:14px;padding:20px}
+  .stat b{display:block;font-size:1.9rem;color:var(--verde);line-height:1.2}
+  .stat span{color:var(--suave);font-size:.9rem}
+
+  /* secoes */
+  section{padding:64px 0;border-top:1px solid var(--borda)}
+  h2{font-size:1.7rem;letter-spacing:-.4px;margin-bottom:10px}
+  .lead{color:var(--suave);margin-bottom:34px;max-width:52em}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(268px,1fr));gap:18px}
+  .card{background:var(--carvao);border:1px solid var(--borda);border-radius:16px;padding:24px}
+  .card h3{font-size:1.06rem;margin-bottom:8px}
+  .card p{color:var(--suave);font-size:.95rem}
+  .card .ic{font-size:1.5rem;margin-bottom:12px;display:block}
+
+  /* prints */
+  .shots{display:flex;gap:16px;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x mandatory}
+  .shots img{width:260px;flex:none;border-radius:16px;border:1px solid var(--borda);scroll-snap-align:start}
+
+  /* faq */
+  details{background:var(--carvao);border:1px solid var(--borda);border-radius:12px;padding:16px 20px;margin-bottom:12px}
+  summary{cursor:pointer;font-weight:600}
+  details p{color:var(--suave);margin-top:10px;font-size:.95rem}
+
+  footer{border-top:1px solid var(--borda);padding:38px 0;color:var(--suave);font-size:.9rem}
+  footer a{text-decoration:none}
+  .fnav{display:flex;flex-wrap:wrap;gap:18px;margin-bottom:14px}
+
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr;padding:52px 0 40px}
+    .hero img{width:130px;height:130px;border-radius:32px;order:-1}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <img src="img/icone.png" alt="Ícone do Aprovei Simulado">
+    <strong>Aprovei Simulado</strong>
+    <span class="sp"></span>
+    <a href="#recursos">Recursos</a>
+    <a href="#provas">Provas</a>
+    <a href="/aprovei-privacidade/">Privacidade</a>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="hero">
+    <div>
+      <h1>Estude com as provas<br>que <span>realmente caem</span>.</h1>
+      <p class="sub">
+        Provas oficiais completas do ENEM e dos principais vestibulares, com resposta
+        comentada em cada questão. De graça, sem cadastro e sem login.
+      </p>
+      <div class="badges">
+        <span class="badge"><b>ENEM</b> 2018–2025</span>
+        <span class="badge"><b>FUVEST</b> 2021–2025</span>
+        <span class="badge"><b>UNESP</b> 2021–2025</span>
+        <span class="badge"><b>UNICAMP</b> 2021–2025</span>
+      </div>
+      <span class="cta soon">Em breve na Google Play</span>
+    </div>
+    <img src="img/icone.png" alt="Aprovei Simulado">
+  </div>
+
+  <div class="stats">
+    <div class="stat"><b>2.100+</b><span>questões oficiais</span></div>
+    <div class="stat"><b>22</b><span>provas completas</span></div>
+    <div class="stat"><b>700</b><span>desafios rápidos</span></div>
+    <div class="stat"><b>R$ 0</b><span>para sempre</span></div>
+  </div>
+
+</div>
+
+<section id="recursos">
+  <div class="wrap">
+    <h2>O que tem dentro</h2>
+    <p class="lead">Tudo o que dá para fazer sem pagar nada e sem criar conta.</p>
+    <div class="grid">
+      <div class="card">
+        <span class="ic">📝</span>
+        <h3>Simulados completos</h3>
+        <p>ENEM dia 1 e dia 2 com as 180 questões, cronômetro, correção automática e nota no fim. Pode parar e continuar depois.</p>
+      </div>
+      <div class="card">
+        <span class="ic">💡</span>
+        <h3>Resposta comentada</h3>
+        <p>Errou? Toque em "ver resposta" e entenda o porquê: a explicação da alternativa correta e o conceito por trás dela.</p>
+      </div>
+      <div class="card">
+        <span class="ic">🤖</span>
+        <h3>Simulado com IA</h3>
+        <p>Gere simulados inéditos sobre o assunto que quiser e receba correção na hora. Tem também correção de redação nota por competência.</p>
+      </div>
+      <div class="card">
+        <span class="ic">⚡</span>
+        <h3>Desafios rápidos</h3>
+        <p>700 questões curtas em 7 matérias para treinar em poucos minutos, com correção imediata.</p>
+      </div>
+      <div class="card">
+        <span class="ic">📚</span>
+        <h3>Guias de estudo</h3>
+        <p>Resumos diretos de Biologia, Química, Física, Matemática, Português, História, Geografia e Inglês — mais macetes, repertório e redações nota 1000.</p>
+      </div>
+      <div class="card">
+        <span class="ic">🧮</span>
+        <h3>Calculadoras</h3>
+        <p>Científica, geometria com desenho, física com diagrama de forças, limites e derivadas com gráfico, e montador de nomenclatura química.</p>
+      </div>
+      <div class="card">
+        <span class="ic">📊</span>
+        <h3>Sua evolução</h3>
+        <p>Acertos por matéria, caderno de erros para revisar o que você errou e contagem regressiva para o dia do ENEM.</p>
+      </div>
+      <div class="card">
+        <span class="ic">🔒</span>
+        <h3>Sem cadastro</h3>
+        <p>Não pedimos nome, e-mail nem senha. Seu progresso fica salvo apenas no seu aparelho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="provas">
+  <div class="wrap">
+    <h2>Provas disponíveis</h2>
+    <p class="lead">
+      Nada de questão inventada: são as provas reais, aplicadas de verdade, com o gabarito oficial
+      conferido questão a questão.
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3>ENEM · 2018 a 2025</h3>
+        <p>Os dois dias de cada ano, 180 questões por edição, na numeração oficial.</p>
+      </div>
+      <div class="card">
+        <h3>FUVEST · 2021 a 2025</h3>
+        <p>Primeira fase completa, incluindo as questões com figura e fórmula.</p>
+      </div>
+      <div class="card">
+        <h3>UNESP · 2021 a 2025</h3>
+        <p>Prova completa com os textos-base compartilhados entre questões.</p>
+      </div>
+      <div class="card">
+        <h3>UNICAMP · 2021 a 2025</h3>
+        <p>Primeira fase, com o gabarito do caderno correto de cada ano.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Por dentro do app</h2>
+    <p class="lead">Telas reais, sem maquiagem.</p>
+    <div class="shots">
+      <img src="img/s1.png" alt="Menu principal do app">
+      <img src="img/s2.png" alt="Lista de simulados do ENEM">
+      <img src="img/s3.png" alt="Questão real do ENEM">
+      <img src="img/s4.png" alt="Explicação da resposta">
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Perguntas frequentes</h2>
+
+    <details>
+      <summary>O app é realmente gratuito?</summary>
+      <p>Sim. Não há assinatura, versão premium nem compra dentro do app. Ele se mantém com anúncios.</p>
+    </details>
+
+    <details>
+      <summary>Preciso criar uma conta?</summary>
+      <p>Não. Não existe cadastro nem login. Seu progresso fica salvo no próprio aparelho.</p>
+    </details>
+
+    <details>
+      <summary>Funciona sem internet?</summary>
+      <p>Não. As provas são baixadas quando você abre um simulado, então é preciso estar conectado.</p>
+    </details>
+
+    <details>
+      <summary>Como funciona o Simulado com IA?</summary>
+      <p>É opcional. Você gera uma chave gratuita da API do Google Gemini em aistudio.google.com e cola no app — ela fica salva só no seu aparelho. O restante do app funciona sem nenhuma configuração.</p>
+    </details>
+
+    <details>
+      <summary>De onde vêm as provas?</summary>
+      <p>Dos documentos oficiais publicados pelo INEP e pelas bancas dos vestibulares, que são de acesso público e livre.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="fnav">
+      <a href="/aprovei-privacidade/">Política de Privacidade</a>
+      <a href="mailto:leo112e33@gmail.com">leo112e33@gmail.com</a>
+    </div>
+    <p>© 2026 LhApps — Aprovei Simulado.</p>
+    <p style="margin-top:10px;font-size:.83rem;opacity:.75">
+      Aprovei Simulado não é afiliado ao INEP, à FUVEST, à VUNESP, à COMVEST ou a qualquer
+      instituição organizadora de exames. As provas utilizadas são documentos públicos de acesso livre.
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
