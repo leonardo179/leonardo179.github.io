@@ -608,6 +608,28 @@ Sync.aoAtualizar(() => { Dados.carregar(); render(); });
 if (Prefs.lojaConectada()) Sync.executar();
 render();
 
+/*
+ * Registro do service worker com updateViaCache: 'none'.
+ *
+ * Sem isso o navegador pode servir um sw.js guardado no cache HTTP e o celular
+ * fica preso numa versao antiga do app por horas. Com 'none', ele sempre confere
+ * o arquivo de verdade no servidor; e a cada carga pedimos update() explicito.
+ */
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(e => console.warn('sw', e));
+  navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' })
+    .then(reg => {
+      reg.update();
+      // Versao nova pronta: assume o controle e recarrega uma vez so.
+      reg.addEventListener('updatefound', () => {
+        const novo = reg.installing;
+        if (!novo) return;
+        novo.addEventListener('statechange', () => {
+          if (novo.state === 'activated' && !sessionStorage.getItem('recarregado')) {
+            sessionStorage.setItem('recarregado', '1');
+            location.reload();
+          }
+        });
+      });
+    })
+    .catch(e => console.warn('sw', e));
 }
