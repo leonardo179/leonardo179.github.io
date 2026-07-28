@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281802';
-import * as D from './dominio.js?v=202607281802';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281802';
+import { Dados, Prefs } from './dados.js?v=202607281818';
+import * as D from './dominio.js?v=202607281818';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281818';
 
 let ir, voltar, render;
 

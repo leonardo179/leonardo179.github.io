@@ -2,13 +2,13 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281802';
-import * as D from './dominio.js?v=202607281802';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281802';
-import { semear } from './semente.js?v=202607281802';
-import * as M from './modulos.js?v=202607281802';
-import * as M2 from './modulos2.js?v=202607281802';
-import { instalarTelasExtra } from './telas-extra.js?v=202607281802';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281818';
+import * as D from './dominio.js?v=202607281818';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281818';
+import { semear } from './semente.js?v=202607281818';
+import * as M from './modulos.js?v=202607281818';
+import * as M2 from './modulos2.js?v=202607281818';
+import { instalarTelasExtra } from './telas-extra.js?v=202607281818';
 
 const app = document.getElementById('app');
 
@@ -485,27 +485,36 @@ registrar('ajustes', () => {
           () => { Prefs.sair(); render(); })
       }, '🚪  Sair desta conta'),
 
-      h('div', { class: 'rotulo-secao' }, 'Conexao da loja'),
-      h('div', { class: 'sub' }, 'Com a loja conectada, o que a equipe registra aparece nos outros '
-        + 'celulares sozinho, em segundos. Use os mesmos dados em todos os aparelhos — '
-        + 'inclusive nos que usam o aplicativo Android.'),
-      loja.el, pin.el, url.el, status,
-      h('div', {
-        class: 'aviso-instalar',
-        onclick: async () => {
-          salvar();
-          status.textContent = 'Testando...';
-          const r = await Sync.executar();
-          toast(r.ok ? 'Conexao funcionando.' : r.msg);
-          atualizarStatus();
-        }
-      }, '🔌  Testar a conexao'),
+      // Endereco, codigo e senha da loja sao assunto de dono: a equipe nao precisa
+      // (o app ja vem conectado) e nao deve sair repassando esses dados.
+      ...(a.configuraLoja() ? [
+        h('div', { class: 'rotulo-secao' }, 'Conexao da loja'),
+        h('div', { class: 'sub' }, 'Com a loja conectada, o que a equipe registra aparece nos '
+          + 'outros celulares sozinho, em segundos. Use os mesmos dados em todos os aparelhos — '
+          + 'inclusive nos que usam o aplicativo Android.'),
+        loja.el, pin.el, url.el, status,
+        h('div', {
+          class: 'aviso-instalar',
+          onclick: async () => {
+            salvar();
+            status.textContent = 'Testando...';
+            const r = await Sync.executar();
+            toast(r.ok ? 'Conexao funcionando.' : r.msg);
+            atualizarStatus();
+          }
+        }, '🔌  Testar a conexao'),
 
-      h('div', { class: 'rotulo-secao' }, 'Copia dos dados'),
-      h('div', { class: 'aviso-instalar', onclick: exportar }, '📤  Exportar arquivo de dados'),
-      h('div', { class: 'aviso-instalar', onclick: importar }, '📥  Importar arquivo de dados')
+        h('div', { class: 'rotulo-secao' }, 'Copia dos dados'),
+        h('div', { class: 'aviso-instalar', onclick: exportar }, '📤  Exportar arquivo de dados'),
+        h('div', { class: 'aviso-instalar', onclick: importar }, '📥  Importar arquivo de dados')
+      ] : [
+        h('div', { class: 'rotulo-secao' }, 'Loja'),
+        h('div', { class: 'sub' }, 'Conectado a loja ' + (Prefs.get('nomeLoja') || Prefs.get('loja'))
+          + '. A configuracao da conexao fica com o dono.')
+      ])
     ]),
-    barra([{ texto: 'Salvar ajustes', onclick: () => { salvar(); toast('Ajustes salvos.'); voltar(); } }])
+    barra([{ texto: a.configuraLoja() ? 'Salvar ajustes' : 'Voltar',
+      onclick: () => { if (a.configuraLoja()) { salvar(); toast('Ajustes salvos.'); } voltar(); } }])
   ]);
 });
 

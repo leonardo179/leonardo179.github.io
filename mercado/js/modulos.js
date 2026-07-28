@@ -2,11 +2,11 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281802';
-import * as D from './dominio.js?v=202607281802';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281802';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281802';
-import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607281802';
+import { Dados, Prefs } from './dados.js?v=202607281818';
+import * as D from './dominio.js?v=202607281818';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281818';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281818';
+import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607281818';
 
 let ir, voltar, render;
 
