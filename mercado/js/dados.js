@@ -16,6 +16,21 @@ const LISTAS = [
 const CHAVE_DADOS = 'mercado_dados';
 const CHAVE_PREFS = 'mercado_prefs';
 
+/**
+ * A loja ja vem configurada no app: quem instala nao precisa digitar endereco
+ * nenhum, so entrar com usuario e senha. Da para trocar em Ajustes, e um convite
+ * com ?loja=&pin=&url= sobrescreve isso (util se um dia houver mais de uma loja).
+ *
+ * Sinceridade sobre seguranca: como o app e publico, esta senha de loja nao e
+ * segredo de verdade — ela evita que alguem esbarre nos dados por acaso, mas o
+ * que realmente controla o acesso e o login de cada pessoa.
+ */
+export const LOJA_PADRAO = {
+  url: 'https://script.google.com/macros/s/AKfycbxDYdLE7mbz8BgqI4NOhBLtjehY_N0HdgyxORgtvdZ5JA8hiVHMhU8sUM9X80HIoL4c/exec',
+  loja: 'mercado-central',
+  pin: 'lucas1123'
+};
+
 export const Dados = {
   d: null,
 
@@ -98,6 +113,18 @@ export const Prefs = {
     } catch (e) {
       this.p = {};
     }
+
+    // Convite com os dados na propria URL (?loja=&pin=&url=) tem prioridade.
+    const q = new URLSearchParams(location.search);
+    ['url', 'loja', 'pin'].forEach(k => {
+      if (q.get(k)) this.set(k, q.get(k));
+    });
+
+    // Sem nada configurado, assume a loja que veio embutida no app.
+    if (!this.p.url) this.set('url', LOJA_PADRAO.url);
+    if (!this.p.loja) this.set('loja', LOJA_PADRAO.loja);
+    if (!this.p.pin) this.set('pin', LOJA_PADRAO.pin);
+
     return this.p;
   },
 

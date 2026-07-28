@@ -54,52 +54,47 @@ function telaLogin() {
   return telaPrimeiroAcesso();
 }
 
+/**
+ * Aparelho novo: o app ja sabe qual e a loja, entao ele mesmo busca os cadastros
+ * e cai na tela de entrar. Ninguem precisa digitar endereco.
+ */
 function telaPrimeiroAcesso() {
-  const url = campo('Endereco da loja', Prefs.get('url'));
-  const loja = campo('Codigo da loja', Prefs.get('loja'));
-  const pin = campo('Senha da loja', Prefs.get('pin'), { type: 'password' });
-  const recado = aviso('', '#0277BD');
-  recado.style.display = 'none';
+  const recado = aviso('Procurando a loja...', '#0277BD');
 
-  async function conectar() {
-    if (!url.input.value.trim() || !loja.input.value.trim()) {
-      recado.style.display = 'block';
-      recado.textContent = 'Preencha o endereco e o codigo da loja (peca ao dono).';
-      return;
-    }
-    Prefs.set('url', url.input.value.trim());
-    Prefs.set('loja', loja.input.value.trim());
-    Prefs.set('pin', pin.input.value.trim());
-    recado.style.display = 'block';
-    recado.textContent = 'Conectando na loja...';
+  // Busca sozinho assim que a tela aparece.
+  setTimeout(async () => {
     const r = await Sync.executar();
     Dados.carregar();
     if (Dados.d.usuarios.some(u => !u.excluido && u.ativo)) {
-      toast('Loja encontrada. Entre com seu usuario.');
-      render();
-    } else {
-      recado.textContent = r.ok
-        ? 'Conectou, mas esta loja ainda nao tem ninguem cadastrado. Confira o codigo com o dono.'
-        : r.msg;
+      render();   // achou gente cadastrada: cai na tela de login
+      return;
     }
-  }
+    recado.textContent = r.ok
+      ? 'Esta loja ainda nao tem ninguem cadastrado. Se voce e o dono, crie a sua conta abaixo.'
+      : 'Nao consegui falar com a loja agora (' + r.msg + '). Confira a internet e tente de novo.';
+  }, 50);
 
   return h('div', {}, [
     cabecalho({ titulo: '🛒 Mercado Gestor', sub: 'Primeiro acesso neste aparelho' }),
     h('main', {}, [
-      h('div', { class: 'rotulo-secao' }, 'Ja existe uma loja criada?'),
-      h('div', { class: 'sub' }, 'Se o dono ja criou a loja em outro celular, conecte este '
-        + 'aparelho nela e entre com o seu usuario. Peca a ele o endereco, o codigo e a senha '
-        + 'da loja — ele encontra tudo em Ajustes.'),
-      url.el, loja.el, pin.el, recado,
-      h('div', { class: 'aviso-instalar', onclick: conectar },
-        '🔌  Conectar nesta loja e entrar'),
+      recado,
+      h('div', { class: 'aviso-instalar', onclick: async () => {
+        recado.textContent = 'Procurando a loja...';
+        await Sync.executar();
+        Dados.carregar();
+        render();
+      } }, '🔄  Tentar de novo'),
 
-      h('div', { class: 'rotulo-secao' }, 'Ou comece uma loja nova'),
+      h('div', { class: 'rotulo-secao' }, 'Sou o dono e ainda nao criei minha conta'),
       h('div', { class: 'sub' }, 'A primeira conta criada e a de DONO: ela enxerga a loja '
         + 'inteira e cadastra o restante da equipe.'),
       h('div', { class: 'aviso-instalar', onclick: () => { app.replaceChildren(telaCriarLoja()); } },
-        '🛒  Criar uma loja nova')
+        '🛒  Criar a minha conta de dono'),
+
+      h('div', { class: 'rotulo-secao' }, 'Trocar de loja'),
+      h('div', { class: 'sub' }, 'So mexa aqui se este aparelho for de outra loja.'),
+      h('div', { class: 'aviso-instalar', onclick: () => ir('ajustes') },
+        '⚙  Ajustar a conexao manualmente')
     ])
   ]);
 }
@@ -110,8 +105,6 @@ function telaCriarLoja() {
   const login = campo('Usuario para entrar (ex: joao)');
   const senha = campo('Senha', '', { type: 'password' });
   const senha2 = campo('Repita a senha', '', { type: 'password' });
-  const url = campo('Endereco da loja (planilha do Google ou sync.php)');
-  const pin = campo('Senha da loja');
   const erro = aviso('', '#D32F2F');
   erro.style.display = 'none';
 
@@ -132,9 +125,8 @@ function telaCriarLoja() {
     await D.definirSenha(dono, senha.input.value);
     Dados.gravar('usuarios', dono, dono.nome);
 
-    Prefs.set('loja', loja.input.value.trim());
-    Prefs.set('url', url.input.value.trim());
-    Prefs.set('pin', pin.input.value.trim());
+    // O endereco da loja ja vem no app; aqui so guardamos o nome que aparece na tela.
+    Prefs.set('nomeLoja', loja.input.value.trim());
     Prefs.entrar(dono);
 
     if (!Prefs.get('semeado')) { semear(dono.nome); Prefs.set('semeado', true); }
@@ -151,10 +143,7 @@ function telaCriarLoja() {
         + 'ela enxerga a loja inteira e cadastra o restante da equipe (lideres de setor '
         + 'e funcionarios), cada um com a propria senha.'),
       loja.el, nome.el, login.el, senha.el, senha2.el,
-      h('div', { class: 'rotulo-secao' }, 'Conexao da loja (opcional, da para configurar depois)'),
-      h('div', { class: 'sub' }, 'Preencha para os celulares da loja verem a mesma coisa, na hora. '
-        + 'Sem isso o app funciona normalmente, so que neste aparelho.'),
-      url.el, pin.el, erro
+      erro
     ]),
     barra([{ texto: 'Criar conta e entrar', onclick: criar }])
   ]);
@@ -195,7 +184,7 @@ function telaEntrar() {
   }
 
   return h('div', {}, [
-    cabecalho({ titulo: '🛒 Mercado Gestor', sub: Prefs.get('loja') || 'Entre com seu usuario' }),
+    cabecalho({ titulo: '🛒 Mercado Gestor', sub: Prefs.get('nomeLoja') || Prefs.get('loja') || 'Entre com seu usuario' }),
     h('main', {}, [
       login.el, senha.el, erro,
       h('div', { class: 'aviso-instalar', onclick: buscar },
@@ -218,7 +207,7 @@ registrar('painel', () => {
 
   const cab = cabecalho({
     titulo: '🛒 Mercado Gestor',
-    sub: (Prefs.get('loja') || 'Loja') + '  •  ' + a.nome() + ' - ' + a.rotuloPerfil(),
+    sub: (Prefs.get('nomeLoja') || Prefs.get('loja') || 'Loja') + '  •  ' + a.nome() + ' - ' + a.rotuloPerfil(),
     acao: { texto: '⚙', onclick: () => ir('ajustes') }
   });
 
@@ -243,7 +232,7 @@ registrar('painel', () => {
       h('h1', { estilo: { flex: '1' } }, '🛒 Mercado Gestor'),
       h('div', { class: 'acao', onclick: () => ir('ajustes') }, '⚙')
     ]),
-    h('div', { class: 'sub' }, (Prefs.get('loja') || 'Loja') + '  •  ' + a.nome() + ' - ' + a.rotuloPerfil()),
+    h('div', { class: 'sub' }, (Prefs.get('nomeLoja') || Prefs.get('loja') || 'Loja') + '  •  ' + a.nome() + ' - ' + a.rotuloPerfil()),
     resumo, conexao
   ]));
 
