@@ -2,11 +2,11 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281711';
-import * as D from './dominio.js?v=202607281711';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281711';
-import { semear } from './semente.js?v=202607281711';
-import * as M from './modulos.js?v=202607281711';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281712';
+import * as D from './dominio.js?v=202607281712';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281712';
+import { semear } from './semente.js?v=202607281712';
+import * as M from './modulos.js?v=202607281712';
 
 const app = document.getElementById('app');
 

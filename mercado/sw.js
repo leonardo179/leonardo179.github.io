@@ -6,7 +6,7 @@
  * freezer ou no deposito, a tela continua abrindo em vez de dar erro, e o que for
  * registrado sobe assim que a internet voltar.
  */
-const CACHE = 'mercado-gestor-202607281711';
+const CACHE = 'mercado-gestor-202607281712';
 const ARQUIVOS = [
   './', './index.html', './manifest.webmanifest',
   './js/app.js', './js/dados.js', './js/dominio.js', './js/modulos.js',
@@ -29,8 +29,15 @@ self.addEventListener('fetch', e => {
   // A conversa com a loja nunca passa por aqui: vai direto para a rede, sempre.
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
 
+  // Abrir o app (navegacao) ignora ate o cache do proprio navegador: o GitHub
+  // Pages manda guardar por 10 minutos, e sem isso o celular abriria a versao
+  // velha depois de uma publicacao.
+  const pedido = e.request.mode === 'navigate'
+    ? new Request(e.request.url, { cache: 'reload', credentials: 'same-origin' })
+    : e.request;
+
   e.respondWith(
-    fetch(e.request)
+    fetch(pedido)
       .then(resposta => {
         // Veio da rede: guarda uma copia so para o caso de o sinal cair depois.
         const copia = resposta.clone();
