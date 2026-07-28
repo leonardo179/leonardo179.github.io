@@ -132,14 +132,17 @@ export const Prefs = {
 export const Sync = {
   pendente: null,
   ouvintes: [],
+  /** 'ao-vivo' | 'sem-internet' | 'desligado' | 'atualizando' */
+  estado: 'desligado',
 
   aoAtualizar(fn) { this.ouvintes.push(fn); },
   avisar() { this.ouvintes.forEach(fn => { try { fn(); } catch (e) { console.error(e); } }); },
 
+  /** Gravou algo: sobe quase na hora, so agrupando digitacao seguida. */
   marcarSujo() {
     if (!Prefs.lojaConectada()) return;
     clearTimeout(this.pendente);
-    this.pendente = setTimeout(() => this.executar(), 4000);
+    this.pendente = setTimeout(() => this.executar(), 1200);
   },
 
   async chamar(corpo) {
@@ -161,7 +164,15 @@ export const Sync = {
 
   /** Baixa, junta, salva e devolve o combinado — igual ao Sync.java. */
   async executar() {
-    if (!Prefs.lojaConectada()) return { ok: false, msg: 'Loja nao conectada.' };
+    if (!Prefs.lojaConectada()) {
+      this.estado = 'desligado';
+      return { ok: false, msg: 'Loja nao conectada.' };
+    }
+    if (!navigator.onLine) {
+      this.estado = 'sem-internet';
+      this.avisar();
+      return { ok: false, msg: 'Sem internet — vou mandar assim que voltar.' };
+    }
     const loja = Prefs.get('loja'), pin = Prefs.get('pin');
     try {
       const baixou = await this.chamar({ acao: 'baixar', loja, pin });
@@ -175,20 +186,43 @@ export const Sync = {
         dados: Dados.d
       });
       Prefs.set('ultimaSync', Date.now());
+      this.estado = 'ao-vivo';
       this.avisar();
       return { ok: true, msg: 'Tudo em dia.' };
     } catch (e) {
       console.warn('falha ao falar com a loja', e);
+      this.estado = 'sem-internet';
+      this.avisar();
       return { ok: false, msg: 'Nao consegui falar com a loja: ' + e.message };
     }
   },
 
-  /** Enquanto o app esta aberto, procura novidades de tempos em tempos. */
+  /**
+   * Com a tela aberta o app fica de olho na loja o tempo todo: busca novidades
+   * a cada 8 segundos, volta a buscar quando a tela reaparece e assim que a
+   * internet volta. E o que faz o dono ver o registro do funcionario na hora.
+   */
   iniciarCiclo() {
-    setInterval(() => {
-      if (Prefs.lojaConectada() && navigator.onLine) this.executar();
-    }, 45000);
-    window.addEventListener('online', () => this.executar());
+    const tique = () => {
+      if (!Prefs.lojaConectada()) return;
+      if (document.visibilityState !== 'visible') return;  // tela apagada nao gasta dados
+      this.executar();
+    };
+    setInterval(tique, 8000);
+
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'visible') tique();
+    });
+
+    window.addEventListener('online', () => {
+      this.estado = 'atualizando';
+      this.avisar();
+      this.executar();
+    });
+    window.addEventListener('offline', () => {
+      this.estado = 'sem-internet';
+      this.avisar();
+    });
   }
 };
 

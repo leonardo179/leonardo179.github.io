@@ -1,7 +1,7 @@
 {
   "name": "Mercado Gestor",
   "short_name": "Mercado",
-  "description": "Validades, checklists, cronograma, entregas e quebras do mercado.",
+  "description": "Gestao do mercado ao vivo: validades, checklists, cronograma, entregas e quebras.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

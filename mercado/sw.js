@@ -1,5 +1,12 @@
-/* Guarda o app no aparelho: abre e funciona mesmo sem internet. */
-const CACHE = 'mercado-gestor-v1';
+/*
+ * O app e feito para ficar conectado e atualizando ao vivo.
+ *
+ * Por isso aqui e SEMPRE A REDE PRIMEIRO: toda abertura pega a versao mais nova
+ * no servidor. O cache existe so como paraquedas — se o sinal cair no corredor do
+ * freezer ou no deposito, a tela continua abrindo em vez de dar erro, e o que for
+ * registrado sobe assim que a internet voltar.
+ */
+const CACHE = 'mercado-gestor-v2';
 const ARQUIVOS = [
   './', './index.html', './manifest.webmanifest',
   './js/app.js', './js/dados.js', './js/dominio.js', './js/modulos.js',
@@ -19,13 +26,17 @@ self.addEventListener('activate', e => {
 
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
-  // A conversa com a loja nunca sai do cache.
+  // A conversa com a loja nunca passa por aqui: vai direto para a rede, sempre.
   if (e.request.method !== 'GET' || url.origin !== location.origin) return;
+
   e.respondWith(
-    caches.match(e.request).then(resp => resp || fetch(e.request).then(r => {
-      const copia = r.clone();
-      caches.open(CACHE).then(c => c.put(e.request, copia));
-      return r;
-    }).catch(() => caches.match('./index.html')))
+    fetch(e.request)
+      .then(resposta => {
+        // Veio da rede: guarda uma copia so para o caso de o sinal cair depois.
+        const copia = resposta.clone();
+        caches.open(CACHE).then(c => c.put(e.request, copia));
+        return resposta;
+      })
+      .catch(() => caches.match(e.request).then(r => r || caches.match('./index.html')))
   );
 });

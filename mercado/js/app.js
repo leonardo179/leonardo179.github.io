@@ -177,13 +177,9 @@ registrar('painel', () => {
       [h('b', { estilo: { color: '#FFE0B2' } }, pendencias.length), h('span', {}, 'tarefas em aberto')])
   ]);
 
-  const ultima = Prefs.get('ultimaSync', 0);
-  const min = ultima ? Math.floor((Date.now() - ultima) / 60000) : 0;
   const conexao = h('div', { class: 'conexao' }, [
-    h('span', { estilo: { flex: '1' } }, !Prefs.lojaConectada()
-      ? 'Somente neste aparelho — ligue a loja em Ajustes'
-      : (!ultima ? 'Loja ' + Prefs.get('loja') + ' — conectando...'
-        : 'Loja ' + Prefs.get('loja') + (min < 2 ? ' — em dia' : ' — atualizado ha ' + min + ' min'))),
+    pontoAoVivo(),
+    h('span', { estilo: { flex: '1' }, id: 'txConexao' }, textoConexao()),
     h('span', {
       estilo: { fontSize: '18px', cursor: 'pointer' },
       onclick: async () => { toast('Atualizando...'); const r = await Sync.executar(); toast(r.msg); render(); }
@@ -255,10 +251,41 @@ registrar('painel', () => {
       h('div', { class: 'grade' }, mods),
       instalarDica(),
       h('div', { class: 'vazio', estilo: { fontSize: '11px', padding: '18px' } },
-        'O app funciona mesmo sem internet e se atualiza sozinho quando a loja esta conectada.')
+        'Com a loja conectada, o que a equipe registra aparece aqui na hora.')
     ])
   ]);
 });
+
+/** Bolinha do status: verde piscando quando esta recebendo ao vivo. */
+function pontoAoVivo() {
+  const cores = { 'ao-vivo': '#8BC34A', 'atualizando': '#FFEB3B', 'sem-internet': '#EF9A9A', 'desligado': '#B0BEC5' };
+  const cor = cores[estadoConexao()] || '#B0BEC5';
+  return h('span', {
+    estilo: {
+      width: '9px', height: '9px', borderRadius: '50%', background: cor, flex: 'none',
+      boxShadow: '0 0 6px ' + cor, animation: estadoConexao() === 'ao-vivo' ? 'none' : 'none'
+    }
+  });
+}
+
+function estadoConexao() {
+  if (!Prefs.lojaConectada()) return 'desligado';
+  if (!navigator.onLine) return 'sem-internet';
+  return Sync.estado === 'sem-internet' ? 'sem-internet' : 'ao-vivo';
+}
+
+function textoConexao() {
+  const estado = estadoConexao();
+  if (estado === 'desligado') return 'Somente neste aparelho — ligue a loja em Ajustes';
+  if (estado === 'sem-internet') {
+    return 'Sem internet — o que voce registrar sobe assim que o sinal voltar';
+  }
+  const ultima = Prefs.get('ultimaSync', 0);
+  if (!ultima) return 'Conectando na loja ' + Prefs.get('loja') + '...';
+  const seg = Math.floor((Date.now() - ultima) / 1000);
+  return 'Loja ' + Prefs.get('loja') + ' — ao vivo'
+    + (seg > 60 ? ' (ultimo aviso ha ' + Math.floor(seg / 60) + ' min)' : '');
+}
 
 /** No iPhone o app so vira icone pelo menu Compartilhar do Safari. */
 function instalarDica() {
