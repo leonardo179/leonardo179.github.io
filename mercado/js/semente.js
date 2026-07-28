@@ -2,7 +2,7 @@
  * Na primeira abertura a loja ja nasce com um checklist por setor e o cronograma
  * de limpeza/reposicao — os mesmos textos do aplicativo Android.
  */
-import { Dados, uuid } from './dados.js';
+import { Dados, uuid } from './dados.js?v=202607281711';
 
 export const CHECKLISTS = {
   HORTIFRUTI: ['Retirar frutas, legumes e verduras improprios para venda',
