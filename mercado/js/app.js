@@ -232,14 +232,9 @@ registrar('painel', () => {
       [h('b', { estilo: { color: '#FFE0B2' } }, pendencias.length), h('span', {}, 'tarefas em aberto')])
   ]);
 
-  const conexao = h('div', { class: 'conexao' }, [
-    pontoAoVivo(),
-    h('span', { estilo: { flex: '1' }, id: 'txConexao' }, textoConexao()),
-    h('span', {
-      estilo: { fontSize: '18px', cursor: 'pointer' },
-      onclick: async () => { toast('Atualizando...'); const r = await Sync.executar(); toast(r.msg); render(); }
-    }, '⟳')
-  ]);
+  // Nada de status nem botao de atualizar: o app se vira sozinho. So aparece
+  // alguma coisa aqui quando ha problema de verdade — e ai e um alerta, nao um botao.
+  const conexao = avisoDeProblema();
 
   // O cabecalho do painel carrega resumo e conexao dentro dele.
   const bloco = h('div', { estilo: { flex: '1' } }, []);
@@ -311,35 +306,37 @@ registrar('painel', () => {
   ]);
 });
 
-/** Bolinha do status: verde piscando quando esta recebendo ao vivo. */
-function pontoAoVivo() {
-  const cores = { 'ao-vivo': '#8BC34A', 'atualizando': '#FFEB3B', 'sem-internet': '#EF9A9A', 'desligado': '#B0BEC5' };
-  const cor = cores[estadoConexao()] || '#B0BEC5';
-  return h('span', {
-    estilo: {
-      width: '9px', height: '9px', borderRadius: '50%', background: cor, flex: 'none',
-      boxShadow: '0 0 6px ' + cor, animation: estadoConexao() === 'ao-vivo' ? 'none' : 'none'
-    }
-  });
-}
-
 function estadoConexao() {
   if (!Prefs.lojaConectada()) return 'desligado';
   if (!navigator.onLine) return 'sem-internet';
   return Sync.estado === 'sem-internet' ? 'sem-internet' : 'ao-vivo';
 }
 
-function textoConexao() {
+/**
+ * Quando esta tudo certo, a tela nao fala nada sobre conexao — o app so funciona.
+ * Aviso so quando o dado NAO esta chegando em ninguem, que e quando o usuario
+ * precisa saber.
+ */
+function avisoDeProblema() {
   const estado = estadoConexao();
-  if (estado === 'desligado') return 'Somente neste aparelho — ligue a loja em Ajustes';
-  if (estado === 'sem-internet') {
-    return 'Sem internet — o que voce registrar sobe assim que o sinal voltar';
-  }
-  const ultima = Prefs.get('ultimaSync', 0);
-  if (!ultima) return 'Conectando na loja ' + Prefs.get('loja') + '...';
-  const seg = Math.floor((Date.now() - ultima) / 1000);
-  return 'Loja ' + Prefs.get('loja') + ' — ao vivo'
-    + (seg > 60 ? ' (ultimo aviso ha ' + Math.floor(seg / 60) + ' min)' : '');
+  if (estado === 'ao-vivo') return null;
+
+  const desligado = estado === 'desligado';
+  const texto = desligado
+    ? '⚠ Este aparelho nao esta ligado a loja: o que voce registrar fica so aqui e '
+      + 'ninguem mais ve. ' + (D.Acesso.dono()
+        ? 'Toque para ligar em Ajustes.' : 'Avise o dono.')
+    : '📴 Sem internet agora. Pode continuar registrando — sobe sozinho quando o sinal voltar.';
+
+  return h('div', {
+    class: 'conexao',
+    estilo: {
+      background: 'rgba(255,255,255,.16)', borderRadius: '12px', padding: '10px 12px',
+      cursor: desligado && D.Acesso.dono() ? 'pointer' : 'default', display: 'block',
+      color: '#fff', fontSize: '12px', lineHeight: '1.35'
+    },
+    onclick: desligado && D.Acesso.dono() ? () => ir('ajustes') : null
+  }, texto);
 }
 
 /**

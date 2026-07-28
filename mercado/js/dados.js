@@ -185,6 +185,13 @@ export const Sync = {
         dispositivo: dispositivo(),
         dados: Dados.d
       });
+      // Depois de mandar, confere o que voltou: se dois celulares gravaram quase
+      // juntos, esta segunda leitura ja traz o do colega — e a tela se redesenha.
+      const conferencia = await this.chamar({ acao: 'baixar', loja, pin });
+      if (conferencia.dados) {
+        Dados.juntar(conferencia.dados);
+        Dados.salvar({ enviar: false });
+      }
       Prefs.set('ultimaSync', Date.now());
       this.estado = 'ao-vivo';
       this.avisar();

@@ -182,7 +182,9 @@ function checklists(registrar) {
         titulo: D.setor(c.setor).nome,
         sub: c.nome + '  •  ' + c.itens.length + ' itens',
         extra: r && r.concluido
-          ? 'Entregue por ' + (r.funcionario || r.autor) + (temObs(r) ? '  •  tem observacao' : '')
+          ? '✔ Entregue por ' + (r.funcionario || r.autor)
+            + (r.atualizadoEm ? ' as ' + new Date(r.atualizadoEm).toTimeString().slice(0, 5) : '')
+            + (temObs(r) ? '  •  tem observacao' : '')
           : (r ? r.itens.filter(i => i.marcado).length + ' de ' + r.itens.length + ' marcados' : null),
         selo: r && r.concluido ? { texto: 'feito ' + pct + '%', cor: '#388E3C' }
           : r ? { texto: 'em andamento', cor: '#F57C00' } : { texto: 'hoje', cor: '#757575' },
