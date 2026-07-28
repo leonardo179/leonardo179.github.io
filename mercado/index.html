@@ -102,10 +102,29 @@
   .rodape-marcar button:disabled{opacity:.4}
   .linha-dia{background:#fff; border-radius:14px; padding:10px 12px; margin-bottom:8px;
     box-shadow:0 1px 3px rgba(0,0,0,.08)}
+
+  /* Painel do dono: cada bloco e uma pergunta respondida com barras. */
+  .bloco-dash{background:#fff; border-radius:14px; padding:12px; margin-bottom:12px;
+    box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .bloco-dash .cabeca{display:flex; align-items:center; gap:10px; cursor:pointer;
+    padding-bottom:10px; border-bottom:1px solid #EEF2EE; margin-bottom:10px}
+  .bloco-dash .cabeca .ic{font-size:22px}
+  .bloco-dash .cabeca div{flex:1; min-width:0}
+  .bloco-dash .cabeca b{display:block; font-size:15px}
+  .bloco-dash .cabeca small{color:var(--fraco); font-size:11px}
+  .bloco-dash .cabeca .seta{color:var(--fraco); font-size:22px}
+  .sub-bloco{font-size:11px; font-weight:700; color:var(--fraco); margin:14px 0 6px}
+  .barra-linha{display:flex; align-items:center; gap:8px; margin-bottom:7px}
+  .barra-linha .rot{flex:0 0 34%; font-size:12px; overflow:hidden; text-overflow:ellipsis;
+    white-space:nowrap}
+  .barra-linha .trilho{flex:1; background:#EEF2EE; border-radius:8px; height:16px; overflow:hidden}
+  .barra-linha .preenchida{height:100%; border-radius:8px; transition:width .3s}
+  .barra-linha .val{flex:0 0 auto; font-size:11px; font-weight:700; color:var(--fraco);
+    min-width:56px; text-align:right}
 </style>
 </head>
 <body>
   <div id="app"></div>
-  <script type="module" src="js/app.js?v=202607281839"></script>
+  <script type="module" src="js/app.js?v=202607281845"></script>
 </body>
 </html>

@@ -2,14 +2,15 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281839';
-import * as D from './dominio.js?v=202607281839';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281839';
-import { semear } from './semente.js?v=202607281839';
-import * as M from './modulos.js?v=202607281839';
-import * as M2 from './modulos2.js?v=202607281839';
-import { instalarTelasExtra } from './telas-extra.js?v=202607281839';
-import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607281839';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281845';
+import * as D from './dominio.js?v=202607281845';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281845';
+import { semear } from './semente.js?v=202607281845';
+import * as M from './modulos.js?v=202607281845';
+import * as M2 from './modulos2.js?v=202607281845';
+import { instalarTelasExtra } from './telas-extra.js?v=202607281845';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607281845';
+import { instalarDashboard } from './dashboard.js?v=202607281845';
 
 const app = document.getElementById('app');
 
@@ -352,6 +353,11 @@ registrar('painel', () => {
   mod('👥', 'Escala e equipe',
     Dados.ativos('funcionarios').filter(f => f.ativo !== false).length + ' pessoas cadastradas',
     null, '#6A1B9A', 'escala');
+
+  // O dono entra e ve a loja inteira num lugar so.
+  if (a.dono()) {
+    mod('📊', 'Painel do dono', 'Graficos dos ultimos 30 dias', null, '#0277BD', 'dashboard');
+  }
 
   if (a.veTrabalhoDosOutros()) {
     mod('🏆', 'Desempenho', 'Ranking e pontos da equipe', null, '#F9A825', 'desempenho');
@@ -736,6 +742,7 @@ function removerUsuario(u) {
 M.instalarModulos({ registrar, ir, voltar, render });
 M2.instalarModulos2({ registrar, ir, voltar, render });
 instalarTelasExtra({ registrar, ir, voltar, render });
+instalarDashboard({ registrar, ir, voltar, render });
 
 Dados.carregar();
 Prefs.carregar();
