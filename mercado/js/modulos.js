@@ -2,10 +2,11 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281756';
-import * as D from './dominio.js?v=202607281756';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281756';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281756';
+import { Dados, Prefs } from './dados.js?v=202607281802';
+import * as D from './dominio.js?v=202607281802';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281802';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281802';
+import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607281802';
 
 let ir, voltar, render;
 
@@ -18,6 +19,7 @@ export function instalarModulos(api) {
   quebras(api.registrar);
   temperatura(api.registrar);
   pendencias(api.registrar);
+  instalarCronograma(api);
 }
 
 const opcoesSetor = () =>
@@ -362,19 +364,38 @@ export function rotinasDeHoje() {
     .sort((a, b) => a.horario.localeCompare(b.horario));
 }
 
+/** Fim da janela: o horario de fechar, ou o inicio mais a tolerancia antiga. */
+export function fimDaJanela(r) {
+  if (r.horarioFim) return r.horarioFim;
+  const [hh, mm] = (r.horario || '08:00').split(':').map(Number);
+  const fim = new Date();
+  fim.setHours(hh, mm + (r.tolerancia || 30), 0, 0);
+  return fim.toTimeString().slice(0, 5);
+}
+
+export const janelaTexto = r => (r.horario || '08:00') + ' as ' + fimDaJanela(r);
+
+/**
+ * A tarefa tem uma janela, nao um instante: "entre 15:00 e 16:00".
+ * Antes de abrir e pendente; dentro da janela e a hora de fazer; passou do
+ * fechamento sem marcar, esta ATRASADA.
+ */
 export function statusRotina(r) {
   const e = execucaoDoDia(r.id);
   if (e && e.feita) return e.atrasada
     ? { chave: 'FEITA_ATRASO', rotulo: 'Feita com atraso', cor: '#F9A825' }
     : { chave: 'FEITA', rotulo: 'Feita', cor: '#388E3C' };
+
   const agora = new Date();
-  const [hh, mm] = r.horario.split(':').map(Number);
-  const marcado = new Date(); marcado.setHours(hh, mm, 0, 0);
-  if (agora < marcado) return { chave: 'PENDENTE', rotulo: 'Pendente', cor: '#757575' };
-  if (agora > new Date(marcado.getTime() + (r.tolerancia || 30) * 60000)) {
-    return { chave: 'ATRASADA', rotulo: 'ATRASADA', cor: '#D32F2F' };
-  }
-  return { chave: 'AGORA', rotulo: 'Na hora', cor: '#F57C00' };
+  const hora = txt => {
+    const [hh, mm] = (txt || '00:00').split(':').map(Number);
+    const d = new Date(); d.setHours(hh, mm, 0, 0);
+    return d;
+  };
+  const abre = hora(r.horario), fecha = hora(fimDaJanela(r));
+  if (agora < abre) return { chave: 'PENDENTE', rotulo: 'Pendente', cor: '#757575' };
+  if (agora > fecha) return { chave: 'ATRASADA', rotulo: 'ATRASADA', cor: '#D32F2F' };
+  return { chave: 'AGORA', rotulo: 'Fazer agora', cor: '#F57C00' };
 }
 
 const execucaoDoDia = rotinaId =>
@@ -392,14 +413,17 @@ function cronograma(registrar) {
       return cartao({
         cor: D.setor(r.setor).cor,
         icone: r.icone || '🕒',
-        titulo: r.horario + '  ' + r.titulo,
+        titulo: janelaTexto(r) + '  •  ' + r.titulo,
         sub: D.setor(r.setor).icone + ' ' + D.setor(r.setor).nome
           + (r.responsavel ? '  •  ' + r.responsavel : ''),
         extra: e && e.feita ? 'Feita as ' + e.concluidaAs + ' por ' + (e.funcionario || e.autor) : r.instrucao,
         selo: { texto: s.rotulo, cor: s.cor },
         destaque: s.chave === 'ATRASADA'
-          ? { texto: '⛔ Passou do horario de ' + r.horario + '. O gestor ja foi avisado.', cor: '#D32F2F' }
-          : null,
+          ? { texto: '⛔ A janela fechou as ' + fimDaJanela(r)
+              + '. O gestor ja foi avisado — faca e marque agora.', cor: '#D32F2F' }
+          : s.chave === 'AGORA'
+            ? { texto: '⏰ Hora de fazer: a janela vai ate ' + fimDaJanela(r) + '.', cor: '#F57C00' }
+            : null,
         botoes: (!e || !e.feita) ? [{
           texto: 'Marcar feita',
           onclick: () => {
@@ -418,21 +442,28 @@ function cronograma(registrar) {
             toast('Tarefa concluida.');
             render();
           }
-        }] : [{
+        }, a.configura(r.setor) ? {
+          texto: 'Editar', sec: true, onclick: () => formRotina(r)
+        } : null] : [{
           texto: 'Desfazer', sec: true, onclick: () => {
             e.feita = false; e.concluidaAs = '';
             Dados.gravar('execucoes', e, a.nome());
             render();
           }
-        }]
+        }, a.configura(r.setor) ? {
+          texto: 'Editar', sec: true, onclick: () => formRotina(r)
+        } : null]
       });
     });
 
     return h('div', {}, [
       cabecalho({ titulo: '🕒 Cronograma',
         sub: feitas + ' feita(s) hoje' + (atrasadas ? '  •  ' + atrasadas + ' ATRASADA(S)' : ''),
-        voltar }),
-      h('main', {}, cartoes.length ? cartoes : [vazio('Nenhuma tarefa marcada para hoje.')])
+        voltar,
+        acao: a.configura(null) ? { texto: '📋 Todas', onclick: () => listaTodasRotinas() } : null }),
+      h('main', {}, cartoes.length ? cartoes : [vazio('Nenhuma tarefa marcada para hoje.')]),
+      a.configura(null)
+        ? h('button', { class: 'fab', onclick: () => formRotina(null) }, 'Nova tarefa') : null
     ]);
   });
 }
@@ -892,7 +923,7 @@ export function contarPendencias() {
   rotinasDeHoje().forEach(r => {
     const s = statusRotina(r);
     if (s.chave !== 'FEITA' && s.chave !== 'FEITA_ATRASO') {
-      itens.push({ icone: '🕒', titulo: r.horario + '  ' + r.titulo,
+      itens.push({ icone: '🕒', titulo: janelaTexto(r) + '  •  ' + r.titulo,
         sub: 'Cronograma  •  ' + D.setor(r.setor).nome, selo: s.rotulo, cor: s.cor, destino: 'cronograma' });
     }
   });
