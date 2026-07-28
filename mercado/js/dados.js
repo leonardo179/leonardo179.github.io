@@ -173,9 +173,13 @@ export const Sync = {
   },
 
   async chamar(corpo) {
+    // Content-Type de texto simples de proposito: com 'application/json' o
+    // navegador manda antes um pedido de permissao (preflight) que o Apps Script
+    // nao responde, e a chamada morre em CORS. Do outro lado o script le o corpo
+    // do mesmo jeito, entao nada muda para ele.
     const r = await fetch(Prefs.get('url'), {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify(corpo)
     });
     const txt = await r.text();

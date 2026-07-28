@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607281712';
+import { Dados, Prefs } from './dados.js?v=202607281715';
 
 export const SETORES = {
   HORTIFRUTI: { nome: 'Hortifruti', icone: '🥬', cor: '#43A047' },
