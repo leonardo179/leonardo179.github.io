@@ -3,25 +3,58 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607281718';
+import { Dados, Prefs } from './dados.js?v=202607281756';
 
-export const SETORES = {
+/**
+ * Setores da loja.
+ *
+ * Estes sao os que ja vem prontos. A loja pode criar outros e editar estes na
+ * tela Setores — por isso a lista de verdade fica nos dados, e esta aqui e so a
+ * semente. Cada setor tem uma chave (que os registros guardam) e um nome, que o
+ * dono muda quando quiser sem quebrar o historico.
+ */
+export const SETORES_PADRAO = {
   HORTIFRUTI: { nome: 'Hortifruti', icone: '🥬', cor: '#43A047' },
   ACOUGUE: { nome: 'Acougue', icone: '🥩', cor: '#C62828' },
   PEIXARIA: { nome: 'Peixaria', icone: '🐟', cor: '#0277BD' },
   PADARIA: { nome: 'Padaria', icone: '🥖', cor: '#EF6C00' },
   FRIOS: { nome: 'Frios e Laticinios', icone: '🧀', cor: '#F9A825' },
   MERCEARIA: { nome: 'Mercearia', icone: '🛒', cor: '#6D4C41' },
+  MATINAIS: { nome: 'Matinais', icone: '☕', cor: '#795548' },
+  DOCES: { nome: 'Doces e Bolachas', icone: '🍪', cor: '#D81B60' },
+  SALGADINHOS: { nome: 'Salgadinhos', icone: '🍟', cor: '#FF7043' },
   BEBIDAS: { nome: 'Bebidas', icone: '🥤', cor: '#6A1B9A' },
   CONGELADOS: { nome: 'Congelados', icone: '❄', cor: '#00838F' },
   LIMPEZA: { nome: 'Limpeza', icone: '🧴', cor: '#00897B' },
   HIGIENE: { nome: 'Higiene e Perfumaria', icone: '🧷', cor: '#AD1457' },
+  UTILIDADES: { nome: 'Utilidades', icone: '🍳', cor: '#5D4037' },
   PET: { nome: 'Pet Shop', icone: '🐶', cor: '#8D6E63' },
   CAIXA: { nome: 'Frente de Caixa', icone: '💰', cor: '#2E7D32' },
   DEPOSITO: { nome: 'Deposito', icone: '📦', cor: '#455A64' }
 };
 
-export const setor = s => SETORES[s] || SETORES.MERCEARIA;
+export const SETORES = SETORES_PADRAO;   // compatibilidade com o codigo antigo
+
+/** A lista viva: o que a loja cadastrou, ou a semente enquanto nao cadastrou nada. */
+export function setoresAtivos() {
+  const salvos = (Dados.d.setores || []).filter(x => !x.excluido && x.ativo !== false);
+  if (salvos.length) {
+    return salvos.slice().sort((a, b) =>
+      (a.ordem || 0) - (b.ordem || 0) || a.nome.localeCompare(b.nome));
+  }
+  return Object.entries(SETORES_PADRAO)
+    .map(([chave, v], i) => ({ chave, nome: v.nome, icone: v.icone, cor: v.cor, ordem: i }));
+}
+
+/** Resolve a chave para o setor cadastrado (ou o padrao, ou um generico). */
+export function setor(chave) {
+  if (!chave) return { chave: '', nome: 'Sem setor', icone: '🛒', cor: '#6D4C41' };
+  const salvo = (Dados.d.setores || []).find(x => x.chave === chave && !x.excluido);
+  if (salvo) return salvo;
+  const padrao = SETORES_PADRAO[chave];
+  if (padrao) return Object.assign({ chave }, padrao);
+  return { chave, nome: chave, icone: '🛒', cor: '#6D4C41' };
+}
 
 export const UNIDADES = {
   UND: { sigla: 'und', fator: 1 }, CX: { sigla: 'cx', fator: 12 },
@@ -98,27 +131,47 @@ export function quantidadeTexto(p) {
 
 // -------------------------------------------------------------------- acesso
 
+/** Setores de uma pessoa: aceita a lista nova e o campo antigo de um setor so. */
+export function setoresDe(u) {
+  if (!u) return [];
+  if (Array.isArray(u.setores) && u.setores.length) return u.setores;
+  return u.setor ? [u.setor] : [];
+}
+
 export const Acesso = {
   usuario() {
     return Dados.d.usuarios.find(u => u.id === Prefs.get('usuarioId') && !u.excluido) || null;
   },
   nome() { const u = this.usuario(); return u ? u.nome : Prefs.get('nome'); },
   perfil() { const u = this.usuario(); return u ? u.perfil : Prefs.get('perfil', PERFIL.FUNCIONARIO); },
-  meuSetor() { const u = this.usuario(); return u ? u.setor : Prefs.get('setor', 'MERCEARIA'); },
+
+  /** Todos os setores da pessoa — um repositor pode cuidar de varios. */
+  meusSetores() {
+    const u = this.usuario();
+    const lista = setoresDe(u);
+    return lista.length ? lista : [Prefs.get('setor', 'MERCEARIA')];
+  },
+  meuSetor() { return this.meusSetores()[0]; },
+
   dono() { return this.perfil() === PERFIL.DONO; },
   lider() { return this.perfil() === PERFIL.LIDER; },
 
-  rotuloPerfil() {
-    if (this.dono()) return 'Dono / Gestor';
-    if (this.lider()) return 'Lider de ' + setor(this.meuSetor()).nome;
-    return 'Funcionario - ' + setor(this.meuSetor()).nome;
+  nomesDosMeusSetores() {
+    return this.meusSetores().map(s => setor(s).nome).join(', ');
   },
 
-  /** Dono ve tudo; lider e funcionario so o proprio setor. */
-  veSetor(s) { return this.dono() || !s || s === this.meuSetor(); },
+  rotuloPerfil() {
+    if (this.dono()) return 'Dono / Gestor';
+    const onde = this.nomesDosMeusSetores();
+    if (this.lider()) return 'Lider de ' + onde;
+    return 'Funcionario - ' + onde;
+  },
+
+  /** Dono ve tudo; os demais veem os setores que cuidam. */
+  veSetor(s) { return this.dono() || !s || this.meusSetores().includes(s); },
   veValores() { return this.dono() || this.lider(); },
   veTrabalhoDosOutros() { return this.dono() || this.lider(); },
-  configura(s) { return this.dono() || (this.lider() && (!s || s === this.meuSetor())); },
+  configura(s) { return this.dono() || (this.lider() && (!s || this.meusSetores().includes(s))); },
   configuraLoja() { return this.dono(); },
   gerenciaUsuarios() { return this.dono() || this.lider(); },
 

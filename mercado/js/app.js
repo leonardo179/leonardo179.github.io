@@ -2,11 +2,13 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281718';
-import * as D from './dominio.js?v=202607281718';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281718';
-import { semear } from './semente.js?v=202607281718';
-import * as M from './modulos.js?v=202607281718';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281756';
+import * as D from './dominio.js?v=202607281756';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281756';
+import { semear } from './semente.js?v=202607281756';
+import * as M from './modulos.js?v=202607281756';
+import * as M2 from './modulos2.js?v=202607281756';
+import { instalarTelasExtra } from './telas-extra.js?v=202607281756';
 
 const app = document.getElementById('app');
 
@@ -212,13 +214,28 @@ registrar('painel', () => {
   });
 
   cab.append(h('div', { estilo: { width: '100%' } }));
-  const resumo = h('div', { class: 'resumo' }, [
-    h('div', { onclick: () => ir('validades', { filtro: 'janela' }) },
-      [h('b', {}, validades.length), h('span', {}, 'vencendo em 30d')]),
-    h('div', { onclick: () => ir('validades', { filtro: 'urgentes' }) },
-      [h('b', { estilo: { color: '#FFCDD2' } }, urgentes), h('span', {}, 'urgentes / vencidos')]),
-    h('div', { onclick: () => ir('pendencias') },
-      [h('b', { estilo: { color: '#FFE0B2' } }, pendencias.length), h('span', {}, 'tarefas em aberto')])
+  const feitos = M.contarRealizados();
+  const resumo = h('div', {}, [
+    h('div', { class: 'resumo' }, [
+      h('div', { onclick: () => ir('validades', { filtro: 'janela' }) },
+        [h('b', {}, validades.length), h('span', {}, 'vencendo em 30d')]),
+      h('div', { onclick: () => ir('validades', { filtro: 'urgentes' }) },
+        [h('b', { estilo: { color: '#FFCDD2' } }, urgentes), h('span', {}, 'urgentes / vencidos')]),
+      h('div', { onclick: () => ir('pendencias') },
+        [h('b', { estilo: { color: '#FFE0B2' } }, pendencias.length), h('span', {}, 'tarefas em aberto')])
+    ]),
+    // O outro lado da moeda: o que a equipe JA fez hoje.
+    h('div', { class: 'resumo', estilo: { marginTop: '6px' } }, [
+      h('div', { onclick: () => ir('realizados', { aba: 'tarefas' }) },
+        [h('b', { estilo: { color: '#C5E1A5' } }, feitos.tarefas),
+         h('span', {}, 'tarefas realizadas')]),
+      h('div', { onclick: () => ir('realizados', { aba: 'checklists' }) },
+        [h('b', { estilo: { color: '#C5E1A5' } }, feitos.checklists),
+         h('span', {}, 'checklists marcados')]),
+      h('div', { onclick: () => ir('realizados', { aba: 'checklists' }) },
+        [h('b', { estilo: { color: '#B3E5FC' } }, feitos.itens),
+         h('span', {}, 'itens marcados hoje')])
+    ])
   ]);
 
   // Nada de status nem botao de atualizar: o app se vira sozinho. So aparece
@@ -278,9 +295,44 @@ registrar('painel', () => {
   mod('🌡', 'Temperatura', equips.length + ' equipamentos',
     fora ? fora + ' fora da faixa' : null, '#D32F2F', 'temperatura');
 
+  mod('📦', 'Estoque e paletes',
+    Dados.ativos('paletes').filter(p => a.veSetor(p.setor)).length + ' posicoes mapeadas',
+    null, '#455A64', 'estoque');
+
+  const contagensNovas = Dados.ativos('contagens')
+    .filter(c => c.concluida && !c.vistaPeloGestor && a.veTrabalhoDosOutros()).length;
+  mod('🧮', 'Contagem de estoque', Dados.ativos('contagens').length + ' contagens',
+    contagensNovas ? contagensNovas + ' nova' : null, '#2E7D32', 'contagem');
+
+  const pesquisasNovas = Dados.ativos('pesquisas')
+    .filter(p => p.concluida && !p.vistaPeloGestor && a.veTrabalhoDosOutros()).length;
+  mod('🔎', 'Preco do concorrente', Dados.ativos('cesta').length + ' produtos vigiados',
+    pesquisasNovas ? pesquisasNovas + ' nova' : null, '#0277BD', 'precos');
+
+  const rupturasAbertas = Dados.ativos('rupturas')
+    .filter(r => r.situacao !== 'RESOLVIDA' && a.veSetor(r.setor)).length;
+  mod('🕳', 'Gondola vazia', rupturasAbertas + ' falta(s) em aberto',
+    rupturasAbertas ? String(rupturasAbertas) : null, '#D32F2F', 'ruptura');
+
+  const paraRecolher = Dados.ativos('desistencias').filter(d => !d.recolhido).length;
+  mod('🛒', 'Desistencias no caixa', paraRecolher + ' item(ns) para recolher',
+    paraRecolher ? String(paraRecolher) : null, '#D32F2F', 'desistencias');
+
+  mod('👥', 'Escala e equipe',
+    Dados.ativos('funcionarios').filter(f => f.ativo !== false).length + ' pessoas cadastradas',
+    null, '#6A1B9A', 'escala');
+
+  if (a.veTrabalhoDosOutros()) {
+    mod('🏆', 'Desempenho', 'Ranking e pontos da equipe', null, '#F9A825', 'desempenho');
+  }
+
   if (a.gerenciaUsuarios()) {
     mod('👤', 'Usuarios', Dados.ativos('usuarios').filter(u => u.ativo).length + ' conta(s)',
       null, '#455A64', 'usuarios');
+  }
+  if (a.configuraLoja()) {
+    mod('🏷', 'Setores', D.setoresAtivos().length + ' setores da loja',
+      null, '#00897B', 'setores');
   }
   mod('⚙', 'Ajustes', 'Sua conta, avisos e conexao da loja', null, '#455A64', 'ajustes');
 
@@ -482,6 +534,8 @@ registrar('usuarios', () => {
       icone: u.perfil === D.PERFIL.DONO ? '👑' : u.perfil === D.PERFIL.LIDER ? '⭐' : '👤',
       titulo: u.nome + (eu ? '  (voce)' : ''),
       sub: '@' + u.login + '  •  ' + rotuloPerfil(u) + (u.cargo ? '  •  ' + u.cargo : ''),
+      extra: D.setoresDe(u).length > 1
+        ? 'Setores: ' + D.setoresDe(u).map(x => D.setor(x).nome).join(', ') : null,
       extra: u.trocarSenha ? 'Senha resetada — ele escolhe uma nova ao entrar.'
         : (u.ultimoAcesso ? 'Ultimo acesso: ' + D.data(new Date(u.ultimoAcesso).toISOString().slice(0, 10))
           : 'Ainda nao entrou no app'),
@@ -503,8 +557,8 @@ registrar('usuarios', () => {
 
 function rotuloPerfil(u) {
   if (u.perfil === D.PERFIL.DONO) return 'Dono / Gestor';
-  if (u.perfil === D.PERFIL.LIDER) return 'Lider de ' + D.setor(u.setor).nome;
-  return 'Funcionario - ' + D.setor(u.setor).nome;
+  const onde = D.setoresDe(u).map(s => D.setor(s).nome).join(', ') || 'sem setor';
+  return (u.perfil === D.PERFIL.LIDER ? 'Lider de ' : 'Funcionario - ') + onde;
 }
 
 function formUsuario(existente) {
@@ -523,10 +577,29 @@ function formUsuario(existente) {
        { valor: D.PERFIL.FUNCIONARIO, texto: 'Funcionario' }]
     : [{ valor: D.PERFIL.FUNCIONARIO, texto: 'Funcionario' }];
   const perfil = lista('Papel no app', perfis, u.perfil);
-  const setorSel = lista('Setor',
-    Object.entries(D.SETORES).map(([k, v]) => ({ valor: k, texto: v.icone + ' ' + v.nome })),
-    u.setor);
-  setorSel.input.disabled = !a.dono();
+  // Varios setores por pessoa: o repositor pode cuidar de matinais e doces ao
+  // mesmo tempo. Guardamos a lista e tambem o primeiro em 'setor', para o app
+  // Android (que so entende um) continuar funcionando.
+  // Usuario novo comeca sem setor marcado: quem cadastra escolhe.
+  const marcados = new Set(existente ? D.setoresDe(u) : []);
+  const caixaSetores = h('div', {});
+  const podeEscolher = a.dono();
+  D.setoresAtivos().forEach(st => {
+    const m = marcador(st.icone + '  ' + st.nome, marcados.has(st.chave));
+    m.input.disabled = !podeEscolher;
+    m.input.addEventListener('change', () => {
+      if (m.input.checked) marcados.add(st.chave); else marcados.delete(st.chave);
+    });
+    caixaSetores.append(m.el);
+  });
+  const setorSel = {
+    el: h('div', {}, [
+      h('label', { texto: 'Setores que essa pessoa cuida' }),
+      podeEscolher ? null : h('div', { class: 'sub' },
+        'Como lider, voce cadastra no seu proprio setor.'),
+      caixaSetores
+    ])
+  };
   const senha = existente ? null : campo('Senha inicial', '', { type: 'password' });
 
   async function salvar() {
@@ -542,7 +615,10 @@ function formUsuario(existente) {
     u.login = alvo;
     u.cargo = cargo.input.value.trim();
     u.perfil = a.dono() ? perfil.input.value : D.PERFIL.FUNCIONARIO;
-    u.setor = a.dono() ? setorSel.input.value : a.meuSetor();
+    const escolhidos = a.dono() ? Array.from(marcados) : a.meusSetores();
+    if (!escolhidos.length) return toast('Escolha pelo menos um setor.');
+    u.setores = escolhidos;
+    u.setor = escolhidos[0];   // compatibilidade com o app Android
     Dados.gravar('usuarios', u, D.Acesso.nome());
     toast(existente ? 'Usuario atualizado.' : 'Usuario criado. Ele entra com "' + u.login + '".');
     render();
@@ -600,6 +676,8 @@ function removerUsuario(u) {
 // --------------------------------------------------------------------- saida
 
 M.instalarModulos({ registrar, ir, voltar, render });
+M2.instalarModulos2({ registrar, ir, voltar, render });
+instalarTelasExtra({ registrar, ir, voltar, render });
 
 Dados.carregar();
 Prefs.carregar();

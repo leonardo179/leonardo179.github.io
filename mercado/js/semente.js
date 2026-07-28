@@ -2,7 +2,8 @@
  * Na primeira abertura a loja ja nasce com um checklist por setor e o cronograma
  * de limpeza/reposicao — os mesmos textos do aplicativo Android.
  */
-import { Dados, uuid } from './dados.js?v=202607281718';
+import { Dados, uuid } from './dados.js?v=202607281756';
+import { SETORES_PADRAO } from './dominio.js?v=202607281756';
 
 export const CHECKLISTS = {
   HORTIFRUTI: ['Retirar frutas, legumes e verduras improprios para venda',
@@ -61,6 +62,13 @@ const ROTINAS = [
 ];
 
 export function semear(autor) {
+  // Os setores viram cadastro desde o inicio, para o dono poder editar e criar.
+  Object.entries(SETORES_PADRAO).forEach(([chave, v], i) => {
+    Dados.d.setores.push(Dados.novo({
+      chave, nome: v.nome, icone: v.icone, cor: v.cor, ordem: i, ativo: true, autor
+    }));
+  });
+
   Object.entries(CHECKLISTS).forEach(([setor, itens]) => {
     Dados.d.checklists.push(Dados.novo({
       nome: 'Checklist diario - ' + setor, setor, diario: true, ativo: true, autor,

@@ -2,10 +2,10 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281718';
-import * as D from './dominio.js?v=202607281718';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281718';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281718';
+import { Dados, Prefs } from './dados.js?v=202607281756';
+import * as D from './dominio.js?v=202607281756';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281756';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607281756';
 
 let ir, voltar, render;
 
@@ -859,6 +859,31 @@ function formEquipamento() {
 }
 
 // ---------------------------------------------------------------- pendencias
+
+/** O oposto das pendencias: o que ja foi entregue hoje. */
+export function contarRealizados() {
+  const a = D.Acesso, hoje = D.hoje();
+  let tarefas = 0, checklists = 0, itens = 0;
+
+  rotinasDeHoje().forEach(r => {
+    const e = execucaoDoDia(r.id);
+    if (e && e.feita && a.vePessoa(e.funcionario, e.autor)) tarefas++;
+  });
+
+  Dados.ativos('leituras')
+    .filter(l => l.data === hoje && l.registradaAs && a.veSetor(l.setor)
+      && a.vePessoa(l.funcionario, l.autor))
+    .forEach(() => tarefas++);
+
+  Dados.ativos('respostas')
+    .filter(r => r.data === hoje && a.veSetor(r.setor) && a.vePessoa(r.funcionario, r.autor))
+    .forEach(r => {
+      if (r.concluido) checklists++;
+      itens += (r.itens || []).filter(i => i.marcado).length;
+    });
+
+  return { tarefas, checklists, itens };
+}
 
 export function contarPendencias() {
   const a = D.Acesso, hoje = D.hoje();

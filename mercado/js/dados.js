@@ -10,7 +10,7 @@ const LISTAS = [
   'produtos', 'checklists', 'respostas', 'paletes', 'quebras', 'funcionarios',
   'turnos', 'datas', 'rotinas', 'execucoes', 'contagens', 'cesta', 'pesquisas',
   'equipamentos', 'leituras', 'catalogo', 'rupturas', 'desistencias', 'padroes',
-  'entregas', 'usuarios'
+  'entregas', 'usuarios', 'setores'
 ];
 
 const CHAVE_DADOS = 'mercado_dados';
