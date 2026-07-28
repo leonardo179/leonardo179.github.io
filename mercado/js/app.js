@@ -2,11 +2,11 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281715';
-import * as D from './dominio.js?v=202607281715';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281715';
-import { semear } from './semente.js?v=202607281715';
-import * as M from './modulos.js?v=202607281715';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281718';
+import * as D from './dominio.js?v=202607281718';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281718';
+import { semear } from './semente.js?v=202607281718';
+import * as M from './modulos.js?v=202607281718';
 
 const app = document.getElementById('app');
 
@@ -604,7 +604,18 @@ M.instalarModulos({ registrar, ir, voltar, render });
 Dados.carregar();
 Prefs.carregar();
 Sync.iniciarCiclo();
-Sync.aoAtualizar(() => { Dados.carregar(); render(); });
+/*
+ * Chegou dado novo da loja: redesenha a tela para o dono ver na hora.
+ *
+ * Menos quando tem formulario aberto (a barra de botoes embaixo denuncia isso):
+ * redesenhar no meio de um cadastro apagaria o que a pessoa esta digitando.
+ * Nesse caso o dado fica guardado e aparece assim que ela terminar.
+ */
+Sync.aoAtualizar(() => {
+  Dados.carregar();
+  if (document.querySelector('.barra')) return;
+  render();
+});
 if (Prefs.lojaConectada()) Sync.executar();
 render();
 
