@@ -5,6 +5,7 @@
 import { Dados, Prefs } from './dados.js';
 import * as D from './dominio.js';
 import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js';
+import { CHECKLISTS as SUGESTOES } from './semente.js';
 
 let ir, voltar, render;
 
@@ -185,6 +186,10 @@ function checklists(registrar) {
           : (r ? r.itens.filter(i => i.marcado).length + ' de ' + r.itens.length + ' marcados' : null),
         selo: r && r.concluido ? { texto: 'feito ' + pct + '%', cor: '#388E3C' }
           : r ? { texto: 'em andamento', cor: '#F57C00' } : { texto: 'hoje', cor: '#757575' },
+        botoes: [
+          { texto: 'Preencher', onclick: () => execChecklist(c) },
+          a.configura(c.setor) ? { texto: 'Editar', sec: true, onclick: () => editorChecklist(c) } : null
+        ],
         onclick: () => execChecklist(c)
       });
     });
@@ -197,9 +202,86 @@ function checklists(registrar) {
     return h('div', {}, [
       cabecalho({ titulo: '✅ Checklists',
         sub: abertos + ' de ' + modelos.length + ' em aberto hoje', voltar }),
-      h('main', {}, cartoes.length ? cartoes : [vazio('Nenhum checklist para o seu setor.')])
+      h('main', {}, cartoes.length ? cartoes : [vazio('Nenhum checklist para o seu setor.')]),
+      a.configura(null) ? h('button', { class: 'fab', onclick: () => editorChecklist(null) },
+        'Novo checklist') : null
     ]);
   });
+}
+
+/** Onde o dono (ou o lider, no setor dele) monta a lista que a equipe vai marcar. */
+function editorChecklist(existente) {
+  const a = D.Acesso;
+  const c = existente || Dados.novo({
+    nome: 'Checklist diario', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
+    diario: true, ativo: true, itens: []
+  });
+  let itens = c.itens.map(i => ({ ...i }));
+
+  const nome = campo('Nome do checklist', c.nome);
+  const setorSel = lista('Setor do mercado', opcoesSetor(), c.setor);
+  const diario = marcador('Cobrar todo dia', c.diario);
+  const caixa = h('div', {});
+
+  function desenharItens() {
+    caixa.replaceChildren(...itens.map((item, i) => {
+      const inp = h('input', { value: item.texto, placeholder: 'Descreva a tarefa' });
+      inp.addEventListener('input', () => { itens[i].texto = inp.value; });
+      return h('div', { class: 'linha', estilo: { gap: '8px', marginTop: '6px' } }, [
+        h('span', { estilo: { color: '#6B7A6B', fontSize: '13px', width: '18px' } }, (i + 1) + ''),
+        inp,
+        h('span', {
+          estilo: { color: '#D32F2F', fontSize: '20px', padding: '0 6px', cursor: 'pointer' },
+          onclick: () => { itens.splice(i, 1); desenharItens(); }
+        }, '✕')
+      ]);
+    }));
+    if (!itens.length) caixa.append(h('div', { class: 'sub' }, 'Nenhum item ainda.'));
+  }
+  desenharItens();
+
+  function salvar() {
+    const limpos = itens.filter(i => (i.texto || '').trim());
+    if (!limpos.length) return toast('Coloque pelo menos um item.');
+    Object.assign(c, {
+      nome: nome.input.value.trim() || 'Checklist diario',
+      setor: a.dono() ? setorSel.input.value : a.meuSetor(),
+      diario: diario.input.checked,
+      itens: limpos.map(i => ({ id: i.id || crypto.randomUUID(), texto: i.texto.trim(), exigeObservacao: false }))
+    });
+    Dados.gravar('checklists', c, a.nome());
+    toast('Checklist salvo.');
+    ir('checklists');
+    render();
+  }
+
+  document.getElementById('app').replaceChildren(h('div', {}, [
+    cabecalho({ titulo: existente ? '✅ Editar checklist' : '✅ Novo checklist',
+      sub: 'O funcionario vai ver exatamente estes itens',
+      voltar: () => { ir('checklists'); render(); } }),
+    h('main', {}, [
+      nome.el, setorSel.el, diario.el,
+      h('div', { class: 'rotulo-secao' }, 'Itens do checklist'),
+      caixa,
+      h('div', { class: 'aviso-instalar', onclick: () => { itens.push({ texto: '' }); desenharItens(); } },
+        '+  Adicionar item'),
+      h('div', {
+        class: 'aviso-instalar',
+        onclick: () => confirmar('Usar a lista sugerida',
+          'Isso troca os itens atuais pela lista que o app sugere para o setor. Continuar?',
+          () => {
+            const setor = a.dono() ? setorSel.input.value : a.meuSetor();
+            itens = (SUGESTOES[setor] || []).map(t => ({ texto: t }));
+            desenharItens();
+          })
+      }, '↺  Usar a lista sugerida para o setor')
+    ]),
+    barra([
+      { texto: 'Salvar', onclick: salvar },
+      existente ? { texto: 'Excluir', classe: 'vermelho', onclick: () => confirmar('Excluir checklist',
+        'Remover este checklist?', () => { Dados.excluir('checklists', c, a.nome()); ir('checklists'); render(); }) } : null
+    ])
+  ]));
 }
 
 const temObs = r => (r.observacaoGeral || '').trim() || r.itens.some(i => (i.observacao || '').trim());

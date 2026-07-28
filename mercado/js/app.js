@@ -47,7 +47,61 @@ window.addEventListener('hashchange', render);
 
 function telaLogin() {
   const temDono = Dados.d.usuarios.some(u => !u.excluido && u.ativo && u.perfil === D.PERFIL.DONO);
-  return temDono ? telaEntrar() : telaCriarLoja();
+  if (temDono) return telaEntrar();
+  // Sem cadastro NESTE aparelho: pode ser loja nova ou aparelho novo de uma
+  // loja que ja existe. O iPhone trata Safari e app instalado como aparelhos
+  // diferentes, entao esta escolha precisa existir sempre.
+  return telaPrimeiroAcesso();
+}
+
+function telaPrimeiroAcesso() {
+  const url = campo('Endereco da loja', Prefs.get('url'));
+  const loja = campo('Codigo da loja', Prefs.get('loja'));
+  const pin = campo('Senha da loja', Prefs.get('pin'), { type: 'password' });
+  const recado = aviso('', '#0277BD');
+  recado.style.display = 'none';
+
+  async function conectar() {
+    if (!url.input.value.trim() || !loja.input.value.trim()) {
+      recado.style.display = 'block';
+      recado.textContent = 'Preencha o endereco e o codigo da loja (peca ao dono).';
+      return;
+    }
+    Prefs.set('url', url.input.value.trim());
+    Prefs.set('loja', loja.input.value.trim());
+    Prefs.set('pin', pin.input.value.trim());
+    recado.style.display = 'block';
+    recado.textContent = 'Conectando na loja...';
+    const r = await Sync.executar();
+    Dados.carregar();
+    if (Dados.d.usuarios.some(u => !u.excluido && u.ativo)) {
+      toast('Loja encontrada. Entre com seu usuario.');
+      render();
+    } else {
+      recado.textContent = r.ok
+        ? 'Conectou, mas esta loja ainda nao tem ninguem cadastrado. Confira o codigo com o dono.'
+        : r.msg;
+    }
+  }
+
+  return h('div', {}, [
+    cabecalho({ titulo: '🛒 Mercado Gestor', sub: 'Primeiro acesso neste aparelho' }),
+    h('main', {}, [
+      h('div', { class: 'rotulo-secao' }, 'Ja existe uma loja criada?'),
+      h('div', { class: 'sub' }, 'Se o dono ja criou a loja em outro celular, conecte este '
+        + 'aparelho nela e entre com o seu usuario. Peca a ele o endereco, o codigo e a senha '
+        + 'da loja — ele encontra tudo em Ajustes.'),
+      url.el, loja.el, pin.el, recado,
+      h('div', { class: 'aviso-instalar', onclick: conectar },
+        '🔌  Conectar nesta loja e entrar'),
+
+      h('div', { class: 'rotulo-secao' }, 'Ou comece uma loja nova'),
+      h('div', { class: 'sub' }, 'A primeira conta criada e a de DONO: ela enxerga a loja '
+        + 'inteira e cadastra o restante da equipe.'),
+      h('div', { class: 'aviso-instalar', onclick: () => { app.replaceChildren(telaCriarLoja()); } },
+        '🛒  Criar uma loja nova')
+    ])
+  ]);
 }
 
 function telaCriarLoja() {
@@ -90,7 +144,8 @@ function telaCriarLoja() {
   }
 
   return h('div', {}, [
-    cabecalho({ titulo: '🛒 Criar a conta da loja', sub: 'A primeira conta e a do dono' }),
+    cabecalho({ titulo: '🛒 Criar a conta da loja', sub: 'A primeira conta e a do dono',
+      voltar: () => app.replaceChildren(telaPrimeiroAcesso()) }),
     h('main', {}, [
       aviso('Ninguem cadastrado ainda. A conta que voce criar agora sera a de DONO: '
         + 'ela enxerga a loja inteira e cadastra o restante da equipe (lideres de setor '
@@ -287,15 +342,25 @@ function textoConexao() {
     + (seg > 60 ? ' (ultimo aviso ha ' + Math.floor(seg / 60) + ' min)' : '');
 }
 
-/** No iPhone o app so vira icone pelo menu Compartilhar do Safari. */
+/**
+ * No iPhone o app so vira icone pelo menu Compartilhar do Safari — e, detalhe
+ * importante, o icone instalado tem armazenamento SEPARADO do Safari. Por isso
+ * o aviso deixa claro que a conta precisa ser criada dentro do app instalado
+ * (ou que a loja precisa estar conectada para o cadastro atravessar).
+ */
 function instalarDica() {
   if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) return null;
   const iOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
-  return h('div', { class: 'aviso-instalar' }, iOS
-    ? '📲 Para virar aplicativo no iPhone: toque em Compartilhar (o quadrado com a seta) '
-      + 'e depois em "Adicionar a Tela de Inicio".'
-    : '📲 Para virar aplicativo: menu do navegador → "Instalar aplicativo" / '
+  if (!iOS) {
+    return h('div', { class: 'aviso-instalar' },
+      '📲 Para virar aplicativo: menu do navegador → "Instalar aplicativo" / '
       + '"Adicionar a tela inicial".');
+  }
+  return h('div', { class: 'aviso-instalar', estilo: { borderLeft: '4px solid #F57C00' } },
+    '📲 Voce esta no Safari. Para virar aplicativo: Compartilhar → "Adicionar a Tela de Inicio".\n\n'
+    + '⚠ Atencao: no iPhone o icone instalado guarda os dados separado do Safari. '
+    + 'Depois de instalar, abra pelo icone e conecte na loja (ou crie a conta por la) — '
+    + 'senao vai parecer que o cadastro sumiu.');
 }
 
 // ------------------------------------------------------------------- ajustes

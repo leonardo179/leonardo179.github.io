@@ -4,7 +4,7 @@
  */
 import { Dados, uuid } from './dados.js';
 
-const CHECKLISTS = {
+export const CHECKLISTS = {
   HORTIFRUTI: ['Retirar frutas, legumes e verduras improprios para venda',
     'Borrifar agua nas folhosas', 'Conferir temperatura da camara fria (8 a 10 C)',
     'Repor gondola e virar produto mais antigo para frente (PVPS)',
