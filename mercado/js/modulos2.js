@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281818';
-import * as D from './dominio.js?v=202607281818';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281818';
+import { Dados, Prefs } from './dados.js?v=202607281839';
+import * as D from './dominio.js?v=202607281839';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281839';
 
 let ir, voltar, render;
 
@@ -590,6 +590,7 @@ const SITUACOES_RUPTURA = {
 };
 
 function ruptura(registrar) {
+  telaMarcarRuptura(registrar);
   registrar('ruptura', () => {
     const a = D.Acesso;
     const itens = Dados.ativos('rupturas')
@@ -629,16 +630,17 @@ function ruptura(registrar) {
         sub: abertas + ' em aberto  •  ' + itens.length + ' no total', voltar }),
       h('main', {}, cartoes.length ? cartoes
         : [vazio('Nenhuma falta registrada.\nViu buraco na gondola? Avise aqui.')]),
-      h('button', { class: 'fab', onclick: registrarRuptura }, 'Avisar falta')
+      h('button', { class: 'fab', onclick: () => ir('ruptura-marcar') }, 'Marcar faltas')
     ]);
   });
 }
 
+/** Onde o produto esta, sem dizer a ninguem o que fazer. */
 function orientacaoRuptura(r) {
-  if (r.situacao === 'NO_DEPOSITO') return '📦 Tem no estoque: ' + r.ondeTem + '. Buscar e repor agora.';
-  if (r.situacao === 'COMPRAR') return '🛒 Nao ha estoque no deposito. Pedir urgente ao fornecedor.';
+  if (r.situacao === 'NO_DEPOSITO') return 'Tem no estoque: ' + r.ondeTem + '.';
+  if (r.situacao === 'COMPRAR') return 'Sem estoque no deposito.';
   if (r.situacao === 'RESOLVIDA') return 'Gondola reposta.';
-  return 'Conferir o deposito e repor.';
+  return 'Estoque ainda nao conferido.';
 }
 
 function cruzar(r) {
@@ -647,26 +649,115 @@ function cruzar(r) {
   r.situacao = onde ? 'NO_DEPOSITO' : 'COMPRAR';
 }
 
-function registrarRuptura() {
-  const a = D.Acesso;
-  const produto = prompt('Qual produto faltou na gondola?');
-  if (produto === null || !produto.trim()) return;
-  const setores = D.setoresAtivos();
-  const opcoes = setores.map((s, i) => (i + 1) + ' = ' + s.nome).join('\n');
-  const escolha = prompt('Setor:\n' + opcoes, '1');
-  const idx = parseInt(escolha) - 1;
-  const setorEscolhido = setores[idx] ? setores[idx].chave : a.meuSetor();
-  const obs = prompt('Observacao (opcional):') || '';
+/**
+ * Marcar falta e coisa de corredor: a pessoa ve o buraco na gondola e marca.
+ * Uma tela so, lista do que a loja conhece, e o aviso vai para o lider e o dono.
+ */
+function telaMarcarRuptura(registrar) {
+  registrar('ruptura-marcar', () => {
+    const a = D.Acesso;
+    const itens = itensConhecidos().filter(i => a.veSetor(i.setor));
+    const marcados = new Set();
+    let filtro = '';
 
-  const r = Dados.novo({
-    codigo: '', produto: produto.trim(), setor: setorEscolhido, data: D.hoje(),
-    hora: D.agora(), funcionario: a.nome(), situacao: 'ABERTA', ondeTem: '',
-    observacao: obs.trim(), avisouGestor: false
+    const corpo = h('main', {});
+    const rodapeTexto = h('div', { class: 'contador' });
+    const btSalvar = h('button', { class: 'principal', onclick: () => gravar() }, 'Registrar faltas');
+
+    function atualizarRodape() {
+      rodapeTexto.textContent = marcados.size
+        ? marcados.size + ' produto(s) em falta marcados'
+        : 'Marque tudo que estiver faltando na gondola.';
+      btSalvar.disabled = !marcados.size;
+    }
+
+    function linha(item) {
+      const caixa = h('input', { type: 'checkbox' });
+      caixa.checked = marcados.has(item.nome);
+      const alternar = () => {
+        if (marcados.has(item.nome)) marcados.delete(item.nome); else marcados.add(item.nome);
+        caixa.checked = marcados.has(item.nome);
+        atualizarRodape();
+      };
+      caixa.onclick = ev => { ev.stopPropagation(); alternar(); };
+      return h('div', { class: 'linha-marcar', onclick: alternar }, [
+        caixa,
+        h('div', { class: 'texto' }, [
+          h('b', { texto: item.nome }),
+          h('small', { texto: D.setor(item.setor).icone + ' ' + D.setor(item.setor).nome })
+        ])
+      ]);
+    }
+
+    function desenhar() {
+      const f = filtro.trim().toLowerCase();
+      const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
+      if (visiveis.length) return corpo.replaceChildren(...visiveis.map(linha));
+      const filhos = [vazio(f ? 'Nao achei "' + filtro + '".'
+        : 'Nenhum produto cadastrado ainda. Digite o nome acima para criar.')];
+      if (f) {
+        filhos.push(h('button', { class: 'principal', onclick: () => {
+          const nome = filtro.trim();
+          itens.push({ nome, setor: a.meuSetor(), preco: 0, codigo: '' });
+          itens.sort((x, y) => x.nome.localeCompare(y.nome));
+          marcados.add(nome);
+          filtro = '';
+          busca.input.value = '';
+          desenhar();
+          atualizarRodape();
+        } }, '+ Marcar "' + filtro.trim() + '" assim mesmo'));
+      }
+      corpo.replaceChildren(...filhos);
+    }
+
+    function gravar() {
+      const nomes = [...marcados];
+      nomes.forEach(nome => {
+        const item = itens.find(i => i.nome === nome) || { setor: a.meuSetor() };
+        const r = Dados.novo({
+          codigo: item.codigo || '', produto: nome, setor: item.setor, data: D.hoje(),
+          hora: D.agora(), funcionario: a.nome(), situacao: 'ABERTA', ondeTem: '',
+          observacao: '', avisouGestor: false
+        });
+        cruzar(r);
+        Dados.gravar('rupturas', r, a.nome());
+        avisarFalta(r);
+      });
+      toast(nomes.length + ' falta(s) registradas. Lider e dono avisados.');
+      voltar();
+    }
+
+    const busca = campo('', '', { placeholder: 'Procurar produto...' });
+    busca.input.oninput = () => { filtro = busca.input.value; desenhar(); };
+
+    desenhar();
+    atualizarRodape();
+
+    return h('div', {}, [
+      cabecalho({ titulo: '\ud83d\udd73 Marcar faltas',
+        sub: 'Marque o que esta faltando na gondola', voltar }),
+      h('div', { class: 'topo-marcar' }, [busca.el]),
+      corpo,
+      h('div', { class: 'rodape-marcar' }, [rodapeTexto, btSalvar])
+    ]);
   });
-  cruzar(r);
-  Dados.gravar('rupturas', r, a.nome());
-  alert(orientacaoRuptura(r));
-  render();
+}
+
+/**
+ * Falta na gondola e recado de chefe. Nao existe lista separada de avisos: a
+ * propria falta em aberto ja aparece para o lider do setor e para o dono, no
+ * contador do painel e na lista. O Android ainda transforma isso em notificacao.
+ */
+function avisarFalta(r) {
+  r.avisouGestor = true;
+  Dados.gravar('rupturas', r, r.funcionario);
+}
+
+/** Quantas faltas estao em aberto para quem esta olhando o painel. */
+export function contarFaltas() {
+  const a = D.Acesso;
+  return Dados.ativos('rupturas')
+    .filter(r => r.situacao !== 'RESOLVIDA' && a.veSetor(r.setor)).length;
 }
 
 // ------------------------------------------------------ desistencias no caixa
@@ -692,6 +783,7 @@ function minutosParados(d) {
 }
 
 function desistencias(registrar) {
+  telaMarcarDesistencia(registrar);
   registrar('desistencias', () => {
     const a = D.Acesso;
     const itens = Dados.ativos('desistencias')
@@ -704,25 +796,28 @@ function desistencias(registrar) {
       const cor = d.recolhido ? '#388E3C' : (atrasado ? '#D32F2F' : (perecivel ? '#F57C00' : '#757575'));
       const motivo = MOTIVOS_DESISTENCIA.find(m => m.valor === d.motivo) || MOTIVOS_DESISTENCIA[0];
 
+      // Texto seco de status: onde o item esta. Sem recomendar nada a ninguem.
       let alerta;
       if (d.recolhido) alerta = 'Item ja recolhido por ' + d.recolhidoPor + ' as ' + d.recolhidoAs + '.';
-      else if (perecivel) alerta = '🧊 ' + d.produto + ' deixado no caixa. Recolher em ate '
-        + prazoRecolher(d.setor) + ' min ou vira quebra.';
-      else alerta = 'Recolher ' + d.produto + ' no caixa e devolver a gondola.';
+      else if (perecivel) alerta = '\ud83e\uddca ' + d.produto + ' parado no caixa ha '
+        + minutosParados(d) + ' min (prazo de ' + prazoRecolher(d.setor) + ' min).';
+      else alerta = d.produto + ' parado no caixa ha ' + minutosParados(d) + ' min.';
 
       const divergencia = (d.precoCaixa || 0) - (d.precoEtiqueta || 0);
-      const recadoGestor = d.motivo === 'PRECO_DIVERGENTE' && divergencia
-        ? 'Etiqueta ' + D.moeda(d.precoEtiqueta) + ' x caixa ' + D.moeda(d.precoCaixa)
-          + ' (diferenca de ' + D.moeda(Math.abs(divergencia)) + '). Corrigir a etiqueta hoje.'
-        : (motivo.preco ? 'Desistencia por preco. Vale comparar com o concorrente.' : '');
+      const recadoGestor = divergencia
+        ? 'Etiqueta ' + D.moeda(d.precoEtiqueta) + '  \u2022  caixa ' + D.moeda(d.precoCaixa)
+          + '  \u2022  diferenca de ' + D.moeda(Math.abs(divergencia))
+        : '';
 
       return cartao({
         cor,
         icone: D.setor(d.setor).icone,
         titulo: d.produto || 'Item sem nome',
-        sub: D.dataCurta(d.data) + ' ' + d.hora + '  •  ' + motivo.texto
+        sub: D.dataCurta(d.data) + ' ' + d.hora
+          + ((d.quantidade || 1) > 1 ? '  \u2022  ' + d.quantidade + 'x' : '')
+          + '  \u2022  ' + motivo.texto
           + (d.operador ? '  •  ' + d.operador : ''),
-        extra: recadoGestor ? '💰 ' + recadoGestor : null,
+        extra: recadoGestor || null,
         selo: d.recolhido ? { texto: 'recolhido', cor: '#388E3C' }
           : atrasado ? { texto: 'URGENTE ' + minutosParados(d) + ' min', cor: '#D32F2F' }
             : perecivel ? { texto: 'recolher em ' + prazoRecolher(d.setor) + ' min', cor: '#F57C00' }
@@ -746,37 +841,154 @@ function desistencias(registrar) {
         sub: aguardando + ' item(ns) para recolher', voltar,
         acao: a.veTrabalhoDosOutros() ? { texto: '📊', onclick: () => resumoDesistencias(itens) } : null }),
       h('main', {}, cartoes.length ? cartoes : [vazio('Nenhuma desistencia registrada.')]),
-      h('button', { class: 'fab', onclick: registrarDesistencia }, 'Cliente desistiu')
+      h('button', { class: 'fab', onclick: () => ir('desistencia-marcar') }, 'Marcar desistencias')
     ]);
   });
 }
 
-function registrarDesistencia() {
-  const a = D.Acesso;
-  const produto = prompt('Produto que o cliente deixou:');
-  if (produto === null || !produto.trim()) return;
-  const setores = D.setoresAtivos();
-  const escolha = prompt('Setor:\n' + setores.map((s, i) => (i + 1) + ' = ' + s.nome).join('\n'), '1');
-  const setorEscolhido = setores[parseInt(escolha) - 1]
-    ? setores[parseInt(escolha) - 1].chave : a.meuSetor();
-  const m = prompt('Motivo:\n'
-    + MOTIVOS_DESISTENCIA.map((x, i) => (i + 1) + ' = ' + x.texto).join('\n'), '1');
-  const motivo = MOTIVOS_DESISTENCIA[parseInt(m) - 1] || MOTIVOS_DESISTENCIA[0];
-  const etiqueta = prompt('Preco da etiqueta (opcional):', '');
-  const caixa = prompt('Preco que apareceu no caixa (opcional):', '');
+/**
+ * Marcar desistencia sem digitar: a lista ja vem com o que a loja conhece e a
+ * pessoa so toca no quadradinho. Tudo numa tela so - motivo em cima, salvar embaixo.
+ */
+function telaMarcarDesistencia(registrar) {
+  registrar('desistencia-marcar', () => {
+    const a = D.Acesso;
+    const itens = itensConhecidos();
+    const marcados = new Map();   // nome -> quantidade
+    let filtro = '';
+    let motivoEscolhido = MOTIVOS_DESISTENCIA[0].valor;
 
-  const d = Dados.novo({
-    codigo: '', produto: produto.trim(), setor: setorEscolhido, data: D.hoje(),
-    hora: D.agora(), operador: a.nome(), motivo: motivo.valor,
-    precoEtiqueta: D.lerNumero(etiqueta), precoCaixa: D.lerNumero(caixa),
-    quantidade: 1, observacao: '', recolhido: false, recolhidoPor: '', recolhidoAs: '',
-    avisouRecolher: false, avisouAtraso: false
+    const corpo = h('main', {});
+    const rodapeTexto = h('div', { class: 'contador' });
+    const btSalvar = h('button', { class: 'principal', onclick: () => gravar() }, 'Registrar desistencias');
+
+    function atualizarRodape() {
+      const produtos = marcados.size;
+      const unidades = [...marcados.values()].reduce((t, n) => t + n, 0);
+      rodapeTexto.textContent = produtos
+        ? produtos + ' produto(s)  \u2022  ' + unidades + ' unidade(s) marcadas'
+        : 'Nenhum item marcado. Toque no numero para somar mais de um.';
+      btSalvar.disabled = !produtos;
+    }
+
+    function linha(item) {
+      const marcado = marcados.has(item.nome);
+      const caixa = h('input', { type: 'checkbox' });
+      caixa.checked = marcado;
+
+      const qtd = h('span', { class: 'qtd' }, marcado ? marcados.get(item.nome) + 'x' : '');
+      qtd.onclick = ev => {
+        ev.stopPropagation();
+        const atual = marcados.get(item.nome) || 0;
+        marcados.set(item.nome, atual >= 9 ? 1 : atual + 1);
+        caixa.checked = true;
+        qtd.textContent = marcados.get(item.nome) + 'x';
+        atualizarRodape();
+      };
+
+      const alternar = () => {
+        if (marcados.has(item.nome)) { marcados.delete(item.nome); caixa.checked = false; qtd.textContent = ''; }
+        else { marcados.set(item.nome, 1); caixa.checked = true; qtd.textContent = '1x'; }
+        atualizarRodape();
+      };
+      caixa.onclick = ev => { ev.stopPropagation(); alternar(); };
+
+      return h('div', { class: 'linha-marcar', onclick: alternar }, [
+        caixa,
+        h('div', { class: 'texto' }, [
+          h('b', { texto: item.nome }),
+          h('small', { texto: D.setor(item.setor).icone + ' ' + D.setor(item.setor).nome
+            + (item.preco > 0 ? '  \u2022  ' + D.moeda(item.preco) : '') })
+        ]),
+        qtd
+      ]);
+    }
+
+    function desenhar() {
+      const f = filtro.trim().toLowerCase();
+      const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
+      if (visiveis.length) {
+        corpo.replaceChildren(...visiveis.map(linha));
+        return;
+      }
+      const filhos = [vazio(f ? 'Nao achei "' + filtro + '".'
+        : 'Nenhum produto cadastrado ainda. Digite o nome acima para criar.')];
+      if (f) {
+        filhos.push(h('button', {
+          class: 'principal',
+          onclick: () => {
+            const nome = filtro.trim();
+            itens.push({ nome, setor: a.meuSetor(), preco: 0, codigo: '' });
+            itens.sort((x, y) => x.nome.localeCompare(y.nome));
+            marcados.set(nome, 1);
+            filtro = '';
+            busca.input.value = '';
+            desenhar();
+            atualizarRodape();
+          }
+        }, '+ Marcar "' + filtro.trim() + '" assim mesmo'));
+      }
+      corpo.replaceChildren(...filhos);
+    }
+
+    function gravar() {
+      const nomes = [...marcados.keys()];
+      nomes.forEach(nome => {
+        const item = itens.find(i => i.nome === nome) || { setor: a.meuSetor(), preco: 0, codigo: '' };
+        Dados.gravar('desistencias', Dados.novo({
+          codigo: item.codigo || '', produto: nome, setor: item.setor, data: D.hoje(),
+          hora: D.agora(), operador: a.nome(), motivo: motivoEscolhido,
+          precoEtiqueta: item.preco || 0, precoCaixa: 0, quantidade: marcados.get(nome),
+          observacao: '', recolhido: false, recolhidoPor: '', recolhidoAs: '',
+          avisouRecolher: false, avisouAtraso: false
+        }), a.nome());
+      });
+      toast(nomes.length + ' desistencia(s) registradas.');
+      voltar();
+    }
+
+    const escolha = lista('Por que deixou (vale para os marcados)',
+      MOTIVOS_DESISTENCIA.map(m => ({ valor: m.valor, texto: m.texto })), motivoEscolhido);
+    escolha.input.onchange = () => { motivoEscolhido = escolha.input.value; };
+
+    const busca = campo('', '', { placeholder: 'Procurar produto...' });
+    busca.input.oninput = () => { filtro = busca.input.value; desenhar(); };
+
+    desenhar();
+    atualizarRodape();
+
+    return h('div', {}, [
+      cabecalho({ titulo: '\ud83d\uded2 Marcar desistencia',
+        sub: 'So marcar o que o cliente deixou. Nao precisa digitar nada.', voltar }),
+      h('div', { class: 'topo-marcar' }, [escolha.el, busca.el]),
+      corpo,
+      h('div', { class: 'rodape-marcar' }, [rodapeTexto, btSalvar])
+    ]);
   });
-  Dados.gravar('desistencias', d, a.nome());
-  alert(PERECIVEIS.includes(setorEscolhido)
-    ? '🧊 Produto refrigerado: recolher em ate ' + prazoRecolher(setorEscolhido) + ' min ou vira quebra.'
-    : 'Registrado. Recolher e devolver a gondola.');
-  render();
+}
+
+/**
+ * O que a loja ja conhece: catalogo de codigo de barras, produtos de validade e
+ * o que ja apareceu em desistencia antes. E dai que sai a lista de marcar.
+ */
+function itensConhecidos() {
+  const mapa = new Map();
+  const por = nome => (nome || '').trim().toLowerCase();
+
+  Dados.ativos('catalogo').forEach(c => {
+    if (!c.nome || !c.nome.trim()) return;
+    mapa.set(por(c.nome), { nome: c.nome, setor: c.setor, preco: c.preco || 0, codigo: c.codigo || '' });
+  });
+  Dados.ativos('produtos').forEach(x => {
+    if (!x.nome || !x.nome.trim() || mapa.has(por(x.nome))) return;
+    mapa.set(por(x.nome), { nome: x.nome, setor: x.setor, preco: 0, codigo: '' });
+  });
+  Dados.ativos('desistencias').forEach(d => {
+    if (!d.produto || !d.produto.trim() || mapa.has(por(d.produto))) return;
+    mapa.set(por(d.produto), { nome: d.produto, setor: d.setor, preco: d.precoEtiqueta || 0, codigo: d.codigo || '' });
+  });
+
+  return [...mapa.values()].sort((x, y) => x.nome.localeCompare(y.nome));
 }
 
 function resumoDesistencias(itens) {
@@ -798,67 +1010,78 @@ function resumoDesistencias(itens) {
 // -------------------------------------------------------------------- escala
 
 function escala(registrar) {
+  telaPessoa(registrar);
+  telaAjusteDoDia(registrar);
+  telaDomingos(registrar);
+
   registrar('escala', params => {
     const a = D.Acesso;
     const aba = params.aba || 'mes';
+    sincronizarEquipe();
+
+    const mes = params.mes ? new Date(params.mes + '-01T00:00:00') : new Date();
+    const ano = mes.getFullYear(), m = mes.getMonth();
+    const chaveMes = ano + '-' + String(m + 1).padStart(2, '0');
 
     const troca = h('div', { estilo: { display: 'flex', gap: '6px', margin: '4px 0 10px' } }, [
-      abaBotao('Mes', aba === 'mes', () => { ir('escala', { aba: 'mes' }); render(); }),
-      abaBotao('Equipe', aba === 'equipe', () => { ir('escala', { aba: 'equipe' }); render(); }),
-      abaBotao('Datas', aba === 'datas', () => { ir('escala', { aba: 'datas' }); render(); })
+      abaBotao('Mes', aba === 'mes', () => ir('escala', { aba: 'mes', mes: chaveMes })),
+      abaBotao('Equipe', aba === 'equipe', () => ir('escala', { aba: 'equipe', mes: chaveMes })),
+      abaBotao('Domingos', aba === 'domingos', () => ir('escala', { aba: 'domingos', mes: chaveMes })),
+      abaBotao('Datas', aba === 'datas', () => ir('escala', { aba: 'datas', mes: chaveMes }))
     ]);
 
     let corpo = [], fab = null, sub = '';
 
     if (aba === 'equipe') {
-      const pessoas = Dados.ativos('funcionarios').filter(f => f.ativo !== false)
-        .filter(f => a.veSetor(f.setor))
-        .sort((x, y) => x.nome.localeCompare(y.nome));
+      const pessoas = equipe().filter(f => a.veSetor(f.setor));
       corpo = pessoas.length ? pessoas.map(f => {
-        const padrao = Dados.ativos('padroes').find(p => p.funcionarioId === f.id && p.ativo !== false);
+        const padrao = padraoDe(f.id);
+        const dom = domingoEscolhido(f.id, ano, m);
         return cartao({
-          cor: D.setor(f.setor).cor, icone: '👤', titulo: f.nome,
-          sub: (f.cargo || 'Sem cargo') + '  •  ' + D.setor(f.setor).nome,
-          extra: padrao ? resumoPadrao(padrao) : 'Sem escala padrao: os dias dele ficam vazios.',
+          cor: D.setor(f.setor).cor, icone: '\ud83d\udc64', titulo: f.nome,
+          sub: (f.cargo || 'Sem cargo') + '  \u2022  ' + D.setor(f.setor).nome
+            + (f.usuarioId ? '  \u2022  tem login' : ''),
+          extra: (padrao ? resumoPadrao(padrao) : 'Sem escala padrao: os dias dele ficam vazios.')
+            + '\nDomingo do mes: ' + (dom ? D.data(dom.data) : 'nenhum'),
           selo: padrao ? { texto: D.numero(horasSemana(padrao)) + 'h/sem', cor: D.setor(f.setor).cor }
             : { texto: 'sem padrao', cor: '#D32F2F' },
           botoes: a.configura(f.setor) ? [
             { texto: padrao ? 'Editar escala padrao' : 'Definir escala padrao',
               onclick: () => formPadrao(f, padrao) },
-            { texto: 'Editar pessoa', sec: true, onclick: () => dialogoFuncionario(f) }
+            { texto: 'Editar pessoa', sec: true, onclick: () => ir('escala-pessoa', { id: f.id }) }
           ] : null
         });
-      }) : [vazio('Cadastre a equipe para montar a escala.')];
+      }) : [vazio('Cadastre usuarios em Ajustes > Usuarios: eles entram aqui sozinhos.')];
       sub = pessoas.length + ' pessoa(s) na equipe';
-      fab = { texto: 'Novo funcionario', onclick: () => dialogoFuncionario(null) };
+      if (a.configura(null)) fab = { texto: 'Nova pessoa', onclick: () => ir('escala-pessoa', {}) };
+
+    } else if (aba === 'domingos') {
+      return telaResumoDomingos(ano, m, chaveMes, troca);
 
     } else if (aba === 'datas') {
       const datas = feriadosProximos(90);
       corpo = datas.map(d => cartao({
         cor: d.dias <= 7 ? '#F57C00' : '#6A1B9A',
-        icone: d.tipo === 'COMERCIAL' ? '🛍' : '🎉',
+        icone: d.tipo === 'COMERCIAL' ? '\ud83d\udecd' : '\ud83c\udf89',
         titulo: d.nome,
-        sub: D.diaSemana(d.data) + ', ' + D.data(d.data) + '  •  '
+        sub: D.diaSemana(d.data) + ', ' + D.data(d.data) + '  \u2022  '
           + (d.tipo === 'COMERCIAL' ? 'data comercial' : 'feriado'),
         selo: { texto: d.dias === 0 ? 'HOJE' : 'em ' + d.dias + 'd',
-          cor: d.dias <= 7 ? '#F57C00' : '#6A1B9A' },
-        destaque: d.dias <= 7
-          ? { texto: '💡 Movimento diferente. Confira quem trabalha e o horario da loja.', cor: '#F57C00' }
-          : null
+          cor: d.dias <= 7 ? '#F57C00' : '#6A1B9A' }
       }));
       sub = datas.length + ' data(s) nos proximos 90 dias';
 
     } else {
-      const mes = params.mes ? new Date(params.mes + '-01T00:00:00') : new Date();
-      const ano = mes.getFullYear(), m = mes.getMonth();
       const dias = new Date(ano, m + 1, 0).getDate();
       const especiais = {};
       feriadosProximos(400).forEach(f => especiais[f.data] = f);
 
       let horas = 0;
-      corpo = [];
+      corpo = [navegarMes(ano, m)];
       for (let dia = 1; dia <= dias; dia++) {
-        const iso = `${ano}-${String(m + 1).padStart(2, '0')}-${String(dia).padStart(2, '0')}`;
+        const iso = ano + '-' + String(m + 1).padStart(2, '0') + '-' + String(dia).padStart(2, '0');
+        // Dia que ja passou nao se escala mais: a lista comeca em hoje.
+        if (iso < D.hoje()) continue;
         const turnos = escalaDoDia(iso).filter(t => a.veSetor(t.setor));
         turnos.forEach(t => horas += horasTurno(t));
         const feriado = especiais[iso];
@@ -866,29 +1089,325 @@ function escala(registrar) {
         const trabalhando = turnos.filter(t => !t.folga);
         corpo.push(cartao({
           cor: feriado ? '#F57C00' : (hoje ? '#2E7D32' : '#90A4AE'),
-          icone: feriado ? '🎉' : (hoje ? '📍' : '🗓'),
+          icone: feriado ? '\ud83c\udf89' : (hoje ? '\ud83d\udccd' : '\ud83d\uddd3'),
           titulo: dia + ' - ' + D.diaSemana(iso) + (hoje ? '  (hoje)' : ''),
           sub: trabalhando.length ? trabalhando.length + ' pessoa(s) escalada(s)' : 'Ninguem escalado',
-          extra: trabalhando.map(t => '• ' + t.funcionarioNome + '  ' + t.inicio + ' as ' + t.fim
+          extra: trabalhando.map(t => '\u2022 ' + t.funcionarioNome + '  ' + t.inicio + ' as ' + t.fim
             + (t.doPadrao ? '' : '  (ajustado)')).join('\n'),
           selo: feriado ? { texto: feriado.nome, cor: '#F57C00' }
             : (hoje ? { texto: 'hoje', cor: '#2E7D32' } : null),
           botoes: a.configura(null) || a.lider()
-            ? [{ texto: 'Ajustar este dia', onclick: () => ajustarDia(iso, turnos) }] : null
+            ? [{ texto: 'Ajustar este dia', onclick: () => ir('escala-dia', { data: iso }) }] : null
         }));
       }
-      const nomes = ['Janeiro', 'Fevereiro', 'Marco', 'Abril', 'Maio', 'Junho', 'Julho',
-        'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
-      sub = nomes[m] + ' de ' + ano + '  •  ' + D.numero(horas) + 'h no mes';
+      if (corpo.length === 1) corpo.push(vazio('Este mes ja passou. Use as setas para ver o proximo.'));
+      sub = NOMES_MES[m] + ' de ' + ano + '  \u2022  ' + D.numero(horas) + 'h daqui pra frente';
     }
 
     return h('div', {}, [
-      cabecalho({ titulo: '👥 Escala e equipe', sub, voltar,
-        acao: a.veTrabalhoDosOutros()
-          ? { texto: '🏆', onclick: () => { ir('desempenho'); render(); } } : null }),
+      cabecalho({ titulo: '\ud83d\udc65 Escala e equipe', sub, voltar,
+        acao: a.veTrabalhoDosOutros() ? { texto: '\ud83c\udfc6', onclick: () => ir('desempenho') } : null }),
       h('main', {}, [troca, ...corpo]),
       fab ? h('button', { class: 'fab', onclick: fab.onclick }, fab.texto) : null
     ]);
+  });
+}
+
+const NOMES_MES = ['Janeiro', 'Fevereiro', 'Marco', 'Abril', 'Maio', 'Junho', 'Julho',
+  'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
+
+/** Setas de mes: a escala nao para em dezembro. */
+function navegarMes(ano, m) {
+  const passo = delta => {
+    const d = new Date(ano, m + delta, 1);
+    ir('escala', { aba: 'mes', mes: d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') });
+  };
+  return h('div', { estilo: { display: 'flex', gap: '6px', alignItems: 'center', marginBottom: '8px' } }, [
+    abaBotao('\u2039 anterior', false, () => passo(-1)),
+    abaBotao('proximo \u203a', false, () => passo(1))
+  ]);
+}
+
+// ------------------------------------------------------------------ equipe
+
+/**
+ * Quem tem login JA e da equipe: nao faz sentido cadastrar a mesma pessoa duas vezes.
+ * Cada usuario ativo ganha (e mantem) a ficha dele na escala, ligada pelo usuarioId.
+ */
+function sincronizarEquipe() {
+  const fichas = Dados.ativos('funcionarios');
+  let mexeu = false;
+
+  Dados.ativos('usuarios').filter(u => u.ativo !== false).forEach(u => {
+    const setor = (u.setores && u.setores[0]) || u.setor || 'MERCEARIA';
+    let f = fichas.find(x => x.usuarioId === u.id)
+      || fichas.find(x => !x.usuarioId && (x.nome || '').trim().toLowerCase() === (u.nome || '').trim().toLowerCase());
+    if (!f) {
+      f = Dados.novo({ usuarioId: u.id, nome: u.nome, cargo: u.cargo || '', setor, telefone: '', ativo: true });
+      Dados.gravar('funcionarios', f, u.nome);
+      mexeu = true;
+      return;
+    }
+    // Trocou de nome, cargo ou setor no cadastro: a escala acompanha.
+    if (f.usuarioId !== u.id || f.nome !== u.nome || f.cargo !== (u.cargo || '') || f.setor !== setor) {
+      f.usuarioId = u.id; f.nome = u.nome; f.cargo = u.cargo || ''; f.setor = setor;
+      Dados.gravar('funcionarios', f, u.nome);
+      mexeu = true;
+    }
+  });
+
+  // Usuario apagado deixa de aparecer na escala, mas o historico dele continua.
+  const vivos = new Set(Dados.ativos('usuarios').filter(u => u.ativo !== false).map(u => u.id));
+  fichas.forEach(f => {
+    if (f.usuarioId && !vivos.has(f.usuarioId) && f.ativo !== false) {
+      f.ativo = false;
+      Dados.gravar('funcionarios', f, D.Acesso.nome());
+      mexeu = true;
+    }
+  });
+  return mexeu;
+}
+
+const equipe = () => Dados.ativos('funcionarios').filter(f => f.ativo !== false)
+  .sort((a, b) => a.nome.localeCompare(b.nome));
+
+const padraoDe = id => Dados.ativos('padroes').find(p => p.funcionarioId === id && p.ativo !== false);
+
+/** Cadastro/edicao de pessoa em tela cheia — nada de sequencia de perguntas. */
+function telaPessoa(registrar) {
+  registrar('escala-pessoa', params => {
+    const a = D.Acesso;
+    const existente = params.id ? Dados.ativos('funcionarios').find(f => f.id === params.id) : null;
+    const f = existente || Dados.novo({
+      usuarioId: '', nome: '', cargo: '', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
+      telefone: '', ativo: true
+    });
+
+    const nome = campo('Nome', f.nome);
+    const cargo = campo('Cargo (repositor, caixa, acougueiro...)', f.cargo || '');
+    const setor = lista('Setor', opcoesSetor(), f.setor);
+    const telefone = campo('Telefone (opcional)', f.telefone || '');
+
+    return h('div', {}, [
+      cabecalho({ titulo: existente ? '\ud83d\udc64 ' + f.nome : '\ud83d\udc64 Nova pessoa',
+        sub: 'Quem tem login ja entra aqui sozinho', voltar }),
+      h('main', {}, [
+        f.usuarioId ? aviso('Esta pessoa tem conta no app. Nome, cargo e setor vem do cadastro '
+          + 'de usuarios e sao atualizados por la.') : null,
+        nome.el, cargo.el, setor.el, telefone.el
+      ].filter(Boolean)),
+      barra([
+        { texto: 'Salvar', onclick: () => {
+          if (!nome.input.value.trim()) return toast('Falta o nome.');
+          Object.assign(f, {
+            nome: nome.input.value.trim(), cargo: cargo.input.value.trim(),
+            setor: setor.input.value, telefone: telefone.input.value.trim()
+          });
+          Dados.gravar('funcionarios', f, a.nome());
+          toast('Equipe atualizada.');
+          voltar();
+        } },
+        existente && !f.usuarioId ? { texto: 'Remover', classe: 'vermelho',
+          onclick: () => confirmar('Remover da equipe', 'Tirar ' + f.nome + ' da escala?', () => {
+            Dados.excluir('funcionarios', f, a.nome());
+            voltar();
+          }) } : null
+      ])
+    ]);
+  });
+}
+
+// ------------------------------------------------------------------ ajuste do dia
+
+/** Ajustar um dia inteiro numa tela so: cada pessoa com folga, entrada e saida. */
+function telaAjusteDoDia(registrar) {
+  registrar('escala-dia', params => {
+    const a = D.Acesso;
+    const iso = params.data || D.hoje();
+    sincronizarEquipe();
+    const pessoas = equipe().filter(f => a.veSetor(f.setor));
+
+    const linhas = pessoas.map(f => {
+      const atual = turnoDoDia(f.id, iso);
+      const folg = marcador('Folga', atual.folga);
+      const ini = campo('', atual.inicio, { type: 'time' });
+      const fim = campo('', atual.fim, { type: 'time' });
+      ini.input.disabled = fim.input.disabled = atual.folga;
+      folg.input.addEventListener('change', () => {
+        ini.input.disabled = fim.input.disabled = folg.input.checked;
+      });
+      return { f, folg, ini, fim, el: h('div', { class: 'linha-dia' }, [
+        h('label', { texto: f.nome + '  \u2022  ' + D.setor(f.setor).nome }),
+        h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'center' } },
+          [ini.el, fim.el, folg.el])
+      ]) };
+    });
+
+    return h('div', {}, [
+      cabecalho({ titulo: '\ud83d\uddd3 ' + D.diaSemana(iso) + ', ' + D.data(iso),
+        sub: 'O que mudar aqui vale so neste dia', voltar }),
+      h('main', {}, linhas.length
+        ? [aviso('Sem mexer em nada, o dia segue a escala padrao de cada um.'), ...linhas.map(l => l.el)]
+        : [vazio('Ninguem na equipe ainda.')]),
+      linhas.length ? barra([
+        { texto: 'Salvar o dia', onclick: () => {
+          linhas.forEach(l => {
+            const gravado = Dados.ativos('turnos').find(t => t.funcionarioId === l.f.id && t.data === iso)
+              || Dados.novo({ funcionarioId: l.f.id, funcionarioNome: l.f.nome, setor: l.f.setor,
+                data: iso, inicio: '08:00', fim: '16:00', folga: false, observacao: '' });
+            Object.assign(gravado, {
+              funcionarioNome: l.f.nome, setor: l.f.setor,
+              folga: l.folg.input.checked, inicio: l.ini.input.value, fim: l.fim.input.value
+            });
+            Dados.gravar('turnos', gravado, a.nome());
+          });
+          toast('Dia ajustado.');
+          voltar();
+        } },
+        { texto: 'Voltar ao padrao', classe: 'vermelho', onclick: () => confirmar('Voltar ao padrao',
+          'Apagar os ajustes deste dia e deixar a escala normal?', () => {
+            Dados.ativos('turnos').filter(t => t.data === iso).forEach(t => Dados.excluir('turnos', t, a.nome()));
+            toast('Dia de volta ao padrao.');
+            voltar();
+          }) }
+      ]) : null
+    ]);
+  });
+}
+
+/** O turno de alguem num dia: o ajuste manual manda; senao vale o padrao. */
+function turnoDoDia(funcionarioId, iso) {
+  const gravado = Dados.ativos('turnos').find(t => t.funcionarioId === funcionarioId && t.data === iso);
+  if (gravado) return gravado;
+  const p = padraoDe(funcionarioId);
+  const i = (new Date(iso + 'T00:00:00').getDay() + 6) % 7;
+  if (!p) return { inicio: '08:00', fim: '16:00', folga: true };
+  return { inicio: p.inicio[i], fim: p.fim[i], folga: p.folga[i] };
+}
+
+// ------------------------------------------------------------------ domingos
+
+const domingosDoMes = (ano, m) => {
+  const r = [];
+  const dias = new Date(ano, m + 1, 0).getDate();
+  for (let dia = 1; dia <= dias; dia++) {
+    const d = new Date(ano, m, dia);
+    if (d.getDay() === 0) {
+      r.push(ano + '-' + String(m + 1).padStart(2, '0') + '-' + String(dia).padStart(2, '0'));
+    }
+  }
+  return r;
+};
+
+/** O domingo que a pessoa pegou no mes: um turno gravado, num domingo, sem folga. */
+function domingoEscolhido(funcionarioId, ano, m) {
+  const dias = domingosDoMes(ano, m);
+  return Dados.ativos('turnos')
+    .find(t => t.funcionarioId === funcionarioId && !t.folga && dias.includes(t.data));
+}
+
+/**
+ * Escala de domingo: cada um pega um domingo do mes. Dois da mesma secao no
+ * mesmo domingo deixa outro domingo descoberto, entao a tela avisa na hora.
+ */
+function telaResumoDomingos(ano, m, chaveMes, troca) {
+  const a = D.Acesso;
+  const dias = domingosDoMes(ano, m);
+  const pessoas = equipe().filter(f => a.veSetor(f.setor));
+  const podeMexer = a.configura(null) || a.lider();
+
+  const escolhas = new Map();
+  pessoas.forEach(f => {
+    const d = domingoEscolhido(f.id, ano, m);
+    escolhas.set(f.id, d ? d.data : '');
+  });
+
+  // Choque = mais de uma pessoa do mesmo setor no mesmo domingo.
+  const choques = [];
+  dias.forEach(iso => {
+    const porSetor = {};
+    pessoas.forEach(f => {
+      if (escolhas.get(f.id) !== iso) return;
+      (porSetor[f.setor] = porSetor[f.setor] || []).push(f.nome);
+    });
+    Object.entries(porSetor).forEach(([setor, nomes]) => {
+      if (nomes.length > 1) choques.push({ iso, setor, nomes });
+    });
+  });
+
+  const cartoesDia = dias.map(iso => {
+    const doDia = pessoas.filter(f => escolhas.get(f.id) === iso);
+    const choque = choques.filter(c => c.iso === iso);
+    return cartao({
+      cor: choque.length ? '#D32F2F' : (doDia.length ? '#2E7D32' : '#90A4AE'),
+      icone: '\ud83d\uddd3',
+      titulo: 'Domingo ' + D.data(iso),
+      sub: doDia.length ? doDia.length + ' pessoa(s)' : 'Ninguem escalado',
+      extra: doDia.map(f => '\u2022 ' + f.nome + '  (' + D.setor(f.setor).nome + ')').join('\n'),
+      selo: choque.length ? { texto: 'choque', cor: '#D32F2F' } : null,
+      destaque: choque.length ? { texto: choque.map(c => '\u26a0 ' + D.setor(c.setor).nome + ': '
+        + c.nomes.join(' e ') + ' caem no mesmo domingo.').join('\n'), cor: '#D32F2F' } : null
+    });
+  });
+
+  const linhasPessoa = pessoas.map(f => {
+    const opcoes = [{ valor: '', texto: 'Nao trabalha domingo' }]
+      .concat(dias.map(iso => ({ valor: iso, texto: 'Domingo ' + D.data(iso) })));
+    const sel = lista(f.nome + '  \u2022  ' + D.setor(f.setor).nome, opcoes, escolhas.get(f.id));
+    sel.input.disabled = !podeMexer;
+    sel.input.onchange = () => {
+      definirDomingo(f, ano, m, sel.input.value);
+      ir('escala', { aba: 'domingos', mes: chaveMes });
+    };
+    return sel.el;
+  });
+
+  return h('div', {}, [
+    cabecalho({ titulo: '\ud83d\uddd3 Domingos de ' + NOMES_MES[m],
+      sub: dias.length + ' domingo(s)  \u2022  ' + pessoas.length + ' pessoa(s)', voltar }),
+    h('main', {}, [
+      troca,
+      choques.length
+        ? aviso('\u26a0 ' + choques.length + ' choque(s) de domingo no mesmo setor. '
+          + 'Espalhe as pessoas para nao ficar domingo sem ninguem.', '#D32F2F')
+        : aviso('Cada pessoa pega um domingo do mes. O resto dos domingos ela folga.'),
+      ...cartoesDia,
+      h('h3', { texto: 'Quem pega qual domingo' }),
+      ...(linhasPessoa.length ? linhasPessoa : [vazio('Ninguem na equipe ainda.')])
+    ])
+  ]);
+}
+
+/** Grava o domingo escolhido e devolve os outros domingos do mes para folga. */
+function definirDomingo(f, ano, m, iso) {
+  const a = D.Acesso;
+  const dias = domingosDoMes(ano, m);
+  const p = padraoDe(f.id);
+
+  dias.forEach(dia => {
+    const gravado = Dados.ativos('turnos').find(t => t.funcionarioId === f.id && t.data === dia);
+    if (dia === iso) {
+      const horario = p ? { inicio: p.inicio[6], fim: p.fim[6] } : { inicio: '08:00', fim: '14:00' };
+      // Se o padrao marca domingo como folga, o horario dele vem do sabado.
+      if (p && p.folga[6]) { horario.inicio = p.inicio[5]; horario.fim = p.fim[5]; }
+      const t = gravado || Dados.novo({ funcionarioId: f.id, funcionarioNome: f.nome, setor: f.setor,
+        data: dia, inicio: horario.inicio, fim: horario.fim, folga: false, observacao: 'Domingo do mes' });
+      Object.assign(t, { funcionarioNome: f.nome, setor: f.setor, folga: false,
+        inicio: horario.inicio, fim: horario.fim, observacao: 'Domingo do mes' });
+      Dados.gravar('turnos', t, a.nome());
+    } else if (gravado && !gravado.folga && gravado.observacao === 'Domingo do mes') {
+      Dados.excluir('turnos', gravado, a.nome());
+    }
+  });
+  toast(iso ? f.nome + ' escalado(a) no domingo ' + D.data(iso) : f.nome + ' sem domingo neste mes.');
+}
+
+/** Tela de domingos aberta pelo menu do mes. */
+function telaDomingos(registrar) {
+  registrar('escala-domingos', params => {
+    const mes = params.mes ? new Date(params.mes + '-01T00:00:00') : new Date();
+    return telaResumoDomingos(mes.getFullYear(), mes.getMonth(),
+      mes.getFullYear() + '-' + String(mes.getMonth() + 1).padStart(2, '0'), null);
   });
 }
 
@@ -933,59 +1452,6 @@ function escalaDoDia(iso) {
     });
   });
   return turnos.sort((a, b) => (a.folga - b.folga) || a.inicio.localeCompare(b.inicio));
-}
-
-function ajustarDia(iso, turnos) {
-  if (!turnos.length) return alert('Cadastre a equipe e a escala padrao antes de ajustar um dia.');
-  const escolha = prompt('Ajustar ' + D.data(iso) + ':\n'
-    + turnos.map((t, i) => (i + 1) + ' = ' + t.funcionarioNome + ' ('
-      + (t.folga ? 'folga' : t.inicio + ' as ' + t.fim) + ')').join('\n')
-    + '\n\nDigite o numero:');
-  const t = turnos[parseInt(escolha) - 1];
-  if (!t) return;
-
-  const folga = confirm('Marcar FOLGA para ' + t.funcionarioNome + ' neste dia?\n\n'
-    + 'OK = folga    |    Cancelar = definir horario');
-  const gravado = Dados.ativos('turnos').find(x => x.funcionarioId === t.funcionarioId && x.data === iso)
-    || Dados.novo({
-      funcionarioId: t.funcionarioId, funcionarioNome: t.funcionarioNome,
-      setor: t.setor, data: iso, inicio: t.inicio, fim: t.fim, folga: false, observacao: ''
-    });
-
-  if (folga) {
-    gravado.folga = true;
-  } else {
-    const inicio = prompt('Entrada (HH:MM):', t.inicio);
-    if (inicio === null) return;
-    const fim = prompt('Saida (HH:MM):', t.fim);
-    if (fim === null) return;
-    gravado.folga = false;
-    gravado.inicio = inicio;
-    gravado.fim = fim;
-  }
-  Dados.gravar('turnos', gravado, D.Acesso.nome());
-  toast('Dia ajustado.');
-  render();
-}
-
-function dialogoFuncionario(existente) {
-  const a = D.Acesso;
-  const f = existente || Dados.novo({
-    nome: '', cargo: '', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
-    telefone: '', ativo: true
-  });
-  const nome = prompt('Nome:', f.nome);
-  if (nome === null || !nome.trim()) return;
-  const cargo = prompt('Cargo (repositor, caixa, acougueiro...):', f.cargo) || '';
-  const setores = D.setoresAtivos();
-  const escolha = prompt('Setor:\n' + setores.map((s, i) => (i + 1) + ' = ' + s.nome).join('\n'),
-    String(Math.max(1, setores.findIndex(s => s.chave === f.setor) + 1)));
-  f.nome = nome.trim();
-  f.cargo = cargo.trim();
-  if (setores[parseInt(escolha) - 1]) f.setor = setores[parseInt(escolha) - 1].chave;
-  Dados.gravar('funcionarios', f, a.nome());
-  toast('Equipe atualizada.');
-  render();
 }
 
 function formPadrao(funcionario, existente) {

@@ -83,10 +83,29 @@
     font-size:13px; color:var(--fraco); box-shadow:0 1px 3px rgba(0,0,0,.1)}
   .toast{position:fixed; left:50%; transform:translateX(-50%); bottom:100px; background:#263238;
     color:#fff; padding:12px 18px; border-radius:24px; font-size:14px; z-index:99; max-width:88%}
+
+  /* Telas de marcar: o dedo so toca no quadradinho, sem teclado. */
+  .topo-marcar{padding:10px 12px 0}
+  .linha-marcar{display:flex; align-items:center; gap:10px; background:#fff; border-radius:14px;
+    padding:10px 12px; margin-bottom:6px; box-shadow:0 1px 3px rgba(0,0,0,.08); cursor:pointer}
+  .linha-marcar input[type=checkbox]{width:24px; height:24px; flex:none}
+  .linha-marcar .texto{flex:1; min-width:0}
+  .linha-marcar .texto b{display:block; font-size:15px}
+  .linha-marcar .texto small{color:var(--fraco); font-size:11px}
+  .linha-marcar .qtd{font-weight:700; color:var(--verde); font-size:16px; padding:6px 12px;
+    min-width:44px; text-align:right}
+  .rodape-marcar{position:sticky; bottom:0; background:#fff; padding:10px 12px
+    calc(env(safe-area-inset-bottom) + 12px); box-shadow:0 -2px 8px rgba(0,0,0,.08)}
+  .rodape-marcar .contador{font-size:13px; color:var(--fraco); margin-bottom:8px}
+  .rodape-marcar button{width:100%; border:0; border-radius:14px; padding:14px; font-size:16px;
+    font-weight:600; color:#fff; background:var(--verde); cursor:pointer}
+  .rodape-marcar button:disabled{opacity:.4}
+  .linha-dia{background:#fff; border-radius:14px; padding:10px 12px; margin-bottom:8px;
+    box-shadow:0 1px 3px rgba(0,0,0,.08)}
 </style>
 </head>
 <body>
   <div id="app"></div>
-  <script type="module" src="js/app.js?v=202607281818"></script>
+  <script type="module" src="js/app.js?v=202607281839"></script>
 </body>
 </html>

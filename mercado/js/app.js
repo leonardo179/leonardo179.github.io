@@ -2,13 +2,14 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607281818';
-import * as D from './dominio.js?v=202607281818';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281818';
-import { semear } from './semente.js?v=202607281818';
-import * as M from './modulos.js?v=202607281818';
-import * as M2 from './modulos2.js?v=202607281818';
-import { instalarTelasExtra } from './telas-extra.js?v=202607281818';
+import { Dados, Prefs, Sync } from './dados.js?v=202607281839';
+import * as D from './dominio.js?v=202607281839';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607281839';
+import { semear } from './semente.js?v=202607281839';
+import * as M from './modulos.js?v=202607281839';
+import * as M2 from './modulos2.js?v=202607281839';
+import { instalarTelasExtra } from './telas-extra.js?v=202607281839';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607281839';
 
 const app = document.getElementById('app');
 
@@ -17,18 +18,40 @@ const app = document.getElementById('app');
 const telas = {};
 export function registrar(nome, fn) { telas[nome] = fn; }
 
+// A pilha espelha o historico do navegador so com o NOME das telas. E ela que faz
+// o voltar sair mesmo da tela atual, em vez de repetir o passo que a pessoa acabou
+// de dar (salvar, filtrar, trocar de aba) — isso tudo troca a tela no lugar.
+let pilha = [];
+
+const telaDe = hash => (hash || '').replace('#', '').split('?')[0] || 'painel';
+
 export function ir(nome, params = {}) {
   const q = new URLSearchParams(params).toString();
-  location.hash = '#' + nome + (q ? '?' + q : '');
+  const alvo = '#' + nome + (q ? '?' + q : '');
+  const atual = telaDe(location.hash);
+
+  // Continuar na mesma tela (outro filtro, outra aba) nao vira passo de historico.
+  if (nome === atual) {
+    if (location.hash === alvo) render();
+    else location.replace(alvo);
+    return;
+  }
+  // Ir para a tela de onde viemos e voltar, nao avancar.
+  if (pilha.length > 1 && pilha[pilha.length - 2] === nome) {
+    history.back();
+    return;
+  }
+  location.hash = alvo;
 }
 
 export function voltar() {
-  if (history.length > 1) history.back();
+  if (pilha.length > 1) history.back();
   else ir('painel');
 }
 
 function render() {
   const [nome, query] = location.hash.replace('#', '').split('?');
+  sincronizarPilha(nome || 'painel');
   const params = Object.fromEntries(new URLSearchParams(query || ''));
   const tela = telas[nome] || telas.painel;
 
@@ -41,6 +64,13 @@ function render() {
     return;
   }
   app.replaceChildren(tela(params));
+}
+
+/** Mantem a pilha igual ao historico, inclusive quando a pessoa usa o voltar do aparelho. */
+function sincronizarPilha(nome) {
+  if (pilha[pilha.length - 1] === nome) return;
+  if (pilha[pilha.length - 2] === nome) pilha.pop();
+  else pilha.push(nome);
 }
 
 window.addEventListener('hashchange', render);
@@ -230,11 +260,12 @@ registrar('painel', () => {
         [h('b', { estilo: { color: '#C5E1A5' } }, feitos.tarefas),
          h('span', {}, 'tarefas realizadas')]),
       h('div', { onclick: () => ir('realizados', { aba: 'checklists' }) },
-        [h('b', { estilo: { color: '#C5E1A5' } }, feitos.checklists),
-         h('span', {}, 'checklists marcados')]),
-      h('div', { onclick: () => ir('realizados', { aba: 'checklists' }) },
         [h('b', { estilo: { color: '#B3E5FC' } }, feitos.itens),
-         h('span', {}, 'itens marcados hoje')])
+         h('span', {}, 'itens marcados hoje')]),
+      // Falta na gondola some do corredor se ninguem ve: fica no painel do dono.
+      h('div', { onclick: () => ir('ruptura') },
+        [h('b', { estilo: { color: '#FFCDD2' } }, M2.contarFaltas()),
+         h('span', {}, 'faltas na gondola')])
     ])
   ]);
 
@@ -506,7 +537,25 @@ registrar('ajustes', () => {
 
         h('div', { class: 'rotulo-secao' }, 'Copia dos dados'),
         h('div', { class: 'aviso-instalar', onclick: exportar }, '📤  Exportar arquivo de dados'),
-        h('div', { class: 'aviso-instalar', onclick: importar }, '📥  Importar arquivo de dados')
+        h('div', { class: 'aviso-instalar', onclick: importar }, '📥  Importar arquivo de dados'),
+
+        // Para experimentar o app sem esperar a equipe usar. Sai tudo junto depois.
+        h('div', { class: 'rotulo-secao' }, 'Dados de teste'),
+        h('div', { class: 'sub' }, contarDemo() + ' registro(s) de teste na loja. '
+          + 'Eles ficam marcados e saem todos de uma vez, sem levar junto o que e real.'),
+        h('div', { class: 'aviso-instalar', onclick: () => confirmar('Popular com dados de teste',
+          'Vai criar validades, quebras, contagens, temperaturas, faltas, desistencias, '
+          + 'entregas e checklists ficticios para voce experimentar. Continuar?', () => {
+            const n = popularDemo(a.nome());
+            toast(n + ' registros de teste criados.');
+            render();
+          }) }, '🧪  Popular com dados de teste'),
+        contarDemo() ? h('div', { class: 'aviso-instalar', onclick: () => confirmar('Limpar dados de teste',
+          'Apagar TODOS os registros de teste? O que a equipe registrou de verdade continua.', () => {
+            const n = limparDemo(a.nome());
+            toast(n + ' registros de teste apagados.');
+            render();
+          }) }, '🧹  Limpar dados de teste') : null
       ] : [
         h('div', { class: 'rotulo-secao' }, 'Loja'),
         h('div', { class: 'sub' }, 'Conectado a loja ' + (Prefs.get('nomeLoja') || Prefs.get('loja'))
