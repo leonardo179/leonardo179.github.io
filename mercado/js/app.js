@@ -2,15 +2,15 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607282157';
-import * as D from './dominio.js?v=202607282157';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607282157';
-import { semear } from './semente.js?v=202607282157';
-import * as M from './modulos.js?v=202607282157';
-import * as M2 from './modulos2.js?v=202607282157';
-import { instalarTelasExtra } from './telas-extra.js?v=202607282157';
-import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607282157';
-import { instalarDashboard } from './dashboard.js?v=202607282157';
+import { Dados, Prefs, Sync } from './dados.js?v=202607282207';
+import * as D from './dominio.js?v=202607282207';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607282207';
+import { semear } from './semente.js?v=202607282207';
+import * as M from './modulos.js?v=202607282207';
+import * as M2 from './modulos2.js?v=202607282207';
+import { instalarTelasExtra } from './telas-extra.js?v=202607282207';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607282207';
+import { instalarDashboard } from './dashboard.js?v=202607282207';
 
 const app = document.getElementById('app');
 
@@ -336,10 +336,12 @@ registrar('painel', () => {
   mod('🧮', 'Contagem de estoque', Dados.ativos('contagens').length + ' contagens',
     contagensNovas ? contagensNovas + ' nova' : null, '#2E7D32', 'contagem');
 
-  const pesquisasNovas = Dados.ativos('pesquisas')
-    .filter(p => p.concluida && !p.vistaPeloGestor && a.veTrabalhoDosOutros()).length;
-  mod('🔎', 'Preco do concorrente', Dados.ativos('cesta').length + ' produtos vigiados',
-    pesquisasNovas ? pesquisasNovas + ' nova' : null, '#0277BD', 'precos');
+  // O que interessa no menu e quanto da lista ainda esta sem preco anotado.
+  const semPreco = Dados.ativos('cesta')
+    .filter(c => c.ativo !== false && !(c.precoConcorrente > 0)).length;
+  mod('🔎', 'Preco do concorrente',
+    Dados.ativos('cesta').filter(c => c.ativo !== false).length + ' produtos na lista',
+    semPreco ? semPreco + ' sem preco' : null, '#0277BD', 'precos');
 
   const rupturasAbertas = Dados.ativos('rupturas')
     .filter(r => r.situacao !== 'RESOLVIDA' && a.veSetor(r.setor)).length;

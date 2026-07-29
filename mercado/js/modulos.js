@@ -2,11 +2,11 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282157';
-import * as D from './dominio.js?v=202607282157';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282157';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607282157';
-import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607282157';
+import { Dados, Prefs } from './dados.js?v=202607282207';
+import * as D from './dominio.js?v=202607282207';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282207';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607282207';
+import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607282207';
 
 let ir, voltar, render;
 
@@ -147,6 +147,7 @@ function formValidade(existente) {
       setor: setorSel.input.value, localizacao: local.input.value.trim(),
       observacao: obs.input.value.trim()
     });
+    D.garantirProduto(p.nome, p.setor, a.nome());
     Dados.gravar('produtos', p, a.nome());
     toast('Produto salvo.');
     voltar();
@@ -744,6 +745,8 @@ function formQuebra(existente, deProduto) {
       valorUnitario: D.lerNumero(valor.input.value),
       detalhe: detalhe.input.value.trim()
     });
+    // Produto digitado na hora vira cadastro: o dono completa depois.
+    D.garantirProduto(q.produto, q.setor, a.nome());
     Dados.gravar('quebras', q, a.nome());
     toast('Quebra registrada: ' + D.moeda(prejuizo(q)));
     ir('quebras');

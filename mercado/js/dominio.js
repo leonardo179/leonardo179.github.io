@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607282157';
+import { Dados, Prefs } from './dados.js?v=202607282207';
 
 /**
  * Setores da loja.
@@ -249,4 +249,28 @@ export function lerNumero(s) {
   if (!s) return 0;
   const n = parseFloat(String(s).replace('R$', '').replace(/\s/g, '').replace(',', '.'));
   return isNaN(n) ? 0 : n;
+}
+
+/**
+ * Todo produto que alguem digita vira cadastro. A pessoa que registra uma quebra
+ * as 6 da manha nao vai parar para cadastrar o produto antes — ela escreve o nome
+ * e segue. O cadastro nasce aqui, meio vazio, e o dono completa depois com codigo
+ * de barras, marca e preco. Devolve a ficha do produto, nova ou a que ja existia.
+ */
+export function garantirProduto(nome, setor, autor) {
+  const limpo = (nome || '').trim();
+  if (!limpo) return null;
+
+  const igual = Dados.ativos('catalogo')
+    .find(c => (c.nome || '').trim().toLowerCase() === limpo.toLowerCase());
+  if (igual) return igual;
+
+  const novo = Dados.novo({
+    codigo: '', nome: limpo, marca: '', setor: setor || 'MERCEARIA',
+    unidade: 'UND', porCaixa: 1, preco: 0,
+    /** Nasceu de um registro do dia a dia, nao de um cadastro caprichado. */
+    incompleto: true
+  });
+  Dados.gravar('catalogo', novo, autor || 'app');
+  return novo;
 }

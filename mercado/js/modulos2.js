@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282157';
-import * as D from './dominio.js?v=202607282157';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282157';
+import { Dados, Prefs } from './dados.js?v=202607282207';
+import * as D from './dominio.js?v=202607282207';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282207';
 
 let ir, voltar, render;
 
@@ -522,6 +522,7 @@ function dialogoItemContagem(item, pronto) {
       if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
       const v = ler();
       item.produto = nome.input.value.trim();
+      D.garantirProduto(item.produto, D.Acesso.meuSetor(), D.Acesso.nome());
       item.unidade = v.u.valor;
       item.caixas = v.caixas;
       item.porCaixa = v.porCaixa;
@@ -534,66 +535,135 @@ function dialogoItemContagem(item, pronto) {
 
 // ------------------------------------------------------- preco do concorrente
 
+/**
+ * Preco do concorrente, do jeito que a loja usa de verdade:
+ *   1. o dono monta a lista de produtos que quer vigiar;
+ *   2. quem vai ao concorrente so digita o preco de la e uma observacao;
+ *   3. com a lista preenchida, o dono poe o preco daqui e ve a diferenca.
+ * Nada de pesquisa, historico ou sugestao — isso so atrapalhava quem esta no
+ * corredor com o celular na mao.
+ */
 function precos(registrar) {
-  registrar('precos', params => {
+  registrar('precos', () => {
     const a = D.Acesso;
-    const aba = params.aba || 'pesquisas';
+    const dono = a.configuraLoja();
+    const itens = Dados.ativos('cesta').filter(c => c.ativo !== false)
+      .sort((x, y) => (x.nome || '').localeCompare(y.nome || ''));
 
-    const troca = h('div', { estilo: { display: 'flex', gap: '8px', margin: '4px 0 10px' } }, [
-      abaBotao('Pesquisas', aba === 'pesquisas', () => { ir('precos', { aba: 'pesquisas' }); render(); }),
-      abaBotao('Cesta vigiada', aba === 'cesta', () => { ir('precos', { aba: 'cesta' }); render(); })
-    ]);
+    const concorrente = campo('Concorrente pesquisado', Prefs.get('concorrente') || '');
+    concorrente.input.onchange = () => Prefs.set('concorrente', concorrente.input.value.trim());
+    concorrente.input.disabled = !dono;
 
-    let corpo, fab;
-    if (aba === 'cesta') {
-      const cesta = Dados.ativos('cesta').filter(c => c.ativo !== false)
-        .sort((x, y) => x.nome.localeCompare(y.nome));
-      corpo = cesta.length ? cesta.map(c => cartao({
-        cor: D.setor(c.setor).cor,
-        icone: D.setor(c.setor).icone,
-        titulo: c.nome,
-        sub: D.setor(c.setor).nome + '  •  nosso preco ' + D.moeda(c.nossoPreco),
-        botoes: a.configuraLoja() ? [
-          { texto: 'Editar', onclick: () => dialogoCesta(c) },
-          { texto: 'Remover', sec: true, onclick: () => confirmar('Remover da cesta',
-            'Parar de vigiar o preco de ' + c.nome + '?', () => {
-              Dados.excluir('cesta', c, a.nome()); render();
-            }) }
-        ] : null
-      })) : [vazio('Cesta vazia.\nCadastre os produtos mais vendidos da loja.')];
-      fab = { texto: 'Novo produto', onclick: () => dialogoCesta(null) };
-    } else {
-      const pesquisas = Dados.ativos('pesquisas')
-        .filter(p => a.vePessoa(p.funcionario, p.autor))
-        .sort((x, y) => y.atualizadoEm - x.atualizadoEm);
-      corpo = pesquisas.length ? pesquisas.map(p => {
-        const perdendo = (p.itens || []).filter(i => estamosPerdendo(i));
-        return cartao({
-          cor: perdendo.length ? '#D32F2F' : '#2E7D32',
-          icone: '🔎',
-          titulo: p.concorrente || 'Concorrente',
-          sub: (p.concluida ? 'Concluida por ' + p.funcionario + ' as ' + p.concluidaAs
-            : 'Em andamento') + '  •  ' + (p.itens || []).filter(i => i.coletado).length
-            + '/' + (p.itens || []).length + ' precos',
-          selo: p.concluida
-            ? { texto: perdendo.length ? perdendo.length + ' perdendo' : 'na frente',
-                cor: perdendo.length ? '#D32F2F' : '#388E3C' }
-            : { texto: 'em andamento', cor: '#F57C00' },
-          destaque: perdendo.length
-            ? { texto: perdendo.map(i => '• ' + sugestaoPreco(i, p.concorrente)).join('\n'),
-                cor: '#D32F2F' }
-            : null,
-          onclick: () => formPesquisa(p)
-        });
-      }) : [vazio('Nenhuma pesquisa ainda.\nMonte a cesta e mande alguem ao concorrente.')];
-      fab = { texto: 'Nova pesquisa', onclick: () => formPesquisa(null) };
-    }
+    const cartoes = itens.map(c => linhaPreco(c, dono));
+    const faltam = itens.filter(c => !(c.precoConcorrente > 0)).length;
 
     return h('div', {}, [
-      cabecalho({ titulo: '🔎 Preco do concorrente', sub: 'Compare e reaja no mesmo dia', voltar }),
-      h('main', {}, [troca, ...corpo]),
-      h('button', { class: 'fab', onclick: fab.onclick }, fab.texto)
+      cabecalho({ titulo: '\ud83d\udd0e Preco do concorrente',
+        sub: itens.length + ' produto(s)  \u2022  ' + faltam + ' sem preco ainda', voltar }),
+      h('main', {}, [
+        concorrente.el,
+        dono
+          ? aviso('Monte a lista abaixo. Quem for ao concorrente so preenche o preco de la; '
+            + 'depois voce poe o nosso preco e a diferenca aparece sozinha.')
+          : aviso('Preencha so o preco que o concorrente cobra e, se quiser, uma observacao.'),
+        ...(cartoes.length ? cartoes
+          : [vazio(dono ? 'Lista vazia.\nToque em Adicionar produto.'
+            : 'O dono ainda nao montou a lista de produtos.')])
+      ]),
+      dono ? h('button', { class: 'fab', onclick: () => formItemPreco(null) }, 'Adicionar produto') : null
     ]);
+  });
+}
+
+/** Uma linha da lista: o produto, o preco de la, o nosso e a diferenca. */
+function linhaPreco(c, dono) {
+  const a = D.Acesso;
+  const deles = campo('Preco do concorrente', c.precoConcorrente ? D.numero(c.precoConcorrente) : '',
+    { inputmode: 'decimal', placeholder: 'R$' });
+  const obs = campo('Observacao', c.observacao || '', { placeholder: 'estava em promocao, faltou...' });
+  const nosso = dono
+    ? campo('Nosso preco', c.nossoPreco ? D.numero(c.nossoPreco) : '', { inputmode: 'decimal' })
+    : null;
+
+  const resultado = h('div', { class: 'resultado-preco' });
+
+  function mostrar() {
+    const deValor = D.lerNumero(deles.input.value);
+    const nosValor = nosso ? D.lerNumero(nosso.input.value) : (c.nossoPreco || 0);
+    if (!(deValor > 0) || !(nosValor > 0)) {
+      resultado.textContent = deValor > 0 && !dono
+        ? 'Preco anotado. O dono compara com o nosso.'
+        : 'Falta preco para comparar.';
+      resultado.className = 'resultado-preco';
+      return;
+    }
+    const dif = nosValor - deValor;
+    const pct = dif / deValor * 100;
+    resultado.textContent = dif === 0
+      ? 'Preco igual ao do concorrente.'
+      : (dif > 0 ? 'Estamos ' + D.moeda(dif) + ' mais caro  (' + D.numero(pct) + '%)'
+        : 'Estamos ' + D.moeda(-dif) + ' mais barato  (' + D.numero(-pct) + '%)');
+    resultado.className = 'resultado-preco ' + (dif > 0 ? 'caro' : 'barato');
+  }
+
+  [deles, obs, nosso].filter(Boolean).forEach(x => x.input.oninput = mostrar);
+  mostrar();
+
+  const salvar = h('button', { class: 'salvar-linha', onclick: () => {
+    c.precoConcorrente = D.lerNumero(deles.input.value);
+    c.observacao = obs.input.value.trim();
+    if (nosso) c.nossoPreco = D.lerNumero(nosso.input.value);
+    c.coletadoPor = a.nome();
+    c.coletadoEm = D.hoje();
+    c.concorrente = Prefs.get('concorrente') || '';
+    Dados.gravar('cesta', c, a.nome());
+    toast('Preco de ' + c.nome + ' salvo.');
+  } }, 'Salvar');
+
+  return h('div', { class: 'linha-preco' }, [
+    h('div', { class: 'topo' }, [
+      h('b', { texto: c.nome }),
+      h('small', { texto: D.setor(c.setor).icone + ' ' + D.setor(c.setor).nome
+        + (c.coletadoPor ? '  \u2022  anotado por ' + c.coletadoPor : '') })
+    ]),
+    deles.el, nosso ? nosso.el : null, obs.el, resultado,
+    h('div', { class: 'botoes-linha' }, [
+      salvar,
+      dono ? h('button', { class: 'remover', onclick: () => confirmar('Tirar da lista',
+        'Parar de vigiar o preco de ' + c.nome + '?', () => {
+          Dados.excluir('cesta', c, a.nome());
+          ir('precos');
+        }) }, 'Tirar da lista') : null
+    ].filter(Boolean))
+  ].filter(Boolean));
+}
+
+/** O dono adiciona um produto na lista; se ele nao existir, entra no cadastro tambem. */
+function formItemPreco(existente) {
+  const a = D.Acesso;
+  const c = existente || Dados.novo({
+    nome: '', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(), nossoPreco: 0,
+    precoConcorrente: 0, observacao: '', coletadoPor: '', coletadoEm: '',
+    concorrente: '', ativo: true
+  });
+
+  const nome = campo('Produto', c.nome);
+  const setorSel = lista('Setor', opcoesSetor(), c.setor);
+
+  modal({
+    titulo: existente ? c.nome : 'Adicionar produto na lista',
+    conteudo: [nome.el, setorSel.el,
+      h('div', { class: 'sub', texto: 'Se este produto ainda nao estiver em Estoque > Produtos, '
+        + 'ele e cadastrado automaticamente.' })],
+    aoConfirmar: () => {
+      if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
+      c.nome = nome.input.value.trim();
+      c.setor = setorSel.input.value;
+      D.garantirProduto(c.nome, c.setor, a.nome());
+      Dados.gravar('cesta', c, a.nome());
+      toast('Produto na lista.');
+      ir('precos');
+    }
   });
 }
 
@@ -606,153 +676,6 @@ function abaBotao(texto, ativa, onclick) {
       fontWeight: ativa ? '700' : '400', fontSize: '14px'
     }
   }, texto);
-}
-
-const diferencaPreco = i => (i.nossoPreco || 0) - (i.precoConcorrente || 0);
-const estamosPerdendo = i => i.coletado && i.precoConcorrente > 0 && i.nossoPreco > 0
-  && diferencaPreco(i) > 0.001;
-const estamosGanhando = i => i.coletado && i.precoConcorrente > 0 && i.nossoPreco > 0
-  && diferencaPreco(i) < -0.001;
-
-function percentual(i) {
-  if (!i.nossoPreco) return 0;
-  return Math.abs(diferencaPreco(i) * 100 / i.nossoPreco);
-}
-
-function sugestaoPreco(i, concorrente) {
-  const onde = concorrente ? 'no ' + concorrente : 'no concorrente';
-  const dif = Math.abs(diferencaPreco(i));
-  const pct = D.numero(percentual(i)) + '%';
-  if (estamosPerdendo(i)) {
-    return `O ${i.produto} ${onde} esta ${D.moeda(dif)} mais barato (${pct}). `
-      + `Sugestao: baixar o nosso para ${D.moeda(Math.max(0.01, i.precoConcorrente - 0.01))}.`;
-  }
-  if (estamosGanhando(i)) {
-    return `Estamos ${D.moeda(dif)} mais baratos (${pct}) no ${i.produto}.`;
-  }
-  return 'Preco empatado.';
-}
-
-function dialogoCesta(existente) {
-  const a = D.Acesso;
-  const c = existente || Dados.novo({ nome: '', setor: 'MERCEARIA', unidade: 'UND', nossoPreco: 0, ativo: true });
-  const nome = prompt('Produto vigiado:', c.nome);
-  if (nome === null) return;
-  const preco = prompt('Nosso preco:', c.nossoPreco || '');
-  if (preco === null) return;
-  c.nome = nome.trim();
-  c.nossoPreco = D.lerNumero(preco);
-  if (!c.nome) return toast('Falta o nome do produto.');
-  Dados.gravar('cesta', c, a.nome());
-  toast('Produto vigiado salvo.');
-  render();
-}
-
-function formPesquisa(existente) {
-  const a = D.Acesso;
-  const p = existente || Dados.novo({
-    concorrente: '', data: D.hoje(), funcionario: '', concluidaAs: '',
-    concluida: false, vistaPeloGestor: false, observacao: '',
-    itens: Dados.ativos('cesta').filter(c => c.ativo !== false).map(c => ({
-      id: crypto.randomUUID(), produtoId: c.id, produto: c.nome,
-      nossoPreco: c.nossoPreco, precoConcorrente: 0, coletado: false, observacao: ''
-    }))
-  });
-  const itens = (p.itens || []).map(i => ({ ...i }));
-
-  const concorrente = campo('Concorrente', p.concorrente);
-  const obs = area('Observacao', p.observacao);
-  const placar = aviso('');
-
-  function atualizarPlacar() {
-    const coletados = itens.filter(i => i.coletado).length;
-    const perdendo = itens.filter(estamosPerdendo).length;
-    const ganhando = itens.filter(estamosGanhando).length;
-    placar.textContent = `${coletados} de ${itens.length} precos coletados\n`
-      + `⚠ perdendo em ${perdendo}  •  ✔ na frente em ${ganhando}`;
-    const cor = perdendo ? '#D32F2F' : '#2E7D32';
-    placar.style.background = cor + '22';
-    placar.style.color = cor;
-    placar.style.border = '1px solid ' + cor + '55';
-  }
-
-  const editor = listaEditavel(itens,
-    item => [
-      h('div', { class: 'titulo', texto: item.produto }),
-      h('div', { class: 'sub', texto: item.coletado
-        ? (item.nossoPreco
-          ? 'Nos ' + D.moeda(item.nossoPreco) + '  x  eles ' + D.moeda(item.precoConcorrente)
-          : 'Concorrente ' + D.moeda(item.precoConcorrente) + '  •  nosso preco em branco')
-        : 'Toque para digitar o preco encontrado' }),
-      item.coletado ? h('div', {
-        estilo: { fontSize: '12px', marginTop: '2px',
-                  color: estamosPerdendo(item) ? '#D32F2F' : '#2E7D32' },
-        texto: sugestaoPreco(item, concorrente.input.value)
-      }) : null
-    ],
-    item => dialogoItemPreco(item, () => { editor.redesenhar(); atualizarPlacar(); }),
-    i => { itens.splice(i, 1); atualizarPlacar(); });
-
-  function novoItem() {
-    const item = { produto: '', nossoPreco: 0, precoConcorrente: 0, coletado: false };
-    dialogoItemPreco(item, () => {
-      if (item.produto) itens.push(item);
-      editor.redesenhar();
-      atualizarPlacar();
-    });
-  }
-
-  function gravar(concluir) {
-    Object.assign(p, {
-      concorrente: concorrente.input.value.trim(),
-      observacao: obs.input.value.trim(),
-      itens: itens.filter(i => i.produto)
-    });
-    if (concluir) {
-      if (!p.itens.some(i => i.coletado)) return toast('Digite pelo menos um preco.');
-      p.concluida = true;
-      p.funcionario = a.nome();
-      p.concluidaAs = D.agora();
-      p.vistaPeloGestor = false;
-    }
-    Dados.gravar('pesquisas', p, a.nome());
-    toast(concluir ? 'Pesquisa enviada ao gestor.' : 'Pesquisa salva.');
-    ir('precos');
-    render();
-  }
-
-  atualizarPlacar();
-  app().replaceChildren(h('div', {}, [
-    cabecalho({ titulo: existente ? '🔎 ' + (p.concorrente || 'Pesquisa') : '🔎 Nova pesquisa',
-      sub: 'Digite o preco que voce encontrou la',
-      voltar: () => { ir('precos'); render(); } }),
-    h('main', {}, [
-      concorrente.el,
-      h('div', { class: 'rotulo-secao' }, 'Produtos da cesta'),
-      editor.caixa, placar,
-      h('div', { class: 'aviso-instalar', onclick: novoItem }, '+  Adicionar produto fora da cesta'),
-      obs.el
-    ]),
-    barra([
-      { texto: p.concluida ? 'Salvar alteracoes' : 'Concluir e enviar', onclick: () => gravar(!p.concluida) },
-      { texto: 'Só salvar', classe: 'cinza', onclick: () => gravar(false) }
-    ])
-  ]));
-}
-
-function dialogoItemPreco(item, pronto) {
-  const produto = prompt('Produto:', item.produto || '');
-  if (produto === null) return;
-  const deles = prompt('Preco no concorrente:', item.precoConcorrente || '');
-  if (deles === null) return;
-  const nosso = prompt('Nosso preco (opcional — deixe como esta se ja souber):', item.nossoPreco || '');
-  if (nosso === null) return;
-  item.produto = produto.trim();
-  item.precoConcorrente = D.lerNumero(deles);
-  item.nossoPreco = D.lerNumero(nosso);
-  item.coletado = item.precoConcorrente > 0;
-  if (!item.id) item.id = crypto.randomUUID();
-  pronto();
 }
 
 // -------------------------------------------------------------- gondola vazia
@@ -893,6 +816,7 @@ function telaMarcarRuptura(registrar) {
       const nomes = [...marcados];
       nomes.forEach(nome => {
         const item = itens.find(i => i.nome === nome) || { setor: a.meuSetor() };
+        D.garantirProduto(nome, item.setor, a.nome());
         const r = Dados.novo({
           codigo: item.codigo || '', produto: nome, setor: item.setor, data: D.hoje(),
           hora: D.agora(), funcionario: a.nome(), situacao: 'ABERTA', ondeTem: '',
@@ -1116,6 +1040,8 @@ function telaMarcarDesistencia(registrar) {
       const nomes = [...marcados.keys()];
       nomes.forEach(nome => {
         const item = itens.find(i => i.nome === nome) || { setor: a.meuSetor(), preco: 0, codigo: '' };
+        // Produto digitado na hora vira cadastro: o dono completa depois.
+        D.garantirProduto(nome, item.setor, a.nome());
         Dados.gravar('desistencias', Dados.novo({
           codigo: item.codigo || '', produto: nome, setor: item.setor, data: D.hoje(),
           hora: D.agora(), operador: a.nome(), motivo: motivoEscolhido,

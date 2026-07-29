@@ -116,6 +116,21 @@
     font-weight:600; color:#fff; background:var(--verde); cursor:pointer}
   .modal-botoes button.cinza{background:#607D8B}
 
+  /* Preco do concorrente: uma linha por produto, tudo na mesma tela. */
+  .linha-preco{background:#fff; border-radius:14px; padding:12px; margin-bottom:10px;
+    box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .linha-preco .topo{padding-bottom:6px}
+  .linha-preco .topo b{display:block; font-size:15px}
+  .linha-preco .topo small{color:var(--fraco); font-size:11px}
+  .resultado-preco{margin-top:10px; padding:10px; border-radius:10px; font-size:13px;
+    font-weight:600; background:#EEF2EE; color:var(--fraco)}
+  .resultado-preco.caro{background:#FFEBEE; color:#C62828}
+  .resultado-preco.barato{background:#E8F5E9; color:#2E7D32}
+  .botoes-linha{display:flex; gap:8px; margin-top:10px}
+  .botoes-linha button{flex:1; border:0; border-radius:12px; padding:12px; font-size:14px;
+    font-weight:600; color:#fff; background:var(--verde); cursor:pointer}
+  .botoes-linha button.remover{background:#B0BEC5}
+
   /* Painel do dono: cada bloco e uma pergunta respondida com barras. */
   .bloco-dash{background:#fff; border-radius:14px; padding:12px; margin-bottom:12px;
     box-shadow:0 1px 3px rgba(0,0,0,.08)}
@@ -138,6 +153,6 @@
 </head>
 <body>
   <div id="app"></div>
-  <script type="module" src="js/app.js?v=202607282157"></script>
+  <script type="module" src="js/app.js?v=202607282207"></script>
 </body>
 </html>
