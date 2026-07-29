@@ -2,16 +2,16 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607291540';
-import * as D from './dominio.js?v=202607291540';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607291540';
-import { semear } from './semente.js?v=202607291540';
-import * as M from './modulos.js?v=202607291540';
-import * as M2 from './modulos2.js?v=202607291540';
-import { instalarTelasExtra } from './telas-extra.js?v=202607291540';
-import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607291540';
-import { instalarDashboard } from './dashboard.js?v=202607291540';
-import { faixaDeAvisos, botaoAtivarAvisos, iniciarAvisos } from './avisos.js?v=202607291540';
+import { Dados, Prefs, Sync } from './dados.js?v=202607291613';
+import * as D from './dominio.js?v=202607291613';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607291613';
+import { semear } from './semente.js?v=202607291613';
+import * as M from './modulos.js?v=202607291613';
+import * as M2 from './modulos2.js?v=202607291613';
+import { instalarTelasExtra } from './telas-extra.js?v=202607291613';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607291613';
+import { instalarDashboard } from './dashboard.js?v=202607291613';
+import { faixaDeAvisos, botaoAtivarAvisos, iniciarAvisos } from './avisos.js?v=202607291613';
 
 const app = document.getElementById('app');
 

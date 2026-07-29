@@ -12,10 +12,10 @@
  * de 7 dias chega com folga — mas nao e a mesma coisa que um alarme, e a faixa
  * do painel existe justamente para o recado nao depender so disso.
  */
-import { Dados, Prefs } from './dados.js?v=202607291540';
-import * as D from './dominio.js?v=202607291540';
-import { h, toast } from './ui.js?v=202607291540';
-import { feriadosSemEscala, AVISO_FERIADO } from './modulos2.js?v=202607291540';
+import { Dados, Prefs } from './dados.js?v=202607291613';
+import * as D from './dominio.js?v=202607291613';
+import { h, toast } from './ui.js?v=202607291613';
+import { feriadosSemEscala, AVISO_FERIADO } from './modulos2.js?v=202607291613';
 
 /** Quem monta escala e quem recebe a cobranca: dono e lider. */
 const cobraEscala = () => D.Acesso.dono() || D.Acesso.lider();

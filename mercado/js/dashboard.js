@@ -2,9 +2,9 @@
  * O painel do dono: o que os 30 dias de registro da equipe dizem sobre a loja.
  * Nada de dado novo aqui — e leitura do que ja foi registrado nos modulos.
  */
-import { Dados } from './dados.js?v=202607291540';
-import * as D from './dominio.js?v=202607291540';
-import { h, cabecalho, vazio, aviso } from './ui.js?v=202607291540';
+import { Dados } from './dados.js?v=202607291613';
+import * as D from './dominio.js?v=202607291613';
+import { h, cabecalho, vazio, aviso } from './ui.js?v=202607291613';
 
 let ir, voltar;
 
