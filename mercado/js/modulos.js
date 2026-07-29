@@ -2,11 +2,11 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282207';
-import * as D from './dominio.js?v=202607282207';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282207';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607282207';
-import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607282207';
+import { Dados, Prefs } from './dados.js?v=202607282211';
+import * as D from './dominio.js?v=202607282211';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282211';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607282211';
+import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607282211';
 
 let ir, voltar, render;
 
@@ -62,8 +62,8 @@ function validades(registrar) {
         sub: D.setor(p.setor).nome + '  •  ' + D.data(p.validade) + '  •  ' + prazo,
         extra,
         selo: { texto: p.resolvido ? 'resolvido' : f.rotulo, cor: p.resolvido ? '#9E9E9E' : f.cor },
-        destaque: !p.resolvido && ['VENCIDO', 'URGENTE', 'DETALHE'].includes(f.chave)
-          ? { texto: '💡 ' + D.sugestaoAcao(p), cor: f.cor } : null,
+        destaque: !p.resolvido && D.alertaQuantidade(p)
+          ? { texto: '⚠ ' + D.alertaQuantidade(p), cor: '#D32F2F' } : null,
         botoes: p.resolvido ? null : [
           { texto: 'Resolvido', onclick: () => confirmar('Baixar produto',
             `Marcar "${p.nome}" como vendido, devolvido ou descartado?`, () => {

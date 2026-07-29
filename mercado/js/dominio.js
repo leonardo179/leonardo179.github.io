@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607282207';
+import { Dados, Prefs } from './dados.js?v=202607282211';
 
 /**
  * Setores da loja.
@@ -94,31 +94,16 @@ export function valorEmRisco(p) {
   return totalUnidades(p) * (p.precoUnitario || 0);
 }
 
-/** Mesma escada de desconto do Produto.java. */
-export function descontoSugerido(p) {
+/**
+ * O app nao sugere mais oferta nem desconto: preco e decisao do dono, e o
+ * palpite so poluia a tela de quem esta conferindo validade no corredor.
+ * O que fica e o alerta seco de quanto ainda ha em estoque perto de vencer.
+ */
+export function alertaQuantidade(p) {
   const d = diasAte(p.validade), t = totalUnidades(p);
-  let base;
-  if (d < 0) return 0;
-  else if (d <= DIAS_URGENTE) base = 40;
-  else if (d <= 7) base = 25;
-  else if (d <= DIAS_DETALHE) base = 15;
-  else return 0;
-  if (t >= 100) base += 30;
-  else if (t >= 50) base += 20;
-  else if (t >= 20) base += 10;
-  return Math.min(base, 70);
-}
-
-export function sugestaoAcao(p) {
-  const d = diasAte(p.validade), t = totalUnidades(p), desc = descontoSugerido(p);
-  if (d < 0) return `Vencido ha ${-d} dia(s): retirar da gondola e lancar em Quebras.`;
-  if (d <= DIAS_URGENTE) {
-    return t >= 20
-      ? `Ainda ha ${Math.round(t)} und em estoque. Oferta agressiva de ${desc}% OFF, ponta de gondola e aviso no caixa.`
-      : `Pouco estoque. Desconto de ${desc}% e realocar para a ponta de gondola.`;
-  }
-  if (d <= DIAS_DETALHE) return `Aplicar ${desc}% OFF, dar destaque na gondola e girar o lote (PVPS).`;
-  return 'Acompanhar o giro. Se nao sair, programar oferta.';
+  if (d < 0) return `Vencido ha ${-d} dia(s)` + (t > 0 ? ` com ${Math.round(t)} und em estoque.` : '.');
+  if (d > DIAS_DETALHE || t < 20) return '';
+  return `${Math.round(t)} und em estoque e vence em ${d} dia(s).`;
 }
 
 export function quantidadeTexto(p) {
