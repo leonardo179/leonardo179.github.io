@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282211';
-import * as D from './dominio.js?v=202607282211';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282211';
+import { Dados, Prefs } from './dados.js?v=202607291540';
+import * as D from './dominio.js?v=202607291540';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607291540';
 
 let ir, voltar, render;
 
@@ -27,6 +27,20 @@ const opcoesUnidade = () =>
   Object.entries(D.UNIDADES).map(([k, v]) => ({ valor: k, texto: v.sigla }));
 
 const app = () => document.getElementById('app');
+
+/** Escala o funcionario le; quem monta e o dono ou o lider do setor. */
+const soChefeMexeNaEscala = titulo => h('div', {}, [
+  cabecalho({ titulo, voltar }),
+  h('main', {}, [vazio('Quem monta a escala e o dono ou o lider do setor.\n'
+    + 'Volte para ver o seu horario.')])
+]);
+
+/** Quem nao cuida do caixa nao ve o que ficou largado la. */
+const semAcessoAoCaixa = () => h('div', {}, [
+  cabecalho({ titulo: '🛒 Desistencias no caixa', voltar }),
+  h('main', {}, [vazio('Esta tela e da frente de caixa.\n'
+    + 'Fale com o dono se voce tambem cuida do caixa.')])
+]);
 
 /** Caixinha de itens que varias telas usam (palete, contagem, pesquisa). */
 function listaEditavel(itens, desenhar, aoTocar, aoRemover) {
@@ -55,6 +69,8 @@ function listaEditavel(itens, desenhar, aoTocar, aoRemover) {
 // -------------------------------------------------------- estoque e paletes
 
 function estoque(registrar) {
+  telaDeposito(registrar);
+
   registrar('estoque', params => {
     const a = D.Acesso;
     const aba = params.aba || 'produtos';
@@ -64,7 +80,8 @@ function estoque(registrar) {
 
     const troca = h('div', { estilo: { display: 'flex', gap: '6px', margin: '4px 0 10px' } }, [
       abaBotao('Produtos', aba === 'produtos', () => ir('estoque', { aba: 'produtos' })),
-      abaBotao('Paletes', aba === 'paletes', () => ir('estoque', { aba: 'paletes' }))
+      abaBotao('Paletes', aba === 'paletes', () => ir('estoque', { aba: 'paletes' })),
+      abaBotao('🗺 Mapa', false, () => ir('deposito'))
     ]);
 
     function desenharPaletes(termo) {
@@ -94,23 +111,40 @@ function estoque(registrar) {
           + (c.codigo || '')).toLowerCase().includes(termo))
         .sort((x, y) => (x.nome || '').localeCompare(y.nome || ''));
 
-      corpo.replaceChildren(...(produtos.length ? produtos.map(c => cartao({
-        cor: D.setor(c.setor).cor,
-        icone: D.setor(c.setor).icone,
-        titulo: c.nome || 'Sem nome',
-        sub: (c.marca ? c.marca + '  \u2022  ' : '') + D.setor(c.setor).nome
-          + (c.codigo ? '  \u2022  ' + c.codigo : ''),
-        extra: (D.UNIDADES[c.unidade] || D.UNIDADES.UND).sigla
-          + (c.porCaixa > 1 ? '  \u2022  ' + c.porCaixa + ' por caixa' : '')
-          + (c.preco > 0 ? '  \u2022  ' + D.moeda(c.preco) : ''),
-        selo: validadesDoProduto(c.nome).length
-          ? { texto: validadesDoProduto(c.nome).length + ' lote(s)', cor: D.setor(c.setor).cor }
-          : null,
-        botoes: a.configura(c.setor)
-          ? [{ texto: 'Lancar validade', onclick: () => lancarValidade(c) },
-             { texto: 'Editar', sec: true, onclick: () => formProduto(c, desenhar) }] : null,
-        onclick: () => formProduto(c, desenhar)
-      })) : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
+      corpo.replaceChildren(...(produtos.length ? produtos.map(c => {
+        // Validade no proprio item do estoque: quem abre a lista quer saber o que
+        // ja esta com data marcada sem ter que ir ate o outro modulo conferir.
+        const lotes = validadesDoProduto(c.nome).filter(p => !p.resolvido)
+          .sort((x, y) => x.validade.localeCompare(y.validade));
+        const proximo = lotes[0];
+        const f = proximo ? D.faixa(proximo) : null;
+
+        return cartao({
+          cor: f && f.chave !== 'OK' ? f.cor : D.setor(c.setor).cor,
+          icone: D.setor(c.setor).icone,
+          titulo: c.nome || 'Sem nome',
+          sub: (c.marca ? c.marca + '  \u2022  ' : '') + D.setor(c.setor).nome
+            + (c.codigo ? '  \u2022  ' + c.codigo : ''),
+          extra: [
+            (D.UNIDADES[c.unidade] || D.UNIDADES.UND).sigla
+              + (D.temFator(c.unidade) && c.porCaixa > 1 ? ' de ' + c.porCaixa + ' und' : ''),
+            c.preco > 0 ? D.moeda(c.preco) : null,
+            // Cada lote com a sua data: "45 und vence 12/08  \u2022  60 und vence 02/09".
+            ...lotes.slice(0, 3).map(p => D.quantidadeTexto(p) + ' vence ' + D.data(p.validade)
+              + (p.lote ? ' (lote ' + p.lote + ')' : ''))
+          ].filter(Boolean).join('\n')
+            + (lotes.length > 3 ? '\n+ ' + (lotes.length - 3) + ' lote(s)' : ''),
+          selo: proximo
+            ? { texto: lotes.length > 1 ? lotes.length + ' lotes \u2022 ' + D.data(proximo.validade)
+                : 'vence ' + D.data(proximo.validade), cor: f.cor }
+            : { texto: 'sem validade', cor: '#90A4AE' },
+          botoes: a.configura(c.setor)
+            ? [{ texto: 'Lancar validade', onclick: () => lancarValidade(c, desenhar) },
+               { texto: 'Editar', sec: true, onclick: () => formProduto(c, desenhar) },
+               { texto: 'Excluir', sec: true, onclick: () => excluirProduto(c, desenhar) }] : null,
+          onclick: () => formProduto(c, desenhar)
+        });
+      }) : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
         : 'Nenhum produto cadastrado.\nCadastre aqui e ele ja aparece nas outras telas.')]));
     }
 
@@ -138,6 +172,38 @@ const validadesDoProduto = nome => Dados.ativos('produtos')
   .filter(p => (p.nome || '').trim().toLowerCase() === (nome || '').trim().toLowerCase());
 
 /**
+ * Excluir produto do cadastro. Os lotes de validade dele ficam orfaos na tela de
+ * validades, entao a pergunta e honesta: some so o cadastro ou some tudo.
+ */
+function excluirProduto(c, aoSalvar) {
+  const a = D.Acesso;
+  if (!a.configura(c.setor)) return toast('Sem permissao para excluir neste setor.');
+
+  const lotes = validadesDoProduto(c.nome).filter(p => !p.resolvido);
+  const tambemLotes = marcador('Apagar tambem os ' + lotes.length + ' lote(s) de validade', true);
+
+  modal({
+    titulo: 'Excluir ' + c.nome,
+    textoOk: 'Excluir',
+    conteudo: [
+      aviso('O historico de quebra, contagem e falta que ja citou este produto continua '
+        + 'como esta — o que sai e o cadastro.', '#455A64'),
+      lotes.length ? tambemLotes.el : null,
+      lotes.length ? h('div', { class: 'sub' }, lotes
+        .map(p => '• ' + D.quantidadeTexto(p) + ' vence ' + D.data(p.validade)).join('\n')) : null
+    ].filter(Boolean),
+    aoConfirmar: () => {
+      if (lotes.length && tambemLotes.input.checked) {
+        lotes.forEach(p => Dados.excluir('produtos', p, a.nome()));
+      }
+      Dados.excluir('catalogo', c, a.nome());
+      toast(c.nome + ' excluido do cadastro.');
+      if (aoSalvar) aoSalvar();
+    }
+  });
+}
+
+/**
  * Cadastro do produto em si. E esta lista que alimenta a busca da contagem, das
  * faltas na gondola, das desistencias e do leitor de codigo de barras — por isso
  * ela merece um cadastro proprio, e nao so nascer de um bipe.
@@ -154,14 +220,33 @@ function formProduto(existente, aoSalvar) {
   const codigo = campo('Codigo de barras', c.codigo || '', { inputmode: 'numeric' });
   const setorSel = lista('Setor', opcoesSetor(), c.setor);
   const unidade = lista('Como e vendido', opcoesUnidade(), c.unidade || 'UND');
-  const porCaixa = campo('Unidades por caixa', String(c.porCaixa || 1), { type: 'number' });
+  const porCaixa = campo(D.rotuloFator(c.unidade), String(c.porCaixa || 1), { type: 'number' });
   const preco = campo('Preco de venda', c.preco ? D.numero(c.preco) : '', { inputmode: 'decimal' });
+
+  // Vendido por unidade nao tem "quantas vem na caixa". O campo some em vez de
+  // ficar pedindo um numero que nao existe.
+  const ajustarFator = () => {
+    const mostra = D.temFator(unidade.input.value);
+    porCaixa.el.style.display = mostra ? '' : 'none';
+    porCaixa.el.querySelector('label').textContent = D.rotuloFator(unidade.input.value);
+    if (!mostra) porCaixa.input.value = 1;
+  };
+  unidade.input.addEventListener('change', ajustarFator);
+  setTimeout(ajustarFator);
+
+  const lotes = existente ? validadesDoProduto(c.nome).filter(p => !p.resolvido)
+    .sort((x, y) => x.validade.localeCompare(y.validade)) : [];
 
   modal({
     titulo: existente ? c.nome || 'Produto' : 'Novo produto',
     conteudo: [nome.el, marca.el, codigo.el, setorSel.el, unidade.el, porCaixa.el, preco.el,
+      lotes.length ? h('div', { class: 'rotulo-secao' }, 'Lotes em estoque') : null,
+      lotes.length ? h('div', { class: 'sub', texto: lotes
+        .map(p => '• ' + D.quantidadeTexto(p) + ' vence ' + D.data(p.validade)
+          + (p.lote ? '  (lote ' + p.lote + ')' : '')).join('\n') }) : null,
       existente ? h('div', { class: 'sub', estilo: { marginTop: '10px' },
-        texto: validadesDoProduto(c.nome).length + ' lote(s) de validade lancados para este produto.' }) : null
+        texto: lotes.length ? 'Use "Lancar validade" para somar mais um lote com outra data.'
+          : 'Nenhum lote de validade lancado ainda.' }) : null
     ].filter(Boolean),
     aoConfirmar: () => {
       if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
@@ -173,8 +258,10 @@ function formProduto(existente, aoSalvar) {
       Object.assign(c, {
         nome: nome.input.value.trim(), marca: marca.input.value.trim(), codigo: codigoNovo,
         setor: setorSel.input.value, unidade: unidade.input.value,
-        porCaixa: Math.max(1, parseInt(porCaixa.input.value) || 1),
-        preco: D.lerNumero(preco.input.value)
+        porCaixa: D.temFator(unidade.input.value)
+          ? Math.max(1, parseInt(porCaixa.input.value) || 1) : 1,
+        preco: D.lerNumero(preco.input.value),
+        incompleto: false
       });
       Dados.gravar('catalogo', c, a.nome());
       toast('Produto salvo.');
@@ -183,32 +270,244 @@ function formProduto(existente, aoSalvar) {
   });
 }
 
-/** Do cadastro para a validade: o produto ja vai preenchido, so falta a data. */
-function lancarValidade(c) {
+/**
+ * Do cadastro para a validade. Cada chamada cria um LOTE novo: 45 und da bolacha
+ * que vence dia 12 e 60 und da mesma bolacha que vence dia 02 sao duas linhas,
+ * nao uma que sobrescreve a outra.
+ */
+function lancarValidade(c, aoSalvar) {
   const a = D.Acesso;
   const validade = campo('Vence em', D.hoje(), { type: 'date' });
-  const quantidade = campo('Quantidade', '1', { type: 'number' });
+  const quantidade = campo('Quantidade', '1', { type: 'number', inputmode: 'decimal' });
   const unidade = lista('Unidade', opcoesUnidade(), c.unidade || 'UND');
+  const fator = campo(D.rotuloFator(c.unidade), String(c.porCaixa || 1), { type: 'number' });
   const lote = campo('Lote (opcional)', '');
 
+  const ajustarFator = () => {
+    const mostra = D.temFator(unidade.input.value);
+    fator.el.style.display = mostra ? '' : 'none';
+    fator.el.querySelector('label').textContent = D.rotuloFator(unidade.input.value);
+    if (!mostra) fator.input.value = 1;
+  };
+  unidade.input.addEventListener('change', ajustarFator);
+  setTimeout(ajustarFator);
+
+  const jaTem = validadesDoProduto(c.nome).filter(p => !p.resolvido)
+    .sort((x, y) => x.validade.localeCompare(y.validade));
+
   modal({
-    titulo: 'Validade de ' + c.nome,
-    conteudo: [validade.el, quantidade.el, unidade.el, lote.el],
+    titulo: 'Novo lote de ' + c.nome,
+    textoOk: 'Lancar lote',
+    conteudo: [
+      jaTem.length ? aviso('Ja existe(m) ' + jaTem.length + ' lote(s) deste produto:\n'
+        + jaTem.map(p => '• ' + D.quantidadeTexto(p) + ' vence ' + D.data(p.validade)).join('\n')
+        + '\n\nEste vai ser mais um, separado.', '#0277BD') : null,
+      validade.el, quantidade.el, unidade.el, fator.el, lote.el
+    ].filter(Boolean),
     aoConfirmar: () => {
       if (!validade.input.value) { toast('Falta a data de validade.'); return false; }
+      const qtd = D.lerNumero(quantidade.input.value);
+      if (qtd <= 0) { toast('Coloque a quantidade do lote.'); return false; }
+
+      const igual = jaTem.find(p => p.validade === validade.input.value
+        && (p.lote || '') === lote.input.value.trim());
+      if (igual) {
+        toast('Ja existe um lote com essa data. Edite ele em Validades.');
+        return false;
+      }
+
       Dados.gravar('produtos', Dados.novo({
-        nome: c.nome, setor: c.setor, validade: validade.input.value,
-        quantidade: D.lerNumero(quantidade.input.value) || 1,
-        unidade: unidade.input.value, fator: Math.max(1, c.porCaixa || 1),
-        valorUnitario: c.preco || 0, lote: lote.input.value.trim(), observacao: '',
+        nome: c.nome, marca: c.marca || '', setor: c.setor, validade: validade.input.value,
+        quantidade: qtd,
+        unidade: unidade.input.value,
+        fator: D.temFator(unidade.input.value)
+          ? Math.max(1, parseInt(fator.input.value) || 1) : 1,
+        precoUnitario: c.preco || 0, lote: lote.input.value.trim(),
+        localizacao: '', observacao: '', resolvido: false,
         avisou30: false, avisou15: false, avisou2: false
       }), a.nome());
-      toast('Validade lancada.');
+      toast('Lote lancado.');
+      if (aoSalvar) aoSalvar();
     }
   });
 }
 
-const endereco = p => (p.rua || 'A') + (p.posicao || 1) + (p.nivel ? '-N' + p.nivel : '');
+// ------------------------------------------------------- mapa do deposito
+
+/**
+ * Endereco de palete: corredor + posicao + lado + nivel. O lado existe porque
+ * "palete A3" sozinho manda a pessoa procurar nos dois lados do corredor.
+ */
+const LADOS = [
+  { valor: 'E', texto: 'Esquerda', curto: 'ESQ' },
+  { valor: 'D', texto: 'Direita', curto: 'DIR' }
+];
+
+const endereco = p => (p.rua || 'A') + (p.posicao || 1)
+  + (p.lado ? '-' + p.lado : '') + (p.nivel ? '-N' + p.nivel : '');
+
+/** Corredores que o dono desenhou; sem nenhum, o mapa usa o que os paletes dizem. */
+function corredores() {
+  const salvos = Dados.ativos('corredores')
+    .sort((a, b) => (a.ordem || 0) - (b.ordem || 0) || (a.nome || '').localeCompare(b.nome || ''));
+  if (salvos.length) return salvos;
+
+  // Deposito ainda nao desenhado: o mapa nasce do que ja existe cadastrado, para
+  // a tela nunca aparecer vazia para quem ja tem palete lancado.
+  const mapa = new Map();
+  Dados.ativos('paletes').forEach(p => {
+    const nome = p.rua || 'A';
+    const c = mapa.get(nome) || { id: 'auto:' + nome, nome, posicoes: 1, niveis: 1,
+      lados: ['E', 'D'], automatico: true };
+    c.posicoes = Math.max(c.posicoes, p.posicao || 1);
+    c.niveis = Math.max(c.niveis, (p.nivel || 0) + 1);
+    mapa.set(nome, c);
+  });
+  return [...mapa.values()].sort((a, b) => a.nome.localeCompare(b.nome));
+}
+
+const paleteEm = (corredor, posicao, lado, nivel) => Dados.ativos('paletes').find(p =>
+  (p.rua || 'A') === corredor && (p.posicao || 1) === posicao
+  && (p.lado || 'E') === lado && (p.nivel || 0) === nivel);
+
+/** O mapa em si: cada corredor visto de cima, com os dois lados e os niveis. */
+function telaDeposito(registrar) {
+  registrar('deposito', () => {
+    const a = D.Acesso;
+    const lista = corredores();
+    const automatico = lista.length && lista[0].automatico;
+
+    const desenharCorredor = c => {
+      const lados = (c.lados && c.lados.length ? c.lados : ['E', 'D']);
+      const colunaLado = ladoChave => {
+        const posicoes = [];
+        for (let pos = 1; pos <= (c.posicoes || 1); pos++) {
+          const niveis = [];
+          // Nivel mais alto em cima, como a prateleira e vista de frente.
+          for (let n = (c.niveis || 1) - 1; n >= 0; n--) {
+            const p = paleteEm(c.nome, pos, ladoChave, n);
+            const cor = p ? D.setor(p.setor).cor : null;
+            niveis.push(h('div', {
+              class: 'celula' + (p ? ' cheia' : ''),
+              estilo: p ? { background: cor, borderColor: cor } : {},
+              onclick: () => p ? formPalete(p)
+                : (a.configura(null)
+                  ? formPalete(null, { rua: c.nome, posicao: pos, lado: ladoChave, nivel: n })
+                  : toast('Posicao vazia.'))
+            }, p ? [
+              h('b', { texto: (n ? 'N' + n + '  ' : 'Chao  ') + (p.codigo || '') }),
+              h('small', { texto: resumoPalete(p) })
+            ] : [
+              h('small', { texto: (n ? 'N' + n : 'Chao') + ' — vazio' })
+            ]));
+          }
+          posicoes.push(h('div', { class: 'pos' }, [
+            h('div', { class: 'num', texto: c.nome + pos }),
+            h('div', { class: 'niveis' }, niveis)
+          ]));
+        }
+        return h('div', { class: 'lado' }, [
+          h('div', { class: 'rotulo-lado',
+            texto: (LADOS.find(l => l.valor === ladoChave) || LADOS[0]).curto }),
+          ...posicoes
+        ]);
+      };
+
+      const ocupados = Dados.ativos('paletes').filter(p => (p.rua || 'A') === c.nome).length;
+      return h('div', { class: 'corredor' }, [
+        h('div', { class: 'cab' }, [
+          h('b', { texto: 'Corredor ' + c.nome }),
+          h('small', { texto: ocupados + ' palete(s)  •  ' + (c.posicoes || 1) + ' posicao(oes)  •  '
+            + (c.niveis || 1) + ' nivel(is)' }),
+          a.configuraLoja() && !c.automatico
+            ? h('span', { estilo: { cursor: 'pointer', fontSize: '18px' },
+                onclick: () => formCorredor(c) }, '✎') : null
+        ].filter(Boolean)),
+        h('div', { class: 'corredor-grade' }, [
+          colunaLado(lados[0] || 'E'),
+          h('div', { class: 'via' }, [h('span', { texto: 'CORREDOR' })]),
+          lados.length > 1 ? colunaLado(lados[1]) : null
+        ].filter(Boolean))
+      ]);
+    };
+
+    return h('div', {}, [
+      cabecalho({ titulo: '🗺 Mapa do deposito',
+        sub: lista.length + ' corredor(es)  •  '
+          + Dados.ativos('paletes').length + ' palete(s)',
+        voltar,
+        acao: a.configuraLoja()
+          ? { texto: '＋ Corredor', onclick: () => formCorredor(null) } : null }),
+      h('main', {}, lista.length ? [
+        automatico
+          ? aviso('Este mapa foi montado a partir dos paletes ja cadastrados. '
+            + (a.configuraLoja()
+              ? 'Toque em "＋ Corredor" para desenhar o deposito do jeito que ele e.'
+              : 'O dono pode desenhar os corredores de verdade.'), '#0277BD')
+          : aviso('Toque numa posicao vazia para colocar um palete ali; '
+            + 'toque num palete para ver o que tem dentro.', '#455A64'),
+        ...lista.map(desenharCorredor)
+      ] : [vazio('Deposito ainda sem corredores.\n'
+        + (a.configuraLoja() ? 'Toque em "＋ Corredor" para desenhar o seu.'
+          : 'Peca ao dono para desenhar o deposito.'))])
+    ]);
+  });
+}
+
+/** Onde o dono descreve um corredor do deposito dele. */
+function formCorredor(existente) {
+  const a = D.Acesso;
+  if (!a.configuraLoja()) return toast('Só o dono desenha o deposito.');
+
+  const c = existente && !existente.automatico ? existente : Dados.novo({
+    nome: existente ? existente.nome : proximaLetraCorredor(),
+    posicoes: existente ? existente.posicoes : 6,
+    niveis: existente ? existente.niveis : 2,
+    lados: ['E', 'D'],
+    ordem: Dados.ativos('corredores').length
+  });
+
+  const nome = campo('Nome do corredor (A, B, Rua 1...)', c.nome);
+  const posicoes = campo('Quantas posicoes tem o corredor', c.posicoes || 6, { type: 'number' });
+  const niveis = campo('Quantos niveis empilham (1 = so o chao)', c.niveis || 1, { type: 'number' });
+  const esq = marcador('Tem palete do lado esquerdo', (c.lados || []).includes('E'));
+  const dir = marcador('Tem palete do lado direito', (c.lados || []).includes('D'));
+
+  modal({
+    titulo: existente ? 'Corredor ' + c.nome : 'Novo corredor',
+    conteudo: [
+      aviso('Desenhe como o deposito e de verdade: quantas posicoes o corredor tem '
+        + 'de ponta a ponta, quantos paletes empilham em cada uma e se ha mercadoria '
+        + 'dos dois lados.', '#455A64'),
+      nome.el, posicoes.el, niveis.el, esq.el, dir.el
+    ],
+    aoConfirmar: () => {
+      const lados = [esq.input.checked ? 'E' : null, dir.input.checked ? 'D' : null].filter(Boolean);
+      if (!nome.input.value.trim()) { toast('Falta o nome do corredor.'); return false; }
+      if (!lados.length) { toast('Marque pelo menos um lado.'); return false; }
+      Object.assign(c, {
+        nome: nome.input.value.trim().toUpperCase(),
+        posicoes: Math.max(1, parseInt(posicoes.input.value) || 1),
+        niveis: Math.max(1, parseInt(niveis.input.value) || 1),
+        lados
+      });
+      delete c.automatico;
+      Dados.gravar('corredores', c, a.nome());
+      toast('Corredor ' + c.nome + ' salvo.');
+      ir('deposito');
+      render();
+    }
+  });
+}
+
+const proximaLetraCorredor = () => {
+  const usados = new Set(Dados.ativos('corredores').map(c => (c.nome || '').toUpperCase()));
+  for (let i = 0; i < 26; i++) {
+    const letra = String.fromCharCode(65 + i);
+    if (!usados.has(letra)) return letra;
+  }
+  return 'A';
+};
 
 function resumoPalete(p) {
   const itens = p.itens || [];
@@ -218,23 +517,47 @@ function resumoPalete(p) {
 }
 
 const textoItemPalete = i =>
-  D.numero(i.quantidade || 0) + ' ' + (D.UNIDADES[i.unidade] || D.UNIDADES.UND).sigla + '  ' + i.produto;
+  D.numero(i.quantidade || 0) + ' ' + (D.UNIDADES[i.unidade] || D.UNIDADES.UND).sigla + '  ' + i.produto
+  + (i.validade ? '  •  vence ' + D.data(i.validade) : '')
+  + (i.lote ? '  (lote ' + i.lote + ')' : '');
 
-function formPalete(existente) {
+function formPalete(existente, posicaoInicial) {
   const a = D.Acesso;
-  const p = existente || Dados.novo({
+  const p = existente || Dados.novo(Object.assign({
     codigo: 'Palete ' + (Dados.ativos('paletes').length + 1),
     setor: a.dono() ? 'DEPOSITO' : a.meuSetor(),
-    rua: 'A', posicao: 1, nivel: 0, observacao: '', itens: []
-  });
+    rua: 'A', posicao: 1, lado: 'E', nivel: 0, observacao: '', itens: []
+  }, posicaoInicial || {}));
   const itens = (p.itens || []).map(i => ({ ...i }));
 
   const codigo = campo('Identificacao', p.codigo);
   const setorSel = lista('Setor dono da mercadoria', opcoesSetor(), p.setor);
-  const rua = campo('Rua', p.rua || 'A');
+  const rua = campo('Corredor', p.rua || 'A');
   const posicao = campo('Posicao', p.posicao || 1, { type: 'number' });
+  const ladoSel = lista('Lado do corredor',
+    LADOS.map(l => ({ valor: l.valor, texto: l.texto })), p.lado || 'E');
   const nivel = campo('Nivel (0 = chao)', p.nivel || 0, { type: 'number' });
   const obs = area('Observacao', p.observacao);
+  const ondeFica = aviso('', '#455A64');
+
+  function atualizarEndereco() {
+    const tmp = {
+      rua: (rua.input.value.trim() || 'A').toUpperCase(),
+      posicao: Math.max(1, parseInt(posicao.input.value) || 1),
+      lado: ladoSel.input.value,
+      nivel: Math.max(0, parseInt(nivel.input.value) || 0)
+    };
+    const ocupante = paleteEm(tmp.rua, tmp.posicao, tmp.lado, tmp.nivel);
+    const lado = (LADOS.find(l => l.valor === tmp.lado) || LADOS[0]).texto.toLowerCase();
+    ondeFica.textContent = 'Endereco: ' + endereco(tmp) + '\n'
+      + 'Corredor ' + tmp.rua + ', posicao ' + tmp.posicao + ', lado ' + lado + ', '
+      + (tmp.nivel ? 'nivel ' + tmp.nivel : 'no chao') + '.'
+      + (ocupante && ocupante.id !== p.id
+        ? '\n⚠ Ja existe o palete "' + ocupante.codigo + '" nessa posicao.' : '');
+  }
+  [rua, posicao, nivel].forEach(c => c.input.addEventListener('input', atualizarEndereco));
+  ladoSel.input.addEventListener('change', atualizarEndereco);
+  setTimeout(atualizarEndereco);
 
   const editor = listaEditavel(itens,
     item => [h('div', { class: 'titulo', texto: item.produto || 'Sem nome' }),
@@ -252,56 +575,129 @@ function formPalete(existente) {
 
   function salvar() {
     Object.assign(p, {
-      codigo: codigo.input.value.trim(),
+      codigo: codigo.input.value.trim() || ('Palete ' + (Dados.ativos('paletes').length + 1)),
       setor: setorSel.input.value,
       rua: (rua.input.value.trim() || 'A').toUpperCase(),
       posicao: Math.max(1, parseInt(posicao.input.value) || 1),
+      lado: ladoSel.input.value,
       nivel: Math.max(0, parseInt(nivel.input.value) || 0),
       observacao: obs.input.value.trim(),
       itens: itens.filter(i => i.produto)
     });
     Dados.gravar('paletes', p, a.nome());
     toast('Palete ' + endereco(p) + ' salvo.');
-    ir('estoque');
+    ir('deposito');
     render();
   }
 
   app().replaceChildren(h('div', {}, [
     cabecalho({ titulo: existente ? '📦 ' + p.codigo : '📦 Novo palete',
       sub: 'Diga onde ele esta e o que tem nele',
-      voltar: () => { ir('estoque'); render(); } }),
+      voltar: () => { ir('deposito'); render(); } }),
     h('main', {}, [
       codigo.el, setorSel.el,
-      h('div', { class: 'rotulo-secao' }, 'Endereco no deposito'),
+      h('div', { class: 'rotulo-secao' }, 'Onde ele esta no deposito'),
       h('div', { estilo: { display: 'flex', gap: '8px' } }, [rua.el, posicao.el, nivel.el]),
+      ladoSel.el, ondeFica,
       h('div', { class: 'rotulo-secao' }, 'Produtos no palete'),
       editor.caixa,
-      h('div', { class: 'aviso-instalar', onclick: novoItem }, '+  Adicionar produto'),
+      h('div', { class: 'aviso-instalar', estilo: { cursor: 'pointer', fontWeight: '700',
+        color: '#2E7D32' }, onclick: novoItem }, '＋  Adicionar produto ao palete'),
       obs.el
     ]),
     barra([
       { texto: 'Salvar', onclick: salvar },
       existente ? { texto: 'Excluir', classe: 'vermelho', onclick: () => confirmar('Excluir palete',
         'Remover o palete ' + endereco(p) + ' do mapa?', () => {
-          Dados.excluir('paletes', p, a.nome()); ir('estoque'); render();
+          Dados.excluir('paletes', p, a.nome()); ir('deposito'); render();
         }) } : null
     ])
   ]));
 }
 
+/**
+ * Colocar produto no palete.
+ *
+ * Antes isso era uma fila de tres prompt() do navegador — e prompt() dentro do
+ * PWA instalado no iPhone simplesmente nao abre: a pessoa tocava em "adicionar
+ * produto" e nada acontecia. Agora e um formulario de verdade, com o produto
+ * vindo do cadastro e o lote escolhido na lista, para saber qual data esta
+ * naquele palete quando o mesmo produto tem duas.
+ */
 function dialogoItemPalete(item, pronto) {
-  const produto = prompt('Produto:', item.produto || '');
-  if (produto === null) return;
-  const qtd = prompt('Quantidade:', item.quantidade || 1);
-  if (qtd === null) return;
-  const unidades = Object.keys(D.UNIDADES);
-  const un = prompt('Unidade (' + unidades.join(', ') + '):', item.unidade || 'CX');
-  if (un === null) return;
-  item.produto = produto.trim();
-  item.quantidade = D.lerNumero(qtd);
-  item.unidade = unidades.includes((un || '').toUpperCase()) ? un.toUpperCase() : 'CX';
-  if (!item.id) item.id = crypto.randomUUID();
-  pronto();
+  const catalogo = Dados.ativos('catalogo')
+    .filter(c => (c.nome || '').trim())
+    .sort((x, y) => (x.nome || '').localeCompare(y.nome || ''));
+
+  const escolha = lista('Produto do cadastro',
+    [{ valor: '', texto: '— digitar um produto novo —' }].concat(
+      catalogo.map(c => ({ valor: c.id,
+        texto: c.nome + (c.marca ? ' - ' + c.marca : '') }))),
+    (catalogo.find(c => c.nome === item.produto) || {}).id || '');
+
+  const nome = campo('Nome do produto', item.produto || '');
+  const quantidade = campo('Quantidade', item.quantidade || 1,
+    { type: 'number', inputmode: 'decimal' });
+  const unidade = lista('Unidade', opcoesUnidade(), item.unidade || 'CX');
+
+  // Lote: so aparece quando o produto TEM mais de uma data lancada, que e
+  // exatamente quando saber qual delas esta no palete importa.
+  const caixaLote = h('div', {});
+  let loteSel = null;
+
+  function montarLotes() {
+    const lotes = validadesDoProduto(nome.input.value).filter(x => !x.resolvido)
+      .sort((x, y) => x.validade.localeCompare(y.validade));
+    caixaLote.replaceChildren();
+    loteSel = null;
+    if (!lotes.length) {
+      caixaLote.append(h('div', { class: 'sub' },
+        'Nenhum lote de validade lancado para este produto.'));
+      return;
+    }
+    loteSel = lista('Qual lote esta neste palete',
+      [{ valor: '', texto: '— nao sei / misturado —' }].concat(
+        lotes.map(x => ({ valor: x.id,
+          texto: 'Vence ' + D.data(x.validade) + '  •  ' + D.quantidadeTexto(x)
+            + (x.lote ? '  (lote ' + x.lote + ')' : '') }))),
+      item.validadeId || '');
+    caixaLote.append(loteSel.el);
+  }
+
+  escolha.input.addEventListener('change', () => {
+    const c = catalogo.find(x => x.id === escolha.input.value);
+    if (!c) return;
+    nome.input.value = c.nome;
+    if (D.temFator(c.unidade)) unidade.input.value = c.unidade;
+    montarLotes();
+  });
+  nome.input.addEventListener('change', montarLotes);
+  setTimeout(montarLotes);
+
+  modal({
+    titulo: item.produto ? 'Editar item do palete' : 'Produto no palete',
+    textoOk: 'Colocar no palete',
+    conteudo: [escolha.el, nome.el, quantidade.el, unidade.el, caixaLote],
+    aoConfirmar: () => {
+      if (!nome.input.value.trim()) { toast('Escolha ou digite o produto.'); return false; }
+      const qtd = D.lerNumero(quantidade.input.value);
+      if (qtd <= 0) { toast('Coloque a quantidade.'); return false; }
+
+      item.produto = nome.input.value.trim();
+      item.quantidade = qtd;
+      item.unidade = unidade.input.value;
+      item.validadeId = loteSel ? loteSel.input.value : '';
+      const lote = item.validadeId
+        ? Dados.ativos('produtos').find(x => x.id === item.validadeId) : null;
+      item.validade = lote ? lote.validade : '';
+      item.lote = lote ? (lote.lote || '') : '';
+      if (!item.id) item.id = crypto.randomUUID();
+
+      // Produto digitado na hora entra no cadastro, igual ao resto do app.
+      D.garantirProduto(item.produto, D.Acesso.meuSetor(), D.Acesso.nome());
+      pronto();
+    }
+  });
 }
 
 /** Cruza a falta na gondola com o estoque conhecido — igual ao Repo.java. */
@@ -790,24 +1186,41 @@ function telaMarcarRuptura(registrar) {
     function desenhar() {
       const f = filtro.trim().toLowerCase();
       const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
-      const filhos = visiveis.map(linha);
+      const filhos = [];
 
-      // Falta e coisa de corredor: o repositor precisa poder escrever o nome do
-      // produto na hora, mesmo que a busca ja esteja mostrando parecidos.
+      /*
+       * Falta e coisa de corredor: o repositor ve o buraco na gondola de um
+       * produto que ninguem cadastrou ainda e precisa marcar assim mesmo.
+       *
+       * O botao ja existia, mas so no FIM da lista — com 40 produtos parecidos
+       * acima dele, ninguem rolava ate la e a tela parecia so aceitar produto
+       * cadastrado. Agora ele e a primeira coisa que aparece ao digitar.
+       */
       if (f && !itens.some(i => i.nome.trim().toLowerCase() === f)) {
-        filhos.push(h('button', { class: 'principal', onclick: () => {
-          const nome = filtro.trim();
-          itens.push({ nome, setor: a.meuSetor(), preco: 0, codigo: '' });
-          itens.sort((x, y) => x.nome.localeCompare(y.nome));
-          marcados.add(nome);
-          filtro = '';
-          busca.input.value = '';
-          desenhar();
-          atualizarRodape();
-        } }, '+ Marcar "' + filtro.trim() + '" assim mesmo'));
+        filhos.push(h('button', {
+          class: 'principal',
+          estilo: { marginBottom: '10px' },
+          onclick: () => {
+            const nome = filtro.trim();
+            itens.push({ nome, setor: a.meuSetor(), preco: 0, codigo: '' });
+            itens.sort((x, y) => x.nome.localeCompare(y.nome));
+            marcados.add(nome);
+            filtro = '';
+            busca.input.value = '';
+            desenhar();
+            atualizarRodape();
+          }
+        }, '＋ Marcar "' + filtro.trim() + '" (produto novo)'));
       }
-      if (!filhos.length) {
-        filhos.push(vazio('Nenhum produto cadastrado ainda. Digite o nome acima para criar.'));
+
+      filhos.push(...visiveis.map(linha));
+
+      if (!visiveis.length && !f) {
+        filhos.push(vazio('Nenhum produto cadastrado ainda.\n'
+          + 'Digite o nome do produto acima para marcar a falta dele.'));
+      } else if (!visiveis.length) {
+        filhos.push(vazio('Nenhum produto cadastrado com esse nome.\n'
+          + 'Use o botao acima para marcar assim mesmo.'));
       }
       corpo.replaceChildren(...filhos);
     }
@@ -830,7 +1243,7 @@ function telaMarcarRuptura(registrar) {
       voltar();
     }
 
-    const busca = campo('', '', { placeholder: 'Procurar produto...' });
+    const busca = campo('', '', { placeholder: 'Procurar ou escrever um produto novo...' });
     busca.input.oninput = () => { filtro = busca.input.value; desenhar(); };
 
     desenhar();
@@ -838,7 +1251,7 @@ function telaMarcarRuptura(registrar) {
 
     return h('div', {}, [
       cabecalho({ titulo: '\ud83d\udd73 Marcar faltas',
-        sub: 'Marque o que esta faltando na gondola', voltar }),
+        sub: 'Nao achou? escreva o nome e marque assim mesmo', voltar }),
       h('div', { class: 'topo-marcar' }, [busca.el]),
       corpo,
       h('div', { class: 'rodape-marcar' }, [rodapeTexto, btSalvar])
@@ -889,6 +1302,7 @@ function desistencias(registrar) {
   telaMarcarDesistencia(registrar);
   registrar('desistencias', () => {
     const a = D.Acesso;
+    if (!a.veDesistencias()) return semAcessoAoCaixa();
     const itens = Dados.ativos('desistencias')
       .filter(d => a.vePessoa(d.operador, d.autor))
       .sort((x, y) => (x.recolhido - y.recolhido) || y.atualizadoEm - x.atualizadoEm);
@@ -956,6 +1370,7 @@ function desistencias(registrar) {
 function telaMarcarDesistencia(registrar) {
   registrar('desistencia-marcar', () => {
     const a = D.Acesso;
+    if (!a.veDesistencias()) return semAcessoAoCaixa();
     const itens = itensConhecidos();
     const marcados = new Map();   // nome -> quantidade
     let filtro = '';
@@ -1120,6 +1535,7 @@ function escala(registrar) {
   telaPessoa(registrar);
   telaAjusteDoDia(registrar);
   telaDomingos(registrar);
+  telaFeriado(registrar);
 
   registrar('escala', params => {
     const a = D.Acesso;
@@ -1152,7 +1568,7 @@ function escala(registrar) {
             + '\nDomingo do mes: ' + (dom ? D.data(dom.data) : 'nenhum'),
           selo: padrao ? { texto: D.numero(horasSemana(padrao)) + 'h/sem', cor: D.setor(f.setor).cor }
             : { texto: 'sem padrao', cor: '#D32F2F' },
-          botoes: a.configura(f.setor) ? [
+          botoes: a.editaEscala(f.setor) ? [
             { texto: padrao ? 'Editar escala padrao' : 'Definir escala padrao',
               onclick: () => formPadrao(f, padrao) },
             { texto: 'Editar pessoa', sec: true, onclick: () => ir('escala-pessoa', { id: f.id }) }
@@ -1160,21 +1576,45 @@ function escala(registrar) {
         });
       }) : [vazio('Cadastre usuarios em Ajustes > Usuarios: eles entram aqui sozinhos.')];
       sub = pessoas.length + ' pessoa(s) na equipe';
-      if (a.configura(null)) fab = { texto: 'Nova pessoa', onclick: () => ir('escala-pessoa', {}) };
+      if (a.editaEscala()) fab = { texto: 'Nova pessoa', onclick: () => ir('escala-pessoa', {}) };
 
     } else if (aba === 'domingos') {
       return telaResumoDomingos(ano, m, chaveMes, troca);
 
     } else if (aba === 'datas') {
       const datas = feriadosProximos(90);
-      corpo = datas.map(d => cartao({
-        cor: d.dias <= 7 ? '#F57C00' : '#6A1B9A',
-        icone: d.tipo === 'COMERCIAL' ? '\ud83d\udecd' : '\ud83c\udf89',
-        titulo: d.nome,
-        sub: D.diaSemana(d.data) + ', ' + D.data(d.data) + '  \u2022  '
-          + (d.tipo === 'COMERCIAL' ? 'data comercial' : 'feriado'),
-        selo: { texto: d.dias === 0 ? 'HOJE' : 'em ' + d.dias + 'd',
-          cor: d.dias <= 7 ? '#F57C00' : '#6A1B9A' }
+      const pendentes = datas.filter(d => d.tipo === 'FERIADO' && !escalaDeFeriadoPronta(d.data));
+      corpo = pendentes.length
+        ? [aviso('\u26a0 ' + pendentes.length + ' feriado(s) ainda sem escala montada. '
+            + 'Toque em "Montar a escala" para dizer quem folga e quem vem.', '#D32F2F')]
+        : [aviso('Todos os feriados dos proximos 90 dias ja tem escala montada.')];
+
+      corpo.push(...datas.map(d => {
+        const pronta = d.tipo === 'FERIADO' && escalaDeFeriadoPronta(d.data);
+        const cobra = d.tipo === 'FERIADO' && !pronta;
+        const escalados = escalaDoDia(d.data).filter(t => !t.folga && a.veSetor(t.setor));
+        return cartao({
+          cor: cobra && d.dias <= AVISO_FERIADO ? '#D32F2F'
+            : (d.tipo === 'COMERCIAL' ? '#6A1B9A' : '#F57C00'),
+          icone: d.tipo === 'COMERCIAL' ? '\ud83d\udecd' : '\ud83c\udf89',
+          titulo: d.nome,
+          sub: D.diaSemana(d.data) + ', ' + D.data(d.data) + '  \u2022  '
+            + (d.tipo === 'COMERCIAL' ? 'data comercial' : 'feriado'),
+          extra: escalados.length
+            ? escalados.map(t => '\u2022 ' + t.funcionarioNome + '  ' + t.inicio + ' as ' + t.fim).join('\n')
+            : null,
+          selo: { texto: d.dias === 0 ? 'HOJE' : 'em ' + d.dias + 'd',
+            cor: d.dias <= AVISO_FERIADO ? '#D32F2F' : '#6A1B9A' },
+          destaque: cobra
+            ? { texto: d.dias <= AVISO_FERIADO
+                ? '\u26a0 Faltam ' + d.dias + ' dia(s) e ninguem foi escalado ainda.'
+                : 'Escala ainda nao montada.', cor: d.dias <= AVISO_FERIADO ? '#D32F2F' : '#F57C00' }
+            : (pronta ? { texto: '\u2714 Escala montada.', cor: '#2E7D32' } : null),
+          botoes: a.editaEscala()
+            ? [{ texto: pronta ? 'Rever a escala' : 'Montar a escala',
+                 onclick: () => ir('escala-feriado', { data: d.data }) }]
+            : null
+        });
       }));
       sub = datas.length + ' data(s) nos proximos 90 dias';
 
@@ -1194,17 +1634,26 @@ function escala(registrar) {
         const feriado = especiais[iso];
         const hoje = iso === D.hoje();
         const trabalhando = turnos.filter(t => !t.folga);
+        // Feriado sem ninguem decidido ainda continua gritando ate alguem montar.
+        const feriadoAberto = feriado && feriado.tipo === 'FERIADO' && !escalaDeFeriadoPronta(iso);
         corpo.push(cartao({
-          cor: feriado ? '#F57C00' : (hoje ? '#2E7D32' : '#90A4AE'),
+          cor: feriadoAberto ? '#D32F2F' : (feriado ? '#F57C00' : (hoje ? '#2E7D32' : '#90A4AE')),
           icone: feriado ? '\ud83c\udf89' : (hoje ? '\ud83d\udccd' : '\ud83d\uddd3'),
           titulo: dia + ' - ' + D.diaSemana(iso) + (hoje ? '  (hoje)' : ''),
           sub: trabalhando.length ? trabalhando.length + ' pessoa(s) escalada(s)' : 'Ninguem escalado',
           extra: trabalhando.map(t => '\u2022 ' + t.funcionarioNome + '  ' + t.inicio + ' as ' + t.fim
             + (t.doPadrao ? '' : '  (ajustado)')).join('\n'),
-          selo: feriado ? { texto: feriado.nome, cor: '#F57C00' }
+          selo: feriado ? { texto: feriado.nome, cor: feriadoAberto ? '#D32F2F' : '#F57C00' }
             : (hoje ? { texto: 'hoje', cor: '#2E7D32' } : null),
-          botoes: a.configura(null) || a.lider()
-            ? [{ texto: 'Ajustar este dia', onclick: () => ir('escala-dia', { data: iso }) }] : null
+          destaque: feriadoAberto
+            ? { texto: '\u26a0 Feriado sem escala montada: ninguem sabe quem folga e quem vem.',
+                cor: '#D32F2F' }
+            : null,
+          botoes: a.editaEscala()
+            ? [feriado
+                ? { texto: 'Montar o feriado', onclick: () => ir('escala-feriado', { data: iso }) }
+                : { texto: 'Ajustar este dia', onclick: () => ir('escala-dia', { data: iso }) }]
+            : null
         }));
       }
       if (corpo.length === 1) corpo.push(vazio('Este mes ja passou. Use as setas para ver o proximo.'));
@@ -1284,6 +1733,7 @@ const padraoDe = id => Dados.ativos('padroes').find(p => p.funcionarioId === id 
 function telaPessoa(registrar) {
   registrar('escala-pessoa', params => {
     const a = D.Acesso;
+    if (!a.editaEscala()) return soChefeMexeNaEscala('👤 Equipe');
     const existente = params.id ? Dados.ativos('funcionarios').find(f => f.id === params.id) : null;
     const f = existente || Dados.novo({
       usuarioId: '', nome: '', cargo: '', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
@@ -1332,6 +1782,7 @@ function telaAjusteDoDia(registrar) {
     const a = D.Acesso;
     const iso = params.data || D.hoje();
     sincronizarEquipe();
+    if (!a.editaEscala()) return soChefeMexeNaEscala('🗓 ' + D.data(iso));
     const pessoas = equipe().filter(f => a.veSetor(f.setor));
 
     const linhas = pessoas.map(f => {
@@ -1392,6 +1843,149 @@ function turnoDoDia(funcionarioId, iso) {
   return { inicio: p.inicio[i], fim: p.fim[i], folga: p.folga[i] };
 }
 
+// ------------------------------------------------------------------ feriado
+
+/** Com quantos dias de antecedencia o app comeca a cobrar a escala do feriado. */
+export const AVISO_FERIADO = 7;
+
+/**
+ * Feriado "montado" e feriado em que alguem ja decidiu o dia: existe pelo menos
+ * um turno gravado naquela data. Enquanto ninguem decide, o dia so herda o
+ * padrao da semana — e feriado que segue o padrao da terca normal e justamente
+ * o erro que essa tela existe para evitar.
+ */
+export function escalaDeFeriadoPronta(iso) {
+  return Dados.ativos('turnos').some(t => t.data === iso);
+}
+
+/** Feriados que ja entraram na janela de aviso e continuam sem escala. */
+export function feriadosSemEscala(dias = AVISO_FERIADO) {
+  return feriadosProximos(dias)
+    .filter(f => f.tipo === 'FERIADO' && !escalaDeFeriadoPronta(f.data));
+}
+
+/** O feriado (ou data comercial) que cai num dia, se cair. */
+const feriadoEm = iso => feriadosProximos(400).find(f => f.data === iso);
+
+/**
+ * Montar o feriado numa tela so: quem folga, quem vem e a que horas. E o mesmo
+ * turno gravado que a escala do mes le, entao salvar aqui ja atualiza o mes.
+ */
+function telaFeriado(registrar) {
+  registrar('escala-feriado', params => {
+    const a = D.Acesso;
+    const iso = params.data || D.hoje();
+    const info = feriadoEm(iso);
+    sincronizarEquipe();
+
+    if (!a.editaEscala()) {
+      return h('div', {}, [
+        cabecalho({ titulo: '🎉 ' + (info ? info.nome : D.data(iso)), voltar }),
+        h('main', {}, [
+          aviso('Quem monta a escala do feriado e o dono ou o lider. '
+            + 'Abaixo esta como o dia ficou.', '#455A64'),
+          ...escalaDoDia(iso).filter(t => a.veSetor(t.setor)).map(t => cartao({
+            cor: t.folga ? '#90A4AE' : D.setor(t.setor).cor,
+            icone: t.folga ? '🏖' : '👤',
+            titulo: t.funcionarioNome,
+            sub: D.setor(t.setor).nome,
+            selo: { texto: t.folga ? 'folga' : t.inicio + ' as ' + t.fim,
+              cor: t.folga ? '#90A4AE' : '#2E7D32' }
+          }))
+        ])
+      ]);
+    }
+
+    const pessoas = equipe().filter(f => a.veSetor(f.setor));
+    const linhas = pessoas.map(f => {
+      const atual = turnoDoDia(f.id, iso);
+      const folg = marcador('Folga', atual.folga);
+      const ini = campo('', atual.inicio || '08:00', { type: 'time' });
+      const fim = campo('', atual.fim || '16:00', { type: 'time' });
+      const aplicar = () => { ini.input.disabled = fim.input.disabled = folg.input.checked; };
+      folg.input.addEventListener('change', () => { aplicar(); atualizarResumo(); });
+      [ini, fim].forEach(c => c.input.addEventListener('input', atualizarResumo));
+      aplicar();
+      return { f, folg, ini, fim, el: h('div', { class: 'linha-dia' }, [
+        h('label', { texto: f.nome + '  •  ' + D.setor(f.setor).nome
+          + (f.cargo ? '  •  ' + f.cargo : '') }),
+        h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'center' } },
+          [ini.el, fim.el, folg.el])
+      ]) };
+    });
+
+    const resumo = aviso('');
+    function atualizarResumo() {
+      const vem = linhas.filter(l => !l.folg.input.checked);
+      const folga = linhas.length - vem.length;
+      resumo.textContent = vem.length + ' pessoa(s) trabalham  •  ' + folga + ' de folga\n'
+        + (vem.length
+          ? 'Abrindo com: ' + vem.map(l => l.f.nome.split(' ')[0] + ' ' + l.ini.input.value).join(', ')
+          : '⚠ Ninguem escalado: a loja fica sem equipe neste dia.');
+    }
+
+    function definirTodos(folga, inicio, fim) {
+      linhas.forEach(l => {
+        l.folg.input.checked = folga;
+        if (inicio) l.ini.input.value = inicio;
+        if (fim) l.fim.input.value = fim;
+        l.ini.input.disabled = l.fim.input.disabled = folga;
+      });
+      atualizarResumo();
+    }
+
+    function salvar() {
+      linhas.forEach(l => {
+        const gravado = Dados.ativos('turnos').find(t => t.funcionarioId === l.f.id && t.data === iso)
+          || Dados.novo({ funcionarioId: l.f.id, funcionarioNome: l.f.nome, setor: l.f.setor,
+            data: iso, inicio: '08:00', fim: '16:00', folga: false, observacao: '' });
+        Object.assign(gravado, {
+          funcionarioNome: l.f.nome, setor: l.f.setor,
+          folga: l.folg.input.checked,
+          inicio: l.ini.input.value || '08:00',
+          fim: l.fim.input.value || '16:00',
+          feriado: true,
+          observacao: info ? info.nome : 'Feriado'
+        });
+        Dados.gravar('turnos', gravado, a.nome());
+      });
+      toast('Feriado montado. O mes ja esta atualizado.');
+      ir('escala', { aba: 'mes', mes: iso.slice(0, 7) });
+      render();
+    }
+
+    setTimeout(atualizarResumo);
+
+    return h('div', {}, [
+      cabecalho({ titulo: '🎉 ' + (info ? info.nome : 'Feriado'),
+        sub: D.diaSemana(iso) + ', ' + D.data(iso) + '  •  quem folga e quem vem', voltar }),
+      h('main', {}, linhas.length ? [
+        aviso('O que voce salvar aqui vale so neste dia e ja aparece na escala do mes '
+          + 'para a equipe inteira.', '#F57C00'),
+        h('div', { estilo: { display: 'flex', gap: '6px', flexWrap: 'wrap', margin: '10px 0' } }, [
+          abaBotao('Todos folgam', false, () => definirTodos(true)),
+          abaBotao('Todos no horario normal', false, () => definirTodos(false)),
+          abaBotao('Meio periodo 08:00-14:00', false, () => definirTodos(false, '08:00', '14:00'))
+        ]),
+        resumo,
+        ...linhas.map(l => l.el)
+      ] : [vazio('Ninguem na equipe ainda.')]),
+      linhas.length ? barra([
+        { texto: 'Salvar o feriado', onclick: salvar },
+        escalaDeFeriadoPronta(iso) ? { texto: 'Voltar ao padrao', classe: 'vermelho',
+          onclick: () => confirmar('Voltar ao padrao',
+            'Apagar a escala deste feriado e deixar o horario normal da semana?', () => {
+              Dados.ativos('turnos').filter(t => t.data === iso)
+                .forEach(t => Dados.excluir('turnos', t, a.nome()));
+              toast('Feriado de volta ao padrao.');
+              ir('escala', { aba: 'datas' });
+              render();
+            }) } : null
+      ]) : null
+    ]);
+  });
+}
+
 // ------------------------------------------------------------------ domingos
 
 const domingosDoMes = (ano, m) => {
@@ -1421,7 +2015,7 @@ function telaResumoDomingos(ano, m, chaveMes, troca) {
   const a = D.Acesso;
   const dias = domingosDoMes(ano, m);
   const pessoas = equipe().filter(f => a.veSetor(f.setor));
-  const podeMexer = a.configura(null) || a.lider();
+  const podeMexer = a.editaEscala();
 
   const escolhas = new Map();
   pessoas.forEach(f => {
@@ -1563,6 +2157,10 @@ function escalaDoDia(iso) {
 
 function formPadrao(funcionario, existente) {
   const a = D.Acesso;
+  if (!a.editaEscala(funcionario.setor)) {
+    toast('Só o dono ou o líder define a escala.');
+    return;
+  }
   const p = existente || Dados.novo({
     funcionarioId: funcionario.id, funcionarioNome: funcionario.nome, setor: funcionario.setor,
     inicio: ['08:00', '08:00', '08:00', '08:00', '08:00', '08:00', '08:00'],
@@ -1759,11 +2357,15 @@ export function ranking(dias) {
 function desempenho(registrar) {
   registrar('desempenho', params => {
     const a = D.Acesso;
-    if (!a.veTrabalhoDosOutros()) { ir('painel'); return h('div'); }
     const dias = parseInt(params.dias) || 30;
 
+    // O funcionario ve a propria pontuacao (e o que ela premia); o ranking dos
+    // colegas continua sendo assunto de quem cobra resultado.
     let fichas = ranking(dias);
-    if (!a.dono()) {
+    if (!a.veTrabalhoDosOutros()) {
+      const eu = (a.nome() || '').trim().toLowerCase();
+      fichas = fichas.filter(f => (f.nome || '').trim().toLowerCase() === eu);
+    } else if (!a.dono()) {
       const meuPessoal = Dados.ativos('funcionarios')
         .filter(f => a.veSetor(f.setor)).map(f => f.nome);
       fichas = fichas.filter(f => meuPessoal.includes(f.nome));
@@ -1794,8 +2396,9 @@ function desempenho(registrar) {
     });
 
     return h('div', {}, [
-      cabecalho({ titulo: '🏆 Desempenho da equipe',
-        sub: 'Ultimos ' + dias + ' dias  •  ' + fichas.length + ' pessoa(s) com registros', voltar }),
+      cabecalho({ titulo: a.veTrabalhoDosOutros() ? '🏆 Desempenho da equipe' : '🏆 Meus pontos',
+        sub: 'Ultimos ' + dias + ' dias' + (a.veTrabalhoDosOutros()
+          ? '  •  ' + fichas.length + ' pessoa(s) com registros' : ''), voltar }),
       h('main', {}, [
         h('div', { estilo: { display: 'flex', gap: '8px', marginBottom: '10px' } }, [
           abaBotao('7 dias', dias === 7, () => { ir('desempenho', { dias: 7 }); render(); }),

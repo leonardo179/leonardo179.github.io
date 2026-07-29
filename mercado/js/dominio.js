@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607282211';
+import { Dados, Prefs } from './dados.js?v=202607291540';
 
 /**
  * Setores da loja.
@@ -63,6 +63,23 @@ export const UNIDADES = {
   L: { sigla: 'L', fator: 1, fracionada: true },
   PCT: { sigla: 'pct', fator: 1 }, BDJ: { sigla: 'bdj', fator: 1 }
 };
+
+/**
+ * Unidades que sao um PACOTE de outras unidades — e so nelas que faz sentido
+ * perguntar "quantas unidades vem dentro". Escolher "und" e continuar vendo
+ * "unidades por caixa" na tela e o tipo de campo que faz a pessoa preencher
+ * qualquer coisa so para o formulario parar de perguntar.
+ */
+export const UNIDADES_COM_FATOR = ['CX', 'FD', 'PALETE'];
+
+export const temFator = unidade => UNIDADES_COM_FATOR.includes(unidade);
+
+/** Rotulo certo para o campo, em vez de "caixa/fardo/palete" sempre. */
+export function rotuloFator(unidade) {
+  if (unidade === 'FD') return 'Unidades por fardo';
+  if (unidade === 'PALETE') return 'Unidades por palete';
+  return 'Unidades por caixa';
+}
 
 export const PERFIL = { DONO: 'DONO', LIDER: 'LIDER', FUNCIONARIO: 'FUNCIONARIO' };
 
@@ -158,7 +175,38 @@ export const Acesso = {
   veTrabalhoDosOutros() { return this.dono() || this.lider(); },
   configura(s) { return this.dono() || (this.lider() && (!s || this.meusSetores().includes(s))); },
   configuraLoja() { return this.dono(); },
-  gerenciaUsuarios() { return this.dono() || this.lider(); },
+
+  /**
+   * Conta de acesso e assunto de dono. O lider cuida do setor dele, mas quem
+   * cria login, troca perfil e reseta senha e so o dono — senao a tranca do app
+   * fica na mao de quem ela deveria limitar.
+   */
+  gerenciaUsuarios() { return this.dono(); },
+
+  /**
+   * Item largado no caixa so interessa a quem trabalha no caixa. O acougueiro
+   * ver "iogurte parado no caixa 3" e ruido: ele nao vai recolher nada.
+   */
+  veDesistencias() { return this.dono() || this.meusSetores().includes('CAIXA'); },
+
+  /**
+   * Escala, equipe e desempenho: todo mundo ENXERGA (o funcionario precisa saber
+   * o proprio horario e a propria pontuacao), mas so dono e lider MEXEM.
+   */
+  editaEscala(s) { return this.dono() || (this.lider() && (!s || this.meusSetores().includes(s))); },
+
+  /** Quem executa o checklist nao decide o que vai nele. */
+  editaChecklist(s) { return this.dono() || (this.lider() && (!s || this.meusSetores().includes(s))); },
+
+  /** Camara fria, freezer e balcao sao patrimonio: quem cadastra e o dono. */
+  cadastraEquipamento() { return this.dono(); },
+
+  /**
+   * Quebra: a equipe registra O QUE quebrou; quanto isso custou e quanto a loja
+   * perdeu no mes e conta do dono, e so ele ve.
+   */
+  lancaValorQuebra() { return this.dono(); },
+  vePerdas() { return this.dono(); },
 
   /** Historico: o funcionario ve apenas o que ele mesmo registrou. */
   vePessoa(funcionario, autor) {

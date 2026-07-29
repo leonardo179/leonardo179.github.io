@@ -2,15 +2,16 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607282211';
-import * as D from './dominio.js?v=202607282211';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607282211';
-import { semear } from './semente.js?v=202607282211';
-import * as M from './modulos.js?v=202607282211';
-import * as M2 from './modulos2.js?v=202607282211';
-import { instalarTelasExtra } from './telas-extra.js?v=202607282211';
-import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607282211';
-import { instalarDashboard } from './dashboard.js?v=202607282211';
+import { Dados, Prefs, Sync } from './dados.js?v=202607291540';
+import * as D from './dominio.js?v=202607291540';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607291540';
+import { semear } from './semente.js?v=202607291540';
+import * as M from './modulos.js?v=202607291540';
+import * as M2 from './modulos2.js?v=202607291540';
+import { instalarTelasExtra } from './telas-extra.js?v=202607291540';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607291540';
+import { instalarDashboard } from './dashboard.js?v=202607291540';
+import { faixaDeAvisos, botaoAtivarAvisos, iniciarAvisos } from './avisos.js?v=202607291540';
 
 const app = document.getElementById('app');
 
@@ -78,58 +79,29 @@ window.addEventListener('hashchange', render);
 
 // --------------------------------------------------------------------- login
 
+/**
+ * Uma tela de entrada so: usuario, senha e — enquanto a loja nao tem dono —
+ * o botao de criar a primeira conta.
+ *
+ * A busca dos cadastros da loja acontece sozinha, sem botao e sem recado: um
+ * aparelho novo nao precisa saber que existe um "sincronizar" para conseguir
+ * entrar. Se os usuarios chegarem, a tela se redesenha e o login funciona.
+ */
 function telaLogin() {
-  const temDono = Dados.d.usuarios.some(u => !u.excluido && u.ativo && u.perfil === D.PERFIL.DONO);
-  if (temDono) return telaEntrar();
-  // Sem cadastro NESTE aparelho: pode ser loja nova ou aparelho novo de uma
-  // loja que ja existe. O iPhone trata Safari e app instalado como aparelhos
-  // diferentes, entao esta escolha precisa existir sempre.
-  return telaPrimeiroAcesso();
+  buscarCadastrosEmSilencio();
+  return telaEntrar();
 }
 
-/**
- * Aparelho novo: o app ja sabe qual e a loja, entao ele mesmo busca os cadastros
- * e cai na tela de entrar. Ninguem precisa digitar endereco.
- */
-function telaPrimeiroAcesso() {
-  const recado = aviso('Procurando a loja...', '#0277BD');
-
-  // Busca sozinho assim que a tela aparece.
+let buscando = false;
+function buscarCadastrosEmSilencio() {
+  if (buscando || !Prefs.lojaConectada()) return;
+  buscando = true;
   setTimeout(async () => {
-    const r = await Sync.executar();
+    await Sync.executar();
     Dados.carregar();
-    if (Dados.d.usuarios.some(u => !u.excluido && u.ativo)) {
-      render();   // achou gente cadastrada: cai na tela de login
-      return;
-    }
-    recado.textContent = r.ok
-      ? 'Esta loja ainda nao tem ninguem cadastrado. Se voce e o dono, crie a sua conta abaixo.'
-      : 'Nao consegui falar com a loja agora (' + r.msg + '). Confira a internet e tente de novo.';
+    buscando = false;
+    if (!Prefs.logado() && Dados.d.usuarios.some(u => !u.excluido && u.ativo)) render();
   }, 50);
-
-  return h('div', {}, [
-    cabecalho({ titulo: '🛒 Mercado Gestor', sub: 'Primeiro acesso neste aparelho' }),
-    h('main', {}, [
-      recado,
-      h('div', { class: 'aviso-instalar', onclick: async () => {
-        recado.textContent = 'Procurando a loja...';
-        await Sync.executar();
-        Dados.carregar();
-        render();
-      } }, '🔄  Tentar de novo'),
-
-      h('div', { class: 'rotulo-secao' }, 'Sou o dono e ainda nao criei minha conta'),
-      h('div', { class: 'sub' }, 'A primeira conta criada e a de DONO: ela enxerga a loja '
-        + 'inteira e cadastra o restante da equipe.'),
-      h('div', { class: 'aviso-instalar', onclick: () => { app.replaceChildren(telaCriarLoja()); } },
-        '🛒  Criar a minha conta de dono'),
-
-      h('div', { class: 'rotulo-secao' }, 'Trocar de loja'),
-      h('div', { class: 'sub' }, 'So mexa aqui se este aparelho for de outra loja.'),
-      h('div', { class: 'aviso-instalar', onclick: () => ir('ajustes') },
-        '⚙  Ajustar a conexao manualmente')
-    ])
-  ]);
 }
 
 function telaCriarLoja() {
@@ -170,7 +142,7 @@ function telaCriarLoja() {
 
   return h('div', {}, [
     cabecalho({ titulo: '🛒 Criar a conta da loja', sub: 'A primeira conta e a do dono',
-      voltar: () => app.replaceChildren(telaPrimeiroAcesso()) }),
+      voltar: () => render() }),
     h('main', {}, [
       aviso('Ninguem cadastrado ainda. A conta que voce criar agora sera a de DONO: '
         + 'ela enxerga a loja inteira e cadastra o restante da equipe (lideres de setor '
@@ -204,26 +176,19 @@ function telaEntrar() {
     render();
   }
 
-  async function buscar() {
-    if (!Prefs.lojaConectada()) {
-      alert('Loja nao conectada\n\nPeca ao dono o endereco e a senha da loja — ele encontra '
-        + 'esses dados em Ajustes, no aparelho dele.');
-      return;
-    }
-    toast('Buscando os cadastros da loja...');
-    const r = await Sync.executar();
-    toast(r.ok ? 'Cadastros atualizados.' : r.msg);
-    render();
-  }
+  // Enquanto a loja nao tem dono, a unica outra coisa que cabe nesta tela e
+  // criar a primeira conta. Depois disso o botao some sozinho.
+  const temDono = Dados.d.usuarios.some(u => !u.excluido && u.ativo && u.perfil === D.PERFIL.DONO);
 
   return h('div', {}, [
-    cabecalho({ titulo: '🛒 Mercado Gestor', sub: Prefs.get('nomeLoja') || Prefs.get('loja') || 'Entre com seu usuario' }),
-    h('main', {}, [
-      login.el, senha.el, erro,
-      h('div', { class: 'aviso-instalar', onclick: buscar },
-        '🔄  Ainda nao aparece meu usuario — toque para buscar os cadastros da loja.')
-    ]),
-    barra([{ texto: 'Entrar', onclick: entrar }])
+    cabecalho({ titulo: '🛒 Mercado Gestor',
+      sub: Prefs.get('nomeLoja') || Prefs.get('loja') || 'Entre com seu usuario' }),
+    h('main', {}, [login.el, senha.el, erro]),
+    barra([
+      { texto: 'Entrar', onclick: entrar },
+      temDono ? null : { texto: 'Criar conta', classe: 'cinza',
+        onclick: () => app.replaceChildren(telaCriarLoja()) }
+    ])
   ]);
 }
 
@@ -282,7 +247,7 @@ registrar('painel', () => {
       h('div', { class: 'acao', onclick: () => ir('ajustes') }, '⚙')
     ]),
     h('div', { class: 'sub' }, (Prefs.get('nomeLoja') || Prefs.get('loja') || 'Loja') + '  •  ' + a.nome() + ' - ' + a.rotuloPerfil()),
-    resumo, conexao
+    resumo, faixaDeAvisos(ir), conexao
   ]));
 
   const mods = [];
@@ -319,7 +284,7 @@ registrar('painel', () => {
     .filter(q => a.veSetor(q.setor) && a.vePessoa('', q.autor) && D.diasAte(q.data) >= -7);
   const prejuizo = semana.reduce((s, q) => s + M.prejuizo(q), 0);
   mod('🗑', 'Quebras e descarte',
-    a.veValores() ? D.moeda(prejuizo) + ' nos ultimos 7 dias' : semana.length + ' registros',
+    a.vePerdas() ? D.moeda(prejuizo) + ' nos ultimos 7 dias' : semana.length + ' registros',
     null, '#6D4C41', 'quebras');
 
   const equips = Dados.ativos('equipamentos').filter(e => e.ativo && a.veSetor(e.setor));
@@ -348,22 +313,28 @@ registrar('painel', () => {
   mod('🕳', 'Gondola vazia', rupturasAbertas + ' falta(s) em aberto',
     rupturasAbertas ? String(rupturasAbertas) : null, '#D32F2F', 'ruptura');
 
-  const paraRecolher = Dados.ativos('desistencias').filter(d => !d.recolhido).length;
-  mod('🛒', 'Desistencias no caixa', paraRecolher + ' item(ns) para recolher',
-    paraRecolher ? String(paraRecolher) : null, '#D32F2F', 'desistencias');
+  // Item largado no caixa e tarefa da frente de caixa: quem cuida de outro setor
+  // nao recolhe nada e so recebia ruido no menu.
+  if (a.veDesistencias()) {
+    const paraRecolher = Dados.ativos('desistencias').filter(d => !d.recolhido).length;
+    mod('🛒', 'Desistencias no caixa', paraRecolher + ' item(ns) para recolher',
+      paraRecolher ? String(paraRecolher) : null, '#D32F2F', 'desistencias');
+  }
 
+  // Escala o funcionario ve (precisa saber o proprio horario), mas nao mexe.
   mod('👥', 'Escala e equipe',
     Dados.ativos('funcionarios').filter(f => f.ativo !== false).length + ' pessoas cadastradas',
-    null, '#6A1B9A', 'escala');
+    M2.feriadosSemEscala().length ? '⚠ feriado' : null, '#F57C00', 'escala');
 
   // O dono entra e ve a loja inteira num lugar so.
   if (a.dono()) {
     mod('📊', 'Painel do dono', 'Graficos dos ultimos 30 dias', null, '#0277BD', 'dashboard');
   }
 
-  if (a.veTrabalhoDosOutros()) {
-    mod('🏆', 'Desempenho', 'Ranking e pontos da equipe', null, '#F9A825', 'desempenho');
-  }
+  // Pontuacao propria o funcionario ve; o ranking dos outros so chefe.
+  mod('🏆', 'Desempenho',
+    a.veTrabalhoDosOutros() ? 'Ranking e pontos da equipe' : 'Seus pontos',
+    null, '#F9A825', 'desempenho');
 
   if (a.gerenciaUsuarios()) {
     mod('👤', 'Usuarios', Dados.ativos('usuarios').filter(u => u.ativo).length + ' conta(s)',
@@ -373,12 +344,15 @@ registrar('painel', () => {
     mod('🏷', 'Setores', D.setoresAtivos().length + ' setores da loja',
       null, '#00897B', 'setores');
   }
-  mod('⚙', 'Ajustes', 'Sua conta, avisos e conexao da loja', null, '#455A64', 'ajustes');
+  mod('⚙', a.configuraLoja() ? 'Ajustes' : 'Minha conta',
+    a.configuraLoja() ? 'Conta, avisos e conexao da loja' : 'Sua senha e sua sessao',
+    null, '#455A64', 'ajustes');
 
   return h('div', {}, [
     cab,
     h('main', {}, [
       h('div', { class: 'grade' }, mods),
+      botaoAtivarAvisos(),
       instalarDica(),
       h('div', { class: 'vazio', estilo: { fontSize: '11px', padding: '18px' } },
         'Com a loja conectada, o que a equipe registra aparece aqui na hora.')
@@ -480,33 +454,9 @@ registrar('ajustes', () => {
     toast('Senha alterada.');
   }
 
-  function exportar() {
-    const blob = new Blob([JSON.stringify(Dados.d, null, 2)], { type: 'application/json' });
-    const link = h('a', { href: URL.createObjectURL(blob), download: 'mercado_' + D.hoje() + '.json' });
-    document.body.append(link);
-    link.click();
-    link.remove();
-  }
-
-  function importar() {
-    const inp = h('input', { type: 'file', accept: '.json,application/json' });
-    inp.addEventListener('change', async () => {
-      const arq = inp.files[0];
-      if (!arq) return;
-      try {
-        Dados.juntar(JSON.parse(await arq.text()));
-        Dados.salvar();
-        toast('Dados importados e juntados.');
-        render();
-      } catch (e) {
-        toast('Arquivo invalido.');
-      }
-    });
-    inp.click();
-  }
-
   return h('div', {}, [
-    cabecalho({ titulo: '⚙ Ajustes', sub: 'Sua conta e a conexao da loja', voltar }),
+    cabecalho({ titulo: a.configuraLoja() ? '⚙ Ajustes' : '⚙ Minha conta',
+      sub: a.configuraLoja() ? 'Sua conta e a conexao da loja' : 'Sua senha e sua sessao', voltar }),
     h('main', {}, [
       h('div', { class: 'rotulo-secao' }, 'Sua conta'),
       aviso(a.nome() + '\n' + a.rotuloPerfil() + '\n' + (a.dono()
@@ -532,20 +482,6 @@ registrar('ajustes', () => {
           + 'outros celulares sozinho, em segundos. Use os mesmos dados em todos os aparelhos — '
           + 'inclusive nos que usam o aplicativo Android.'),
         loja.el, pin.el, url.el, status,
-        h('div', {
-          class: 'aviso-instalar',
-          onclick: async () => {
-            salvar();
-            status.textContent = 'Testando...';
-            const r = await Sync.executar();
-            toast(r.ok ? 'Conexao funcionando.' : r.msg);
-            atualizarStatus();
-          }
-        }, '🔌  Testar a conexao'),
-
-        h('div', { class: 'rotulo-secao' }, 'Copia dos dados'),
-        h('div', { class: 'aviso-instalar', onclick: exportar }, '📤  Exportar arquivo de dados'),
-        h('div', { class: 'aviso-instalar', onclick: importar }, '📥  Importar arquivo de dados'),
 
         // Para experimentar o app sem esperar a equipe usar. Sai tudo junto depois.
         h('div', { class: 'rotulo-secao' }, 'Dados de teste'),
@@ -763,6 +699,7 @@ Sync.aoAtualizar(() => {
 });
 if (Prefs.lojaConectada()) Sync.executar();
 render();
+iniciarAvisos();
 
 /*
  * Registro do service worker com updateViaCache: 'none'.

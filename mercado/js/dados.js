@@ -10,7 +10,11 @@ const LISTAS = [
   'produtos', 'checklists', 'respostas', 'paletes', 'quebras', 'funcionarios',
   'turnos', 'datas', 'rotinas', 'execucoes', 'contagens', 'cesta', 'pesquisas',
   'equipamentos', 'leituras', 'catalogo', 'rupturas', 'desistencias', 'padroes',
-  'entregas', 'usuarios', 'setores'
+  'entregas', 'usuarios', 'setores',
+  // Composicao do deposito: um registro por corredor (posicoes, niveis, lados).
+  // E o que o dono monta uma vez para o mapa dos paletes ter a forma do deposito
+  // dele, e nao um desenho generico.
+  'corredores'
 ];
 
 const CHAVE_DADOS = 'mercado_dados';

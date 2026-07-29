@@ -2,11 +2,11 @@
  * Modulos do dia a dia: validades, checklists, cronograma, entregas, quebras,
  * temperatura e a lista de pendencias. Mesma logica do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282211';
-import * as D from './dominio.js?v=202607282211';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282211';
-import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607282211';
-import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607282211';
+import { Dados, Prefs } from './dados.js?v=202607291540';
+import * as D from './dominio.js?v=202607291540';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607291540';
+import { CHECKLISTS as SUGESTOES } from './semente.js?v=202607291540';
+import { instalarCronograma, formRotina, listaTodasRotinas } from './cronograma.js?v=202607291540';
 
 let ir, voltar, render;
 
@@ -48,10 +48,11 @@ function validades(registrar) {
 
     const cartoes = itens.map(p => {
       const f = D.faixa(p), d = D.diasAte(p.validade);
-      const prazo = p.resolvido ? 'Resolvido'
+      const prazo = p.resolvido
+        ? (p.motivoResolvido === 'QUEBRA' ? 'Baixado por quebra' : 'Resolvido')
         : d < 0 ? `venceu ha ${-d} dia(s)`
           : d === 0 ? 'vence HOJE' : d === 1 ? 'vence amanha' : `vence em ${d} dias`;
-      const extra = [D.quantidadeTexto(p), p.localizacao,
+      const extra = [D.quantidadeTexto(p), p.lote ? 'lote ' + p.lote : null, p.localizacao,
         a.veValores() && D.valorEmRisco(p) ? D.moeda(D.valorEmRisco(p)) : null]
         .filter(Boolean).join('  •  ');
 
@@ -104,18 +105,56 @@ function formValidade(existente) {
   const validade = campo('Vence em', p.validade, { type: 'date' });
   const qtd = campo('Quantidade (opcional)', p.quantidade || '', { type: 'number', inputmode: 'decimal' });
   const unidade = lista('Unidade', opcoesUnidade(), p.unidade);
-  const fator = campo('Unidades por caixa/fardo/palete', p.fator || 1, { type: 'number' });
+  const fator = campo(D.rotuloFator(p.unidade), p.fator || 1, { type: 'number' });
   const preco = campo('Preco por unidade (opcional)', p.precoUnitario || '', { type: 'number', inputmode: 'decimal' });
   const local = campo('Onde esta (gondola, palete A3...)', p.localizacao);
+  const loteCampo = campo('Lote (opcional — para separar duas datas do mesmo produto)', p.lote || '');
   const obs = area('Observacao', p.observacao);
   const previa = aviso('');
+
+  /**
+   * Escolher do cadastro em vez de redigitar. O produto ja existe na loja: quem
+   * esta no corredor com a caixa na mao nao deveria ter que soletrar o nome de
+   * novo (e criar um "Bolacha Nikito " com espaco no fim, que vira outro produto).
+   */
+  const catalogo = Dados.ativos('catalogo')
+    .filter(c => a.veSetor(c.setor) && (c.nome || '').trim())
+    .sort((x, y) => (x.nome || '').localeCompare(y.nome || ''));
+
+  const escolha = lista('Escolher um produto ja cadastrado',
+    [{ valor: '', texto: '— digitar um produto novo —' }].concat(
+      catalogo.map(c => ({ valor: c.id,
+        texto: c.nome + (c.marca ? ' - ' + c.marca : '') + '  (' + D.setor(c.setor).nome + ')' }))),
+    '');
+
+  escolha.input.addEventListener('change', () => {
+    const c = catalogo.find(x => x.id === escolha.input.value);
+    if (!c) return;
+    nome.input.value = c.nome;
+    marca.input.value = c.marca || '';
+    setorSel.input.value = c.setor;
+    unidade.input.value = c.unidade || 'UND';
+    fator.input.value = Math.max(1, c.porCaixa || 1);
+    if (c.preco > 0) preco.input.value = c.preco;
+    ajustarFator();
+    atualizarPrevia();
+  });
+
+  /** "Unidades por caixa" so faz sentido quando a unidade e caixa, fardo ou palete. */
+  function ajustarFator() {
+    const mostra = D.temFator(unidade.input.value);
+    fator.el.style.display = mostra ? '' : 'none';
+    fator.el.querySelector('label').textContent = D.rotuloFator(unidade.input.value);
+    if (!mostra) fator.input.value = 1;
+  }
 
   function montar() {
     return {
       validade: validade.input.value || D.hoje(),
       quantidade: D.lerNumero(qtd.input.value),
       unidade: unidade.input.value,
-      fator: Math.max(1, parseInt(fator.input.value) || 1),
+      fator: D.temFator(unidade.input.value)
+        ? Math.max(1, parseInt(fator.input.value) || 1) : 1,
       precoUnitario: D.lerNumero(preco.input.value)
     };
   }
@@ -130,35 +169,52 @@ function formValidade(existente) {
           : 'URGENTE: aviso com prioridade alta todos os dias.';
     if (D.totalUnidades(tmp)) txt += '\nEstoque: ' + D.quantidadeTexto(tmp);
     if (D.valorEmRisco(tmp) && a.veValores()) txt += '  •  ' + D.moeda(D.valorEmRisco(tmp)) + ' em risco';
-    if (D.descontoSugerido(tmp)) txt += '\n💡 ' + D.sugestaoAcao(tmp);
+
+    // Outros lotes do mesmo produto: e aqui que o "45 de uma data, 60 de outra"
+    // aparece, em vez de a pessoa achar que sobrescreveu o lancamento anterior.
+    const outros = Dados.ativos('produtos').filter(x => x.id !== p.id && !x.resolvido
+      && (x.nome || '').trim().toLowerCase() === (nome.input.value || '').trim().toLowerCase());
+    if (outros.length) {
+      txt += '\n\nOutro(s) lote(s) deste produto:\n'
+        + outros.sort((x, y) => x.validade.localeCompare(y.validade))
+          .map(x => '• ' + D.quantidadeTexto(x) + ' vence em ' + D.data(x.validade)
+            + (x.lote ? '  (lote ' + x.lote + ')' : '')).join('\n');
+    }
+
     previa.textContent = txt;
     previa.style.background = f.cor + '22';
     previa.style.color = f.cor;
     previa.style.border = '1px solid ' + f.cor + '55';
   }
-  [validade, qtd, fator, preco].forEach(c => c.input.addEventListener('input', atualizarPrevia));
-  unidade.input.addEventListener('change', atualizarPrevia);
-  setTimeout(atualizarPrevia);
+  [validade, qtd, fator, preco, nome].forEach(c => c.input.addEventListener('input', atualizarPrevia));
+  unidade.input.addEventListener('change', () => { ajustarFator(); atualizarPrevia(); });
+  setTimeout(() => { ajustarFator(); atualizarPrevia(); });
 
   function salvar() {
     if (!nome.input.value.trim()) return toast('Falta o nome do produto.');
     Object.assign(p, montar(), {
       nome: nome.input.value.trim(), marca: marca.input.value.trim(),
       setor: setorSel.input.value, localizacao: local.input.value.trim(),
+      lote: loteCampo.input.value.trim(),
       observacao: obs.input.value.trim()
     });
     D.garantirProduto(p.nome, p.setor, a.nome());
     Dados.gravar('produtos', p, a.nome());
-    toast('Produto salvo.');
-    voltar();
+    toast(existente ? 'Validade atualizada.' : 'Lote lancado.');
+    ir('validades');
     render();
   }
 
   document.getElementById('app').replaceChildren(h('div', {}, [
-    cabecalho({ titulo: existente ? '📅 Editar produto' : '📅 Novo produto',
-      sub: 'A quantidade e opcional', voltar: () => { ir('validades'); render(); } }),
-    h('main', {}, [nome.el, marca.el, setorSel.el, validade.el, qtd.el, unidade.el,
-      fator.el, preco.el, local.el, obs.el, previa]),
+    cabecalho({ titulo: existente ? '📅 Editar validade' : '📅 Lancar validade',
+      sub: existente ? 'Da para mudar a data e a quantidade'
+        : 'Escolha do cadastro ou digite um produto novo',
+      voltar: () => { ir('validades'); render(); } }),
+    h('main', {}, [
+      existente ? null : escolha.el,
+      nome.el, marca.el, setorSel.el, validade.el, qtd.el, unidade.el,
+      fator.el, preco.el, local.el, loteCampo.el, obs.el, previa
+    ].filter(Boolean)),
     barra([
       { texto: 'Salvar', onclick: salvar },
       existente ? { texto: 'Excluir', classe: 'vermelho', onclick: () => confirmar('Excluir',
@@ -193,7 +249,8 @@ function checklists(registrar) {
           : r ? { texto: 'em andamento', cor: '#F57C00' } : { texto: 'hoje', cor: '#757575' },
         botoes: [
           { texto: 'Preencher', onclick: () => execChecklist(c) },
-          a.configura(c.setor) ? { texto: 'Editar', sec: true, onclick: () => editorChecklist(c) } : null
+          a.editaChecklist(c.setor)
+            ? { texto: 'Editar', sec: true, onclick: () => editorChecklist(c) } : null
         ],
         onclick: () => execChecklist(c)
       });
@@ -208,7 +265,7 @@ function checklists(registrar) {
       cabecalho({ titulo: '✅ Checklists',
         sub: abertos + ' de ' + modelos.length + ' em aberto hoje', voltar }),
       h('main', {}, cartoes.length ? cartoes : [vazio('Nenhum checklist para o seu setor.')]),
-      a.configura(null) ? h('button', { class: 'fab', onclick: () => editorChecklist(null) },
+      a.editaChecklist(null) ? h('button', { class: 'fab', onclick: () => editorChecklist(null) },
         'Novo checklist') : null
     ]);
   });
@@ -217,6 +274,13 @@ function checklists(registrar) {
 /** Onde o dono (ou o lider, no setor dele) monta a lista que a equipe vai marcar. */
 function editorChecklist(existente) {
   const a = D.Acesso;
+  // Tranca no proprio editor, e nao so no botao: esconder o botao esconde o
+  // caminho, nao a porta — e aqui a porta tambem precisa estar fechada.
+  if (!a.editaChecklist(existente ? existente.setor : null)) {
+    toast('Só o dono ou o líder do setor monta o checklist.');
+    ir('checklists');
+    return;
+  }
   const c = existente || Dados.novo({
     nome: 'Checklist diario', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
     diario: true, ativo: true, itens: []
@@ -662,12 +726,15 @@ const MOTIVOS_QUEBRA = [
 ];
 
 function quebras(registrar) {
+  telaPerdas(registrar);
+
   registrar('quebras', () => {
     const a = D.Acesso;
     const itens = Dados.ativos('quebras')
       .filter(q => a.veSetor(q.setor) && a.vePessoa('', q.autor) && D.diasAte(q.data) >= -30)
       .sort((x, y) => y.data.localeCompare(x.data));
     const total = itens.reduce((s, q) => s + prejuizo(q), 0);
+    const semValor = itens.filter(q => !(q.valorUnitario > 0)).length;
 
     const cartoes = itens.map(q => cartao({
       cor: D.setor(q.setor).cor,
@@ -677,23 +744,136 @@ function quebras(registrar) {
         + D.numero(q.quantidade) + ' ' + (D.UNIDADES[q.unidade] || D.UNIDADES.UND).sigla,
       extra: (MOTIVOS_QUEBRA.find(m => m.valor === q.motivo) || {}).texto
         + (q.autor ? '  •  por ' + q.autor : ''),
-      selo: a.veValores() ? { texto: D.moeda(prejuizo(q)), cor: '#6D4C41' } : null,
+      // Preco de quebra e conta do dono: o cartao do funcionario nao mostra R$.
+      selo: a.vePerdas() && q.valorUnitario > 0
+        ? { texto: D.moeda(prejuizo(q)), cor: '#6D4C41' }
+        : (a.vePerdas() ? { texto: 'sem valor', cor: '#90A4AE' } : null),
       destaque: q.detalhe ? { texto: q.detalhe, cor: D.setor(q.setor).cor } : null,
+      botoes: a.lancaValorQuebra()
+        ? [{ texto: q.valorUnitario > 0 ? 'Trocar o valor' : 'Lancar o valor',
+             sec: q.valorUnitario > 0, onclick: () => lancarValorQuebra(q) }]
+        : null,
       onclick: () => formQuebra(q)
     }));
 
     return h('div', {}, [
       cabecalho({ titulo: '🗑 Quebras e descarte',
-        sub: itens.length + ' registro(s)' + (a.veValores() ? '  •  prejuizo de ' + D.moeda(total) : ''),
-        voltar }),
-      h('main', {}, cartoes.length ? cartoes : [vazio('Nenhuma quebra registrada.')]),
+        sub: itens.length + ' registro(s)'
+          + (a.vePerdas() ? '  •  ' + D.moeda(total) + ' de perda' : ''),
+        voltar,
+        acao: a.vePerdas() ? { texto: '💰', onclick: () => ir('perdas') } : null }),
+      h('main', {}, [
+        a.vePerdas() && semValor
+          ? aviso(semValor + ' quebra(s) ainda sem valor. Toque em "Lancar o valor" '
+            + 'para elas entrarem no total de perdas.', '#F57C00')
+          : null,
+        ...(cartoes.length ? cartoes : [vazio('Nenhuma quebra registrada.')])
+      ].filter(Boolean)),
       h('button', { class: 'fab', onclick: () => formQuebra(null) }, 'Registrar quebra')
+    ]);
+  });
+}
+
+/** Atalho do dono: so o preco, sem reabrir o registro inteiro do funcionario. */
+function lancarValorQuebra(q) {
+  const a = D.Acesso;
+  if (!a.lancaValorQuebra()) return;
+  const u = D.UNIDADES[q.unidade] || D.UNIDADES.UND;
+  const valor = campo('Valor de UMA unidade' + (u.fracionada ? ' (do ' + u.sigla + ')' : ''),
+    q.valorUnitario || '', { type: 'number', inputmode: 'decimal' });
+  const conta = aviso('', '#6D4C41');
+
+  const recalcular = () => {
+    const tmp = Object.assign({}, q, { valorUnitario: D.lerNumero(valor.input.value) });
+    conta.textContent = D.quantidadeTexto({ quantidade: q.quantidade, unidade: q.unidade, fator: q.fator })
+      + '\nPerda: ' + D.moeda(prejuizo(tmp));
+  };
+  valor.input.addEventListener('input', recalcular);
+  setTimeout(recalcular);
+
+  modal({
+    titulo: q.produto,
+    textoOk: 'Lancar perda',
+    conteudo: [
+      aviso('Quem registrou anotou o que quebrou. O valor e so seu: ele entra nas '
+        + 'perdas que ninguem mais ve.', '#455A64'),
+      valor.el, conta
+    ],
+    aoConfirmar: () => {
+      q.valorUnitario = D.lerNumero(valor.input.value);
+      Dados.gravar('quebras', q, a.nome());
+      toast(q.valorUnitario > 0 ? 'Perda de ' + D.moeda(prejuizo(q)) + ' registrada.'
+        : 'Valor removido.');
+      render();
+    }
+  });
+}
+
+/** Registro de perda em R$: tela exclusiva do dono. */
+function telaPerdas(registrar) {
+  registrar('perdas', params => {
+    const a = D.Acesso;
+    if (!a.vePerdas()) {
+      return h('div', {}, [
+        cabecalho({ titulo: '💰 Perdas', voltar }),
+        h('main', {}, [vazio('Os valores de perda sao do dono.')])
+      ]);
+    }
+    const dias = parseInt(params.dias) || 30;
+    const itens = Dados.ativos('quebras')
+      .filter(q => D.diasAte(q.data) >= -dias && q.valorUnitario > 0)
+      .sort((x, y) => prejuizo(y) - prejuizo(x));
+
+    const total = itens.reduce((s, q) => s + prejuizo(q), 0);
+    const porSetor = {};
+    itens.forEach(q => porSetor[q.setor] = (porSetor[q.setor] || 0) + prejuizo(q));
+
+    const linhasSetor = Object.entries(porSetor)
+      .sort((x, y) => y[1] - x[1])
+      .map(([chave, v]) => cartao({
+        cor: D.setor(chave).cor, icone: D.setor(chave).icone,
+        titulo: D.setor(chave).nome,
+        sub: D.numero(Math.round(v * 100 / Math.max(1, total))) + '% da perda do periodo',
+        selo: { texto: D.moeda(v), cor: D.setor(chave).cor }
+      }));
+
+    return h('div', {}, [
+      cabecalho({ titulo: '💰 Registros de perda',
+        sub: D.moeda(total) + ' em ' + dias + ' dias  •  ' + itens.length + ' registro(s)', voltar }),
+      h('main', {}, [
+        h('div', { estilo: { display: 'flex', gap: '8px', marginBottom: '10px' } }, [
+          h('button', { class: dias === 7 ? '' : 'sec',
+            onclick: () => { ir('perdas', { dias: 7 }); render(); } }, '7 dias'),
+          h('button', { class: dias === 30 ? '' : 'sec',
+            onclick: () => { ir('perdas', { dias: 30 }); render(); } }, '30 dias'),
+          h('button', { class: dias === 90 ? '' : 'sec',
+            onclick: () => { ir('perdas', { dias: 90 }); render(); } }, '90 dias')
+        ]),
+        aviso('Só você vê esta tela. A equipe registra o que quebrou; o valor é seu.', '#455A64'),
+        h('div', { class: 'rotulo-secao' }, 'Por setor'),
+        ...(linhasSetor.length ? linhasSetor : [vazio('Nenhuma perda valorada no periodo.')]),
+        h('div', { class: 'rotulo-secao' }, 'Maiores perdas'),
+        ...(itens.length ? itens.slice(0, 20).map(q => cartao({
+          cor: '#6D4C41', icone: D.setor(q.setor).icone,
+          titulo: q.produto,
+          sub: D.data(q.data) + '  •  ' + D.setor(q.setor).nome
+            + '  •  ' + D.numero(q.quantidade) + ' '
+            + (D.UNIDADES[q.unidade] || D.UNIDADES.UND).sigla
+            + (q.autor ? '  •  por ' + q.autor : ''),
+          selo: { texto: D.moeda(prejuizo(q)), cor: '#6D4C41' },
+          onclick: () => lancarValorQuebra(q)
+        })) : [vazio('Nenhuma perda valorada no periodo.')])
+      ])
     ]);
   });
 }
 
 function formQuebra(existente, deProduto) {
   const a = D.Acesso;
+  // Quem lanca o preco e o dono. Para a equipe o formulario nem mostra dinheiro:
+  // ela anota o que quebrou e pronto.
+  const precifica = a.lancaValorQuebra();
+
   const q = existente || Dados.novo({
     produto: deProduto ? deProduto.nome : '',
     setor: deProduto ? deProduto.setor : (a.dono() ? 'MERCEARIA' : a.meuSetor()),
@@ -701,10 +881,19 @@ function formQuebra(existente, deProduto) {
     quantidade: deProduto ? deProduto.quantidade : 1,
     unidade: deProduto ? deProduto.unidade : 'UND',
     fator: deProduto ? deProduto.fator : 1,
-    valorUnitario: deProduto ? deProduto.precoUnitario : 0,
+    // So o dono vê e preenche valor; a quebra da equipe nasce sem preco.
+    valorUnitario: precifica && deProduto ? (deProduto.precoUnitario || 0) : 0,
     motivo: deProduto && D.diasAte(deProduto.validade) < 0 ? 'VENCIDO' : 'AVARIA',
+    // Guarda de qual lote de validade a quebra saiu, para dar baixa la.
+    validadeId: deProduto ? deProduto.id : '',
     detalhe: '', foto: ''
   });
+
+  // Quando a quebra sai de um lote de validade, ela nao pode ser maior que o
+  // que existe naquele lote: quebrar 60 de um lote de 45 nao acontece na loja.
+  const lote = q.validadeId
+    ? Dados.ativos('produtos').find(p => p.id === q.validadeId) : null;
+  const disponivel = lote ? D.totalUnidades(lote) : 0;
 
   const produto = campo('Produto', q.produto);
   const setorSel = lista('Setor', opcoesSetor(), q.setor);
@@ -712,53 +901,120 @@ function formQuebra(existente, deProduto) {
   const data = campo('Data', q.data, { type: 'date' });
   const qtd = campo('Quantidade', q.quantidade, { type: 'number', inputmode: 'decimal' });
   const unidade = lista('Unidade', opcoesUnidade(), q.unidade);
-  const fator = campo('Unidades por caixa/fardo/palete (1 para avulso)', q.fator || 1, { type: 'number' });
-  const valor = campo('Valor de UMA unidade (ou do kg)', q.valorUnitario || '', { type: 'number', inputmode: 'decimal' });
+  const fator = campo(D.rotuloFator(q.unidade), q.fator || 1, { type: 'number' });
+  const valor = campo('Valor de UMA unidade (ou do kg)', q.valorUnitario || '',
+    { type: 'number', inputmode: 'decimal' });
   const detalhe = area('O que aconteceu', q.detalhe);
   const calculo = aviso('', '#6D4C41');
+
+  const totalDigitado = () => {
+    const u = D.UNIDADES[unidade.input.value] || D.UNIDADES.UND;
+    const n = D.lerNumero(qtd.input.value);
+    const f = D.temFator(unidade.input.value) ? Math.max(1, parseInt(fator.input.value) || 1) : 1;
+    return u.fracionada ? n : n * f;
+  };
+
+  /** Campo de fator so aparece quando a unidade e um pacote (cx, fardo, palete). */
+  function ajustarFator() {
+    const mostra = D.temFator(unidade.input.value);
+    fator.el.style.display = mostra ? '' : 'none';
+    fator.el.querySelector('label').textContent = D.rotuloFator(unidade.input.value);
+    if (!mostra) fator.input.value = 1;
+  }
 
   function calcular() {
     const u = D.UNIDADES[unidade.input.value] || D.UNIDADES.UND;
     const n = D.lerNumero(qtd.input.value);
-    const f = Math.max(1, parseInt(fator.input.value) || 1);
-    const v = D.lerNumero(valor.input.value);
-    const total = u.fracionada ? n : n * f;
-    let txt = u.fracionada
-      ? `${D.numero(n)} ${u.sigla} x ${D.moeda(v)}/${u.sigla}`
-      : `${D.numero(n)} ${u.sigla}${f > 1 ? ' x ' + f + ' und' : ''} = ${D.numero(total)} unidades\n`
-        + `${D.numero(total)} x ${D.moeda(v)}`;
-    txt += `\n\nPrejuizo: ${D.moeda(total * v)}`;
+    const total = totalDigitado();
+    let txt = u.fracionada || !D.temFator(unidade.input.value)
+      ? `${D.numero(n)} ${u.sigla}`
+      : `${D.numero(n)} ${u.sigla} x ${Math.max(1, parseInt(fator.input.value) || 1)} und `
+        + `= ${D.numero(total)} unidades`;
+
+    if (lote) {
+      const sobra = disponivel - total;
+      txt += `\n\nLote de validade ${D.data(lote.validade)}: ${D.numero(disponivel)} und.`;
+      txt += sobra < 0
+        ? `\n⚠ Voce esta quebrando ${D.numero(-sobra)} und a mais do que existe no lote.`
+        : sobra === 0 ? '\nO lote zera e sai da lista de validades.'
+          : `\nSobram ${D.numero(sobra)} und no lote.`;
+    }
+    if (precifica) {
+      txt += `\n\nPerda: ${D.moeda(total * D.lerNumero(valor.input.value))}`;
+    }
     calculo.textContent = txt;
   }
+
   [qtd, fator, valor].forEach(c => c.input.addEventListener('input', calcular));
-  unidade.input.addEventListener('change', calcular);
-  setTimeout(calcular);
+  unidade.input.addEventListener('change', () => { ajustarFator(); calcular(); });
+  setTimeout(() => { ajustarFator(); calcular(); });
+
+  /** Dá baixa no lote de validade de onde a quebra saiu. */
+  function baixarDoLote(totalQuebrado) {
+    if (!lote) return;
+    const u = D.UNIDADES[lote.unidade] || D.UNIDADES.UND;
+    const restante = Math.max(0, disponivel - totalQuebrado);
+    lote.quantidade = u.fracionada ? restante
+      : restante / Math.max(1, lote.fator || 1);
+    if (restante <= 0) {
+      lote.quantidade = 0;
+      lote.resolvido = true;
+      lote.motivoResolvido = 'QUEBRA';
+    }
+    Dados.gravar('produtos', lote, a.nome());
+  }
 
   function salvar() {
     if (!produto.input.value.trim()) return toast('Falta o nome do produto.');
+    const total = totalDigitado();
+    if (total <= 0) return toast('Coloque a quantidade que quebrou.');
+    if (lote && total > disponivel) {
+      return toast('O lote tem ' + D.numero(disponivel) + ' und. '
+        + 'Nao da para quebrar ' + D.numero(total) + '.');
+    }
+
     Object.assign(q, {
       produto: produto.input.value.trim(), setor: setorSel.input.value,
       motivo: motivo.input.value, data: data.input.value || D.hoje(),
       quantidade: D.lerNumero(qtd.input.value),
       unidade: unidade.input.value,
-      fator: Math.max(1, parseInt(fator.input.value) || 1),
-      valorUnitario: D.lerNumero(valor.input.value),
+      fator: D.temFator(unidade.input.value)
+        ? Math.max(1, parseInt(fator.input.value) || 1) : 1,
       detalhe: detalhe.input.value.trim()
     });
+    if (precifica) q.valorUnitario = D.lerNumero(valor.input.value);
+
     // Produto digitado na hora vira cadastro: o dono completa depois.
     D.garantirProduto(q.produto, q.setor, a.nome());
     Dados.gravar('quebras', q, a.nome());
-    toast('Quebra registrada: ' + D.moeda(prejuizo(q)));
-    ir('quebras');
+    baixarDoLote(total);
+
+    toast(lote
+      ? (disponivel - total <= 0
+        ? 'Quebra registrada. O lote zerou e saiu das validades.'
+        : 'Quebra registrada. Sobraram ' + D.numero(disponivel - total) + ' und no lote.')
+      : (precifica && q.valorUnitario > 0
+        ? 'Quebra registrada: ' + D.moeda(prejuizo(q)) : 'Quebra registrada.'));
+    ir(lote ? 'validades' : 'quebras');
     render();
   }
 
   document.getElementById('app').replaceChildren(h('div', {}, [
     cabecalho({ titulo: existente ? '🗑 Editar quebra' : '🗑 Registrar quebra',
-      sub: 'O prejuizo e calculado sozinho', voltar: () => { ir('quebras'); render(); } }),
-    h('main', {}, [produto.el, setorSel.el, motivo.el, data.el,
-      h('div', { class: 'rotulo-secao' }, 'Calculadora de prejuizo'),
-      qtd.el, unidade.el, fator.el, valor.el, calculo, detalhe.el]),
+      sub: precifica ? 'Voce tambem lanca o valor' : 'Anote o que quebrou — o valor e do dono',
+      voltar: () => { ir(lote ? 'validades' : 'quebras'); render(); } }),
+    h('main', {}, [
+      lote ? aviso('Saindo do lote de ' + lote.nome + ' que vence em '
+        + D.data(lote.validade) + ' (' + D.numero(disponivel) + ' und). '
+        + 'O que voce quebrar sai desse lote.', '#F57C00') : null,
+      produto.el, setorSel.el, motivo.el, data.el,
+      h('div', { class: 'rotulo-secao' }, precifica ? 'Quanto quebrou' : 'Quanto quebrou'),
+      qtd.el, unidade.el, fator.el,
+      precifica ? valor.el : null,
+      calculo,
+      precifica ? null : aviso('O valor da perda quem lanca e o dono, depois.', '#455A64'),
+      detalhe.el
+    ].filter(Boolean)),
     barra([
       { texto: 'Salvar', onclick: salvar },
       existente ? { texto: 'Excluir', classe: 'vermelho', onclick: () => confirmar('Excluir',
@@ -844,7 +1100,7 @@ function temperatura(registrar) {
         sub: equips.length + ' equipamento(s)  •  ' + pendentes + ' atrasada(s)'
           + (fora ? '  •  ' + fora + ' FORA DA FAIXA' : ''),
         voltar,
-        acao: a.configura(null) ? { texto: '+ Equip.', onclick: formEquipamento } : null }),
+        acao: a.cadastraEquipamento() ? { texto: '+ Equip.', onclick: formEquipamento } : null }),
       h('main', {}, cartoes.length ? cartoes
         : [vazio('Nenhum equipamento cadastrado.\nCadastre a camara fria, o balcao e os freezers.')])
     ]);
@@ -853,6 +1109,11 @@ function temperatura(registrar) {
 
 function formEquipamento() {
   const a = D.Acesso;
+  if (!a.cadastraEquipamento()) {
+    toast('Só o dono cadastra equipamento.');
+    ir('temperatura');
+    return;
+  }
   const e = Dados.novo({
     nome: '', setor: a.dono() ? 'FRIOS' : a.meuSetor(), tipo: 'BALCAO',
     min: 0, max: 4, horarios: ['08:00', '14:00', '20:00'], tolerancia: 60,

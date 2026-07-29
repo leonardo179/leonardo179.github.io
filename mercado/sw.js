@@ -6,12 +6,12 @@
  * freezer ou no deposito, a tela continua abrindo em vez de dar erro, e o que for
  * registrado sobe assim que a internet voltar.
  */
-const CACHE = 'mercado-gestor-202607282211';
+const CACHE = 'mercado-gestor-202607291540';
 const ARQUIVOS = [
   './', './index.html', './manifest.webmanifest',
   './js/app.js', './js/dados.js', './js/dominio.js', './js/modulos.js',
   './js/semente.js', './js/ui.js', './js/modulos2.js', './js/telas-extra.js', './js/cronograma.js',
-  './js/demo.js', './js/dashboard.js',
+  './js/demo.js', './js/dashboard.js', './js/avisos.js',
   './icons/icone-180.png', './icons/icone-192.png', './icons/icone-512.png'
 ];
 
@@ -23,6 +23,30 @@ self.addEventListener('activate', e => {
   e.waitUntil(caches.keys()
     .then(ns => Promise.all(ns.filter(n => n !== CACHE).map(n => caches.delete(n))))
     .then(() => self.clients.claim()));
+});
+
+/*
+ * Tocou na notificacao do feriado: em vez de abrir mais uma aba, traz para a
+ * frente a janela do app que ja existe e leva direto para a tela de montar a
+ * escala daquele dia.
+ */
+self.addEventListener('notificationclick', e => {
+  e.notification.close();
+  const dados = e.notification.data || {};
+  const destino = dados.tela === 'escala-feriado' && dados.dataFeriado
+    ? './#escala-feriado?data=' + dados.dataFeriado
+    : './';
+
+  e.waitUntil(self.clients.matchAll({ type: 'window', includeUncontrolled: true })
+    .then(janelas => {
+      for (const j of janelas) {
+        if ('focus' in j) {
+          if ('navigate' in j) j.navigate(destino).catch(() => {});
+          return j.focus();
+        }
+      }
+      return self.clients.openWindow(destino);
+    }));
 });
 
 self.addEventListener('fetch', e => {

@@ -2,9 +2,9 @@
  * O painel do dono: o que os 30 dias de registro da equipe dizem sobre a loja.
  * Nada de dado novo aqui — e leitura do que ja foi registrado nos modulos.
  */
-import { Dados } from './dados.js?v=202607282211';
-import * as D from './dominio.js?v=202607282211';
-import { h, cabecalho, vazio, aviso } from './ui.js?v=202607282211';
+import { Dados } from './dados.js?v=202607291540';
+import * as D from './dominio.js?v=202607291540';
+import { h, cabecalho, vazio, aviso } from './ui.js?v=202607291540';
 
 let ir, voltar;
 
@@ -58,34 +58,40 @@ function quebras(dentro) {
     itens.length ? D.moeda(total) + ' de prejuizo em ' + itens.length + ' registro(s)'
       : 'Nenhuma quebra registrada no periodo',
     [
+      subtituloBloco('Quanto cada produto custou'),
       barras(porProduto, D.moeda),
-      subtituloBloco('Por setor'),
-      barras(porSetor, D.moeda, chave => D.setor(chave).icone + ' ' + D.setor(chave).nome,
-        chave => D.setor(chave).cor)
+      subtituloBloco('Quanto cada setor pesa na perda'),
+      pizza(porSetor, D.moeda, chave => D.setor(chave).nome, chave => D.setor(chave).cor)
     ]);
 }
 
 /** Validade nao espera 30 dias: aqui vale o que esta na janela agora. */
 function validades() {
-  const itens = Dados.ativos('produtos').filter(p => D.diasAte(p.validade) <= 30);
-  const porProduto = {}, porSetor = {};
+  const itens = Dados.ativos('produtos').filter(p => !p.resolvido && D.diasAte(p.validade) <= 30);
+  const porProduto = {}, porSetor = {}, porFaixa = {};
   let vencidos = 0, urgentes = 0;
   itens.forEach(p => {
     const q = p.quantidade || 1;
     porProduto[p.nome || 'Sem nome'] = (porProduto[p.nome || 'Sem nome'] || 0) + q;
     porSetor[p.setor] = (porSetor[p.setor] || 0) + q;
+    porFaixa[D.faixa(p).rotulo] = (porFaixa[D.faixa(p).rotulo] || 0) + 1;
     const d = D.diasAte(p.validade);
     if (d < 0) vencidos++; else if (d <= 2) urgentes++;
   });
+
+  const CORES_FAIXA = { VENCIDO: '#7F0000', URGENTE: '#D32F2F', ATENCAO: '#F57C00',
+    PROXIMO: '#FBC02D', OK: '#388E3C' };
 
   return bloco('📅', 'O que mais vence', 'validades',
     itens.length ? itens.length + ' na janela  •  ' + vencidos + ' vencido(s)  •  '
       + urgentes + ' urgente(s)' : 'Nada perto de vencer',
     [
+      subtituloBloco('Como esta a fila de vencimento'),
+      pizza(porFaixa, n => n + ' lote(s)', null, chave => CORES_FAIXA[chave] || '#90A4AE'),
+      subtituloBloco('Produtos com mais unidades na janela'),
       barras(porProduto, n => D.numero(n) + ' un'),
       subtituloBloco('Por setor'),
-      barras(porSetor, n => D.numero(n) + ' un',
-        chave => D.setor(chave).icone + ' ' + D.setor(chave).nome,
+      pizza(porSetor, n => D.numero(n) + ' un', chave => D.setor(chave).nome,
         chave => D.setor(chave).cor)
     ]);
 }
@@ -126,11 +132,10 @@ function faltas(dentro) {
     itens.length ? itens.length + ' falta(s)  •  ' + semEstoque + ' sem estoque no deposito'
       : 'Nenhuma falta registrada no periodo',
     [
+      subtituloBloco('Produtos que mais faltaram'),
       barras(porProduto, n => n + 'x'),
-      subtituloBloco('Por setor'),
-      barras(porSetor, n => n + 'x',
-        chave => D.setor(chave).icone + ' ' + D.setor(chave).nome,
-        chave => D.setor(chave).cor)
+      subtituloBloco('De que setor vem a falta'),
+      pizza(porSetor, n => n + 'x', chave => D.setor(chave).nome, chave => D.setor(chave).cor)
     ]);
 }
 
@@ -148,9 +153,10 @@ function desistencias(dentro) {
     itens.length ? itens.length + ' desistencia(s) no periodo'
       : 'Nenhuma desistencia registrada no periodo',
     [
+      subtituloBloco('O que os clientes mais deixam'),
       barras(porProduto, n => n + 'x'),
-      subtituloBloco('Por motivo'),
-      barras(porMotivo, n => n + 'x')
+      subtituloBloco('Por que deixam'),
+      pizza(porMotivo, n => n + 'x')
     ]);
 }
 
@@ -168,6 +174,82 @@ function bloco(icone, titulo, tela, resumo, filhos) {
 }
 
 const subtituloBloco = texto => h('div', { class: 'sub-bloco', texto });
+
+/**
+ * SVG precisa de createElementNS: um <svg> feito com createElement vira um
+ * elemento HTML desconhecido e nao desenha nada. Por isso este h() proprio.
+ */
+function svg(tag, attrs = {}, filhos = []) {
+  const el = document.createElementNS('http://www.w3.org/2000/svg', tag);
+  Object.entries(attrs).forEach(([k, v]) => {
+    if (v !== null && v !== undefined) el.setAttribute(k, v);
+  });
+  (Array.isArray(filhos) ? filhos : [filhos]).forEach(f => f && el.append(f));
+  return el;
+}
+
+/** Cores para fatias que nao tem cor propria (motivo, pessoa, produto). */
+const PALETA = ['#2E7D32', '#F57C00', '#0277BD', '#6A1B9A', '#C62828',
+  '#00838F', '#8D6E63', '#F9A825'];
+
+/**
+ * Grafico de pizza (rosca) em SVG puro.
+ *
+ * A barra responde "quem e o maior"; a pizza responde "quanto do total isso
+ * representa" — que e a pergunta do dono quando olha perda por setor. Rosca em
+ * vez de pizza cheia porque o buraco do meio carrega o total, e ai o grafico
+ * responde as duas coisas de uma vez.
+ */
+function pizza(mapa, formatar, rotulo, cor) {
+  const todas = Object.entries(mapa).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+  if (!todas.length) return h('div', { class: 'sub-bloco', texto: 'Sem dados ainda.' });
+
+  // Mais de 6 fatias vira confete: o resto junta em "Outros".
+  const fatias = todas.slice(0, 6);
+  const resto = todas.slice(6).reduce((s, [, v]) => s + v, 0);
+  if (resto > 0) fatias.push(['__outros__', resto]);
+
+  const total = fatias.reduce((s, [, v]) => s + v, 0);
+  const R = 42, LARGURA = 16;
+  const volta = 2 * Math.PI * R;
+
+  let acumulado = 0;
+  const aneis = fatias.map(([chave, valor], i) => {
+    const parte = valor / total;
+    const traco = parte * volta;
+    const anel = svg('circle', {
+      cx: 60, cy: 60, r: R, fill: 'none',
+      stroke: chave === '__outros__' ? '#B0BEC5' : (cor ? cor(chave) : PALETA[i % PALETA.length]),
+      'stroke-width': LARGURA,
+      'stroke-dasharray': traco.toFixed(2) + ' ' + (volta - traco).toFixed(2),
+      'stroke-dashoffset': (-acumulado * volta).toFixed(2)
+    });
+    acumulado += parte;
+    return anel;
+  });
+
+  const desenho = svg('svg', { width: 120, height: 120, viewBox: '0 0 120 120' }, [
+    // Comeca no topo, e nao as 3 horas: e como todo mundo le um grafico de pizza.
+    svg('g', { transform: 'rotate(-90 60 60)' }, aneis),
+    svg('text', { x: 60, y: 57, 'text-anchor': 'middle', 'font-size': '15',
+      'font-weight': '700', fill: '#1F2A1F' }, document.createTextNode(formatar(total))),
+    svg('text', { x: 60, y: 72, 'text-anchor': 'middle', 'font-size': '9',
+      fill: '#6B7A6B' }, document.createTextNode('no periodo'))
+  ]);
+
+  const legenda = h('div', { class: 'pizza-legenda' }, fatias.map(([chave, valor], i) => {
+    const pct = Math.round(valor * 100 / total);
+    return h('div', {}, [
+      h('i', { estilo: { background: chave === '__outros__' ? '#B0BEC5'
+        : (cor ? cor(chave) : PALETA[i % PALETA.length]) } }),
+      h('span', { texto: chave === '__outros__' ? 'Outros'
+        : (rotulo ? rotulo(chave) : chave) }),
+      h('b', { texto: pct + '%  ' + formatar(valor) })
+    ]);
+  }));
+
+  return h('div', { class: 'pizza' }, [desenho, legenda]);
+}
 
 /**
  * Grafico de barras em HTML puro: a maior barra ocupa a linha toda e as outras
