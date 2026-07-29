@@ -172,9 +172,10 @@ function contagens(autor, quem) {
       fornecedor: f, setor: setorValido(sorteio(itens).setor || 'MERCEARIA'),
       data: dia(-inteiro(0, 3)), funcionario: quem(), concluida: true,
       horaFim: hora(inteiro(8, 11), sorteio([0, 15, 30, 45])),
-      itens: itens.map(p => ({
-        produto: p.nome, caixas: inteiro(1, 8), porCaixa: p.cx, avulsas: inteiro(0, 11)
-      }))
+      itens: itens.map(p => (p.cx > 1
+        ? { produto: p.nome, unidade: 'CX', caixas: inteiro(1, 8), porCaixa: p.cx, unidades: inteiro(0, 11) }
+        // Produto de peso ou solto nao tem caixa: conta como esta na gondola.
+        : { produto: p.nome, unidade: sorteio(['UND', 'KG']), caixas: 0, porCaixa: 1, unidades: inteiro(3, 40) }))
     }, autor);
   });
 }

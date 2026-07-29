@@ -123,3 +123,24 @@ export function toast(msg) {
 export function confirmar(titulo, texto, aoConfirmar) {
   if (window.confirm(titulo + '\n\n' + texto)) aoConfirmar();
 }
+
+/**
+ * Janela de formulario dentro da propria tela. Existe porque prompt() do
+ * navegador so aceita uma pergunta por vez — e formulario de varios campos
+ * virava uma fila de perguntas, sem dar para ver o total nem voltar atras.
+ */
+export function modal({ titulo, conteudo, aoConfirmar, textoOk = 'Salvar' }) {
+  const fundo = h('div', { class: 'modal-fundo' });
+  const caixa = h('div', { class: 'modal-caixa' }, [
+    h('h3', { texto: titulo }),
+    h('div', { class: 'modal-corpo' }, conteudo),
+    h('div', { class: 'modal-botoes' }, [
+      h('button', { class: 'cinza', onclick: () => fundo.remove() }, 'Cancelar'),
+      h('button', { onclick: () => { if (aoConfirmar() !== false) fundo.remove(); } }, textoOk)
+    ])
+  ]);
+  fundo.append(caixa);
+  fundo.onclick = e => { if (e.target === fundo) fundo.remove(); };
+  document.body.append(fundo);
+  return fundo;
+}

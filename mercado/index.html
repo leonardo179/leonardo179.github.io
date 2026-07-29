@@ -103,6 +103,19 @@
   .linha-dia{background:#fff; border-radius:14px; padding:10px 12px; margin-bottom:8px;
     box-shadow:0 1px 3px rgba(0,0,0,.08)}
 
+  /* Formulario em janela: varios campos de uma vez, com o total a vista. */
+  .modal-fundo{position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:200;
+    display:flex; align-items:flex-end; justify-content:center}
+  .modal-caixa{background:#fff; border-radius:18px 18px 0 0; width:100%; max-width:560px;
+    max-height:88vh; display:flex; flex-direction:column;
+    padding:16px 16px calc(env(safe-area-inset-bottom) + 16px)}
+  .modal-caixa h3{margin:0 0 10px; font-size:17px}
+  .modal-corpo{overflow-y:auto; flex:1}
+  .modal-botoes{display:flex; gap:8px; padding-top:12px}
+  .modal-botoes button{flex:1; border:0; border-radius:14px; padding:14px; font-size:16px;
+    font-weight:600; color:#fff; background:var(--verde); cursor:pointer}
+  .modal-botoes button.cinza{background:#607D8B}
+
   /* Painel do dono: cada bloco e uma pergunta respondida com barras. */
   .bloco-dash{background:#fff; border-radius:14px; padding:12px; margin-bottom:12px;
     box-shadow:0 1px 3px rgba(0,0,0,.08)}
@@ -125,6 +138,6 @@
 </head>
 <body>
   <div id="app"></div>
-  <script type="module" src="js/app.js?v=202607281845"></script>
+  <script type="module" src="js/app.js?v=202607282153"></script>
 </body>
 </html>

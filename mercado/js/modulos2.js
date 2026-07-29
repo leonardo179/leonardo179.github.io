@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607281845';
-import * as D from './dominio.js?v=202607281845';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607281845';
+import { Dados, Prefs } from './dados.js?v=202607282153';
+import * as D from './dominio.js?v=202607282153';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282153';
 
 let ir, voltar, render;
 
@@ -216,12 +216,27 @@ function ondeTemNoEstoque(produto) {
 const totalItemContagem = i =>
   (i.caixas || 0) * Math.max(1, i.porCaixa || 1) + (i.unidades || 0);
 
+/** Unidades em que da para contar. "avulso" e o caso do produto solto na gondola. */
+const UNIDADES_CONTAGEM = [
+  { valor: 'UND', texto: 'Unidade (solto)', volume: false },
+  { valor: 'CX', texto: 'Caixa', volume: true, sigla: 'cx' },
+  { valor: 'FD', texto: 'Fardo', volume: true, sigla: 'fd' },
+  { valor: 'PALETE', texto: 'Palete', volume: true, sigla: 'palete' },
+  { valor: 'KG', texto: 'Quilo', volume: false, sigla: 'kg' }
+];
+
+const unidadeContagem = i => UNIDADES_CONTAGEM.find(u => u.valor === (i.unidade || 'CX'))
+  || UNIDADES_CONTAGEM[1];
+
+/** "4 cx x 24 + 2 und = 98 unidades" — ou so "12 und", quando e tudo solto. */
 function contaTexto(i) {
+  const u = unidadeContagem(i);
   const cx = Math.round(i.caixas || 0), un = Math.round(i.unidades || 0);
+  if (!u.volume) return un + (u.valor === 'KG' ? ' kg' : ' und');
   if (!cx) return un + ' und';
-  let s = cx + ' cx x ' + (i.porCaixa || 1);
-  if (un) s += ' + ' + un + ' und';
-  return s + ' = ' + Math.round(totalItemContagem(i)) + ' unidades';
+  let t = cx + ' ' + u.sigla + ' x ' + (i.porCaixa || 1);
+  if (un) t += ' + ' + un + ' und';
+  return t + ' = ' + Math.round(totalItemContagem(i)) + ' unidades';
 }
 
 function contagem(registrar) {
@@ -293,7 +308,7 @@ function formContagem(existente) {
     i => { itens.splice(i, 1); atualizarTotal(); });
 
   function novoItem() {
-    const item = { produto: '', caixas: 0, unidades: 0, porCaixa: 24 };
+    const item = { produto: '', unidade: 'CX', caixas: 0, unidades: 0, porCaixa: 24 };
     dialogoItemContagem(item, () => {
       if (item.produto) itens.push(item);
       editor.redesenhar();
@@ -324,7 +339,7 @@ function formContagem(existente) {
   atualizarTotal();
   app().replaceChildren(h('div', {}, [
     cabecalho({ titulo: existente ? '🧮 ' + (c.fornecedor || 'Contagem') : '🧮 Nova contagem',
-      sub: 'Digite caixas e unidades; o total sai pronto',
+      sub: 'Escolha a unidade de cada produto; o total sai pronto',
       voltar: () => { ir('contagem'); render(); } }),
     h('main', {}, [
       fornecedor.el, setorSel.el,
@@ -340,21 +355,64 @@ function formContagem(existente) {
   ]));
 }
 
+/**
+ * Formulario do item contado. A unidade manda na tela: em caixa/fardo/palete
+ * aparecem os campos de multiplicacao; em solto ou quilo, so a quantidade —
+ * ninguem deveria ter que inventar "1 caixa de 1" para contar 12 unidades.
+ */
 function dialogoItemContagem(item, pronto) {
-  const produto = prompt('Produto:', item.produto || '');
-  if (produto === null) return;
-  const caixas = prompt('Quantas caixas/fardos:', item.caixas || 0);
-  if (caixas === null) return;
-  const porCaixa = prompt('Unidades por caixa:', item.porCaixa || 24);
-  if (porCaixa === null) return;
-  const soltas = prompt('Unidades soltas:', item.unidades || 0);
-  if (soltas === null) return;
-  item.produto = produto.trim();
-  item.caixas = D.lerNumero(caixas);
-  item.porCaixa = Math.max(1, parseInt(porCaixa) || 1);
-  item.unidades = D.lerNumero(soltas);
-  if (!item.id) item.id = crypto.randomUUID();
-  pronto();
+  const u0 = item.unidade || 'CX';
+  const nome = campo('Produto', item.produto || '');
+  const unidade = lista('Como voce esta contando',
+    UNIDADES_CONTAGEM.map(u => ({ valor: u.valor, texto: u.texto })), u0);
+
+  const volumes = campo('Quantos volumes', String(item.caixas || ''), { type: 'number', inputmode: 'numeric' });
+  const porVolume = campo('Unidades por volume', String(item.porCaixa || 24), { type: 'number', inputmode: 'numeric' });
+  const soltas = campo('Unidades soltas (sobra)', String(item.unidades || ''), { type: 'number', inputmode: 'numeric' });
+  const simples = campo('Quantidade', String(item.unidades || ''), { type: 'number', inputmode: 'decimal' });
+  const total = aviso('');
+
+  function ler() {
+    const u = UNIDADES_CONTAGEM.find(x => x.valor === unidade.input.value) || UNIDADES_CONTAGEM[1];
+    if (!u.volume) return { u, caixas: 0, porCaixa: 1, unidades: D.lerNumero(simples.input.value) };
+    return {
+      u,
+      caixas: D.lerNumero(volumes.input.value),
+      porCaixa: Math.max(1, parseInt(porVolume.input.value) || 1),
+      unidades: D.lerNumero(soltas.input.value)
+    };
+  }
+
+  function atualizar() {
+    const v = ler();
+    const emVolume = v.u.volume;
+    volumes.el.style.display = porVolume.el.style.display = soltas.el.style.display
+      = emVolume ? '' : 'none';
+    simples.el.style.display = emVolume ? 'none' : '';
+    total.textContent = contaTexto({
+      unidade: v.u.valor, caixas: v.caixas, porCaixa: v.porCaixa, unidades: v.unidades
+    });
+  }
+
+  unidade.input.onchange = atualizar;
+  [volumes, porVolume, soltas, simples].forEach(c => c.input.oninput = atualizar);
+  atualizar();
+
+  modal({
+    titulo: item.produto ? item.produto : 'Contar produto',
+    conteudo: [nome.el, unidade.el, volumes.el, porVolume.el, soltas.el, simples.el, total],
+    aoConfirmar: () => {
+      if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
+      const v = ler();
+      item.produto = nome.input.value.trim();
+      item.unidade = v.u.valor;
+      item.caixas = v.caixas;
+      item.porCaixa = v.porCaixa;
+      item.unidades = v.unidades;
+      if (!item.id) item.id = crypto.randomUUID();
+      pronto();
+    }
+  });
 }
 
 // ------------------------------------------------------- preco do concorrente
