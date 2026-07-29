@@ -3,9 +3,9 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607282153';
-import * as D from './dominio.js?v=202607282153';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282153';
+import { Dados, Prefs } from './dados.js?v=202607282157';
+import * as D from './dominio.js?v=202607282157';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607282157';
 
 let ir, voltar, render;
 
@@ -55,39 +55,156 @@ function listaEditavel(itens, desenhar, aoTocar, aoRemover) {
 // -------------------------------------------------------- estoque e paletes
 
 function estoque(registrar) {
-  registrar('estoque', () => {
+  registrar('estoque', params => {
     const a = D.Acesso;
-    const busca = campo('', '', { placeholder: 'Buscar produto ou endereco (A3)...' });
+    const aba = params.aba || 'produtos';
+    const busca = campo('', '', { placeholder: aba === 'paletes'
+      ? 'Buscar produto ou endereco (A3)...' : 'Buscar produto, marca ou codigo...' });
     const corpo = h('div', {});
+
+    const troca = h('div', { estilo: { display: 'flex', gap: '6px', margin: '4px 0 10px' } }, [
+      abaBotao('Produtos', aba === 'produtos', () => ir('estoque', { aba: 'produtos' })),
+      abaBotao('Paletes', aba === 'paletes', () => ir('estoque', { aba: 'paletes' }))
+    ]);
+
+    function desenharPaletes(termo) {
+      const paletes = Dados.ativos('paletes')
+        .filter(x => a.veSetor(x.setor))
+        .filter(x => !termo || (x.codigo + ' ' + endereco(x) + ' '
+          + (x.itens || []).map(i => i.produto).join(' ')).toLowerCase().includes(termo))
+        .sort((x, y) => (x.rua || '').localeCompare(y.rua || '') || (x.posicao || 0) - (y.posicao || 0));
+
+      corpo.replaceChildren(...(paletes.length ? paletes.map(x => cartao({
+        cor: D.setor(x.setor).cor,
+        icone: '\ud83d\udce6',
+        titulo: 'Palete ' + endereco(x) + (x.codigo ? '  (' + x.codigo + ')' : ''),
+        sub: D.setor(x.setor).icone + ' ' + D.setor(x.setor).nome
+          + '  \u2022  ' + (x.itens || []).length + ' item(ns)',
+        extra: resumoPalete(x),
+        destaque: x.observacao ? { texto: x.observacao, cor: D.setor(x.setor).cor } : null,
+        onclick: () => formPalete(x)
+      })) : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
+        : 'Nenhum palete cadastrado.\nToque em Novo palete para comecar o mapa.')]));
+    }
+
+    function desenharProdutos(termo) {
+      const produtos = Dados.ativos('catalogo')
+        .filter(c => a.veSetor(c.setor))
+        .filter(c => !termo || ((c.nome || '') + ' ' + (c.marca || '') + ' '
+          + (c.codigo || '')).toLowerCase().includes(termo))
+        .sort((x, y) => (x.nome || '').localeCompare(y.nome || ''));
+
+      corpo.replaceChildren(...(produtos.length ? produtos.map(c => cartao({
+        cor: D.setor(c.setor).cor,
+        icone: D.setor(c.setor).icone,
+        titulo: c.nome || 'Sem nome',
+        sub: (c.marca ? c.marca + '  \u2022  ' : '') + D.setor(c.setor).nome
+          + (c.codigo ? '  \u2022  ' + c.codigo : ''),
+        extra: (D.UNIDADES[c.unidade] || D.UNIDADES.UND).sigla
+          + (c.porCaixa > 1 ? '  \u2022  ' + c.porCaixa + ' por caixa' : '')
+          + (c.preco > 0 ? '  \u2022  ' + D.moeda(c.preco) : ''),
+        selo: validadesDoProduto(c.nome).length
+          ? { texto: validadesDoProduto(c.nome).length + ' lote(s)', cor: D.setor(c.setor).cor }
+          : null,
+        botoes: a.configura(c.setor)
+          ? [{ texto: 'Lancar validade', onclick: () => lancarValidade(c) },
+             { texto: 'Editar', sec: true, onclick: () => formProduto(c, desenhar) }] : null,
+        onclick: () => formProduto(c, desenhar)
+      })) : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
+        : 'Nenhum produto cadastrado.\nCadastre aqui e ele ja aparece nas outras telas.')]));
+    }
 
     function desenhar() {
       const termo = busca.input.value.trim().toLowerCase();
-      const paletes = Dados.ativos('paletes')
-        .filter(p => a.veSetor(p.setor))
-        .filter(p => !termo || (p.codigo + ' ' + endereco(p) + ' '
-          + (p.itens || []).map(i => i.produto).join(' ')).toLowerCase().includes(termo))
-        .sort((x, y) => (x.rua || '').localeCompare(y.rua || '') || (x.posicao || 0) - (y.posicao || 0));
-
-      corpo.replaceChildren(...(paletes.length ? paletes.map(p => cartao({
-        cor: D.setor(p.setor).cor,
-        icone: '📦',
-        titulo: 'Palete ' + endereco(p) + (p.codigo ? '  (' + p.codigo + ')' : ''),
-        sub: D.setor(p.setor).icone + ' ' + D.setor(p.setor).nome
-          + '  •  ' + (p.itens || []).length + ' item(ns)',
-        extra: resumoPalete(p),
-        destaque: p.observacao ? { texto: p.observacao, cor: D.setor(p.setor).cor } : null,
-        onclick: () => formPalete(p)
-      })) : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
-        : 'Nenhum palete cadastrado.\nToque em Novo palete para comecar o mapa.')]));
+      if (aba === 'paletes') desenharPaletes(termo); else desenharProdutos(termo);
     }
     busca.input.addEventListener('input', desenhar);
     desenhar();
 
     return h('div', {}, [
-      cabecalho({ titulo: '📦 Estoque e paletes', sub: 'Quantos tem e onde estao', voltar }),
-      h('main', {}, [busca.el, corpo]),
-      h('button', { class: 'fab', onclick: () => formPalete(null) }, 'Novo palete')
+      cabecalho({ titulo: '\ud83d\udce6 Estoque',
+        sub: aba === 'paletes' ? 'Quantos tem e onde estao'
+          : Dados.ativos('catalogo').length + ' produto(s) cadastrados', voltar }),
+      h('main', {}, [troca, busca.el, corpo]),
+      h('button', { class: 'fab', onclick: () => aba === 'paletes'
+        ? formPalete(null) : formProduto(null, desenhar) },
+        aba === 'paletes' ? 'Novo palete' : 'Novo produto')
     ]);
+  });
+}
+
+/** Lotes de validade ja lancados para este produto. */
+const validadesDoProduto = nome => Dados.ativos('produtos')
+  .filter(p => (p.nome || '').trim().toLowerCase() === (nome || '').trim().toLowerCase());
+
+/**
+ * Cadastro do produto em si. E esta lista que alimenta a busca da contagem, das
+ * faltas na gondola, das desistencias e do leitor de codigo de barras — por isso
+ * ela merece um cadastro proprio, e nao so nascer de um bipe.
+ */
+function formProduto(existente, aoSalvar) {
+  const a = D.Acesso;
+  const c = existente || Dados.novo({
+    codigo: '', nome: '', marca: '', setor: a.dono() ? 'MERCEARIA' : a.meuSetor(),
+    unidade: 'UND', porCaixa: 12, preco: 0
+  });
+
+  const nome = campo('Nome do produto', c.nome);
+  const marca = campo('Marca', c.marca || '');
+  const codigo = campo('Codigo de barras', c.codigo || '', { inputmode: 'numeric' });
+  const setorSel = lista('Setor', opcoesSetor(), c.setor);
+  const unidade = lista('Como e vendido', opcoesUnidade(), c.unidade || 'UND');
+  const porCaixa = campo('Unidades por caixa', String(c.porCaixa || 1), { type: 'number' });
+  const preco = campo('Preco de venda', c.preco ? D.numero(c.preco) : '', { inputmode: 'decimal' });
+
+  modal({
+    titulo: existente ? c.nome || 'Produto' : 'Novo produto',
+    conteudo: [nome.el, marca.el, codigo.el, setorSel.el, unidade.el, porCaixa.el, preco.el,
+      existente ? h('div', { class: 'sub', estilo: { marginTop: '10px' },
+        texto: validadesDoProduto(c.nome).length + ' lote(s) de validade lancados para este produto.' }) : null
+    ].filter(Boolean),
+    aoConfirmar: () => {
+      if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
+      const codigoNovo = codigo.input.value.trim();
+      const repetido = Dados.ativos('catalogo')
+        .find(x => x.id !== c.id && codigoNovo && x.codigo === codigoNovo);
+      if (repetido) { toast('Este codigo ja e de ' + repetido.nome + '.'); return false; }
+
+      Object.assign(c, {
+        nome: nome.input.value.trim(), marca: marca.input.value.trim(), codigo: codigoNovo,
+        setor: setorSel.input.value, unidade: unidade.input.value,
+        porCaixa: Math.max(1, parseInt(porCaixa.input.value) || 1),
+        preco: D.lerNumero(preco.input.value)
+      });
+      Dados.gravar('catalogo', c, a.nome());
+      toast('Produto salvo.');
+      if (aoSalvar) aoSalvar();
+    }
+  });
+}
+
+/** Do cadastro para a validade: o produto ja vai preenchido, so falta a data. */
+function lancarValidade(c) {
+  const a = D.Acesso;
+  const validade = campo('Vence em', D.hoje(), { type: 'date' });
+  const quantidade = campo('Quantidade', '1', { type: 'number' });
+  const unidade = lista('Unidade', opcoesUnidade(), c.unidade || 'UND');
+  const lote = campo('Lote (opcional)', '');
+
+  modal({
+    titulo: 'Validade de ' + c.nome,
+    conteudo: [validade.el, quantidade.el, unidade.el, lote.el],
+    aoConfirmar: () => {
+      if (!validade.input.value) { toast('Falta a data de validade.'); return false; }
+      Dados.gravar('produtos', Dados.novo({
+        nome: c.nome, setor: c.setor, validade: validade.input.value,
+        quantidade: D.lerNumero(quantidade.input.value) || 1,
+        unidade: unidade.input.value, fator: Math.max(1, c.porCaixa || 1),
+        valorUnitario: c.preco || 0, lote: lote.input.value.trim(), observacao: '',
+        avisou30: false, avisou15: false, avisou2: false
+      }), a.nome());
+      toast('Validade lancada.');
+    }
   });
 }
 
@@ -750,10 +867,11 @@ function telaMarcarRuptura(registrar) {
     function desenhar() {
       const f = filtro.trim().toLowerCase();
       const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
-      if (visiveis.length) return corpo.replaceChildren(...visiveis.map(linha));
-      const filhos = [vazio(f ? 'Nao achei "' + filtro + '".'
-        : 'Nenhum produto cadastrado ainda. Digite o nome acima para criar.')];
-      if (f) {
+      const filhos = visiveis.map(linha);
+
+      // Falta e coisa de corredor: o repositor precisa poder escrever o nome do
+      // produto na hora, mesmo que a busca ja esteja mostrando parecidos.
+      if (f && !itens.some(i => i.nome.trim().toLowerCase() === f)) {
         filhos.push(h('button', { class: 'principal', onclick: () => {
           const nome = filtro.trim();
           itens.push({ nome, setor: a.meuSetor(), preco: 0, codigo: '' });
@@ -764,6 +882,9 @@ function telaMarcarRuptura(registrar) {
           desenhar();
           atualizarRodape();
         } }, '+ Marcar "' + filtro.trim() + '" assim mesmo'));
+      }
+      if (!filhos.length) {
+        filhos.push(vazio('Nenhum produto cadastrado ainda. Digite o nome acima para criar.'));
       }
       corpo.replaceChildren(...filhos);
     }
@@ -965,13 +1086,12 @@ function telaMarcarDesistencia(registrar) {
     function desenhar() {
       const f = filtro.trim().toLowerCase();
       const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
-      if (visiveis.length) {
-        corpo.replaceChildren(...visiveis.map(linha));
-        return;
-      }
-      const filhos = [vazio(f ? 'Nao achei "' + filtro + '".'
-        : 'Nenhum produto cadastrado ainda. Digite o nome acima para criar.')];
-      if (f) {
+      const filhos = visiveis.map(linha);
+
+      // O botao de criar aparece sempre que o nome digitado nao existe igualzinho.
+      // So mostrar quando a busca zera deixava a pessoa presa: "Leite Italac 2L"
+      // cai na lista do "Leite Italac 1L" e nao havia como cadastrar o novo.
+      if (f && !itens.some(i => i.nome.trim().toLowerCase() === f)) {
         filhos.push(h('button', {
           class: 'principal',
           onclick: () => {
@@ -985,6 +1105,9 @@ function telaMarcarDesistencia(registrar) {
             atualizarRodape();
           }
         }, '+ Marcar "' + filtro.trim() + '" assim mesmo'));
+      }
+      if (!filhos.length) {
+        filhos.push(vazio('Nenhum produto cadastrado ainda. Digite o nome acima para criar.'));
       }
       corpo.replaceChildren(...filhos);
     }

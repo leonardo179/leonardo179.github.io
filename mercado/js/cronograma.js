@@ -5,10 +5,10 @@
  * 16:00". Dentro da janela e hora de fazer; passou do fim sem marcar, fica
  * ATRASADA e o dono e avisado.
  */
-import { Dados } from './dados.js?v=202607282153';
-import * as D from './dominio.js?v=202607282153';
-import { h, cabecalho, cartao, campo, area, lista, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282153';
-import { fimDaJanela, janelaTexto } from './modulos.js?v=202607282153';
+import { Dados } from './dados.js?v=202607282157';
+import * as D from './dominio.js?v=202607282157';
+import { h, cabecalho, cartao, campo, area, lista, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202607282157';
+import { fimDaJanela, janelaTexto } from './modulos.js?v=202607282157';
 
 let ir, render;
 

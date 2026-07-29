@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607282153';
+import { Dados, Prefs } from './dados.js?v=202607282157';
 
 /**
  * Setores da loja.
