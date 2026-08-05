@@ -3,21 +3,60 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202607291613';
-import * as D from './dominio.js?v=202607291613';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202607291613';
+import { Dados, Prefs } from './dados.js?v=202608051826';
+import * as D from './dominio.js?v=202608051826';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal,
+  leitorCodigoBarras, botaoScan } from './ui.js?v=202608051826';
+import { PRODUTOS_SEMENTE } from './semente.js?v=202608051826';
 
 let ir, voltar, render;
 
 export function instalarModulos2(api) {
   ir = api.ir; voltar = api.voltar; render = api.render;
   estoque(api.registrar);
+  importarProdutos(api.registrar);
   contagem(api.registrar);
   precos(api.registrar);
   ruptura(api.registrar);
   desistencias(api.registrar);
   escala(api.registrar);
   desempenho(api.registrar);
+}
+
+/**
+ * Abre a camera, acha o produto pelo codigo no catalogo e devolve a ficha —
+ * ou, se o codigo for novo na loja, pede o nome uma unica vez e cadastra ali
+ * mesmo. Mesmo espirito do leitor do Android: codigo conhecido reconhece na
+ * hora, codigo novo aprende com uma pergunta so.
+ */
+export function scannearProduto(aoIdentificar) {
+  leitorCodigoBarras(codigo => {
+    const achado = Dados.ativos('catalogo').find(c => c.codigo === codigo);
+    if (achado) { toast('Bipado: ' + achado.nome); aoIdentificar(achado); return; }
+    cadastrarPorCodigo(codigo, aoIdentificar);
+  });
+}
+
+function cadastrarPorCodigo(codigo, aoIdentificar) {
+  const a = D.Acesso;
+  const nome = campo('Nome do produto', '');
+  const setorSel = lista('Setor', opcoesSetor(), a.dono() ? 'MERCEARIA' : a.meuSetor());
+  modal({
+    titulo: 'Produto novo: ' + codigo,
+    textoOk: 'Cadastrar',
+    conteudo: [
+      aviso('Este codigo ainda nao existe na loja. Cadastre uma vez e todo mundo passa a reconhecer ele.'),
+      nome.el, setorSel.el
+    ],
+    aoConfirmar: () => {
+      if (!nome.input.value.trim()) { toast('Sem nome nao da para cadastrar.'); return false; }
+      const c = Dados.gravar('catalogo', Dados.novo({
+        codigo, nome: nome.input.value.trim(), marca: '', setor: setorSel.input.value,
+        unidade: 'UND', porCaixa: 12, preco: 0
+      }), a.nome());
+      aoIdentificar(c);
+    }
+  });
 }
 
 const opcoesSetor = () =>
@@ -155,14 +194,148 @@ function estoque(registrar) {
     busca.input.addEventListener('input', desenhar);
     desenhar();
 
+    const linhaBusca = h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'flex-end' } }, [
+      h('div', { estilo: { flex: '1' } }, busca.el),
+      aba === 'paletes' ? null : botaoScan(() => leitorCodigoBarras(codigo => {
+        busca.input.value = codigo;
+        desenhar();
+      }))
+    ]);
+
     return h('div', {}, [
       cabecalho({ titulo: '\ud83d\udce6 Estoque',
         sub: aba === 'paletes' ? 'Quantos tem e onde estao'
-          : Dados.ativos('catalogo').length + ' produto(s) cadastrados', voltar }),
-      h('main', {}, [troca, busca.el, corpo]),
+          : Dados.ativos('catalogo').length + ' produto(s) cadastrados', voltar,
+        acao: aba === 'paletes' ? null : { texto: '\ud83d\udce5 Importar', onclick: () => ir('estoque-importar') } }),
+      h('main', {}, [troca, linhaBusca, corpo]),
       h('button', { class: 'fab', onclick: () => aba === 'paletes'
         ? formPalete(null) : formProduto(null, desenhar) },
         aba === 'paletes' ? 'Novo palete' : 'Novo produto')
+    ]);
+  });
+}
+
+/**
+ * Cadastro em massa: produtos comuns de mercado, ja com codigo de barras,
+ * agrupados por setor. O dono marca so o que a loja dele vende — ninguem e
+ * obrigado a aceitar a lista inteira — e cada um entra editavel depois,
+ * igual a um cadastro manual.
+ */
+function importarProdutos(registrar) {
+  registrar('estoque-importar', () => {
+    const a = D.Acesso;
+    const jaTem = new Set(Dados.ativos('catalogo').map(c => c.codigo).filter(Boolean));
+    const marcados = new Set();
+    let filtro = '';
+
+    const porSetor = {};
+    PRODUTOS_SEMENTE.forEach(p => {
+      if (!a.veSetor(p.setor)) return;
+      (porSetor[p.setor] = porSetor[p.setor] || []).push(p);
+    });
+
+    const corpo = h('main', {});
+    const rodapeTexto = h('div', { class: 'contador' });
+    const btImportar = h('button', { onclick: () => importar() }, 'Importar selecionados');
+
+    const chave = p => p.codigo || (p.nome + '|' + p.setor);
+
+    function atualizarRodape() {
+      rodapeTexto.textContent = marcados.size
+        ? marcados.size + ' produto(s) selecionados'
+        : 'Marque os produtos que a sua loja vende.';
+      btImportar.disabled = !marcados.size;
+    }
+
+    function linha(p) {
+      const k = chave(p);
+      const jaCadastrado = p.codigo && jaTem.has(p.codigo);
+      const caixa = h('input', { type: 'checkbox', disabled: jaCadastrado });
+      caixa.checked = marcados.has(k);
+      const alternar = () => {
+        if (jaCadastrado) return;
+        if (marcados.has(k)) marcados.delete(k); else marcados.add(k);
+        caixa.checked = marcados.has(k);
+        atualizarRodape();
+      };
+      caixa.onclick = ev => { ev.stopPropagation(); alternar(); };
+      return h('div', {
+        class: 'linha-marcar', estilo: jaCadastrado ? { opacity: '.5' } : null,
+        onclick: alternar
+      }, [
+        caixa,
+        h('div', { class: 'texto' }, [
+          h('b', { texto: p.nome + (p.marca ? ' - ' + p.marca : '') }),
+          h('small', { texto: (jaCadastrado ? 'ja cadastrado  •  ' : '') + (p.codigo || 'sem codigo') })
+        ])
+      ]);
+    }
+
+    function desenhar() {
+      const f = filtro.trim().toLowerCase();
+      const grupos = Object.entries(porSetor)
+        .map(([setorChave, itens]) => [setorChave, itens.filter(p =>
+          !f || (p.nome + ' ' + (p.marca || '') + ' ' + (p.codigo || '')).toLowerCase().includes(f))])
+        .filter(([, itens]) => itens.length)
+        .sort((x, y) => D.setor(x[0]).nome.localeCompare(D.setor(y[0]).nome));
+
+      const filhos = grupos.map(([setorChave, itens]) => {
+        const disponiveis = itens.filter(p => !(p.codigo && jaTem.has(p.codigo)));
+        return h('div', {}, [
+          h('div', {
+            class: 'rotulo-secao', estilo: { display: 'flex', justifyContent: 'space-between',
+              alignItems: 'center', cursor: disponiveis.length ? 'pointer' : 'default' },
+            onclick: () => {
+              if (!disponiveis.length) return;
+              const todosMarcados = disponiveis.every(p => marcados.has(chave(p)));
+              disponiveis.forEach(p => todosMarcados ? marcados.delete(chave(p)) : marcados.add(chave(p)));
+              desenhar();
+              atualizarRodape();
+            }
+          }, [
+            h('span', { texto: D.setor(setorChave).icone + ' ' + D.setor(setorChave).nome }),
+            disponiveis.length ? h('span', { estilo: { color: '#2E7D32', fontWeight: '700', fontSize: '11px' },
+              texto: 'marcar todos' }) : null
+          ].filter(Boolean)),
+          ...itens.map(linha)
+        ]);
+      });
+
+      corpo.replaceChildren(...(filhos.length ? filhos
+        : [vazio(f ? 'Nada encontrado para "' + f + '".'
+          : PRODUTOS_SEMENTE.length ? 'Nenhum produto disponivel para os seus setores.'
+            : 'Lista ainda nao carregada. Tente novamente mais tarde.')]));
+    }
+
+    function importar() {
+      let n = 0;
+      PRODUTOS_SEMENTE.forEach(p => {
+        if (!marcados.has(chave(p))) return;
+        if (p.codigo && jaTem.has(p.codigo)) return;
+        Dados.gravar('catalogo', Dados.novo({
+          codigo: p.codigo || '', nome: p.nome, marca: p.marca || '', setor: p.setor,
+          unidade: p.unidade || 'UND', porCaixa: p.porCaixa || 1, preco: 0
+        }), a.nome());
+        n++;
+      });
+      toast(n + ' produto(s) importados. Edite preco e codigo quando precisar.');
+      ir('estoque');
+      render();
+    }
+
+    const busca = campo('', '', { placeholder: 'Procurar na lista pronta...' });
+    busca.input.oninput = () => { filtro = busca.input.value; desenhar(); };
+
+    desenhar();
+    atualizarRodape();
+
+    return h('div', {}, [
+      cabecalho({ titulo: '📥 Importar produtos',
+        sub: 'Marque o que a sua loja vende — o resto fica editavel depois',
+        voltar: () => { ir('estoque'); render(); } }),
+      h('div', { class: 'topo-marcar' }, busca.el),
+      corpo,
+      h('div', { class: 'rodape-marcar' }, [rodapeTexto, btImportar])
     ]);
   });
 }
@@ -218,6 +391,10 @@ function formProduto(existente, aoSalvar) {
   const nome = campo('Nome do produto', c.nome);
   const marca = campo('Marca', c.marca || '');
   const codigo = campo('Codigo de barras', c.codigo || '', { inputmode: 'numeric' });
+  const linhaCodigo = h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'flex-end' } }, [
+    h('div', { estilo: { flex: '1' } }, codigo.el),
+    botaoScan(() => leitorCodigoBarras(lido => { codigo.input.value = lido; }))
+  ]);
   const setorSel = lista('Setor', opcoesSetor(), c.setor);
   const unidade = lista('Como e vendido', opcoesUnidade(), c.unidade || 'UND');
   const porCaixa = campo(D.rotuloFator(c.unidade), String(c.porCaixa || 1), { type: 'number' });
@@ -239,7 +416,7 @@ function formProduto(existente, aoSalvar) {
 
   modal({
     titulo: existente ? c.nome || 'Produto' : 'Novo produto',
-    conteudo: [nome.el, marca.el, codigo.el, setorSel.el, unidade.el, porCaixa.el, preco.el,
+    conteudo: [nome.el, marca.el, linhaCodigo, setorSel.el, unidade.el, porCaixa.el, preco.el,
       lotes.length ? h('div', { class: 'rotulo-secao' }, 'Lotes em estoque') : null,
       lotes.length ? h('div', { class: 'sub', texto: lotes
         .map(p => '• ' + D.quantidadeTexto(p) + ' vence ' + D.data(p.validade)
@@ -876,6 +1053,17 @@ function formContagem(existente) {
 function dialogoItemContagem(item, pronto) {
   const u0 = item.unidade || 'CX';
   const nome = campo('Produto', item.produto || '');
+  const linhaNome = h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'flex-end' } }, [
+    h('div', { estilo: { flex: '1' } }, nome.el),
+    botaoScan(() => scannearProduto(c => {
+      nome.input.value = c.nome;
+      const emVolume = D.temFator(c.unidade);
+      unidade.input.value = emVolume ? c.unidade
+        : c.unidade === 'KG' ? 'KG' : 'UND';
+      if (emVolume) porVolume.input.value = Math.max(1, c.porCaixa || 1);
+      atualizar();
+    }))
+  ]);
   const unidade = lista('Como voce esta contando',
     UNIDADES_CONTAGEM.map(u => ({ valor: u.valor, texto: u.texto })), u0);
 
@@ -913,7 +1101,7 @@ function dialogoItemContagem(item, pronto) {
 
   modal({
     titulo: item.produto ? item.produto : 'Contar produto',
-    conteudo: [nome.el, unidade.el, volumes.el, porVolume.el, soltas.el, simples.el, total],
+    conteudo: [linhaNome, unidade.el, volumes.el, porVolume.el, soltas.el, simples.el, total],
     aoConfirmar: () => {
       if (!nome.input.value.trim()) { toast('Falta o nome do produto.'); return false; }
       const v = ler();
@@ -1087,43 +1275,57 @@ function ruptura(registrar) {
   telaMarcarRuptura(registrar);
   registrar('ruptura', () => {
     const a = D.Acesso;
-    const itens = Dados.ativos('rupturas')
+    const todos = Dados.ativos('rupturas')
       .filter(r => a.veSetor(r.setor) && a.vePessoa(r.funcionario, r.autor))
       .sort((x, y) => (x.situacao === 'RESOLVIDA') - (y.situacao === 'RESOLVIDA')
         || y.atualizadoEm - x.atualizadoEm);
 
-    const cartoes = itens.map(r => {
-      const s = SITUACOES_RUPTURA[r.situacao] || SITUACOES_RUPTURA.ABERTA;
-      return cartao({
-        cor: s.cor,
-        icone: D.setor(r.setor).icone,
-        titulo: r.produto || 'Produto sem nome',
-        sub: D.dataCurta(r.data) + ' ' + (r.hora || '') + '  •  ' + D.setor(r.setor).nome
-          + (r.funcionario ? '  •  ' + r.funcionario : ''),
-        extra: r.observacao,
-        selo: { texto: s.rotulo, cor: s.cor },
-        destaque: { texto: orientacaoRuptura(r), cor: s.cor },
-        botoes: r.situacao !== 'RESOLVIDA' ? [
-          { texto: 'Gondola reposta', onclick: () => {
-            r.situacao = 'RESOLVIDA';
-            Dados.gravar('rupturas', r, a.nome());
-            render();
-          } },
-          { texto: 'Reconferir estoque', sec: true, onclick: () => {
-            cruzar(r);
-            Dados.gravar('rupturas', r, a.nome());
-            render();
-          } }
-        ] : null
-      });
-    });
+    const corpo = h('div', {});
 
-    const abertas = itens.filter(r => r.situacao !== 'RESOLVIDA').length;
+    function desenhar(termo) {
+      const itens = !termo ? todos : todos.filter(r =>
+        ((r.produto || '') + ' ' + (r.codigo || '')).toLowerCase().includes(termo));
+
+      const cartoes = itens.map(r => {
+        const s = SITUACOES_RUPTURA[r.situacao] || SITUACOES_RUPTURA.ABERTA;
+        return cartao({
+          cor: s.cor,
+          icone: D.setor(r.setor).icone,
+          titulo: r.produto || 'Produto sem nome',
+          sub: D.dataCurta(r.data) + ' ' + (r.hora || '') + '  •  ' + D.setor(r.setor).nome
+            + (r.funcionario ? '  •  ' + r.funcionario : ''),
+          extra: r.observacao,
+          selo: { texto: s.rotulo, cor: s.cor },
+          destaque: { texto: orientacaoRuptura(r), cor: s.cor },
+          botoes: r.situacao !== 'RESOLVIDA' ? [
+            { texto: 'Gondola reposta', onclick: () => {
+              r.situacao = 'RESOLVIDA';
+              Dados.gravar('rupturas', r, a.nome());
+              render();
+            } },
+            { texto: 'Reconferir estoque', sec: true, onclick: () => {
+              cruzar(r);
+              Dados.gravar('rupturas', r, a.nome());
+              render();
+            } }
+          ] : null
+        });
+      });
+      corpo.replaceChildren(...(cartoes.length ? cartoes
+        : [vazio(termo ? 'Nada encontrado para "' + termo + '".'
+          : 'Nenhuma falta registrada.\nViu buraco na gondola? Avise aqui.')]));
+    }
+
+    const busca = campo('', '', { placeholder: 'Buscar produto ou codigo...' });
+    busca.input.addEventListener('input',
+      () => desenhar(busca.input.value.trim().toLowerCase()));
+    desenhar('');
+
+    const abertas = todos.filter(r => r.situacao !== 'RESOLVIDA').length;
     return h('div', {}, [
       cabecalho({ titulo: '🕳 Gondola vazia',
-        sub: abertas + ' em aberto  •  ' + itens.length + ' no total', voltar }),
-      h('main', {}, cartoes.length ? cartoes
-        : [vazio('Nenhuma falta registrada.\nViu buraco na gondola? Avise aqui.')]),
+        sub: abertas + ' em aberto  •  ' + todos.length + ' no total', voltar }),
+      h('main', {}, [busca.el, corpo]),
       h('button', { class: 'fab', onclick: () => ir('ruptura-marcar') }, 'Marcar faltas')
     ]);
   });
@@ -1185,7 +1387,8 @@ function telaMarcarRuptura(registrar) {
 
     function desenhar() {
       const f = filtro.trim().toLowerCase();
-      const visiveis = itens.filter(i => !f || i.nome.toLowerCase().includes(f));
+      const visiveis = itens.filter(i => !f
+        || (i.nome + ' ' + (i.codigo || '')).toLowerCase().includes(f));
       const filhos = [];
 
       /*
@@ -1243,8 +1446,21 @@ function telaMarcarRuptura(registrar) {
       voltar();
     }
 
-    const busca = campo('', '', { placeholder: 'Procurar ou escrever um produto novo...' });
+    const busca = campo('', '', { placeholder: 'Procurar, bipar ou escrever um produto novo...' });
     busca.input.oninput = () => { filtro = busca.input.value; desenhar(); };
+    const linhaBusca = h('div', { estilo: { display: 'flex', gap: '8px', alignItems: 'flex-end' } }, [
+      h('div', { estilo: { flex: '1' } }, busca.el),
+      botaoScan(() => scannearProduto(c => {
+        if (!itens.some(i => i.nome.trim().toLowerCase() === c.nome.trim().toLowerCase())) {
+          itens.push({ nome: c.nome, setor: c.setor, preco: c.preco || 0, codigo: c.codigo || '' });
+          itens.sort((x, y) => x.nome.localeCompare(y.nome));
+        }
+        marcados.add(c.nome);
+        filtro = ''; busca.input.value = '';
+        desenhar();
+        atualizarRodape();
+      }))
+    ]);
 
     desenhar();
     atualizarRodape();
@@ -1252,7 +1468,7 @@ function telaMarcarRuptura(registrar) {
     return h('div', {}, [
       cabecalho({ titulo: '\ud83d\udd73 Marcar faltas',
         sub: 'Nao achou? escreva o nome e marque assim mesmo', voltar }),
-      h('div', { class: 'topo-marcar' }, [busca.el]),
+      h('div', { class: 'topo-marcar' }, [linhaBusca]),
       corpo,
       h('div', { class: 'rodape-marcar' }, [rodapeTexto, btSalvar])
     ]);

@@ -2,16 +2,17 @@
  * Mercado Gestor — versao PWA (funciona no iPhone e no Android pelo navegador).
  * Mesma loja, mesmos dados e mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202607291613';
-import * as D from './dominio.js?v=202607291613';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202607291613';
-import { semear } from './semente.js?v=202607291613';
-import * as M from './modulos.js?v=202607291613';
-import * as M2 from './modulos2.js?v=202607291613';
-import { instalarTelasExtra } from './telas-extra.js?v=202607291613';
-import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202607291613';
-import { instalarDashboard } from './dashboard.js?v=202607291613';
-import { faixaDeAvisos, botaoAtivarAvisos, iniciarAvisos } from './avisos.js?v=202607291613';
+import { Dados, Prefs, Sync } from './dados.js?v=202608051826';
+import * as D from './dominio.js?v=202608051826';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, subtitulo } from './ui.js?v=202608051826';
+import { semear } from './semente.js?v=202608051826';
+import * as M from './modulos.js?v=202608051826';
+import * as M2 from './modulos2.js?v=202608051826';
+import { instalarTelasExtra } from './telas-extra.js?v=202608051826';
+import { instalarEncartes } from './encartes.js?v=202608051826';
+import { popularDemo, limparDemo, contarDemo } from './demo.js?v=202608051826';
+import { instalarDashboard } from './dashboard.js?v=202608051826';
+import { faixaDeAvisos, botaoAtivarAvisos, iniciarAvisos } from './avisos.js?v=202608051826';
 
 const app = document.getElementById('app');
 
@@ -296,6 +297,9 @@ registrar('painel', () => {
     Dados.ativos('paletes').filter(p => a.veSetor(p.setor)).length + ' posicoes mapeadas',
     null, '#455A64', 'estoque');
 
+  mod('🖼', 'Encartes', Dados.ativos('encartes').length + ' encarte(s)',
+    null, '#8D5A2B', 'encartes');
+
   const contagensNovas = Dados.ativos('contagens')
     .filter(c => c.concluida && !c.vistaPeloGestor && a.veTrabalhoDosOutros()).length;
   mod('🧮', 'Contagem de estoque', Dados.ativos('contagens').length + ' contagens',
@@ -423,6 +427,11 @@ registrar('ajustes', () => {
   const pin = campo('Senha da loja', Prefs.get('pin'));
   const url = campo('Endereco da loja (planilha do Google ou sync.php)', Prefs.get('url'));
   const status = aviso('', Prefs.lojaConectada() ? '#2E7D32' : '#757575');
+  // A chave do Gemini fica so neste aparelho — nunca entra no JSON sincronizado
+  // com a loja, entao cada celular/computador que for gerar encarte com IA
+  // precisa colar a sua propria.
+  const geminiKey = campo('Chave da API Gemini (opcional, so pra gerar encarte com IA)',
+    Prefs.get('geminiKey'), { type: 'password' });
 
   function atualizarStatus() {
     if (!Prefs.lojaConectada()) {
@@ -437,9 +446,12 @@ registrar('ajustes', () => {
   atualizarStatus();
 
   function salvar() {
-    Prefs.set('loja', loja.input.value.trim());
-    Prefs.set('pin', pin.input.value.trim());
-    Prefs.set('url', url.input.value.trim());
+    if (a.configuraLoja()) {
+      Prefs.set('loja', loja.input.value.trim());
+      Prefs.set('pin', pin.input.value.trim());
+      Prefs.set('url', url.input.value.trim());
+    }
+    Prefs.set('geminiKey', geminiKey.input.value.trim());
   }
 
   async function trocarSenha() {
@@ -474,6 +486,12 @@ registrar('ajustes', () => {
           () => { Prefs.sair(); render(); })
       }, '🚪  Sair desta conta'),
 
+      h('div', { class: 'rotulo-secao' }, 'Encartes com IA'),
+      h('div', { class: 'sub' }, 'Cole aqui a sua chave da API do Gemini pra gerar encarte '
+        + 'com IA neste aparelho. Ela fica so aqui, nao vai para a loja nem para os outros '
+        + 'celulares — cada aparelho usa a sua propria.'),
+      geminiKey.el,
+
       // Endereco, codigo e senha da loja sao assunto de dono: a equipe nao precisa
       // (o app ja vem conectado) e nao deve sair repassando esses dados.
       ...(a.configuraLoja() ? [
@@ -506,8 +524,8 @@ registrar('ajustes', () => {
           + '. A configuracao da conexao fica com o dono.')
       ])
     ]),
-    barra([{ texto: a.configuraLoja() ? 'Salvar ajustes' : 'Voltar',
-      onclick: () => { if (a.configuraLoja()) { salvar(); toast('Ajustes salvos.'); } voltar(); } }])
+    barra([{ texto: 'Salvar ajustes',
+      onclick: () => { salvar(); toast('Ajustes salvos.'); voltar(); } }])
   ]);
 });
 
@@ -681,6 +699,7 @@ M.instalarModulos({ registrar, ir, voltar, render });
 M2.instalarModulos2({ registrar, ir, voltar, render });
 instalarTelasExtra({ registrar, ir, voltar, render });
 instalarDashboard({ registrar, ir, voltar, render });
+instalarEncartes({ registrar, ir, voltar, render });
 
 Dados.carregar();
 Prefs.carregar();

@@ -2,8 +2,8 @@
  * Na primeira abertura a loja ja nasce com um checklist por setor e o cronograma
  * de limpeza/reposicao — os mesmos textos do aplicativo Android.
  */
-import { Dados, uuid } from './dados.js?v=202607291613';
-import { SETORES_PADRAO } from './dominio.js?v=202607291613';
+import { Dados, uuid } from './dados.js?v=202608051826';
+import { SETORES_PADRAO } from './dominio.js?v=202608051826';
 
 export const CHECKLISTS = {
   HORTIFRUTI: ['Retirar frutas, legumes e verduras improprios para venda',
@@ -46,6 +46,15 @@ export const CHECKLISTS = {
     'Aplicar PVPS: lote mais antigo na frente', 'Corredores e saidas de emergencia livres',
     'Conferir avarias no recebimento', 'Registrar entrada de mercadoria no estoque do app']
 };
+
+/**
+ * Catalogo pronto para o cadastro em massa: os produtos que praticamente todo
+ * mercado vende, com codigo de barras real. O dono escolhe quais entram na
+ * loja dele em Estoque > Importar — ninguem e obrigado a aceitar a lista
+ * inteira, e todo item continua editavel (inclusive o codigo) depois.
+ */
+export const PRODUTOS_SEMENTE = [
+];
 
 const ROTINAS = [
   ['Aferir temperatura dos freezers', 'CONGELADOS', '🌡', '08:00', 30],

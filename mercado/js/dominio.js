@@ -3,7 +3,7 @@
  * perfis de acesso e senha. Os nomes das constantes sao iguais aos do Java porque
  * os dois lados leem e escrevem o mesmo arquivo.
  */
-import { Dados, Prefs } from './dados.js?v=202607291613';
+import { Dados, Prefs } from './dados.js?v=202608051826';
 
 /**
  * Setores da loja.
@@ -290,6 +290,13 @@ export function lerNumero(s) {
  * e segue. O cadastro nasce aqui, meio vazio, e o dono completa depois com codigo
  * de barras, marca e preco. Devolve a ficha do produto, nova ou a que ja existia.
  */
+/** Acha o cadastro pelo codigo de barras — o que o leitor de camera usa. */
+export function produtoPorCodigo(codigo) {
+  const c = (codigo || '').trim();
+  if (!c) return null;
+  return Dados.ativos('catalogo').find(x => x.codigo === c) || null;
+}
+
 export function garantirProduto(nome, setor, autor) {
   const limpo = (nome || '').trim();
   if (!limpo) return null;

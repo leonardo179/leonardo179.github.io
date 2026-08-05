@@ -6,12 +6,13 @@
  * freezer ou no deposito, a tela continua abrindo em vez de dar erro, e o que for
  * registrado sobe assim que a internet voltar.
  */
-const CACHE = 'mercado-gestor-202607291613';
+const CACHE = 'mercado-gestor-202608051826';
 const ARQUIVOS = [
   './', './index.html', './manifest.webmanifest',
   './js/app.js', './js/dados.js', './js/dominio.js', './js/modulos.js',
   './js/semente.js', './js/ui.js', './js/modulos2.js', './js/telas-extra.js', './js/cronograma.js',
-  './js/demo.js', './js/dashboard.js', './js/avisos.js',
+  './js/demo.js', './js/dashboard.js', './js/avisos.js', './js/zxing-vendor.js',
+  './js/encartes.js', './js/encarte-render.js', './js/temas-encarte.js', './js/modelo-gemini.js',
   './icons/icone-180.png', './icons/icone-192.png', './icons/icone-512.png'
 ];
 

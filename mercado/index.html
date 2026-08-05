@@ -103,6 +103,26 @@
   .linha-dia{background:#fff; border-radius:14px; padding:10px 12px; margin-bottom:8px;
     box-shadow:0 1px 3px rgba(0,0,0,.08)}
 
+  /* Leitor de codigo de barras: camera cheia de tela com mira e saida manual. */
+  .leitor-fundo{position:fixed; inset:0; background:#000; z-index:300;
+    display:flex; flex-direction:column}
+  .leitor-topo{display:flex; align-items:center; justify-content:space-between;
+    color:#fff; padding:calc(env(safe-area-inset-top) + 14px) 16px 12px; font-weight:600}
+  .leitor-fechar{font-size:22px; cursor:pointer; padding:4px 10px; user-select:none}
+  .leitor-video{position:relative; flex:1; overflow:hidden; display:flex;
+    align-items:center; justify-content:center; background:#000}
+  .leitor-video video{width:100%; height:100%; object-fit:cover}
+  .leitor-mira{position:absolute; left:10%; right:10%; top:38%; height:24%;
+    border:3px solid #4CAF50; border-radius:14px; box-shadow:0 0 0 999px rgba(0,0,0,.35)}
+  .leitor-status{color:#fff; text-align:center; padding:10px 16px; font-size:13px}
+  .leitor-manual{display:flex; gap:8px; align-items:flex-end; padding:10px 12px
+    calc(env(safe-area-inset-bottom) + 14px); background:#111}
+  .leitor-manual > div{flex:1}
+  .leitor-manual label{color:#CFEBD0}
+  .leitor-manual button{border:0; border-radius:12px; padding:12px 16px; font-size:14px;
+    font-weight:600; color:#fff; background:var(--verde); cursor:pointer; white-space:nowrap}
+  .btn-scan{flex:none; padding:12px 14px !important; font-size:18px; line-height:1}
+
   /* Formulario em janela: varios campos de uma vez, com o total a vista. */
   .modal-fundo{position:fixed; inset:0; background:rgba(0,0,0,.45); z-index:200;
     display:flex; align-items:flex-end; justify-content:center}
@@ -185,6 +205,6 @@
 </head>
 <body>
   <div id="app"></div>
-  <script type="module" src="js/app.js?v=202607291613"></script>
+  <script type="module" src="js/app.js?v=202608051826"></script>
 </body>
 </html>

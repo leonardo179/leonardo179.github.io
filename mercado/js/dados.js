@@ -14,7 +14,11 @@ const LISTAS = [
   // Composicao do deposito: um registro por corredor (posicoes, niveis, lados).
   // E o que o dono monta uma vez para o mapa dos paletes ter a forma do deposito
   // dele, e nao um desenho generico.
-  'corredores'
+  'corredores',
+  // Encartes: so a especificacao do layout e a URL da imagem (depois de
+  // subir pro Drive) entram aqui — nunca a foto em base64, que estouraria
+  // o tamanho do JSON sincronizado a cada gravacao.
+  'encartes'
 ];
 
 const CHAVE_DADOS = 'mercado_dados';
