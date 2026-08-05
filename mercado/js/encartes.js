@@ -3,12 +3,12 @@
  * cores, fontes, temas, simbolos de kg/g/L/mL/R$) e a tela de IA.
  * Mesma logica de tela do resto do app (registrar/ir/render).
  */
-import { Dados, Prefs } from './dados.js?v=202608051914';
-import * as D from './dominio.js?v=202608051914';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051914';
-import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051914';
-import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051914';
-import { gerarImagemIA } from './modelo-gemini.js?v=202608051914';
+import { Dados, Prefs } from './dados.js?v=202608051921';
+import * as D from './dominio.js?v=202608051921';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051921';
+import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051921';
+import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051921';
+import { gerarImagemIA } from './modelo-gemini.js?v=202608051921';
 
 let ir, voltar, render;
 
@@ -476,12 +476,44 @@ function telaEditor(registrar) {
       toast('Gerando imagem...');
       try {
         const png = await exportarPng(enc);
+        const arquivo = new File([await (await fetch(png)).blob()],
+          (enc.titulo || 'encarte') + '.png', { type: 'image/png' });
+        // No celular, isso abre o menu nativo de compartilhar (WhatsApp, Salvar
+        // imagem, AirDrop...) em vez de so baixar um arquivo que some na pasta.
+        if (navigator.canShare && navigator.canShare({ files: [arquivo] })) {
+          await navigator.share({ files: [arquivo], title: enc.titulo || 'Encarte' });
+          return;
+        }
         const link = h('a', { href: png, download: (enc.titulo || 'encarte') + '.png' });
         link.click();
       } catch (e) {
+        if (e && e.name === 'AbortError') return; // usuario cancelou o compartilhar
         toast('Nao consegui gerar o PNG (provavelmente por causa de uma foto externa). '
           + 'Use Imprimir no menu do navegador nesta tela.');
       }
+    }
+
+    function verTelaCheia() {
+      if (enc.fundo.tipo !== 'imagem' || !enc.fundo.valor) return;
+      const fechar = () => overlay.remove();
+      const overlay = h('div', {
+        estilo: {
+          position: 'fixed', inset: '0', background: '#000', zIndex: '999',
+          display: 'flex', alignItems: 'center', justifyContent: 'center'
+        },
+        onclick: fechar
+      }, [
+        h('img', {
+          src: resolverFundoTema(enc.fundo.valor),
+          estilo: { maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }
+        }),
+        h('div', {
+          estilo: { position: 'fixed', top: 'calc(env(safe-area-inset-top) + 10px)', right: '16px',
+            color: '#fff', fontSize: '28px', lineHeight: '1', padding: '6px 12px' },
+          onclick: fechar
+        }, '✕')
+      ]);
+      document.body.appendChild(overlay);
     }
 
     pagina.addEventListener('pointerdown', () => { selecionado = null; redesenhar(); });
@@ -499,14 +531,16 @@ function telaEditor(registrar) {
           h('button', { class: 'sec', onclick: () => novoElemento('preco') }, '+ Preco'),
           h('button', { class: 'sec', onclick: abrirTemas }, '🎨 Tema'),
           h('button', { class: 'sec', onclick: abrirFundo }, '🖌 Fundo'),
-          h('button', { class: 'sec', onclick: abrirEstiloGeral }, '🖍 Estilo geral')
-        ]),
+          h('button', { class: 'sec', onclick: abrirEstiloGeral }, '🖍 Estilo geral'),
+          enc.fundo.tipo === 'imagem' && enc.fundo.valor
+            ? h('button', { class: 'sec', onclick: verTelaCheia }, '🔍 Tela cheia') : null
+        ].filter(Boolean)),
         pagina,
         painelProp
       ]),
       barra([
         { texto: 'Salvar', onclick: salvar },
-        { texto: 'Exportar PNG', classe: 'cinza', onclick: exportar },
+        { texto: 'Exportar / Compartilhar', classe: 'cinza', onclick: exportar },
         existente ? { texto: 'Excluir', classe: 'vermelho', onclick: () => confirmar('Excluir encarte',
           'Apagar este encarte?', () => { Dados.excluir('encartes', enc, a.nome()); ir('encartes'); render(); }) } : null
       ])
@@ -520,6 +554,15 @@ function lerComoDataUrl(arquivo) {
     r.onload = () => resolve(r.result);
     r.onerror = reject;
     r.readAsDataURL(arquivo);
+  });
+}
+
+function medirImagem(dataUrl) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => resolve({ largura: img.naturalWidth, altura: img.naturalHeight });
+    img.onerror = () => reject(new Error('nao consegui medir a imagem gerada'));
+    img.src = dataUrl;
   });
 }
 
@@ -586,9 +629,15 @@ function telaIA(registrar) {
         // Fica so neste aparelho: nao sobe pra lugar nenhum. Quem gerou decide
         // se quer Salvar (entra no encarte sincronizado) ou so Exportar/baixar.
         const dataUrl = await gerarImagemIA(chave, prompt, fotos);
+        // O Gemini nao devolve sempre exatamente 1080x1350 (o pedido no prompt
+        // e uma sugestao, nao garantia) — medir o tamanho real e usar ele evita
+        // que a previa/exportacao cortem pedaco da imagem (fundo em "cover").
+        const dims = await medirImagem(dataUrl);
         const enc = novoEncarte();
         enc.modo = 'IA_IMAGEM';
         enc.titulo = desc.slice(0, 40);
+        enc.largura = dims.largura;
+        enc.altura = dims.altura;
         enc.imagemFinalUrl = dataUrl;
         enc.fundo = { tipo: 'imagem', valor: dataUrl };
         enc.promptIA = prompt;
