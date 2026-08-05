@@ -3,12 +3,12 @@
  * cores, fontes, temas, simbolos de kg/g/L/mL/R$) e a tela de IA.
  * Mesma logica de tela do resto do app (registrar/ir/render).
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202608051829';
-import * as D from './dominio.js?v=202608051829';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051829';
-import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051829';
-import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051829';
-import { gerarLayoutIA, gerarImagemIA } from './modelo-gemini.js?v=202608051829';
+import { Dados, Prefs, Sync } from './dados.js?v=202608051847';
+import * as D from './dominio.js?v=202608051847';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051847';
+import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051847';
+import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051847';
+import { gerarImagemIA } from './modelo-gemini.js?v=202608051847';
 
 let ir, voltar, render;
 
@@ -555,10 +555,6 @@ function telaIA(registrar) {
     const temaSel = lista('Tema (opcional)',
       [{ valor: '', texto: '— deixar a IA escolher —' }]
         .concat(TEMAS_ENCARTE.map(t => ({ valor: t.chave, texto: t.nome }))), '');
-    const modoSel = lista('O que gerar', [
-      { valor: 'IA_LAYOUT', texto: 'Layout editavel (recomendado)' },
-      { valor: 'IA_IMAGEM', texto: 'Imagem pronta' }
-    ], 'IA_LAYOUT');
     const status = aviso('');
     status.style.display = 'none';
 
@@ -589,41 +585,26 @@ function telaIA(registrar) {
       if (!desc) { toast('Descreva o que voce quer no encarte.'); return; }
 
       status.style.display = '';
-      status.textContent = 'Pensando no encarte...';
+      status.textContent = 'Gerando a imagem...';
 
       const tema = TEMAS_ENCARTE.find(t => t.chave === temaSel.input.value);
-      const prompt = montarPrompt(desc, listaPrecos.input.value.trim(), tema, modoSel.input.value === 'IA_IMAGEM');
+      const prompt = montarPrompt(desc, listaPrecos.input.value.trim(), tema, fotos.length > 0);
 
       try {
-        if (modoSel.input.value === 'IA_LAYOUT') {
-          const layout = await gerarLayoutIA(chave, prompt, fotos);
-          const enc = novoEncarte();
-          enc.modo = 'IA_LAYOUT';
-          enc.titulo = layout.titulo || desc.slice(0, 40);
-          enc.largura = layout.largura || 1080;
-          enc.altura = layout.altura || 1350;
-          enc.fundo = layout.fundo || enc.fundo;
-          enc.elementos = Array.isArray(layout.elementos) ? layout.elementos : [];
-          enc.promptIA = prompt;
-          abrirEditorComRascunho(enc);
-          ir('encarte-editor', { novo: 1 });
-        } else {
-          status.textContent = 'Gerando a imagem...';
-          const dataUrl = await gerarImagemIA(chave, prompt);
-          status.textContent = 'Enviando imagem...';
-          const r = await Sync.chamar({
-            acao: 'upload-imagem', loja: Prefs.get('loja'), pin: Prefs.get('pin'),
-            base64: dataUrl, nomeArquivo: 'encarte-ia.png'
-          });
-          const enc = novoEncarte();
-          enc.modo = 'IA_IMAGEM';
-          enc.titulo = desc.slice(0, 40);
-          enc.imagemFinalUrl = r.url;
-          enc.fundo = { tipo: 'imagem', valor: r.url };
-          enc.promptIA = prompt;
-          abrirEditorComRascunho(enc);
-          ir('encarte-editor', { novo: 1 });
-        }
+        const dataUrl = await gerarImagemIA(chave, prompt, fotos);
+        status.textContent = 'Enviando imagem...';
+        const r = await Sync.chamar({
+          acao: 'upload-imagem', loja: Prefs.get('loja'), pin: Prefs.get('pin'),
+          base64: dataUrl, nomeArquivo: 'encarte-ia.png'
+        });
+        const enc = novoEncarte();
+        enc.modo = 'IA_IMAGEM';
+        enc.titulo = desc.slice(0, 40);
+        enc.imagemFinalUrl = r.url;
+        enc.fundo = { tipo: 'imagem', valor: r.url };
+        enc.promptIA = prompt;
+        abrirEditorComRascunho(enc);
+        ir('encarte-editor', { novo: 1 });
       } catch (e) {
         status.textContent = 'Nao consegui gerar: ' + e.message
           + '. Confira a chave em Ajustes ou tente de novo.';
@@ -632,10 +613,10 @@ function telaIA(registrar) {
 
     return h('div', {}, [
       cabecalho({ titulo: '✨ Gerar encarte com IA',
-        sub: 'Descreva, anexe fotos e a IA monta — sempre da pra ajustar depois',
+        sub: 'Descreva, anexe fotos e a IA gera uma imagem pronta — sempre da pra ajustar depois',
         voltar: () => { ir('encartes'); render(); } }),
       h('main', {}, [
-        descricao.el, listaPrecos.el, temaSel.el, modoSel.el,
+        descricao.el, listaPrecos.el, temaSel.el,
         h('div', { class: 'rotulo-secao' }, 'Fotos e logo (opcional)'),
         listaFotos,
         h('button', { class: 'sec', onclick: () => inputFoto.click() }, '📷 Adicionar foto'),
@@ -647,7 +628,7 @@ function telaIA(registrar) {
   });
 }
 
-function montarPrompt(descricao, precos, tema, paraImagem) {
+function montarPrompt(descricao, precos, tema, temFotos) {
   const temas = TEMAS_ENCARTE.map(t => t.chave + ' (' + t.nome + ')').join(', ');
   let p = 'Voce e um designer de encartes de mercado brasileiro. ';
   p += 'Pedido do dono: ' + descricao + '\n';
@@ -655,21 +636,15 @@ function montarPrompt(descricao, precos, tema, paraImagem) {
   if (tema) p += 'Use o tema "' + tema.nome + '" (cor primaria ' + tema.corPrimaria
     + ', secundaria ' + tema.corSecundaria + ', destaque ' + tema.corDestaque + ').\n';
   else p += 'Temas disponiveis, escolha o que combinar: ' + temas + '.\n';
+  if (temFotos) p += 'Use as imagens anexadas como referencia visual real (fotos de produto '
+    + 'e/ou logo da loja) — nao troque marca, formato ou cores do que foi enviado.\n';
 
-  if (paraImagem) {
-    p += 'Gere uma imagem de encarte de mercado pronta, proporcao vertical, com os precos '
-      + 'bem legiveis e grandes, estilo profissional de tabloide de supermercado brasileiro.';
-    return p;
-  }
+  p += 'Use somente as informacoes fornecidas aqui (nome da loja, produtos, precos e o pedido '
+    + 'do dono). Nunca invente endereco, telefone, site, redes sociais, CNPJ ou uma data '
+    + 'especifica de validade — se precisar indicar validade, use um termo generico como '
+    + '"somente hoje" ou "enquanto durarem os estoques", sem dia/mes/ano.\n';
 
-  p += '\nDevolva SOMENTE um JSON (sem markdown, sem texto fora do JSON) no formato:\n'
-    + '{"titulo":"...","largura":1080,"altura":1350,'
-    + '"fundo":{"tipo":"cor","valor":"#RRGGBB"},'
-    + '"elementos":[{"tipo":"texto","x":0,"y":0,"w":500,"h":80,"rot":0,"texto":"...",'
-    + '"fonte":"system","tamanho":48,"cor":"#RRGGBB","alinhamento":"left","negrito":true},'
-    + '{"tipo":"preco","x":0,"y":0,"w":220,"h":220,"rot":0,"estilo":"faixa",'
-    + '"precoDe":8.99,"precoPor":6.99,"unidade":"und","textoExtra":"","cor":"#RRGGBB"}]}\n'
-    + 'x/y/w/h em pixels dentro de largura x altura, sem sobrepor elementos, com boa margem '
-    + 'das bordas e contraste de cor legivel.';
+  p += 'Gere uma imagem de encarte de mercado pronta, proporcao vertical, com os precos '
+    + 'bem legiveis e grandes, estilo profissional de tabloide de supermercado brasileiro.';
   return p;
 }

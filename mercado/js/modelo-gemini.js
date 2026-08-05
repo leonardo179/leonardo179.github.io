@@ -57,27 +57,8 @@ function juntar(primeiro, depois) {
 }
 
 /**
- * Ordem de tentativa para TEXTO/JSON (o layout do encarte): a lista curada
- * primeiro (so os que ainda existem na API), depois os demais modelos de
- * texto descobertos como reserva. Sem rede: devolve a lista fixa inteira.
- */
-export async function modelosTexto(apiKey, preferidos) {
-  const disponiveis = await buscar(apiKey);
-  if (!disponiveis.length) return preferidos;
-
-  const ordem = preferidos.filter(p => disponiveis.includes(p));
-  const extras = disponiveis.filter(m => !ordem.includes(m) && m.startsWith('gemini-')
-    && (m.includes('flash') || m.includes('pro'))
-    && !/image|audio|tts|embedding|live|robotics|thinking|vision/.test(m));
-  extras.sort((a, b) => pontos(b) - pontos(a));
-  ordem.push(...extras);
-  return ordem.length ? juntar(ordem, preferidos) : preferidos;
-}
-
-/**
- * Mesma ideia, mas para o encarte em modo "imagem pronta": so modelos que
- * geram imagem (o nome sempre carrega "image" — o Gemini nao tem outro jeito
- * de marcar isso na listagem publica).
+ * Modelos que geram imagem: so os que tem "image" no nome — o Gemini nao tem
+ * outro jeito de marcar isso na listagem publica.
  */
 export async function modelosImagem(apiKey, preferidos) {
   const disponiveis = await buscar(apiKey);
@@ -93,9 +74,6 @@ export async function modelosImagem(apiKey, preferidos) {
 
 // ------------------------------------------------------------ chamada Gemini
 
-const MODELOS_TEXTO_RESERVA = [
-  'gemini-flash-latest', 'gemini-2.5-flash', 'gemini-2.5-flash-lite', 'gemini-2.0-flash'
-];
 const MODELOS_IMAGEM_RESERVA = [
   'gemini-2.5-flash-image', 'gemini-2.0-flash-preview-image-generation'
 ];
@@ -130,32 +108,33 @@ async function tentarModelos(apiKey, modelos, parts, generationConfig) {
   throw ultimoErro;
 }
 
-/**
- * Gera o LAYOUT do encarte (JSON com fundo + elementos, ver Encarte no app) a
- * partir de uma descricao livre, temas conhecidos e fotos ja enviadas. Volta
- * o objeto ja parseado — quem chama so encaixa em Dados.gravar('encartes', ...).
- */
-export async function gerarLayoutIA(apiKey, prompt, imagensUrl) {
-  const parts = [{ text: prompt }];
-  // As fotos entram so como referencia visual (o modelo enxerga, nao baixa
-  // a URL) — por isso descrevemos onde estao no texto do prompt tambem.
-  const modelos = await modelosTexto(apiKey, MODELOS_TEXTO_RESERVA);
-  const resposta = await tentarModelos(apiKey, modelos, parts, {
-    temperature: 0.8,
-    responseMimeType: 'application/json'
-  });
-  const texto = resposta.map(p => p.text || '').join('');
-  return JSON.parse(texto);
+/** "data:image/jpeg;base64,AAAA..." -> { inlineData: { mimeType, data } } pro corpo da API. */
+function fotoParaParte(dataUrl) {
+  const m = /^data:([^;]+);base64,(.*)$/.exec(dataUrl || '');
+  return m ? { inlineData: { mimeType: m[1], data: m[2] } } : null;
 }
 
 /**
- * Gera a IMAGEM pronta do encarte. Volta um data-URL (base64) — quem chama
- * sobe isso pro Drive (Sync.subirImagem) antes de gravar a URL no registro.
+ * Gera a IMAGEM pronta do encarte, mandando as fotos anexadas (produto/logo)
+ * junto do pedido para o modelo usar como referencia visual real. Volta um
+ * data-URL (base64) — quem chama sobe isso pro Drive (Sync.chamar) antes de
+ * gravar a URL no registro.
+ *
+ * IMPORTANTE: sem "responseModalities: ['TEXT','IMAGE']" o Gemini responde
+ * so texto (ou erro) e nunca devolve a imagem — foi descoberto assim, o app
+ * "gerava" e nunca vinha nada.
  */
-export async function gerarImagemIA(apiKey, prompt) {
+export async function gerarImagemIA(apiKey, prompt, fotos) {
   const parts = [{ text: prompt }];
+  (fotos || []).forEach(f => {
+    const parte = fotoParaParte(f);
+    if (parte) parts.push(parte);
+  });
   const modelos = await modelosImagem(apiKey, MODELOS_IMAGEM_RESERVA);
-  const resposta = await tentarModelos(apiKey, modelos, parts, { temperature: 0.9 });
+  const resposta = await tentarModelos(apiKey, modelos, parts, {
+    temperature: 0.9,
+    responseModalities: ['TEXT', 'IMAGE']
+  });
   const imagem = resposta.find(p => p.inlineData || p.inline_data);
   if (!imagem) throw new Error('o modelo nao devolveu uma imagem');
   const dado = imagem.inlineData || imagem.inline_data;

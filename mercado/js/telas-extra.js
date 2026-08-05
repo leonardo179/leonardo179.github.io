@@ -3,10 +3,10 @@
  *  • Realizados — o outro lado do painel: o que a equipe JA fez hoje;
  *  • Setores — o dono cria, renomeia e desativa os setores da loja.
  */
-import { Dados } from './dados.js?v=202608051829';
-import * as D from './dominio.js?v=202608051829';
-import { h, cabecalho, cartao, campo, lista, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202608051829';
-import { rotinasDeHoje, statusRotina } from './modulos.js?v=202608051829';
+import { Dados } from './dados.js?v=202608051847';
+import * as D from './dominio.js?v=202608051847';
+import { h, cabecalho, cartao, campo, lista, barra, vazio, aviso, toast, confirmar } from './ui.js?v=202608051847';
+import { rotinasDeHoje, statusRotina } from './modulos.js?v=202608051847';
 
 let ir, voltar, render;
 
