@@ -3,12 +3,12 @@
  * cores, fontes, temas, simbolos de kg/g/L/mL/R$) e a tela de IA.
  * Mesma logica de tela do resto do app (registrar/ir/render).
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202608051826';
-import * as D from './dominio.js?v=202608051826';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051826';
-import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051826';
-import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051826';
-import { gerarLayoutIA, gerarImagemIA } from './modelo-gemini.js?v=202608051826';
+import { Dados, Prefs, Sync } from './dados.js?v=202608051829';
+import * as D from './dominio.js?v=202608051829';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051829';
+import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051829';
+import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051829';
+import { gerarLayoutIA, gerarImagemIA } from './modelo-gemini.js?v=202608051829';
 
 let ir, voltar, render;
 

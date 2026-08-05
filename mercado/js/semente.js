@@ -2,8 +2,8 @@
  * Na primeira abertura a loja ja nasce com um checklist por setor e o cronograma
  * de limpeza/reposicao — os mesmos textos do aplicativo Android.
  */
-import { Dados, uuid } from './dados.js?v=202608051826';
-import { SETORES_PADRAO } from './dominio.js?v=202608051826';
+import { Dados, uuid } from './dados.js?v=202608051829';
+import { SETORES_PADRAO } from './dominio.js?v=202608051829';
 
 export const CHECKLISTS = {
   HORTIFRUTI: ['Retirar frutas, legumes e verduras improprios para venda',
@@ -49,11 +49,141 @@ export const CHECKLISTS = {
 
 /**
  * Catalogo pronto para o cadastro em massa: os produtos que praticamente todo
- * mercado vende, com codigo de barras real. O dono escolhe quais entram na
- * loja dele em Estoque > Importar — ninguem e obrigado a aceitar a lista
- * inteira, e todo item continua editavel (inclusive o codigo) depois.
+ * mercado vende. O dono escolhe quais entram na loja dele em Estoque >
+ * Importar — ninguem e obrigado a aceitar a lista inteira, e todo item
+ * continua editavel (inclusive o codigo) depois.
+ *
+ * O codigo de barras fica vazio de proposito: nao ha como garantir aqui um
+ * EAN-13 verdadeiro por produto sem uma fonte confiavel, e um numero errado
+ * atrapalha mais do que ajuda (o leitor de camera nunca vai bater com ele).
+ * A tela ja trata "sem codigo" normalmente — o dono completa na hora que
+ * escanear o produto de verdade pela primeira vez.
+ *
+ * Mesma lista, com os mesmos valores, do ProdutosSemente.ITENS do Android
+ * (app/src/main/java/com/lhapps/mercadogestor/data/ProdutosSemente.java) —
+ * os dois lados precisam enxergar o mesmo catalogo.
  */
 export const PRODUTOS_SEMENTE = [
+  // HORTIFRUTI
+  { codigo: '', nome: 'Banana Prata', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Maca Gala', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Tomate', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Batata Inglesa', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Cebola', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Alface Crespa', marca: '', setor: 'HORTIFRUTI', unidade: 'UND', porCaixa: 1 },
+  { codigo: '', nome: 'Laranja Pera', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Limao Tahiti', marca: '', setor: 'HORTIFRUTI', unidade: 'KG', porCaixa: 1 },
+
+  // ACOUGUE
+  { codigo: '', nome: 'Picanha Bovina', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Alcatra Bovina', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Frango Inteiro Resfriado', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'File de Peito de Frango', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Costela Bovina', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Linguica Toscana', marca: '', setor: 'ACOUGUE', unidade: 'KG', porCaixa: 1 },
+
+  // PEIXARIA
+  { codigo: '', nome: 'File de Tilapia', marca: '', setor: 'PEIXARIA', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'File de Salmao', marca: '', setor: 'PEIXARIA', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Camarao Medio Limpo', marca: '', setor: 'PEIXARIA', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Bacalhau Dessalgado', marca: '', setor: 'PEIXARIA', unidade: 'KG', porCaixa: 1 },
+
+  // PADARIA
+  { codigo: '', nome: 'Pao Frances', marca: '', setor: 'PADARIA', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Pao de Forma', marca: 'Pullman', setor: 'PADARIA', unidade: 'UND', porCaixa: 1 },
+  { codigo: '', nome: 'Pao de Forma Integral', marca: 'Wickbold', setor: 'PADARIA', unidade: 'UND', porCaixa: 1 },
+  { codigo: '', nome: 'Bolo Caseiro', marca: '', setor: 'PADARIA', unidade: 'UND', porCaixa: 1 },
+  { codigo: '', nome: 'Rosca Doce', marca: '', setor: 'PADARIA', unidade: 'UND', porCaixa: 1 },
+
+  // FRIOS
+  { codigo: '', nome: 'Leite Integral 1L', marca: 'Piracanjuba', setor: 'FRIOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Leite Integral 1L', marca: 'Italac', setor: 'FRIOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Queijo Mussarela Fatiado', marca: '', setor: 'FRIOS', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Presunto Fatiado', marca: 'Sadia', setor: 'FRIOS', unidade: 'KG', porCaixa: 1 },
+  { codigo: '', nome: 'Requeijao Cremoso 200g', marca: 'Catupiry', setor: 'FRIOS', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Manteiga com Sal 200g', marca: 'Aviacao', setor: 'FRIOS', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Iogurte Morango 170g', marca: 'Danone', setor: 'FRIOS', unidade: 'CX', porCaixa: 12 },
+
+  // MERCEARIA
+  { codigo: '', nome: 'Arroz Branco Tipo 1 5kg', marca: 'Tio Joao', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Feijao Carioca 1kg', marca: 'Camil', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Acucar Refinado 1kg', marca: 'Uniao', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Cafe Torrado e Moido 500g', marca: 'Pilao', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Oleo de Soja 900ml', marca: 'Soya', setor: 'MERCEARIA', unidade: 'CX', porCaixa: 20 },
+  { codigo: '', nome: 'Sal Refinado 1kg', marca: 'Cisne', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Farinha de Trigo 1kg', marca: 'Dona Benta', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Macarrao Espaguete 500g', marca: 'Adria', setor: 'MERCEARIA', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Molho de Tomate 340g', marca: 'Fugini', setor: 'MERCEARIA', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Vinagre de Alcool 750ml', marca: 'Castelo', setor: 'MERCEARIA', unidade: 'CX', porCaixa: 12 },
+
+  // MATINAIS
+  { codigo: '', nome: 'Achocolatado em Po 400g', marca: 'Nescau', setor: 'MATINAIS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Achocolatado em Po 400g', marca: 'Toddy', setor: 'MATINAIS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Leite em Po 400g', marca: 'Ninho', setor: 'MATINAIS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Cereal Matinal 300g', marca: "Kellogg's", setor: 'MATINAIS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Geleia de Morango 200g', marca: 'Queensberry', setor: 'MATINAIS', unidade: 'CX', porCaixa: 12 },
+
+  // DOCES
+  { codigo: '', nome: 'Biscoito Recheado 126g', marca: 'Trakinas', setor: 'DOCES', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Biscoito Cream Cracker 200g', marca: 'Adria', setor: 'DOCES', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Chocolate ao Leite 90g', marca: 'Lacta', setor: 'DOCES', unidade: 'CX', porCaixa: 20 },
+  { codigo: '', nome: 'Bala de Goma', marca: 'Fini', setor: 'DOCES', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Chocolate ao Leite', marca: 'Garoto', setor: 'DOCES', unidade: 'CX', porCaixa: 20 },
+  { codigo: '', nome: 'Po para Pudim 40g', marca: 'Royal', setor: 'DOCES', unidade: 'CX', porCaixa: 24 },
+
+  // SALGADINHOS
+  { codigo: '', nome: 'Salgadinho de Batata Ondulado 96g', marca: 'Ruffles', setor: 'SALGADINHOS', unidade: 'CX', porCaixa: 15 },
+  { codigo: '', nome: 'Salgadinho de Tortilha 84g', marca: 'Doritos', setor: 'SALGADINHOS', unidade: 'CX', porCaixa: 15 },
+  { codigo: '', nome: 'Batata Frita Chips', marca: "Lay's", setor: 'SALGADINHOS', unidade: 'CX', porCaixa: 15 },
+  { codigo: '', nome: 'Amendoim Japones 150g', marca: 'Yoki', setor: 'SALGADINHOS', unidade: 'CX', porCaixa: 24 },
+
+  // BEBIDAS
+  { codigo: '', nome: 'Refrigerante Cola 2L', marca: 'Coca-Cola', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 6 },
+  { codigo: '', nome: 'Refrigerante Guarana 2L', marca: 'Antarctica', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 6 },
+  { codigo: '', nome: 'Suco de Uva 1L', marca: 'Del Valle', setor: 'BEBIDAS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Agua Mineral sem Gas 500ml', marca: 'Crystal', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 12 },
+  { codigo: '', nome: 'Cerveja Lata 350ml', marca: 'Skol', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 12 },
+  { codigo: '', nome: 'Cerveja Lata 350ml', marca: 'Brahma', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 12 },
+  { codigo: '', nome: 'Refrigerante Guarana Lata 350ml', marca: 'Antarctica', setor: 'BEBIDAS', unidade: 'FD', porCaixa: 12 },
+
+  // CONGELADOS
+  { codigo: '', nome: 'Lasanha Congelada', marca: 'Sadia', setor: 'CONGELADOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Batata Frita Congelada', marca: 'McCain', setor: 'CONGELADOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Hamburguer Bovino Congelado', marca: 'Sadia', setor: 'CONGELADOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Polpa de Acai Congelada', marca: 'De Marchi', setor: 'CONGELADOS', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Nuggets de Frango', marca: 'Perdigao', setor: 'CONGELADOS', unidade: 'CX', porCaixa: 12 },
+
+  // LIMPEZA
+  { codigo: '', nome: 'Detergente Liquido 500ml', marca: 'Ype', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Sabao em Po 1kg', marca: 'OMO', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 9 },
+  { codigo: '', nome: 'Agua Sanitaria 1L', marca: 'Qboa', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Amaciante de Roupas 1L', marca: 'Comfort', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Desinfetante 500ml', marca: 'Pinho Sol', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Esponja de Aco', marca: 'Bombril', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Sabao em Barra', marca: 'Ype', setor: 'LIMPEZA', unidade: 'CX', porCaixa: 24 },
+
+  // HIGIENE
+  { codigo: '', nome: 'Papel Higienico Folha Dupla 4un', marca: 'Neve', setor: 'HIGIENE', unidade: 'FD', porCaixa: 16 },
+  { codigo: '', nome: 'Sabonete em Barra 85g', marca: 'Lux', setor: 'HIGIENE', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Shampoo 325ml', marca: 'Seda', setor: 'HIGIENE', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Creme Dental 90g', marca: 'Colgate', setor: 'HIGIENE', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Fralda Descartavel Tamanho M', marca: 'Pampers', setor: 'HIGIENE', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Absorvente com Abas', marca: 'Sempre Livre', setor: 'HIGIENE', unidade: 'CX', porCaixa: 12 },
+  { codigo: '', nome: 'Desodorante Aerosol', marca: 'Rexona', setor: 'HIGIENE', unidade: 'CX', porCaixa: 12 },
+
+  // UTILIDADES
+  { codigo: '', nome: 'Saco de Lixo 30L', marca: 'Bralyx', setor: 'UTILIDADES', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Papel Aluminio', marca: 'Wyda', setor: 'UTILIDADES', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Filme PVC', marca: 'Wyda', setor: 'UTILIDADES', unidade: 'CX', porCaixa: 24 },
+  { codigo: '', nome: 'Vela Branca', marca: 'Bahia', setor: 'UTILIDADES', unidade: 'CX', porCaixa: 20 },
+  { codigo: '', nome: 'Fosforo', marca: 'Fiat Lux', setor: 'UTILIDADES', unidade: 'CX', porCaixa: 20 },
+  { codigo: '', nome: 'Pilha AA', marca: 'Duracell', setor: 'UTILIDADES', unidade: 'CX', porCaixa: 24 },
+
+  // PET
+  { codigo: '', nome: 'Racao para Caes Adultos 15kg', marca: 'Golden', setor: 'PET', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Racao para Gatos 1kg', marca: 'Whiskas', setor: 'PET', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Areia Sanitaria para Gatos', marca: 'Pipicat', setor: 'PET', unidade: 'PCT', porCaixa: 1 },
+  { codigo: '', nome: 'Petisco para Caes', marca: 'Pedigree', setor: 'PET', unidade: 'CX', porCaixa: 12 },
 ];
 
 const ROTINAS = [
