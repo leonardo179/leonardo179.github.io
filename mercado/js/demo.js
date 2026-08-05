@@ -3,8 +3,8 @@
  * dar para experimentar o app sem esperar a equipe usar. Todo registro criado
  * aqui leva demo:true, entao da para limpar tudo depois sem tocar no que e real.
  */
-import { Dados } from './dados.js?v=202608051847';
-import * as D from './dominio.js?v=202608051847';
+import { Dados } from './dados.js?v=202608051914';
+import * as D from './dominio.js?v=202608051914';
 
 const dia = n => {
   const d = new Date();

@@ -3,11 +3,11 @@
  * concorrente, gondola vazia, desistencias no caixa, escala e desempenho.
  * Mesmas regras do aplicativo Android.
  */
-import { Dados, Prefs } from './dados.js?v=202608051847';
-import * as D from './dominio.js?v=202608051847';
+import { Dados, Prefs } from './dados.js?v=202608051914';
+import * as D from './dominio.js?v=202608051914';
 import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal,
-  leitorCodigoBarras, botaoScan } from './ui.js?v=202608051847';
-import { PRODUTOS_SEMENTE } from './semente.js?v=202608051847';
+  leitorCodigoBarras, botaoScan } from './ui.js?v=202608051914';
+import { PRODUTOS_SEMENTE } from './semente.js?v=202608051914';
 
 let ir, voltar, render;
 

@@ -3,12 +3,12 @@
  * cores, fontes, temas, simbolos de kg/g/L/mL/R$) e a tela de IA.
  * Mesma logica de tela do resto do app (registrar/ir/render).
  */
-import { Dados, Prefs, Sync } from './dados.js?v=202608051847';
-import * as D from './dominio.js?v=202608051847';
-import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051847';
-import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051847';
-import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051847';
-import { gerarImagemIA } from './modelo-gemini.js?v=202608051847';
+import { Dados, Prefs } from './dados.js?v=202608051914';
+import * as D from './dominio.js?v=202608051914';
+import { h, cabecalho, cartao, campo, area, lista, marcador, barra, vazio, aviso, toast, confirmar, modal } from './ui.js?v=202608051914';
+import { TEMAS_ENCARTE } from './temas-encarte.js?v=202608051914';
+import { desenharEncarte, exportarPng, resolverFundoTema } from './encarte-render.js?v=202608051914';
+import { gerarImagemIA } from './modelo-gemini.js?v=202608051914';
 
 let ir, voltar, render;
 
@@ -315,18 +315,10 @@ function telaEditor(registrar) {
       input.onchange = async () => {
         const arquivo = input.files[0];
         if (!arquivo) return;
+        // Fica so neste aparelho (dentro do proprio encarte) — nao sobe pra
+        // lugar nenhum. Se quiser mandar pra outro aparelho, exporta o PNG.
         const dataUrl = await lerComoDataUrl(arquivo);
-        toast('Enviando foto...');
-        try {
-          const r = await Sync.chamar({
-            acao: 'upload-imagem', loja: Prefs.get('loja'), pin: Prefs.get('pin'),
-            base64: dataUrl, nomeArquivo: arquivo.name
-          });
-          aoEscolher(r.url);
-          toast('Foto enviada.');
-        } catch (e) {
-          toast('Nao consegui enviar a foto: ' + e.message);
-        }
+        aoEscolher(dataUrl);
       };
       const bt = h('button', { class: 'sec', onclick: () => input.click() }, '📷 Escolher foto');
       return h('div', {}, [bt, input]);
@@ -591,17 +583,14 @@ function telaIA(registrar) {
       const prompt = montarPrompt(desc, listaPrecos.input.value.trim(), tema, fotos.length > 0);
 
       try {
+        // Fica so neste aparelho: nao sobe pra lugar nenhum. Quem gerou decide
+        // se quer Salvar (entra no encarte sincronizado) ou so Exportar/baixar.
         const dataUrl = await gerarImagemIA(chave, prompt, fotos);
-        status.textContent = 'Enviando imagem...';
-        const r = await Sync.chamar({
-          acao: 'upload-imagem', loja: Prefs.get('loja'), pin: Prefs.get('pin'),
-          base64: dataUrl, nomeArquivo: 'encarte-ia.png'
-        });
         const enc = novoEncarte();
         enc.modo = 'IA_IMAGEM';
         enc.titulo = desc.slice(0, 40);
-        enc.imagemFinalUrl = r.url;
-        enc.fundo = { tipo: 'imagem', valor: r.url };
+        enc.imagemFinalUrl = dataUrl;
+        enc.fundo = { tipo: 'imagem', valor: dataUrl };
         enc.promptIA = prompt;
         abrirEditorComRascunho(enc);
         ir('encarte-editor', { novo: 1 });
