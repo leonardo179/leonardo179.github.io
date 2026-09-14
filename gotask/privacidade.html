@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de Privacidade — GoTask</title>
+<style>
+  :root { --violeta:#6D4AFF; --violeta-escuro:#4B2FBF; --texto:#1c1b1f; --suave:#5d5b66; --linha:#e5e3ec; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+         color:var(--texto); background:#faf9fd; }
+  header { background:linear-gradient(135deg,var(--violeta-escuro),var(--violeta)); color:#fff; padding:44px 20px 38px; }
+  .caixa { max-width:760px; margin:0 auto; }
+  header h1 { margin:0 0 6px; font-size:1.7rem; }
+  header p { margin:0; opacity:.85; font-size:.95rem; }
+  main { padding:0 20px 64px; }
+  main .caixa { background:#fff; margin-top:-22px; border-radius:16px; padding:28px 26px 34px;
+                box-shadow:0 2px 20px rgba(60,40,140,.08); }
+  h2 { font-size:1.12rem; margin:30px 0 8px; color:var(--violeta-escuro); }
+  h2:first-of-type { margin-top:8px; }
+  p, li { color:var(--texto); }
+  .nota { color:var(--suave); font-size:.9rem; }
+  ul { padding-left:20px; }
+  li { margin:6px 0; }
+  .destaque { background:#f3f0ff; border-left:4px solid var(--violeta); border-radius:8px;
+              padding:14px 16px; margin:18px 0; }
+  a { color:var(--violeta-escuro); }
+  footer { text-align:center; padding:0 20px 50px; color:var(--suave); font-size:.85rem; }
+  table { width:100%; border-collapse:collapse; margin:10px 0 4px; font-size:.93rem; }
+  th, td { text-align:left; padding:9px 8px; border-bottom:1px solid var(--linha); vertical-align:top; }
+  th { color:var(--suave); font-weight:600; }
+  @media (max-width:520px) { table, thead, tbody, tr, th, td { display:block; }
+    th { border:0; padding-bottom:0; } td { border-bottom:0; padding-top:2px; }
+    tr { border-bottom:1px solid var(--linha); padding:8px 0; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="caixa">
+    <h1>Política de Privacidade — GoTask</h1>
+    <p>Última atualização: 14 de setembro de 2026</p>
+  </div>
+</header>
+
+<main>
+<div class="caixa">
+
+<div class="destaque">
+  <strong>Em uma frase:</strong> o GoTask guarda tudo no seu próprio aparelho. Não existe
+  servidor nosso, não temos conta de usuário e não vemos sua agenda, seu dinheiro nem seus
+  hábitos. O que sai do aparelho está listado abaixo, item por item, e quase tudo é opcional.
+</div>
+
+<h2>Quem somos</h2>
+<p>
+  O GoTask é desenvolvido por <strong>LH AppS</strong>. Dúvidas sobre privacidade:
+  <a href="mailto:leo112e33@gmail.com">leo112e33@gmail.com</a>.
+</p>
+
+<h2>O que fica só no seu aparelho</h2>
+<p>
+  Compromissos, tarefas, lançamentos financeiros, contas, cartões, categorias, caixinhas,
+  hábitos, anotações e configurações ficam num banco de dados local, dentro da área privada
+  do aplicativo. Nada disso é enviado para nós — não temos para onde enviar.
+</p>
+
+<h2>O que pode sair do aparelho, e só se você ligar</h2>
+
+<table>
+  <tr>
+    <th>Backup na nuvem<br><span class="nota">opcional, desligado por padrão</span></th>
+    <td>
+      Se você ligar, uma cópia dos seus dados é guardada numa
+      <strong>pasta privada do aplicativo dentro do seu próprio Google Drive</strong>
+      (escopo <code>drive.appdata</code>). Essa pasta é invisível no seu Drive, nenhum outro
+      aplicativo alcança, e <strong>nós não recebemos cópia</strong> — o arquivo vai do seu
+      celular direto para a sua conta. Serve para você não perder nada ao trocar de aparelho.
+      Dá para desligar e apagar quando quiser.
+    </td>
+  </tr>
+  <tr>
+    <th>Health Connect<br><span class="nota">opcional</span></th>
+    <td>
+      Com sua permissão, lemos passos, distância, exercício e sono para marcar hábitos
+      sozinho. Esses dados são usados <strong>dentro do aparelho</strong> e não são enviados
+      a lugar nenhum. A permissão pode ser revogada a qualquer momento no Health Connect.
+    </td>
+  </tr>
+  <tr>
+    <th>Agenda do Google<br><span class="nota">opcional</span></th>
+    <td>
+      Com sua permissão, lemos e gravamos eventos do calendário do aparelho para espelhar
+      seus compromissos. A troca acontece entre o aplicativo e o calendário do próprio
+      celular.
+    </td>
+  </tr>
+  <tr>
+    <th>Leitura de notificações<br><span class="nota">opcional, desligado por padrão</span></th>
+    <td>
+      Se você ativar em <em>Ajustes &gt; Acesso a notificações</em>, o GoTask lê notificações
+      de aplicativos de banco para <strong>sugerir</strong> lançamentos. A leitura acontece
+      inteiramente no aparelho, olhamos apenas notificações de conteúdo financeiro, e
+      <strong>nenhuma notificação é armazenada fora dele nem enviada para nós</strong>.
+    </td>
+  </tr>
+  <tr>
+    <th>Câmera<br><span class="nota">opcional</span></th>
+    <td>
+      Usada só para ler o QR Code da nota fiscal e lançar a compra. Nenhuma imagem é salva
+      nem enviada.
+    </td>
+  </tr>
+  <tr>
+    <th>Microfone</th>
+    <td>
+      A entrada por voz usa o reconhecimento de fala do próprio Android. O GoTask
+      <strong>não grava áudio</strong> e não guarda o que foi falado além do texto que virou
+      o lançamento.
+    </td>
+  </tr>
+</table>
+
+<h2>Anúncios (só na versão gratuita)</h2>
+<p>
+  A versão gratuita exibe anúncios do <strong>Google AdMob</strong>, que pode usar o
+  identificador de publicidade do aparelho para escolher o que mostrar e medir desempenho.
+  Na primeira abertura você escolhe entre anúncios <em>personalizados</em> ou
+  <em>não personalizados</em>, e pode mudar essa escolha depois em Ajustes.
+</p>
+<p>
+  <strong>Na versão Premium não há anúncio nenhum</strong> — nem banner, nem no meio das
+  listas, nem tela cheia.
+  Saiba como o Google usa dados de parceiros em
+  <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">policies.google.com/technologies/partner-sites</a>.
+</p>
+
+<h2>Medição de uso</h2>
+<p>
+  Usamos o Firebase Analytics para contar <strong>três acontecimentos anônimos</strong>:
+  alguém tocou para assinar, alguém registrou algo (na agenda ou na carteira) e alguém marcou
+  um hábito. Servem só para saber se o aplicativo está funcionando e se vale a pena continuar.
+  <strong>Nada do que você escreveu, gastou ou pratica é enviado</strong> — nem o texto, nem
+  valores, nem nomes de hábitos.
+</p>
+
+<h2>Compras</h2>
+<p>
+  A assinatura Premium e a compra vitalícia são processadas pelo <strong>Google Play</strong>.
+  O GoTask não vê, não recebe e não guarda dados de cartão ou de pagamento. Só recebemos da
+  Play a resposta de que existe (ou não) uma compra ativa naquela conta Google.
+</p>
+
+<h2>Com quem compartilhamos</h2>
+<p>Com ninguém, para fins de marketing ou venda. Os únicos terceiros envolvidos são:</p>
+<ul>
+  <li><strong>Google Play</strong> — processa as compras;</li>
+  <li><strong>Google AdMob</strong> — exibe os anúncios da versão gratuita;</li>
+  <li><strong>Firebase Analytics</strong> — recebe os três contadores anônimos;</li>
+  <li><strong>Google Drive</strong> — guarda o backup, <em>na sua própria conta</em>, se você ligar.</li>
+</ul>
+<p class="nota">Nós nunca vendemos nem alugamos dados pessoais. Não existe esse negócio aqui.</p>
+
+<h2>Por quanto tempo guardamos</h2>
+<p>
+  Enquanto o aplicativo estiver instalado. <strong>Desinstalar apaga tudo</strong> o que está
+  no aparelho. O backup na nuvem, se existir, permanece na sua conta Google até você
+  desligar o backup dentro do app, apagá-lo por lá ou remover o acesso do GoTask em
+  <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.
+</p>
+
+<h2>Seus direitos (LGPD)</h2>
+<p>
+  Como os dados ficam com você, o controle também: pode ver tudo dentro do aplicativo,
+  exportar num arquivo de backup, corrigir, apagar item por item ou apagar tudo de uma vez
+  desinstalando. Se quiser falar sobre isso, escreva para
+  <a href="mailto:leo112e33@gmail.com">leo112e33@gmail.com</a>.
+</p>
+
+<h2>Crianças</h2>
+<p>
+  O GoTask não é direcionado a menores de 13 anos e não coleta conscientemente dados dessa
+  faixa etária.
+</p>
+
+<h2>Mudanças nesta política</h2>
+<p>
+  Se algo mudar, atualizamos esta página e a data no topo. Mudanças relevantes também
+  aparecem dentro do aplicativo.
+</p>
+
+</div>
+</main>
+
+<footer>
+  GoTask — agenda, dinheiro e hábitos · <a href="./">Página inicial</a> ·
+  <a href="./termos.html">Termos de uso</a>
+</footer>
+</body>
+</html>
