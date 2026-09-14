@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GoTask — agenda, dinheiro e hábitos no mesmo app</title>
+<meta name="description" content="Agenda, controle financeiro e hábitos em um app só. Escreva do seu jeito: 'almoço 35 reais', 'reunião amanhã às 14h', 'corri 5km'.">
+<style>
+  :root { --violeta:#6D4AFF; --violeta-escuro:#4B2FBF; --texto:#1c1b1f; --suave:#5d5b66; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+         color:var(--texto); background:#faf9fd; }
+  header { background:linear-gradient(135deg,var(--violeta-escuro),var(--violeta)); color:#fff;
+           padding:72px 20px 64px; text-align:center; }
+  .caixa { max-width:840px; margin:0 auto; }
+  header h1 { margin:0 0 10px; font-size:2.3rem; letter-spacing:-.5px; }
+  header .sub { margin:0 auto; max-width:540px; opacity:.92; font-size:1.05rem; }
+  .frase { display:inline-block; margin:26px 6px 0; background:rgba(255,255,255,.16);
+           border:1px solid rgba(255,255,255,.25); border-radius:999px; padding:7px 15px; font-size:.92rem; }
+  main { padding:0 20px 40px; }
+  .cartoes { max-width:840px; margin:-30px auto 0; display:grid; gap:14px;
+             grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); }
+  .cartao { background:#fff; border-radius:16px; padding:22px 20px;
+            box-shadow:0 2px 20px rgba(60,40,140,.08); }
+  .cartao h2 { margin:8px 0 6px; font-size:1.05rem; color:var(--violeta-escuro); }
+  .cartao p { margin:0; color:var(--suave); font-size:.94rem; }
+  .emoji { font-size:1.7rem; line-height:1; }
+  .cruza { max-width:840px; margin:34px auto 0; background:#fff; border-radius:16px;
+           padding:26px 24px; box-shadow:0 2px 20px rgba(60,40,140,.08); }
+  .cruza h2 { margin:0 0 8px; font-size:1.15rem; color:var(--violeta-escuro); }
+  .cruza p { margin:0; color:var(--suave); }
+  .privacidade { max-width:840px; margin:18px auto 0; background:#f3f0ff;
+                 border-left:4px solid var(--violeta); border-radius:10px; padding:16px 18px; font-size:.95rem; }
+  footer { text-align:center; padding:26px 20px 56px; color:var(--suave); font-size:.88rem; }
+  footer a { color:var(--violeta-escuro); }
+</style>
+</head>
+<body>
+<header>
+  <div class="caixa">
+    <h1>GoTask</h1>
+    <p class="sub">
+      Sua agenda, seu dinheiro e seus hábitos no mesmo aplicativo — e numa frase só.
+      Sem criar conta e sem nada saindo do seu celular.
+    </p>
+    <div>
+      <span class="frase">"almoço 35 reais"</span>
+      <span class="frase">"reunião amanhã às 14h"</span>
+      <span class="frase">"corri 5km"</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="cartoes">
+    <div class="cartao">
+      <div class="emoji">📅</div>
+      <h2>Agenda</h2>
+      <p>Compromissos, tarefas e contas a pagar, com lembretes de verdade e espelho com o
+         Google Agenda.</p>
+    </div>
+    <div class="cartao">
+      <div class="emoji">💰</div>
+      <h2>Dinheiro</h2>
+      <p>Contas, cartão com fatura de verdade, orçamento por categoria e caixinhas que
+         rendem juros. Dá para ler o QR da nota fiscal.</p>
+    </div>
+    <div class="cartao">
+      <div class="emoji">🔥</div>
+      <h2>Hábitos</h2>
+      <p>Sequência, folga combinada que não zera a corrente e metas em páginas, quilômetros
+         ou minutos — com passos e sono pelo Health Connect.</p>
+    </div>
+  </div>
+
+  <div class="cruza">
+    <h2>O que ninguém mais faz</h2>
+    <p>
+      Como o GoTask vê as três coisas juntas, ele cruza: "nos dias em que você não treinou,
+      o delivery subiu 60%". É daí que vem a parte que vale a pena pagar.
+    </p>
+  </div>
+
+  <div class="privacidade">
+    <strong>Seus dados são seus.</strong> Tudo fica no seu aparelho. Não temos servidor, não
+    temos conta de usuário e não vemos o que você escreve. O backup na nuvem, quando ligado,
+    vai para a sua própria conta do Google Drive.
+  </div>
+</main>
+
+<footer>
+  LH AppS ·
+  <a href="./privacidade.html">Política de Privacidade</a> ·
+  <a href="./termos.html">Termos de Uso</a> ·
+  <a href="mailto:leo112e33@gmail.com">leo112e33@gmail.com</a>
+</footer>
+</body>
+</html>
