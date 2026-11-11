@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <meta name="theme-color" content="#101810">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Animal Tower Defense — jogue no navegador</title>
+    <meta name="description" content="Demo de Animal Tower Defense para navegador. Baixe o jogo completo na Google Play.">
+    <style>
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #101810; color: #f3f3e8;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; touch-action: none; -webkit-user-select: none; user-select: none; }
+      #unity-canvas { position: fixed; left: 0; top: 0; width: 100vw; height: 100vh; height: 100dvh; display: block; background: #101810; outline: none; }
+      #loading { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; background: #101810; z-index: 5; }
+      #loading h1 { margin: 0; font-size: clamp(22px, 5vw, 44px); color: #ffd54f; text-shadow: 0 3px 0 #3c2a00; text-align: center; }
+      #loading p { margin: 0; opacity: .8; font-size: 15px; }
+      #bar { width: min(70vw, 420px); height: 18px; border-radius: 9px; background: #2a3a2a; border: 2px solid #4e6b4e; overflow: hidden; }
+      #fill { height: 100%; width: 0%; background: linear-gradient(90deg, #66bb6a, #ffd54f); transition: width .15s; }
+      #rotate { position: fixed; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: 16px;
+        background: rgba(10,16,10,.94); z-index: 10; text-align: center; padding: 24px; box-sizing: border-box; font-size: 20px; }
+      #rotate .ico { font-size: 64px; animation: girar 1.8s ease-in-out infinite; }
+      @keyframes girar { 0%,20% { transform: rotate(0deg); } 60%,100% { transform: rotate(-90deg); } }
+      @media (orientation: portrait) and (max-width: 900px) { #rotate { display: flex; } }
+      #erro { position: fixed; left: 0; right: 0; bottom: 0; padding: 10px; background: #b71c1c; color: #fff; display: none; z-index: 20; font-size: 14px; }
+    </style>
+  </head>
+  <body>
+    <canvas id="unity-canvas" tabindex="-1"></canvas>
+    <div id="loading">
+      <h1>Animal Tower Defense</h1>
+      <div id="bar"><div id="fill"></div></div>
+      <p id="loadtxt">Carregando… 0%</p>
+    </div>
+    <div id="rotate"><div class="ico">📱</div><div>Gire o celular para jogar na horizontal</div></div>
+    <div id="erro"></div>
+    <script>
+      var canvas = document.querySelector("#unity-canvas");
+      function showBanner(msg, type) {
+        if (type == 'error') { var e = document.querySelector("#erro"); e.textContent = msg; e.style.display = 'block'; }
+        else console.warn(msg);
+      }
+      var buildUrl = "Build";
+      var config = {
+        arguments: [],
+        dataUrl: buildUrl + "/AnimalTD_Web.data.unityweb",
+        frameworkUrl: buildUrl + "/AnimalTD_Web.framework.js.unityweb",
+        codeUrl: buildUrl + "/AnimalTD_Web.wasm.unityweb",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "LH Apps",
+        productName: "Animal Tower Defense",
+        productVersion: "0.1",
+        showBanner: showBanner,
+      };
+      // limita a resolucao em telas muito densas (desempenho no celular)
+      config.devicePixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+      var script = document.createElement("script");
+      script.src = buildUrl + "/AnimalTD_Web.loader.js";
+      script.onload = function () {
+        createUnityInstance(canvas, config, function (progress) {
+          var p = Math.round(progress * 100);
+          document.querySelector("#fill").style.width = p + "%";
+          document.querySelector("#loadtxt").textContent = "Carregando… " + p + "%";
+        }).then(function (instance) {
+          document.querySelector("#loading").style.display = "none";
+          canvas.focus();
+        }).catch(function (message) { showBanner(String(message), 'error'); });
+      };
+      document.body.appendChild(script);
+    </script>
+  </body>
+</html>
