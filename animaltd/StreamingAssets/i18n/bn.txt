@@ -1,0 +1,3300 @@
+ (+{0} da Vila)
+ (+{0} গ্রাম থেকে)
+ (+{0}% da Vila)
+ (+{0}% গ্রাম থেকে)
+ (Modo Livre)
+ (ফ্রি মোড)
+ (até blindados)
+ (বর্মধারীদেরও)
+ DEUS
+ দেবতা
+ alvos
+ টার্গেট
+ alvos  Vê camuflado
+ টার্গেট  ছদ্মবেশী দেখে
+ camada
+ স্তর
+ ou acima
+ বা তার বেশি
+ perfura
+ ভেদ
+ • vê camuflado
+ • ছদ্মবেশী দেখে
+(medalha {0} só do {1} para cima)
+({0} মেডেল শুধু {1} বা তার বেশিতে)
++{0} alvo
++{0} টার্গেট
++{0} alvo{1}
++{0} টার্গেট{1}
++{0} cristais
++{0} ক্রিস্টাল
++{0} dano
++{0} ড্যামেজ
++{0} dano fixo vs Cerâmica/Metal
+সিরামিক/মেটালের বিরুদ্ধে +{0} ফিক্সড ড্যামেজ
++{0} dano fixo vs blindados
+বর্মধারীদের বিরুদ্ধে +{0} ফিক্সড ড্যামেজ
++{0} dano vs Cerâmica/Metal
+সিরামিক/মেটালের বিরুদ্ধে +{0} ড্যামেজ
++{0} dano vs blindados
+বর্মধারীদের বিরুদ্ধে +{0} ড্যামেজ
++{0} perfura
++{0} ভেদ
++{0} perfura (qualquer torre)
++{0} ভেদ (যেকোনো টাওয়ার)
++{0} perfura (raio)
++{0} ভেদ (এলাকায়)
++{0} perfura total (qualquer torre no raio)
++{0} মোট ভেদ (এলাকার যেকোনো টাওয়ার)
++{0} perfura total (torres no raio)
++{0} মোট ভেদ (এলাকার টাওয়ারগুলো)
++{0} projétil{1}
++{0} প্রজেক্টাইল{1}
++{0} salto{1}
++{0} লাফ{1}
++{0} salto{1} do projétil
+প্রজেক্টাইলের +{0} লাফ{1}
++{0} sentinela{1}
++{0} সেন্ট্রি{1}
++{0}% alcance (raio)
++{0}% রেঞ্জ (এলাকায়)
++{0}% alcance total (torres no raio)
++{0}% মোট রেঞ্জ (এলাকার টাওয়ারগুলো)
++{0}% crítico
++{0}% ক্রিটিক্যাল
++{0}% dano (raio)
++{0}% ড্যামেজ (এলাকায়)
++{0}% dano p/ aliados no raio
+এলাকার সঙ্গীদের জন্য +{0}% ড্যামেজ
++{0}% dano total p/ aliados no raio
+এলাকার সঙ্গীদের জন্য +{0}% মোট ড্যামেজ
++{0}% de ouro por camada, só dentro do alcance
+প্রতি স্তরে +{0}% সোনা, শুধু রেঞ্জের ভেতরে
++{0}% juros
++{0}% সুদ
++{0}% juros dos Coelhos (raio)
+খরগোশদের +{0}% সুদ (এলাকায়)
++{0}% ouro por camada dos alvos que ela abater (Vila)
+এটি যাদের হারায় তাদের প্রতি স্তরে +{0}% সোনা (গ্রাম)
++{0}% produção dos Coelhos (raio)
+খরগোশদের +{0}% উৎপাদন (এলাকায়)
++{0}% veloc. ataque p/ aliados no raio
+এলাকার সঙ্গীদের জন্য +{0}% আক্রমণের গতি
++{0}% veloc. de ataque total p/ aliados no raio
+এলাকার সঙ্গীদের জন্য +{0}% মোট আক্রমণের গতি
++{0}% veloc. projétil (raio)
++{0}% প্রজেক্টাইলের গতি (এলাকায়)
++{0}s de duração (lentidão/congelamento)
++{0}s বেশি সময় (ধীরগতি/জমাট)
+1ª upagem (T1) de cada árvore sai GRÁTIS (torres no raio)
+প্রতিটি শাখার 1ম আপগ্রেড (T1) ফ্রি (এলাকার টাওয়ারগুলো)
+1ª upagem grátis (raio)
+1ম আপগ্রেড ফ্রি (এলাকায়)
+Abates {0}
+কিল {0}
+Alcance de invocação (coleira): {0}
+ডেকে আনার রেঞ্জ (সীমা): {0}
+Alcance total (todas as torres no raio): +{0}%
+মোট রেঞ্জ (এলাকার সব টাওয়ার): +{0}%
+Aleatório
+এলোমেলো
+Alvo: {0}
+টার্গেট: {0}
+Alvos
+টার্গেট
+Alvos na área: 
+এলাকায় টার্গেট: 
+Alvos por golpe: {0}
+প্রতি আঘাতে টার্গেট: {0}
+Alvos por onda: 
+প্রতি ঢেউয়ে টার্গেট: 
+Amarelo
+হলুদ
+Animais
+প্রাণী
+Animal Tower Defense
+অ্যানিমেল টাওয়ার ডিফেন্স
+Animal liberado: {0}
+প্রাণী আনলক হয়েছে: {0}
+Animal novo na loja!
+দোকানে নতুন প্রাণী!
+Anula Defesas
+ডিফেন্স বাতিল
+Anúncio indisponível — sem recompensa.
+বিজ্ঞাপন পাওয়া যাচ্ছে না — কোনো পুরস্কার নেই।
+Apoio
+সাপোর্ট
+Apoio às Torres
+টাওয়ার সাপোর্ট
+Arco-íris
+রংধনু
+Arranca Fortificado/Camuflagem/escudo do alvo
+টার্গেটের সুরক্ষিত অবস্থা/ছদ্মবেশ/ঢাল খুলে নেয়
+As 4 medalhas de dificuldade num mesmo mapa
+একই ম্যাপে ডিফিকাল্টির 4টি মেডেলই
+Astuto
+চালাক
+Atalho Nevado
+তুষারঢাকা শর্টকাট
+Ataque: onda de choque VERMELHA em volta
+আক্রমণ: চারপাশে লাল শকওয়েভ
+Ataque: onda de choque em volta
+আক্রমণ: চারপাশে শকওয়েভ
+Ataques 
+আক্রমণ 
+Auto
+অটো
+Automático
+অটোমেটিক
+Avançado
+অ্যাডভান্সড
+Ave de fogo: leque de penas flamejantes que atravessam e queimam; quem morre queimando explode em cinzas. MERGULHO SOLAR: mergulha na maior multidão e deixa o chão em chamas.
+আগুনের পাখি: জ্বলন্ত পালকের ঝাপটা যা ভেদ করে পুড়িয়ে দেয়; পুড়তে পুড়তে যে মরে সে ছাই হয়ে বিস্ফোরিত হয়। সৌর ঝাঁপ: সবচেয়ে বড় ভিড়ে ঝাঁপিয়ে পড়ে মাটিতে আগুন ধরিয়ে দেয়।
+Azul
+নীল
+Bloqueia a regeneração (inimigos Regenera) no raio
+এলাকায় রিজেনারেশন আটকায় (রিজেন শত্রু)
+Bosque do Retorno
+ফেরার বন
+Brado
+যুদ্ধের হুংকার
+Branco
+সাদা
+Brasa
+অঙ্গার
+Bravo
+দুঃসাহসী
+Brejo das Curvas
+বাঁকা পথের জলাভূমি
+Bumerangue: fere na IDA e na VOLTA (dano cheio de novo na volta)
+বুমেরাং: যাওয়ার সময় ও ফেরার সময় আঘাত করে (ফেরার পথে আবার পুরো ড্যামেজ)
+BÁSICO
+বেসিক
+Bênção
+আশীর্বাদ
+Bônus  {0}/{1}
+বোনাস  {0}/{1}
+CONFIRMAR
+নিশ্চিত করো
+CONFIRMAR ${0}
+নিশ্চিত করো ${0}
+CONGELA BLINDADOS
+বর্মধারীদের জমিয়ে দেয়
+CRÍTICO!
+ক্রিটিক্যাল!
+Cadência
+ফায়ার রেট
+Calibre 12
+12 গেজ
+Caminhão
+ট্রাক
+Camuflado
+ছদ্মবেশী
+Cancelar
+বাতিল
+Carga Pesada
+ভারী বোঝা
+Carregando o animal... tente de novo em instantes.
+প্রাণী লোড হচ্ছে... একটু পরে আবার চেষ্টা করো।
+Carregando o herói... tente de novo em instantes.
+হিরো লোড হচ্ছে... একটু পরে আবার চেষ্টা করো।
+Caça
+ফাইটার জেট
+Cervo Ancestral
+প্রাচীন হরিণ
+Cerâmica
+সিরামিক
+Chega no nível {0}
+লেভেল {0}-এ আসবে
+Chega no nível {0} (você está no nível {1}).
+লেভেল {0}-এ আসবে (তুমি এখন লেভেল {1}-এ)।
+Chegar à onda {0} em {1}
+{1}-এ ওয়েভ {0}-এ পৌঁছাও
+Chegar à onda {0} no {1}
+{1}-এ ওয়েভ {0}-এ পৌঁছাও
+Chumbo
+সীসা
+Cidadela Congelada
+জমাট দুর্গ
+Clareira Sinuosa
+আঁকাবাঁকা বনভূমি
+Cobra
+সাপ
+Cobra Atiradora
+স্নাইপার সাপ
+Coelho
+খরগোশ
+Coelho Fazendeiro
+কৃষক খরগোশ
+Colocar
+বসাও
+Completar um mapa (moldura de diamante)
+একটি ম্যাপ সম্পূর্ণ করো (ডায়মন্ড ফ্রেম)
+Comprado!
+কেনা হয়েছে!
+Comprar  {0}
+কেনো  {0}
+Comprar nível ${0}
+লেভেল কেনো ${0}
+Compre o animal para usar skins
+স্কিন ব্যবহার করতে প্রাণীটি কেনো
+Concede visão de camuflado no raio
+এলাকায় ছদ্মবেশী দেখার ক্ষমতা দেয়
+Concluída
+সম্পূর্ণ
+Congela 
+জমিয়ে দেয় 
+Conquistas  {0}/{1}
+অর্জন  {0}/{1}
+Conseguir {0} medalhas
+{0}টি মেডেল জেতো
+Continuar
+চালিয়ে যাও
+Continuar jogando
+খেলা চালিয়ে যাও
+Coruja
+পেঁচা
+Coruja Maga
+জাদুকর পেঁচা
+Cratera Ardente
+জ্বলন্ত গহ্বর
+Cristais dobrados!
+ক্রিস্টাল দ্বিগুণ!
+Cristais em dobro
+দ্বিগুণ ক্রিস্টাল
+Cristais x2
+ক্রিস্টাল x2
+Cristais x2 (+{0})
+ক্রিস্টাল x2 (+{0})
+Crítico total: {0}% de chance, x{1} dano
+মোট ক্রিটিক্যাল: {0}% সম্ভাবনা, x{1} ড্যামেজ
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+স্কিনটি কিনতে এর মিশন পূরণ করো। নতুন লুক পরের আপডেটে ম্যাচে দেখা যাবে।
+Curandeiro
+হিলার
+Cósmica
+মহাজাগতিক
+DERROTA
+হার
+DEUS
+দেবতা
+DEUS: 
+দেবতা: 
+DIFICULDADE
+ডিফিকাল্টি
+DPS {0}
+DPS {0}
+Dano
+ড্যামেজ
+Dano %.0f  Alc %.0f  %.1f/s
+ড্যামেজ %.0f  রেঞ্জ %.0f  %.1f/s
+Dano %.0f  Ataque %.0f  %.1f/s
+ড্যামেজ %.0f  আক্রমণ %.0f  %.1f/s
+Dano %.1f  %.1f tiros/s
+ড্যামেজ %.1f  %.1f শট/s
+Dano de {0}
+{0} ড্যামেজ
+Dano total vs Cerâmica: x{0}
+সিরামিকের বিরুদ্ধে মোট ড্যামেজ: x{0}
+Dano {0}
+ড্যামেজ {0}
+Dança das Adagas
+ছোরার নাচ
+Defesa
+ডিফেন্স
+Deixa fogo no chão: {0}/s por {1}s
+মাটিতে আগুন রেখে যায়: {1}s ধরে {0}/s
+Demolidor
+ধ্বংসকারী
+Derrotar {0} {1}
+{0} {1} হারাও
+Desconto e Renda
+ছাড় ও আয়
+Desfiladeiro Estreito
+সরু গিরিখাত
+Dificuldade bloqueada
+ডিফিকাল্টি লক করা
+Dificuldade liberada: {0}
+ডিফিকাল্টি আনলক হয়েছে: {0}
+Difícil
+কঠিন
+Dirigível
+এয়ারশিপ
+Dirigível Maior
+বড় এয়ারশিপ
+Dispara mísseis (área)
+মিসাইল ছোড়ে (এলাকা জুড়ে)
+Disponível para comprar!
+কেনার জন্য তৈরি!
+Disponível! Compre por {0} cristais em Animais, no menu.
+পাওয়া যাচ্ছে! মেনুর "প্রাণী" থেকে {0} ক্রিস্টালে কেনো।
+Dragão Arcano
+জাদুকরী ড্রাগন
+Duas adagas rápidas, vê camuflado. DANÇA DAS ADAGAS: acelera e derruba a defesa de quem está perto.
+দুটি দ্রুত ছোরা, ছদ্মবেশী শত্রু দেখে। ছোরার নাচ: গতি বাড়ায় এবং কাছের শত্রুদের ডিফেন্স কমিয়ে দেয়।
+Dunas em Zigue-Zague
+জিগজ্যাগ বালিয়াড়ি
+EM ONDA
+ওয়েভ চলছে
+ESTILHAÇOS ferem imunes a explosão (Preto/Zebra)
+টুকরোগুলো বিস্ফোরণ-প্রতিরোধী শত্রুদেরও আঘাত করে (কালো/জেব্রা)
+EVOLUÍDO
+বিবর্তিত
+Eco
+প্রতিধ্বনি
+Elefante Comandante
+সেনাপতি হাতি
+Elefante Guerreiro
+যোদ্ধা হাতি
+Em uso
+ব্যবহার হচ্ছে
+Embalo: até +{0}% de cadência em golpes seguidos
+ছন্দ: টানা আঘাতে সর্বোচ্চ +{0}% ফায়ার রেট
+Empurra o alvo pra trás (15% por golpe)
+টার্গেটকে পেছনে ঠেলে দেয় (প্রতি আঘাতে 15%)
+Empurra o alvo pra trás no caminho
+টার্গেটকে পথ ধরে পেছনে ঠেলে দেয়
+Enxame
+ঝাঁক
+Escadaria de Lava
+লাভার সিঁড়ি
+Escorpião
+বিছা
+Escorpião Venenoso
+বিষাক্ত বিছা
+Esmagador
+চূর্ণকারী
+Espadachim de linha de frente. RUGIDO: atordoa e fere tudo em volta (a forma deus pega o mapa inteiro).
+সামনের সারির তলোয়ারবাজ। গর্জন: চারপাশের সবাইকে অচল করে আঘাত করে (দেবতা রূপে পুরো ম্যাপে)।
+Espalha armadilhas no chão do caminho, sem mirar inimigo (até {0})
+পথের মাটিতে ফাঁদ ছড়ায়, শত্রুকে নিশানা না করেই (সর্বোচ্চ {0})
+Espaço: iniciar onda
+স্পেস: ওয়েভ শুরু
+Esperto
+বুদ্ধিমান
+Espinhos
+কাঁটা
+Esquilo
+কাঠবিড়ালি
+Esquilo da Toca
+গর্তের কাঠবিড়ালি
+Estilhaço
+টুকরো
+Estilhaços ferem imunes a explosão (Preto/Zebra)
+টুকরোগুলো বিস্ফোরণ-প্রতিরোধী শত্রুদেরও আঘাত করে (কালো/জেব্রা)
+Estouro
+বিস্ফোরণ
+Expert
+এক্সপার্ট
+Explosivo
+বিস্ফোরক
+Faltam {0} cristais
+আরও {0} ক্রিস্টাল লাগবে
+Fechar
+বন্ধ করো
+Feixe
+রশ্মি
+Feroz
+হিংস্র
+Floresta Sombria
+অন্ধকার বন
+Fogo
+আগুন
+Fogo Arcano
+জাদুর আগুন
+Fogo total: 
+মোট আগুন: 
+Fora da regra
+নিয়মবিরুদ্ধ
+Forte
+শক্তিশালী
+Fragmentação
+টুকরো বিস্ফোরণ
+Fura 
+ভেদ করে 
+Fácil
+সহজ
+Fênix
+ফিনিক্স
+Físico
+শারীরিক
+GRÁTIS
+ফ্রি
+Gato
+বিড়াল
+Gato Samurai
+সামুরাই বিড়াল
+Gelo
+বরফ
+Gelo Profundo
+গভীর বরফ
+Golpe devastador em quem está perto. INVESTIDA: dano enorme e derruba os inimigos.
+কাছের শত্রুদের উপর ভয়ংকর আঘাত। চার্জ: বিশাল ড্যামেজ দিয়ে শত্রুদের মাটিতে ফেলে দেয়।
+Gorila
+গরিলা
+Gorila Marteleiro
+হাতুড়ি গরিলা
+Grito
+চিৎকার
+Guaxinim
+র‍্যাকুন
+Guaxinim Druida
+ড্রুইড র‍্যাকুন
+HERÓI
+হিরো
+Herói.
+হিরো।
+Heróis
+হিরো
+INVOCA {0}: dano {1}, {2}/s
+ডেকে আনে {0}: ড্যামেজ {1}, {2}/s
+Ignora TODAS as imunidades de dano (Vila)
+সব ধরনের ড্যামেজ প্রতিরোধ উপেক্ষা করে (গ্রাম)
+Ignora imunidade a Metal
+মেটাল প্রতিরোধ উপেক্ষা করে
+Ilhas Flutuantes
+ভাসমান দ্বীপ
+Imparável
+অপ্রতিরোধ্য
+Iniciante
+শিক্ষানবিশ
+Intermediário
+মধ্যম
+Investida
+চার্জ
+JOGAR
+খেলো
+Jacaré
+কুমির
+Jacaré Pistoleiro
+পিস্তলবাজ কুমির
+Jade
+জেড
+Jogar novamente
+আবার খেলো
+Jogar {0} partidas
+{0}টি ম্যাচ খেলো
+Jogue partidas para ganhar XP
+XP পেতে ম্যাচ খেলো
+Juros
+সুদ
+Juros totais: {0}% do seu ouro atual (máx. sobre os primeiros $100.000), por onda{1}
+মোট সুদ: প্রতি ওয়েভে{1} তোমার বর্তমান সোনার {0}% (সর্বোচ্চ প্রথম $100,000-এর উপর)
+Já gerou no total: ${0}
+এখন পর্যন্ত মোট আয়: ${0}
+LOBO
+নেকড়ে
+Larga estrepes no caminho ({0} cargas, até {1})
+পথে কাঁটা ফেলে ({0} চার্জ, সর্বোচ্চ {1})
+Larga minas no caminho (até {0})
+পথে মাইন ফেলে (সর্বোচ্চ {0})
+Lentidão total: {0}%
+মোট ধীরগতি: {0}%
+Levar {0} árvores ao nível DEUS
+{0}টি শাখা দেবতা লেভেলে নাও
+Leão Rei
+সিংহরাজ
+Libera espaço para torres
+টাওয়ারের জন্য জায়গা খালি করে
+Liberado! Este animal chega na próxima atualização da versão web.
+আনলক হয়েছে! এই প্রাণীটি ওয়েব ভার্সনের পরের আপডেটে আসবে।
+Lobo
+নেকড়ে
+Lobo das Adagas
+ছোরাধারী নেকড়ে
+Local válido
+সঠিক জায়গা
+Lâmina Flamejante
+জ্বলন্ত তলোয়ার
+Machado de gelo que deixa lento. NEVASCA: congela todo mundo em volta.
+বরফের কুঠার যা শত্রুকে ধীর করে দেয়। তুষারঝড়: চারপাশের সবাইকে জমিয়ে দেয়।
+Mago de área que vê camuflado. METEORO: dano pesado e queimadura em área.
+এলাকা জুড়ে আঘাত করা জাদুকর, ছদ্মবেশী শত্রু দেখে। উল্কা: এলাকা জুড়ে ভারী ড্যামেজ আর আগুনে পোড়ায়।
+Mapa bloqueado
+ম্যাপ লক করা
+Mapa liberado: {0}
+ম্যাপ আনলক হয়েছে: {0}
+Mapas
+ম্যাপ
+Marca inimigos no raio como vulneráveis
+এলাকার শত্রুদের দুর্বল হিসেবে চিহ্নিত করে
+Marca o alvo: +{0}% de dano de todas as torres ({1}s)
+টার্গেট চিহ্নিত করে: সব টাওয়ার থেকে +{0}% ড্যামেজ ({1}s)
+Martelo pesado em área. ESTOURO: pisa no chão e atordoa todos em volta.
+এলাকা জুড়ে ভারী হাতুড়ি। বিস্ফোরণ: মাটিতে পা দাপিয়ে চারপাশের সবাইকে অচল করে দেয়।
+Medalhas
+মেডেল
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+মেডেল: F সহজ · M মাঝারি · D কঠিন · I অপ্রতিরোধ্য · P শুধু প্রাইমারি · H হিরো ছাড়া (মাঝারি+) · ½ অর্ধেক সোনা (কঠিন+)। ফ্রেম: ব্রোঞ্জ (সহজ), রুপা (মাঝারি), সোনা (কঠিন/অপ্রতিরোধ্য), ডায়মন্ড (সব 7টি)।
+Meio Ouro
+অর্ধেক সোনা
+Menu
+মেনু
+Mercado
+বাজার
+Mergulho Solar
+সৌর ঝাঁপ
+Mestria: Nível {0}/5
+দক্ষতা: লেভেল {0}/5
+Meteoro
+উল্কা
+Metralhadora automática
+অটোমেটিক মেশিনগান
+Militar
+সামরিক
+Mina Abandonada
+পরিত্যক্ত খনি
+Minas
+মাইন
+Missão concluída!
+মিশন সম্পূর্ণ!
+Missões
+মিশন
+Missões dão cristais extras
+মিশনে বাড়তি ক্রিস্টাল পাওয়া যায়
+Modo Livre
+ফ্রি মোড
+Morcego
+বাদুড়
+Morcego Sonar
+শব্দতরঙ্গ বাদুড়
+Morsa Glacial
+হিমশীতল ওয়ালরাস
+Mouse ou toque
+মাউস বা টাচ
+MÁX
+সর্বোচ্চ
+MÁXIMO 5/5
+সর্বোচ্চ 5/5
+Mágica
+জাদুকরী
+Mágico
+জাদু
+Médio
+মাঝারি
+Mísseis
+মিসাইল
+Música
+মিউজিক
+Música: não
+মিউজিক: বন্ধ
+Música: sim
+মিউজিক: চালু
+NOVO
+নতুন
+Na sua coleção
+তোমার সংগ্রহে
+Nave
+মহাকাশযান
+Necromante
+নেক্রোম্যান্সার
+Nenhuma partida neste mapa ainda.
+এই ম্যাপে এখনো কোনো ম্যাচ খেলা হয়নি।
+Nevasca
+তুষারঝড়
+Ninja
+নিনজা
+Novo animal disponível!
+নতুন প্রাণী পাওয়া যাচ্ছে!
+Novo: {0} disponível!
+নতুন: {0} পাওয়া যাচ্ছে!
+Nv 
+লেভেল 
+Nv 1
+লেভেল 1
+Nv 10
+লেভেল 10
+Nv 20
+লেভেল 20
+NÍVEL MÁXIMO
+সর্বোচ্চ লেভেল
+Nível {0}
+লেভেল {0}
+O golpe nasce EM CIMA do alvo (sem trajetória)
+আঘাতটি সরাসরি টার্গেটের উপরে পড়ে (কোনো গতিপথ নেই)
+O machado VOA até o alvo (trajetória)
+কুঠারটি উড়ে টার্গেটের কাছে যায় (গতিপথ)
+OK
+ঠিক আছে
+ONDA 
+ওয়েভ 
+Oficina
+ওয়ার্কশপ
+Oito do Deserto
+মরুর আট
+Os inimigos dão metade do ouro.
+শত্রুরা অর্ধেক সোনা দেয়।
+Ouriço
+সজারু
+Ouriço Armadilheiro
+ফাঁদপাতা সজারু
+Ouro insuficiente
+যথেষ্ট সোনা নেই
+Ouro total: ${0}/onda{1}
+মোট সোনা: ${0}/ওয়েভ{1}
+PARA BLINDADOS
+বর্মধারীদের থামায়
+PRONTO
+প্রস্তুত
+Padrão
+ডিফল্ট
+Paralisa
+অবশ করে
+Partida normal.
+সাধারণ ম্যাচ।
+Pausado
+বিরতি
+Perfura 
+ভেদ 
+Perfura total: 
+মোট ভেদ: 
+Perfura-camada
+স্তর-ভেদী
+Perfura-camada: {0}% do dano passa para o 1º inimigo de dentro
+স্তর-ভেদ: ড্যামেজের {0}% ভেতরের 1ম শত্রুর কাছে পৌঁছায়
+Perfurante
+ভেদকারী
+Perto
+কাছের
+Pinguim
+পেঙ্গুইন
+Pinguim Machadeiro
+কুঠারধারী পেঙ্গুইন
+Poder
+শক্তি
+Polvo Abissal
+গভীর সাগরের অক্টোপাস
+Porta-Tanques
+ট্যাংক বাহক
+Praia dos Piratas
+জলদস্যুদের সৈকত
+Precisão
+নির্ভুলতা
+Preto
+কালো
+Primeiro
+প্রথম
+Primária
+প্রাইমারি
+Produção
+উৎপাদন
+Progresso: {0}/{1} mapas
+অগ্রগতি: {0}/{1} ম্যাপ
+Projéteis
+প্রজেক্টাইল
+Projéteis por tiro: {0}
+প্রতি শটে প্রজেক্টাইল: {0}
+Próx. nível: {0}
+পরের লেভেল: {0}
+Próxima missão!
+পরের মিশন!
+Próximo animal: {0} no nível {1}
+পরের প্রাণী: লেভেল {1}-এ {0}
+Pântano Nebuloso
+কুয়াশাঢাকা জলা
+Pântano em Espiral
+প্যাঁচানো জলা
+REGRA ESPECIAL
+বিশেষ নিয়ম
+Raio
+বজ্র
+Raio em cadeia: {0} saltos
+চেইন বজ্র: {0} লাফ
+Raio salta 
+বজ্রের লাফ 
+Raios
+আলোকরশ্মি
+Rajada
+ঝাপটা
+Raposa
+শিয়াল
+Raposa Arqueira
+তিরন্দাজ শিয়াল
+Recarga Rápida
+দ্রুত রিচার্জ
+Recebendo de aliadas: {0}
+সঙ্গীদের কাছ থেকে পাচ্ছে: {0}
+Recebido
+পাওয়া গেছে
+Recordes
+রেকর্ড
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+এই ডিভাইসের রেকর্ড। অনলাইন র‍্যাংকিং Poki-এর অনুমোদনের উপর নির্ভর করে।
+Rede
+জাল
+Redemoinho
+ঘূর্ণি
+Regenerativo
+রিজেন
+Remove Fortificado do alvo atingido
+আঘাত পাওয়া টার্গেটের সুরক্ষিত অবস্থা সরিয়ে দেয়
+Remover a pedra?
+পাথরটা সরাবে?
+Reposicionar
+জায়গা বদলাও
+Respingo no impacto: {0} (até 3 inimigos colados no alvo)
+আঘাতের স্প্ল্যাশ: {0} (টার্গেটের গা ঘেঁষে থাকা সর্বোচ্চ 3টি শত্রু)
+Retalhar
+ছিন্নভিন্ন
+Revela camuflado no MAPA TODO
+পুরো ম্যাপে ছদ্মবেশী দেখায়
+Reviver
+পুনর্জীবন
+Rifle
+রাইফেল
+Rinoceronte
+গন্ডার
+Rosa
+গোলাপি
+Roxo
+বেগুনি
+Rugido
+গর্জন
+SENTINELA {0}
+সেন্ট্রি {0}
+Sair da partida?
+ম্যাচ ছেড়ে যাবে?
+Sair para o menu
+মেনুতে ফিরে যাও
+Salamandra
+স্যালামান্ডার
+Salto do projétil: {0} ricochetes (-15% dano por salto)
+প্রজেক্টাইলের লাফ: {0} বার ছিটকে যায় (প্রতি লাফে -15% ড্যামেজ)
+Salvar
+সেভ করো
+Samurai
+সামুরাই
+Saque Rápido
+চটজলদি গুলি
+Selecionado
+বেছে নেওয়া হয়েছে
+Selecionar
+বেছে নাও
+Sem Heróis
+হিরো ছাড়া
+Sem herói na partida.
+এই ম্যাচে কোনো হিরো নেই।
+Sentinela {0}
+সেন্ট্রি {0}
+Sentinelas
+সেন্ট্রি
+Sentinelas: {0} (dano x{1}, 1 tiro a cada {2}s)
+সেন্ট্রি: {0} (ড্যামেজ x{1}, প্রতি {2}s-এ 1টি শট)
+Seu apelido
+তোমার ডাকনাম
+Skin liberada para compra: {0} {1}
+স্কিন কেনার জন্য আনলক হয়েছে: {0} {1}
+Skins
+স্কিন
+Sombria
+ছায়া
+Sons
+সাউন্ড
+Sons: não
+সাউন্ড: বন্ধ
+Sons: sim
+সাউন্ড: চালু
+Subiu para o nível {0}!
+লেভেল {0}-এ উঠেছ!
+Suporte: fortalece as torres perto e vê camuflado. BÊNÇÃO: cura vidas e prende os inimigos com raízes.
+সাপোর্ট: কাছের টাওয়ারগুলোকে শক্তিশালী করে এবং ছদ্মবেশী শত্রু দেখে। আশীর্বাদ: লাইফ ফিরিয়ে দেয় এবং শত্রুদের শিকড়ে আটকে দেয়।
+Só Primárias
+শুধু প্রাইমারি
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+শুধু প্রাইমারি টাওয়ার (শিয়াল, ভালুক, কচ্ছপ, ঈগল, পেঙ্গুইন, সজারু, হাঙর)।
+Só torres Primárias nesta partida.
+এই ম্যাচে শুধু প্রাইমারি টাওয়ার।
+T-REX
+টি-রেক্স
+T-Rex
+টি-রেক্স
+T1+T2 de cada árvore saem GRÁTIS (torres no raio)
+প্রতিটি শাখার T1+T2 ফ্রি (এলাকার টাওয়ারগুলো)
+T1+T2 grátis (raio)
+T1+T2 ফ্রি (এলাকায়)
+TD:
+TD:
+TOP JOGADORES
+সেরা খেলোয়াড়
+TORRES
+টাওয়ার
+TRAVADO
+লক করা
+Tanque
+ট্যাংক
+Tanque Maior
+বড় ট্যাংক
+Tartaruga
+কচ্ছপ
+Tartaruga de Gelo
+বরফের কচ্ছপ
+Texugo
+ব্যাজার
+Texugo Engenheiro
+ইঞ্জিনিয়ার ব্যাজার
+Tigre
+বাঘ
+Tigre Assassino
+গুপ্তঘাতক বাঘ
+Tigre Lutador
+লড়াকু বাঘ
+Tinta Tóxica
+বিষাক্ত কালি
+Todos os animais disponíveis!
+সব প্রাণী পাওয়া যাচ্ছে!
+Toque na criatura p/ ver dano/ataque/DPS dela
+প্রাণীটির ড্যামেজ/আক্রমণ/DPS দেখতে এতে টাচ করো
+Toque no alcance do Guaxinim
+র‍্যাকুনের রেঞ্জের ভেতরে টাচ করো
+Toque no alcance do Texugo
+ব্যাজারের রেঞ্জের ভেতরে টাচ করো
+Toque num local válido
+একটি সঠিক জায়গায় টাচ করো
+Torre
+টাওয়ার
+Torres no raio ignoram TODAS as imunidades
+এলাকার টাওয়ারগুলো সব প্রতিরোধ উপেক্ষা করে
+Touro Minotauro
+মিনোটর ষাঁড়
+Trilha das Raízes
+শিকড়ের পথ
+Trono do Caos
+বিশৃঙ্খলার সিংহাসন
+Tubarão
+হাঙর
+Tubarão Lanceiro
+বর্শাধারী হাঙর
+Tudo vencido!
+সব জয় করা শেষ!
+ULT: 
+আল্টিমেট: 
+Urso
+ভালুক
+Urso Espadachim
+তলোয়ারবাজ ভালুক
+Usar
+ব্যবহার করো
+Use de 3 a 16 letras/números, sem palavrões.
+3 থেকে 16টি অক্ষর/সংখ্যা ব্যবহার করো, কোনো গালি নয়।
+Utilidade
+ইউটিলিটি
+VITÓRIA!
+জয়!
+Vale Gelado
+বরফ উপত্যকা
+Valente
+সাহসী
+Velocidade
+গতি
+Velocidade do projétil: {0}% do padrão
+প্রজেক্টাইলের গতি: ডিফল্টের {0}%
+Veloz
+দ্রুতগামী
+Vencer dá a medalha 
+জিতলে এই মেডেল পাবে: 
+Vencer os 10 mapas
+10টি ম্যাপই জেতো
+Vencer {0} mapas diferentes
+{0}টি ভিন্ন ম্যাপ জেতো
+Vencer {0} no {1}
+{1}-এ {0} জেতো
+Vender ${0}
+বিক্রি ${0}
+Vender tudo ${0}
+সব বিক্রি ${0}
+Veneno
+বিষ
+Veneno em vários alvos. TINTA TÓXICA: envenena e deixa lento todos em volta.
+একাধিক টার্গেটে বিষ। বিষাক্ত কালি: চারপাশের সবাইকে বিষাক্ত ও ধীর করে দেয়।
+Vença "{0}" para liberar.
+আনলক করতে "{0}" জেতো।
+Ver em Animais
+"প্রাণী"-তে দেখো
+Ver skins
+স্কিন দেখো
+Verde
+সবুজ
+Vermelho
+লাল
+Você chegou até a onda {0}.
+তুমি ওয়েভ {0} পর্যন্ত পৌঁছেছ।
+Você venceu {0} no {1}!
+তুমি {1}-এ {0} জিতেছ!
+Você: nível {0}
+তুমি: লেভেল {0}
+Voltar
+ফিরে যাও
+Vulcão Rugidor
+গর্জনকারী আগ্নেয়গিরি
+Vê camuflado
+ছদ্মবেশী দেখে
+XP
+XP
+XP em dobro nesta partida
+এই ম্যাচে দ্বিগুণ XP
+XP em dobro nesta partida!
+এই ম্যাচে দ্বিগুণ XP!
+XP x2
+XP x2
+XP x2 ativo
+XP x2 চালু
+Zebra
+জেব্রা
+a onda fica VERMELHA e acerta muito mais alvos
+শকওয়েভ লাল হয়ে যায় এবং অনেক বেশি টার্গেটে আঘাত করে
+alc {0}
+রেঞ্জ {0}
+alvo atingido recebe +{0}% de dano de TODAS as torres
+আঘাত পাওয়া টার্গেট সব টাওয়ার থেকে +{0}% বেশি ড্যামেজ পায়
+apoio da Vila
+গ্রামের সাপোর্ট
+arranca Fortificado, Camuflagem e escudo do alvo
+টার্গেটের সুরক্ষিত অবস্থা, ছদ্মবেশ ও ঢাল খুলে নেয়
+azul
+নীল
+bloqueia regeneração (raio)
+রিজেনারেশন আটকায় (এলাকায়)
+bronze
+ব্রোঞ্জ
+bumerangue: fere na ida e na volta
+বুমেরাং: যাওয়ার ও ফেরার সময় আঘাত করে
+camuflados
+ছদ্মবেশী শত্রু
+carregando
+লোড হচ্ছে
+com a regra "{0}"
+"{0}" নিয়মে
+com {0} em campo
+মাঠে {0} থাকা অবস্থায়
+congela {0}%
+{0}% জমায়
+dano
+ড্যামেজ
+dano vira FOGO (estoura Metal)
+ড্যামেজ আগুনে পরিণত হয় (মেটাল ফাটায়)
+dano vira MÁGICO (fere Mágico, não fere Roxo)
+ড্যামেজ জাদুতে পরিণত হয় (জাদু শত্রুকে আঘাত করে, বেগুনিকে নয়)
+derrota
+হার
+deus
+দেবতা
+diamante
+ডায়মন্ড
+dispara MÍSSEIS que explodem
+মিসাইল ছোড়ে যা বিস্ফোরিত হয়
+efeito passa a valer no MAPA TODO
+প্রভাব এখন পুরো ম্যাপে কাজ করে
+embalo: até +{0}% de cadência em golpes seguidos
+ছন্দ: টানা আঘাতে সর্বোচ্চ +{0}% ফায়ার রেট
+empurra inimigos
+শত্রুদের ঠেলে দেয়
+empurra o alvo (15% por golpe)
+টার্গেটকে ঠেলে দেয় (প্রতি আঘাতে 15%)
+estrepes com {0} cargas
+{0} চার্জের কাঁটা
+fogo
+আগুন
+fogo no chão
+মাটিতে আগুন
+fogo no chão {0} dano/s
+মাটিতে আগুন {0} ড্যামেজ/s
+fura +{0} camada{1}
++{0} স্তর{1} ভেদ করে
+ganha respingo no impacto
+আঘাতে স্প্ল্যাশ যোগ হয়
+ganha área de impacto
+আঘাতের এলাকা যোগ হয়
+ignora imunidade a Metal
+মেটাল প্রতিরোধ উপেক্ষা করে
+ignora imunidades (raio)
+প্রতিরোধ উপেক্ষা করে (এলাকায়)
+inimigo
+শত্রু
+inimigos
+শত্রু
+inimigos: 
+শত্রু: 
+larga ESTREPES no caminho
+পথে কাঁটা ফেলে
+larga MINAS no caminho
+পথে মাইন ফেলে
+lentidão {0}%
+ধীরগতি {0}%
+libera {0}
+আনলক করে {0}
+lixo
+আবর্জনা
+marca de vulnerabilidade dura {0}s
+দুর্বলতার চিহ্ন {0}s থাকে
+marca inimigos no alcance (+20% dano recebido)
+রেঞ্জের শত্রুদের চিহ্নিত করে (+20% বেশি ড্যামেজ পায়)
+o machado passa a VOAR até o alvo
+কুঠারটি এখন উড়ে টার্গেটের কাছে যায়
+o xamã continua atacando
+শামান আক্রমণ চালিয়ে যায়
+oficina do Texugo
+ব্যাজারের ওয়ার্কশপ
+onda
+ওয়েভ
+onda {0}
+ওয়েভ {0}
+ouro
+সোনা
+prata
+রুপা
+qualquer mapa
+যেকোনো ম্যাপ
+queimadura 
+পোড়া 
+recorde {0}
+রেকর্ড {0}
+remove Fortificado do alvo
+টার্গেটের সুরক্ষিত অবস্থা সরিয়ে দেয়
+revela camuflado no MAPA TODO
+পুরো ম্যাপে ছদ্মবেশী দেখায়
+sem moldura
+ফ্রেম নেই
+sexta
+শুক্রবার
+solta NUVENS DE MORCEGOS em vez da onda
+শকওয়েভের বদলে বাদুড়ের ঝাঁক ছাড়ে
+torre
+টাওয়ার
+velocidade de ataque
+আক্রমণের গতি
+vê camuflado
+ছদ্মবেশী দেখে
+x{0} dano vs Cerâmica
+সিরামিকের বিরুদ্ধে x{0} ড্যামেজ
+{0} ondas
+{0} ওয়েভ
+{0} por {1}s
+{1}s ধরে {0}
+{0} | alc {1}
+{0} | রেঞ্জ {1}
+{0}% alcance
+{0}% রেঞ্জ
+{0}% cadência
+{0}% ফায়ার রেট
+{0}% crítico
+{0}% ক্রিটিক্যাল
+{0}% dano
+{0}% ড্যামেজ
+{0}% de desconto de compra/upagem no raio
+এলাকায় কেনা/আপগ্রেডে {0}% ছাড়
+{0}% desconto de compra (raio)
+{0}% কেনায় ছাড় (এলাকায়)
+{0}% empurrão
+{0}% ধাক্কা
+{0}% respingo no impacto
+{0}% আঘাতের স্প্ল্যাশ
+{0}% veloc. projétil
+{0}% প্রজেক্টাইলের গতি
+{0}% área de impacto
+{0}% আঘাতের এলাকা
+{0}/7 medalhas  -  moldura {1}
+{0}/7 মেডেল  -  {1} ফ্রেম
+{0}/s por {1}s
+{1}s ধরে {0}/s
+{0}sem efeito extra aqui (já no teto de outra árvore)
+{0}এখানে বাড়তি প্রভাব নেই (অন্য শাখায় আগেই সর্বোচ্চ)
+ÁGUIA
+ঈগল
+Água
+পানি
+Águia
+ঈগল
+Águia Batedora
+স্কাউট ঈগল
+Álbum de medalhas — {0} de {1}
+মেডেল অ্যালবাম — {1}টির মধ্যে {0}টি
+Área de impacto: {0}
+আঘাতের এলাকা: {0}
+ÚNICO
+অনন্য
+Último
+শেষ
+▶ INICIAR ONDA {0}
+▶ ওয়েভ {0} শুরু করো
+Pena da Coruja
+পেঁচার পালক
+Instinto de Matilha
+দলবদ্ধ প্রবৃত্তি
+Bico Afiado
+ধারালো ঠোঁট
+Couro Grosso
+মোটা চামড়া
+Olho de Águia
+ঈগলের চোখ
+Fúria Selvagem
+বুনো রাগ
+Arsenal
+অস্ত্রাগার
+Cofrinho do Castor
+বিভারের মাটির ব্যাংক
+Bolsa de Couro
+চামড়ার থলে
+Coração de Carvalho
+ওক গাছের হৃদয়
+Ovo de Fênix
+ফিনিক্সের ডিম
+Trevo de Quatro Folhas
+চার পাতার ক্লোভার
+Pata de Coelho
+খরগোশের থাবা
+Pacto do Javali
+বুনো শূকরের চুক্তি
+Vidro de Canhão
+কাচের কামান
+Cauda de Lagartixa
+টিকটিকির লেজ
+Pacto do Lobo Solitário
+একলা নেকড়ের চুক্তি
+Coração Teimoso
+জেদি হৃদয়
+Ninho de Esquilo
+কাঠবিড়ালির বাসা
+Brasa e Neve
+অঙ্গার আর তুষার
+Pena da Lua
+চাঁদের পালক
+Ovo de Ouro
+সোনার ডিম
+Ampulheta de Resina
+রজনের বালিঘড়ি
+Coroa do Leão
+সিংহের মুকুট
+Eclipse
+গ্রহণ
+Presa de Sangue
+রক্তদাঁত
+Totem Sombrio
+অন্ধকার টোটেম
+Ouro Maldito
+অভিশপ্ত সোনা
+Sino do Pastor
+রাখালের ঘণ্টা
+Bumerangue Ancião
+প্রাচীন বুমেরাং
+Braseiro
+আগুনের পাত্র
+Cinzas Vivas
+জীবন্ত ছাই
+Geada Eterna
+চিরতুষার
+Peçonha
+গরল
+Contágio
+সংক্রমণ
+Olho de Falcão
+বাজপাখির চোখ
+Lâmina Fina
+সরু ফলা
+Cofre de Nozes
+বাদামের সিন্দুক
+Moeda da Sorte
+ভাগ্যের মুদ্রা
+Cesto de Vime
+বেতের ঝুড়ি
+Semente Mágica
+জাদুর বীজ
+Estandarte
+যুদ্ধপতাকা
+Laços de Lealdade
+বিশ্বস্ততার বাঁধন
+Espírito Selvagem
+বুনো আত্মা
+Ninhada
+ছানার দল
+Coração de Magma
+ম্যাগমার হৃদয়
+Teia da Viúva
+কালো বিধবার জাল
+Dado Viciado
+কারচুপির পাশা
+Bolsa Furada
+ফুটো থলে
+Fungo Faminto
+ক্ষুধার্ত ছত্রাক
+Pacto da Serpente
+সাপের চুক্তি
+Ossos do Ancestral
+পূর্বপুরুষের হাড়
+Lua de Sangue
+রক্তচাঁদ
+Relógio Partido
+ভাঙা ঘড়ি
+Baralho Marcado
+চিহ্ন দেওয়া তাস
+Pólvora Instável
+অস্থির বারুদ
+Coroa de Espinhos
+কাঁটার মুকুট
+Luneta do Almirante
+অ্যাডমিরালের দূরবিন
+Ampulheta do Rei
+রাজার বালিঘড়ি
+Tesouro do Dragão
+ড্রাগনের গুপ্তধন
+Tambor de Guerra
+যুদ্ধের ঢাক
+Coração de Pedra
+পাথরের হৃদয়
+Bússola Antiga
+প্রাচীন কম্পাস
+Pacto do Poder
+শক্তির চুক্তি
+Raiz Profunda
+গভীর শিকড়
+Totem das Frutas
+ফলের টোটেম
+Olho do Caçador
+শিকারির চোখ
+Martelo Rachador
+ফাটল-ধরানো হাতুড়ি
+Contador Mágico
+জাদুর গণক
+Dado de Ouro
+সোনার পাশা
+Mágicas +35% de dano; militares -15% de alcance
+জাদুকরী টাওয়ার +35% ড্যামেজ; সামরিক -15% রেঞ্জ
++7% de dano por outra torre IGUAL no campo (até +35%)
+মাঠে একই রকম প্রতিটি টাওয়ারের জন্য +7% ড্যামেজ (সর্বোচ্চ +35%)
+Primárias +2 de perfuração; -10% de cadência nelas
+প্রাইমারি টাওয়ার +2 ভেদ; তাদের ফায়ার রেট -10%
+Militares +25% de dano; mágicas -10% de cadência
+সামরিক +25% ড্যামেজ; জাদুকরী -10% ফায়ার রেট
+Todas +20% de alcance; -10% de dano
+সব টাওয়ার +20% রেঞ্জ; -10% ড্যামেজ
+Todas +40% de cadência; -20% de dano
+সব টাওয়ার +40% ফায়ার রেট; -20% ড্যামেজ
+Todas +1 alvo/projétil; inimigos +15% de vida
+সব টাওয়ার +1 টার্গেট/প্রজেক্টাইল; শত্রু +15% লাইফ
+Fim de cada onda: +8% de juros sobre o ouro (até $500)
+প্রতি ওয়েভের শেষে: তোমার সোনায় +8% সুদ (সর্বোচ্চ $500)
++$300 agora e +$60 a cada caminho
+এখনই +$300, আর প্রতি পথে +$60
++50 de vida máxima e cura tudo agora
++50 সর্বোচ্চ লাইফ, আর এখনই পুরো লাইফ ফিরে আসে
++1 revive guardado
++1 পুনর্জীবন জমা থাকে
+Toda raridade é sorteada 2x: fica a melhor
+প্রতিটি র‍্যারিটি 2x টানা হয়: সেরাটাই থাকে
+Recompensas de carta mostram 4 opções
+কার্ড পুরস্কারে 4টি অপশন দেখায়
+Todas +25% de dano e +1 alvo; inimigos +20% de vida; loja +25%
+সব টাওয়ার +25% ড্যামেজ ও +1 টার্গেট; শত্রু +20% লাইফ; দোকান +25%
+Todas +60% de dano; vida máxima -40%
+সব টাওয়ার +60% ড্যামেজ; সর্বোচ্চ লাইফ -40%
+Vender uma torre no mesmo caminho em que foi colocada devolve 100%
+যে পথে বসিয়েছ সেই পথেই টাওয়ার বেচলে 100% ফেরত
+Sem torres repetidas no campo: todas +25% de dano e +10% de alcance
+মাঠে একই টাওয়ার দুবার না থাকলে: সব টাওয়ার +25% ড্যামেজ ও +10% রেঞ্জ
+1x por andar: o vazamento que te mataria te deixa com 1 de vida
+প্রতি তলায় 1x: যে শত্রু ফসকে গেলে তুমি হেরে যেতে, সে তোমাকে 1 লাইফে রেখে যায়
+Bolotas douradas caem o dobro e são coletadas sozinhas
+সোনালি ওক ফল দ্বিগুণ পড়ে আর নিজে থেকেই জমা হয়
+Salamandra E Tartaruga no campo: as duas +30% de dano e +15% de cadência
+মাঠে স্যালামান্ডার আর কচ্ছপ দুটোই থাকলে: দুজনেরই +30% ড্যামেজ ও +15% ফায়ার রেট
+Mágicas +1 alvo/projétil e +15% de alcance
+জাদুকরী টাওয়ার +1 টার্গেট/প্রজেক্টাইল ও +15% রেঞ্জ
++$40 a cada onda vencida e bolotas douradas valem o dobro
+প্রতিটি জেতা ওয়েভে +$40, আর সোনালি ওক ফলের দাম দ্বিগুণ
+Todas +35% de dano; ouro das recompensas -30%
+সব টাওয়ার +35% ড্যামেজ; পুরস্কারের সোনা -30%
+Todas +2 alvos/projéteis; inimigos +25% de velocidade
+সব টাওয়ার +2 টার্গেট/প্রজেক্টাইল; শত্রু +25% গতি
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+সব টাওয়ার +60% ড্যামেজ। অভিশাপ: প্রতি ওয়েভে 3% লাইফ কমে
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+সব টাওয়ার +25% ফায়ার রেট ও +1 টার্গেট। অভিশাপ: শত্রু +20% লাইফ
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
+এখনই +$500, আর প্রতি ওয়েভে +$60। অভিশাপ: দোকানে দাম 40% বেশি
+ATIVA (toque no ícone na onda, 1x por andar): empurra todos os inimigos para trás
+অ্যাকটিভ (ওয়েভ চলার সময় আইকনে টাচ করো, প্রতি তলায় 1x): সব শত্রুকে পেছনে ঠেলে দেয়
+ATIVA (toque no ícone na onda, 1x por andar): dano em todos os inimigos do caminho
+অ্যাকটিভ (ওয়েভ চলার সময় আইকনে টাচ করো, প্রতি তলায় 1x): পথের সব শত্রুকে ড্যামেজ দেয়
+Queimaduras duram o dobro; Salamandra +20% de dano
+পোড়া দ্বিগুণ সময় থাকে; স্যালামান্ডার +20% ড্যামেজ
+Inimigo que morre queimando EXPLODE nos vizinhos
+পুড়তে পুড়তে মরা শত্রু আশেপাশের শত্রুদের উপর বিস্ফোরিত হয়
+Lentidões duram +50%; Tartaruga +20% de dano
+ধীরগতি 50% বেশি সময় থাকে; কচ্ছপ +20% ড্যামেজ
+Inimigos lentos ou congelados levam +25% de dano
+ধীর বা জমাট শত্রুরা +25% বেশি ড্যামেজ পায়
+Acertos das torres primárias envenenam
+প্রাইমারি টাওয়ারের আঘাতে বিষ লাগে
+Inimigo que morre envenenado espalha o veneno
+বিষে মরা শত্রু আশেপাশে বিষ ছড়িয়ে দেয়
++10% de chance de crítico em todas as torres
+সব টাওয়ারে +10% ক্রিটিক্যালের সম্ভাবনা
+Críticos causam x3 em vez de x2
+ক্রিটিক্যাল x2-এর বদলে x3 ড্যামেজ দেয়
++5% de dano em todas a cada $1000 que você tiver (até +25%)
+তোমার প্রতি $1000-এ সব টাওয়ার +5% ড্যামেজ (সর্বোচ্চ +25%)
+Cada crítico dá $1 (até $60 por onda)
+প্রতিটি ক্রিটিক্যালে $1 (প্রতি ওয়েভে সর্বোচ্চ $60)
+Herói +40% de dano
+হিরো +40% ড্যামেজ
+Herói sobe +1 nível a cada chefe vencido
+প্রতিটি বস হারালে হিরো +1 লেভেল ওঠে
+Invocações do Guaxinim e sentinelas do Texugo +40% de dano
+র‍্যাকুনের ডেকে আনা প্রাণী আর ব্যাজারের সেন্ট্রি +40% ড্যামেজ
+Invocações e sentinelas atacam 30% mais rápido
+ডেকে আনা প্রাণী আর সেন্ট্রি 30% দ্রুত আক্রমণ করে
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+পোড়া দ্বিগুণ ড্যামেজ দেয়। অভিশাপ: বরফের টাওয়ার -30% ড্যামেজ
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+একই শত্রুর উপর বিষ 3x পর্যন্ত জমে। অভিশাপ: বিষাক্ত শত্রুরা 15% দ্রুত চলে
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+ক্রিটিক্যাল x4 ড্যামেজ দেয়। অভিশাপ: ক্রিটিক্যাল ছাড়া আঘাতে -20% ড্যামেজ
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+শত্রু ফাটানোর সোনা +100%। অভিশাপ: প্রতি তলার শেষে 25% সোনা হারাবে
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+হিরো +80% ড্যামেজ। অভিশাপ: অন্য টাওয়ারগুলো -15% ড্যামেজ
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+ডেকে আনা প্রাণী আর সেন্ট্রি +60% ড্যামেজ; র‍্যাকুনের প্রাণীরা +1 টার্গেট। অভিশাপ: যে টাওয়ার কিছু ডেকে আনে না, তার ফায়ার রেট -10%
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+এলিট আর মিনি বস দ্বিগুণ পুরস্কার দেয়। অভিশাপ: শত্রু +15% লাইফ
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+সব টাওয়ার +30% ফায়ার রেট। অভিশাপ: শত্রুরা 25% বেশি গা ঘেঁষে আসে
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+বাফ কার্ড 1 ধাপ উঁচু র‍্যারিটিতে আসে। অভিশাপ: কার্ড বদল করা যাবে না
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+মরা শত্রু আশেপাশে বিস্ফোরিত হয়। অভিশাপ: যে ফসকে যায় সে বিস্ফোরিত হয়ে আরও 5 লাইফ কেড়ে নেয়
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+সব টাওয়ার +40% ড্যামেজ। অভিশাপ: প্রতিটি ফসকে যাওয়া শত্রু দ্বিগুণ লাইফ কাটে
+Todas as torres veem camuflados e têm +25% de alcance; inimigos +20% de velocidade
+সব টাওয়ার ছদ্মবেশী দেখে আর +25% রেঞ্জ পায়; শত্রু +20% গতি
+Todas +45% de cadência; vida máxima -25
+সব টাওয়ার +45% ফায়ার রেট; সর্বোচ্চ লাইফ -25
++$400 agora e ouro dos abates +60%; loja 30% mais cara
+এখনই +$400, আর কিলের সোনা +60%; দোকানে দাম 30% বেশি
+A cada 10 abates, TODAS as torres atacam 60% mais rápido por 3s
+প্রতি 10 কিলে সব টাওয়ার 3s ধরে 60% দ্রুত আক্রমণ করে
+Cada inimigo que vaza tira no máximo 1 vida (até blindado e chefe)
+প্রতিটি ফসকে যাওয়া শত্রু সর্বোচ্চ 1 লাইফ কাটে (বর্মধারী আর বসও)
+Cada onda perfeita (sem vazar) recupera 3 de vida
+প্রতিটি নিখুঁত ওয়েভ (কেউ ফসকায়নি) 3 লাইফ ফিরিয়ে দেয়
+Todas as torres veem camuflados; alcance -10%
+সব টাওয়ার ছদ্মবেশী দেখে; রেঞ্জ -10%
+Inimigos chegam SEM blindagem (fortificados perdem a casca)
+শত্রুরা বর্ম ছাড়াই আসে (সুরক্ষিতদের খোলস খসে যায়)
+vença {0} Elites ou Mini Chefes
+{0}টি এলিট বা মিনি বস হারাও
+vença 1 chefe
+1টি বস হারাও
+vença {0} chefes
+{0}টি বস হারাও
+faça {0} ondas perfeitas
+{0}টি নিখুঁত ওয়েভ খেলো
+vença {0} ondas
+{0}টি ওয়েভ জেতো
+Quebra: {0}
+অভিশাপ ভাঙতে: {0}
+Mágicas +60% de dano
+জাদুকরী +60% ড্যামেজ
++10% por torre igual (até +50%)
+একই রকম প্রতিটি টাওয়ারে +10% (সর্বোচ্চ +50%)
+Primárias +4 de perfuração
+প্রাইমারি +4 ভেদ
+Militares +45% de dano
+সামরিক +45% ড্যামেজ
++35% de alcance
++35% রেঞ্জ
++60% de cadência
++60% ফায়ার রেট
+Juros de 12% (até $800)
+12% সুদ (সর্বোচ্চ $800)
++45% de dano e +15% de alcance
++45% ড্যামেজ ও +15% রেঞ্জ
+Perfuração
+ভেদ
+Velocidade de Ataque
+আক্রমণের গতি
+Alvos/Projéteis
+টার্গেট/প্রজেক্টাইল
+Dano em Blindados
+বর্মধারীদের বিরুদ্ধে ড্যামেজ
+Área de Impacto
+আঘাতের এলাকা
+Alcance
+রেঞ্জ
+Crítico
+ক্রিটিক্যাল
++{0} de perfuração
++{0} ভেদ
++{0} alvo/projétil por ataque
+প্রতি আক্রমণে +{0} টার্গেট/প্রজেক্টাইল
++{0} de dano contra blindados
+বর্মধারীদের বিরুদ্ধে +{0} ড্যামেজ
+fura +{0} camada(s)
++{0} স্তর ভেদ করে
++{0}% de chance de CRÍTICO (dano x2)
++{0}% ক্রিটিক্যালের সম্ভাবনা (x2 ড্যামেজ)
+acerto envenena: {0}% do dano por segundo (2s)
+আঘাতে বিষ: প্রতি সেকেন্ডে ড্যামেজের {0}% (2s)
+Normal
+সাধারণ
+Raro
+রেয়ার
+Épico
+এপিক
+Melhoria
+উন্নতি
+Ouro
+সোনা
+Upagem
+আপগ্রেড
+Loja
+দোকান
+Fogueira
+ক্যাম্পফায়ার
+CHEFE
+বস
+Início
+শুরু
+Elite
+এলিট
+Relíquia
+রেলিক
+Evento
+ইভেন্ট
+Mini Chefe
+মিনি বস
+Desafio
+চ্যালেঞ্জ
+Mímico
+মিমিক
+Nada
+কিছু নেই
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+ওয়েভ জেতো, তারপর একটি টাওয়ারের জন্য 3টি উন্নতির 1টি বেছে নাও
+Vença a onda: ouro na hora ou investido
+ওয়েভ জেতো: সোনা এখনই নাও বা বিনিয়োগ করো
+Vença a onda e ganhe 1 de 3 torres grátis
+ওয়েভ জেতো আর 3টি ফ্রি টাওয়ারের 1টি নাও
+Vença a onda: upagem grátis numa torre
+ওয়েভ জেতো: একটি টাওয়ারে ফ্রি আপগ্রেড
+Sem onda: compre melhorias e relíquias com ouro
+ওয়েভ নেই: সোনা দিয়ে উন্নতি আর রেলিক কেনো
+Sem onda: descansar ou treinar
+ওয়েভ নেই: বিশ্রাম নাও বা ট্রেনিং করো
+O chefe do andar: vença e escolha uma relíquia de chefe
+তলার বস: হারাও আর একটি বস রেলিক বেছে নাও
+Escolha a torre inicial da run
+রানের শুরুর টাওয়ার বেছে নাও
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+আরও শক্তিশালী শত্রু আর একটি মডিফায়ার: পুরস্কার রেয়ার কার্ড আর সোনা
+Vença a onda e escolha 1 de 3 relíquias
+ওয়েভ জেতো আর 3টি রেলিকের 1টি বেছে নাও
+Sem onda: um encontro com escolhas
+ওয়েভ নেই: বেছে নেওয়ার মতো একটি ঘটনা
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+শেষে মিনি বসসহ ওয়েভ: পুরস্কার রেয়ার টাওয়ার বা গুপ্তধন
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+জেতো, কাউকে ফসকাতে দিও না, সময়ের মধ্যে শেষ করো: সর্বোচ্চ 3টি সোনার তারা
+Uma onda, sem recompensa extra
+একটি ওয়েভ, বাড়তি পুরস্কার নেই
+Camuflados
+ছদ্মবেশী
+Fortificados
+সুরক্ষিত
+Regeneram
+রিজেন
+Apressados
+ঝটপট
+Horda
+দঙ্গল
+todos vêm camuflados
+সবাই ছদ্মবেশে আসে
+todos vêm fortificados
+সবাই সুরক্ষিত হয়ে আসে
+todos regeneram
+সবাই রিজেন করে
++30% de velocidade
++30% গতি
++50% de inimigos
++50% শত্রু
+Escudeiro Demolidor
+ধ্বংসকারী ঢালধারী
+Mãe-Bomba
+বোমা-মা
+Engenheiro Remendão
+জোড়াতালি ইঞ্জিনিয়ার
+Rasga-Vento
+হাওয়া-চেরা
+Escudo de 30% da vida. Quando quebra, fica atordoado 2,5s
+লাইফের 30% সমান ঢাল। ঢাল ভাঙলে 2,5s অচল থাকে
+A cada 4s solta 2 bombinhas no caminho (até 14)
+প্রতি 4s-এ পথে 2টি ছোট বোমা ফেলে (সর্বোচ্চ 14)
+Conserta a si mesmo e cura os aliados por perto a cada 3s
+প্রতি 3s-এ নিজেকে মেরামত করে আর কাছের সঙ্গীদের সারিয়ে তোলে
+A cada 5s dá uma arrancada 4x mais rápida
+প্রতি 5s-এ 4x গতিতে ছুট লাগায়
+dano alto de uma vez quebra o escudo; depois é a hora de bater
+একবারে বড় ড্যামেজ দিলে ঢাল ভাঙে; তারপরই আসল মারের সময়
+torres de área e perfuração limpam os filhotes
+এলাকা আর ভেদের টাওয়ার ছোট বোমাগুলো সাফ করে
+dano concentrado antes do conserto
+মেরামতের আগেই একসাথে ড্যামেজ দাও
+lentidão e torres no fim do caminho
+ধীরগতি আর পথের শেষে টাওয়ার
+Esquilo Contrabandista
+পাচারকারী কাঠবিড়ালি
+Ninho Abandonado
+পরিত্যক্ত বাসা
+Javali do Caos
+বিশৃঙ্খলার বুনো শূকর
+Aposta do Guaxinim
+র‍্যাকুনের বাজি
+Lago Espelhado
+আয়না-হ্রদ
+Fonte Sagrada
+পবিত্র ঝরনা
+Dinamite Abandonada
+পরিত্যক্ত ডিনামাইট
+Árvore Ancestral
+প্রাচীন গাছ
+Mel do Urso
+ভালুকের মধু
+O Corvo Mercador
+সওদাগর কাক
+Toca Desmoronada
+ধসে পড়া গর্ত
+Arbusto de Frutinhas
+ছোট ফলের ঝোপ
+Caminhão Capturado
+আটক ট্রাক
+Ninho de Vespas
+বোলতার বাসা
+Ovo Misterioso
+রহস্যময় ডিম
+Altar do Sacrifício
+বলির বেদি
+Altar das Maldições
+অভিশাপের বেদি
+Coruja Sábia
+জ্ঞানী পেঁচা
+Colmeia Selvagem
+বুনো মৌচাক
+Lago Congelado
+জমাট হ্রদ
+Iglu do Pinguim
+পেঙ্গুইনের ইগলু
+Miragem
+মরীচিকা
+Caravana do Deserto
+মরুর কাফেলা
+Forja de Lava
+লাভার কামারশালা
+Ovo de Fogo
+আগুনের ডিম
+Bruxa do Pântano
+জলার ডাইনি
+Sapo Rei
+ব্যাঙ রাজা
+Um esquilo de capa abre um saco cheio de mapas roubados. "Tenho uma torre de elite pra você... por um terço do seu ouro."
+চাদর গায়ে এক কাঠবিড়ালি চুরি করা ম্যাপে ভরা থলে খোলে। "তোমার জন্য একটা এলিট টাওয়ার আছে... তোমার সোনার এক-তৃতীয়াংশের বদলে।"
+No alto de uma árvore, um ninho com um brilho estranho. Pode ser um tesouro. Pode ser uma armadilha dos humanos.
+গাছের মগডালে অদ্ভুত ঝিলিক দেওয়া একটা বাসা। গুপ্তধন হতে পারে। আবার মানুষের ফাঁদও হতে পারে।
+Um javali enorme bufa no caminho. "Deixe minha fúria correr pelo campo e eu ensino suas torres a bater mais forte."
+পথে এক বিশাল বুনো শূকর ফোঁস ফোঁস করছে। "আমার রাগকে মাঠে ছুটতে দাও, বিনিময়ে তোমার টাওয়ারদের আরও জোরে মারতে শেখাব।"
+Um guaxinim embaralha três cascas de noz. "Aposta $300? Acertou, dobra. Errou... é meu."
+এক র‍্যাকুন তিনটা বাদামের খোসা ঘোরাচ্ছে। "$300 বাজি ধরবে? মিললে দ্বিগুণ। না মিললে... ওটা আমার।"
+A água do lago reflete suas torres mais fortes do que são. Tocar nela cobra um preço.
+হ্রদের পানিতে তোমার টাওয়ারগুলোকে আসলের চেয়েও শক্তিশালী দেখায়। ছুঁলেই দাম দিতে হবে।
+Uma fonte de água cristalina no meio da floresta.
+বনের মাঝখানে স্ফটিকের মতো স্বচ্ছ পানির এক ঝরনা।
+Humanos-bomba fugiram e largaram um caixote com o pavio aceso.
+বোমাওয়ালা মানুষেরা পালিয়েছে, ফেলে গেছে সলতে জ্বলা একটা বাক্স।
+Uma árvore milenar sussurra: "dê um pouco da sua vida e eu te dou um presente antigo."
+হাজার বছরের এক গাছ ফিসফিস করে বলে: "তোমার একটু লাইফ দাও, আমি তোমাকে এক প্রাচীন উপহার দেব।"
+Um urso guarda um pote de mel dourado. Ele aceita dividir... por um preço.
+এক ভালুক সোনালি মধুর হাঁড়ি পাহারা দিচ্ছে। সে ভাগ দিতে রাজি... তবে দাম দিতে হবে।
+Um corvo pousa num galho com objetos brilhantes. "Brilho por brilho, amigo."
+চকচকে জিনিস নিয়ে এক কাক ডালে এসে বসে। "চকচকের বদলে চকচক, বন্ধু।"
+Uma toca antiga. Escavar aqui pode revelar algo útil ou derrubar tudo.
+একটা পুরোনো গর্ত। এখানে খুঁড়লে কাজের কিছু মিলতে পারে, আবার সব ধসেও পড়তে পারে।
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+জাদুর ছোট ফলে ভরা একটা ঝোপ। বাজারে বেচতে পারো, নয়তো এখনই খেয়ে ফেলো।
+Um caminhão dos humanos tombou na estrada, cheio de caixas. O motorista fugiu... por enquanto.
+মানুষের একটা ট্রাক বাক্স বোঝাই করে রাস্তায় উল্টে পড়েছে। ড্রাইভার পালিয়েছে... আপাতত।
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+নিচু ডালে একটা বোলতার বাসা গুনগুন করছে। রাগী বোলতা দারুণ সঙ্গী, আবার ভয়ংকর শত্রুও।
+Um ovo brilhante, quentinho, esquecido no meio da trilha. Um vendedor pede $150 por ele.
+পথের মাঝে পড়ে আছে একটা উজ্জ্বল, গরম গরম ডিম। এক বিক্রেতা এর দাম চাইছে $150।
+Um altar de pedra antiga pulsa com poder. Ele pede uma das suas torres... e promete algo à altura.
+প্রাচীন পাথরের এক বেদি শক্তিতে স্পন্দিত হচ্ছে। সে তোমার একটা টাওয়ার চায়... আর বদলে সমান মূল্যের কিছু দেওয়ার কথা দেয়।
+Duas relíquias negras flutuam sobre um altar rachado. Poder de verdade... com um preço que cobra todo dia.
+ফাটা বেদির উপর দুটো কালো রেলিক ভাসছে। আসল শক্তি... তবে তার দাম রোজ চোকাতে হয়।
+Uma coruja velha de óculos abre um livro de estratégia. "Conhecimento custa caro, filhote."
+চশমা পরা এক বুড়ো পেঁচা কৌশলের বই খোলে। "জ্ঞানের দাম অনেক, খোকা।"
+Uma colmeia enorme pinga mel dourado. As abelhas não parecem nada contentes com visitas.
+এক বিশাল মৌচাক থেকে সোনালি মধু চুইয়ে পড়ছে। মৌমাছিরা অতিথি দেখে মোটেও খুশি নয়।
+Um lago totalmente congelado corta o caminho. Do outro lado, um baú brilha. O gelo range.
+পুরো জমে যাওয়া এক হ্রদ পথ আটকে আছে। ওপারে একটা সিন্দুক ঝলমল করছে। বরফ কড়কড় করছে।
+Um pinguim de cachecol vende neve mágica na porta do iglu. "Fresquinha, direto do polo!"
+মাফলার পরা এক পেঙ্গুইন ইগলুর দরজায় জাদুর তুষার বেচছে। "একদম তাজা, সোজা মেরু থেকে!"
+No horizonte, um oásis cheio de tesouros tremula no calor. Pode ser real... ou só o sol.
+দিগন্তে গুপ্তধনে ভরা এক মরূদ্যান গরমে কাঁপছে। সত্যি হতে পারে... নাকি শুধু রোদের খেলা।
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+উটের এক কাফেলা বালিয়াড়িতে থামে। সওদাগররা ম্যাপ অদলবদল করে আর পানি বেচে।
+Uma forja antiga, aquecida pela própria lava. Ela pede sangue para temperar o aço.
+এক প্রাচীন কামারশালা, লাভার আঁচেই গরম। ইস্পাতে পান দিতে সে রক্ত চায়।
+Um ovo vermelho, quente como brasa, pulsa entre as rochas. Pegar com a mão vai doer.
+পাথরের ফাঁকে অঙ্গারের মতো গরম এক লাল ডিম ধুকপুক করছে। খালি হাতে ধরলে লাগবে।
+Uma bruxa mexe um caldeirão verde. "Uma poção desfaz maldições, querido... ou um amuleto, se preferir."
+এক ডাইনি সবুজ কড়াইয়ে নাড়া দিচ্ছে। "একটা ওষুধে অভিশাপ কাটে, সোনা... নয়তো একটা তাবিজ, যেটা তোমার পছন্দ।"
+Um sapo de coroa olha fundo nos seus olhos. Dizem que ele é um herói amaldiçoado.
+মুকুট পরা এক ব্যাঙ তোমার চোখের গভীরে তাকিয়ে আছে। লোকে বলে, সে এক অভিশপ্ত হিরো।
+Comprar
+কেনো
+Paga 1/3 do ouro: uma torre ÉPICA (4 upagens)
+সোনার 1/3 দাও: একটি এপিক টাওয়ার (4টি আপগ্রেড)
+Recusar
+না বলো
+Segue em frente
+সামনে এগিয়ে যাও
+Pegar o ovo
+ডিমটা নাও
+50%: uma relíquia · 50%: perde 15% da vida
+50%: একটি রেলিক · 50%: 15% লাইফ হারাবে
+Deixar
+রেখে দাও
+Aceitar
+রাজি
+Próximas 3 ondas: inimigos +25% de velocidade. Depois: +15% de dano em TODAS as torres pra sempre
+পরের 3 ওয়েভ: শত্রু +25% গতি। তারপর: সব টাওয়ার চিরকালের জন্য +15% ড্যামেজ
+Apostar
+বাজি ধরো
+Passar
+বাদ দাও
+Tocar a água
+পানি ছোঁও
+Perde 20% da vida: um buff ÉPICO numa torre aleatória
+20% লাইফ হারাও: এলোমেলো একটি টাওয়ারে একটি এপিক বাফ
+Ir embora
+চলে যাও
+Beber
+পান করো
+Recupera 20% da vida
+20% লাইফ ফিরে পাও
+Encher o cantil
+মশক ভরে নাও
++$150 vendendo a água
+পানি বেচে +$150
+Desarmar
+নিষ্ক্রিয় করো
++$120 e 1 upagem grátis numa torre aleatória
++$120 আর এলোমেলো একটি টাওয়ারে 1টি ফ্রি আপগ্রেড
+Sair de fininho
+চুপিচুপি সরে পড়ো
+Oferecer vida
+লাইফ দাও
+Perde 10% da vida máxima: uma relíquia aleatória
+10% সর্বোচ্চ লাইফ হারাও: এলোমেলো একটি রেলিক
+Pagar $200
+$200 দাও
+Todas as torres +5% de dano pelo resto da run
+রানের বাকি সময় সব টাওয়ার +5% ড্যামেজ
+Pagar $250
+$250 দাও
+Uma relíquia aleatória
+এলোমেলো একটি রেলিক
+Escavar
+খোঁড়ো
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: ফ্রি আপগ্রেড + $100 · 40%: 10% লাইফ হারাবে
+Colher e vender
+তুলে বেচে দাও
++$180 no mercado
+বাজারে +$180
+Comer agora
+এখনই খাও
+Recupera 10% da vida
+10% লাইফ ফিরে পাও
+Pagar 40% do ouro
+সোনার 40% দাও
+Uma torre RARA aleatória (2 upagens)
+এলোমেলো একটি রেয়ার টাওয়ার (2টি আপগ্রেড)
+Saquear
+লুট করো
++$200, mas perde 5% da vida
++$200, তবে 5% লাইফ হারাবে
+Cutucar
+খোঁচা দাও
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: রানের বাকি সময় সব টাওয়ার +10% ফায়ার রেট · 50%: 10% লাইফ হারাবে
+Comprar ($150)
+কেনো ($150)
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: একটি রেলিক · 40%: 15% লাইফ ফিরে পাও
+Sacrificar
+বলি দাও
+Entrega uma torre: relíquia conforme o valor dela
+একটি টাওয়ার দিয়ে দাও: তার মূল্য অনুযায়ী রেলিক
+Aceitar a maldição
+অভিশাপ মেনে নাও
+Escolha 1 de 2 relíquias amaldiçoadas (não conta no limite do andar)
+2টি অভিশপ্ত রেলিকের 1টি বেছে নাও (তলার সীমায় গোনা হয় না)
+Pagar $180
+$180 দাও
+1 upagem grátis em 2 torres aleatórias
+এলোমেলো 2টি টাওয়ারে 1টি করে ফ্রি আপগ্রেড
+Ouvir o conselho
+পরামর্শ শোনো
++1 troca de cartas grátis neste andar
+এই তলায় +1 ফ্রি কার্ড বদল
+Pegar o mel
+মধু নাও
+Perde 8% da vida: +$300 vendendo o mel
+8% লাইফ হারাও: মধু বেচে +$300
+Atravessar
+পার হও
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: সিন্দুকে +$300 · 40%: বরফ ভেঙে 15% লাইফ হারাবে
+Contornar
+ঘুরে যাও
+Comprar ($200)
+কেনো ($200)
++40 de escudo até o fim do andar (absorve vazamentos)
+তলার শেষ পর্যন্ত +40 ঢাল (ফসকে যাওয়া শত্রুর আঘাত শুষে নেয়)
+Seguir a miragem
+মরীচিকার পিছু নাও
+50%: uma relíquia · 50%: perde $200 na areia
+50%: একটি রেলিক · 50%: বালিতে $200 হারাবে
+Ignorar
+পাত্তা দিও না
+Trocar mapas
+ম্যাপ অদলবদল করো
++$100 e +1 troca de cartas grátis neste andar
++$100 আর এই তলায় +1 ফ্রি কার্ড বদল
+Comprar água ($120)
+পানি কেনো ($120)
+Temperar o aço
+ইস্পাতে পান দাও
+Perde 10% da vida máxima: um buff ÉPICO numa torre aleatória
+10% সর্বোচ্চ লাইফ হারাও: এলোমেলো একটি টাওয়ারে একটি এপিক বাফ
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+এলোমেলো একটি টাওয়ারে ড্যামেজের একটি এপিক বাফ · 30%: হাত পুড়ে 10% লাইফ হারাবে
+Beber a poção
+ওষুধ খাও
+Quebra a maldição de uma relíquia (sem maldição: +25 de escudo)
+একটি রেলিকের অভিশাপ ভাঙে (অভিশাপ না থাকলে: +25 ঢাল)
+Amuleto ($250)
+তাবিজ ($250)
+Beijar o sapo
+ব্যাঙকে চুমু খাও
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: এপিক টাওয়ার হয়ে যায় (4টি আপগ্রেড) · 70%: শুধুই একটা ব্যাঙ
+Seguir
+এগিয়ে যাও
+O CHEFE DO ANDAR CHEGOU!
+তলার বস এসে গেছে!
+Mini chefe: {0}!
+মিনি বস: {0}!
++conserto
++মেরামত
+ESCUDO QUEBRADO!
+ঢাল ভেঙেছে!
+CORAÇÃO TEIMOSO!
+জেদি হৃদয়!
+Nv {0}
+লেভেল {0}
+Nenhuma torre no campo pra upar.
+মাঠে আপগ্রেড করার মতো কোনো টাওয়ার নেই।
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+এটা ছিল মিমিক! সিন্দুকটাকে হারাও আর দ্বিগুণ সোনা নাও
+Onda perfeita x{0}: +${1}
+নিখুঁত ওয়েভ x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} বিবর্তিত হলো: {1}
+O chefe escapou! Sem a recompensa dele.
+বস পালিয়ে গেছে! তার পুরস্কার আর পাবে না।
+O chefe escapou!
+বস পালিয়ে গেছে!
+Sem a recompensa dele.
+তার পুরস্কার আর পাবে না।
+Revive usado! A onda recomeça.
+পুনর্জীবন ব্যবহার হয়েছে! ওয়েভ আবার শুরু।
+Maldição quebrada: {0} (o bônus fica)
+অভিশাপ ভেঙেছে: {0} (বোনাস থেকে যাবে)
+Escolha a torre inicial
+শুরুর টাওয়ার বেছে নাও
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+এটা ফ্রিতে আসে, সাথে এলোমেলো 2টি আপগ্রেড। শুরুর সোনা দিয়ে আরও কিনতে পারবে।
+Escolha uma melhoria
+একটি উন্নতি বেছে নাও
+Depois toque na torre que vai receber.
+তারপর যে টাওয়ার এটা পাবে তাতে টাচ করো।
+Escolha uma torre grátis
+একটি ফ্রি টাওয়ার বেছে নাও
+Chefe derrotado! Escolha uma relíquia de chefe
+বস হেরে গেছে! একটি বস রেলিক বেছে নাও
+Depois ainda ganha {0} com {1} upagens.
+এরপর {1}টি আপগ্রেডসহ {0}-ও পাবে।
+Elite vencido!
+এলিট হেরে গেছে!
++${0} de ouro. Escolha uma carta rara:
++${0} সোনা। একটি রেয়ার কার্ড বেছে নাও:
+Lua de Sangue: +${0}
+রক্তচাঁদ: +${0}
+Mini chefe derrotado!
+মিনি বস হেরে গেছে!
+RELÍQUIAS ESGOTADAS
+রেলিক শেষ
+Você já tem todas. +${0}
+তোমার কাছে সবগুলোই আছে। +${0}
+Escolha uma relíquia
+একটি রেলিক বেছে নাও
+Relíquias valem a run toda.
+রেলিক পুরো রান জুড়ে কাজ করে।
+Loja do Coelho
+খরগোশের দোকান
+Melhorias e relíquias, pagas com o ouro da run.
+উন্নতি আর রেলিক, রানের সোনা দিয়ে কেনো।
+Dinheiro
+টাকা
+Pegar agora ou investir?
+এখনই নেবে, নাকি বিনিয়োগ করবে?
+Escolha UMA.
+একটি বেছে নাও।
+UPAGEM GRÁTIS
+ফ্রি আপগ্রেড
+DESAFIO: {0} de 3 estrelas
+চ্যালেঞ্জ: 3টির মধ্যে {0}টি তারা
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+জয়: হ্যাঁ  ·  কেউ ফসকায়নি: {0}  ·  {1}s-এর মধ্যে: {2}  ·  +${3}
+sim
+হ্যাঁ
+não
+না
+MÍMICO DERROTADO
+মিমিক হেরে গেছে
+O baú-monstro deixou cair +${0}
+সিন্দুক-দানব ফেলে গেল +${0}
+CAMINHO LIMPO
+পথ পরিষ্কার
+Nenhuma recompensa por aqui.
+এখানে কোনো পুরস্কার নেই।
+Ganhou {0}! Toque no campo para posicionar.
+{0} পেয়েছ! বসাতে মাঠে টাচ করো।
+O investimento rendeu: +${0}
+বিনিয়োগে লাভ হয়েছে: +${0}
+Bolsa Furada: -${0} no fim do andar
+ফুটো থলে: তলার শেষে -${0}
+ANDAR {0}!
+তলা {0}!
+Entrega {0} (vale ~${1})
+{0} দিয়ে দাও (মূল্য ~${1})
+Treinar
+ট্রেনিং
+Escolha a árvore da upagem grátis.
+ফ্রি আপগ্রেডের শাখা বেছে নাও।
+Já são {0} relíquias neste andar: {1} virou +${2}
+এই তলায় ইতিমধ্যে {0}টি রেলিক: {1} বদলে হলো +${2}
+Relíquia nova: {0}
+নতুন রেলিক: {0}
+Delícia! +{0} de vida.
+মজাদার! +{0} লাইফ।
++$200 do saque, mas o motorista voltou: -{0} de vida.
+লুটে +$200, কিন্তু ড্রাইভার ফিরে এসেছে: -{0} লাইফ।
+A coruja ensina a olhar de novo: +1 troca de cartas grátis neste andar.
+পেঁচা নতুন চোখে দেখতে শেখাল: এই তলায় +1 ফ্রি কার্ড বদল।
+Você não tinha $120 para a água.
+পানির জন্য তোমার কাছে $120 ছিল না।
+-$120. Água fresca: +{0} de vida.
+-$120। ঠান্ডা পানি: +{0} লাইফ।
+Você não tinha $250 para o amuleto.
+তাবিজের জন্য তোমার কাছে $250 ছিল না।
+A bruxa não tinha amuleto que você não possua.
+ডাইনির কাছে এমন কোনো তাবিজ নেই যা তোমার কাছে নেই।
+-$250. Amuleto: {0}
+-$250। তাবিজ: {0}
+Você segue em frente.
+তুমি সামনে এগিয়ে যাও।
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}। তুমি 4টি আপগ্রেডসহ {1} পেয়েছ! বসাতে মাঠে টাচ করো।
+Era um tesouro! Relíquia: {0}
+এটা গুপ্তধন ছিল! রেলিক: {0}
+Era um tesouro! +$400
+এটা গুপ্তধন ছিল! +$400
+Era uma armadilha! -{0} de vida.
+এটা ফাঁদ ছিল! -{0} লাইফ।
+A fúria do javali corre solta: 3 ondas com inimigos mais rápidos. Sobreviva e suas torres ficam +15% mais fortes.
+বুনো শূকরের রাগ ছাড়া পেয়েছে: 3 ওয়েভ ধরে শত্রুরা দ্রুততর। টিকে থাকো, তোমার টাওয়ার হবে +15% শক্তিশালী।
+Acertou! +$300
+মিলে গেছে! +$300
+Errou... -${0}
+মেলেনি... -${0}
+-{0} de vida.
+-{0} লাইফ।
+-{0} de vida máxima. A árvore não tinha mais relíquias: +$400.
+-{0} সর্বোচ্চ লাইফ। গাছের কাছে আর রেলিক নেই: +$400।
+-{0} de vida máxima. Relíquia: {1}
+-{0} সর্বোচ্চ লাইফ। রেলিক: {1}
+Você não tinha $200. O urso fica com o mel.
+তোমার কাছে $200 ছিল না। মধু ভালুকেরই থাকল।
+-$200. Todas as torres +5% de dano pelo resto da run.
+-$200। রানের বাকি সময় সব টাওয়ার +5% ড্যামেজ।
+Você não tinha $250. O corvo voa embora.
+তোমার কাছে $250 ছিল না। কাক উড়ে চলে গেল।
+O corvo não tinha nada novo pra você.
+কাকের কাছে তোমার জন্য নতুন কিছু ছিল না।
+-$250. Relíquia: {0}
+-$250। রেলিক: {0}
+A toca desabou! -{0} de vida.
+গর্ত ধসে পড়েছে! -{0} লাইফ।
+As frutinhas renderam +$180 no mercado.
+ছোট ফলগুলো বাজারে এনে দিল +$180।
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}। মালের মধ্যে: 2টি আপগ্রেডসহ {1}! বসাতে মাঠে টাচ করো।
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+বোলতারা সঙ্গী হয়ে গেছে! রানের বাকি সময় সব টাওয়ার +10% ফায়ার রেট।
+Ferroadas! -{0} de vida.
+হুল ফুটেছে! -{0} লাইফ।
+Você não tinha $150. O vendedor guarda o ovo.
+তোমার কাছে $150 ছিল না। বিক্রেতা ডিমটা রেখে দিল।
+-$150. O ovo chocou uma relíquia: {0}
+-$150। ডিম ফুটে বেরোল একটি রেলিক: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150। এটা ছিল নিছক নাস্তার ডিম: +{0} লাইফ।
+Você não tinha $180.
+তোমার কাছে $180 ছিল না।
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+কামড়! -{0} লাইফ, তবে মধু বেচে পেলে +$300।
+O gelo aguentou! O baú tinha $300.
+বরফ টিকে গেছে! সিন্দুকে ছিল $300।
+CRACK! O gelo quebrou: -{0} de vida.
+কড়াৎ! বরফ ভেঙে গেছে: -{0} লাইফ।
+Você não tinha $200.
+তোমার কাছে $200 ছিল না।
+-$200. +40 de escudo até o fim do andar.
+-$200। তলার শেষ পর্যন্ত +40 ঢাল।
+Era real! Relíquia: {0}
+এটা সত্যি ছিল! রেলিক: {0}
+Era só o sol... você perdeu ${0} na areia.
+শুধুই রোদের খেলা... তুমি বালিতে ${0} হারালে।
++$100 e +1 troca de cartas grátis neste andar.
++$100 আর এই তলায় +1 ফ্রি কার্ড বদল।
+-{0} de vida máxima.
+-{0} সর্বোচ্চ লাইফ।
+A mão queimou: -{0} de vida.
+হাত পুড়ে গেছে: -{0} লাইফ।
+A maldição de {0} sumiu!
+{0}-এর অভিশাপ কেটে গেছে!
+Sem maldição para quebrar: a poção virou +25 de escudo.
+ভাঙার মতো অভিশাপ নেই: ওষুধটা হয়ে গেল +25 ঢাল।
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+ব্যাঙটা 4টি আপগ্রেডসহ {0} হয়ে গেল! বসাতে মাঠে টাচ করো।
+Era só um sapo. Ele coaxa, ofendido.
+শুধুই একটা ব্যাঙ। সে অপমানিত হয়ে ঘ্যাঙর ঘ্যাঙ করছে।
+O altar se apagou: não há maldições novas.
+বেদি নিভে গেছে: নতুন কোনো অভিশাপ নেই।
+Não havia torre para sacrificar.
+বলি দেওয়ার মতো কোনো টাওয়ার ছিল না।
+{0} foi entregue. O altar não tinha relíquias: +${1}
+{0} দিয়ে দেওয়া হলো। বেদির কাছে রেলিক ছিল না: +${1}
+{0} foi entregue ao altar. Relíquia: {1}
+{0} বেদিতে দিয়ে দেওয়া হলো। রেলিক: {1}
++{0} de vida.
++{0} লাইফ।
+Não havia torre para receber.
+নেওয়ার মতো কোনো টাওয়ার ছিল না।
+{0} ganhou {1} (Épico)
+{0} পেল {1} (এপিক)
+Modo Rogue
+রোগলাইক মোড
+Como funciona
+কীভাবে খেলবে
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+3 তলার একটি ম্যাপে নিজের পথ বেছে নাও: প্রতিটি থামা মানে একটি ওয়েভ বা একটি ঘটনা।
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+জিতে পাও উন্নতি, ফ্রি টাওয়ার আর এমন রেলিক যা পুরো রান জুড়ে কাজ করে।
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+এলিট আর মিনি বস বেশি শক্তিশালী, তবে পুরস্কারও বেশি। প্রতিটি তলার শেষে থাকে বস।
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+সোনা, লাইফ আর টাওয়ার এক পথ থেকে পরের পথে সাথে যায়। লাইফ শেষ হলে রানও শেষ।
+No fim você ganha cristais e XP: quanto mais longe, mais.
+শেষে পাবে ক্রিস্টাল আর XP: যত দূর যাবে, তত বেশি।
+Melhor: andar {0}
+সেরা: তলা {0}
+Runs: {0}
+রান: {0}
+Vitórias: {0}
+জয়: {0}
+Andar {0}
+তলা {0}
+{0} relíquias
+{0}টি রেলিক
+Continuar run
+রান চালিয়ে যাও
+Nova run
+নতুন রান
+Mapa: {0}
+ম্যাপ: {0}
+Começar run
+রান শুরু করো
+Começar outra run?
+আরেকটি রান শুরু করবে?
+A run salva acaba aqui, sem recompensa.
+সেভ করা রান এখানেই শেষ হবে, কোনো পুরস্কার ছাড়াই।
+Sim, nova run
+হ্যাঁ, নতুন রান
+Torre grátis: toque no campo para posicionar {0}
+ফ্রি টাওয়ার: {0} বসাতে মাঠে টাচ করো
+Sair (a run fica salva)
+বেরিয়ে যাও (রান সেভ থাকবে)
+Sair
+বেরিয়ে যাও
++{0} escudo
++{0} ঢাল
+ANDAR {0}
+তলা {0}
+Caminho {0}/{1}
+পথ {0}/{1}
+Sem melhorias ainda
+এখনো কোনো উন্নতি নেই
+{0} melhorias nas torres
+টাওয়ারে {0}টি উন্নতি
+{0} ondas perfeitas
+{0}টি নিখুঁত ওয়েভ
+{0} revive
+{0}টি পুনর্জীবন
+Vida {0}/{1}
+লাইফ {0}/{1}
+Toque no Início (o caminho que brilha) para começar
+শুরু করতে "শুরু"-তে (ঝলমলে পথ) টাচ করো
+Escolha o próximo caminho (os que brilham)
+পরের পথ বেছে নাও (ঝলমলে পথগুলো)
+Andar
+তলা
+Nenhuma relíquia ainda
+এখনো কোনো রেলিক নেই
+Chefe do andar
+তলার বস
+Onda {0} com inimigos +40% de vida
+ওয়েভ {0}, শত্রুদের +40% লাইফ
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+পুরস্কার: সোনা x1,5 আর 3টি রেয়ার কার্ডের 1টি
+Dica: {0}
+টিপস: {0}
+Recompensa: melhoria rara, torre rara ou tesouro
+পুরস্কার: রেয়ার উন্নতি, রেয়ার টাওয়ার বা গুপ্তধন
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+এক বিশাল, ধীরগতির যান। এটা পালিয়ে গেলে রান শেষ।
+É o chefe final: vença e a run está ganha!
+এটাই ফাইনাল বস: জিতলেই রান তোমার!
+Fecha o andar.
+তলা শেষ করে।
+Recompensa: relíquia de chefe e uma torre
+পুরস্কার: বস রেলিক আর একটি টাওয়ার
+Ir por aqui
+এই পথে যাও
+Trocar estoque ${0}
+স্টক বদলাও ${0}
+Trocar (grátis)
+বদলাও (ফ্রি)
+Trocar ${0}
+বদলাও ${0}
+Sair da loja
+দোকান থেকে বেরোও
+Pular
+বাদ দাও
+de Chefe
+বসের
+Amaldiçoada
+অভিশপ্ত
+Comprado
+কেনা হয়েছে
+Lapidar
+শান দাও
+Recrutar
+দলে নাও
+Tesouro
+গুপ্তধন
+Pegar agora
+এখনই নাও
+Investir
+বিনিয়োগ করো
+Descansar
+বিশ্রাম নাও
+Fortificar
+ঢাল বানাও
+Meditar
+ধ্যান করো
+Treinar Herói
+হিরোর ট্রেনিং
+Purificar
+শুদ্ধ করো
+para: {0}
+যার জন্য: {0}
+Reforça o que ela já tem: {0}
+যা আছে তা আরও মজবুত করে: {0}
+Sem upagens. Chega de graça.
+কোনো আপগ্রেড নেই। ফ্রিতে আসে।
+Chega de graça com {0} upagens sorteadas.
+এলোমেলো {0}টি আপগ্রেডসহ ফ্রিতে আসে।
+Mais uma torre {0} sem upagens, por metade do preço.
+আরও একটি {0} টাওয়ার, আপগ্রেড ছাড়া, অর্ধেক দামে।
++${0} na hora
+এখনই +${0}
++${0} daqui a 3 caminhos (se você sobreviver)
+3 পথ পরে +${0} (যদি টিকে থাকো)
+Recupera {0}% da vida
+{0}% লাইফ ফিরে পাও
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: তোমার বেছে নেওয়া শাখায় 1টি ফ্রি আপগ্রেড
++{0} de escudo até o fim do andar (absorve vazamentos)
+তলার শেষ পর্যন্ত +{0} ঢাল (ফসকে যাওয়া শত্রুর আঘাত শুষে নেয়)
++2 trocas de cartas grátis neste andar
+এই তলায় +2 ফ্রি কার্ড বদল
+Herói +2 níveis
+হিরো +2 লেভেল
+Tira a maldição de {0} (o poder fica)
+{0}-এর অভিশাপ সরায় (শক্তি থেকে যায়)
+Nível {0} para {1}
+লেভেল {0} থেকে {1}
+Escolha a torre
+টাওয়ার বেছে নাও
+{0} melhorias
+{0}টি উন্নতি
+Nenhuma torre no campo pode receber esta melhoria.
+মাঠের কোনো টাওয়ার এই উন্নতি নিতে পারে না।
+Andar {0} de {1}
+তলা {0}/{1}
+RUN VENCIDA!
+রান জয়!
+FIM DA RUN
+রান শেষ
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+তলা {0}  ·  {1}টি পথ  ·  {2}টি বস  ·  {3}টি এলিট
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0}টি রেলিক  ·  ওয়েভ {1}  ·  {2} কিল
+Rogue
+রোগলাইক
+Diárias
+দৈনিক
+Relíquias  {0}/{1}
+রেলিক  {0}/{1}
+Relíquia liberada: {0}
+রেলিক আনলক হয়েছে: {0}
+Jogar {0} corridas no Rogue
+রোগলাইকে {0}টি রান খেলো
+Vencer {0} corridas no Rogue
+রোগলাইকে {0}টি রান জেতো
+Derrotar {0} chefes no Rogue
+রোগলাইকে {0}টি বস হারাও
+Vencer {0} elites no Rogue
+রোগলাইকে {0}টি এলিট হারাও
+Chegar ao andar {0} no Rogue
+রোগলাইকে তলা {0}-এ পৌঁছাও
+Vencer {0} partidas
+{0}টি ম্যাচ জেতো
+Baú diário
+দৈনিক সিন্দুক
+Volte amanhã para continuar a sequência!
+ধারাবাহিকতা বজায় রাখতে কাল আবার এসো!
+Pronto para abrir!
+খোলার জন্য তৈরি!
+Resgate as 3 missões de hoje para abrir.
+খুলতে আজকের 3টি মিশনের পুরস্কার নাও।
+Sequência: 1 dia
+ধারাবাহিকতা: 1 দিন
+Sequência: {0} dias
+ধারাবাহিকতা: {0} দিন
+Novas missões em {0}
+{0} পরে নতুন মিশন
+Desafio do Dia
+আজকের চ্যালেঞ্জ
+Desafio do Dia concluído!
+আজকের চ্যালেঞ্জ সম্পূর্ণ!
+Concluído hoje!
+আজকের জন্য সম্পূর্ণ!
+Vença para ganhar +{0} cristais
+জিতলে +{0} ক্রিস্টাল
+Recorde de hoje: onda {0}
+আজকের রেকর্ড: ওয়েভ {0}
+Novo desafio em {0}
+{0} পরে নতুন চ্যালেঞ্জ
++$40 a cada onda vencida
+প্রতিটি জেতা ওয়েভে +$40
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+শুরুর টাওয়ারে এলোমেলো 3টি আপগ্রেড। বাকি টাওয়ার আসে ম্যাপের কার্ড আর দোকান থেকে।
+O aluguel acabou: {0} foi embora
+ভাড়া শেষ: {0} চলে গেছে
+Nenhuma torre pode ser upada agora
+এখন কোনো টাওয়ার আপগ্রেড করা যাবে না
+Sua vida já está cheia
+তোমার লাইফ আগে থেকেই পূর্ণ
+Toque no campo para posicionar: {0}
+বসাতে মাঠে টাচ করো: {0}
+MODO ROGUE
+রোগলাইক মোড
+Andar {0}  ·  caminho {1}/{2}
+তলা {0}  ·  পথ {1}/{2}
+Revives guardados: {0}
+জমানো পুনর্জীবন: {0}
+BUFFS DA RUN
+রানের বাফ
+Relíquias:
+রেলিক:
+Treino +{0}% de dano
+ট্রেনিং +{0}% ড্যামেজ
+nenhum ainda
+এখনো নেই
+Torres vêm das cartas do mapa.
+টাওয়ার আসে ম্যাপের কার্ড থেকে।
+Upar e vender: só na Loja.
+আপগ্রেড আর বিক্রি: শুধু দোকানে।
+SUAS TORRES
+তোমার টাওয়ার
+nenhuma ainda
+এখনো নেই
+alugada: {0} caminhos
+ভাড়ায়: {0}টি পথ
+Treino {0}: +{1}% de dano
+ট্রেনিং {0}: +{1}% ড্যামেজ
+Ouro insuficiente: o treino custa ${0}
+যথেষ্ট সোনা নেই: ট্রেনিংয়ের দাম ${0}
+Ouro: ${0}
+সোনা: ${0}
+Toque numa torre do painel para upar ou vender
+আপগ্রেড বা বিক্রি করতে প্যানেলের একটি টাওয়ারে টাচ করো
+Estoque esgotado
+স্টক শেষ
+Aluguel: {0}
+ভাড়া: {0}
+Cura Grande
+বড় হিল
+Cura Pequena
+ছোট হিল
+Upagem Grátis
+ফ্রি আপগ্রেড
+Revive
+পুনর্জীবন
+Torre ÉPICA (4 upagens) por 3 caminhos, depois vai embora
+এপিক টাওয়ার (4টি আপগ্রেড) 3টি পথের জন্য, তারপর চলে যায়
+Recupera 50% da vida
+50% লাইফ ফিরে পাও
+Recupera 30% da vida
+30% লাইফ ফিরে পাও
+Upa uma árvore aleatória
+এলোমেলো একটি শাখা আপগ্রেড করে
+Volta com metade da vida ao morrer
+হারলে অর্ধেক লাইফ নিয়ে ফিরে আসো
+HERÓI  nível {0}
+হিরো  লেভেল {0}
+Sem upagens
+কোনো আপগ্রেড নেই
+{0} upagens sorteadas
+এলোমেলো {0}টি আপগ্রেড
+Alugada: não vende
+ভাড়ার টাওয়ার: বিক্রি করা যাবে না
+Upar e vender: só na Loja
+আপগ্রেড আর বিক্রি: শুধু দোকানে
+O Poder da Run carrega 50% mais rápido
+রানের শক্তি 50% দ্রুত চার্জ হয়
+Usar o Poder da Run dá +$100 e recupera 5 de vida
+রানের শক্তি ব্যবহার করলে +$100 আর 5 লাইফ ফিরে পাও
+A roleta nunca dá x0 (vira x1)
+চাকায় কখনো x0 আসে না (x1 হয়ে যায়)
+Mercador
+সওদাগর
+Horda de Ouro
+সোনার ঝাঁক
+Mercador Sombrio: cartas épicas e relíquias à venda
+ছায়া সওদাগর: এপিক কার্ড আর রেলিক বিক্রি হচ্ছে
+Inimigos dourados que pagam muito e não tiram vida
+সোনালি শত্রু, যারা অনেক সোনা দেয় আর লাইফ কাটে না
+Inimigos Robustos
+মজবুত শত্রু
+Pressa Humana
+মানুষের তাড়া
+Inflação
+মুদ্রাস্ফীতি
+Fogueira Fria
+নিভু নিভু আগুন
+Chefes Furiosos
+রাগী বস
+Bolso Furado
+ফুটো পকেট
+Vida Curta
+অল্প আয়ু
+Inimigos +20% de vida
+শত্রু +20% লাইফ
+Inimigos 10% mais rápidos
+শত্রু 10% দ্রুত
+Loja 25% mais cara
+দোকানে দাম 25% বেশি
+Descansar cura a metade
+বিশ্রামে অর্ধেক হিল হয়
+Chefes +40% de vida
+বস +40% লাইফ
+Recompensas -20% de ouro
+পুরস্কারে সোনা -20%
+Vida máxima -25%
+সর্বোচ্চ লাইফ -25%
+Choque Térmico
+তাপের ধাক্কা
+Olhos da Noite
+রাতের চোখ
+Caçada em Dupla
+জোড়া শিকার
+Veneno e Presas
+বিষ আর দাঁত
+Força Bruta
+গায়ের জোর
+Mar Profundo
+গভীর সমুদ্র
+Fera e Mestre
+পশু আর প্রভু
+Engenhoca
+কলকব্জা
+Noite Sônica
+সোনিক রাত
++40% de dano e +20% de cadência
++40% ড্যামেজ ও +20% ফায়ার রেট
++25% de alcance e +2 de perfuração
++25% রেঞ্জ ও +2 ভেদ
++30% de dano e +1 alvo
++30% ড্যামেজ ও +1 টার্গেট
++50% de dano
++50% ড্যামেজ
++35% de dano e +20% de área
++35% ড্যামেজ ও +20% আঘাতের এলাকা
++30% de dano e +15% de cadência
++30% ড্যামেজ ও +15% ফায়ার রেট
++25% de cadência e +1 alvo
++25% ফায়ার রেট ও +1 টার্গেট
++40% de dano
++40% ড্যামেজ
++20% de alcance e +20% de cadência
++20% রেঞ্জ ও +20% ফায়ার রেট
+Chuva de Meteoros
+উল্কাবৃষ্টি
+Muralha de Espinhos
+কাঁটার প্রাচীর
+Tempo Lento
+ধীর সময়
+Ventania
+ঝোড়ো হাওয়া
+Grito de Guerra
+রণহুংকার
+Olho que Tudo Vê
+সর্বদর্শী চোখ
+Chuva de Ouro
+সোনার বৃষ্টি
+Fonte da Vida
+জীবনের ঝরনা
+Dano em todos os inimigos da tela (cresce com o andar; no chefe, 5% da vida)
+স্ক্রিনের সব শত্রুকে ড্যামেজ (তলার সাথে বাড়ে; বসের ক্ষেত্রে লাইফের 5%)
+Prende todos os inimigos (até blindados) por 2,5s
+সব শত্রুকে 2,5s আটকে রাখে (বর্মধারীদেরও)
+Inimigos 60% mais lentos por 6s
+6s ধরে শত্রু 60% ধীর
+Empurra todos os inimigos para trás no caminho (até blindados)
+সব শত্রুকে পথ ধরে পেছনে ঠেলে দেয় (বর্মধারীদেরও)
+Todas as torres atacam 60% mais rápido por 8s
+8s ধরে সব টাওয়ার 60% দ্রুত আক্রমণ করে
+Tira camuflagem e blindagem de todos os inimigos da tela
+স্ক্রিনের সব শত্রুর ছদ্মবেশ আর বর্ম খুলে নেয়
+Ouro na hora: $30 + $5 por inimigo na tela (cresce com o andar)
+এখনই সোনা: $30 + স্ক্রিনের প্রতি শত্রুর জন্য $5 (তলার সাথে বাড়ে)
+Recupera 10% da vida máxima (mínimo 5)
+সর্বোচ্চ লাইফের 10% ফিরে পাও (কমপক্ষে 5)
+Golpe Pesado
+ভারী আঘাত
+Olhar Afiado
+তীক্ষ্ণ দৃষ্টি
+Liderança
+নেতৃত্ব
+Fúria Veloz
+দ্রুত ক্রোধ
+Ataque em Leque
+ছড়ানো আক্রমণ
+Habilidade recarrega 2x mais rápido
+স্কিল 2x দ্রুত রিচার্জ হয়
+Herói +30% de alcance
+হিরো +30% রেঞ্জ
+TODAS as torres +8% de dano
+সব টাওয়ার +8% ড্যামেজ
+Herói +35% de cadência
+হিরো +35% ফায়ার রেট
+Herói +2 alvos/projéteis
+হিরো +2 টার্গেট/প্রজেক্টাইল
+Só torres mágicas
+শুধু জাদুকরী টাওয়ার
+Tudo camuflado
+সবাই ছদ্মবেশী
+Sem loja
+দোকান নেই
+Metade da vida
+অর্ধেক লাইফ
+Inimigos 30% mais rápidos
+শত্রু 30% দ্রুত
+Só cartas ÉPICAS, loja 2x mais cara
+শুধু এপিক কার্ড, দোকানে দাম 2x
+Floresta
+বন
+Neve
+তুষার
+Deserto
+মরুভূমি
+Vulcão
+আগ্নেয়গিরি
+Pântano
+জলা
+sem regra especial
+কোনো বিশেষ নিয়ম নেই
+inimigos 15% mais lentos, mas resistem a gelo (-20%)
+শত্রু 15% ধীর, তবে বরফ সহ্য করে (-20%)
+alcance de todas -10%, ouro das recompensas +20%
+সবার রেঞ্জ -10%, পুরস্কারের সোনা +20%
+fogo +20% de dano, inimigos +10% de vida
+আগুন +20% ড্যামেজ, শত্রু +10% লাইফ
+veneno +40% e inimigos regeneram mais
+বিষ +40% আর শত্রুরা বেশি সেরে ওঠে
+Zepelim Tempestade
+ঝড়ের জেপেলিন
+Tanque Escavador
+খননকারী ট্যাংক
+Fortaleza de Geradores
+জেনারেটর দুর্গ
+General Barril
+পিপে জেনারেল
+Iceberg Blindado
+বর্মধারী হিমশৈল
+Rainha da Nevasca
+তুষারঝড়ের রানি
+Escorpião de Areia
+বালির বিছে
+Faraó Mumificado
+মমি ফারাও
+Golem de Magma
+ম্যাগমা গোলেম
+Hidra do Pântano
+জলার হাইড্রা
+a cada fase some na nuvem (camuflado) e solta caminhões
+প্রতি ফেজে মেঘে মিলিয়ে যায় (ছদ্মবেশী) আর ট্রাক ছাড়ে
+a cada fase se enterra e fica imune por 3s
+প্রতি ফেজে মাটিতে লুকায় আর 3s অজেয় থাকে
+a cada fase liga um escudo de 25% da vida
+প্রতি ফেজে লাইফের 25% সমান ঢাল চালু করে
+a cada fase acelera os inimigos e joga bombinhas
+প্রতি ফেজে শত্রুদের গতি বাড়ায় আর ছোট বোমা ছোড়ে
+a cada fase solta 3 cerâmicas e toma só metade do dano por 4s
+প্রতি ফেজে 3টি সিরামিক ছাড়ে আর 4s ধরে অর্ধেক ড্যামেজ নেয়
+a cada fase blinda todos os inimigos do campo e se cura 10%
+প্রতি ফেজে মাঠের সব শত্রুকে বর্ম পরায় আর নিজের 10% হিল করে
+a cada fase dá uma ARRANCADA (2,5x mais rápido por 2,5s)
+প্রতি ফেজে হঠাৎ ছুট দেয় (2,5s ধরে 2,5x দ্রুত)
+a cada fase levanta 6 inimigos e se cura 15%
+প্রতি ফেজে 6টি শত্রু জাগিয়ে তোলে আর নিজের 15% হিল করে
+a cada fase se parte em 2 tanques e fica 30% mais rápido
+প্রতি ফেজে 2টি ট্যাংকে ভাগ হয় আর 30% দ্রুত হয়
+a cada fase passa a regenerar e chama 2 curandeiros
+প্রতি ফেজে সেরে উঠতে শুরু করে আর 2টি হিলার ডাকে
++2 projéteis por tiro
+প্রতি শটে +2 প্রজেক্টাইল
+25% de chance de ATORDOAR no acerto
+আঘাতে 25% সম্ভাবনায় অচল করে
+20% de chance de EXPLOSÃO arcana no acerto
+আঘাতে 20% সম্ভাবনায় জাদুকরী বিস্ফোরণ
+Primeiro Passo
+প্রথম পদক্ষেপ
+Explorador
+অভিযাত্রী
+Veterano
+পোড়খাওয়া যোদ্ধা
+Rei Deposto
+সিংহাসনচ্যুত রাজা
+Colecionador
+সংগ্রাহক
+Estrela
+তারকা
+Perfeccionista
+নিখুঁতবাদী
+Achado Raro
+দুর্লভ সন্ধান
+Contratado
+চুক্তিবদ্ধ
+Corajoso
+সাহসী
+Caça-Mímico
+মিমিক শিকারি
+Combo Lendário
+কিংবদন্তি কম্বো
+Vença o chefe do andar 1
+তলা 1-এর বসকে হারাও
+Alcance o andar 3
+তলা 3-এ পৌঁছাও
+Alcance o andar 5
+তলা 5-এ পৌঁছাও
+Vença o Rei das Bombas (andar 10)
+বোমার রাজাকে হারাও (তলা 10)
+Tenha 10 relíquias numa run
+এক রানে 10টি রেলিক জোগাড় করো
+Funda uma torre ESTRELA
+একটি তারকা টাওয়ার ফিউজ করো
+3 estrelas num Desafio
+একটি চ্যালেঞ্জে 3টি তারা
+Encontre o Mercador Sombrio
+ছায়া সওদাগরকে খুঁজে বের করো
+Cumpra um contrato do andar
+একটি তলার চুক্তি পূরণ করো
+Vença o andar 3 com Ameaça 5+
+হুমকি 5+ নিয়ে তলা 3 জেতো
+Derrote um Mímico
+একটি মিমিককে হারাও
+Faça um combo x50
+x50 কম্বো করো
+Sem borda
+বর্ডার নেই
+Bronze
+ব্রোঞ্জ
+Prata
+রুপা
+primárias
+প্রাইমারি
+militares
+সামরিক
+mágicas
+জাদুকরী
+Festival
+উৎসব
+Erupção
+অগ্ন্যুৎপাত
+todos os inimigos camuflados, mas +50% de ouro nas recompensas
+সব শত্রু ছদ্মবেশী, তবে পুরস্কারে +50% সোনা
+loja e mercador 30% mais baratos
+দোকান আর সওদাগর 30% সস্তা
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+শত্রু +20% লাইফ, তবে বস বাড়তি গুপ্তধন রেখে যায়
+Vocês, bichos, não vão passar daqui!
+ওহে প্রাণীরা, তোমরা এখান থেকে আর এগোতে পারবে না!
+Mais uma floresta pra explodir!
+উড়িয়ে দেওয়ার জন্য আরেকটা বন!
+Ninguém segura o caminhão dos humanos!
+মানুষের ট্রাক কেউ থামাতে পারবে না!
+Quanto mais torre, mais diversão!
+যত টাওয়ার, তত মজা!
+Hoje a floresta vira estacionamento!
+আজ এই বন হবে পার্কিং লট!
+Isso não acabou... tenho primos!
+এখানেই শেষ নয়... আমার ভাইবোনেরা আছে!
+Meu seguro não cobre esquilo!
+আমার ইনস্যুরেন্সে কাঠবিড়ালি কভার হয় না!
+Volto no próximo andar!
+পরের তলায় আবার দেখা হবে!
+Socorro, uma coruja!
+বাঁচাও, পেঁচা!
+Meu escudo é de primeira!
+আমার ঢাল একদম সেরা!
+Abram caminho!
+পথ ছাড়ো!
+Quem quer bombinha?
+কে ছোট বোমা চাও?
+Vou consertar tudo!
+সব ঠিক করে দেব!
+EU SOU O REI DAS BOMBAS! Ajoelhem-se, bichinhos!
+আমিই বোমার রাজা! হাঁটু গেড়ে বসো, পুঁচকে প্রাণীরা!
+Bando
+ঝাঁক
+Batalhão
+ব্যাটালিয়ন
+Círculo Arcano
+জাদুচক্র
+primárias +15% / +30% de cadência
+প্রাইমারি +15% / +30% ফায়ার রেট
+militares +15% / +30% de dano
+সামরিক +15% / +30% ড্যামেজ
+mágicas +15% / +30% de dano e +10% de alcance
+জাদুকরী +15% / +30% ড্যামেজ ও +10% রেঞ্জ
+TODAS +5% / +10% de alcance
+সব টাওয়ার +5% / +10% রেঞ্জ
+Caçador
+শিকারি
+Intocável
+অক্ষত
+Jejum
+উপবাস
+Mão de Vaca
+কিপটে
+Gatilho Rápido
+দ্রুত ট্রিগার
+Mestre do Combo
+কম্বো ওস্তাদ
+Muralha
+প্রাচীর
+Poder Total
+পূর্ণ শক্তি
+Enxuto
+ছিমছাম
+Fartura
+প্রাচুর্য
+Caça-Tesouro
+গুপ্তধন শিকারি
+Ferreiro
+কামার
+Vença 2 Elites ou Mini Chefes neste andar
+এই তলায় 2টি এলিট বা মিনি বস হারাও
+Chegue ao fim do andar com 90% da vida (ou mais)
+90% (বা বেশি) লাইফ নিয়ে তলা শেষ করো
+Não use nenhuma frutinha neste andar
+এই তলায় কোনো ছোট ফল ব্যবহার কোরো না
+Chegue ao chefe com $1500 ou mais
+$1500 বা বেশি নিয়ে বসের কাছে পৌঁছাও
+Pegue 2 relíquias neste andar
+এই তলায় 2টি রেলিক নাও
+Chame 3 ondas mais cedo neste andar
+এই তলায় 3টি ওয়েভ আগেভাগে ডাকো
+Faça um combo x30 neste andar
+এই তলায় x30 কম্বো করো
+Faça 3 ondas perfeitas (sem vazar) neste andar
+এই তলায় 3টি নিখুঁত ওয়েভ খেলো (কেউ ফসকাবে না)
+Nenhum inimigo pode vazar neste andar
+এই তলায় কোনো শত্রু ফসকাতে পারবে না
+Use o Poder da Run 3 vezes neste andar
+এই তলায় রানের শক্তি 3 বার ব্যবহার করো
+Termine o andar com no máximo 6 torres em campo
+মাঠে সর্বোচ্চ 6টি টাওয়ার নিয়ে তলা শেষ করো
+Use 3 frutinhas neste andar
+এই তলায় 3টি ছোট ফল ব্যবহার করো
+Ganhe $GOLD com abates neste andar
+এই তলায় কিল করে $GOLD জেতো
+Compre 4 upagens de torre neste andar
+এই তলায় 4টি টাওয়ার আপগ্রেড কেনো
+Chuva
+বৃষ্টি
+Neblina
+কুয়াশা
+Noite
+রাত
+Vento
+বাতাস
+fogo -20% de dano, gelo +20%
+আগুন -20% ড্যামেজ, বরফ +20%
+todos os inimigos vêm camuflados
+সব শত্রু ছদ্মবেশে আসে
+mágicas +25% de dano
+জাদুকরী +25% ড্যামেজ
+inimigos +15% de velocidade
+শত্রু +15% গতি
+Escudo
+ঢাল
+Rápido
+দ্রুত
+Divide
+ভাগ হয়
+Regenera
+সেরে ওঠে
+O REI DAS BOMBAS CHEGOU!
+বোমার রাজা এসে গেছে!
+{0} chegou!
+{0} এসে গেছে!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+গোপন পথ! ছায়া সওদাগর এখানে লুকিয়ে ছিল
+Mistério revelado: {0}
+রহস্য ফাঁস: {0}
+(recompensa reforçada!)
+(পুরস্কার বেড়েছে!)
+{0} vencida: +${1}
+{0} পার হলো: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+অগ্ন্যুৎপাত: বস +${0}-এর গুপ্তধন রেখে গেছে
+Pegar agora, investir ou girar a roleta?
+এখনই নেবে, বিনিয়োগ করবে, নাকি চাকা ঘোরাবে?
+HORDA DE OURO
+সোনার ঝাঁক
+Fim da festa! Bônus de +${0} (além do ouro de cada dourado).
+পার্টি শেষ! বোনাস +${0} (প্রতিটি সোনালির সোনার পাশাপাশি)।
+Mercador Sombrio
+ছায়া সওদাগর
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+এপিক কার্ড আর রেয়ার রেলিক, দাম রানের সোনায়।
+Escolha uma torre
+একটি টাওয়ার বেছে নাও
+EVENTO DO ANDAR: {0}: {1}
+তলার ঘটনা: {0}: {1}
+Andar {0}: {1}: {2}
+তলা {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+তলার ম্যাপে পথ বেছে নাও: প্রতিটি থামা মানে একটি ওয়েভ বা একটি ঘটনা।
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+উন্নতি, টাওয়ার, রেলিক, চুক্তি আর রানের শক্তি পুরো রান জুড়ে কাজ করে।
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+বোমার রাজা অপেক্ষা করছে তলা 10-এ; তারপর রান চলে অসীমে।
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+লাইফ শেষ হলে রানও শেষ। শেষে পাবে ক্রিস্টাল আর XP: যত দূর যাবে, তত বেশি।
+LADRÃO DE RELÍQUIA
+রেলিক চোর
+REI DAS BOMBAS
+বোমার রাজা
+FASE {0}/3
+ফেজ {0}/3
+fraco a {0}
+{0}-এর কাছে দুর্বল
+Mistério
+রহস্য
+resiste a {0}
+{0} সহ্য করে
+Recompensa: torre rara ou tesouro
+পুরস্কার: রেয়ার টাওয়ার বা গুপ্তধন
+Banir: {0} restantes nesta run
+ব্যান: এই রানে আর {0}টি বাকি
+Confirmar
+নিশ্চিত করো
+Transplante ${0}
+স্থানান্তর ${0}
+VENDER ESTA TORRE?
+এই টাওয়ার বিক্রি করবে?
+recebe +${0}
+পাবে +${0}
+Vender
+বিক্রি করো
+Girar a Roleta
+চাকা ঘোরাও
+Dupla: {0}
+জুটি: {0}
+Fundir
+ফিউজ করো
+Evolução Lendária
+কিংবদন্তি বিবর্তন
+Trocar Relíquia
+রেলিক বদলাও
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+মূল ${0}: আসতে পারে x0, x0,5, x1, x1,5, x2, x3, x5 (খুবই দুর্লভ), ফ্রি আপগ্রেড বা রেলিক
+Prêmio: ${0}
+পুরস্কার: ${0}
+TROCA o seu {0} (só dá para levar 1)
+তোমার {0} বদলে দেয় (শুধু 1টিই রাখা যায়)
+{0} + {1}: as duas {2}
+{0} + {1}: দুটোই {2}
+3 torres {0} viram 1 torre ESTRELA: soma os buffs e ganha +80% de dano, +15% de cadência e +10% de alcance
+3টি {0} টাওয়ার মিলে হয় 1টি তারকা টাওয়ার: সব বাফ যোগ হয়, সাথে +80% ড্যামেজ, +15% ফায়ার রেট ও +10% রেঞ্জ
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +50% ড্যামেজ, সোনালি দ্যুতি আর {1}
+Entregue uma relíquia sua e escolha 1 de 3 novas
+তোমার একটি রেলিক দিয়ে দাও আর নতুন 3টির 1টি বেছে নাও
+falhou
+ব্যর্থ
+ok
+ঠিক আছে
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+লুটেরা! সে পালালে তোমার সোনার 10% নিয়ে যাবে
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+রেলিক চোর! সে পালালে একটি রেলিক চুরি করবে
+{0} FASE {1}/3: {2}
+{0} ফেজ {1}/3: {2}
+O saqueador fugiu com ${0}!
+লুটেরা ${0} নিয়ে পালিয়েছে!
+O ladrão fugiu com {0}!
+চোর {0} নিয়ে পালিয়েছে!
+Saqueador derrubado: +${0}
+লুটেরা ধরাশায়ী: +${0}
+Ladrão derrubado! +${0}
+চোর ধরাশায়ী! +${0}
+LADRÃO! +${0}
+চোর! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+মানুষেরা একটা অ্যান্টেনা বসিয়েছে! ভাঙতে এতে 5 বার টাচ করো
+Antena destruída! +${0}
+অ্যান্টেনা ধ্বংস! +${0}
+{0} CARREGADO! Toque no botão.
+{0} চার্জ হয়েছে! বাটনে টাচ করো।
+Chuva de Ouro: +${0}
+সোনার বৃষ্টি: +${0}
+Fonte da Vida: +{0} de vida
+জীবনের ঝরনা: +{0} লাইফ
+Contrato: {0}
+চুক্তি: {0}
+{0} (botão no topo, na onda)
+{0} (উপরের বাটন, ওয়েভ চলাকালীন)
+Contrato {0} não cumprido
+চুক্তি {0} পূরণ হয়নি
+Contrato cumprido! +${0}
+চুক্তি পূরণ! +${0}
+x0: azar! Não ganhou nada
+x0: কপাল খারাপ! কিছুই পেলে না
+JACKPOT! 
+জ্যাকপট! 
+Upagem grátis!
+ফ্রি আপগ্রেড!
+RELÍQUIA! {0}
+রেলিক! {0}
+Talento do herói
+হিরোর ট্যালেন্ট
+Nível {0}: escolha um talento.
+লেভেল {0}: একটি ট্যালেন্ট বেছে নাও।
+{0} banido nesta run (restam {1})
+এই রানে {0} ব্যান করা হলো (বাকি {1})
+Dupla ativa: {0}
+সক্রিয় জুটি: {0}
+O herói aprendeu {0}
+হিরো শিখেছে {0}
+Fusão! {0} virou torre ESTRELA
+ফিউশন! {0} এখন তারকা টাওয়ার
+{0} virou LENDÁRIA!
+{0} এখন কিংবদন্তি!
+Poder trocado: {0}
+শক্তি বদলানো হলো: {0}
+{0} buffs foram para {1} (-${2})
+{0}টি বাফ গেল {1}-এর কাছে (-${2})
+Entregou {0}
+দিয়ে দিলে {0}
+Borda {0} liberada!
+{0} বর্ডার আনলক হয়েছে!
+Conquista: {0}
+অর্জন: {0}
+Diária
+দৈনিক
+Ameaça {0}
+হুমকি {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+আজ সবার জন্য একই ম্যাপ; দিনের হিসেবে 2টি এলোমেলো হুমকি
+Regra da semana: {0}
+সপ্তাহের নিয়ম: {0}
+Ameaça
+হুমকি
+Código
+কোড
++{0}% de cristais no fim da run
+রান শেষে +{0}% ক্রিস্টাল
+Ameaça libera ao chegar no andar {0}
+তলা {0}-এ পৌঁছালে হুমকি আনলক হবে
+Código da run
+রানের কোড
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+একই কোডে একই তলা তৈরি হয়। নতুন ম্যাপের জন্য খালি রাখো।
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+হুমকি {0}  ·  রান শেষে +{1}% ক্রিস্টাল
+Pronto
+হয়ে গেছে
+Compêndio
+সংকলন
+Descobertos: {0}/{1}
+আবিষ্কৃত: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+এখনো পাওয়া যায়নি। খুঁজে পেতে খেলতে থাকো।
+Conquistas {0}/{1}
+অর্জন {0}/{1}
+Borda das cartas (libera a cada 3 conquistas):
+কার্ডের বর্ডার (প্রতি 3টি অর্জনে আনলক হয়):
+Suas melhores runs neste quadro (neste aparelho)
+এই বোর্ডে তোমার সেরা রানগুলো (এই ডিভাইসে)
+Ninguém ainda: termine uma run para entrar aqui!
+এখনো কেউ নেই: এখানে আসতে একটি রান শেষ করো!
+andar {0} · {1} caminhos
+তলা {0} · {1}টি পথ
+Últimas runs
+সাম্প্রতিক রান
+Nenhuma run terminada ainda.
+এখনো কোনো রান শেষ হয়নি।
+SORTEANDO A SUA RUN
+তোমার রান সাজানো হচ্ছে
+Boa sorte! Toque para começar
+শুভকামনা! শুরু করতে টাচ করো
+Toque para pular
+এড়িয়ে যেতে টাচ করো
+ROLETA DO TESOURO
+গুপ্তধনের চাকা
+Girando... base ${0}
+ঘুরছে... মূল ${0}
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  যে রেলিকটি দিয়ে দেবে তাতে টাচ করো
+2/2  Escolha a relíquia nova
+2/2  নতুন রেলিক বেছে নাও
+Transplante
+স্থানান্তর
+1/2  Toque na torre que vai DOAR os buffs
+1/2  যে টাওয়ার বাফ দেবে তাতে টাচ করো
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  যে টাওয়ার {0}টি বাফ পাবে তাতে টাচ করো  ·  ${1}
+{0} buffs
+{0}টি বাফ
+Você derrotou o Rei das Bombas!
+তুমি বোমার রাজাকে হারিয়েছ!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+অসীম মোডে চালিয়ে যাও (তলাগুলো ক্রমেই কঠিন হবে) অথবা এখানে থেমে পুরস্কার নাও।
+Encerrar
+শেষ করো
+carregando {0}% (derrote inimigos ou aguarde na onda)
+চার্জ হচ্ছে {0}% (শত্রু হারাও বা ওয়েভে অপেক্ষা করো)
+use durante a onda
+ওয়েভ চলাকালীন ব্যবহার করো
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+উন্নতি, টাওয়ার, রেলিক আর রানের শক্তি পুরো রান জুড়ে থাকে।
+Melhor: andar {0} · {1}/15
+সেরা: তলা {0} · {1}/15
+Andar {0} · caminho {1}/15
+তলা {0} · পথ {1}/15
+(em andamento)
+(চলছে)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+এখনও খালি: এখানে আসতে একটি রানের প্রথম পথ জিতে নাও!
+Nenhuma run registrada ainda.
+এখনও কোনো রান রেকর্ড হয়নি।
+Tempestade de Raios
+বজ্রঝড়
+Terremoto
+ভূমিকম্প
+Chuva de Flechas
+তীরের বৃষ্টি
+Chamado da Matilha
+ঝাঁকের ডাক
+Armadilha de Mel
+মধুর ফাঁদ
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+বজ্র এক শত্রু থেকে আরেক শত্রুতে লাফায় (১২ পর্যন্ত), প্রত্যেককে বেশি ড্যামেজ
+Congela todos os inimigos da tela (até blindados) por 3s
+পর্দার সব শত্রুকে (বর্মধারীসহ) 3s জমিয়ে দেয়
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+মাটির শত্রুদের 2s স্টান করে আর সবাইকে ড্যামেজ দেয়
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+সবচেয়ে বড় দলের ওপর 4s তীরের বৃষ্টি
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+আত্মা-নেকড়েরা পথ উল্টো দিকে দৌড়ে শত্রুদের কামড়ায়
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+সবচেয়ে বড় দলে মধুর পুকুর: শত্রুরা 6s 65% ধীর আর লাইফ হারায়
+Você tem {0}/{1}
+তোমার আছে {0}/{1}
+Só o que você tem aparece nas runs
+যা তোমার আছে শুধু সেটাই রানে আসে
+Você tem
+তোমার আছে
+Novo no Arsenal: {0}
+অস্ত্রাগারে নতুন: {0}
+Fazer {0} melhorias em torres
+টাওয়ারে {0}টি আপগ্রেড করো
+Colocar {0} torres no campo
+মাঠে {0}টি টাওয়ার বসাও
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+শুধু জাদুকরী
+Só torres mágicas na run
+এই রানে শুধু জাদুকরী টাওয়ার
+Tudo Camuflado
+সব ছদ্মবেশী
+Todos os inimigos vêm camuflados
+সব শত্রু ছদ্মবেশে আসে
+Sem Loja
+দোকান নেই
+As lojas do mapa viram melhorias
+ম্যাপের দোকানগুলো উন্নতিতে বদলে যায়
+Menos vida e fogueira fraca
+কম লাইফ আর দুর্বল ক্যাম্পফায়ার
+Correria
+হুড়োহুড়ি
+Inimigos apressados e loja cara
+তাড়াহুড়ো করা শত্রু আর দামি দোকান
+Ouro Escasso
+সোনার অভাব
+Recompensas menores e loja cara
+কম পুরস্কার আর দামি দোকান
+Chefões Fortes
+শক্তিশালী বস
+Chefes e inimigos mais resistentes
+বস আর শত্রুরা আরও মজবুত
+Relíquias Malditas
+অভিশপ্ত রেলিক
+Começa com 2 relíquias amaldiçoadas
+2টি অভিশপ্ত রেলিক নিয়ে শুরু
+Só Épicas
+শুধু এপিক
+Toda carta é épica, mas a loja custa o dobro
+সব কার্ড এপিক, কিন্তু দোকানে দাম দ্বিগুণ
+Metade da Vida
+অর্ধেক লাইফ
+Metade da vida e chefes furiosos
+অর্ধেক লাইফ আর রাগী বস
+Furacão
+ঘূর্ণিঝড়
+Tudo corre muito mais rápido
+সবকিছু অনেক দ্রুত চলে
+Noite Eterna
+অনন্ত রাত
+Inimigos camuflados e robustos
+ছদ্মবেশী আর মজবুত শত্রু
+Feitiçaria
+জাদুবিদ্যা
+Só mágicas e loja inflacionada
+শুধু জাদুকরী আর চড়া দামের দোকান
+Deserto Sem Fim
+অসীম মরুভূমি
+Sem loja, pouco ouro e fogueira fria
+দোকান নেই, কম সোনা আর ঠান্ডা ক্যাম্পফায়ার
+Maldição Antiga
+প্রাচীন অভিশাপ
+3 relíquias malditas e inimigos robustos
+3টি অভিশপ্ত রেলিক আর মজবুত শত্রু
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+চ্যালেঞ্জ খেলো
+Semanal
+সাপ্তাহিক
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+আজকের চ্যালেঞ্জ: {0}  ·  বিস্তারিত পাশের কার্ডে
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+এই সপ্তাহের চ্যালেঞ্জ: {0}  ·  বিস্তারিত পাশের কার্ডে
+Desafio Semanal
+সাপ্তাহিক চ্যালেঞ্জ
+Desafio Diário
+দৈনিক চ্যালেঞ্জ
+Nova semana em {0}d {1}h
+নতুন সপ্তাহ {0} দিন {1} ঘণ্টা পরে
+Novo em {0}
+নতুন চ্যালেঞ্জ {0} পরে
+Começa com {0} relíquias amaldiçoadas
+{0}টি অভিশপ্ত রেলিক নিয়ে শুরু
+Prêmio: +{0}% de cristais no fim da run
+পুরস্কার: রান শেষে +{0}% ক্রিস্টাল
+Ainda não jogado nesta semana
+এই সপ্তাহে এখনো খেলা হয়নি
+Ainda não jogado hoje
+আজ এখনো খেলা হয়নি
+Seu melhor na semana: Andar {0} · caminho {1}/15
+এই সপ্তাহে তোমার সেরা: তলা {0} · পথ {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+আজ তোমার সেরা: তলা {0} · পথ {1}/15
+Vencer 1 partida
+১টি ম্যাচ জিতুন
+Derrotar {0} tanques
+{0}টি ট্যাংক হারান
+Derrotar {0} inimigos de cerâmica
+{0}টি সিরামিক শত্রু হারান
+Um mapa diferente a cada andar
+প্রতি তলায় আলাদা মানচিত্র
+Presente: ouro para a melhoria!
+উপহার: আপগ্রেডের জন্য সোনা!
+PULAR TUTORIAL
+টিউটোরিয়াল এড়িয়ে যান
+Escolha a Raposa
+শিয়াল বেছে নিন
+Toque aqui, perto do caminho
+এখানে ট্যাপ করুন, পথের কাছে
+Solte a onda!
+ঢেউ পাঠান!
+A torre ataca sozinha!
+টাওয়ার নিজেই আক্রমণ করে!
+Toque perto do caminho
+পথের কাছে ট্যাপ করুন
+Ganhou ouro! Coloque outra torre
+সোনা পেয়েছেন! আরেকটি টাওয়ার বসান
+Toque na sua torre
+আপনার টাওয়ারে ট্যাপ করুন
+Compre uma melhoria
+একটি আপগ্রেড কিনুন
+Mais rápido: toque no x1
+আরও দ্রুত: x1-এ ট্যাপ করুন
+Vença as {0} ondas!
+{0}টি ঢেউ জিতুন!
+Passo {0} de {1}
+ধাপ {0} / {1}
+Seu HERÓI: coloque no campo
+আপনার হিরো: মাঠে বসান
+Escolha quem a torre ataca
+টাওয়ার কাকে আক্রমণ করবে বেছে নিন
+AUTO: as ondas seguem sozinhas
+অটো: ঢেউ নিজে নিজে চলতে থাকে
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+ছদ্মবেশী! শুধু "ছদ্মবেশী দেখে" টাওয়ারই একে দেখতে পায়
+Vida caindo! Coloque mais torres
+জীবন কমছে! আরও টাওয়ার বসান
+Dica
+পরামর্শ
+Prêmios das missões ficam aqui
+মিশনের পুরস্কার এখানে
+Toque no prêmio verde para receber. Depois, Voltar
+পুরস্কার নিতে সবুজ পুরস্কারে ট্যাপ করুন। তারপর, ফিরে যান
+Hora de jogar!
+খেলার সময়!
+Escolha a dificuldade
+কঠিনতা বেছে নিন
+Agora é só jogar!
+এবার শুধু খেলুন!
+Bem-vindo!
+স্বাগতম!
+Você já sabe jogar! Aqui está um presente para começar:
+আপনি খেলতে শিখে গেছেন! শুরুর জন্য একটি উপহার:
+Receber
+নিন
+Pular o tutorial?
+টিউটোরিয়াল এড়িয়ে যাবেন?
+Dá para refazer depois no botão ? do menu.
+পরে মেনুর ? বোতাম দিয়ে আবার করতে পারবেন।
+Refazer o tutorial?
+টিউটোরিয়াল আবার করবেন?
+Refazer
+আবার করুন
+Muito bem! Você já sabe jogar.
+দারুণ! আপনি খেলতে জানেন।
+Aqui está um presente para começar:
+শুরুর জন্য একটি উপহার:
+Ganhou ouro! Arraste uma torre até o campo
+সোনা পেয়েছেন! একটি টাওয়ার টেনে মাঠে আনুন
+Arraste a torre até o lugar marcado
+টাওয়ারটি চিহ্নিত জায়গায় টেনে আনুন
+Toque para receber o prêmio!
+পুরস্কার নিতে ট্যাপ করুন!
+Agora, volte ao menu
+এবার মেনুতে ফিরে যান
+Blindado: não
+বর্মধারী: না
+Blindado: sim
+বর্মধারী: হ্যাঁ
+CERÂMICA! Bem resistente: explosão faz pouco dano
+সিরামিক! খুব মজবুত: বিস্ফোরণে কম ক্ষতি হয়
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+নিরাময়কারী! পাশের শত্রুদের সারায়: আগে এটাকে ফেলো
+Camuflado: não
+ছদ্মবেশী: না
+Camuflado: sim
+ছদ্মবেশী: হ্যাঁ
+Carregando
+লোড হচ্ছে
+Enviar 1
+১টি পাঠাও
+Enviar 10
+১০টি পাঠাও
+Escolha a onda e mande qualquer inimigo
+ওয়েভ বেছে নাও, যেকোনো শত্রু পাঠাও
+Idioma
+ভাষা
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+বিস্ফোরণে অক্ষত! তীর, তলোয়ার বা জাদু ব্যবহার করো
+Imune a GELO e a EXPLOSÕES!
+বরফ আর বিস্ফোরণে অক্ষত!
+Imune a GELO! Não fica mais lento
+বরফে অক্ষত! ধীর হয় না
+Imune a MAGIA! A magia não machuca este
+জাদুতে অক্ষত! জাদু এর ক্ষতি করে না
+METAL! Só fogo, raio ou explosão machucam
+ধাতু! শুধু আগুন, বজ্র বা বিস্ফোরণেই ক্ষতি হয়
+Melhore a torre: {0}/{1}
+টাওয়ার আপগ্রেড করো: {0}/{1}
+Não dá cristais, XP nem missões
+ক্রিস্টাল, XP বা মিশন মেলে না
+Onda {0}
+ওয়েভ {0}
+Opções
+অপশন
+Ouro e vida infinitos
+অসীম সোনা আর জীবন
+PROTEGIDO! Só MAGIA faz dano cheio
+সুরক্ষিত! শুধু জাদুতেই পুরো ক্ষতি হয়
+REGENERA! Acabe com ele rápido
+পুনরুজ্জীবিত হয়! দ্রুত শেষ করো
+SANDBOX  (abrir)
+স্যান্ডবক্স (খোলো)
+SANDBOX  (fechar)
+স্যান্ডবক্স (বন্ধ করো)
+Sandbox
+স্যান্ডবক্স
+Sandbox: ouro e vida infinitos
+স্যান্ডবক্স: অসীম সোনা আর জীবন
+Som
+শব্দ
+Todos os animais liberados
+সব প্রাণী আনলক
+Toque na torre para continuar
+চালিয়ে যেতে টাওয়ারে ট্যাপ করো
+Toque nesta torre
+এই টাওয়ারে ট্যাপ করো
+Treine à vontade!
+ইচ্ছেমতো অনুশীলন করো!
+VEÍCULO! Muita vida: junte dano forte
+যান! অনেক জীবন: ভারী ক্ষতি জোগাড় করো
+Tela cheia
+ফুল স্ক্রিন
+Sair da tela cheia
+ফুল স্ক্রিন থেকে বের হও
+Gire o celular para continuar
+চালিয়ে যেতে ফোন ঘোরাও
+No iPhone o Safari não deixa a página ficar em tela cheia.
+iPhone-এ Safari পেজকে ফুল স্ক্রিন হতে দেয় না।
+Para jogar sem as barras do navegador:
+ব্রাউজারের বার ছাড়া খেলতে:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. শেয়ার চাপো (উপরে তীর দেওয়া চৌকো)
+2. Escolha "Adicionar à Tela de Início"
+2. "হোম স্ক্রিনে যোগ করুন" বেছে নাও
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. নতুন আইকন থেকে গেম খোলো: এটা ফুল স্ক্রিনে খুলবে
+Entendi
+ঠিক আছে
+Jogo
+গেম
+Refazer tutorial
+টিউটোরিয়াল আবার
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+স্কিনটি কিনতে এর মিশন পূরণ করো। এটি তোমার ম্যাচে দেখা যায়।
+Bônus
+বোনাস
+Dica: use dois dedos (pinça) para dar zoom no mapa
+টিপ: ম্যাপ জুম করতে দুই আঙুলে পিঞ্চ করো
+Conquistas
+অর্জন
+Relíquias
+রেলিক
+Automática
+স্বয়ংক্রিয়
+Vila
+গ্রাম
+Santuário
+অভয়ারণ্য
+Histórico
+ইতিহাস
+{0} chefes  ·  {1} elites
+{0} বস  ·  {1} এলিট
+{0} abates  ·  {1} torres
+{0} কিল  ·  {1} টাওয়ার
+Escudo -{0}
+ঢাল -{0}
+Dourado: sem dano
+সোনালি: কোনো ক্ষতি নেই
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP দ্বিগুণ!
+Aventura
+অভিযান
+Feira
+মেলা

@@ -1,0 +1,1282 @@
+Chumbo
+Plomo
+Regenerativo
+Regenerativo
+Porta-Tanques
+Portatanques
+Tanque Maior
+Tanque Mayor
+Dirigível Maior
+Dirigible Mayor
+Mapa liberado: {0}
+Mapa desbloqueado: {0}
+Dificuldade liberada: {0}
+Dificultad desbloqueada: {0}
+Animal liberado: {0}
+Animal desbloqueado: {0}
+Skin liberada: {0} {1}
+Skin desbloqueada: {0} {1}
+Missão concluída!
+¡Misión completada!
+Apelido: {0}
+Apodo: {0}
+Trocar
+Cambiar
+Mouse ou toque
+Ratón o toque
+Espaço: iniciar onda
+Espacio: iniciar oleada
+Mapas
+Mapas
+Mapa bloqueado
+Mapa bloqueado
+{0}/7 medalhas  -  moldura {1}
+{0}/7 medallas  -  marco {1}
+Dificuldade bloqueada
+Dificultad bloqueada
+{0} ondas
+{0} oleadas
+recorde {0}
+récord {0}
+(os heróis chegam numa próxima etapa da versão web)
+(los héroes llegan en una próxima actualización de la versión web)
+(medalha {0} só do {1} para cima)
+(medalla {0} solo desde {1} en adelante)
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+Solo torres Primarias (Zorro, Oso, Tortuga, Águila, Pingüino, Erizo, Tiburón).
+Sem herói na partida.
+Sin héroe en la partida.
+Os inimigos dão metade do ouro.
+Los enemigos dan la mitad del oro.
+Partida normal.
+Partida normal.
+Animais
+Animales
+Skins
+Skins
+Concluída
+Completada
+{0} de {1} concluídas
+{0} de {1} completadas
+Álbum de medalhas — {0} de {1}
+Álbum de medallas — {0} de {1}
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+Medallas: F Fácil · M Medio · D Difícil · I Imparable · P Solo Primarias · H Sin Héroes (Medio+) · ½ Medio Oro (Difícil+). Marco: bronce (Fácil), plata (Medio), oro (Difícil/Imparable), diamante (las 7).
+TOP JOGADORES
+MEJORES JUGADORES
+Nenhuma partida neste mapa ainda.
+Aún no hay partidas en este mapa.
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+Récords de este dispositivo. El ranking en línea depende de la aprobación de Poki.
+Seu apelido
+Tu apodo
+Aleatório
+Aleatorio
+Use de 3 a 16 letras/números, sem palavrões.
+Usa de 3 a 16 letras/números, sin groserías.
+Remover a pedra?
+¿Quitar la piedra?
+Libera espaço para torres
+Libera espacio para torres
+Você venceu {0} no {1}!
+¡Venciste {0} en {1}!
+Você chegou até a onda {0}.
+Llegaste hasta la oleada {0}.
+Continuar no Modo Livre
+Continuar en modo libre
+Jogar novamente
+Jugar de nuevo
+Modo Livre
+Modo libre
+Liberado! Este animal chega na próxima atualização da versão web.
+¡Desbloqueado! Este animal llega en la próxima actualización de la versión web.
+Carregando o animal... tente de novo em instantes.
+Cargando el animal... inténtalo de nuevo en un momento.
+Só torres Primárias nesta partida.
+Solo torres Primarias en esta partida.
+qualquer mapa
+cualquier mapa
+com {0} em campo
+con {0} en el campo
+Vencer {0} no {1}
+Vencer {0} en {1}
+ ou acima
+ o superior
+com a regra "{0}"
+con la regla "{0}"
+Chegar à onda {0} em {1}
+Llegar a la oleada {0} en {1}
+ (Modo Livre)
+ (modo libre)
+camuflados
+camuflados
+Derrotar {0} {1}
+Derrotar {0} {1}
+Conseguir {0} medalhas
+Conseguir {0} medallas
+Levar {0} árvores ao nível DEUS
+Llevar {0} árboles al nivel DIOS
+As 4 medalhas de dificuldade num mesmo mapa
+Las 4 medallas de dificultad en un mismo mapa
+Cósmica
+Cósmica
+Pausado
+En pausa
+Sair da partida?
+¿Salir de la partida?
+Sair para o menu
+Salir al menú
+Continuar jogando
+Seguir jugando
+Local válido
+Lugar válido
+Animal novo na loja!
+¡Nuevo animal en la tienda!
+Anúncio indisponível — sem recompensa.
+Anuncio no disponible: sin recompensa.
+Bônus  {0}/{1}
+Extra  {0}/{1}
+Chega no nível {0}
+Llega en el nivel {0}
+Chega no nível {0} (você está no nível {1}).
+Llega en el nivel {0} (estás en el nivel {1}).
+Chegar à onda {0} no {1}
+Llegar a la oleada {0} en {1}
+Completar um mapa (moldura de diamante)
+Completar un mapa (marco de diamante)
+Comprado!
+¡Comprado!
+Comprar  {0}
+Comprar  {0}
+Compre o animal para usar skins
+Compra el animal para usar skins
+Conquistas  {0}/{1}
+Logros  {0}/{1}
+Cristais dobrados!
+¡Cristales duplicados!
+Cristais x2
+Cristales x2
+Cristais x2 (+{0})
+Cristales x2 (+{0})
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+Cumple la misión de la skin para poder comprarla. El nuevo aspecto aparecerá en las partidas en la próxima actualización.
+Disponível para comprar!
+¡Disponible para comprar!
+Disponível! Compre por {0} cristais em Animais, no menu.
+¡Disponible! Cómpralo por {0} cristales en Animales, en el menú.
+Em uso
+En uso
+Faltam {0} cristais
+Faltan {0} cristales
+Jogar {0} partidas
+Jugar {0} partidas
+Jogue partidas para ganhar XP
+Juega partidas para ganar XP
+Missões dão cristais extras
+Las misiones dan cristales extra
+NOVO
+NUEVO
+Na sua coleção
+En tu colección
+Novo animal disponível!
+¡Nuevo animal disponible!
+Novo: {0} disponível!
+Nuevo: ¡{0} disponible!
+Nível {0}
+Nivel {0}
+Próximo animal: {0} no nível {1}
+Próximo animal: {0} en el nivel {1}
+Recebido
+Recibido
+Skin liberada para compra: {0} {1}
+Skin disponible para comprar: {0} {1}
+Subiu para o nível {0}!
+¡Subiste al nivel {0}!
+Todos os animais disponíveis!
+¡Todos los animales disponibles!
+Usar
+Usar
+Vencer os 10 mapas
+Ganar los 10 mapas
+Vencer {0} mapas diferentes
+Ganar {0} mapas distintos
+Vença "{0}" para liberar.
+Gana "{0}" para desbloquear.
+Ver em Animais
+Ver en Animales
+Ver skins
+Ver skins
+Você: nível {0}
+Tú: nivel {0}
+XP em dobro nesta partida
+XP doble en esta partida
+XP em dobro nesta partida!
+¡XP doble en esta partida!
+XP x2
+XP x2
+XP x2 ativo
+XP x2 activo
+libera {0}
+desbloquea {0}
+Missões
+Misiones
+Voltar
+Volver
+Continuar
+Continuar
+Reviver
+Revivir
++{0} cristais
++{0} cristales
+VITÓRIA!
+¡VICTORIA!
+DERROTA
+DERROTA
+Selecionar
+Seleccionar
+Selecionado
+Seleccionado
+Heróis
+Héroes
+Sons
+Sonidos
+Música: sim
+Música: sí
+Música: não
+Música: no
+Sons: sim
+Sonidos: sí
+Sons: não
+Sonidos: no
+Próxima missão!
+¡Próxima misión!
+Tudo vencido!
+¡Todo superado!
+Progresso: {0}/{1} mapas
+Progreso: {0}/{1} mapas
+Carregando o herói... tente de novo em instantes.
+Cargando el héroe... inténtalo de nuevo en un momento.
+alc {0}
+alc {0}
+Nv 10
+Nv 10
+Nv 20
+Nv 20
+Mapas
+Mapas
+Trilha das Raízes
+Sendero de Raíces
+Pântano Nebuloso
+Pantano Brumoso
+Desfiladeiro Estreito
+Desfiladero Estrecho
+Ilhas Flutuantes
+Islas Flotantes
+Mina Abandonada
+Mina Abandonada
+Praia dos Piratas
+Playa Pirata
+Floresta Sombria
+Bosque Sombrío
+Vulcão Rugidor
+Volcán Rugiente
+Cidadela Congelada
+Ciudadela Helada
+Trono do Caos
+Trono del Caos
+Partida encerrada
+Partida terminada
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+Todas +60% de daño. Maldición: pierdes 3% de vida cada oleada
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+Todas +25% de cadencia y +1 objetivo. Maldición: enemigos +20% de vida
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
++$500 ahora y +$60 por oleada. Maldición: tienda 40% más cara
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+Las quemaduras hacen el doble de daño. Maldición: torres de hielo -30% de daño
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+El veneno se acumula hasta 3x en el mismo enemigo. Maldición: los envenenados avanzan 15% más rápido
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+Los críticos hacen x4. Maldición: los golpes sin crítico -20% de daño
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+Oro de los estallidos +100%. Maldición: al final de cada piso pierdes 25% del oro
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+Héroe +80% de daño. Maldición: las otras torres -15% de daño
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+Invocaciones y centinelas +60% de daño; criaturas del Mapache +1 objetivo. Maldición: torres que no invocan -10% de cadencia
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+Los Élites y Minijefes dan el doble de recompensa. Maldición: enemigos +15% de vida
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+Todas +30% de cadencia. Maldición: los enemigos salen 25% más juntos
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+Las cartas de buff vienen 1 rareza por encima. Maldición: sin cambios de cartas
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+Un enemigo que muere EXPLOTA y daña a los cercanos. Maldición: el que se escapa explota y quita +5 de vida
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+Todas +40% de daño. Maldición: cada fuga cuesta el doble de vida
+vença 1 chefe
+vence a 1 jefe
+vença {0} chefes
+vence a {0} jefes
+Quebra: {0}
+Para romper: {0}
+fura +{0} camada(s)
+perfora +{0} capa(s)
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+Gana la oleada y elige 1 de 3 mejoras para una torre
+Vença a onda: ouro na hora ou investido
+Gana la oleada: oro al instante o invertido
+Vença a onda e ganhe 1 de 3 torres grátis
+Gana la oleada y llévate 1 de 3 torres gratis
+Vença a onda: upagem grátis numa torre
+Gana la oleada: mejora gratis en una torre
+Sem onda: compre melhorias e relíquias com ouro
+Sin oleada: compra mejoras y reliquias con oro
+Sem onda: descansar ou treinar
+Sin oleada: descansar o entrenar
+O chefe do andar: vença e escolha uma relíquia de chefe
+El jefe del piso: véncelo y elige una reliquia de jefe
+Escolha a torre inicial da run
+Elige la torre inicial de la partida
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+Enemigos más fuertes y un modificador: da cartas raras y oro
+Vença a onda e escolha 1 de 3 relíquias
+Gana la oleada y elige 1 de 3 reliquias
+Sem onda: um encontro com escolhas
+Sin oleada: un encuentro con decisiones
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+Oleada con un minijefe al final: da una torre rara o un tesoro
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+Gana, sin fugas y a tiempo: hasta 3 estrellas de oro
+Uma onda, sem recompensa extra
+Una oleada, sin recompensa extra
+dano concentrado antes do conserto
+daño concentrado antes de la reparación
+lentidão e torres no fim do caminho
+ralentización y torres al final del camino
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+Un arbusto cargado de bayitas mágicas. Puedes venderlas en el mercado o comerlas ahora.
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+Un nido de avispas zumba en una rama baja. Las avispas furiosas son excelentes aliadas, o pésimas enemigas.
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+Una caravana de camellos se detiene en la duna. Los mercaderes intercambian mapas y venden agua.
+50%: uma relíquia · 50%: perde 15% da vida
+50%: una reliquia · 50%: pierdes 15% de vida
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: mejora gratis + $100 · 40%: pierdes 10% de vida
+Colher e vender
+Recolectar y vender
++$180 no mercado
++$180 en el mercado
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: todas las torres +10% de cadencia por el resto de la partida · 50%: pierdes 10% de vida
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: una reliquia · 40%: recuperas 15% de vida
+Perde 8% da vida: +$300 vendendo o mel
+Pierdes 8% de vida: +$300 vendiendo la miel
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: cofre con +$300 · 40%: el hielo se rompe, pierdes 15% de vida
++40 de escudo até o fim do andar (absorve vazamentos)
++40 de escudo hasta el final del piso (absorbe fugas)
+50%: uma relíquia · 50%: perde $200 na areia
+50%: una reliquia · 50%: pierdes $200 en la arena
+Trocar mapas
+Intercambiar mapas
++$100 e +1 troca de cartas grátis neste andar
++$100 y +1 cambio de cartas gratis en este piso
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+Un buff ÉPICO de daño en una torre al azar · 30%: te quemas la mano, pierdes 10% de vida
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: se vuelve una torre ÉPICA (4 mejoras) · 70%: era solo una rana
+O CHEFE DO ANDAR CHEGOU!
+¡LLEGÓ EL JEFE DEL PISO!
+Mini chefe: {0}!
+¡Minijefe: {0}!
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+¡Era un MÍMICO! Vence al cofre y llévate el oro doble
+Onda perfeita x{0}: +${1}
+Oleada perfecta x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} EVOLUCIONÓ: {1}
+O chefe escapou! Sem a recompensa dele.
+¡El jefe escapó! Sin su recompensa.
+O chefe escapou!
+¡El jefe escapó!
+Sem a recompensa dele.
+Sin su recompensa.
+Revive usado! A onda recomeça.
+¡Revive usado! La oleada vuelve a empezar.
+Maldição quebrada: {0} (o bônus fica)
+Maldición rota: {0} (conservas el bono)
+Escolha a torre inicial
+Elige la torre inicial
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+Llega gratis, con 2 mejoras al azar. Conservas el oro inicial para comprar más.
+Escolha uma melhoria
+Elige una mejora
+Depois toque na torre que vai receber.
+Luego toca la torre que la recibirá.
+Escolha uma torre grátis
+Elige una torre gratis
+Chefe derrotado! Escolha uma relíquia de chefe
+¡Jefe derrotado! Elige una reliquia de jefe
+Depois ainda ganha {0} com {1} upagens.
+Después también recibes {0} con {1} mejoras.
+Elite vencido!
+¡Élite derrotada!
++${0} de ouro. Escolha uma carta rara:
++${0} de oro. Elige una carta rara:
+Lua de Sangue: +${0}
+Luna de Sangre: +${0}
+Mini chefe derrotado!
+¡Minijefe derrotado!
+Escolha uma relíquia
+Elige una reliquia
+Relíquias valem a run toda.
+Las reliquias valen toda la partida.
+Loja do Coelho
+Tienda del Conejo
+Melhorias e relíquias, pagas com o ouro da run.
+Mejoras y reliquias, pagadas con el oro de la partida.
+Dinheiro
+Dinero
+Pegar agora ou investir?
+¿Tomarlo ahora o invertirlo?
+Escolha UMA.
+Elige UNA.
+DESAFIO: {0} de 3 estrelas
+DESAFÍO: {0} de 3 estrellas
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+Ganar: sí  ·  Sin fugas: {0}  ·  En menos de {1}s: {2}  ·  +${3}
+sim
+sí
+não
+no
+MÍMICO DERROTADO
+MÍMICO DERROTADO
+O baú-monstro deixou cair +${0}
+El cofre monstruo soltó +${0}
+Ganhou {0}! Toque no campo para posicionar.
+¡Ganaste {0}! Toca el campo para posicionar.
+O investimento rendeu: +${0}
+La inversión rindió: +${0}
+Bolsa Furada: -${0} no fim do andar
+Bolsa Agujereada: -${0} al final del piso
+ANDAR {0}!
+¡PISO {0}!
+Entrega {0} (vale ~${1})
+Entrega {0} (vale ~${1})
+Escolha a árvore da upagem grátis.
+Elige el árbol de la mejora gratis.
+Já são {0} relíquias neste andar: {1} virou +${2}
+Ya son {0} reliquias en este piso: {1} se convirtió en +${2}
+Relíquia nova: {0}
+Nueva reliquia: {0}
+-$250. Amuleto: {0}
+-$250. Amuleto: {0}
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}. ¡Ganaste {1} con 4 mejoras! Toca el campo para posicionar.
+Era um tesouro! Relíquia: {0}
+¡Era un tesoro! Reliquia: {0}
+-{0} de vida.
+-{0} de vida.
+-{0} de vida máxima. Relíquia: {1}
+-{0} de vida máxima. Reliquia: {1}
+-$250. Relíquia: {0}
+-$250. Reliquia: {0}
+As frutinhas renderam +$180 no mercado.
+Las bayitas rindieron +$180 en el mercado.
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}. En la carga: ¡{1} con 2 mejoras! Toca el campo para posicionar.
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+¡Las avispas se volvieron aliadas! Todas las torres +10% de cadencia por el resto de la partida.
+-$150. O ovo chocou uma relíquia: {0}
+-$150. El huevo eclosionó una reliquia: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150. Era solo un huevo para el desayuno: +{0} de vida.
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+¡Picaduras! -{0} de vida, pero la miel rindió +$300.
+-$200. +40 de escudo até o fim do andar.
+-$200. +40 de escudo hasta el final del piso.
+Era real! Relíquia: {0}
+¡Era real! Reliquia: {0}
++$100 e +1 troca de cartas grátis neste andar.
++$100 y +1 cambio de cartas gratis en este piso.
+-{0} de vida máxima.
+-{0} de vida máxima.
+A mão queimou: -{0} de vida.
+Te quemaste la mano: -{0} de vida.
+A maldição de {0} sumiu!
+¡La maldición de {0} desapareció!
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+¡La rana se convirtió en {0} con 4 mejoras! Toca el campo para posicionar.
+{0} foi entregue ao altar. Relíquia: {1}
+{0} fue entregado al altar. Reliquia: {1}
+Não havia torre para receber.
+No había torre para recibirlo.
+{0} ganhou {1} (Épico)
+{0} ganó {1} (Épico)
+Modo Rogue
+Modo Rogue
+Como funciona
+Cómo funciona
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+Elige tu camino en un mapa de 3 pisos: cada parada es una oleada o un encuentro.
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+Gana para conseguir mejoras, torres gratis y reliquias que valen toda la partida.
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+Las élites y los minijefes son más fuertes, pero pagan mejor. Un jefe cierra cada piso.
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+El oro, la vida y las torres pasan de un camino al siguiente. Si te quedas sin vida, la partida termina.
+No fim você ganha cristais e XP: quanto mais longe, mais.
+Al final ganas cristales y XP: cuanto más lejos llegues, más ganas.
+Melhor: andar {0}
+Mejor: piso {0}
+Runs: {0}
+Partidas: {0}
+Andar {0}
+Piso {0}
+{0} relíquias
+{0} reliquias
+Continuar run
+Continuar partida
+Nova run
+Nueva partida
+Mapa: {0}
+Mapa: {0}
+Começar run
+Empezar partida
+Começar outra run?
+¿Empezar otra partida?
+A run salva acaba aqui, sem recompensa.
+La partida guardada termina aquí, sin recompensa.
+Sim, nova run
+Sí, nueva partida
+Torre grátis: toque no campo para posicionar {0}
+Torre gratis: toca el campo para colocar {0}
+Sair (a run fica salva)
+Salir (la partida queda guardada)
++{0} escudo
++{0} de escudo
+Sem melhorias ainda
+Aún sin mejoras
+{0} melhorias nas torres
+{0} mejoras en las torres
+{0} ondas perfeitas
+{0} oleadas perfectas
+{0} revive
+{0}x revive
+Toque no Início (o caminho que brilha) para começar
+Toca Inicio (el camino que brilla) para empezar
+Nenhuma relíquia ainda
+Aún no hay reliquias
+Chefe do andar
+Jefe del piso
+Onda {0} com inimigos +40% de vida
+Oleada {0} con enemigos +40% de vida
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+Recompensa: oro x1,5 y 1 de 3 cartas raras
+Recompensa: melhoria rara, torre rara ou tesouro
+Recompensa: mejora rara, torre rara o tesoro
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+Un vehículo gigante y lento. Si escapa, la partida termina.
+É o chefe final: vença e a run está ganha!
+Es el jefe final: ¡véncelo y la partida es tuya!
+Fecha o andar.
+Cierra el piso.
+Recompensa: relíquia de chefe e uma torre
+Recompensa: reliquia de jefe y una torre
+Ir por aqui
+Ir por aquí
+Trocar estoque ${0}
+Reponer ${0}
+Trocar (grátis)
+Cambiar (gratis)
+Trocar ${0}
+Cambiar ${0}
+Sair da loja
+Salir de la tienda
+de Chefe
+de Jefe
+Amaldiçoada
+Maldita
+Comprado
+Comprado
+para: {0}
+para: {0}
+Sem upagens. Chega de graça.
+Sin mejoras. Llega gratis.
+Chega de graça com {0} upagens sorteadas.
+Llega gratis con {0} mejoras al azar.
+Mais uma torre {0} sem upagens, por metade do preço.
+Otra torre {0} sin mejoras, a mitad de precio.
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: 1 mejora gratis en el árbol que elijas
+Herói +2 níveis
+Héroe +2 niveles
+Nível {0} para {1}
+Nivel {0} a {1}
+Escolha a torre
+Elige la torre
+{0} melhorias
+{0} mejoras
+Nenhuma torre no campo pode receber esta melhoria.
+Ninguna torre en el campo puede recibir esta mejora.
+Andar {0} de {1}
+Piso {0} de {1}
+RUN VENCIDA!
+¡PARTIDA GANADA!
+FIM DA RUN
+FIN DE LA PARTIDA
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+Piso {0}  ·  {1} caminos  ·  {2} jefes  ·  {3} élites
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0} reliquias  ·  oleada {1}  ·  {2} bajas
+Diárias
+Diarias
+Relíquias  {0}/{1}
+Reliquias  {0}/{1}
+Relíquia liberada: {0}
+Reliquia desbloqueada: {0}
+Jogar {0} corridas no Rogue
+Juega {0} partidas en Rogue
+Vencer {0} corridas no Rogue
+Gana {0} partidas en Rogue
+Derrotar {0} chefes no Rogue
+Derrota a {0} jefes en Rogue
+Vencer {0} elites no Rogue
+Vence a {0} élites en Rogue
+Chegar ao andar {0} no Rogue
+Llega al piso {0} en Rogue
+Vencer {0} partidas
+Gana {0} partidas
+Baú diário
+Cofre diario
+Volte amanhã para continuar a sequência!
+¡Vuelve mañana para mantener la racha!
+Pronto para abrir!
+¡Listo para abrir!
+Resgate as 3 missões de hoje para abrir.
+Reclama las 3 misiones de hoy para abrirlo.
+Sequência: 1 dia
+Racha: 1 día
+Sequência: {0} dias
+Racha: {0} días
+Novas missões em {0}
+Nuevas misiones en {0}
+Desafio do Dia
+Desafío del Día
+Desafio do Dia concluído!
+¡Desafío del Día completado!
+Concluído hoje!
+¡Completado hoy!
+Vença para ganhar +{0} cristais
+Gana para obtener +{0} cristales
+Recorde de hoje: onda {0}
+Récord de hoy: oleada {0}
+Novo desafio em {0}
+Nuevo desafío en {0}
++$40 a cada onda vencida
++$40 por cada oleada ganada
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+Torre inicial con 3 mejoras al azar. Las demás torres salen de las cartas del mapa y de la Tienda.
+O aluguel acabou: {0} foi embora
+Se acabó el alquiler: {0} se fue
+Toque no campo para posicionar: {0}
+Toca el campo para posicionar: {0}
+Treino +{0}% de dano
+Entrenamiento +{0}% de daño
+Torres vêm das cartas do mapa.
+Las torres salen de las cartas del mapa.
+Upar e vender: só na Loja.
+Mejorar y vender: solo en la Tienda.
+alugada: {0} caminhos
+alquilada: {0} caminos
+Treino {0}: +{1}% de dano
+Entrenamiento {0}: +{1}% de daño
+Toque numa torre do painel para upar ou vender
+Toca una torre del panel para mejorarla o venderla
+Estoque esgotado
+Agotado
+{0} upagens sorteadas
+{0} mejoras al azar
+Alugada: não vende
+Alquilada: no se vende
+Upar e vender: só na Loja
+Mejorar y vender: solo en la Tienda
+Mercador
+Mercader
+Mercador Sombrio: cartas épicas e relíquias à venda
+Mercader Sombrío: cartas épicas y reliquias a la venta
+Inimigos dourados que pagam muito e não tiram vida
+Enemigos dorados que pagan mucho y no quitan vida
+Funda uma torre ESTRELA
+Fusiona una torre ESTRELLA
+primárias
+primarias
+militares
+militares
+mágicas
+mágicas
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+enemigos +20% de vida, pero el jefe deja un tesoro extra
+Chame 3 ondas mais cedo neste andar
+Llama 3 oleadas antes de tiempo en este piso
+Divide
+Divisor
+O REI DAS BOMBAS CHEGOU!
+¡LLEGÓ EL REY DE LAS BOMBAS!
+{0} chegou!
+¡{0} llegó!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+¡Ruta secreta! El Mercader Sombrío estaba escondido aquí
+Mistério revelado: {0}
+Misterio revelado: {0}
+(recompensa reforçada!)
+(¡recompensa reforzada!)
+{0} vencida: +${1}
+Clima superado ({0}): +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+Erupción: el jefe dejó un tesoro de +${0}
+Pegar agora, investir ou girar a roleta?
+¿Tomar ahora, invertir o girar la ruleta?
+HORDA DE OURO
+HORDA DE ORO
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+Cartas épicas y reliquias raras, pagadas con el oro de la partida.
+EVENTO DO ANDAR: {0}: {1}
+EVENTO DEL PISO: {0}: {1}
+Andar {0}: {1}: {2}
+Piso {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+Elige el camino en un mapa de pisos: cada parada es una oleada o un encuentro.
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+Mejoras, torres, reliquias, contrato y el Poder de la Partida valen toda la partida.
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+El Rey de las Bombas espera en el piso 10; después de él, la partida sigue en modo infinito.
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+Sin vida, la partida termina. Al final ganas cristales y XP: cuanto más lejos llegues, más.
+LADRÃO DE RELÍQUIA
+LADRÓN DE RELIQUIAS
+REI DAS BOMBAS
+REY DE LAS BOMBAS
+FASE {0}/3
+FASE {0}/3
+fraco a {0}
+débil a {0}
+resiste a {0}
+resiste a {0}
+Recompensa: torre rara ou tesouro
+Recompensa: torre rara o tesoro
+Banir: {0} restantes nesta run
+Prohibir: quedan {0} en esta partida
+Transplante ${0}
+Trasplante ${0}
+Vender
+Vender
+Fundir
+Fusionar
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+Base ${0}: puede salir x0, x0,5, x1, x1,5, x2, x3, x5 (rarísimo), mejora gratis o reliquia
+Prêmio: ${0}
+Premio: ${0}
+TROCA o seu {0} (só dá para levar 1)
+REEMPLAZA tu {0} (solo puedes llevar 1)
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +50% de daño, brillo dorado y {1}
+ok
+ok
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+¡SAQUEADOR! Si escapa, se lleva el 10% de tu oro
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+¡LADRÓN DE RELIQUIAS! Si escapa, roba una reliquia
+O saqueador fugiu com ${0}!
+¡El saqueador huyó con ${0}!
+O ladrão fugiu com {0}!
+¡El ladrón huyó con {0}!
+Saqueador derrubado: +${0}
+Saqueador derribado: +${0}
+Ladrão derrubado! +${0}
+¡Ladrón derribado! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+¡Los humanos montaron una ANTENA! Tócala 5 veces para destruirla
+Antena destruída! +${0}
+¡Antena destruida! +${0}
+{0} CARREGADO! Toque no botão.
+¡{0} CARGADO! Toca el botón.
+Chuva de Ouro: +${0}
+Lluvia de Oro: +${0}
+Fonte da Vida: +{0} de vida
+Fuente de la Vida: +{0} de vida
+Contrato: {0}
+Contrato: {0}
+Contrato {0} não cumprido
+Contrato {0} no cumplido
+Contrato cumprido! +${0}
+¡Contrato cumplido! +${0}
+x0: azar! Não ganhou nada
+x0: ¡mala suerte! No ganaste nada
+JACKPOT! 
+¡JACKPOT! 
+Upagem grátis!
+¡Mejora gratis!
+RELÍQUIA! {0}
+¡RELIQUIA! {0}
+Talento do herói
+Talento del héroe
+Nível {0}: escolha um talento.
+Nivel {0}: elige un talento.
+{0} banido nesta run (restam {1})
+{0} prohibido en esta partida (quedan {1})
+Dupla ativa: {0}
+Dúo activo: {0}
+O herói aprendeu {0}
+El héroe aprendió {0}
+Fusão! {0} virou torre ESTRELA
+¡Fusión! {0} se convirtió en torre ESTRELLA
+{0} virou LENDÁRIA!
+¡{0} se volvió LEGENDARIA!
+Poder trocado: {0}
+Poder cambiado: {0}
+{0} buffs foram para {1} (-${2})
+{0} buffs pasaron a {1} (-${2})
+Entregou {0}
+Entregaste {0}
+Borda {0} liberada!
+¡Borde {0} desbloqueado!
+Conquista: {0}
+Logro: {0}
+Diária
+Diaria
+Ameaça {0}
+Amenaza {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+Mismo mapa para todos hoy; 2 amenazas sorteadas del día
+Regra da semana: {0}
+Regla de la semana: {0}
+Código
+Código
++{0}% de cristais no fim da run
++{0}% de cristales al final de la partida
+Ameaça libera ao chegar no andar {0}
+La Amenaza se desbloquea al llegar al piso {0}
+Código da run
+Código de la partida
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+El mismo código genera los mismos pisos. Déjalo vacío para un mapa nuevo.
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+Amenaza {0}  ·  +{1}% de cristales al final de la partida
+Pronto
+Listo
+Descobertos: {0}/{1}
+Descubiertos: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+Aún no encontrado. Sigue jugando para descubrirlo.
+Conquistas {0}/{1}
+Logros {0}/{1}
+Suas melhores runs neste quadro (neste aparelho)
+Tus mejores partidas en esta tabla (en este dispositivo)
+Ninguém ainda: termine uma run para entrar aqui!
+Nadie todavía: ¡termina una partida para aparecer aquí!
+andar {0} · {1} caminhos
+piso {0} · {1} caminos
+Últimas runs
+Últimas partidas
+SORTEANDO A SUA RUN
+SORTEANDO TU PARTIDA
+Boa sorte! Toque para começar
+¡Buena suerte! Toca para empezar
+Toque para pular
+Toca para saltar
+ROLETA DO TESOURO
+RULETA DEL TESORO
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  Toca la reliquia que vas a ENTREGAR
+2/2  Escolha a relíquia nova
+2/2  Elige la reliquia nueva
+Transplante
+Trasplante
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  Toca la torre que va a RECIBIR los {0} buffs  ·  ${1}
+{0} buffs
+{0} buffs
+Você derrotou o Rei das Bombas!
+¡Derrotaste al Rey de las Bombas!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+Continúa en modo infinito (los pisos son cada vez más difíciles) o termina y recibe la recompensa.
+Encerrar
+Terminar
+carregando {0}% (derrote inimigos ou aguarde na onda)
+cargando {0}% (derrota enemigos o espera en la oleada)
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+Las mejoras, torres, reliquias y el Poder de la Partida duran toda la partida.
+Melhor: andar {0} · {1}/15
+Mejor: piso {0} · {1}/15
+Andar {0} · caminho {1}/15
+Piso {0} · camino {1}/15
+(em andamento)
+(en curso)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+Aún vacío: supera el primer camino de una partida para aparecer aquí.
+Nenhuma run registrada ainda.
+Aún no hay partidas registradas.
+Tempestade de Raios
+Tormenta de Rayos
+Terremoto
+Terremoto
+Chuva de Flechas
+Lluvia de Flechas
+Chamado da Matilha
+Llamado de la Manada
+Armadilha de Mel
+Trampa de Miel
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+Un rayo salta de enemigo en enemigo (hasta 12) con mucho daño a cada uno
+Congela todos os inimigos da tela (até blindados) por 3s
+Congela a todos los enemigos en pantalla (incluso blindados) por 3s
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+Aturde a los enemigos terrestres por 2s y los daña a todos
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+Una lluvia de flechas cae sobre el grupo más grande por 4s
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+Lobos espirituales recorren el camino al revés mordiendo a los enemigos
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+Un charco de miel en el grupo más grande: enemigos 65% más lentos y perdiendo vida por 6s
+Você tem {0}/{1}
+Tienes {0}/{1}
+Só o que você tem aparece nas runs
+Solo lo que tienes aparece en las partidas
+Você tem
+Lo tienes
+Novo no Arsenal: {0}
+Nuevo en el Arsenal: {0}
+Fazer {0} melhorias em torres
+Haz {0} mejoras en torres
+Colocar {0} torres no campo
+Coloca {0} torres en el campo
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+Solo Mágicas
+Só torres mágicas na run
+Solo torres mágicas en la partida
+Tudo Camuflado
+Todo Camuflado
+Todos os inimigos vêm camuflados
+Todos los enemigos llegan camuflados
+Sem Loja
+Sin Tienda
+As lojas do mapa viram melhorias
+Las tiendas del mapa se vuelven mejoras
+Menos vida e fogueira fraca
+Menos vida y fogata débil
+Correria
+A Toda Prisa
+Inimigos apressados e loja cara
+Enemigos apurados y tienda cara
+Ouro Escasso
+Oro Escaso
+Recompensas menores e loja cara
+Recompensas menores y tienda cara
+Chefões Fortes
+Jefes Fuertes
+Chefes e inimigos mais resistentes
+Jefes y enemigos más resistentes
+Relíquias Malditas
+Reliquias Malditas
+Começa com 2 relíquias amaldiçoadas
+Empiezas con 2 reliquias malditas
+Só Épicas
+Solo Épicas
+Toda carta é épica, mas a loja custa o dobro
+Todas las cartas son épicas, pero la tienda cuesta el doble
+Metade da Vida
+Media Vida
+Metade da vida e chefes furiosos
+Media vida y jefes furiosos
+Furacão
+Huracán
+Tudo corre muito mais rápido
+Todo va mucho más rápido
+Noite Eterna
+Noche Eterna
+Inimigos camuflados e robustos
+Enemigos camuflados y robustos
+Feitiçaria
+Hechicería
+Só mágicas e loja inflacionada
+Solo mágicas y tienda inflada
+Deserto Sem Fim
+Desierto Sin Fin
+Sem loja, pouco ouro e fogueira fria
+Sin tienda, poco oro y fogata fría
+Maldição Antiga
+Maldición Antigua
+3 relíquias malditas e inimigos robustos
+3 reliquias malditas y enemigos robustos
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+Jugar desafío
+Semanal
+Semanal
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+Desafío de hoy: {0}  ·  detalles en la tarjeta de al lado
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+Desafío de la semana: {0}  ·  detalles en la tarjeta de al lado
+Desafio Semanal
+Desafío Semanal
+Desafio Diário
+Desafío Diario
+Nova semana em {0}d {1}h
+Nueva semana en {0}d {1}h
+Novo em {0}
+Nuevo en {0}
+Começa com {0} relíquias amaldiçoadas
+Empiezas con {0} reliquias malditas
+Prêmio: +{0}% de cristais no fim da run
+Premio: +{0}% de cristales al final de la partida
+Ainda não jogado nesta semana
+Aún no jugado esta semana
+Ainda não jogado hoje
+Aún no jugado hoy
+Seu melhor na semana: Andar {0} · caminho {1}/15
+Tu mejor de la semana: Piso {0} · camino {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+Tu mejor de hoy: Piso {0} · camino {1}/15
+Vencer 1 partida
+Gana 1 partida
+Derrotar {0} tanques
+Derrota {0} tanques
+Derrotar {0} inimigos de cerâmica
+Derrota {0} enemigos de cerámica
+Um mapa diferente a cada andar
+Un mapa distinto en cada piso
+Presente: ouro para a melhoria!
+Regalo: ¡oro para la mejora!
+PULAR TUTORIAL
+SALTAR TUTORIAL
+Escolha a Raposa
+Elige al Zorro
+Toque aqui, perto do caminho
+Toca aquí, cerca del camino
+Solte a onda!
+¡Lanza la oleada!
+A torre ataca sozinha!
+¡La torre ataca sola!
+Toque perto do caminho
+Toca cerca del camino
+Ganhou ouro! Coloque outra torre
+¡Ganaste oro! Coloca otra torre
+Toque na sua torre
+Toca tu torre
+Compre uma melhoria
+Compra una mejora
+Mais rápido: toque no x1
+Más rápido: toca x1
+Vença as {0} ondas!
+¡Gana {0} oleadas!
+Seu HERÓI: coloque no campo
+Tu HÉROE: colócalo en el campo
+Escolha quem a torre ataca
+Elige a quién ataca la torre
+AUTO: as ondas seguem sozinhas
+AUTO: las oleadas siguen solas
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+¡CAMUFLADO! Solo las torres con "Ve camuflados" lo detectan
+Vida caindo! Coloque mais torres
+¡Pierdes vidas! Coloca más torres
+Dica
+Consejo
+Prêmios das missões ficam aqui
+Los premios de las misiones están aquí
+Toque no prêmio verde para receber. Depois, Voltar
+Toca el premio verde para recibirlo. Luego, Volver
+Hora de jogar!
+¡A jugar!
+Escolha a dificuldade
+Elige la dificultad
+Agora é só jogar!
+¡Ahora solo juega!
+Bem-vindo!
+¡Bienvenido!
+Você já sabe jogar! Aqui está um presente para começar:
+¡Ya sabes jugar! Aquí tienes un regalo para empezar:
+Receber
+Recibir
+Pular o tutorial?
+¿Saltar el tutorial?
+Dá para refazer depois no botão ? do menu.
+Puedes repetirlo luego con el botón ? del menú.
+Refazer o tutorial?
+¿Repetir el tutorial?
+Refazer
+Repetir
+Muito bem! Você já sabe jogar.
+¡Muy bien! Ya sabes jugar.
+Aqui está um presente para começar:
+Aquí tienes un regalo para empezar:
+Ganhou ouro! Arraste uma torre até o campo
+¡Ganaste oro! Arrastra una torre al campo
+Arraste a torre até o lugar marcado
+Arrastra la torre al lugar marcado
+Toque para receber o prêmio!
+¡Toca para recibir el premio!
+Agora, volte ao menu
+Ahora, vuelve al menú
+Blindado: não
+Blindado: no
+Blindado: sim
+Blindado: sí
+CERÂMICA! Bem resistente: explosão faz pouco dano
+¡CERÁMICA! Muy resistente: las explosiones hacen poco daño
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+¡CURANDERO! Cura a los cercanos: derríbalo primero
+Camuflado: não
+Camuflado: no
+Camuflado: sim
+Camuflado: sí
+Carregando
+Cargando
+Enviar 1
+Enviar 1
+Enviar 10
+Enviar 10
+Escolha a onda e mande qualquer inimigo
+Elige la oleada y envía cualquier enemigo
+Idioma
+Idioma
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+¡Inmune a EXPLOSIONES! Usa flechas, espadas o magia
+Imune a GELO e a EXPLOSÕES!
+¡Inmune al HIELO y a las EXPLOSIONES!
+Imune a GELO! Não fica mais lento
+¡Inmune al HIELO! No se ralentiza
+Imune a MAGIA! A magia não machuca este
+¡Inmune a la MAGIA! La magia no lo daña
+METAL! Só fogo, raio ou explosão machucam
+¡METAL! Solo el fuego, el rayo o las explosiones lo dañan
+Melhore a torre: {0}/{1}
+Mejora la torre: {0}/{1}
+Não dá cristais, XP nem missões
+No da cristales, XP ni misiones
+Onda {0}
+Oleada {0}
+Opções
+Opciones
+Ouro e vida infinitos
+Oro y vidas infinitos
+PROTEGIDO! Só MAGIA faz dano cheio
+¡PROTEGIDO! Solo la MAGIA hace daño completo
+REGENERA! Acabe com ele rápido
+¡SE REGENERA! Acaba con él rápido
+SANDBOX  (abrir)
+SANDBOX  (abrir)
+SANDBOX  (fechar)
+SANDBOX  (cerrar)
+Sandbox
+Sandbox
+Sandbox: ouro e vida infinitos
+Sandbox: oro y vidas infinitos
+Som
+Sonido
+Todos os animais liberados
+Todos los animales desbloqueados
+Toque na torre para continuar
+Toca la torre para continuar
+Toque nesta torre
+Toca esta torre
+Treine à vontade!
+¡Entrena a tu gusto!
+VEÍCULO! Muita vida: junte dano forte
+¡VEHÍCULO! Mucha vida: junta daño fuerte
+Tela cheia
+Pantalla completa
+Sair da tela cheia
+Salir de pantalla completa
+Gire o celular para continuar
+Gira el móvil para continuar
+No iPhone o Safari não deixa a página ficar em tela cheia.
+En el iPhone, Safari no permite que la página esté en pantalla completa.
+Para jogar sem as barras do navegador:
+Para jugar sin las barras del navegador:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. Toca Compartir (el cuadrado con la flecha hacia arriba)
+2. Escolha "Adicionar à Tela de Início"
+2. Elige "Añadir a pantalla de inicio"
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. Abre el juego desde el nuevo icono: se abre en pantalla completa
+Entendi
+Entendido
+Jogo
+Juego
+Refazer tutorial
+Repetir tutorial
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+Cumple la misión de la skin para poder comprarla. Aparece en tus partidas.
+Bônus
+Bonus
+Dica: use dois dedos (pinça) para dar zoom no mapa
+Consejo: usa dos dedos (pellizco) para hacer zoom en el mapa
+Conquistas
+Logros
+Automática
+Automática
+Vila
+Aldea
+Santuário
+Santuario
+Floresta
+Bosque
+Histórico
+Historial
+{0} chefes  ·  {1} elites
+{0} jefes  ·  {1} élites
+{0} abates  ·  {1} torres
+{0} bajas  ·  {1} torres
+Escudo -{0}
+Escudo -{0}
+Dourado: sem dano
+Dorado: sin daño
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+¡XP duplicada!
+Aventura
+Aventura
+Feira
+Feria

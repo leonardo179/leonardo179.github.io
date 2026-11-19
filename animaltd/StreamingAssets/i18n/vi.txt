@@ -1,0 +1,3300 @@
+ (+{0} da Vila)
+ (+{0} từ Làng)
+ (+{0}% da Vila)
+ (+{0}% từ Làng)
+ (Modo Livre)
+ (Chế độ Tự do)
+ (até blindados)
+ (kể cả bọc giáp)
+ DEUS
+ THẦN
+ alvos
+ mục tiêu
+ alvos  Vê camuflado
+ mục tiêu  Thấy tàng hình
+ camada
+ lớp
+ ou acima
+ trở lên
+ perfura
+ xuyên
+ • vê camuflado
+ • thấy tàng hình
+(medalha {0} só do {1} para cima)
+(huy chương {0} chỉ từ {1} trở lên)
++{0} alvo
++{0} mục tiêu
++{0} alvo{1}
++{0} mục tiêu{1}
++{0} cristais
++{0} pha lê
++{0} dano
++{0} sát thương
++{0} dano fixo vs Cerâmica/Metal
++{0} sát thương cố định vs Gốm/Kim loại
++{0} dano fixo vs blindados
++{0} sát thương cố định vs bọc giáp
++{0} dano vs Cerâmica/Metal
++{0} sát thương vs Gốm/Kim loại
++{0} dano vs blindados
++{0} sát thương vs bọc giáp
++{0} perfura
++{0} xuyên
++{0} perfura (qualquer torre)
++{0} xuyên (mọi tháp)
++{0} perfura (raio)
++{0} xuyên (vùng)
++{0} perfura total (qualquer torre no raio)
++{0} tổng xuyên (mọi tháp trong vùng)
++{0} perfura total (torres no raio)
++{0} tổng xuyên (tháp trong vùng)
++{0} projétil{1}
++{0} đạn{1}
++{0} salto{1}
++{0} lần nảy{1}
++{0} salto{1} do projétil
++{0} lần nảy{1} của đạn
++{0} sentinela{1}
++{0} lính gác{1}
++{0}% alcance (raio)
++{0}% tầm bắn (vùng)
++{0}% alcance total (torres no raio)
++{0}% tổng tầm bắn (tháp trong vùng)
++{0}% crítico
++{0}% chí mạng
++{0}% dano (raio)
++{0}% sát thương (vùng)
++{0}% dano p/ aliados no raio
++{0}% sát thương cho đồng minh trong vùng
++{0}% dano total p/ aliados no raio
++{0}% tổng sát thương cho đồng minh trong vùng
++{0}% de ouro por camada, só dentro do alcance
++{0}% vàng mỗi lớp, chỉ trong tầm bắn
++{0}% juros
++{0}% lãi
++{0}% juros dos Coelhos (raio)
++{0}% lãi của Thỏ (vùng)
++{0}% ouro por camada dos alvos que ela abater (Vila)
++{0}% vàng mỗi lớp từ mục tiêu nó hạ gục (Làng)
++{0}% produção dos Coelhos (raio)
++{0}% sản lượng của Thỏ (vùng)
++{0}% veloc. ataque p/ aliados no raio
++{0}% tốc đánh cho đồng minh trong vùng
++{0}% veloc. de ataque total p/ aliados no raio
++{0}% tổng tốc đánh cho đồng minh trong vùng
++{0}% veloc. projétil (raio)
++{0}% tốc độ đạn (vùng)
++{0}s de duração (lentidão/congelamento)
++{0}s thời gian (làm chậm/đóng băng)
+1ª upagem (T1) de cada árvore sai GRÁTIS (torres no raio)
+Nâng cấp đầu tiên (T1) của mỗi nhánh MIỄN PHÍ (tháp trong vùng)
+1ª upagem grátis (raio)
+Nâng cấp đầu miễn phí (vùng)
+Abates {0}
+Hạ gục {0}
+Alcance de invocação (coleira): {0}
+Tầm triệu hồi (dây xích): {0}
+Alcance total (todas as torres no raio): +{0}%
+Tổng tầm bắn (mọi tháp trong vùng): +{0}%
+Aleatório
+Ngẫu nhiên
+Alvo: {0}
+Mục tiêu: {0}
+Alvos
+Mục tiêu
+Alvos na área: 
+Mục tiêu trong vùng: 
+Alvos por golpe: {0}
+Mục tiêu mỗi đòn: {0}
+Alvos por onda: 
+Mục tiêu mỗi xung sóng: 
+Amarelo
+Vàng
+Animais
+Động vật
+Animal Tower Defense
+Animal Tower Defense
+Animal liberado: {0}
+Đã mở khóa thú: {0}
+Animal novo na loja!
+Có thú mới trong cửa hàng!
+Anula Defesas
+Phá Phòng Thủ
+Anúncio indisponível — sem recompensa.
+Quảng cáo không khả dụng — không có thưởng.
+Apoio
+Hỗ trợ
+Apoio às Torres
+Hỗ Trợ Tháp
+Arco-íris
+Cầu Vồng
+Arranca Fortificado/Camuflagem/escudo do alvo
+Gỡ Kiên cố/Tàng hình/khiên của mục tiêu
+As 4 medalhas de dificuldade num mesmo mapa
+Cả 4 huy chương độ khó trên cùng một bản đồ
+Astuto
+Tinh Ranh
+Atalho Nevado
+Lối Tắt Tuyết
+Ataque: onda de choque VERMELHA em volta
+Tấn công: sóng xung kích ĐỎ xung quanh
+Ataque: onda de choque em volta
+Tấn công: sóng xung kích xung quanh
+Ataques 
+Tấn công 
+Auto
+Tự động
+Automático
+Tự động
+Avançado
+Nâng cao
+Ave de fogo: leque de penas flamejantes que atravessam e queimam; quem morre queimando explode em cinzas. MERGULHO SOLAR: mergulha na maior multidão e deixa o chão em chamas.
+Chim lửa: tung quạt lông vũ rực lửa xuyên qua và thiêu đốt; kẻ nào chết khi đang cháy sẽ nổ thành tro. BỔ NHÀO MẶT TRỜI: lao vào đám đông lớn nhất và khiến mặt đất bốc cháy.
+Azul
+Xanh dương
+Bloqueia a regeneração (inimigos Regenera) no raio
+Chặn hồi máu (kẻ địch Hồi phục) trong vùng
+Bosque do Retorno
+Rừng Vòng Về
+Brado
+Tiếng Hô Chiến
+Branco
+Trắng
+Brasa
+Than Hồng
+Bravo
+Dũng Mãnh
+Brejo das Curvas
+Đầm Lầy Uốn Lượn
+Bumerangue: fere na IDA e na VOLTA (dano cheio de novo na volta)
+Boomerang: gây sát thương lúc ĐI và lúc VỀ (lại đủ sát thương khi quay về)
+BÁSICO
+CƠ BẢN
+Bênção
+Ban Phước
+Bônus  {0}/{1}
+Thưởng  {0}/{1}
+CONFIRMAR
+XÁC NHẬN
+CONFIRMAR ${0}
+XÁC NHẬN ${0}
+CONGELA BLINDADOS
+ĐÓNG BĂNG BỌC GIÁP
+CRÍTICO!
+CHÍ MẠNG!
+Cadência
+Tốc bắn
+Calibre 12
+Súng Cỡ 12
+Caminhão
+Xe Tải
+Camuflado
+Tàng hình
+Cancelar
+Hủy
+Carga Pesada
+Hàng Nặng
+Carregando o animal... tente de novo em instantes.
+Đang tải thú... thử lại sau giây lát nhé.
+Carregando o herói... tente de novo em instantes.
+Đang tải anh hùng... thử lại sau giây lát nhé.
+Caça
+Tiêm Kích
+Cervo Ancestral
+Hươu Cổ Thần
+Cerâmica
+Gốm
+Chega no nível {0}
+Mở ở cấp {0}
+Chega no nível {0} (você está no nível {1}).
+Mở ở cấp {0} (bạn đang ở cấp {1}).
+Chegar à onda {0} em {1}
+Đạt đợt {0} ở {1}
+Chegar à onda {0} no {1}
+Đạt đợt {0} ở {1}
+Chumbo
+Chì
+Cidadela Congelada
+Thành Trì Băng Giá
+Clareira Sinuosa
+Trảng Cỏ Quanh Co
+Cobra
+Rắn
+Cobra Atiradora
+Rắn Bắn Tỉa
+Coelho
+Thỏ
+Coelho Fazendeiro
+Thỏ Nông Dân
+Colocar
+Đặt
+Completar um mapa (moldura de diamante)
+Hoàn thành một bản đồ (khung kim cương)
+Comprado!
+Đã mua!
+Comprar  {0}
+Mua  {0}
+Comprar nível ${0}
+Mua cấp ${0}
+Compre o animal para usar skins
+Mua con thú này để dùng skin
+Concede visão de camuflado no raio
+Cho khả năng thấy tàng hình trong vùng
+Concluída
+Hoàn thành
+Congela 
+Đóng băng 
+Conquistas  {0}/{1}
+Thành tựu  {0}/{1}
+Conseguir {0} medalhas
+Đạt {0} huy chương
+Continuar
+Tiếp tục
+Continuar jogando
+Chơi tiếp
+Coruja
+Cú
+Coruja Maga
+Cú Pháp Sư
+Cratera Ardente
+Miệng Núi Lửa Rực Cháy
+Cristais dobrados!
+Pha lê nhân đôi!
+Cristais em dobro
+Gấp đôi pha lê
+Cristais x2
+Pha lê x2
+Cristais x2 (+{0})
+Pha lê x2 (+{0})
+Crítico total: {0}% de chance, x{1} dano
+Tổng chí mạng: {0}% tỉ lệ, x{1} sát thương
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+Hoàn thành nhiệm vụ của skin để mua được nó. Diện mạo mới sẽ xuất hiện trong trận ở bản cập nhật tới.
+Curandeiro
+Thầy Thuốc
+Cósmica
+Vũ Trụ
+DERROTA
+THẤT BẠI
+DEUS
+THẦN
+DEUS: 
+THẦN: 
+DIFICULDADE
+ĐỘ KHÓ
+DPS {0}
+DPS {0}
+Dano
+Sát thương
+Dano %.0f  Alc %.0f  %.1f/s
+ST %.0f  Tầm %.0f  %.1f/s
+Dano %.0f  Ataque %.0f  %.1f/s
+ST %.0f  Tấn công %.0f  %.1f/s
+Dano %.1f  %.1f tiros/s
+Sát thương %.1f  %.1f phát/s
+Dano de {0}
+Sát thương {0}
+Dano total vs Cerâmica: x{0}
+Tổng sát thương vs Gốm: x{0}
+Dano {0}
+Sát thương {0}
+Dança das Adagas
+Vũ Điệu Song Dao
+Defesa
+Phòng thủ
+Deixa fogo no chão: {0}/s por {1}s
+Để lại lửa trên mặt đất: {0}/s trong {1}s
+Demolidor
+Kẻ Phá Hủy
+Derrotar {0} {1}
+Đánh bại {0} {1}
+Desconto e Renda
+Giảm Giá & Thu Nhập
+Desfiladeiro Estreito
+Hẻm Núi Hẹp
+Dificuldade bloqueada
+Độ khó bị khóa
+Dificuldade liberada: {0}
+Đã mở độ khó: {0}
+Difícil
+Khó
+Dirigível
+Khí Cầu
+Dirigível Maior
+Khí Cầu Lớn
+Dispara mísseis (área)
+Bắn tên lửa (diện rộng)
+Disponível para comprar!
+Có thể mua!
+Disponível! Compre por {0} cristais em Animais, no menu.
+Đã có! Mua với {0} pha lê trong mục Động vật ở menu.
+Dragão Arcano
+Rồng Bí Thuật
+Duas adagas rápidas, vê camuflado. DANÇA DAS ADAGAS: acelera e derruba a defesa de quem está perto.
+Hai con dao găm nhanh, thấy kẻ địch tàng hình. VŨ ĐIỆU SONG DAO: tăng tốc và giảm phòng thủ của kẻ địch ở gần.
+Dunas em Zigue-Zague
+Đồi Cát Zíc Zắc
+EM ONDA
+ĐANG CÓ ĐỢT
+ESTILHAÇOS ferem imunes a explosão (Preto/Zebra)
+MẢNH VỠ gây sát thương cho kẻ miễn nhiễm nổ (Đen/Ngựa vằn)
+EVOLUÍDO
+TIẾN HÓA
+Eco
+Tiếng Vọng
+Elefante Comandante
+Voi Chỉ Huy
+Elefante Guerreiro
+Voi Chiến Binh
+Em uso
+Đang dùng
+Embalo: até +{0}% de cadência em golpes seguidos
+Đà đánh: tối đa +{0}% tốc bắn khi đánh liên tiếp
+Empurra o alvo pra trás (15% por golpe)
+Đẩy lùi mục tiêu (15% mỗi đòn)
+Empurra o alvo pra trás no caminho
+Đẩy lùi mục tiêu trên đường đi
+Enxame
+Bầy Đàn
+Escadaria de Lava
+Bậc Thang Dung Nham
+Escorpião
+Bọ Cạp
+Escorpião Venenoso
+Bọ Cạp Độc
+Esmagador
+Kẻ Nghiền Nát
+Espadachim de linha de frente. RUGIDO: atordoa e fere tudo em volta (a forma deus pega o mapa inteiro).
+Kiếm sĩ tiền tuyến. GẦM THÉT: làm choáng và gây sát thương mọi thứ xung quanh (dạng THẦN đánh cả bản đồ).
+Espalha armadilhas no chão do caminho, sem mirar inimigo (até {0})
+Rải bẫy trên đường đi, không cần nhắm kẻ địch (tối đa {0})
+Espaço: iniciar onda
+Space: bắt đầu đợt
+Esperto
+Lanh Lợi
+Espinhos
+Gai
+Esquilo
+Sóc
+Esquilo da Toca
+Sóc Hang
+Estilhaço
+Mảnh Vỡ
+Estilhaços ferem imunes a explosão (Preto/Zebra)
+Mảnh vỡ gây sát thương cho kẻ miễn nhiễm nổ (Đen/Ngựa vằn)
+Estouro
+Bùng Nổ
+Expert
+Chuyên Gia
+Explosivo
+Nổ
+Faltam {0} cristais
+Thiếu {0} pha lê
+Fechar
+Đóng
+Feixe
+Tia
+Feroz
+Hung Dữ
+Floresta Sombria
+Rừng Bóng Tối
+Fogo
+Lửa
+Fogo Arcano
+Lửa Bí Thuật
+Fogo total: 
+Tổng lửa: 
+Fora da regra
+Phạm luật
+Forte
+Mạnh Mẽ
+Fragmentação
+Phân Mảnh
+Fura 
+Phá 
+Fácil
+Dễ
+Fênix
+Phượng Hoàng
+Físico
+Vật lý
+GRÁTIS
+MIỄN PHÍ
+Gato
+Mèo
+Gato Samurai
+Mèo Samurai
+Gelo
+Băng
+Gelo Profundo
+Băng Giá Sâu
+Golpe devastador em quem está perto. INVESTIDA: dano enorme e derruba os inimigos.
+Đòn hủy diệt lên kẻ địch ở gần. XUNG PHONG: sát thương cực lớn và quật ngã kẻ địch.
+Gorila
+Khỉ Đột
+Gorila Marteleiro
+Khỉ Đột Búa Tạ
+Grito
+Tiếng Rít
+Guaxinim
+Gấu Mèo
+Guaxinim Druida
+Gấu Mèo Tu Sĩ
+HERÓI
+ANH HÙNG
+Herói.
+Anh hùng.
+Heróis
+Anh hùng
+INVOCA {0}: dano {1}, {2}/s
+TRIỆU HỒI {0}: sát thương {1}, {2}/s
+Ignora TODAS as imunidades de dano (Vila)
+Bỏ qua MỌI miễn nhiễm sát thương (Làng)
+Ignora imunidade a Metal
+Bỏ qua miễn nhiễm Kim loại
+Ilhas Flutuantes
+Quần Đảo Bay
+Imparável
+Không Thể Cản
+Iniciante
+Người mới
+Intermediário
+Trung cấp
+Investida
+Xung Phong
+JOGAR
+CHƠI
+Jacaré
+Cá Sấu
+Jacaré Pistoleiro
+Cá Sấu Xạ Thủ
+Jade
+Ngọc Bích
+Jogar novamente
+Chơi lại
+Jogar {0} partidas
+Chơi {0} trận
+Jogue partidas para ganhar XP
+Chơi để nhận XP
+Juros
+Lãi
+Juros totais: {0}% do seu ouro atual (máx. sobre os primeiros $100.000), por onda{1}
+Tổng lãi: {0}% số vàng hiện có (tối đa trên $100.000 đầu tiên), mỗi đợt{1}
+Já gerou no total: ${0}
+Tổng đã tạo ra: ${0}
+LOBO
+SÓI
+Larga estrepes no caminho ({0} cargas, até {1})
+Rải chông trên đường ({0} lượt, tối đa {1})
+Larga minas no caminho (até {0})
+Rải mìn trên đường (tối đa {0})
+Lentidão total: {0}%
+Tổng làm chậm: {0}%
+Levar {0} árvores ao nível DEUS
+Đưa {0} nhánh lên cấp THẦN
+Leão Rei
+Sư Tử Vương
+Libera espaço para torres
+Giải phóng chỗ đặt tháp
+Liberado! Este animal chega na próxima atualização da versão web.
+Đã mở khóa! Con thú này sẽ có trong bản cập nhật tới của phiên bản web.
+Lobo
+Sói
+Lobo das Adagas
+Sói Song Dao
+Local válido
+Vị trí hợp lệ
+Lâmina Flamejante
+Lưỡi Kiếm Rực Lửa
+Machado de gelo que deixa lento. NEVASCA: congela todo mundo em volta.
+Rìu băng làm chậm. BÃO TUYẾT: đóng băng mọi kẻ địch xung quanh.
+Mago de área que vê camuflado. METEORO: dano pesado e queimadura em área.
+Pháp sư diện rộng, thấy kẻ địch tàng hình. THIÊN THẠCH: sát thương nặng và thiêu đốt diện rộng.
+Mapa bloqueado
+Bản đồ bị khóa
+Mapa liberado: {0}
+Đã mở bản đồ: {0}
+Mapas
+Bản đồ
+Marca inimigos no raio como vulneráveis
+Đánh dấu kẻ địch trong vùng là dễ tổn thương
+Marca o alvo: +{0}% de dano de todas as torres ({1}s)
+Đánh dấu mục tiêu: +{0}% sát thương từ mọi tháp ({1}s)
+Martelo pesado em área. ESTOURO: pisa no chão e atordoa todos em volta.
+Búa nặng diện rộng. BÙNG NỔ: dậm đất và làm choáng mọi kẻ địch xung quanh.
+Medalhas
+Huy chương
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+Huy chương: F Dễ · M Trung bình · D Khó · I Không Thể Cản · P Chỉ Tháp Chính · H Không Anh Hùng (Trung bình+) · ½ Nửa Vàng (Khó+). Khung: đồng (Dễ), bạc (Trung bình), vàng (Khó/Không Thể Cản), kim cương (cả 7).
+Meio Ouro
+Nửa Vàng
+Menu
+Menu
+Mercado
+Chợ
+Mergulho Solar
+Bổ Nhào Mặt Trời
+Mestria: Nível {0}/5
+Thành thạo: Cấp {0}/5
+Meteoro
+Thiên Thạch
+Metralhadora automática
+Súng máy tự động
+Militar
+Quân Sự
+Mina Abandonada
+Mỏ Hoang
+Minas
+Mìn
+Missão concluída!
+Hoàn thành nhiệm vụ!
+Missões
+Nhiệm vụ
+Missões dão cristais extras
+Nhiệm vụ cho thêm pha lê
+Modo Livre
+Chế độ Tự do
+Morcego
+Dơi
+Morcego Sonar
+Dơi Sóng Âm
+Morsa Glacial
+Hải Mã Băng Giá
+Mouse ou toque
+Chuột hoặc chạm
+MÁX
+TỐI ĐA
+MÁXIMO 5/5
+TỐI ĐA 5/5
+Mágica
+Ma Thuật
+Mágico
+Phép
+Médio
+Trung bình
+Mísseis
+Tên lửa
+Música
+Nhạc
+Música: não
+Nhạc: tắt
+Música: sim
+Nhạc: bật
+NOVO
+MỚI
+Na sua coleção
+Trong bộ sưu tập
+Nave
+Phi Thuyền
+Necromante
+Tử Linh Sư
+Nenhuma partida neste mapa ainda.
+Chưa có trận nào trên bản đồ này.
+Nevasca
+Bão Tuyết
+Ninja
+Ninja
+Novo animal disponível!
+Có thú mới!
+Novo: {0} disponível!
+Mới: đã có {0}!
+Nv 
+Cấp 
+Nv 1
+Cấp 1
+Nv 10
+Cấp 10
+Nv 20
+Cấp 20
+NÍVEL MÁXIMO
+CẤP TỐI ĐA
+Nível {0}
+Cấp {0}
+O golpe nasce EM CIMA do alvo (sem trajetória)
+Đòn đánh xuất hiện NGAY TRÊN mục tiêu (không có quỹ đạo)
+O machado VOA até o alvo (trajetória)
+Rìu BAY tới mục tiêu (có quỹ đạo)
+OK
+OK
+ONDA 
+ĐỢT 
+Oficina
+Xưởng
+Oito do Deserto
+Số Tám Sa Mạc
+Os inimigos dão metade do ouro.
+Kẻ địch chỉ rơi một nửa vàng.
+Ouriço
+Nhím
+Ouriço Armadilheiro
+Nhím Đặt Bẫy
+Ouro insuficiente
+Không đủ vàng
+Ouro total: ${0}/onda{1}
+Tổng vàng: ${0}/đợt{1}
+PARA BLINDADOS
+CHẶN BỌC GIÁP
+PRONTO
+SẴN SÀNG
+Padrão
+Mặc định
+Paralisa
+Tê liệt
+Partida normal.
+Trận thường.
+Pausado
+Tạm dừng
+Perfura 
+Xuyên 
+Perfura total: 
+Tổng xuyên: 
+Perfura-camada
+Xuyên Lớp
+Perfura-camada: {0}% do dano passa para o 1º inimigo de dentro
+Xuyên lớp: {0}% sát thương truyền vào kẻ địch đầu tiên bên trong
+Perfurante
+Xuyên phá
+Perto
+Gần
+Pinguim
+Cánh Cụt
+Pinguim Machadeiro
+Cánh Cụt Cầm Rìu
+Poder
+Sức mạnh
+Polvo Abissal
+Bạch Tuộc Vực Thẳm
+Porta-Tanques
+Tàu Chở Xe Tăng
+Praia dos Piratas
+Bãi Biển Hải Tặc
+Precisão
+Chính xác
+Preto
+Đen
+Primeiro
+Đầu tiên
+Primária
+Chính
+Produção
+Sản xuất
+Progresso: {0}/{1} mapas
+Tiến độ: {0}/{1} bản đồ
+Projéteis
+Đạn
+Projéteis por tiro: {0}
+Số đạn mỗi phát: {0}
+Próx. nível: {0}
+Cấp tiếp: {0}
+Próxima missão!
+Nhiệm vụ tiếp theo!
+Próximo animal: {0} no nível {1}
+Thú tiếp theo: {0} ở cấp {1}
+Pântano Nebuloso
+Đầm Lầy Sương Mù
+Pântano em Espiral
+Đầm Lầy Xoắn Ốc
+REGRA ESPECIAL
+LUẬT ĐẶC BIỆT
+Raio
+Sét
+Raio em cadeia: {0} saltos
+Sét chuỗi: {0} lần nảy
+Raio salta 
+Sét nảy 
+Raios
+Tia Sét
+Rajada
+Loạt Bắn
+Raposa
+Cáo
+Raposa Arqueira
+Cáo Cung Thủ
+Recarga Rápida
+Nạp Nhanh
+Recebendo de aliadas: {0}
+Nhận từ đồng minh: {0}
+Recebido
+Đã nhận
+Recordes
+Kỷ lục
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+Kỷ lục trên thiết bị này. Bảng xếp hạng online phụ thuộc vào sự phê duyệt của Poki.
+Rede
+Lưới
+Redemoinho
+Lốc Xoáy
+Regenerativo
+Hồi phục
+Remove Fortificado do alvo atingido
+Gỡ Kiên cố khỏi mục tiêu bị trúng
+Remover a pedra?
+Dọn tảng đá?
+Reposicionar
+Đổi vị trí
+Respingo no impacto: {0} (até 3 inimigos colados no alvo)
+Văng khi va chạm: {0} (tối đa 3 kẻ địch sát mục tiêu)
+Retalhar
+Xé Toạc
+Revela camuflado no MAPA TODO
+Lộ tàng hình trên TOÀN BẢN ĐỒ
+Reviver
+Hồi sinh
+Rifle
+Súng Trường
+Rinoceronte
+Tê Giác
+Rosa
+Hồng
+Roxo
+Tím
+Rugido
+Gầm Thét
+SENTINELA {0}
+LÍNH GÁC {0}
+Sair da partida?
+Rời trận?
+Sair para o menu
+Về menu
+Salamandra
+Kỳ Nhông
+Salto do projétil: {0} ricochetes (-15% dano por salto)
+Nảy đạn: {0} lần dội (-15% sát thương mỗi lần nảy)
+Salvar
+Lưu
+Samurai
+Samurai
+Saque Rápido
+Rút Súng Nhanh
+Selecionado
+Đã chọn
+Selecionar
+Chọn
+Sem Heróis
+Không Anh Hùng
+Sem herói na partida.
+Không có anh hùng trong trận.
+Sentinela {0}
+Lính gác {0}
+Sentinelas
+Lính gác
+Sentinelas: {0} (dano x{1}, 1 tiro a cada {2}s)
+Lính gác: {0} (sát thương x{1}, 1 phát mỗi {2}s)
+Seu apelido
+Biệt danh của bạn
+Skin liberada para compra: {0} {1}
+Skin đã mở để mua: {0} {1}
+Skins
+Skin
+Sombria
+Bóng Tối
+Sons
+Âm thanh
+Sons: não
+Âm thanh: tắt
+Sons: sim
+Âm thanh: bật
+Subiu para o nível {0}!
+Lên cấp {0}!
+Suporte: fortalece as torres perto e vê camuflado. BÊNÇÃO: cura vidas e prende os inimigos com raízes.
+Hỗ trợ: tăng sức mạnh cho tháp ở gần và thấy kẻ địch tàng hình. BAN PHƯỚC: hồi mạng và trói kẻ địch bằng rễ cây.
+Só Primárias
+Chỉ Tháp Chính
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+Chỉ tháp Chính (Cáo, Gấu, Rùa, Đại Bàng, Cánh Cụt, Nhím, Cá Mập).
+Só torres Primárias nesta partida.
+Chỉ dùng tháp Chính trong trận này.
+T-REX
+T-REX
+T-Rex
+T-Rex
+T1+T2 de cada árvore saem GRÁTIS (torres no raio)
+T1+T2 của mỗi nhánh MIỄN PHÍ (tháp trong vùng)
+T1+T2 grátis (raio)
+T1+T2 miễn phí (vùng)
+TD:
+TD:
+TOP JOGADORES
+NGƯỜI CHƠI HÀNG ĐẦU
+TORRES
+THÁP
+TRAVADO
+ĐÃ KHÓA
+Tanque
+Xe Tăng
+Tanque Maior
+Xe Tăng Lớn
+Tartaruga
+Rùa
+Tartaruga de Gelo
+Rùa Băng
+Texugo
+Lửng
+Texugo Engenheiro
+Lửng Kỹ Sư
+Tigre
+Hổ
+Tigre Assassino
+Hổ Sát Thủ
+Tigre Lutador
+Hổ Võ Sĩ
+Tinta Tóxica
+Mực Độc
+Todos os animais disponíveis!
+Đã có đủ mọi con thú!
+Toque na criatura p/ ver dano/ataque/DPS dela
+Chạm vào sinh vật để xem sát thương/tấn công/DPS
+Toque no alcance do Guaxinim
+Chạm vào vùng tầm của Gấu Mèo
+Toque no alcance do Texugo
+Chạm vào vùng tầm của Lửng
+Toque num local válido
+Chạm vào vị trí hợp lệ
+Torre
+Tháp
+Torres no raio ignoram TODAS as imunidades
+Tháp trong vùng bỏ qua MỌI miễn nhiễm
+Touro Minotauro
+Bò Minotaur
+Trilha das Raízes
+Đường Mòn Rễ Cây
+Trono do Caos
+Ngai Hỗn Mang
+Tubarão
+Cá Mập
+Tubarão Lanceiro
+Cá Mập Cầm Giáo
+Tudo vencido!
+Đã thắng tất cả!
+ULT: 
+ULT: 
+Urso
+Gấu
+Urso Espadachim
+Gấu Kiếm Sĩ
+Usar
+Dùng
+Use de 3 a 16 letras/números, sem palavrões.
+Dùng 3 đến 16 chữ cái/số, không nói tục.
+Utilidade
+Tiện ích
+VITÓRIA!
+CHIẾN THẮNG!
+Vale Gelado
+Thung Lũng Băng Giá
+Valente
+Can Đảm
+Velocidade
+Tốc độ
+Velocidade do projétil: {0}% do padrão
+Tốc độ đạn: {0}% so với mặc định
+Veloz
+Nhanh Nhẹn
+Vencer dá a medalha 
+Thắng để nhận huy chương 
+Vencer os 10 mapas
+Thắng cả 10 bản đồ
+Vencer {0} mapas diferentes
+Thắng {0} bản đồ khác nhau
+Vencer {0} no {1}
+Thắng {0} ở {1}
+Vender ${0}
+Bán ${0}
+Vender tudo ${0}
+Bán hết ${0}
+Veneno
+Độc
+Veneno em vários alvos. TINTA TÓXICA: envenena e deixa lento todos em volta.
+Độc lên nhiều mục tiêu. MỰC ĐỘC: đầu độc và làm chậm mọi kẻ địch xung quanh.
+Vença "{0}" para liberar.
+Thắng "{0}" để mở khóa.
+Ver em Animais
+Xem trong Động vật
+Ver skins
+Xem skin
+Verde
+Xanh lá
+Vermelho
+Đỏ
+Você chegou até a onda {0}.
+Bạn đã đạt tới đợt {0}.
+Você venceu {0} no {1}!
+Bạn đã thắng {0} ở {1}!
+Você: nível {0}
+Bạn: cấp {0}
+Voltar
+Quay lại
+Vulcão Rugidor
+Núi Lửa Gầm Thét
+Vê camuflado
+Thấy tàng hình
+XP
+XP
+XP em dobro nesta partida
+XP x2 trong trận này
+XP em dobro nesta partida!
+XP x2 trong trận này!
+XP x2
+XP x2
+XP x2 ativo
+Đang bật XP x2
+Zebra
+Ngựa Vằn
+a onda fica VERMELHA e acerta muito mais alvos
+sóng chuyển ĐỎ và trúng nhiều mục tiêu hơn hẳn
+alc {0}
+tầm {0}
+alvo atingido recebe +{0}% de dano de TODAS as torres
+mục tiêu bị trúng nhận thêm +{0}% sát thương từ MỌI tháp
+apoio da Vila
+hỗ trợ của Làng
+arranca Fortificado, Camuflagem e escudo do alvo
+gỡ Kiên cố, Tàng hình và khiên của mục tiêu
+azul
+xanh dương
+bloqueia regeneração (raio)
+chặn hồi máu (vùng)
+bronze
+đồng
+bumerangue: fere na ida e na volta
+boomerang: gây sát thương lúc đi và lúc về
+camuflados
+kẻ tàng hình
+carregando
+đang tải
+com a regra "{0}"
+với luật "{0}"
+com {0} em campo
+khi có {0} trên sân
+congela {0}%
+đóng băng {0}%
+dano
+sát thương
+dano vira FOGO (estoura Metal)
+sát thương thành LỬA (phá Kim loại)
+dano vira MÁGICO (fere Mágico, não fere Roxo)
+sát thương thành PHÉP (đánh được Phép, không đánh được Tím)
+derrota
+thua
+deus
+thần
+diamante
+kim cương
+dispara MÍSSEIS que explodem
+bắn TÊN LỬA phát nổ
+efeito passa a valer no MAPA TODO
+hiệu ứng áp dụng trên TOÀN BẢN ĐỒ
+embalo: até +{0}% de cadência em golpes seguidos
+đà đánh: tối đa +{0}% tốc bắn khi đánh liên tiếp
+empurra inimigos
+đẩy lùi kẻ địch
+empurra o alvo (15% por golpe)
+đẩy lùi mục tiêu (15% mỗi đòn)
+estrepes com {0} cargas
+chông với {0} lượt
+fogo
+lửa
+fogo no chão
+lửa trên mặt đất
+fogo no chão {0} dano/s
+lửa trên mặt đất {0} sát thương/s
+fura +{0} camada{1}
+phá +{0} lớp{1}
+ganha respingo no impacto
+có thêm văng khi va chạm
+ganha área de impacto
+có thêm vùng va chạm
+ignora imunidade a Metal
+bỏ qua miễn nhiễm Kim loại
+ignora imunidades (raio)
+bỏ qua miễn nhiễm (vùng)
+inimigo
+kẻ địch
+inimigos
+kẻ địch
+inimigos: 
+kẻ địch: 
+larga ESTREPES no caminho
+rải CHÔNG trên đường
+larga MINAS no caminho
+rải MÌN trên đường
+lentidão {0}%
+làm chậm {0}%
+libera {0}
+mở khóa {0}
+lixo
+rác
+marca de vulnerabilidade dura {0}s
+dấu dễ tổn thương kéo dài {0}s
+marca inimigos no alcance (+20% dano recebido)
+đánh dấu kẻ địch trong tầm (+20% sát thương nhận vào)
+o machado passa a VOAR até o alvo
+rìu sẽ BAY tới mục tiêu
+o xamã continua atacando
+thầy pháp vẫn tiếp tục tấn công
+oficina do Texugo
+xưởng của Lửng
+onda
+đợt
+onda {0}
+đợt {0}
+ouro
+vàng
+prata
+bạc
+qualquer mapa
+bất kỳ bản đồ
+queimadura 
+thiêu đốt 
+recorde {0}
+kỷ lục {0}
+remove Fortificado do alvo
+gỡ Kiên cố khỏi mục tiêu
+revela camuflado no MAPA TODO
+lộ tàng hình trên TOÀN BẢN ĐỒ
+sem moldura
+không khung
+sexta
+thứ Sáu
+solta NUVENS DE MORCEGOS em vez da onda
+thả BẦY DƠI thay cho sóng xung kích
+torre
+tháp
+velocidade de ataque
+tốc đánh
+vê camuflado
+thấy tàng hình
+x{0} dano vs Cerâmica
+x{0} sát thương vs Gốm
+{0} ondas
+{0} đợt
+{0} por {1}s
+{0} trong {1}s
+{0} | alc {1}
+{0} | tầm {1}
+{0}% alcance
+{0}% tầm bắn
+{0}% cadência
+{0}% tốc bắn
+{0}% crítico
+{0}% chí mạng
+{0}% dano
+{0}% sát thương
+{0}% de desconto de compra/upagem no raio
+Giảm {0}% giá mua/nâng cấp trong vùng
+{0}% desconto de compra (raio)
+Giảm {0}% giá mua (vùng)
+{0}% empurrão
+{0}% đẩy lùi
+{0}% respingo no impacto
+{0}% văng khi va chạm
+{0}% veloc. projétil
+{0}% tốc độ đạn
+{0}% área de impacto
+{0}% vùng va chạm
+{0}/7 medalhas  -  moldura {1}
+{0}/7 huy chương  -  khung {1}
+{0}/s por {1}s
+{0}/s trong {1}s
+{0}sem efeito extra aqui (já no teto de outra árvore)
+{0}không có hiệu ứng thêm ở đây (đã chạm trần ở nhánh khác)
+ÁGUIA
+ĐẠI BÀNG
+Água
+Nước
+Águia
+Đại Bàng
+Águia Batedora
+Đại Bàng Trinh Sát
+Álbum de medalhas — {0} de {1}
+Bộ sưu tập huy chương — {0}/{1}
+Área de impacto: {0}
+Vùng va chạm: {0}
+ÚNICO
+DUY NHẤT
+Último
+Cuối cùng
+▶ INICIAR ONDA {0}
+▶ BẮT ĐẦU ĐỢT {0}
+Pena da Coruja
+Lông Cú
+Instinto de Matilha
+Bản Năng Bầy Đàn
+Bico Afiado
+Mỏ Sắc
+Couro Grosso
+Da Dày
+Olho de Águia
+Mắt Đại Bàng
+Fúria Selvagem
+Thịnh Nộ Hoang Dã
+Arsenal
+Kho Vũ Khí
+Cofrinho do Castor
+Heo Đất Hải Ly
+Bolsa de Couro
+Túi Da
+Coração de Carvalho
+Trái Tim Sồi
+Ovo de Fênix
+Trứng Phượng Hoàng
+Trevo de Quatro Folhas
+Cỏ Bốn Lá
+Pata de Coelho
+Chân Thỏ May Mắn
+Pacto do Javali
+Khế Ước Lợn Rừng
+Vidro de Canhão
+Đại Bác Thủy Tinh
+Cauda de Lagartixa
+Đuôi Thằn Lằn
+Pacto do Lobo Solitário
+Khế Ước Sói Đơn Độc
+Coração Teimoso
+Trái Tim Bướng Bỉnh
+Ninho de Esquilo
+Tổ Sóc
+Brasa e Neve
+Than Hồng & Tuyết
+Pena da Lua
+Lông Vũ Ánh Trăng
+Ovo de Ouro
+Trứng Vàng
+Ampulheta de Resina
+Đồng Hồ Cát Nhựa Cây
+Coroa do Leão
+Vương Miện Sư Tử
+Eclipse
+Nhật Thực
+Presa de Sangue
+Nanh Máu
+Totem Sombrio
+Vật Tổ Bóng Tối
+Ouro Maldito
+Vàng Nguyền Rủa
+Sino do Pastor
+Chuông Người Chăn Cừu
+Bumerangue Ancião
+Boomerang Cổ Xưa
+Braseiro
+Lò Than
+Cinzas Vivas
+Tro Tàn Rực Cháy
+Geada Eterna
+Sương Giá Vĩnh Cửu
+Peçonha
+Nọc Độc
+Contágio
+Lây Lan
+Olho de Falcão
+Mắt Chim Ưng
+Lâmina Fina
+Lưỡi Dao Mảnh
+Cofre de Nozes
+Két Hạt Dẻ
+Moeda da Sorte
+Đồng Xu May Mắn
+Cesto de Vime
+Giỏ Mây
+Semente Mágica
+Hạt Giống Phép Thuật
+Estandarte
+Cờ Hiệu
+Laços de Lealdade
+Sợi Dây Trung Thành
+Espírito Selvagem
+Linh Hồn Hoang Dã
+Ninhada
+Đàn Con
+Coração de Magma
+Trái Tim Dung Nham
+Teia da Viúva
+Mạng Nhện Góa Phụ
+Dado Viciado
+Xúc Xắc Gian
+Bolsa Furada
+Túi Thủng
+Fungo Faminto
+Nấm Đói
+Pacto da Serpente
+Khế Ước Mãng Xà
+Ossos do Ancestral
+Xương Tổ Tiên
+Lua de Sangue
+Trăng Máu
+Relógio Partido
+Đồng Hồ Vỡ
+Baralho Marcado
+Bộ Bài Đánh Dấu
+Pólvora Instável
+Thuốc Súng Bất Ổn
+Coroa de Espinhos
+Vương Miện Gai
+Luneta do Almirante
+Ống Nhòm Đô Đốc
+Ampulheta do Rei
+Đồng Hồ Cát Của Vua
+Tesouro do Dragão
+Kho Báu Của Rồng
+Tambor de Guerra
+Trống Trận
+Coração de Pedra
+Trái Tim Đá
+Bússola Antiga
+La Bàn Cổ
+Pacto do Poder
+Khế Ước Sức Mạnh
+Raiz Profunda
+Rễ Sâu
+Totem das Frutas
+Vật Tổ Trái Cây
+Olho do Caçador
+Mắt Thợ Săn
+Martelo Rachador
+Búa Chẻ Đá
+Contador Mágico
+Bộ Đếm Phép Thuật
+Dado de Ouro
+Xúc Xắc Vàng
+Mágicas +35% de dano; militares -15% de alcance
+Ma Thuật +35% sát thương; Quân Sự -15% tầm bắn
++7% de dano por outra torre IGUAL no campo (até +35%)
++7% sát thương cho mỗi tháp CÙNG LOẠI khác trên sân (tối đa +35%)
+Primárias +2 de perfuração; -10% de cadência nelas
+Tháp Chính +2 xuyên; -10% tốc bắn của chúng
+Militares +25% de dano; mágicas -10% de cadência
+Quân Sự +25% sát thương; Ma Thuật -10% tốc bắn
+Todas +20% de alcance; -10% de dano
+Mọi tháp +20% tầm bắn; -10% sát thương
+Todas +40% de cadência; -20% de dano
+Mọi tháp +40% tốc bắn; -20% sát thương
+Todas +1 alvo/projétil; inimigos +15% de vida
+Mọi tháp +1 mục tiêu/đạn; kẻ địch +15% máu
+Fim de cada onda: +8% de juros sobre o ouro (até $500)
+Cuối mỗi đợt: +8% lãi trên số vàng (tối đa $500)
++$300 agora e +$60 a cada caminho
++$300 ngay và +$60 mỗi chặng
++50 de vida máxima e cura tudo agora
++50 mạng tối đa và hồi đầy ngay
++1 revive guardado
++1 lượt hồi sinh dự trữ
+Toda raridade é sorteada 2x: fica a melhor
+Độ hiếm được quay 2 lần: lấy kết quả tốt nhất
+Recompensas de carta mostram 4 opções
+Phần thưởng thẻ có 4 lựa chọn
+Todas +25% de dano e +1 alvo; inimigos +20% de vida; loja +25%
+Mọi tháp +25% sát thương và +1 mục tiêu; kẻ địch +20% máu; cửa hàng +25% giá
+Todas +60% de dano; vida máxima -40%
+Mọi tháp +60% sát thương; mạng tối đa -40%
+Vender uma torre no mesmo caminho em que foi colocada devolve 100%
+Bán tháp ngay trong chặng vừa đặt sẽ hoàn lại 100%
+Sem torres repetidas no campo: todas +25% de dano e +10% de alcance
+Không có tháp trùng trên sân: mọi tháp +25% sát thương và +10% tầm bắn
+1x por andar: o vazamento que te mataria te deixa com 1 de vida
+1 lần mỗi tầng: cú lọt lẽ ra hạ gục bạn sẽ chừa lại 1 mạng
+Bolotas douradas caem o dobro e são coletadas sozinhas
+Hạt sồi vàng rơi gấp đôi và được nhặt tự động
+Salamandra E Tartaruga no campo: as duas +30% de dano e +15% de cadência
+Có cả Kỳ Nhông VÀ Rùa trên sân: cả hai +30% sát thương và +15% tốc bắn
+Mágicas +1 alvo/projétil e +15% de alcance
+Ma Thuật +1 mục tiêu/đạn và +15% tầm bắn
++$40 a cada onda vencida e bolotas douradas valem o dobro
++$40 mỗi đợt thắng và hạt sồi vàng có giá gấp đôi
+Todas +35% de dano; ouro das recompensas -30%
+Mọi tháp +35% sát thương; vàng thưởng -30%
+Todas +2 alvos/projéteis; inimigos +25% de velocidade
+Mọi tháp +2 mục tiêu/đạn; kẻ địch +25% tốc độ
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+Mọi tháp +60% sát thương. Lời nguyền: mất 3% mạng mỗi đợt
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+Mọi tháp +25% tốc bắn và +1 mục tiêu. Lời nguyền: kẻ địch +20% máu
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
++$500 ngay và +$60 mỗi đợt. Lời nguyền: cửa hàng đắt hơn 40%
+ATIVA (toque no ícone na onda, 1x por andar): empurra todos os inimigos para trás
+CHỦ ĐỘNG (chạm biểu tượng khi có đợt, 1 lần mỗi tầng): đẩy lùi mọi kẻ địch
+ATIVA (toque no ícone na onda, 1x por andar): dano em todos os inimigos do caminho
+CHỦ ĐỘNG (chạm biểu tượng khi có đợt, 1 lần mỗi tầng): gây sát thương mọi kẻ địch trên đường
+Queimaduras duram o dobro; Salamandra +20% de dano
+Thiêu đốt kéo dài gấp đôi; Kỳ Nhông +20% sát thương
+Inimigo que morre queimando EXPLODE nos vizinhos
+Kẻ địch chết khi đang cháy sẽ NỔ lên kẻ xung quanh
+Lentidões duram +50%; Tartaruga +20% de dano
+Làm chậm kéo dài +50%; Rùa +20% sát thương
+Inimigos lentos ou congelados levam +25% de dano
+Kẻ địch bị chậm hoặc đóng băng nhận +25% sát thương
+Acertos das torres primárias envenenam
+Đòn của tháp Chính gây độc
+Inimigo que morre envenenado espalha o veneno
+Kẻ địch chết khi trúng độc sẽ lây độc ra xung quanh
++10% de chance de crítico em todas as torres
++10% tỉ lệ chí mạng cho mọi tháp
+Críticos causam x3 em vez de x2
+Chí mạng gây x3 thay vì x2
++5% de dano em todas a cada $1000 que você tiver (até +25%)
++5% sát thương cho mọi tháp mỗi $1000 bạn có (tối đa +25%)
+Cada crítico dá $1 (até $60 por onda)
+Mỗi đòn chí mạng cho $1 (tối đa $60 mỗi đợt)
+Herói +40% de dano
+Anh hùng +40% sát thương
+Herói sobe +1 nível a cada chefe vencido
+Anh hùng +1 cấp mỗi khi hạ một trùm
+Invocações do Guaxinim e sentinelas do Texugo +40% de dano
+Sinh vật triệu hồi của Gấu Mèo và lính gác của Lửng +40% sát thương
+Invocações e sentinelas atacam 30% mais rápido
+Sinh vật triệu hồi và lính gác tấn công nhanh hơn 30%
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+Thiêu đốt gây gấp đôi sát thương. Lời nguyền: tháp băng -30% sát thương
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+Độc cộng dồn tối đa 3 lần trên cùng kẻ địch. Lời nguyền: kẻ trúng độc đi nhanh hơn 15%
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+Chí mạng gây x4. Lời nguyền: đòn không chí mạng -20% sát thương
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+Vàng khi phá lớp +100%. Lời nguyền: cuối mỗi tầng mất 25% vàng
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+Anh hùng +80% sát thương. Lời nguyền: các tháp khác -15% sát thương
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+Sinh vật triệu hồi và lính gác +60% sát thương; sinh vật của Gấu Mèo +1 mục tiêu. Lời nguyền: tháp không triệu hồi -10% tốc bắn
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+Tinh Anh và Trùm Nhỏ cho thưởng gấp đôi. Lời nguyền: kẻ địch +15% máu
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+Mọi tháp +30% tốc bắn. Lời nguyền: kẻ địch kéo đến dày hơn 25%
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+Thẻ cường hóa lên 1 bậc độ hiếm. Lời nguyền: không được đổi thẻ
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+Kẻ địch chết sẽ NỔ lên kẻ xung quanh. Lời nguyền: kẻ lọt qua phát nổ và trừ thêm 5 mạng
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+Mọi tháp +40% sát thương. Lời nguyền: mỗi lần lọt mất gấp đôi mạng
+Todas as torres veem camuflados e têm +25% de alcance; inimigos +20% de velocidade
+Mọi tháp thấy tàng hình và +25% tầm bắn; kẻ địch +20% tốc độ
+Todas +45% de cadência; vida máxima -25
+Mọi tháp +45% tốc bắn; mạng tối đa -25
++$400 agora e ouro dos abates +60%; loja 30% mais cara
++$400 ngay và vàng hạ gục +60%; cửa hàng đắt hơn 30%
+A cada 10 abates, TODAS as torres atacam 60% mais rápido por 3s
+Mỗi 10 lần hạ gục, MỌI tháp tấn công nhanh hơn 60% trong 3s
+Cada inimigo que vaza tira no máximo 1 vida (até blindado e chefe)
+Mỗi kẻ địch lọt qua chỉ trừ tối đa 1 mạng (kể cả bọc giáp và trùm)
+Cada onda perfeita (sem vazar) recupera 3 de vida
+Mỗi đợt hoàn hảo (không lọt) hồi 3 mạng
+Todas as torres veem camuflados; alcance -10%
+Mọi tháp thấy tàng hình; tầm bắn -10%
+Inimigos chegam SEM blindagem (fortificados perdem a casca)
+Kẻ địch đến KHÔNG có giáp (Kiên cố mất lớp vỏ)
+vença {0} Elites ou Mini Chefes
+hạ {0} Tinh Anh hoặc Trùm Nhỏ
+vença 1 chefe
+hạ 1 trùm
+vença {0} chefes
+hạ {0} trùm
+faça {0} ondas perfeitas
+đạt {0} đợt hoàn hảo
+vença {0} ondas
+thắng {0} đợt
+Quebra: {0}
+Giải nguyền: {0}
+Mágicas +60% de dano
+Ma Thuật +60% sát thương
++10% por torre igual (até +50%)
++10% mỗi tháp cùng loại (tối đa +50%)
+Primárias +4 de perfuração
+Tháp Chính +4 xuyên
+Militares +45% de dano
+Quân Sự +45% sát thương
++35% de alcance
++35% tầm bắn
++60% de cadência
++60% tốc bắn
+Juros de 12% (até $800)
+Lãi 12% (tối đa $800)
++45% de dano e +15% de alcance
++45% sát thương và +15% tầm bắn
+Perfuração
+Xuyên phá
+Velocidade de Ataque
+Tốc đánh
+Alvos/Projéteis
+Mục tiêu/Đạn
+Dano em Blindados
+Sát thương vs Bọc giáp
+Área de Impacto
+Vùng va chạm
+Alcance
+Tầm bắn
+Crítico
+Chí mạng
++{0} de perfuração
++{0} xuyên
++{0} alvo/projétil por ataque
++{0} mục tiêu/đạn mỗi đòn
++{0} de dano contra blindados
++{0} sát thương vs bọc giáp
+fura +{0} camada(s)
+phá +{0} lớp
++{0}% de chance de CRÍTICO (dano x2)
++{0}% tỉ lệ CHÍ MẠNG (sát thương x2)
+acerto envenena: {0}% do dano por segundo (2s)
+đòn đánh gây độc: {0}% sát thương mỗi giây (2s)
+Normal
+Thường
+Raro
+Hiếm
+Épico
+Sử Thi
+Melhoria
+Cường hóa
+Ouro
+Vàng
+Upagem
+Nâng cấp
+Loja
+Cửa hàng
+Fogueira
+Lửa trại
+CHEFE
+TRÙM
+Início
+Khởi đầu
+Elite
+Tinh Anh
+Relíquia
+Di vật
+Evento
+Sự kiện
+Mini Chefe
+Trùm Nhỏ
+Desafio
+Thử thách
+Mímico
+Rương Quái
+Nada
+Trống
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+Thắng đợt và chọn 1 trong 3 cường hóa cho một tháp
+Vença a onda: ouro na hora ou investido
+Thắng đợt: lấy vàng ngay hoặc đầu tư
+Vença a onda e ganhe 1 de 3 torres grátis
+Thắng đợt và nhận 1 trong 3 tháp miễn phí
+Vença a onda: upagem grátis numa torre
+Thắng đợt: nâng cấp miễn phí một tháp
+Sem onda: compre melhorias e relíquias com ouro
+Không có đợt: mua cường hóa và di vật bằng vàng
+Sem onda: descansar ou treinar
+Không có đợt: nghỉ ngơi hoặc luyện tập
+O chefe do andar: vença e escolha uma relíquia de chefe
+Trùm của tầng: hạ nó và chọn một di vật trùm
+Escolha a torre inicial da run
+Chọn tháp khởi đầu cho lượt chơi
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+Kẻ địch mạnh hơn kèm một hiệu ứng: thưởng thẻ hiếm và vàng
+Vença a onda e escolha 1 de 3 relíquias
+Thắng đợt và chọn 1 trong 3 di vật
+Sem onda: um encontro com escolhas
+Không có đợt: một cuộc gặp gỡ với nhiều lựa chọn
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+Đợt có trùm nhỏ ở cuối: thưởng tháp hiếm hoặc kho báu
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+Thắng, không lọt và đúng giờ: tối đa 3 sao vàng
+Uma onda, sem recompensa extra
+Một đợt, không có thưởng thêm
+Camuflados
+Tàng hình
+Fortificados
+Kiên cố
+Regeneram
+Hồi phục
+Apressados
+Tăng tốc
+Horda
+Đại Quân
+todos vêm camuflados
+tất cả đều tàng hình
+todos vêm fortificados
+tất cả đều kiên cố
+todos regeneram
+tất cả đều hồi phục
++30% de velocidade
++30% tốc độ
++50% de inimigos
++50% kẻ địch
+Escudeiro Demolidor
+Khiên Thủ Phá Hủy
+Mãe-Bomba
+Mẹ Bom
+Engenheiro Remendão
+Kỹ Sư Vá Víu
+Rasga-Vento
+Xé Gió
+Escudo de 30% da vida. Quando quebra, fica atordoado 2,5s
+Khiên bằng 30% máu. Khi khiên vỡ, bị choáng 2,5s
+A cada 4s solta 2 bombinhas no caminho (até 14)
+Mỗi 4s thả 2 quả bom nhỏ trên đường (tối đa 14)
+Conserta a si mesmo e cura os aliados por perto a cada 3s
+Tự sửa chữa và hồi máu đồng minh gần đó mỗi 3s
+A cada 5s dá uma arrancada 4x mais rápida
+Mỗi 5s bứt tốc nhanh gấp 4 lần
+dano alto de uma vez quebra o escudo; depois é a hora de bater
+sát thương lớn một lần sẽ phá khiên; sau đó là lúc tấn công
+torres de área e perfuração limpam os filhotes
+tháp diện rộng và xuyên phá dọn sạch lũ bom con
+dano concentrado antes do conserto
+dồn sát thương trước khi nó kịp sửa
+lentidão e torres no fim do caminho
+làm chậm và đặt tháp ở cuối đường đi
+Esquilo Contrabandista
+Sóc Buôn Lậu
+Ninho Abandonado
+Tổ Chim Bỏ Hoang
+Javali do Caos
+Lợn Rừng Hỗn Mang
+Aposta do Guaxinim
+Ván Cược Gấu Mèo
+Lago Espelhado
+Hồ Gương
+Fonte Sagrada
+Suối Thiêng
+Dinamite Abandonada
+Thuốc Nổ Bỏ Lại
+Árvore Ancestral
+Cây Cổ Thụ
+Mel do Urso
+Mật Ong Của Gấu
+O Corvo Mercador
+Quạ Thương Nhân
+Toca Desmoronada
+Hang Sụp
+Arbusto de Frutinhas
+Bụi Quả Mọng
+Caminhão Capturado
+Xe Tải Chiến Lợi Phẩm
+Ninho de Vespas
+Tổ Ong Bắp Cày
+Ovo Misterioso
+Quả Trứng Bí Ẩn
+Altar do Sacrifício
+Bệ Thờ Hiến Tế
+Altar das Maldições
+Bệ Thờ Nguyền Rủa
+Coruja Sábia
+Cú Thông Thái
+Colmeia Selvagem
+Tổ Ong Hoang
+Lago Congelado
+Hồ Đóng Băng
+Iglu do Pinguim
+Lều Tuyết Cánh Cụt
+Miragem
+Ảo Ảnh
+Caravana do Deserto
+Đoàn Lữ Hành Sa Mạc
+Forja de Lava
+Lò Rèn Dung Nham
+Ovo de Fogo
+Trứng Lửa
+Bruxa do Pântano
+Phù Thủy Đầm Lầy
+Sapo Rei
+Ếch Vua
+Um esquilo de capa abre um saco cheio de mapas roubados. "Tenho uma torre de elite pra você... por um terço do seu ouro."
+Một chú sóc khoác áo choàng mở túi đầy bản đồ ăn cắp. "Tôi có một tháp tinh anh cho bạn... chỉ với một phần ba số vàng của bạn."
+No alto de uma árvore, um ninho com um brilho estranho. Pode ser um tesouro. Pode ser uma armadilha dos humanos.
+Trên ngọn cây, một tổ chim lấp lánh kỳ lạ. Có thể là kho báu. Cũng có thể là bẫy của con người.
+Um javali enorme bufa no caminho. "Deixe minha fúria correr pelo campo e eu ensino suas torres a bater mais forte."
+Một con lợn rừng khổng lồ thở phì phò giữa đường. "Để cơn thịnh nộ của ta tung hoành khắp cánh đồng, ta sẽ dạy tháp của ngươi đánh mạnh hơn."
+Um guaxinim embaralha três cascas de noz. "Aposta $300? Acertou, dobra. Errou... é meu."
+Một chú gấu mèo đảo ba vỏ hạt dẻ. "Cược $300 không? Đoán đúng, nhân đôi. Đoán sai... về tay tôi."
+A água do lago reflete suas torres mais fortes do que são. Tocar nela cobra um preço.
+Mặt hồ phản chiếu các tháp của bạn mạnh hơn thực tế. Chạm vào nó phải trả giá.
+Uma fonte de água cristalina no meio da floresta.
+Một dòng suối trong vắt giữa rừng sâu.
+Humanos-bomba fugiram e largaram um caixote com o pavio aceso.
+Đám người-bom bỏ chạy, để lại một thùng gỗ với ngòi nổ đang cháy.
+Uma árvore milenar sussurra: "dê um pouco da sua vida e eu te dou um presente antigo."
+Một cây nghìn năm tuổi thì thầm: "hãy cho ta một chút sinh mệnh, ta sẽ tặng ngươi một món quà cổ xưa."
+Um urso guarda um pote de mel dourado. Ele aceita dividir... por um preço.
+Một con gấu canh giữ hũ mật ong vàng óng. Nó chịu chia sẻ... với một cái giá.
+Um corvo pousa num galho com objetos brilhantes. "Brilho por brilho, amigo."
+Một con quạ đậu trên cành đầy đồ lấp lánh. "Lấp lánh đổi lấp lánh nhé, bạn."
+Uma toca antiga. Escavar aqui pode revelar algo útil ou derrubar tudo.
+Một cái hang cũ. Đào ở đây có thể tìm được đồ hữu ích, hoặc làm sập tất cả.
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+Một bụi cây trĩu quả mọng phép thuật. Có thể đem bán ở chợ hoặc ăn ngay.
+Um caminhão dos humanos tombou na estrada, cheio de caixas. O motorista fugiu... por enquanto.
+Một chiếc xe tải của con người lật giữa đường, đầy thùng hàng. Tài xế đã bỏ chạy... tạm thời.
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+Một tổ ong bắp cày vo ve trên cành thấp. Ong bắp cày giận dữ là đồng minh tuyệt vời, hoặc kẻ thù đáng sợ.
+Um ovo brilhante, quentinho, esquecido no meio da trilha. Um vendedor pede $150 por ele.
+Một quả trứng lấp lánh, ấm áp, bị bỏ quên giữa đường mòn. Một người bán đòi $150 cho nó.
+Um altar de pedra antiga pulsa com poder. Ele pede uma das suas torres... e promete algo à altura.
+Một bệ thờ đá cổ rộn ràng sức mạnh. Nó đòi một tháp của bạn... và hứa đáp lại xứng đáng.
+Duas relíquias negras flutuam sobre um altar rachado. Poder de verdade... com um preço que cobra todo dia.
+Hai di vật đen lơ lửng trên một bệ thờ nứt vỡ. Sức mạnh thật sự... với cái giá phải trả mỗi ngày.
+Uma coruja velha de óculos abre um livro de estratégia. "Conhecimento custa caro, filhote."
+Một bà cú già đeo kính mở cuốn sách chiến thuật. "Kiến thức đắt lắm đấy, nhóc."
+Uma colmeia enorme pinga mel dourado. As abelhas não parecem nada contentes com visitas.
+Một tổ ong khổng lồ nhỏ giọt mật vàng. Lũ ong có vẻ chẳng vui khi có khách.
+Um lago totalmente congelado corta o caminho. Do outro lado, um baú brilha. O gelo range.
+Một hồ nước đóng băng hoàn toàn chắn ngang đường. Bên kia, một chiếc rương lấp lánh. Băng kêu răng rắc.
+Um pinguim de cachecol vende neve mágica na porta do iglu. "Fresquinha, direto do polo!"
+Một chú cánh cụt quàng khăn bán tuyết phép thuật trước cửa lều tuyết. "Tươi rói, chuyển thẳng từ địa cực!"
+No horizonte, um oásis cheio de tesouros tremula no calor. Pode ser real... ou só o sol.
+Phía chân trời, một ốc đảo đầy kho báu lung linh trong hơi nóng. Có thể là thật... hoặc chỉ là ánh nắng.
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+Một đoàn lạc đà dừng chân trên đồi cát. Các thương nhân đổi bản đồ và bán nước.
+Uma forja antiga, aquecida pela própria lava. Ela pede sangue para temperar o aço.
+Một lò rèn cổ, được nung bằng chính dung nham. Nó đòi máu để tôi thép.
+Um ovo vermelho, quente como brasa, pulsa entre as rochas. Pegar com a mão vai doer.
+Một quả trứng đỏ, nóng như than hồng, phập phồng giữa đá. Cầm bằng tay sẽ đau đấy.
+Uma bruxa mexe um caldeirão verde. "Uma poção desfaz maldições, querido... ou um amuleto, se preferir."
+Một mụ phù thủy khuấy vạc thuốc xanh lè. "Một bình thuốc giải lời nguyền, cưng à... hoặc một bùa hộ mệnh, nếu thích."
+Um sapo de coroa olha fundo nos seus olhos. Dizem que ele é um herói amaldiçoado.
+Một chú ếch đội vương miện nhìn sâu vào mắt bạn. Nghe nói nó là một anh hùng bị nguyền rủa.
+Comprar
+Mua
+Paga 1/3 do ouro: uma torre ÉPICA (4 upagens)
+Trả 1/3 số vàng: một tháp SỬ THI (4 nâng cấp)
+Recusar
+Từ chối
+Segue em frente
+Tiếp tục đi
+Pegar o ovo
+Lấy quả trứng
+50%: uma relíquia · 50%: perde 15% da vida
+50%: một di vật · 50%: mất 15% mạng
+Deixar
+Để đó
+Aceitar
+Chấp nhận
+Próximas 3 ondas: inimigos +25% de velocidade. Depois: +15% de dano em TODAS as torres pra sempre
+3 đợt tới: kẻ địch +25% tốc độ. Sau đó: MỌI tháp +15% sát thương vĩnh viễn
+Apostar
+Đặt cược
+Passar
+Bỏ qua
+Tocar a água
+Chạm vào nước
+Perde 20% da vida: um buff ÉPICO numa torre aleatória
+Mất 20% mạng: một cường hóa SỬ THI cho một tháp ngẫu nhiên
+Ir embora
+Rời đi
+Beber
+Uống
+Recupera 20% da vida
+Hồi 20% mạng
+Encher o cantil
+Đổ đầy bình nước
++$150 vendendo a água
++$150 nhờ bán nước
+Desarmar
+Tháo ngòi
++$120 e 1 upagem grátis numa torre aleatória
++$120 và 1 nâng cấp miễn phí cho một tháp ngẫu nhiên
+Sair de fininho
+Lặng lẽ chuồn
+Oferecer vida
+Dâng sinh mệnh
+Perde 10% da vida máxima: uma relíquia aleatória
+Mất 10% mạng tối đa: một di vật ngẫu nhiên
+Pagar $200
+Trả $200
+Todas as torres +5% de dano pelo resto da run
+Mọi tháp +5% sát thương đến hết lượt chơi
+Pagar $250
+Trả $250
+Uma relíquia aleatória
+Một di vật ngẫu nhiên
+Escavar
+Đào bới
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: nâng cấp miễn phí + $100 · 40%: mất 10% mạng
+Colher e vender
+Hái và bán
++$180 no mercado
++$180 ở chợ
+Comer agora
+Ăn ngay
+Recupera 10% da vida
+Hồi 10% mạng
+Pagar 40% do ouro
+Trả 40% số vàng
+Uma torre RARA aleatória (2 upagens)
+Một tháp HIẾM ngẫu nhiên (2 nâng cấp)
+Saquear
+Cướp hàng
++$200, mas perde 5% da vida
++$200, nhưng mất 5% mạng
+Cutucar
+Chọc thử
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: mọi tháp +10% tốc bắn đến hết lượt chơi · 50%: mất 10% mạng
+Comprar ($150)
+Mua ($150)
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: một di vật · 40%: hồi 15% mạng
+Sacrificar
+Hiến tế
+Entrega uma torre: relíquia conforme o valor dela
+Dâng một tháp: nhận di vật tương xứng giá trị của nó
+Aceitar a maldição
+Chấp nhận lời nguyền
+Escolha 1 de 2 relíquias amaldiçoadas (não conta no limite do andar)
+Chọn 1 trong 2 di vật bị nguyền (không tính vào giới hạn của tầng)
+Pagar $180
+Trả $180
+1 upagem grátis em 2 torres aleatórias
+1 nâng cấp miễn phí cho 2 tháp ngẫu nhiên
+Ouvir o conselho
+Nghe lời khuyên
++1 troca de cartas grátis neste andar
++1 lượt đổi thẻ miễn phí ở tầng này
+Pegar o mel
+Lấy mật ong
+Perde 8% da vida: +$300 vendendo o mel
+Mất 8% mạng: +$300 nhờ bán mật
+Atravessar
+Băng qua
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: rương +$300 · 40%: băng vỡ, mất 15% mạng
+Contornar
+Đi vòng
+Comprar ($200)
+Mua ($200)
++40 de escudo até o fim do andar (absorve vazamentos)
++40 khiên đến hết tầng (chặn kẻ lọt qua)
+Seguir a miragem
+Đi theo ảo ảnh
+50%: uma relíquia · 50%: perde $200 na areia
+50%: một di vật · 50%: mất $200 trong cát
+Ignorar
+Phớt lờ
+Trocar mapas
+Đổi bản đồ
++$100 e +1 troca de cartas grátis neste andar
++$100 và +1 lượt đổi thẻ miễn phí ở tầng này
+Comprar água ($120)
+Mua nước ($120)
+Temperar o aço
+Tôi thép
+Perde 10% da vida máxima: um buff ÉPICO numa torre aleatória
+Mất 10% mạng tối đa: một cường hóa SỬ THI cho một tháp ngẫu nhiên
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+Một cường hóa SỬ THI sát thương cho một tháp ngẫu nhiên · 30%: bỏng tay, mất 10% mạng
+Beber a poção
+Uống thuốc
+Quebra a maldição de uma relíquia (sem maldição: +25 de escudo)
+Giải lời nguyền một di vật (không có nguyền: +25 khiên)
+Amuleto ($250)
+Bùa hộ mệnh ($250)
+Beijar o sapo
+Hôn chú ếch
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: biến thành tháp SỬ THI (4 nâng cấp) · 70%: chỉ là ếch thường
+Seguir
+Tiếp tục
+O CHEFE DO ANDAR CHEGOU!
+TRÙM CỦA TẦNG ĐÃ ĐẾN!
+Mini chefe: {0}!
+Trùm nhỏ: {0}!
++conserto
++sửa chữa
+ESCUDO QUEBRADO!
+KHIÊN ĐÃ VỠ!
+CORAÇÃO TEIMOSO!
+TRÁI TIM BƯỚNG BỈNH!
+Nv {0}
+Cấp {0}
+Nenhuma torre no campo pra upar.
+Không có tháp nào trên sân để nâng cấp.
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+Là RƯƠNG QUÁI! Hạ nó và nhận gấp đôi vàng
+Onda perfeita x{0}: +${1}
+Đợt hoàn hảo x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} TIẾN HÓA: {1}
+O chefe escapou! Sem a recompensa dele.
+Trùm đã thoát! Mất phần thưởng của nó.
+O chefe escapou!
+Trùm đã thoát!
+Sem a recompensa dele.
+Mất phần thưởng của nó.
+Revive usado! A onda recomeça.
+Đã dùng hồi sinh! Đợt bắt đầu lại.
+Maldição quebrada: {0} (o bônus fica)
+Đã giải nguyền: {0} (giữ nguyên thưởng)
+Escolha a torre inicial
+Chọn tháp khởi đầu
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+Tháp đến miễn phí, kèm 2 nâng cấp ngẫu nhiên. Vàng khởi đầu vẫn còn để mua thêm.
+Escolha uma melhoria
+Chọn một cường hóa
+Depois toque na torre que vai receber.
+Sau đó chạm vào tháp sẽ nhận nó.
+Escolha uma torre grátis
+Chọn một tháp miễn phí
+Chefe derrotado! Escolha uma relíquia de chefe
+Đã hạ trùm! Chọn một di vật trùm
+Depois ainda ganha {0} com {1} upagens.
+Sau đó còn nhận {0} với {1} nâng cấp.
+Elite vencido!
+Đã hạ Tinh Anh!
++${0} de ouro. Escolha uma carta rara:
++${0} vàng. Chọn một thẻ hiếm:
+Lua de Sangue: +${0}
+Trăng Máu: +${0}
+Mini chefe derrotado!
+Đã hạ trùm nhỏ!
+RELÍQUIAS ESGOTADAS
+HẾT DI VẬT
+Você já tem todas. +${0}
+Bạn đã có tất cả. +${0}
+Escolha uma relíquia
+Chọn một di vật
+Relíquias valem a run toda.
+Di vật có hiệu lực suốt lượt chơi.
+Loja do Coelho
+Cửa Hàng Thỏ
+Melhorias e relíquias, pagas com o ouro da run.
+Cường hóa và di vật, trả bằng vàng của lượt chơi.
+Dinheiro
+Tiền
+Pegar agora ou investir?
+Lấy ngay hay đầu tư?
+Escolha UMA.
+Chọn MỘT.
+UPAGEM GRÁTIS
+NÂNG CẤP MIỄN PHÍ
+DESAFIO: {0} de 3 estrelas
+THỬ THÁCH: {0}/3 sao
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+Thắng: có  ·  Không lọt: {0}  ·  Trong {1}s: {2}  ·  +${3}
+sim
+có
+não
+không
+MÍMICO DERROTADO
+ĐÃ HẠ RƯƠNG QUÁI
+O baú-monstro deixou cair +${0}
+Rương quái đánh rơi +${0}
+CAMINHO LIMPO
+ĐƯỜNG THÔNG
+Nenhuma recompensa por aqui.
+Không có phần thưởng ở đây.
+Ganhou {0}! Toque no campo para posicionar.
+Nhận được {0}! Chạm vào sân để đặt.
+O investimento rendeu: +${0}
+Khoản đầu tư sinh lời: +${0}
+Bolsa Furada: -${0} no fim do andar
+Túi Thủng: -${0} vào cuối tầng
+ANDAR {0}!
+TẦNG {0}!
+Entrega {0} (vale ~${1})
+Dâng {0} (trị giá ~${1})
+Treinar
+Luyện tập
+Escolha a árvore da upagem grátis.
+Chọn nhánh cho nâng cấp miễn phí.
+Já são {0} relíquias neste andar: {1} virou +${2}
+Đã có {0} di vật ở tầng này: {1} đổi thành +${2}
+Relíquia nova: {0}
+Di vật mới: {0}
+Delícia! +{0} de vida.
+Ngon tuyệt! +{0} mạng.
++$200 do saque, mas o motorista voltou: -{0} de vida.
++$200 từ chiến lợi phẩm, nhưng tài xế quay lại: -{0} mạng.
+A coruja ensina a olhar de novo: +1 troca de cartas grátis neste andar.
+Bà cú dạy bạn nhìn lại lần nữa: +1 lượt đổi thẻ miễn phí ở tầng này.
+Você não tinha $120 para a água.
+Bạn không đủ $120 để mua nước.
+-$120. Água fresca: +{0} de vida.
+-$120. Nước mát lành: +{0} mạng.
+Você não tinha $250 para o amuleto.
+Bạn không đủ $250 để mua bùa.
+A bruxa não tinha amuleto que você não possua.
+Mụ phù thủy không còn bùa nào bạn chưa có.
+-$250. Amuleto: {0}
+-$250. Bùa hộ mệnh: {0}
+Você segue em frente.
+Bạn tiếp tục lên đường.
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}. Bạn nhận {1} với 4 nâng cấp! Chạm vào sân để đặt.
+Era um tesouro! Relíquia: {0}
+Là kho báu! Di vật: {0}
+Era um tesouro! +$400
+Là kho báu! +$400
+Era uma armadilha! -{0} de vida.
+Là bẫy! -{0} mạng.
+A fúria do javali corre solta: 3 ondas com inimigos mais rápidos. Sobreviva e suas torres ficam +15% mais fortes.
+Cơn thịnh nộ của lợn rừng bùng lên: 3 đợt kẻ địch nhanh hơn. Sống sót và tháp của bạn sẽ mạnh hơn +15%.
+Acertou! +$300
+Đoán trúng! +$300
+Errou... -${0}
+Đoán trật... -${0}
+-{0} de vida.
+-{0} mạng.
+-{0} de vida máxima. A árvore não tinha mais relíquias: +$400.
+-{0} mạng tối đa. Cây không còn di vật: +$400.
+-{0} de vida máxima. Relíquia: {1}
+-{0} mạng tối đa. Di vật: {1}
+Você não tinha $200. O urso fica com o mel.
+Bạn không đủ $200. Gấu giữ lại mật ong.
+-$200. Todas as torres +5% de dano pelo resto da run.
+-$200. Mọi tháp +5% sát thương đến hết lượt chơi.
+Você não tinha $250. O corvo voa embora.
+Bạn không đủ $250. Quạ bay mất.
+O corvo não tinha nada novo pra você.
+Quạ không có gì mới cho bạn.
+-$250. Relíquia: {0}
+-$250. Di vật: {0}
+A toca desabou! -{0} de vida.
+Hang sập! -{0} mạng.
+As frutinhas renderam +$180 no mercado.
+Quả mọng bán được +$180 ở chợ.
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}. Trong thùng hàng: {1} với 2 nâng cấp! Chạm vào sân để đặt.
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+Ong bắp cày thành đồng minh! Mọi tháp +10% tốc bắn đến hết lượt chơi.
+Ferroadas! -{0} de vida.
+Bị đốt! -{0} mạng.
+Você não tinha $150. O vendedor guarda o ovo.
+Bạn không đủ $150. Người bán giữ lại quả trứng.
+-$150. O ovo chocou uma relíquia: {0}
+-$150. Trứng nở ra một di vật: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150. Chỉ là trứng ăn sáng: +{0} mạng.
+Você não tinha $180.
+Bạn không đủ $180.
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+Bị đốt! -{0} mạng, nhưng mật ong bán được +$300.
+O gelo aguentou! O baú tinha $300.
+Băng chịu được! Rương có $300.
+CRACK! O gelo quebrou: -{0} de vida.
+RẮC! Băng vỡ: -{0} mạng.
+Você não tinha $200.
+Bạn không đủ $200.
+-$200. +40 de escudo até o fim do andar.
+-$200. +40 khiên đến hết tầng.
+Era real! Relíquia: {0}
+Là thật! Di vật: {0}
+Era só o sol... você perdeu ${0} na areia.
+Chỉ là ánh nắng... bạn mất ${0} trong cát.
++$100 e +1 troca de cartas grátis neste andar.
++$100 và +1 lượt đổi thẻ miễn phí ở tầng này.
+-{0} de vida máxima.
+-{0} mạng tối đa.
+A mão queimou: -{0} de vida.
+Bỏng tay: -{0} mạng.
+A maldição de {0} sumiu!
+Lời nguyền của {0} đã biến mất!
+Sem maldição para quebrar: a poção virou +25 de escudo.
+Không có lời nguyền để giải: thuốc biến thành +25 khiên.
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+Chú ếch biến thành {0} với 4 nâng cấp! Chạm vào sân để đặt.
+Era só um sapo. Ele coaxa, ofendido.
+Chỉ là ếch thường. Nó kêu ộp ộp, đầy phật ý.
+O altar se apagou: não há maldições novas.
+Bệ thờ đã tắt: không còn lời nguyền mới.
+Não havia torre para sacrificar.
+Không có tháp nào để hiến tế.
+{0} foi entregue. O altar não tinha relíquias: +${1}
+Đã dâng {0}. Bệ thờ không còn di vật: +${1}
+{0} foi entregue ao altar. Relíquia: {1}
+Đã dâng {0} lên bệ thờ. Di vật: {1}
++{0} de vida.
++{0} mạng.
+Não havia torre para receber.
+Không có tháp nào để nhận.
+{0} ganhou {1} (Épico)
+{0} nhận được {1} (Sử Thi)
+Modo Rogue
+Chế độ Rogue
+Como funciona
+Cách chơi
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+Chọn đường đi trên bản đồ 3 tầng: mỗi điểm dừng là một đợt hoặc một cuộc gặp gỡ.
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+Chiến thắng để nhận cường hóa, tháp miễn phí và di vật có hiệu lực suốt lượt chơi.
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+Tinh Anh và trùm nhỏ mạnh hơn nhưng thưởng hậu hơn. Mỗi tầng kết thúc bằng một trùm.
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+Vàng, mạng và tháp được giữ từ chặng này sang chặng khác. Hết mạng là hết lượt chơi.
+No fim você ganha cristais e XP: quanto mais longe, mais.
+Cuối cùng bạn nhận pha lê và XP: đi càng xa, nhận càng nhiều.
+Melhor: andar {0}
+Tốt nhất: tầng {0}
+Runs: {0}
+Lượt chơi: {0}
+Vitórias: {0}
+Chiến thắng: {0}
+Andar {0}
+Tầng {0}
+{0} relíquias
+{0} di vật
+Continuar run
+Tiếp tục lượt chơi
+Nova run
+Lượt chơi mới
+Mapa: {0}
+Bản đồ: {0}
+Começar run
+Bắt đầu lượt chơi
+Começar outra run?
+Bắt đầu lượt chơi khác?
+A run salva acaba aqui, sem recompensa.
+Lượt chơi đã lưu sẽ kết thúc tại đây, không có thưởng.
+Sim, nova run
+Có, lượt chơi mới
+Torre grátis: toque no campo para posicionar {0}
+Tháp miễn phí: chạm vào sân để đặt {0}
+Sair (a run fica salva)
+Thoát (lượt chơi được lưu)
+Sair
+Thoát
++{0} escudo
++{0} khiên
+ANDAR {0}
+TẦNG {0}
+Caminho {0}/{1}
+Chặng {0}/{1}
+Sem melhorias ainda
+Chưa có cường hóa
+{0} melhorias nas torres
+{0} cường hóa trên tháp
+{0} ondas perfeitas
+{0} đợt hoàn hảo
+{0} revive
+{0} hồi sinh
+Vida {0}/{1}
+Mạng {0}/{1}
+Toque no Início (o caminho que brilha) para começar
+Chạm vào Khởi đầu (chặng đang sáng) để bắt đầu
+Escolha o próximo caminho (os que brilham)
+Chọn chặng tiếp theo (các chặng đang sáng)
+Andar
+Tầng
+Nenhuma relíquia ainda
+Chưa có di vật
+Chefe do andar
+Trùm của tầng
+Onda {0} com inimigos +40% de vida
+Đợt {0} với kẻ địch +40% máu
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+Phần thưởng: vàng x1,5 và 1 trong 3 thẻ hiếm
+Dica: {0}
+Mẹo: {0}
+Recompensa: melhoria rara, torre rara ou tesouro
+Phần thưởng: cường hóa hiếm, tháp hiếm hoặc kho báu
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+Một cỗ xe khổng lồ và chậm chạp. Nếu nó thoát, lượt chơi kết thúc.
+É o chefe final: vença e a run está ganha!
+Đây là trùm cuối: hạ nó là thắng cả lượt chơi!
+Fecha o andar.
+Kết thúc tầng.
+Recompensa: relíquia de chefe e uma torre
+Phần thưởng: di vật trùm và một tháp
+Ir por aqui
+Đi lối này
+Trocar estoque ${0}
+Đổi hàng ${0}
+Trocar (grátis)
+Đổi (miễn phí)
+Trocar ${0}
+Đổi ${0}
+Sair da loja
+Rời cửa hàng
+Pular
+Bỏ qua
+de Chefe
+Của Trùm
+Amaldiçoada
+Bị Nguyền
+Comprado
+Đã mua
+Lapidar
+Mài Giũa
+Recrutar
+Chiêu Mộ
+Tesouro
+Kho báu
+Pegar agora
+Lấy ngay
+Investir
+Đầu tư
+Descansar
+Nghỉ ngơi
+Fortificar
+Gia cố
+Meditar
+Thiền định
+Treinar Herói
+Luyện Anh hùng
+Purificar
+Thanh tẩy
+para: {0}
+cho: {0}
+Reforça o que ela já tem: {0}
+Tăng cường thứ nó đã có: {0}
+Sem upagens. Chega de graça.
+Không có nâng cấp. Đến miễn phí.
+Chega de graça com {0} upagens sorteadas.
+Đến miễn phí kèm {0} nâng cấp ngẫu nhiên.
+Mais uma torre {0} sem upagens, por metade do preço.
+Thêm một tháp {0} không nâng cấp, nửa giá.
++${0} na hora
++${0} ngay lập tức
++${0} daqui a 3 caminhos (se você sobreviver)
++${0} sau 3 chặng (nếu bạn sống sót)
+Recupera {0}% da vida
+Hồi {0}% mạng
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: 1 nâng cấp miễn phí ở nhánh bạn chọn
++{0} de escudo até o fim do andar (absorve vazamentos)
++{0} khiên đến hết tầng (chặn kẻ lọt qua)
++2 trocas de cartas grátis neste andar
++2 lượt đổi thẻ miễn phí ở tầng này
+Herói +2 níveis
+Anh hùng +2 cấp
+Tira a maldição de {0} (o poder fica)
+Giải lời nguyền của {0} (giữ nguyên sức mạnh)
+Nível {0} para {1}
+Cấp {0} cho {1}
+Escolha a torre
+Chọn tháp
+{0} melhorias
+{0} cường hóa
+Nenhuma torre no campo pode receber esta melhoria.
+Không có tháp nào trên sân nhận được cường hóa này.
+Andar {0} de {1}
+Tầng {0}/{1}
+RUN VENCIDA!
+THẮNG LƯỢT CHƠI!
+FIM DA RUN
+KẾT THÚC LƯỢT CHƠI
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+Tầng {0}  ·  {1} chặng  ·  {2} trùm  ·  {3} tinh anh
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0} di vật  ·  đợt {1}  ·  {2} hạ gục
+Rogue
+Rogue
+Diárias
+Hằng ngày
+Relíquias  {0}/{1}
+Di vật  {0}/{1}
+Relíquia liberada: {0}
+Đã mở khóa di vật: {0}
+Jogar {0} corridas no Rogue
+Chơi {0} lượt Rogue
+Vencer {0} corridas no Rogue
+Thắng {0} lượt Rogue
+Derrotar {0} chefes no Rogue
+Hạ {0} trùm trong Rogue
+Vencer {0} elites no Rogue
+Hạ {0} Tinh Anh trong Rogue
+Chegar ao andar {0} no Rogue
+Đạt tầng {0} trong Rogue
+Vencer {0} partidas
+Thắng {0} trận
+Baú diário
+Rương hằng ngày
+Volte amanhã para continuar a sequência!
+Quay lại vào ngày mai để giữ chuỗi!
+Pronto para abrir!
+Sẵn sàng mở!
+Resgate as 3 missões de hoje para abrir.
+Nhận thưởng 3 nhiệm vụ hôm nay để mở.
+Sequência: 1 dia
+Chuỗi: 1 ngày
+Sequência: {0} dias
+Chuỗi: {0} ngày
+Novas missões em {0}
+Nhiệm vụ mới sau {0}
+Desafio do Dia
+Thử thách Ngày
+Desafio do Dia concluído!
+Đã hoàn thành Thử thách Ngày!
+Concluído hoje!
+Đã hoàn thành hôm nay!
+Vença para ganhar +{0} cristais
+Thắng để nhận +{0} pha lê
+Recorde de hoje: onda {0}
+Kỷ lục hôm nay: đợt {0}
+Novo desafio em {0}
+Thử thách mới sau {0}
++$40 a cada onda vencida
++$40 mỗi đợt thắng
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+Tháp khởi đầu có 3 nâng cấp ngẫu nhiên. Các tháp khác đến từ thẻ trên bản đồ và Cửa hàng.
+O aluguel acabou: {0} foi embora
+Hết hạn thuê: {0} đã rời đi
+Nenhuma torre pode ser upada agora
+Hiện không có tháp nào nâng cấp được
+Sua vida já está cheia
+Mạng của bạn đã đầy
+Toque no campo para posicionar: {0}
+Chạm vào sân để đặt: {0}
+MODO ROGUE
+CHẾ ĐỘ ROGUE
+Andar {0}  ·  caminho {1}/{2}
+Tầng {0}  ·  chặng {1}/{2}
+Revives guardados: {0}
+Hồi sinh dự trữ: {0}
+BUFFS DA RUN
+BUFF LƯỢT CHƠI
+Relíquias:
+Di vật:
+Treino +{0}% de dano
+Luyện tập +{0}% sát thương
+nenhum ainda
+chưa có
+Torres vêm das cartas do mapa.
+Tháp đến từ thẻ trên bản đồ.
+Upar e vender: só na Loja.
+Nâng cấp và bán: chỉ ở Cửa hàng.
+SUAS TORRES
+THÁP CỦA BẠN
+nenhuma ainda
+chưa có
+alugada: {0} caminhos
+đang thuê: còn {0} chặng
+Treino {0}: +{1}% de dano
+Luyện tập {0}: +{1}% sát thương
+Ouro insuficiente: o treino custa ${0}
+Không đủ vàng: luyện tập tốn ${0}
+Ouro: ${0}
+Vàng: ${0}
+Toque numa torre do painel para upar ou vender
+Chạm vào tháp trong bảng để nâng cấp hoặc bán
+Estoque esgotado
+Hết hàng
+Aluguel: {0}
+Thuê: {0}
+Cura Grande
+Hồi Phục Lớn
+Cura Pequena
+Hồi Phục Nhỏ
+Upagem Grátis
+Nâng Cấp Miễn Phí
+Revive
+Hồi Sinh
+Torre ÉPICA (4 upagens) por 3 caminhos, depois vai embora
+Tháp SỬ THI (4 nâng cấp) trong 3 chặng, sau đó rời đi
+Recupera 50% da vida
+Hồi 50% mạng
+Recupera 30% da vida
+Hồi 30% mạng
+Upa uma árvore aleatória
+Nâng cấp một nhánh ngẫu nhiên
+Volta com metade da vida ao morrer
+Khi thua, quay lại với một nửa mạng
+HERÓI  nível {0}
+ANH HÙNG  cấp {0}
+Sem upagens
+Không có nâng cấp
+{0} upagens sorteadas
+{0} nâng cấp ngẫu nhiên
+Alugada: não vende
+Tháp thuê: không bán được
+Upar e vender: só na Loja
+Nâng cấp và bán: chỉ ở Cửa hàng
+O Poder da Run carrega 50% mais rápido
+Sức Mạnh Lượt Chơi nạp đầy nhanh hơn 50%
+Usar o Poder da Run dá +$100 e recupera 5 de vida
+Dùng Sức Mạnh Lượt Chơi nhận +$100 và hồi 5 mạng
+A roleta nunca dá x0 (vira x1)
+Vòng quay không bao giờ ra x0 (thành x1)
+Mercador
+Thương Nhân
+Horda de Ouro
+Đại Quân Vàng
+Mercador Sombrio: cartas épicas e relíquias à venda
+Thương Nhân Bóng Tối: bán thẻ sử thi và di vật
+Inimigos dourados que pagam muito e não tiram vida
+Kẻ địch vàng thưởng hậu hĩnh và không trừ mạng
+Inimigos Robustos
+Kẻ Địch Cứng Cáp
+Pressa Humana
+Con Người Vội Vã
+Inflação
+Lạm Phát
+Fogueira Fria
+Lửa Trại Nguội
+Chefes Furiosos
+Trùm Cuồng Nộ
+Bolso Furado
+Túi Rách
+Vida Curta
+Mạng Mỏng
+Inimigos +20% de vida
+Kẻ địch +20% máu
+Inimigos 10% mais rápidos
+Kẻ địch nhanh hơn 10%
+Loja 25% mais cara
+Cửa hàng đắt hơn 25%
+Descansar cura a metade
+Nghỉ ngơi chỉ hồi một nửa
+Chefes +40% de vida
+Trùm +40% máu
+Recompensas -20% de ouro
+Phần thưởng -20% vàng
+Vida máxima -25%
+Mạng tối đa -25%
+Choque Térmico
+Sốc Nhiệt
+Olhos da Noite
+Mắt Đêm
+Caçada em Dupla
+Săn Đôi
+Veneno e Presas
+Nọc Độc & Nanh Vuốt
+Força Bruta
+Sức Mạnh Thô Bạo
+Mar Profundo
+Biển Sâu
+Fera e Mestre
+Thú & Chủ
+Engenhoca
+Cỗ Máy Kỳ Quặc
+Noite Sônica
+Đêm Sóng Âm
++40% de dano e +20% de cadência
++40% sát thương và +20% tốc bắn
++25% de alcance e +2 de perfuração
++25% tầm bắn và +2 xuyên
++30% de dano e +1 alvo
++30% sát thương và +1 mục tiêu
++50% de dano
++50% sát thương
++35% de dano e +20% de área
++35% sát thương và +20% vùng ảnh hưởng
++30% de dano e +15% de cadência
++30% sát thương và +15% tốc bắn
++25% de cadência e +1 alvo
++25% tốc bắn và +1 mục tiêu
++40% de dano
++40% sát thương
++20% de alcance e +20% de cadência
++20% tầm bắn và +20% tốc bắn
+Chuva de Meteoros
+Mưa Thiên Thạch
+Muralha de Espinhos
+Tường Gai
+Tempo Lento
+Thời Gian Chậm
+Ventania
+Cuồng Phong
+Grito de Guerra
+Tiếng Hô Xung Trận
+Olho que Tudo Vê
+Mắt Thấu Thị
+Chuva de Ouro
+Mưa Vàng
+Fonte da Vida
+Suối Sinh Mệnh
+Dano em todos os inimigos da tela (cresce com o andar; no chefe, 5% da vida)
+Gây sát thương lên mọi kẻ địch trên màn hình (tăng theo tầng; với trùm là 5% máu)
+Prende todos os inimigos (até blindados) por 2,5s
+Trói mọi kẻ địch (kể cả bọc giáp) trong 2,5s
+Inimigos 60% mais lentos por 6s
+Kẻ địch chậm hơn 60% trong 6s
+Empurra todos os inimigos para trás no caminho (até blindados)
+Đẩy lùi mọi kẻ địch trên đường đi (kể cả bọc giáp)
+Todas as torres atacam 60% mais rápido por 8s
+Mọi tháp tấn công nhanh hơn 60% trong 8s
+Tira camuflagem e blindagem de todos os inimigos da tela
+Gỡ tàng hình và giáp của mọi kẻ địch trên màn hình
+Ouro na hora: $30 + $5 por inimigo na tela (cresce com o andar)
+Vàng ngay: $30 + $5 mỗi kẻ địch trên màn hình (tăng theo tầng)
+Recupera 10% da vida máxima (mínimo 5)
+Hồi 10% mạng tối đa (tối thiểu 5)
+Golpe Pesado
+Đòn Nặng
+Olhar Afiado
+Mắt Tinh Tường
+Liderança
+Thủ Lĩnh
+Fúria Veloz
+Cuồng Nộ Thần Tốc
+Ataque em Leque
+Tấn Công Hình Quạt
+Habilidade recarrega 2x mais rápido
+Kỹ năng hồi chiêu nhanh gấp 2x
+Herói +30% de alcance
+Anh hùng +30% tầm bắn
+TODAS as torres +8% de dano
+MỌI tháp +8% sát thương
+Herói +35% de cadência
+Anh hùng +35% tốc bắn
+Herói +2 alvos/projéteis
+Anh hùng +2 mục tiêu/đạn
+Só torres mágicas
+Chỉ tháp Ma Thuật
+Tudo camuflado
+Tất cả đều tàng hình
+Sem loja
+Không có cửa hàng
+Metade da vida
+Một nửa mạng
+Inimigos 30% mais rápidos
+Kẻ địch nhanh hơn 30%
+Só cartas ÉPICAS, loja 2x mais cara
+Chỉ có thẻ SỬ THI, cửa hàng đắt gấp 2x
+Floresta
+Rừng
+Neve
+Tuyết
+Deserto
+Sa Mạc
+Vulcão
+Núi Lửa
+Pântano
+Đầm Lầy
+sem regra especial
+không có luật đặc biệt
+inimigos 15% mais lentos, mas resistem a gelo (-20%)
+kẻ địch chậm hơn 15%, nhưng kháng băng (-20%)
+alcance de todas -10%, ouro das recompensas +20%
+tầm bắn mọi tháp -10%, vàng phần thưởng +20%
+fogo +20% de dano, inimigos +10% de vida
+lửa +20% sát thương, kẻ địch +10% máu
+veneno +40% e inimigos regeneram mais
+độc +40% và kẻ địch hồi máu nhiều hơn
+Zepelim Tempestade
+Khí Cầu Bão Tố
+Tanque Escavador
+Xe Tăng Đào Đất
+Fortaleza de Geradores
+Pháo Đài Máy Phát
+General Barril
+Tướng Thùng Phuy
+Iceberg Blindado
+Băng Sơn Bọc Giáp
+Rainha da Nevasca
+Nữ Hoàng Bão Tuyết
+Escorpião de Areia
+Bọ Cạp Cát
+Faraó Mumificado
+Pharaoh Xác Ướp
+Golem de Magma
+Golem Dung Nham
+Hidra do Pântano
+Hydra Đầm Lầy
+a cada fase some na nuvem (camuflado) e solta caminhões
+mỗi giai đoạn biến mất trong mây (tàng hình) và thả xe tải
+a cada fase se enterra e fica imune por 3s
+mỗi giai đoạn chui xuống đất và miễn nhiễm trong 3s
+a cada fase liga um escudo de 25% da vida
+mỗi giai đoạn bật khiên bằng 25% máu
+a cada fase acelera os inimigos e joga bombinhas
+mỗi giai đoạn tăng tốc kẻ địch và ném bom nhỏ
+a cada fase solta 3 cerâmicas e toma só metade do dano por 4s
+mỗi giai đoạn thả 3 bình gốm và chỉ nhận một nửa sát thương trong 4s
+a cada fase blinda todos os inimigos do campo e se cura 10%
+mỗi giai đoạn bọc giáp mọi kẻ địch trên sân và tự hồi 10%
+a cada fase dá uma ARRANCADA (2,5x mais rápido por 2,5s)
+mỗi giai đoạn BỨT TỐC (nhanh gấp 2,5x trong 2,5s)
+a cada fase levanta 6 inimigos e se cura 15%
+mỗi giai đoạn gọi dậy 6 kẻ địch và tự hồi 15%
+a cada fase se parte em 2 tanques e fica 30% mais rápido
+mỗi giai đoạn tách thành 2 xe tăng và nhanh hơn 30%
+a cada fase passa a regenerar e chama 2 curandeiros
+mỗi giai đoạn bắt đầu hồi máu và gọi 2 thầy thuốc
++2 projéteis por tiro
++2 đạn mỗi phát bắn
+25% de chance de ATORDOAR no acerto
+25% cơ hội gây CHOÁNG khi trúng
+20% de chance de EXPLOSÃO arcana no acerto
+20% cơ hội gây NỔ phép thuật khi trúng
+Primeiro Passo
+Bước Đầu Tiên
+Explorador
+Nhà Thám Hiểm
+Veterano
+Cựu Binh
+Rei Deposto
+Phế Vương
+Colecionador
+Nhà Sưu Tầm
+Estrela
+Ngôi Sao
+Perfeccionista
+Người Cầu Toàn
+Achado Raro
+Phát Hiện Hiếm
+Contratado
+Đã Ký Hợp Đồng
+Corajoso
+Gan Dạ
+Caça-Mímico
+Thợ Săn Rương Quái
+Combo Lendário
+Combo Huyền Thoại
+Vença o chefe do andar 1
+Hạ trùm tầng 1
+Alcance o andar 3
+Đạt tầng 3
+Alcance o andar 5
+Đạt tầng 5
+Vença o Rei das Bombas (andar 10)
+Hạ Vua Bom (tầng 10)
+Tenha 10 relíquias numa run
+Có 10 di vật trong một lượt chơi
+Funda uma torre ESTRELA
+Hợp nhất một tháp NGÔI SAO
+3 estrelas num Desafio
+Đạt 3 sao trong một Thử thách
+Encontre o Mercador Sombrio
+Gặp Thương Nhân Bóng Tối
+Cumpra um contrato do andar
+Hoàn thành một hợp đồng tầng
+Vença o andar 3 com Ameaça 5+
+Vượt tầng 3 với Hiểm Họa 5+
+Derrote um Mímico
+Hạ một Rương Quái
+Faça um combo x50
+Đạt combo x50
+Sem borda
+Không viền
+Bronze
+Đồng
+Prata
+Bạc
+primárias
+Tháp Chính
+militares
+Quân Sự
+mágicas
+Ma Thuật
+Festival
+Lễ Hội
+Erupção
+Phun Trào
+todos os inimigos camuflados, mas +50% de ouro nas recompensas
+mọi kẻ địch đều tàng hình, nhưng vàng phần thưởng +50%
+loja e mercador 30% mais baratos
+cửa hàng và thương nhân rẻ hơn 30%
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+kẻ địch +20% máu, nhưng trùm để lại thêm một kho báu
+Vocês, bichos, não vão passar daqui!
+Lũ thú các ngươi đừng hòng qua được đây!
+Mais uma floresta pra explodir!
+Thêm một khu rừng để cho nổ tung!
+Ninguém segura o caminhão dos humanos!
+Không ai cản nổi xe tải của loài người!
+Quanto mais torre, mais diversão!
+Càng nhiều tháp, càng vui!
+Hoje a floresta vira estacionamento!
+Hôm nay khu rừng sẽ thành bãi đỗ xe!
+Isso não acabou... tenho primos!
+Chưa xong đâu... ta còn anh em họ!
+Meu seguro não cobre esquilo!
+Bảo hiểm của ta không chi trả vụ sóc!
+Volto no próximo andar!
+Hẹn gặp ở tầng sau!
+Socorro, uma coruja!
+Cứu với, có con cú!
+Meu escudo é de primeira!
+Khiên của ta là hàng xịn đấy!
+Abram caminho!
+Tránh đường ra!
+Quem quer bombinha?
+Ai muốn bom nhỏ nào?
+Vou consertar tudo!
+Để ta sửa hết cho!
+EU SOU O REI DAS BOMBAS! Ajoelhem-se, bichinhos!
+TA LÀ VUA BOM! Quỳ xuống đi, lũ thú nhỏ!
+Bando
+Bầy Đàn
+Batalhão
+Tiểu Đoàn
+Círculo Arcano
+Vòng Tròn Bí Thuật
+primárias +15% / +30% de cadência
+Tháp Chính +15% / +30% tốc bắn
+militares +15% / +30% de dano
+Quân Sự +15% / +30% sát thương
+mágicas +15% / +30% de dano e +10% de alcance
+Ma Thuật +15% / +30% sát thương và +10% tầm bắn
+TODAS +5% / +10% de alcance
+MỌI tháp +5% / +10% tầm bắn
+Caçador
+Thợ Săn
+Intocável
+Bất Khả Xâm Phạm
+Jejum
+Nhịn Ăn
+Mão de Vaca
+Kẹo Kéo
+Gatilho Rápido
+Nhanh Tay
+Mestre do Combo
+Bậc Thầy Combo
+Muralha
+Tường Thành
+Poder Total
+Toàn Lực
+Enxuto
+Tinh Gọn
+Fartura
+Sung Túc
+Caça-Tesouro
+Săn Kho Báu
+Ferreiro
+Thợ Rèn
+Vença 2 Elites ou Mini Chefes neste andar
+Hạ 2 Tinh Anh hoặc Trùm Nhỏ ở tầng này
+Chegue ao fim do andar com 90% da vida (ou mais)
+Kết thúc tầng với 90% mạng (trở lên)
+Não use nenhuma frutinha neste andar
+Không dùng quả mọng nào ở tầng này
+Chegue ao chefe com $1500 ou mais
+Đến trùm với $1500 trở lên
+Pegue 2 relíquias neste andar
+Nhặt 2 di vật ở tầng này
+Chame 3 ondas mais cedo neste andar
+Gọi sớm 3 đợt ở tầng này
+Faça um combo x30 neste andar
+Đạt combo x30 ở tầng này
+Faça 3 ondas perfeitas (sem vazar) neste andar
+Đạt 3 đợt hoàn hảo (không lọt) ở tầng này
+Nenhum inimigo pode vazar neste andar
+Không để kẻ địch nào lọt qua ở tầng này
+Use o Poder da Run 3 vezes neste andar
+Dùng Sức Mạnh Lượt Chơi 3 lần ở tầng này
+Termine o andar com no máximo 6 torres em campo
+Kết thúc tầng với tối đa 6 tháp trên sân
+Use 3 frutinhas neste andar
+Dùng 3 quả mọng ở tầng này
+Ganhe $GOLD com abates neste andar
+Kiếm $GOLD từ hạ gục ở tầng này
+Compre 4 upagens de torre neste andar
+Mua 4 nâng cấp tháp ở tầng này
+Chuva
+Mưa
+Neblina
+Sương Mù
+Noite
+Đêm
+Vento
+Gió
+fogo -20% de dano, gelo +20%
+lửa -20% sát thương, băng +20%
+todos os inimigos vêm camuflados
+mọi kẻ địch đều tàng hình
+mágicas +25% de dano
+Ma Thuật +25% sát thương
+inimigos +15% de velocidade
+kẻ địch +15% tốc độ
+Escudo
+Khiên
+Rápido
+Nhanh
+Divide
+Phân Tách
+Regenera
+Hồi Phục
+O REI DAS BOMBAS CHEGOU!
+VUA BOM ĐÃ ĐẾN!
+{0} chegou!
+{0} đã đến!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+Lối bí mật! Thương Nhân Bóng Tối đã trốn ở đây
+Mistério revelado: {0}
+Bí ẩn hé lộ: {0}
+(recompensa reforçada!)
+(phần thưởng tăng cường!)
+{0} vencida: +${1}
+Đã vượt {0}: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+Phun Trào: trùm để lại kho báu +${0}
+Pegar agora, investir ou girar a roleta?
+Lấy ngay, đầu tư hay quay Vòng Quay?
+HORDA DE OURO
+ĐẠI QUÂN VÀNG
+Fim da festa! Bônus de +${0} (além do ouro de cada dourado).
+Tiệc tàn! Thưởng +${0} (ngoài vàng từ mỗi kẻ địch vàng).
+Mercador Sombrio
+Thương Nhân Bóng Tối
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+Thẻ sử thi và di vật hiếm, trả bằng vàng của lượt chơi.
+Escolha uma torre
+Chọn một tháp
+EVENTO DO ANDAR: {0}: {1}
+SỰ KIỆN TẦNG: {0}: {1}
+Andar {0}: {1}: {2}
+Tầng {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+Chọn đường đi trên bản đồ các tầng: mỗi điểm dừng là một đợt hoặc một cuộc gặp gỡ.
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+Cường hóa, tháp, di vật, hợp đồng và Sức Mạnh Lượt Chơi có hiệu lực suốt lượt chơi.
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+Vua Bom chờ ở tầng 10; sau đó lượt chơi tiếp tục vô tận.
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+Hết mạng là hết lượt chơi. Cuối cùng bạn nhận pha lê và XP: đi càng xa, nhận càng nhiều.
+LADRÃO DE RELÍQUIA
+KẺ TRỘM DI VẬT
+REI DAS BOMBAS
+VUA BOM
+FASE {0}/3
+GIAI ĐOẠN {0}/3
+fraco a {0}
+yếu trước {0}
+Mistério
+Bí Ẩn
+resiste a {0}
+kháng {0}
+Recompensa: torre rara ou tesouro
+Phần thưởng: tháp hiếm hoặc kho báu
+Banir: {0} restantes nesta run
+Cấm: còn {0} lần trong lượt chơi này
+Confirmar
+Xác nhận
+Transplante ${0}
+Cấy Ghép ${0}
+VENDER ESTA TORRE?
+BÁN THÁP NÀY?
+recebe +${0}
+nhận +${0}
+Vender
+Bán
+Girar a Roleta
+Quay Vòng Quay
+Dupla: {0}
+Bộ Đôi: {0}
+Fundir
+Hợp Nhất
+Evolução Lendária
+Tiến Hóa Huyền Thoại
+Trocar Relíquia
+Đổi Di Vật
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+Gốc ${0}: có thể ra x0, x0,5, x1, x1,5, x2, x3, x5 (cực hiếm), nâng cấp miễn phí hoặc di vật
+Prêmio: ${0}
+Giải thưởng: ${0}
+TROCA o seu {0} (só dá para levar 1)
+THAY THẾ {0} của bạn (chỉ mang được 1)
+{0} + {1}: as duas {2}
+{0} + {1}: cả hai {2}
+3 torres {0} viram 1 torre ESTRELA: soma os buffs e ganha +80% de dano, +15% de cadência e +10% de alcance
+3 tháp {0} hợp thành 1 tháp NGÔI SAO: cộng dồn cường hóa và nhận +80% sát thương, +15% tốc bắn và +10% tầm bắn
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +50% sát thương, ánh vàng rực rỡ và {1}
+Entregue uma relíquia sua e escolha 1 de 3 novas
+Giao một di vật của bạn và chọn 1 trong 3 di vật mới
+falhou
+thất bại
+ok
+đạt
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+KẺ CƯỚP! Nếu hắn thoát, hắn sẽ lấy 10% vàng của bạn
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+KẺ TRỘM DI VẬT! Nếu hắn thoát, hắn sẽ cướp một di vật
+{0} FASE {1}/3: {2}
+{0} GIAI ĐOẠN {1}/3: {2}
+O saqueador fugiu com ${0}!
+Kẻ cướp đã chạy mất với ${0}!
+O ladrão fugiu com {0}!
+Kẻ trộm đã chạy mất với {0}!
+Saqueador derrubado: +${0}
+Đã hạ kẻ cướp: +${0}
+Ladrão derrubado! +${0}
+Đã hạ kẻ trộm! +${0}
+LADRÃO! +${0}
+KẺ TRỘM! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+Con người đã dựng một ĂNG-TEN! Chạm vào nó 5x để phá hủy
+Antena destruída! +${0}
+Đã phá ăng-ten! +${0}
+{0} CARREGADO! Toque no botão.
+{0} ĐÃ NẠP ĐẦY! Chạm vào nút.
+Chuva de Ouro: +${0}
+Mưa Vàng: +${0}
+Fonte da Vida: +{0} de vida
+Suối Sinh Mệnh: +{0} mạng
+Contrato: {0}
+Hợp đồng: {0}
+{0} (botão no topo, na onda)
+{0} (nút ở trên cùng, trong đợt)
+Contrato {0} não cumprido
+Chưa hoàn thành hợp đồng {0}
+Contrato cumprido! +${0}
+Hoàn thành hợp đồng! +${0}
+x0: azar! Não ganhou nada
+x0: xui quá! Không được gì
+JACKPOT! 
+TRÚNG ĐẬM! 
+Upagem grátis!
+Nâng cấp miễn phí!
+RELÍQUIA! {0}
+DI VẬT! {0}
+Talento do herói
+Thiên phú anh hùng
+Nível {0}: escolha um talento.
+Cấp {0}: chọn một thiên phú.
+{0} banido nesta run (restam {1})
+Đã cấm {0} trong lượt chơi này (còn {1})
+Dupla ativa: {0}
+Bộ Đôi kích hoạt: {0}
+O herói aprendeu {0}
+Anh hùng đã học {0}
+Fusão! {0} virou torre ESTRELA
+Hợp nhất! {0} đã thành tháp NGÔI SAO
+{0} virou LENDÁRIA!
+{0} đã thành HUYỀN THOẠI!
+Poder trocado: {0}
+Đã đổi sức mạnh: {0}
+{0} buffs foram para {1} (-${2})
+{0} cường hóa đã chuyển sang {1} (-${2})
+Entregou {0}
+Đã giao {0}
+Borda {0} liberada!
+Đã mở khóa viền {0}!
+Conquista: {0}
+Thành tựu: {0}
+Diária
+Hằng ngày
+Ameaça {0}
+Hiểm Họa {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+Hôm nay mọi người chơi cùng một bản đồ; 2 hiểm họa ngẫu nhiên theo ngày
+Regra da semana: {0}
+Luật của tuần: {0}
+Ameaça
+Hiểm Họa
+Código
+Mã
++{0}% de cristais no fim da run
++{0}% pha lê cuối lượt chơi
+Ameaça libera ao chegar no andar {0}
+Mở khóa Hiểm Họa khi đạt tầng {0}
+Código da run
+Mã lượt chơi
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+Cùng một mã sẽ tạo ra cùng các tầng. Để trống để có bản đồ mới.
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+Hiểm Họa {0}  ·  +{1}% pha lê cuối lượt chơi
+Pronto
+Xong
+Compêndio
+Bách Khoa
+Descobertos: {0}/{1}
+Đã khám phá: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+Chưa gặp. Tiếp tục chơi để khám phá.
+Conquistas {0}/{1}
+Thành tựu {0}/{1}
+Borda das cartas (libera a cada 3 conquistas):
+Viền thẻ (mở khóa mỗi 3 thành tựu):
+Suas melhores runs neste quadro (neste aparelho)
+Lượt chơi tốt nhất của bạn trên bảng này (trên thiết bị này)
+Ninguém ainda: termine uma run para entrar aqui!
+Chưa có ai: hoàn thành một lượt chơi để có mặt ở đây!
+andar {0} · {1} caminhos
+tầng {0} · {1} chặng
+Últimas runs
+Lượt chơi gần đây
+Nenhuma run terminada ainda.
+Chưa hoàn thành lượt chơi nào.
+SORTEANDO A SUA RUN
+ĐANG BỐC THĂM LƯỢT CHƠI CỦA BẠN
+Boa sorte! Toque para começar
+Chúc may mắn! Chạm để bắt đầu
+Toque para pular
+Chạm để bỏ qua
+ROLETA DO TESOURO
+VÒNG QUAY KHO BÁU
+Girando... base ${0}
+Đang quay... gốc ${0}
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  Chạm vào di vật bạn sẽ GIAO
+2/2  Escolha a relíquia nova
+2/2  Chọn di vật mới
+Transplante
+Cấy Ghép
+1/2  Toque na torre que vai DOAR os buffs
+1/2  Chạm vào tháp sẽ CHO cường hóa
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  Chạm vào tháp sẽ NHẬN {0} cường hóa  ·  ${1}
+{0} buffs
+{0} cường hóa
+Você derrotou o Rei das Bombas!
+Bạn đã hạ Vua Bom!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+Tiếp tục ở chế độ vô tận (các tầng ngày càng khó hơn) hoặc kết thúc và nhận thưởng.
+Encerrar
+Kết thúc
+carregando {0}% (derrote inimigos ou aguarde na onda)
+đang nạp {0}% (hạ kẻ địch hoặc chờ trong đợt)
+use durante a onda
+dùng trong đợt
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+Cường hóa, tháp, di vật và Sức Mạnh Lượt Chơi có hiệu lực suốt lượt chơi.
+Melhor: andar {0} · {1}/15
+Tốt nhất: Tầng {0} · {1}/15
+Andar {0} · caminho {1}/15
+Tầng {0} · chặng {1}/15
+(em andamento)
+(đang chơi)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+Vẫn còn trống: vượt qua chặng đầu tiên của một lượt chơi để xuất hiện ở đây!
+Nenhuma run registrada ainda.
+Chưa có lượt chơi nào được ghi lại.
+Tempestade de Raios
+Bão Sấm Sét
+Terremoto
+Động Đất
+Chuva de Flechas
+Mưa Tên
+Chamado da Matilha
+Tiếng Gọi Bầy Sói
+Armadilha de Mel
+Bẫy Mật Ong
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+Tia sét nhảy từ kẻ địch này sang kẻ địch khác (tối đa 12), gây sát thương lớn
+Congela todos os inimigos da tela (até blindados) por 3s
+Đóng băng mọi kẻ địch trên màn hình (kể cả bọc giáp) trong 3s
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+Làm choáng kẻ địch mặt đất 2s và gây sát thương cho tất cả
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+Mưa tên trút xuống nhóm đông nhất trong 4s
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+Sói linh hồn chạy ngược đường, cắn kẻ địch
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+Vũng mật ong ở nhóm đông nhất: kẻ địch chậm 65% và mất máu trong 6s
+Você tem {0}/{1}
+Đã có {0}/{1}
+Só o que você tem aparece nas runs
+Chỉ những gì bạn có mới xuất hiện trong lượt chơi
+Você tem
+Đã có
+Novo no Arsenal: {0}
+Mới trong Kho Vũ Khí: {0}
+Fazer {0} melhorias em torres
+Nâng cấp tháp {0} lần
+Colocar {0} torres no campo
+Đặt {0} tháp trên sân
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+Chỉ Ma Thuật
+Só torres mágicas na run
+Chỉ dùng tháp Ma Thuật trong lượt chơi
+Tudo Camuflado
+Toàn Tàng Hình
+Todos os inimigos vêm camuflados
+Mọi kẻ địch đều tàng hình
+Sem Loja
+Không Cửa Hàng
+As lojas do mapa viram melhorias
+Cửa hàng trên bản đồ hóa thành nâng cấp
+Menos vida e fogueira fraca
+Ít máu hơn và lửa trại yếu
+Correria
+Hối Hả
+Inimigos apressados e loja cara
+Kẻ địch vội vã và cửa hàng đắt đỏ
+Ouro Escasso
+Vàng Khan Hiếm
+Recompensas menores e loja cara
+Phần thưởng ít hơn và cửa hàng đắt đỏ
+Chefões Fortes
+Trùm Hùng Mạnh
+Chefes e inimigos mais resistentes
+Trùm và kẻ địch cứng cáp hơn
+Relíquias Malditas
+Di Vật Bị Nguyền
+Começa com 2 relíquias amaldiçoadas
+Bắt đầu với 2 di vật bị nguyền
+Só Épicas
+Chỉ Sử Thi
+Toda carta é épica, mas a loja custa o dobro
+Mọi thẻ đều là Sử Thi, nhưng cửa hàng đắt gấp đôi
+Metade da Vida
+Nửa Máu
+Metade da vida e chefes furiosos
+Nửa máu và trùm cuồng nộ
+Furacão
+Cuồng Phong
+Tudo corre muito mais rápido
+Mọi thứ diễn ra nhanh hơn nhiều
+Noite Eterna
+Đêm Vĩnh Hằng
+Inimigos camuflados e robustos
+Kẻ địch tàng hình và cứng cáp
+Feitiçaria
+Phép Thuật
+Só mágicas e loja inflacionada
+Chỉ Ma Thuật và cửa hàng lạm phát
+Deserto Sem Fim
+Sa Mạc Vô Tận
+Sem loja, pouco ouro e fogueira fria
+Không cửa hàng, ít vàng và lửa trại nguội
+Maldição Antiga
+Lời Nguyền Cổ Xưa
+3 relíquias malditas e inimigos robustos
+3 di vật bị nguyền và kẻ địch cứng cáp
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+Chơi thử thách
+Semanal
+Hằng tuần
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+Thử thách hôm nay: {0}  ·  chi tiết ở thẻ bên cạnh
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+Thử thách tuần này: {0}  ·  chi tiết ở thẻ bên cạnh
+Desafio Semanal
+Thử Thách Hằng Tuần
+Desafio Diário
+Thử Thách Hằng Ngày
+Nova semana em {0}d {1}h
+Tuần mới sau {0} ngày {1} giờ
+Novo em {0}
+Mới sau {0}
+Começa com {0} relíquias amaldiçoadas
+Bắt đầu với {0} di vật bị nguyền
+Prêmio: +{0}% de cristais no fim da run
+Thưởng: +{0}% pha lê cuối lượt chơi
+Ainda não jogado nesta semana
+Tuần này chưa chơi
+Ainda não jogado hoje
+Hôm nay chưa chơi
+Seu melhor na semana: Andar {0} · caminho {1}/15
+Tốt nhất tuần này: Tầng {0} · chặng {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+Tốt nhất hôm nay: Tầng {0} · chặng {1}/15
+Vencer 1 partida
+Thắng 1 trận
+Derrotar {0} tanques
+Hạ {0} xe tăng
+Derrotar {0} inimigos de cerâmica
+Hạ {0} kẻ địch gốm
+Um mapa diferente a cada andar
+Mỗi tầng một bản đồ khác
+Presente: ouro para a melhoria!
+Quà: vàng để nâng cấp!
+PULAR TUTORIAL
+BỎ QUA HƯỚNG DẪN
+Escolha a Raposa
+Chọn Cáo
+Toque aqui, perto do caminho
+Chạm vào đây, gần đường đi
+Solte a onda!
+Thả đợt quái!
+A torre ataca sozinha!
+Tháp tự động tấn công!
+Toque perto do caminho
+Chạm gần đường đi
+Ganhou ouro! Coloque outra torre
+Có vàng rồi! Đặt thêm một tháp
+Toque na sua torre
+Chạm vào tháp của bạn
+Compre uma melhoria
+Mua một nâng cấp
+Mais rápido: toque no x1
+Nhanh hơn: chạm x1
+Vença as {0} ondas!
+Thắng {0} đợt!
+Passo {0} de {1}
+Bước {0}/{1}
+Seu HERÓI: coloque no campo
+ANH HÙNG của bạn: đặt lên sân
+Escolha quem a torre ataca
+Chọn mục tiêu cho tháp
+AUTO: as ondas seguem sozinhas
+TỰ ĐỘNG: các đợt nối tiếp nhau
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+TÀNG HÌNH! Chỉ tháp có "Thấy tàng hình" mới phát hiện được
+Vida caindo! Coloque mais torres
+Mất máu! Đặt thêm tháp
+Dica
+Mẹo
+Prêmios das missões ficam aqui
+Phần thưởng nhiệm vụ ở đây
+Toque no prêmio verde para receber. Depois, Voltar
+Chạm phần thưởng xanh để nhận. Sau đó, Quay lại
+Hora de jogar!
+Đến giờ chơi rồi!
+Escolha a dificuldade
+Chọn độ khó
+Agora é só jogar!
+Giờ chỉ việc chơi thôi!
+Bem-vindo!
+Chào mừng!
+Você já sabe jogar! Aqui está um presente para começar:
+Bạn đã biết cách chơi! Đây là quà khởi đầu:
+Receber
+Nhận
+Pular o tutorial?
+Bỏ qua hướng dẫn?
+Dá para refazer depois no botão ? do menu.
+Bạn có thể làm lại sau bằng nút ? trong menu.
+Refazer o tutorial?
+Làm lại hướng dẫn?
+Refazer
+Làm lại
+Muito bem! Você já sabe jogar.
+Tuyệt lắm! Bạn đã biết cách chơi.
+Aqui está um presente para começar:
+Đây là quà khởi đầu:
+Ganhou ouro! Arraste uma torre até o campo
+Có vàng rồi! Kéo một tháp vào sân
+Arraste a torre até o lugar marcado
+Kéo tháp đến chỗ được đánh dấu
+Toque para receber o prêmio!
+Chạm để nhận thưởng!
+Agora, volte ao menu
+Giờ hãy quay lại menu
+Blindado: não
+Bọc giáp: không
+Blindado: sim
+Bọc giáp: có
+CERÂMICA! Bem resistente: explosão faz pouco dano
+GỐM! Rất cứng: nổ gây ít sát thương
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+THẦY THUỐC! Hồi máu cho đồng bọn: hạ nó trước
+Camuflado: não
+Ngụy trang: không
+Camuflado: sim
+Ngụy trang: có
+Carregando
+Đang tải
+Enviar 1
+Gửi 1
+Enviar 10
+Gửi 10
+Escolha a onda e mande qualquer inimigo
+Chọn đợt và gửi bất kỳ kẻ địch nào
+Idioma
+Ngôn ngữ
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+Miễn nhiễm NỔ! Dùng tên, kiếm hoặc phép
+Imune a GELO e a EXPLOSÕES!
+Miễn nhiễm BĂNG và NỔ!
+Imune a GELO! Não fica mais lento
+Miễn nhiễm BĂNG! Không bị làm chậm
+Imune a MAGIA! A magia não machuca este
+Miễn nhiễm PHÉP! Phép thuật không gây sát thương
+METAL! Só fogo, raio ou explosão machucam
+KIM LOẠI! Chỉ lửa, sét hoặc nổ mới gây sát thương
+Melhore a torre: {0}/{1}
+Nâng cấp tháp: {0}/{1}
+Não dá cristais, XP nem missões
+Không nhận pha lê, XP hay nhiệm vụ
+Onda {0}
+Đợt {0}
+Opções
+Tùy chọn
+Ouro e vida infinitos
+Vàng và mạng vô hạn
+PROTEGIDO! Só MAGIA faz dano cheio
+ĐƯỢC BẢO VỆ! Chỉ PHÉP gây đủ sát thương
+REGENERA! Acabe com ele rápido
+HỒI PHỤC! Hạ nó thật nhanh
+SANDBOX  (abrir)
+SANDBOX  (mở)
+SANDBOX  (fechar)
+SANDBOX  (đóng)
+Sandbox
+Sandbox
+Sandbox: ouro e vida infinitos
+Sandbox: vàng và mạng vô hạn
+Som
+Âm thanh
+Todos os animais liberados
+Mở khóa tất cả động vật
+Toque na torre para continuar
+Chạm vào tháp để tiếp tục
+Toque nesta torre
+Chạm vào tháp này
+Treine à vontade!
+Luyện tập thoải mái!
+VEÍCULO! Muita vida: junte dano forte
+PHƯƠNG TIỆN! Rất nhiều máu: dồn sát thương mạnh
+Tela cheia
+Toàn màn hình
+Sair da tela cheia
+Thoát toàn màn hình
+Gire o celular para continuar
+Xoay điện thoại để tiếp tục
+No iPhone o Safari não deixa a página ficar em tela cheia.
+Trên iPhone, Safari không cho trang web ở chế độ toàn màn hình.
+Para jogar sem as barras do navegador:
+Để chơi không có thanh trình duyệt:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. Chạm Chia sẻ (ô vuông có mũi tên lên)
+2. Escolha "Adicionar à Tela de Início"
+2. Chọn "Thêm vào MH chính"
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. Mở trò chơi từ biểu tượng mới: nó sẽ mở toàn màn hình
+Entendi
+Đã hiểu
+Jogo
+Trò chơi
+Refazer tutorial
+Làm lại hướng dẫn
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+Hoàn thành nhiệm vụ của skin để mua được nó. Skin sẽ xuất hiện trong trận của bạn.
+Bônus
+Thưởng
+Dica: use dois dedos (pinça) para dar zoom no mapa
+Mẹo: chụm hai ngón tay để phóng to bản đồ
+Conquistas
+Thành tựu
+Relíquias
+Di vật
+Automática
+Tự động
+Vila
+Ngôi làng
+Santuário
+Thánh địa
+Histórico
+Lịch sử
+{0} chefes  ·  {1} elites
+{0} trùm  ·  {1} tinh anh
+{0} abates  ·  {1} torres
+{0} hạ gục  ·  {1} tháp
+Escudo -{0}
+Khiên -{0}
+Dourado: sem dano
+Vàng: không mất máu
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP nhân đôi!
+Aventura
+Phiêu lưu
+Feira
+Hội chợ

@@ -1,0 +1,1282 @@
+Chumbo
+Lead
+Regenerativo
+Regen
+Porta-Tanques
+Tank Carrier
+Tanque Maior
+Big Tank
+Dirigível Maior
+Big Airship
+Mapa liberado: {0}
+Map unlocked: {0}
+Dificuldade liberada: {0}
+Difficulty unlocked: {0}
+Animal liberado: {0}
+Animal unlocked: {0}
+Skin liberada: {0} {1}
+Skin unlocked: {0} {1}
+Missão concluída!
+Mission complete!
+Apelido: {0}
+Nickname: {0}
+Trocar
+Change
+Mouse ou toque
+Mouse or touch
+Espaço: iniciar onda
+Space: start wave
+Mapas
+Maps
+Mapa bloqueado
+Map locked
+{0}/7 medalhas  -  moldura {1}
+{0}/7 medals  -  {1} frame
+Dificuldade bloqueada
+Difficulty locked
+{0} ondas
+{0} waves
+recorde {0}
+best {0}
+(os heróis chegam numa próxima etapa da versão web)
+(heroes arrive in a future update of the web version)
+(medalha {0} só do {1} para cima)
+({0} medal only on {1} or higher)
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+Primary towers only (Fox, Bear, Turtle, Eagle, Penguin, Hedgehog, Shark).
+Sem herói na partida.
+No hero in this match.
+Os inimigos dão metade do ouro.
+Enemies give half the gold.
+Partida normal.
+Normal match.
+Animais
+Animals
+Skins
+Skins
+Concluída
+Complete
+{0} de {1} concluídas
+{0} of {1} complete
+Álbum de medalhas — {0} de {1}
+Medal album — {0} of {1}
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+Medals: F Easy · M Medium · D Hard · I Unstoppable · P Primary Only · H No Heroes (Medium+) · ½ Half Gold (Hard+). Frame: bronze (Easy), silver (Medium), gold (Hard/Unstoppable), diamond (all 7).
+TOP JOGADORES
+TOP PLAYERS
+Nenhuma partida neste mapa ainda.
+No matches on this map yet.
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+Records from this device. The online ranking depends on Poki's approval.
+Seu apelido
+Your nickname
+Aleatório
+Random
+Use de 3 a 16 letras/números, sem palavrões.
+Use 3 to 16 letters/numbers, no bad words.
+Remover a pedra?
+Remove the rock?
+Libera espaço para torres
+Frees up space for towers
+Você venceu {0} no {1}!
+You beat {0} on {1}!
+Você chegou até a onda {0}.
+You reached wave {0}.
+Continuar no Modo Livre
+Continue in free mode
+Jogar novamente
+Play again
+Modo Livre
+Free mode
+Liberado! Este animal chega na próxima atualização da versão web.
+Unlocked! This animal arrives in the next update of the web version.
+Carregando o animal... tente de novo em instantes.
+Loading the animal... try again in a moment.
+Só torres Primárias nesta partida.
+Only Primary towers in this match.
+qualquer mapa
+any map
+com {0} em campo
+with {0} on the field
+Vencer {0} no {1}
+Beat {0} on {1}
+ ou acima
+ or higher
+com a regra "{0}"
+with the "{0}" rule
+Chegar à onda {0} em {1}
+Reach wave {0} on {1}
+ (Modo Livre)
+ (free mode)
+camuflados
+camo enemies
+Derrotar {0} {1}
+Defeat {0} {1}
+Conseguir {0} medalhas
+Earn {0} medals
+Levar {0} árvores ao nível DEUS
+Take {0} trees to GOD level
+As 4 medalhas de dificuldade num mesmo mapa
+All 4 difficulty medals on the same map
+Cósmica
+Cosmic
+Pausado
+Paused
+Sair da partida?
+Leave the match?
+Sair para o menu
+Back to menu
+Continuar jogando
+Keep playing
+Local válido
+Valid spot
+Animal novo na loja!
+New animal in the shop!
+Anúncio indisponível — sem recompensa.
+Ad unavailable - no reward.
+Bônus  {0}/{1}
+Bonus  {0}/{1}
+Chega no nível {0}
+Unlocks at level {0}
+Chega no nível {0} (você está no nível {1}).
+Unlocks at level {0} (you are level {1}).
+Chegar à onda {0} no {1}
+Reach wave {0} on {1}
+Completar um mapa (moldura de diamante)
+Complete a map (diamond frame)
+Comprado!
+Purchased!
+Comprar  {0}
+Buy  {0}
+Compre o animal para usar skins
+Buy the animal to use skins
+Conquistas  {0}/{1}
+Achievements  {0}/{1}
+Cristais dobrados!
+Crystals doubled!
+Cristais x2
+Crystals x2
+Cristais x2 (+{0})
+Crystals x2 (+{0})
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+Complete the skin's mission to be able to buy it. The new look shows up in matches in the next update.
+Disponível para comprar!
+Available to buy!
+Disponível! Compre por {0} cristais em Animais, no menu.
+Available! Buy it for {0} crystals in Animals, on the menu.
+Em uso
+In use
+Faltam {0} cristais
+{0} crystals missing
+Jogar {0} partidas
+Play {0} matches
+Jogue partidas para ganhar XP
+Play matches to earn XP
+Missões dão cristais extras
+Missions give extra crystals
+NOVO
+NEW
+Na sua coleção
+In your collection
+Novo animal disponível!
+New animal available!
+Novo: {0} disponível!
+New: {0} available!
+Nível {0}
+Level {0}
+Próximo animal: {0} no nível {1}
+Next animal: {0} at level {1}
+Recebido
+Received
+Skin liberada para compra: {0} {1}
+Skin available to buy: {0} {1}
+Subiu para o nível {0}!
+Reached level {0}!
+Todos os animais disponíveis!
+All animals available!
+Usar
+Use
+Vencer os 10 mapas
+Win all 10 maps
+Vencer {0} mapas diferentes
+Win {0} different maps
+Vença "{0}" para liberar.
+Win "{0}" to unlock.
+Ver em Animais
+See in Animals
+Ver skins
+See skins
+Você: nível {0}
+You: level {0}
+XP em dobro nesta partida
+Double XP this match
+XP em dobro nesta partida!
+Double XP this match!
+XP x2
+XP x2
+XP x2 ativo
+XP x2 on
+libera {0}
+unlocks {0}
+Missões
+Missions
+Voltar
+Back
+Continuar
+Continue
+Reviver
+Revive
++{0} cristais
++{0} crystals
+VITÓRIA!
+VICTORY!
+DERROTA
+DEFEAT
+Selecionar
+Select
+Selecionado
+Selected
+Heróis
+Heroes
+Sons
+Sounds
+Música: sim
+Music: on
+Música: não
+Music: off
+Sons: sim
+Sounds: on
+Sons: não
+Sounds: off
+Próxima missão!
+Next mission!
+Tudo vencido!
+All cleared!
+Progresso: {0}/{1} mapas
+Progress: {0}/{1} maps
+Carregando o herói... tente de novo em instantes.
+Loading the hero... try again in a moment.
+alc {0}
+rng {0}
+Nv 10
+Lv 10
+Nv 20
+Lv 20
+Mapas
+Maps
+Trilha das Raízes
+Root Trail
+Pântano Nebuloso
+Misty Swamp
+Desfiladeiro Estreito
+Narrow Canyon
+Ilhas Flutuantes
+Floating Islands
+Mina Abandonada
+Abandoned Mine
+Praia dos Piratas
+Pirate Beach
+Floresta Sombria
+Shadow Forest
+Vulcão Rugidor
+Roaring Volcano
+Cidadela Congelada
+Frozen Citadel
+Trono do Caos
+Throne of Chaos
+Partida encerrada
+Match ended
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+All +60% damage. Curse: lose 3% health every wave
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+All +25% fire rate and +1 target. Curse: enemies +20% health
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
++$500 now and +$60 per wave. Curse: shop 40% more expensive
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+Burns deal double damage. Curse: ice towers -30% damage
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+Poison stacks up to 3x on the same enemy. Curse: poisoned enemies move 15% faster
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+Crits deal x4. Curse: non-crit hits -20% damage
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+Pop gold +100%. Curse: at the end of each floor you lose 25% of your gold
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+Hero +80% damage. Curse: other towers -15% damage
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+Summons and sentries +60% damage; Raccoon creatures +1 target. Curse: towers that don't summon -10% fire rate
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+Elites and Mini Bosses give double rewards. Curse: enemies +15% health
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+All +30% fire rate. Curse: enemies come out 25% closer together
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+Buff cards come 1 rarity higher. Curse: no card rerolls
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+Enemies that die EXPLODE, hitting those nearby. Curse: a leaking enemy explodes and costs +5 health
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+All +40% damage. Curse: each leak costs double health
+vença 1 chefe
+beat 1 boss
+vença {0} chefes
+beat {0} bosses
+Quebra: {0}
+To break: {0}
+fura +{0} camada(s)
+pierces +{0} layer(s)
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+Win the wave and pick 1 of 3 upgrades for a tower
+Vença a onda: ouro na hora ou investido
+Win the wave: gold now or invested
+Vença a onda e ganhe 1 de 3 torres grátis
+Win the wave and get 1 of 3 free towers
+Vença a onda: upagem grátis numa torre
+Win the wave: free upgrade on a tower
+Sem onda: compre melhorias e relíquias com ouro
+No wave: buy upgrades and relics with gold
+Sem onda: descansar ou treinar
+No wave: rest or train
+O chefe do andar: vença e escolha uma relíquia de chefe
+The floor boss: beat it and pick a boss relic
+Escolha a torre inicial da run
+Pick the run's starting tower
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+Tougher enemies and a modifier: pays rare cards and gold
+Vença a onda e escolha 1 de 3 relíquias
+Win the wave and pick 1 of 3 relics
+Sem onda: um encontro com escolhas
+No wave: an encounter with choices
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+A wave with a mini boss at the end: pays a rare tower or treasure
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+Win, no leaks and on time: up to 3 gold stars
+Uma onda, sem recompensa extra
+A single wave, no extra reward
+dano concentrado antes do conserto
+focused damage before the repair
+lentidão e torres no fim do caminho
+slows and towers at the end of the path
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+A bush loaded with magic berries. You can sell them at the market or eat them now.
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+A wasp nest buzzes on a low branch. Furious wasps make great allies, or terrible enemies.
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+A camel caravan stops at the dune. The merchants trade maps and sell water.
+50%: uma relíquia · 50%: perde 15% da vida
+50%: a relic · 50%: lose 15% health
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: free upgrade + $100 · 40%: lose 10% health
+Colher e vender
+Pick and sell
++$180 no mercado
++$180 at the market
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: all towers +10% fire rate for the rest of the run · 50%: lose 10% health
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: a relic · 40%: restore 15% health
+Perde 8% da vida: +$300 vendendo o mel
+Lose 8% health: +$300 selling the honey
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: chest with +$300 · 40%: the ice breaks, lose 15% health
++40 de escudo até o fim do andar (absorve vazamentos)
++40 shield until the end of the floor (absorbs leaks)
+50%: uma relíquia · 50%: perde $200 na areia
+50%: a relic · 50%: lose $200 in the sand
+Trocar mapas
+Trade maps
++$100 e +1 troca de cartas grátis neste andar
++$100 and +1 free card reroll on this floor
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+An EPIC damage buff on a random tower · 30%: burns your hand, lose 10% health
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: becomes an EPIC tower (4 upgrades) · 70%: it was just a frog
+O CHEFE DO ANDAR CHEGOU!
+THE FLOOR BOSS HAS ARRIVED!
+Mini chefe: {0}!
+Mini boss: {0}!
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+It was a MIMIC! Beat the chest and take double the gold
+Onda perfeita x{0}: +${1}
+Perfect wave x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} EVOLVED: {1}
+O chefe escapou! Sem a recompensa dele.
+The boss escaped! No reward from it.
+O chefe escapou!
+The boss escaped!
+Sem a recompensa dele.
+No reward from it.
+Revive usado! A onda recomeça.
+Revive used! The wave starts over.
+Maldição quebrada: {0} (o bônus fica)
+Curse broken: {0} (you keep the bonus)
+Escolha a torre inicial
+Pick your starting tower
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+It comes free, with 2 random upgrades. You still have your starting gold to buy more.
+Escolha uma melhoria
+Pick an upgrade
+Depois toque na torre que vai receber.
+Then tap the tower that will get it.
+Escolha uma torre grátis
+Pick a free tower
+Chefe derrotado! Escolha uma relíquia de chefe
+Boss defeated! Pick a boss relic
+Depois ainda ganha {0} com {1} upagens.
+Then you also get {0} with {1} upgrades.
+Elite vencido!
+Elite defeated!
++${0} de ouro. Escolha uma carta rara:
++${0} gold. Pick a rare card:
+Lua de Sangue: +${0}
+Blood Moon: +${0}
+Mini chefe derrotado!
+Mini boss defeated!
+Escolha uma relíquia
+Pick a relic
+Relíquias valem a run toda.
+Relics last the whole run.
+Loja do Coelho
+Rabbit's Shop
+Melhorias e relíquias, pagas com o ouro da run.
+Upgrades and relics, paid with your run gold.
+Dinheiro
+Money
+Pegar agora ou investir?
+Take it now or invest it?
+Escolha UMA.
+Pick ONE.
+DESAFIO: {0} de 3 estrelas
+CHALLENGE: {0} of 3 stars
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+Win: yes  ·  No leaks: {0}  ·  Within {1}s: {2}  ·  +${3}
+sim
+yes
+não
+no
+MÍMICO DERROTADO
+MIMIC DEFEATED
+O baú-monstro deixou cair +${0}
+The monster chest dropped +${0}
+Ganhou {0}! Toque no campo para posicionar.
+You got {0}! Tap the field to place it.
+O investimento rendeu: +${0}
+Your investment paid off: +${0}
+Bolsa Furada: -${0} no fim do andar
+Leaky Purse: -${0} at the end of the floor
+ANDAR {0}!
+FLOOR {0}!
+Entrega {0} (vale ~${1})
+Hand over {0} (worth ~${1})
+Escolha a árvore da upagem grátis.
+Pick the tree for the free upgrade.
+Já são {0} relíquias neste andar: {1} virou +${2}
+That's already {0} relics on this floor: {1} turned into +${2}
+Relíquia nova: {0}
+New relic: {0}
+-$250. Amuleto: {0}
+-$250. Amulet: {0}
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}. You got {1} with 4 upgrades! Tap the field to place it.
+Era um tesouro! Relíquia: {0}
+It was a treasure! Relic: {0}
+-{0} de vida.
+-{0} life.
+-{0} de vida máxima. Relíquia: {1}
+-{0} max life. Relic: {1}
+-$250. Relíquia: {0}
+-$250. Relic: {0}
+As frutinhas renderam +$180 no mercado.
+The berries sold for +$180 at the market.
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}. In the cargo: {1} with 2 upgrades! Tap the field to place it.
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+The wasps became allies! All towers +10% fire rate for the rest of the run.
+-$150. O ovo chocou uma relíquia: {0}
+-$150. The egg hatched a relic: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150. It was just a breakfast egg: +{0} life.
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+Stings! -{0} life, but the honey sold for +$300.
+-$200. +40 de escudo até o fim do andar.
+-$200. +40 shield until the end of the floor.
+Era real! Relíquia: {0}
+It was real! Relic: {0}
++$100 e +1 troca de cartas grátis neste andar.
++$100 and +1 free card reroll on this floor.
+-{0} de vida máxima.
+-{0} max life.
+A mão queimou: -{0} de vida.
+Your hand got burned: -{0} life.
+A maldição de {0} sumiu!
+The curse on {0} is gone!
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+The frog turned into {0} with 4 upgrades! Tap the field to place it.
+{0} foi entregue ao altar. Relíquia: {1}
+{0} was given to the altar. Relic: {1}
+Não havia torre para receber.
+There was no tower to receive it.
+{0} ganhou {1} (Épico)
+{0} gained {1} (Epic)
+Modo Rogue
+Rogue Mode
+Como funciona
+How it works
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+Choose your path on a 3-floor map: each stop is a wave or an encounter.
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+Win to earn upgrades, free towers and relics that last the whole run.
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+Elites and mini bosses are tougher, but they pay better. A boss closes each floor.
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+Gold, life and towers carry over from one path to the next. Run out of life and the run is over.
+No fim você ganha cristais e XP: quanto mais longe, mais.
+At the end you earn crystals and XP: the further you go, the more you get.
+Melhor: andar {0}
+Best: floor {0}
+Runs: {0}
+Runs: {0}
+Andar {0}
+Floor {0}
+{0} relíquias
+{0} relics
+Continuar run
+Continue run
+Nova run
+New run
+Mapa: {0}
+Map: {0}
+Começar run
+Start run
+Começar outra run?
+Start another run?
+A run salva acaba aqui, sem recompensa.
+Your saved run ends here, with no reward.
+Sim, nova run
+Yes, new run
+Torre grátis: toque no campo para posicionar {0}
+Free tower: tap the field to place {0}
+Sair (a run fica salva)
+Exit (your run is saved)
++{0} escudo
++{0} shield
+Sem melhorias ainda
+No upgrades yet
+{0} melhorias nas torres
+{0} tower upgrades
+{0} ondas perfeitas
+{0} perfect waves
+{0} revive
+{0}x revive
+Toque no Início (o caminho que brilha) para começar
+Tap Start (the glowing path) to begin
+Nenhuma relíquia ainda
+No relics yet
+Chefe do andar
+Floor boss
+Onda {0} com inimigos +40% de vida
+Wave {0} with enemies +40% health
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+Reward: gold x1.5 and 1 of 3 rare cards
+Recompensa: melhoria rara, torre rara ou tesouro
+Reward: rare upgrade, rare tower or treasure
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+A giant, slow vehicle. If it escapes, the run is over.
+É o chefe final: vença e a run está ganha!
+It's the final boss: beat it and the run is yours!
+Fecha o andar.
+Closes the floor.
+Recompensa: relíquia de chefe e uma torre
+Reward: boss relic and a tower
+Ir por aqui
+Go this way
+Trocar estoque ${0}
+Restock ${0}
+Trocar (grátis)
+Reroll (free)
+Trocar ${0}
+Reroll ${0}
+Sair da loja
+Leave shop
+de Chefe
+Boss
+Amaldiçoada
+Cursed
+Comprado
+Bought
+para: {0}
+for: {0}
+Sem upagens. Chega de graça.
+No upgrades. Comes free.
+Chega de graça com {0} upagens sorteadas.
+Comes free with {0} random upgrades.
+Mais uma torre {0} sem upagens, por metade do preço.
+One more {0} tower with no upgrades, at half price.
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: 1 free upgrade in the tree you choose
+Herói +2 níveis
+Hero +2 levels
+Nível {0} para {1}
+Level {0} to {1}
+Escolha a torre
+Pick the tower
+{0} melhorias
+{0} upgrades
+Nenhuma torre no campo pode receber esta melhoria.
+No tower on the field can take this upgrade.
+Andar {0} de {1}
+Floor {0} of {1}
+RUN VENCIDA!
+RUN WON!
+FIM DA RUN
+RUN OVER
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+Floor {0}  ·  {1} paths  ·  {2} bosses  ·  {3} elites
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0} relics  ·  wave {1}  ·  {2} kills
+Diárias
+Daily
+Relíquias  {0}/{1}
+Relics  {0}/{1}
+Relíquia liberada: {0}
+Relic unlocked: {0}
+Jogar {0} corridas no Rogue
+Play {0} Rogue runs
+Vencer {0} corridas no Rogue
+Win {0} Rogue runs
+Derrotar {0} chefes no Rogue
+Defeat {0} bosses in Rogue
+Vencer {0} elites no Rogue
+Beat {0} elites in Rogue
+Chegar ao andar {0} no Rogue
+Reach floor {0} in Rogue
+Vencer {0} partidas
+Win {0} matches
+Baú diário
+Daily chest
+Volte amanhã para continuar a sequência!
+Come back tomorrow to keep your streak going!
+Pronto para abrir!
+Ready to open!
+Resgate as 3 missões de hoje para abrir.
+Claim today's 3 missions to open it.
+Sequência: 1 dia
+Streak: 1 day
+Sequência: {0} dias
+Streak: {0} days
+Novas missões em {0}
+New missions in {0}
+Desafio do Dia
+Daily Challenge
+Desafio do Dia concluído!
+Daily Challenge complete!
+Concluído hoje!
+Done for today!
+Vença para ganhar +{0} cristais
+Win to earn +{0} crystals
+Recorde de hoje: onda {0}
+Today's best: wave {0}
+Novo desafio em {0}
+New challenge in {0}
++$40 a cada onda vencida
++$40 for each wave won
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+Starting tower with 3 random upgrades. Other towers come from map cards and the Shop.
+O aluguel acabou: {0} foi embora
+Rental over: {0} has left
+Toque no campo para posicionar: {0}
+Tap the field to place: {0}
+Treino +{0}% de dano
+Training +{0}% damage
+Torres vêm das cartas do mapa.
+Towers come from map cards.
+Upar e vender: só na Loja.
+Upgrade and sell: Shop only.
+alugada: {0} caminhos
+rented: {0} paths
+Treino {0}: +{1}% de dano
+Training {0}: +{1}% damage
+Toque numa torre do painel para upar ou vender
+Tap a tower in the panel to upgrade or sell it
+Estoque esgotado
+Sold out
+{0} upagens sorteadas
+{0} random upgrades
+Alugada: não vende
+Rented: can't be sold
+Upar e vender: só na Loja
+Upgrade and sell: Shop only
+Mercador
+Merchant
+Mercador Sombrio: cartas épicas e relíquias à venda
+Shadow Merchant: epic cards and relics for sale
+Inimigos dourados que pagam muito e não tiram vida
+Golden enemies that pay a lot and don't take life
+Funda uma torre ESTRELA
+Fuse a STAR tower
+primárias
+primary
+militares
+military
+mágicas
+magic
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+enemies +20% health, but the boss drops extra treasure
+Chame 3 ondas mais cedo neste andar
+Call 3 waves early on this floor
+Divide
+Splitter
+O REI DAS BOMBAS CHEGOU!
+THE BOMB KING HAS ARRIVED!
+{0} chegou!
+{0} has arrived!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+Secret route! The Shadow Merchant was hiding here
+Mistério revelado: {0}
+Mystery revealed: {0}
+(recompensa reforçada!)
+(boosted reward!)
+{0} vencida: +${1}
+{0} weathered: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+Eruption: the boss left a treasure of +${0}
+Pegar agora, investir ou girar a roleta?
+Take it now, invest it or spin the wheel?
+HORDA DE OURO
+GOLD HORDE
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+Epic cards and rare relics, paid with run gold.
+EVENTO DO ANDAR: {0}: {1}
+FLOOR EVENT: {0}: {1}
+Andar {0}: {1}: {2}
+Floor {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+Choose your path on a map of floors: each stop is a wave or an encounter.
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+Upgrades, towers, relics, contract and Run Power last the whole run.
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+The Bomb King awaits on floor 10; after him, the run goes on endlessly.
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+Run out of life and the run ends. At the end you earn crystals and XP: the further you go, the more you get.
+LADRÃO DE RELÍQUIA
+RELIC THIEF
+REI DAS BOMBAS
+BOMB KING
+FASE {0}/3
+PHASE {0}/3
+fraco a {0}
+weak to {0}
+resiste a {0}
+resists {0}
+Recompensa: torre rara ou tesouro
+Reward: rare tower or treasure
+Banir: {0} restantes nesta run
+Ban: {0} left this run
+Transplante ${0}
+Transplant ${0}
+Vender
+Sell
+Fundir
+Fuse
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+Base ${0}: can land x0, x0.5, x1, x1.5, x2, x3, x5 (very rare), free upgrade or relic
+Prêmio: ${0}
+Prize: ${0}
+TROCA o seu {0} (só dá para levar 1)
+REPLACES your {0} (you can only carry 1)
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +50% damage, golden glow and {1}
+ok
+ok
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+LOOTER! If it escapes, it takes 10% of your gold
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+RELIC THIEF! If it escapes, it steals a relic
+O saqueador fugiu com ${0}!
+The looter ran off with ${0}!
+O ladrão fugiu com {0}!
+The thief ran off with {0}!
+Saqueador derrubado: +${0}
+Looter defeated: +${0}
+Ladrão derrubado! +${0}
+Thief defeated! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+The humans set up an ANTENNA! Tap it 5x to destroy it
+Antena destruída! +${0}
+Antenna destroyed! +${0}
+{0} CARREGADO! Toque no botão.
+{0} CHARGED! Tap the button.
+Chuva de Ouro: +${0}
+Gold Rain: +${0}
+Fonte da Vida: +{0} de vida
+Fountain of Life: +{0} life
+Contrato: {0}
+Contract: {0}
+Contrato {0} não cumprido
+Contract {0} not fulfilled
+Contrato cumprido! +${0}
+Contract fulfilled! +${0}
+x0: azar! Não ganhou nada
+x0: bad luck! You won nothing
+JACKPOT! 
+JACKPOT! 
+Upagem grátis!
+Free upgrade!
+RELÍQUIA! {0}
+RELIC! {0}
+Talento do herói
+Hero Talent
+Nível {0}: escolha um talento.
+Level {0}: pick a talent.
+{0} banido nesta run (restam {1})
+{0} banned this run ({1} left)
+Dupla ativa: {0}
+Duo active: {0}
+O herói aprendeu {0}
+The hero learned {0}
+Fusão! {0} virou torre ESTRELA
+Fusion! {0} became a STAR tower
+{0} virou LENDÁRIA!
+{0} became LEGENDARY!
+Poder trocado: {0}
+Power swapped: {0}
+{0} buffs foram para {1} (-${2})
+{0} buffs moved to {1} (-${2})
+Entregou {0}
+Gave up {0}
+Borda {0} liberada!
+{0} Border unlocked!
+Conquista: {0}
+Achievement: {0}
+Diária
+Daily
+Ameaça {0}
+Threat {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+Same map for everyone today; 2 Threat modifiers picked for the day
+Regra da semana: {0}
+Rule of the week: {0}
+Código
+Code
++{0}% de cristais no fim da run
++{0}% crystals at the end of the run
+Ameaça libera ao chegar no andar {0}
+Threat unlocks at floor {0}
+Código da run
+Run code
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+The same code generates the same floors. Leave it empty for a new map.
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+Threat {0}  ·  +{1}% crystals at the end of the run
+Pronto
+Done
+Descobertos: {0}/{1}
+Discovered: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+Not found yet. Keep playing to discover it.
+Conquistas {0}/{1}
+Achievements {0}/{1}
+Suas melhores runs neste quadro (neste aparelho)
+Your best runs on this board (on this device)
+Ninguém ainda: termine uma run para entrar aqui!
+Nobody yet: finish a run to get on here!
+andar {0} · {1} caminhos
+floor {0} · {1} paths
+Últimas runs
+Latest runs
+SORTEANDO A SUA RUN
+ROLLING YOUR RUN
+Boa sorte! Toque para começar
+Good luck! Tap to start
+Toque para pular
+Tap to skip
+ROLETA DO TESOURO
+TREASURE WHEEL
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  Tap the relic you will GIVE UP
+2/2  Escolha a relíquia nova
+2/2  Pick the new relic
+Transplante
+Transplant
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  Tap the tower that will RECEIVE the {0} buffs  ·  ${1}
+{0} buffs
+{0} buffs
+Você derrotou o Rei das Bombas!
+You defeated the Bomb King!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+Continue in infinite mode (the floors keep getting harder) or end the run and claim your reward.
+Encerrar
+End Run
+carregando {0}% (derrote inimigos ou aguarde na onda)
+charging {0}% (defeat enemies or wait during the wave)
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+Upgrades, towers, relics and the Run Power last the whole run.
+Melhor: andar {0} · {1}/15
+Best: floor {0} · {1}/15
+Andar {0} · caminho {1}/15
+Floor {0} · path {1}/15
+(em andamento)
+(in progress)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+Still empty: clear the first path of a run to show up here!
+Nenhuma run registrada ainda.
+No runs recorded yet.
+Tempestade de Raios
+Lightning Storm
+Terremoto
+Earthquake
+Chuva de Flechas
+Arrow Rain
+Chamado da Matilha
+Call of the Pack
+Armadilha de Mel
+Honey Trap
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+A bolt jumps from enemy to enemy (up to 12), dealing high damage to each
+Congela todos os inimigos da tela (até blindados) por 3s
+Freezes every enemy on screen (even armored) for 3s
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+Stuns ground enemies for 2s and damages all of them
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+A volley of arrows falls on the biggest group for 4s
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+Spirit wolves run the path backwards, biting enemies
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+A honey pool on the biggest group: enemies 65% slower and losing health for 6s
+Você tem {0}/{1}
+You own {0}/{1}
+Só o que você tem aparece nas runs
+Only what you own appears in runs
+Você tem
+Owned
+Novo no Arsenal: {0}
+New in the Arsenal: {0}
+Fazer {0} melhorias em torres
+Make {0} tower upgrades
+Colocar {0} torres no campo
+Place {0} towers on the field
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+Magic Only
+Só torres mágicas na run
+Only magic towers this run
+Tudo Camuflado
+All Camo
+Todos os inimigos vêm camuflados
+Every enemy comes camouflaged
+Sem Loja
+No Shop
+As lojas do mapa viram melhorias
+Map shops turn into upgrades
+Menos vida e fogueira fraca
+Less health and a weak campfire
+Correria
+Rush Hour
+Inimigos apressados e loja cara
+Hasty enemies and a pricey shop
+Ouro Escasso
+Scarce Gold
+Recompensas menores e loja cara
+Smaller rewards and a pricey shop
+Chefões Fortes
+Mighty Bosses
+Chefes e inimigos mais resistentes
+Tougher bosses and enemies
+Relíquias Malditas
+Cursed Relics
+Começa com 2 relíquias amaldiçoadas
+Start with 2 cursed relics
+Só Épicas
+Epic Only
+Toda carta é épica, mas a loja custa o dobro
+Every card is epic, but the shop costs double
+Metade da Vida
+Half Health
+Metade da vida e chefes furiosos
+Half health and furious bosses
+Furacão
+Hurricane
+Tudo corre muito mais rápido
+Everything moves much faster
+Noite Eterna
+Endless Night
+Inimigos camuflados e robustos
+Camouflaged, tough enemies
+Feitiçaria
+Sorcery
+Só mágicas e loja inflacionada
+Magic only and an inflated shop
+Deserto Sem Fim
+Endless Desert
+Sem loja, pouco ouro e fogueira fria
+No shop, little gold and a cold campfire
+Maldição Antiga
+Ancient Curse
+3 relíquias malditas e inimigos robustos
+3 cursed relics and tough enemies
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+Play challenge
+Semanal
+Weekly
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+Today's challenge: {0}  ·  details on the card beside it
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+This week's challenge: {0}  ·  details on the card beside it
+Desafio Semanal
+Weekly Challenge
+Desafio Diário
+Daily Challenge
+Nova semana em {0}d {1}h
+New week in {0}d {1}h
+Novo em {0}
+New in {0}
+Começa com {0} relíquias amaldiçoadas
+Start with {0} cursed relics
+Prêmio: +{0}% de cristais no fim da run
+Reward: +{0}% crystals at the end of the run
+Ainda não jogado nesta semana
+Not played this week yet
+Ainda não jogado hoje
+Not played today yet
+Seu melhor na semana: Andar {0} · caminho {1}/15
+Your best this week: Floor {0} · path {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+Your best today: Floor {0} · path {1}/15
+Vencer 1 partida
+Win 1 match
+Derrotar {0} tanques
+Defeat {0} tanks
+Derrotar {0} inimigos de cerâmica
+Defeat {0} ceramic enemies
+Um mapa diferente a cada andar
+A different map every floor
+Presente: ouro para a melhoria!
+Gift: gold for the upgrade!
+PULAR TUTORIAL
+SKIP TUTORIAL
+Escolha a Raposa
+Pick the Fox
+Toque aqui, perto do caminho
+Tap here, near the path
+Solte a onda!
+Send the wave!
+A torre ataca sozinha!
+The tower attacks on its own!
+Toque perto do caminho
+Tap near the path
+Ganhou ouro! Coloque outra torre
+You got gold! Place another tower
+Toque na sua torre
+Tap your tower
+Compre uma melhoria
+Buy an upgrade
+Mais rápido: toque no x1
+Faster: tap x1
+Vença as {0} ondas!
+Win {0} waves!
+Seu HERÓI: coloque no campo
+Your HERO: place it on the field
+Escolha quem a torre ataca
+Choose who the tower attacks
+AUTO: as ondas seguem sozinhas
+AUTO: waves keep coming
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+CAMO! Only towers with "Sees camo" can spot it
+Vida caindo! Coloque mais torres
+Losing lives! Place more towers
+Dica
+Tip
+Prêmios das missões ficam aqui
+Mission rewards are here
+Toque no prêmio verde para receber. Depois, Voltar
+Tap the green reward to claim it. Then, Back
+Hora de jogar!
+Time to play!
+Escolha a dificuldade
+Choose the difficulty
+Agora é só jogar!
+Now just play!
+Bem-vindo!
+Welcome!
+Você já sabe jogar! Aqui está um presente para começar:
+You know how to play! Here's a gift to get started:
+Receber
+Claim
+Pular o tutorial?
+Skip the tutorial?
+Dá para refazer depois no botão ? do menu.
+You can redo it later with the ? button in the menu.
+Refazer o tutorial?
+Redo the tutorial?
+Refazer
+Redo
+Muito bem! Você já sabe jogar.
+Well done! You know how to play.
+Aqui está um presente para começar:
+Here's a gift to get started:
+Ganhou ouro! Arraste uma torre até o campo
+You got gold! Drag a tower onto the field
+Arraste a torre até o lugar marcado
+Drag the tower to the marked spot
+Toque para receber o prêmio!
+Tap to claim the reward!
+Agora, volte ao menu
+Now, go back to the menu
+Blindado: não
+Armored: no
+Blindado: sim
+Armored: yes
+CERÂMICA! Bem resistente: explosão faz pouco dano
+CERAMIC! Very tough: explosions do little damage
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+HEALER! Heals nearby enemies: take it down first
+Camuflado: não
+Camo: no
+Camuflado: sim
+Camo: yes
+Carregando
+Loading
+Enviar 1
+Send 1
+Enviar 10
+Send 10
+Escolha a onda e mande qualquer inimigo
+Pick the wave and send any enemy
+Idioma
+Language
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+Immune to EXPLOSIONS! Use arrows, swords or magic
+Imune a GELO e a EXPLOSÕES!
+Immune to ICE and EXPLOSIONS!
+Imune a GELO! Não fica mais lento
+Immune to ICE! It can't be slowed
+Imune a MAGIA! A magia não machuca este
+Immune to MAGIC! Magic can't hurt this one
+METAL! Só fogo, raio ou explosão machucam
+METAL! Only fire, lightning or explosions hurt it
+Melhore a torre: {0}/{1}
+Upgrade the tower: {0}/{1}
+Não dá cristais, XP nem missões
+No crystals, XP or missions
+Onda {0}
+Wave {0}
+Opções
+Options
+Ouro e vida infinitos
+Infinite gold and lives
+PROTEGIDO! Só MAGIA faz dano cheio
+WARDED! Only MAGIC deals full damage
+REGENERA! Acabe com ele rápido
+REGENERATES! Finish it fast
+SANDBOX  (abrir)
+SANDBOX  (open)
+SANDBOX  (fechar)
+SANDBOX  (close)
+Sandbox
+Sandbox
+Sandbox: ouro e vida infinitos
+Sandbox: infinite gold and lives
+Som
+Sound
+Todos os animais liberados
+All animals unlocked
+Toque na torre para continuar
+Tap the tower to continue
+Toque nesta torre
+Tap this tower
+Treine à vontade!
+Practice freely!
+VEÍCULO! Muita vida: junte dano forte
+VEHICLE! Lots of health: stack heavy damage
+Tela cheia
+Fullscreen
+Sair da tela cheia
+Exit fullscreen
+Gire o celular para continuar
+Rotate your phone to continue
+No iPhone o Safari não deixa a página ficar em tela cheia.
+On iPhone, Safari does not let web pages go fullscreen.
+Para jogar sem as barras do navegador:
+To play without the browser bars:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. Tap Share (the square with the up arrow)
+2. Escolha "Adicionar à Tela de Início"
+2. Choose "Add to Home Screen"
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. Open the game from the new icon: it opens in fullscreen
+Entendi
+Got it
+Jogo
+Game
+Refazer tutorial
+Replay tutorial
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+Complete the skin's mission to be able to buy it. It shows up in your matches.
+Bônus
+Bonus
+Dica: use dois dedos (pinça) para dar zoom no mapa
+Tip: pinch with two fingers to zoom the map
+Conquistas
+Achievements
+Automática
+Automatic
+Vila
+Village
+Santuário
+Sanctuary
+Floresta
+Forest
+Histórico
+History
+{0} chefes  ·  {1} elites
+{0} bosses  ·  {1} elites
+{0} abates  ·  {1} torres
+{0} kills  ·  {1} towers
+Escudo -{0}
+Shield -{0}
+Dourado: sem dano
+Golden: no damage
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP doubled!
+Aventura
+Adventure
+Feira
+Fair

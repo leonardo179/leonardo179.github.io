@@ -1,0 +1,3300 @@
+ (+{0} da Vila)
+ (村から+{0})
+ (+{0}% da Vila)
+ (村から+{0}%)
+ (Modo Livre)
+ (フリープレイ)
+ (até blindados)
+ (装甲の敵にも)
+ DEUS
+ ゴッド
+ alvos
+ ターゲット
+ alvos  Vê camuflado
+ ターゲット  カモフラージュ探知
+ camada
+ 層
+ ou acima
+
+ perfura
+ 貫通
+ • vê camuflado
+ • カモフラージュ探知
+(medalha {0} só do {1} para cima)
+({0}メダルは{1}以上でのみ獲得)
++{0} alvo
++{0} ターゲット
++{0} alvo{1}
++{0} ターゲット{1}
++{0} cristais
++{0} クリスタル
++{0} dano
++{0} ダメージ
++{0} dano fixo vs Cerâmica/Metal
+セラミック/メタルに固定ダメージ+{0}
++{0} dano fixo vs blindados
+装甲の敵に固定ダメージ+{0}
++{0} dano vs Cerâmica/Metal
+セラミック/メタルにダメージ+{0}
++{0} dano vs blindados
+装甲の敵にダメージ+{0}
++{0} perfura
+貫通+{0}
++{0} perfura (qualquer torre)
+貫通+{0} (全タワー)
++{0} perfura (raio)
+貫通+{0} (範囲内)
++{0} perfura total (qualquer torre no raio)
+合計貫通+{0} (範囲内の全タワー)
++{0} perfura total (torres no raio)
+合計貫通+{0} (範囲内のタワー)
++{0} projétil{1}
+弾数+{0}{1}
++{0} salto{1}
+連鎖+{0}{1}
++{0} salto{1} do projétil
+弾の跳ね返り+{0}{1}
++{0} sentinela{1}
+セントリー+{0}{1}
++{0}% alcance (raio)
+射程+{0}% (範囲内)
++{0}% alcance total (torres no raio)
+合計射程+{0}% (範囲内のタワー)
++{0}% crítico
+クリティカル+{0}%
++{0}% dano (raio)
+ダメージ+{0}% (範囲内)
++{0}% dano p/ aliados no raio
+範囲内の味方のダメージ+{0}%
++{0}% dano total p/ aliados no raio
+範囲内の味方の合計ダメージ+{0}%
++{0}% de ouro por camada, só dentro do alcance
+1層ごとにゴールド+{0}% (射程内のみ)
++{0}% juros
+利息+{0}%
++{0}% juros dos Coelhos (raio)
+ウサギの利息+{0}% (範囲内)
++{0}% ouro por camada dos alvos que ela abater (Vila)
+倒したターゲットの1層ごとにゴールド+{0}% (村)
++{0}% produção dos Coelhos (raio)
+ウサギの生産量+{0}% (範囲内)
++{0}% veloc. ataque p/ aliados no raio
+範囲内の味方の攻撃速度+{0}%
++{0}% veloc. de ataque total p/ aliados no raio
+範囲内の味方の合計攻撃速度+{0}%
++{0}% veloc. projétil (raio)
+弾速+{0}% (範囲内)
++{0}s de duração (lentidão/congelamento)
+効果時間+{0}秒 (スロー/凍結)
+1ª upagem (T1) de cada árvore sai GRÁTIS (torres no raio)
+各ツリーの最初のアップグレード(T1)が無料 (範囲内のタワー)
+1ª upagem grátis (raio)
+最初のアップグレード無料 (範囲内)
+Abates {0}
+撃破数 {0}
+Alcance de invocação (coleira): {0}
+召喚獣の行動範囲: {0}
+Alcance total (todas as torres no raio): +{0}%
+合計射程 (範囲内の全タワー): +{0}%
+Aleatório
+ランダム
+Alvo: {0}
+ターゲット: {0}
+Alvos
+ターゲット
+Alvos na área: 
+範囲内のターゲット: 
+Alvos por golpe: {0}
+1撃あたりのターゲット数: {0}
+Alvos por onda: 
+1回の衝撃波のターゲット数: 
+Amarelo
+黄色
+Animais
+どうぶつ
+Animal Tower Defense
+Animal Tower Defense
+Animal liberado: {0}
+どうぶつ解放: {0}
+Animal novo na loja!
+ショップに新しいどうぶつが登場！
+Anula Defesas
+防御無効
+Anúncio indisponível — sem recompensa.
+広告を利用できません。報酬はありません。
+Apoio
+サポート
+Apoio às Torres
+タワーサポート
+Arco-íris
+虹色
+Arranca Fortificado/Camuflagem/escudo do alvo
+ターゲットの要塞化/カモフラージュ/シールドをはがす
+As 4 medalhas de dificuldade num mesmo mapa
+同じマップで難易度メダル4つすべて
+Astuto
+ずる賢い
+Atalho Nevado
+雪の近道
+Ataque: onda de choque VERMELHA em volta
+攻撃: 周囲に赤い衝撃波
+Ataque: onda de choque em volta
+攻撃: 周囲に衝撃波
+Ataques 
+攻撃 
+Auto
+オート
+Automático
+オート
+Avançado
+上級
+Ave de fogo: leque de penas flamejantes que atravessam e queimam; quem morre queimando explode em cinzas. MERGULHO SOLAR: mergulha na maior multidão e deixa o chão em chamas.
+炎の鳥: 燃える羽を扇状に放ち、敵を貫いて燃やします。燃えながら倒れた敵は灰になって爆発します。ソーラーダイブ: 敵が一番密集した場所へ急降下し、地面を炎で包みます。
+Azul
+青
+Bloqueia a regeneração (inimigos Regenera) no raio
+範囲内の敵の再生（再生持ちの敵）を封じる
+Bosque do Retorno
+帰り道の森
+Brado
+雄たけび
+Branco
+白
+Brasa
+残り火
+Bravo
+タフ
+Brejo das Curvas
+くねくね湿地
+Bumerangue: fere na IDA e na VOLTA (dano cheio de novo na volta)
+ブーメラン: 行きと帰りの両方でヒット（帰りもフルダメージ）
+BÁSICO
+ベーシック
+Bênção
+祝福
+Bônus  {0}/{1}
+ボーナス  {0}/{1}
+CONFIRMAR
+決定
+CONFIRMAR ${0}
+決定 ${0}
+CONGELA BLINDADOS
+装甲の敵も凍結
+CRÍTICO!
+クリティカル！
+Cadência
+連射速度
+Calibre 12
+12ゲージ
+Caminhão
+トラック
+Camuflado
+カモフラージュ
+Cancelar
+キャンセル
+Carga Pesada
+重量弾
+Carregando o animal... tente de novo em instantes.
+どうぶつを読み込み中です…少し待ってからもう一度お試しください。
+Carregando o herói... tente de novo em instantes.
+ヒーローを読み込み中です…少し待ってからもう一度お試しください。
+Caça
+戦闘機
+Cervo Ancestral
+太古のシカ
+Cerâmica
+セラミック
+Chega no nível {0}
+レベル{0}で解放
+Chega no nível {0} (você está no nível {1}).
+レベル{0}で解放（現在のレベル: {1}）
+Chegar à onda {0} em {1}
+{1}でウェーブ{0}に到達
+Chegar à onda {0} no {1}
+{1}でウェーブ{0}に到達
+Chumbo
+鉛弾
+Cidadela Congelada
+氷の城塞
+Clareira Sinuosa
+うねうね草原
+Cobra
+ヘビ
+Cobra Atiradora
+狙撃ヘビ
+Coelho
+ウサギ
+Coelho Fazendeiro
+農家ウサギ
+Colocar
+配置
+Completar um mapa (moldura de diamante)
+マップを1つクリア（ダイヤフレーム）
+Comprado!
+購入しました！
+Comprar  {0}
+購入  {0}
+Comprar nível ${0}
+レベル購入 ${0}
+Compre o animal para usar skins
+スキンを使うには、どうぶつを購入してください
+Concede visão de camuflado no raio
+範囲内にカモフラージュ探知を付与
+Concluída
+達成
+Congela 
+凍結 
+Conquistas  {0}/{1}
+実績  {0}/{1}
+Conseguir {0} medalhas
+メダルを{0}個獲得
+Continuar
+つづける
+Continuar jogando
+プレイを続ける
+Coruja
+フクロウ
+Coruja Maga
+魔法使いフクロウ
+Cratera Ardente
+灼熱のクレーター
+Cristais dobrados!
+クリスタル2倍！
+Cristais em dobro
+クリスタル2倍
+Cristais x2
+クリスタル x2
+Cristais x2 (+{0})
+クリスタル x2 (+{0})
+Crítico total: {0}% de chance, x{1} dano
+合計クリティカル: 確率{0}%、ダメージx{1}
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+スキンのミッションを達成すると購入できます。新しい見た目は次回のアップデートで試合に反映されます。
+Curandeiro
+ヒーラー
+Cósmica
+コズミック
+DERROTA
+敗北
+DEUS
+ゴッド
+DEUS: 
+ゴッド: 
+DIFICULDADE
+難易度
+DPS {0}
+DPS {0}
+Dano
+ダメージ
+Dano %.0f  Alc %.0f  %.1f/s
+ダメージ %.0f  射程 %.0f  %.1f/秒
+Dano %.0f  Ataque %.0f  %.1f/s
+ダメージ %.0f  攻撃 %.0f  %.1f/秒
+Dano %.1f  %.1f tiros/s
+ダメージ %.1f  %.1f発/秒
+Dano de {0}
+{0}ダメージ
+Dano total vs Cerâmica: x{0}
+セラミックへの合計ダメージ: x{0}
+Dano {0}
+ダメージ {0}
+Dança das Adagas
+ダガーダンス
+Defesa
+防御
+Deixa fogo no chão: {0}/s por {1}s
+地面に炎を残す: {0}/秒（{1}秒間）
+Demolidor
+解体屋
+Derrotar {0} {1}
+{1}を{0}体倒す
+Desconto e Renda
+割引と収入
+Desfiladeiro Estreito
+狭い峡谷
+Dificuldade bloqueada
+難易度ロック中
+Dificuldade liberada: {0}
+難易度解放: {0}
+Difícil
+ハード
+Dirigível
+飛行船
+Dirigível Maior
+大型飛行船
+Dispara mísseis (área)
+ミサイルを発射（範囲攻撃）
+Disponível para comprar!
+購入できます！
+Disponível! Compre por {0} cristais em Animais, no menu.
+購入できます！メニューの「どうぶつ」から{0}クリスタルで購入しよう。
+Dragão Arcano
+アルカナドラゴン
+Duas adagas rápidas, vê camuflado. DANÇA DAS ADAGAS: acelera e derruba a defesa de quem está perto.
+素早い2本の短剣で戦い、カモフラージュを見破ります。ダガーダンス: スピードアップし、近くの敵の防御を下げます。
+Dunas em Zigue-Zague
+ジグザグ砂丘
+EM ONDA
+ウェーブ中
+ESTILHAÇOS ferem imunes a explosão (Preto/Zebra)
+破片が爆発無効の敵（黒/ゼブラ）にも命中
+EVOLUÍDO
+進化済み
+Eco
+エコー
+Elefante Comandante
+司令官ゾウ
+Elefante Guerreiro
+戦士ゾウ
+Em uso
+使用中
+Embalo: até +{0}% de cadência em golpes seguidos
+勢い: 連続ヒットで連射速度が最大+{0}%
+Empurra o alvo pra trás (15% por golpe)
+ターゲットを後ろへ押し戻す（1撃ごとに15%）
+Empurra o alvo pra trás no caminho
+ターゲットを道の後ろへ押し戻す
+Enxame
+スウォーム
+Escadaria de Lava
+溶岩の大階段
+Escorpião
+サソリ
+Escorpião Venenoso
+毒サソリ
+Esmagador
+クラッシャー
+Espadachim de linha de frente. RUGIDO: atordoa e fere tudo em volta (a forma deus pega o mapa inteiro).
+最前線で戦う剣士。咆哮: 周囲のすべてを気絶させてダメージを与えます（ゴッド形態ではマップ全体）。
+Espalha armadilhas no chão do caminho, sem mirar inimigo (até {0})
+敵を狙わずに道へ罠をばらまく（最大{0}個）
+Espaço: iniciar onda
+スペース: ウェーブ開始
+Esperto
+かしこい
+Espinhos
+トゲ
+Esquilo
+リス
+Esquilo da Toca
+巣穴リス
+Estilhaço
+破片
+Estilhaços ferem imunes a explosão (Preto/Zebra)
+破片が爆発無効の敵（黒/ゼブラ）にも命中
+Estouro
+ブラスト
+Expert
+エキスパート
+Explosivo
+爆発
+Faltam {0} cristais
+クリスタルがあと{0}個必要です
+Fechar
+閉じる
+Feixe
+ビーム
+Feroz
+どう猛
+Floresta Sombria
+暗闇の森
+Fogo
+炎
+Fogo Arcano
+秘術の炎
+Fogo total: 
+炎の合計: 
+Fora da regra
+ルール違反
+Forte
+強い
+Fragmentação
+フラグメンテーション
+Fura 
+層貫通 
+Fácil
+イージー
+Fênix
+フェニックス
+Físico
+物理
+GRÁTIS
+無料
+Gato
+ネコ
+Gato Samurai
+サムライネコ
+Gelo
+氷
+Gelo Profundo
+ディープフリーズ
+Golpe devastador em quem está perto. INVESTIDA: dano enorme e derruba os inimigos.
+近くの敵に強烈な一撃。突進: 大ダメージを与え、敵を転ばせます。
+Gorila
+ゴリラ
+Gorila Marteleiro
+ハンマーゴリラ
+Grito
+スクリーチ
+Guaxinim
+アライグマ
+Guaxinim Druida
+ドルイドアライグマ
+HERÓI
+ヒーロー
+Herói.
+ヒーロー。
+Heróis
+ヒーロー
+INVOCA {0}: dano {1}, {2}/s
+{0}を召喚: ダメージ{1}、{2}/秒
+Ignora TODAS as imunidades de dano (Vila)
+すべてのダメージ無効を無視（村）
+Ignora imunidade a Metal
+メタル無効を無視
+Ilhas Flutuantes
+浮かぶ島々
+Imparável
+アンストッパブル
+Iniciante
+初級
+Intermediário
+中級
+Investida
+突進
+JOGAR
+プレイ
+Jacaré
+ワニ
+Jacaré Pistoleiro
+ガンマンワニ
+Jade
+翡翠
+Jogar novamente
+もう一度プレイ
+Jogar {0} partidas
+{0}回プレイする
+Jogue partidas para ganhar XP
+プレイしてXPを獲得しよう
+Juros
+利息
+Juros totais: {0}% do seu ouro atual (máx. sobre os primeiros $100.000), por onda{1}
+合計利息: ウェーブごとに所持ゴールドの{0}%（対象は最初の$100,000まで）{1}
+Já gerou no total: ${0}
+これまでの合計生成額: ${0}
+LOBO
+オオカミ
+Larga estrepes no caminho ({0} cargas, até {1})
+道にまきびしをまく（{0}チャージ、最大{1}個）
+Larga minas no caminho (até {0})
+道に地雷を置く（最大{0}個）
+Lentidão total: {0}%
+合計スロー: {0}%
+Levar {0} árvores ao nível DEUS
+{0}本のツリーをゴッドレベルにする
+Leão Rei
+獅子王
+Libera espaço para torres
+タワーを置く場所を空ける
+Liberado! Este animal chega na próxima atualização da versão web.
+解放しました！このどうぶつはWeb版の次回アップデートで登場します。
+Lobo
+オオカミ
+Lobo das Adagas
+ダガーオオカミ
+Local válido
+配置できます
+Lâmina Flamejante
+炎の刃
+Machado de gelo que deixa lento. NEVASCA: congela todo mundo em volta.
+敵を遅くする氷の斧。ブリザード: 周囲の敵をすべて凍らせます。
+Mago de área que vê camuflado. METEORO: dano pesado e queimadura em área.
+カモフラージュを見破る範囲攻撃の魔法使い。メテオ: 範囲に大ダメージを与え、炎上させます。
+Mapa bloqueado
+マップロック中
+Mapa liberado: {0}
+マップ解放: {0}
+Mapas
+マップ
+Marca inimigos no raio como vulneráveis
+範囲内の敵に弱体マークをつける
+Marca o alvo: +{0}% de dano de todas as torres ({1}s)
+ターゲットにマーク: 全タワーからのダメージ+{0}%（{1}秒）
+Martelo pesado em área. ESTOURO: pisa no chão e atordoa todos em volta.
+重いハンマーで範囲攻撃。ブラスト: 地面を踏み鳴らし、周囲の敵をすべて気絶させます。
+Medalhas
+メダル
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+メダル: F イージー · M ノーマル · D ハード · I アンストッパブル · P プライマリ限定 · H ヒーローなし（ノーマル+）· ½ ゴールド半減（ハード+）。フレーム: ブロンズ（イージー）、シルバー（ノーマル）、ゴールド（ハード/アンストッパブル）、ダイヤ（7つすべて）。
+Meio Ouro
+ゴールド半減
+Menu
+メニュー
+Mercado
+マーケット
+Mergulho Solar
+ソーラーダイブ
+Mestria: Nível {0}/5
+熟練度: レベル{0}/5
+Meteoro
+メテオ
+Metralhadora automática
+自動機関銃
+Militar
+ミリタリー
+Mina Abandonada
+廃坑
+Minas
+地雷
+Missão concluída!
+ミッション達成！
+Missões
+ミッション
+Missões dão cristais extras
+ミッションでクリスタルを追加ゲット
+Modo Livre
+フリープレイ
+Morcego
+コウモリ
+Morcego Sonar
+ソナーコウモリ
+Morsa Glacial
+氷河セイウチ
+Mouse ou toque
+マウスまたはタッチ
+MÁX
+MAX
+MÁXIMO 5/5
+MAX 5/5
+Mágica
+マジカル
+Mágico
+魔法
+Médio
+ノーマル
+Mísseis
+ミサイル
+Música
+音楽
+Música: não
+音楽: オフ
+Música: sim
+音楽: オン
+NOVO
+NEW
+Na sua coleção
+コレクション済み
+Nave
+宇宙船
+Necromante
+ネクロマンサー
+Nenhuma partida neste mapa ainda.
+このマップではまだプレイしていません。
+Nevasca
+ブリザード
+Ninja
+ニンジャ
+Novo animal disponível!
+新しいどうぶつが使えます！
+Novo: {0} disponível!
+NEW: {0}が使えます！
+Nv 
+Lv 
+Nv 1
+Lv 1
+Nv 10
+Lv 10
+Nv 20
+Lv 20
+NÍVEL MÁXIMO
+最大レベル
+Nível {0}
+レベル{0}
+O golpe nasce EM CIMA do alvo (sem trajetória)
+攻撃がターゲットの真上に出現（弾道なし）
+O machado VOA até o alvo (trajetória)
+斧がターゲットまで飛んでいく（弾道あり）
+OK
+OK
+ONDA 
+ウェーブ 
+Oficina
+工房
+Oito do Deserto
+砂漠の8の字
+Os inimigos dão metade do ouro.
+敵から得られるゴールドが半分になります。
+Ouriço
+ハリネズミ
+Ouriço Armadilheiro
+トラップハリネズミ
+Ouro insuficiente
+ゴールドが足りません
+Ouro total: ${0}/onda{1}
+合計ゴールド: ${0}/ウェーブ{1}
+PARA BLINDADOS
+装甲の敵も止める
+PRONTO
+準備OK
+Padrão
+デフォルト
+Paralisa
+マヒ
+Partida normal.
+通常の試合。
+Pausado
+一時停止中
+Perfura 
+貫通 
+Perfura total: 
+合計貫通: 
+Perfura-camada
+層貫通
+Perfura-camada: {0}% do dano passa para o 1º inimigo de dentro
+層貫通: ダメージの{0}%が内側の最初の敵に伝わる
+Perfurante
+刺突
+Perto
+近い
+Pinguim
+ペンギン
+Pinguim Machadeiro
+オノ使いペンギン
+Poder
+パワー
+Polvo Abissal
+深淵のタコ
+Porta-Tanques
+戦車輸送機
+Praia dos Piratas
+海賊の浜辺
+Precisão
+精密
+Preto
+黒
+Primeiro
+先頭
+Primária
+プライマリ
+Produção
+生産
+Progresso: {0}/{1} mapas
+進行状況: {0}/{1} マップ
+Projéteis
+弾
+Projéteis por tiro: {0}
+1発あたりの弾数: {0}
+Próx. nível: {0}
+次のレベル: {0}
+Próxima missão!
+次のミッション！
+Próximo animal: {0} no nível {1}
+次のどうぶつ: レベル{1}で{0}
+Pântano Nebuloso
+霧の沼
+Pântano em Espiral
+うずまき沼
+REGRA ESPECIAL
+特別ルール
+Raio
+雷
+Raio em cadeia: {0} saltos
+連鎖する雷: {0}回ジャンプ
+Raio salta 
+雷の連鎖 
+Raios
+光線
+Rajada
+バースト
+Raposa
+キツネ
+Raposa Arqueira
+弓使いキツネ
+Recarga Rápida
+高速リロード
+Recebendo de aliadas: {0}
+味方から受けている効果: {0}
+Recebido
+受け取り済み
+Recordes
+記録
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+この端末での記録です。オンラインランキングはPokiの承認待ちです。
+Rede
+ネット
+Redemoinho
+つむじ風
+Regenerativo
+再生
+Remove Fortificado do alvo atingido
+命中したターゲットの要塞化を解除
+Remover a pedra?
+岩を取り除きますか？
+Reposicionar
+移動
+Respingo no impacto: {0} (até 3 inimigos colados no alvo)
+着弾時の飛び散り: {0}（ターゲットに隣接する敵、最大3体）
+Retalhar
+切り裂き
+Revela camuflado no MAPA TODO
+マップ全体のカモフラージュを見破る
+Reviver
+復活
+Rifle
+ライフル
+Rinoceronte
+サイ
+Rosa
+ピンク
+Roxo
+紫
+Rugido
+咆哮
+SENTINELA {0}
+セントリー {0}
+Sair da partida?
+試合を抜けますか？
+Sair para o menu
+メニューに戻る
+Salamandra
+サラマンダー
+Salto do projétil: {0} ricochetes (-15% dano por salto)
+弾の跳ね返り: {0}回（1回ごとにダメージ-15%）
+Salvar
+保存
+Samurai
+サムライ
+Saque Rápido
+早撃ち
+Selecionado
+選択中
+Selecionar
+選択
+Sem Heróis
+ヒーローなし
+Sem herói na partida.
+この試合ではヒーローを使いません。
+Sentinela {0}
+セントリー {0}
+Sentinelas
+セントリー
+Sentinelas: {0} (dano x{1}, 1 tiro a cada {2}s)
+セントリー: {0}（ダメージx{1}、{2}秒ごとに1発）
+Seu apelido
+ニックネーム
+Skin liberada para compra: {0} {1}
+スキンが購入可能になりました: {0} {1}
+Skins
+スキン
+Sombria
+シャドウ
+Sons
+効果音
+Sons: não
+効果音: オフ
+Sons: sim
+効果音: オン
+Subiu para o nível {0}!
+レベル{0}になりました！
+Suporte: fortalece as torres perto e vê camuflado. BÊNÇÃO: cura vidas e prende os inimigos com raízes.
+サポート: 近くのタワーを強化し、カモフラージュを見破ります。祝福: ライフを回復し、敵を根っこで捕まえます。
+Só Primárias
+プライマリ限定
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+プライマリタワーのみ（キツネ、クマ、カメ、ワシ、ペンギン、ハリネズミ、サメ）。
+Só torres Primárias nesta partida.
+この試合ではプライマリタワーのみ使えます。
+T-REX
+T-REX
+T-Rex
+T-Rex
+T1+T2 de cada árvore saem GRÁTIS (torres no raio)
+各ツリーのT1+T2が無料 (範囲内のタワー)
+T1+T2 grátis (raio)
+T1+T2無料 (範囲内)
+TD:
+TD:
+TOP JOGADORES
+トッププレイヤー
+TORRES
+タワー
+TRAVADO
+ロック中
+Tanque
+戦車
+Tanque Maior
+大型戦車
+Tartaruga
+カメ
+Tartaruga de Gelo
+氷のカメ
+Texugo
+アナグマ
+Texugo Engenheiro
+技師アナグマ
+Tigre
+トラ
+Tigre Assassino
+暗殺者トラ
+Tigre Lutador
+格闘家トラ
+Tinta Tóxica
+毒インク
+Todos os animais disponíveis!
+すべてのどうぶつが使えます！
+Toque na criatura p/ ver dano/ataque/DPS dela
+召喚獣をタップするとダメージ/攻撃/DPSを確認できます
+Toque no alcance do Guaxinim
+アライグマの範囲内をタップ
+Toque no alcance do Texugo
+アナグマの範囲内をタップ
+Toque num local válido
+配置できる場所をタップ
+Torre
+タワー
+Torres no raio ignoram TODAS as imunidades
+範囲内のタワーがすべての無効を無視
+Touro Minotauro
+ミノタウロス
+Trilha das Raízes
+木の根の小道
+Trono do Caos
+混沌の玉座
+Tubarão
+サメ
+Tubarão Lanceiro
+槍使いサメ
+Tudo vencido!
+すべてクリア！
+ULT: 
+必殺技: 
+Urso
+クマ
+Urso Espadachim
+剣士クマ
+Usar
+使う
+Use de 3 a 16 letras/números, sem palavrões.
+3〜16文字の英数字で入力してください（不適切な言葉は使えません）。
+Utilidade
+ユーティリティ
+VITÓRIA!
+勝利！
+Vale Gelado
+凍てつく谷
+Valente
+勇敢
+Velocidade
+スピード
+Velocidade do projétil: {0}% do padrão
+弾速: 標準の{0}%
+Veloz
+俊足
+Vencer dá a medalha 
+勝利で獲得するメダル: 
+Vencer os 10 mapas
+10マップすべてで勝利
+Vencer {0} mapas diferentes
+{0}種類のマップで勝利
+Vencer {0} no {1}
+{0}を{1}以上でクリア
+Vender ${0}
+売却 ${0}
+Vender tudo ${0}
+すべて売却 ${0}
+Veneno
+毒
+Veneno em vários alvos. TINTA TÓXICA: envenena e deixa lento todos em volta.
+複数のターゲットに毒攻撃。毒インク: 周囲の敵すべてを毒にし、遅くします。
+Vença "{0}" para liberar.
+「{0}」をクリアすると解放されます。
+Ver em Animais
+どうぶつで見る
+Ver skins
+スキンを見る
+Verde
+緑
+Vermelho
+赤
+Você chegou até a onda {0}.
+ウェーブ{0}まで到達しました。
+Você venceu {0} no {1}!
+{0}を{1}でクリアしました！
+Você: nível {0}
+あなた: レベル{0}
+Voltar
+もどる
+Vulcão Rugidor
+咆哮火山
+Vê camuflado
+カモフラージュ探知
+XP
+XP
+XP em dobro nesta partida
+この試合はXP2倍
+XP em dobro nesta partida!
+この試合はXP2倍！
+XP x2
+XP x2
+XP x2 ativo
+XP x2 発動中
+Zebra
+ゼブラ
+a onda fica VERMELHA e acerta muito mais alvos
+衝撃波が赤くなり、さらに多くのターゲットに当たる
+alc {0}
+射程 {0}
+alvo atingido recebe +{0}% de dano de TODAS as torres
+命中したターゲットが全タワーから受けるダメージ+{0}%
+apoio da Vila
+村のサポート
+arranca Fortificado, Camuflagem e escudo do alvo
+ターゲットの要塞化、カモフラージュ、シールドをはがす
+azul
+青
+bloqueia regeneração (raio)
+再生を封じる (範囲内)
+bronze
+ブロンズ
+bumerangue: fere na ida e na volta
+ブーメラン: 行きと帰りでヒット
+camuflados
+カモフラージュの敵
+carregando
+読み込み中
+com a regra "{0}"
+「{0}」ルールで
+com {0} em campo
+{0}を場に出した状態で
+congela {0}%
+凍結 {0}%
+dano
+ダメージ
+dano vira FOGO (estoura Metal)
+ダメージが炎属性に（メタルを破壊）
+dano vira MÁGICO (fere Mágico, não fere Roxo)
+ダメージが魔法属性に（魔法の敵に有効、紫には無効）
+derrota
+敗北
+deus
+ゴッド
+diamante
+ダイヤ
+dispara MÍSSEIS que explodem
+爆発するミサイルを発射
+efeito passa a valer no MAPA TODO
+効果がマップ全体に及ぶ
+embalo: até +{0}% de cadência em golpes seguidos
+勢い: 連続ヒットで連射速度が最大+{0}%
+empurra inimigos
+敵を押し戻す
+empurra o alvo (15% por golpe)
+ターゲットを押し戻す（1撃ごとに15%）
+estrepes com {0} cargas
+{0}チャージのまきびし
+fogo
+炎
+fogo no chão
+地面の炎
+fogo no chão {0} dano/s
+地面の炎 {0}ダメージ/秒
+fura +{0} camada{1}
+層貫通+{0}{1}
+ganha respingo no impacto
+着弾時の飛び散りを獲得
+ganha área de impacto
+着弾範囲を獲得
+ignora imunidade a Metal
+メタル無効を無視
+ignora imunidades (raio)
+無効を無視 (範囲内)
+inimigo
+敵
+inimigos
+敵
+inimigos: 
+敵: 
+larga ESTREPES no caminho
+道にまきびしをまく
+larga MINAS no caminho
+道に地雷を置く
+lentidão {0}%
+スロー {0}%
+libera {0}
+{0}を解放
+lixo
+ゴミ
+marca de vulnerabilidade dura {0}s
+弱体マークの持続: {0}秒
+marca inimigos no alcance (+20% dano recebido)
+射程内の敵にマーク（被ダメージ+20%）
+o machado passa a VOAR até o alvo
+斧がターゲットまで飛ぶようになる
+o xamã continua atacando
+シャーマンが攻撃を続ける
+oficina do Texugo
+アナグマの工房
+onda
+ウェーブ
+onda {0}
+ウェーブ{0}
+ouro
+ゴールド
+prata
+シルバー
+qualquer mapa
+いずれかのマップ
+queimadura 
+炎上 
+recorde {0}
+記録 {0}
+remove Fortificado do alvo
+ターゲットの要塞化を解除
+revela camuflado no MAPA TODO
+マップ全体のカモフラージュを見破る
+sem moldura
+フレームなし
+sexta
+金曜日
+solta NUVENS DE MORCEGOS em vez da onda
+衝撃波の代わりにコウモリの群れを放つ
+torre
+タワー
+velocidade de ataque
+攻撃速度
+vê camuflado
+カモフラージュ探知
+x{0} dano vs Cerâmica
+セラミックにダメージx{0}
+{0} ondas
+{0}ウェーブ
+{0} por {1}s
+{0}（{1}秒間）
+{0} | alc {1}
+{0} | 射程 {1}
+{0}% alcance
+射程 {0}%
+{0}% cadência
+連射速度 {0}%
+{0}% crítico
+クリティカル {0}%
+{0}% dano
+ダメージ {0}%
+{0}% de desconto de compra/upagem no raio
+範囲内の購入/アップグレードが{0}%割引
+{0}% desconto de compra (raio)
+購入{0}%割引 (範囲内)
+{0}% empurrão
+ノックバック {0}%
+{0}% respingo no impacto
+着弾時の飛び散り {0}%
+{0}% veloc. projétil
+弾速 {0}%
+{0}% área de impacto
+着弾範囲 {0}%
+{0}/7 medalhas  -  moldura {1}
+メダル {0}/7  -  {1}フレーム
+{0}/s por {1}s
+{0}/秒（{1}秒間）
+{0}sem efeito extra aqui (já no teto de outra árvore)
+{0}ここでは追加効果なし（別のツリーで上限に達しています）
+ÁGUIA
+ワシ
+Água
+水
+Águia
+ワシ
+Águia Batedora
+偵察ワシ
+Álbum de medalhas — {0} de {1}
+メダルアルバム — {0}/{1}
+Área de impacto: {0}
+着弾範囲: {0}
+ÚNICO
+ユニーク
+Último
+最後尾
+▶ INICIAR ONDA {0}
+▶ ウェーブ{0}開始
+Pena da Coruja
+フクロウの羽
+Instinto de Matilha
+群れの本能
+Bico Afiado
+するどいクチバシ
+Couro Grosso
+ぶあつい毛皮
+Olho de Águia
+ワシの目
+Fúria Selvagem
+野生の怒り
+Arsenal
+武器庫
+Cofrinho do Castor
+ビーバーの貯金箱
+Bolsa de Couro
+革の財布
+Coração de Carvalho
+カシの木の心
+Ovo de Fênix
+フェニックスの卵
+Trevo de Quatro Folhas
+四つ葉のクローバー
+Pata de Coelho
+ウサギの足
+Pacto do Javali
+イノシシの契約
+Vidro de Canhão
+ガラスの大砲
+Cauda de Lagartixa
+ヤモリのしっぽ
+Pacto do Lobo Solitário
+一匹オオカミの契約
+Coração Teimoso
+不屈の心
+Ninho de Esquilo
+リスの巣
+Brasa e Neve
+炎と雪
+Pena da Lua
+月の羽
+Ovo de Ouro
+金の卵
+Ampulheta de Resina
+樹液の砂時計
+Coroa do Leão
+獅子の王冠
+Eclipse
+日食
+Presa de Sangue
+血のキバ
+Totem Sombrio
+闇のトーテム
+Ouro Maldito
+呪われた黄金
+Sino do Pastor
+羊飼いの鐘
+Bumerangue Ancião
+古のブーメラン
+Braseiro
+火鉢
+Cinzas Vivas
+くすぶる灰
+Geada Eterna
+永遠の霜
+Peçonha
+猛毒
+Contágio
+感染
+Olho de Falcão
+タカの目
+Lâmina Fina
+鋭い刃
+Cofre de Nozes
+クルミの金庫
+Moeda da Sorte
+幸運のコイン
+Cesto de Vime
+編みかご
+Semente Mágica
+魔法の種
+Estandarte
+軍旗
+Laços de Lealdade
+忠誠の絆
+Espírito Selvagem
+野生の魂
+Ninhada
+ひなたち
+Coração de Magma
+マグマの心
+Teia da Viúva
+毒グモの巣
+Dado Viciado
+イカサマサイコロ
+Bolsa Furada
+穴あき財布
+Fungo Faminto
+腹ぺこキノコ
+Pacto da Serpente
+大蛇の契約
+Ossos do Ancestral
+祖先の骨
+Lua de Sangue
+ブラッドムーン
+Relógio Partido
+壊れた時計
+Baralho Marcado
+イカサマトランプ
+Pólvora Instável
+不安定な火薬
+Coroa de Espinhos
+いばらの冠
+Luneta do Almirante
+提督の望遠鏡
+Ampulheta do Rei
+王の砂時計
+Tesouro do Dragão
+ドラゴンの財宝
+Tambor de Guerra
+戦太鼓
+Coração de Pedra
+石の心
+Bússola Antiga
+古びた羅針盤
+Pacto do Poder
+力の契約
+Raiz Profunda
+深い根
+Totem das Frutas
+フルーツのトーテム
+Olho do Caçador
+狩人の目
+Martelo Rachador
+カチ割りハンマー
+Contador Mágico
+魔法のカウンター
+Dado de Ouro
+金のサイコロ
+Mágicas +35% de dano; militares -15% de alcance
+マジカルのダメージ+35%、ミリタリーの射程-15%
++7% de dano por outra torre IGUAL no campo (até +35%)
+場に同じタワーが1つ増えるごとにダメージ+7%（最大+35%）
+Primárias +2 de perfuração; -10% de cadência nelas
+プライマリの貫通+2、ただし連射速度-10%
+Militares +25% de dano; mágicas -10% de cadência
+ミリタリーのダメージ+25%、マジカルの連射速度-10%
+Todas +20% de alcance; -10% de dano
+全タワーの射程+20%、ダメージ-10%
+Todas +40% de cadência; -20% de dano
+全タワーの連射速度+40%、ダメージ-20%
+Todas +1 alvo/projétil; inimigos +15% de vida
+全タワーのターゲット/弾数+1、敵のライフ+15%
+Fim de cada onda: +8% de juros sobre o ouro (até $500)
+ウェーブ終了ごとに所持ゴールドの8%の利息（最大$500）
++$300 agora e +$60 a cada caminho
+今すぐ+$300、マスを進むごとに+$60
++50 de vida máxima e cura tudo agora
+最大ライフ+50、今すぐ全回復
++1 revive guardado
+復活を1回ストック
+Toda raridade é sorteada 2x: fica a melhor
+レアリティを2回抽選し、良いほうを採用
+Recompensas de carta mostram 4 opções
+カード報酬の選択肢が4枚に
+Todas +25% de dano e +1 alvo; inimigos +20% de vida; loja +25%
+全タワーのダメージ+25%・ターゲット+1、敵のライフ+20%、ショップ価格+25%
+Todas +60% de dano; vida máxima -40%
+全タワーのダメージ+60%、最大ライフ-40%
+Vender uma torre no mesmo caminho em que foi colocada devolve 100%
+置いたマスと同じマスで売却すると100%返金
+Sem torres repetidas no campo: todas +25% de dano e +10% de alcance
+場に同じタワーがなければ、全タワーのダメージ+25%・射程+10%
+1x por andar: o vazamento que te mataria te deixa com 1 de vida
+フロアごとに1回: 致命的な突破を受けてもライフ1で耐える
+Bolotas douradas caem o dobro e são coletadas sozinhas
+ゴールデンどんぐりの出現が2倍になり、自動で回収
+Salamandra E Tartaruga no campo: as duas +30% de dano e +15% de cadência
+サラマンダーとカメが両方場にいると、どちらもダメージ+30%・連射速度+15%
+Mágicas +1 alvo/projétil e +15% de alcance
+マジカルのターゲット/弾数+1、射程+15%
++$40 a cada onda vencida e bolotas douradas valem o dobro
+ウェーブ勝利ごとに+$40、ゴールデンどんぐりの価値が2倍
+Todas +35% de dano; ouro das recompensas -30%
+全タワーのダメージ+35%、報酬ゴールド-30%
+Todas +2 alvos/projéteis; inimigos +25% de velocidade
+全タワーのターゲット/弾数+2、敵のスピード+25%
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+全タワーのダメージ+60%。呪い: ウェーブごとにライフを3%失う
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+全タワーの連射速度+25%・ターゲット+1。呪い: 敵のライフ+20%
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
+今すぐ+$500、ウェーブごとに+$60。呪い: ショップ価格が40%アップ
+ATIVA (toque no ícone na onda, 1x por andar): empurra todos os inimigos para trás
+アクティブ（ウェーブ中にアイコンをタップ、フロアごとに1回）: 全部の敵を後ろへ押し戻す
+ATIVA (toque no ícone na onda, 1x por andar): dano em todos os inimigos do caminho
+アクティブ（ウェーブ中にアイコンをタップ、フロアごとに1回）: 道にいる全部の敵にダメージ
+Queimaduras duram o dobro; Salamandra +20% de dano
+炎上の持続が2倍、サラマンダーのダメージ+20%
+Inimigo que morre queimando EXPLODE nos vizinhos
+炎上中に倒れた敵が周りの敵を巻きこんで爆発
+Lentidões duram +50%; Tartaruga +20% de dano
+スローの持続+50%、カメのダメージ+20%
+Inimigos lentos ou congelados levam +25% de dano
+スロー中・凍結中の敵が受けるダメージ+25%
+Acertos das torres primárias envenenam
+プライマリタワーの攻撃が毒を与える
+Inimigo que morre envenenado espalha o veneno
+毒状態で倒れた敵が周りに毒をまき散らす
++10% de chance de crítico em todas as torres
+全タワーのクリティカル率+10%
+Críticos causam x3 em vez de x2
+クリティカルのダメージがx2からx3に
++5% de dano em todas a cada $1000 que você tiver (até +25%)
+所持金$1000ごとに全タワーのダメージ+5%（最大+25%）
+Cada crítico dá $1 (até $60 por onda)
+クリティカル1回ごとに$1（ウェーブごとに最大$60）
+Herói +40% de dano
+ヒーローのダメージ+40%
+Herói sobe +1 nível a cada chefe vencido
+ボスを倒すたびにヒーローのレベル+1
+Invocações do Guaxinim e sentinelas do Texugo +40% de dano
+アライグマの召喚獣とアナグマのセントリーのダメージ+40%
+Invocações e sentinelas atacam 30% mais rápido
+召喚獣とセントリーの攻撃が30%速くなる
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+炎上ダメージが2倍。呪い: 氷タワーのダメージ-30%
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+同じ敵に毒が最大3重まで重なる。呪い: 毒状態の敵の移動が15%速くなる
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+クリティカルがx4に。呪い: クリティカル以外のダメージ-20%
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+層破壊で得るゴールド+100%。呪い: フロア終了ごとにゴールドを25%失う
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+ヒーローのダメージ+80%。呪い: ほかのタワーのダメージ-15%
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+召喚獣とセントリーのダメージ+60%、アライグマの召喚獣のターゲット+1。呪い: 召喚しないタワーの連射速度-10%
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+エリートとミニボスの報酬が2倍。呪い: 敵のライフ+15%
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+全タワーの連射速度+30%。呪い: 敵の出現間隔が25%詰まる
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+バフカードのレアリティが1段階アップ。呪い: カードの引き直し不可
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+倒れた敵が周りの敵を巻きこんで爆発。呪い: 突破した敵も爆発し、ライフを追加で5奪う
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+全タワーのダメージ+40%。呪い: 突破されるたびに失うライフが2倍
+Todas as torres veem camuflados e têm +25% de alcance; inimigos +20% de velocidade
+全タワーがカモフラージュ探知を得て射程+25%、敵のスピード+20%
+Todas +45% de cadência; vida máxima -25
+全タワーの連射速度+45%、最大ライフ-25
++$400 agora e ouro dos abates +60%; loja 30% mais cara
+今すぐ+$400、撃破ゴールド+60%、ショップ価格が30%アップ
+A cada 10 abates, TODAS as torres atacam 60% mais rápido por 3s
+10体倒すごとに、全タワーの攻撃が3秒間60%速くなる
+Cada inimigo que vaza tira no máximo 1 vida (até blindado e chefe)
+突破した敵が奪うライフは最大1（装甲の敵やボスでも）
+Cada onda perfeita (sem vazar) recupera 3 de vida
+パーフェクトウェーブ（突破なし）ごとにライフ3回復
+Todas as torres veem camuflados; alcance -10%
+全タワーがカモフラージュ探知を得る。射程-10%
+Inimigos chegam SEM blindagem (fortificados perdem a casca)
+敵の装甲がなくなる（要塞化の敵も殻を失う）
+vença {0} Elites ou Mini Chefes
+エリートかミニボスを{0}体倒す
+vença 1 chefe
+ボスを1体倒す
+vença {0} chefes
+ボスを{0}体倒す
+faça {0} ondas perfeitas
+パーフェクトウェーブを{0}回達成
+vença {0} ondas
+ウェーブを{0}回クリア
+Quebra: {0}
+解呪条件: {0}
+Mágicas +60% de dano
+マジカルのダメージ+60%
++10% por torre igual (até +50%)
+同じタワー1つごとに+10%（最大+50%）
+Primárias +4 de perfuração
+プライマリの貫通+4
+Militares +45% de dano
+ミリタリーのダメージ+45%
++35% de alcance
+射程+35%
++60% de cadência
+連射速度+60%
+Juros de 12% (até $800)
+利息12%（最大$800）
++45% de dano e +15% de alcance
+ダメージ+45%、射程+15%
+Perfuração
+貫通
+Velocidade de Ataque
+攻撃速度
+Alvos/Projéteis
+ターゲット/弾数
+Dano em Blindados
+装甲へのダメージ
+Área de Impacto
+着弾範囲
+Alcance
+射程
+Crítico
+クリティカル
++{0} de perfuração
+貫通+{0}
++{0} alvo/projétil por ataque
+1回の攻撃でターゲット/弾数+{0}
++{0} de dano contra blindados
+装甲の敵にダメージ+{0}
+fura +{0} camada(s)
+層貫通+{0}
++{0}% de chance de CRÍTICO (dano x2)
+クリティカル率+{0}%（ダメージx2）
+acerto envenena: {0}% do dano por segundo (2s)
+命中で毒: 毎秒ダメージの{0}%（2秒間）
+Normal
+コモン
+Raro
+レア
+Épico
+エピック
+Melhoria
+強化
+Ouro
+ゴールド
+Upagem
+アップグレード
+Loja
+ショップ
+Fogueira
+たき火
+CHEFE
+ボス
+Início
+スタート
+Elite
+エリート
+Relíquia
+レリック
+Evento
+イベント
+Mini Chefe
+ミニボス
+Desafio
+チャレンジ
+Mímico
+ミミック
+Nada
+なにもなし
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+ウェーブに勝って、タワー強化を3つから1つ選ぶ
+Vença a onda: ouro na hora ou investido
+ウェーブに勝って、ゴールドを今すぐもらうか投資する
+Vença a onda e ganhe 1 de 3 torres grátis
+ウェーブに勝って、3つのタワーから1つを無料でゲット
+Vença a onda: upagem grátis numa torre
+ウェーブに勝って、タワー1つを無料でアップグレード
+Sem onda: compre melhorias e relíquias com ouro
+ウェーブなし: ゴールドで強化やレリックを買える
+Sem onda: descansar ou treinar
+ウェーブなし: 休むか特訓するか
+O chefe do andar: vença e escolha uma relíquia de chefe
+このフロアのボス: 倒してボスレリックを選ぼう
+Escolha a torre inicial da run
+ランの最初のタワーを選ぶ
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+強い敵と特殊ルール: レアカードとゴールドがもらえる
+Vença a onda e escolha 1 de 3 relíquias
+ウェーブに勝って、レリックを3つから1つ選ぶ
+Sem onda: um encontro com escolhas
+ウェーブなし: 選択肢つきの出会い
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+最後にミニボスが出るウェーブ: レアタワーか財宝がもらえる
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+勝利・突破なし・時間内: 最大3つの金の星
+Uma onda, sem recompensa extra
+1ウェーブのみ、追加報酬なし
+Camuflados
+カモフラージュ
+Fortificados
+要塞化
+Regeneram
+再生
+Apressados
+加速
+Horda
+大群
+todos vêm camuflados
+全員カモフラージュ
+todos vêm fortificados
+全員要塞化
+todos regeneram
+全員再生する
++30% de velocidade
+スピード+30%
++50% de inimigos
+敵の数+50%
+Escudeiro Demolidor
+盾持ち解体屋
+Mãe-Bomba
+ボムママ
+Engenheiro Remendão
+つぎはぎ技師
+Rasga-Vento
+かまいたち号
+Escudo de 30% da vida. Quando quebra, fica atordoado 2,5s
+ライフの30%のシールド。割れると2.5秒間気絶
+A cada 4s solta 2 bombinhas no caminho (até 14)
+4秒ごとに道へ小型爆弾を2個落とす（最大14個）
+Conserta a si mesmo e cura os aliados por perto a cada 3s
+3秒ごとに自分を修理し、近くの仲間を回復
+A cada 5s dá uma arrancada 4x mais rápida
+5秒ごとに4倍速でダッシュ
+dano alto de uma vez quebra o escudo; depois é a hora de bater
+高ダメージの一撃でシールドを割ろう。そこが攻めどき
+torres de área e perfuração limpam os filhotes
+範囲攻撃と貫通タワーでチビ爆弾を一掃
+dano concentrado antes do conserto
+修理される前に集中攻撃
+lentidão e torres no fim do caminho
+スローと道の終盤のタワーで対抗
+Esquilo Contrabandista
+密輸リス
+Ninho Abandonado
+捨てられた巣
+Javali do Caos
+混沌のイノシシ
+Aposta do Guaxinim
+アライグマの賭け
+Lago Espelhado
+鏡の湖
+Fonte Sagrada
+聖なる泉
+Dinamite Abandonada
+置き去りのダイナマイト
+Árvore Ancestral
+古代の大樹
+Mel do Urso
+クマのハチミツ
+O Corvo Mercador
+商人カラス
+Toca Desmoronada
+崩れた巣穴
+Arbusto de Frutinhas
+木の実の茂み
+Caminhão Capturado
+奪ったトラック
+Ninho de Vespas
+スズメバチの巣
+Ovo Misterioso
+なぞの卵
+Altar do Sacrifício
+いけにえの祭壇
+Altar das Maldições
+呪いの祭壇
+Coruja Sábia
+賢者フクロウ
+Colmeia Selvagem
+野生のハチの巣
+Lago Congelado
+凍った湖
+Iglu do Pinguim
+ペンギンのイグルー
+Miragem
+しんきろう
+Caravana do Deserto
+砂漠のキャラバン
+Forja de Lava
+溶岩の鍛冶場
+Ovo de Fogo
+炎の卵
+Bruxa do Pântano
+沼の魔女
+Sapo Rei
+カエルの王様
+Um esquilo de capa abre um saco cheio de mapas roubados. "Tenho uma torre de elite pra você... por um terço do seu ouro."
+マントを着たリスが、盗んだ地図でいっぱいの袋を開く。「エリートタワーがあるぜ…お代はあんたのゴールドの3分の1だ」
+No alto de uma árvore, um ninho com um brilho estranho. Pode ser um tesouro. Pode ser uma armadilha dos humanos.
+木のてっぺんに、怪しく光る巣がある。お宝かもしれない。人間のワナかもしれない。
+Um javali enorme bufa no caminho. "Deixe minha fúria correr pelo campo e eu ensino suas torres a bater mais forte."
+大きなイノシシが道で鼻を鳴らす。「オレの怒りを野に放たせろ。そしたらタワーをもっと強く叩けるよう鍛えてやる」
+Um guaxinim embaralha três cascas de noz. "Aposta $300? Acertou, dobra. Errou... é meu."
+アライグマが3つのクルミの殻をシャッフルする。「$300賭ける？当たれば倍。はずれたら…いただきだ」
+A água do lago reflete suas torres mais fortes do que são. Tocar nela cobra um preço.
+湖の水面に、本物より強そうなタワーが映っている。触れるには代償が必要だ。
+Uma fonte de água cristalina no meio da floresta.
+森の真ん中に、澄んだ水がわく泉がある。
+Humanos-bomba fugiram e largaram um caixote com o pavio aceso.
+爆弾人間が逃げ出し、導火線に火がついた木箱を置いていった。
+Uma árvore milenar sussurra: "dê um pouco da sua vida e eu te dou um presente antigo."
+千年の大樹がささやく。「命を少し分けておくれ。古の贈り物をあげよう」
+Um urso guarda um pote de mel dourado. Ele aceita dividir... por um preço.
+クマが金色のハチミツのツボを守っている。分けてくれるらしい…タダではないが。
+Um corvo pousa num galho com objetos brilhantes. "Brilho por brilho, amigo."
+光り物を並べたカラスが枝にとまる。「キラキラにはキラキラを、だぜ」
+Uma toca antiga. Escavar aqui pode revelar algo útil ou derrubar tudo.
+古い巣穴。掘れば役立つ物が出てくるかも。全部崩れるかも。
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+魔法の木の実がたわわに実った茂み。市場で売ってもいいし、今食べてもいい。
+Um caminhão dos humanos tombou na estrada, cheio de caixas. O motorista fugiu... por enquanto.
+人間のトラックが道で横転している。積み荷の箱がいっぱいだ。運転手は逃げた…今のところは。
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+低い枝でスズメバチの巣がブンブンうなっている。怒ったハチは頼もしい味方にも、最悪の敵にもなる。
+Um ovo brilhante, quentinho, esquecido no meio da trilha. Um vendedor pede $150 por ele.
+道の真ん中に、光るあったかい卵が置き忘れられている。商人が$150で売ると言う。
+Um altar de pedra antiga pulsa com poder. Ele pede uma das suas torres... e promete algo à altura.
+古い石の祭壇が力を脈打たせている。タワーを1つ捧げれば…それに見合うものをくれるという。
+Duas relíquias negras flutuam sobre um altar rachado. Poder de verdade... com um preço que cobra todo dia.
+ひび割れた祭壇の上に、黒いレリックが2つ浮かんでいる。本物の力…ただし毎日代償を払うことになる。
+Uma coruja velha de óculos abre um livro de estratégia. "Conhecimento custa caro, filhote."
+メガネをかけた年寄りフクロウが作戦の本を開く。「知識は高くつくぞ、ひよっこ」
+Uma colmeia enorme pinga mel dourado. As abelhas não parecem nada contentes com visitas.
+大きなハチの巣から金色のハチミツがしたたる。ハチたちはお客を歓迎していないようだ。
+Um lago totalmente congelado corta o caminho. Do outro lado, um baú brilha. O gelo range.
+カチカチに凍った湖が道をふさいでいる。向こう岸で宝箱が光っている。氷がきしむ。
+Um pinguim de cachecol vende neve mágica na porta do iglu. "Fresquinha, direto do polo!"
+マフラーを巻いたペンギンが、イグルーの前で魔法の雪を売っている。「とれたて、北極直送だよ！」
+No horizonte, um oásis cheio de tesouros tremula no calor. Pode ser real... ou só o sol.
+地平線の向こうで、お宝だらけのオアシスが熱でゆらめいている。本物か…ただの日差しか。
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+ラクダのキャラバンが砂丘で止まった。商人たちが地図を交換し、水を売っている。
+Uma forja antiga, aquecida pela própria lava. Ela pede sangue para temperar o aço.
+溶岩の熱で燃える古い鍛冶場。鋼を鍛えるには血が必要だという。
+Um ovo vermelho, quente como brasa, pulsa entre as rochas. Pegar com a mão vai doer.
+燃えさしのように熱い赤い卵が、岩の間で脈打っている。素手で持てばやけどしそうだ。
+Uma bruxa mexe um caldeirão verde. "Uma poção desfaz maldições, querido... ou um amuleto, se preferir."
+魔女が緑の大釜をかき混ぜる。「呪いを解くポーションはいかが？それともお守りがいいかしら」
+Um sapo de coroa olha fundo nos seus olhos. Dizem que ele é um herói amaldiçoado.
+王冠をかぶったカエルが、じっとこちらの目を見つめる。呪われたヒーローだといううわさだ。
+Comprar
+買う
+Paga 1/3 do ouro: uma torre ÉPICA (4 upagens)
+ゴールドの3分の1を払う: エピックタワー（アップグレード4つ）
+Recusar
+断る
+Segue em frente
+先へ進む
+Pegar o ovo
+卵を取る
+50%: uma relíquia · 50%: perde 15% da vida
+50%: レリック1つ · 50%: ライフを15%失う
+Deixar
+放っておく
+Aceitar
+受け入れる
+Próximas 3 ondas: inimigos +25% de velocidade. Depois: +15% de dano em TODAS as torres pra sempre
+次の3ウェーブ: 敵のスピード+25%。その後: 全タワーのダメージ+15%（永続）
+Apostar
+賭ける
+Passar
+パス
+Tocar a água
+水に触れる
+Perde 20% da vida: um buff ÉPICO numa torre aleatória
+ライフを20%失う: ランダムなタワーにエピックバフ
+Ir embora
+立ち去る
+Beber
+飲む
+Recupera 20% da vida
+ライフを20%回復
+Encher o cantil
+水筒に詰める
++$150 vendendo a água
+水を売って+$150
+Desarmar
+解除する
++$120 e 1 upagem grátis numa torre aleatória
++$120、ランダムなタワー1つを無料でアップグレード
+Sair de fininho
+こっそり逃げる
+Oferecer vida
+命を捧げる
+Perde 10% da vida máxima: uma relíquia aleatória
+最大ライフを10%失う: ランダムなレリック1つ
+Pagar $200
+$200払う
+Todas as torres +5% de dano pelo resto da run
+このランの間、全タワーのダメージ+5%
+Pagar $250
+$250払う
+Uma relíquia aleatória
+ランダムなレリック1つ
+Escavar
+掘る
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: 無料アップグレード + $100 · 40%: ライフを10%失う
+Colher e vender
+摘んで売る
++$180 no mercado
+市場で+$180
+Comer agora
+今すぐ食べる
+Recupera 10% da vida
+ライフを10%回復
+Pagar 40% do ouro
+ゴールドの40%を払う
+Uma torre RARA aleatória (2 upagens)
+ランダムなレアタワー（アップグレード2つ）
+Saquear
+あさる
++$200, mas perde 5% da vida
++$200、ただしライフを5%失う
+Cutucar
+つついてみる
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: このランの間、全タワーの連射速度+10% · 50%: ライフを10%失う
+Comprar ($150)
+買う（$150）
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: レリック1つ · 40%: ライフを15%回復
+Sacrificar
+捧げる
+Entrega uma torre: relíquia conforme o valor dela
+タワーを1つ捧げる: その価値に応じたレリック
+Aceitar a maldição
+呪いを受け入れる
+Escolha 1 de 2 relíquias amaldiçoadas (não conta no limite do andar)
+呪われたレリック2つから1つを選ぶ（フロアの上限に数えない）
+Pagar $180
+$180払う
+1 upagem grátis em 2 torres aleatórias
+ランダムなタワー2つを無料でアップグレード
+Ouvir o conselho
+助言を聞く
++1 troca de cartas grátis neste andar
+このフロアでカードの引き直し+1回（無料）
+Pegar o mel
+ハチミツを取る
+Perde 8% da vida: +$300 vendendo o mel
+ライフを8%失う: ハチミツを売って+$300
+Atravessar
+渡る
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: 宝箱で+$300 · 40%: 氷が割れてライフを15%失う
+Contornar
+回り道する
+Comprar ($200)
+買う（$200）
++40 de escudo até o fim do andar (absorve vazamentos)
+フロア終了までシールド+40（突破を吸収）
+Seguir a miragem
+しんきろうを追う
+50%: uma relíquia · 50%: perde $200 na areia
+50%: レリック1つ · 50%: 砂の中で$200を失う
+Ignorar
+無視する
+Trocar mapas
+地図を交換する
++$100 e +1 troca de cartas grátis neste andar
++$100、このフロアでカードの引き直し+1回（無料）
+Comprar água ($120)
+水を買う（$120）
+Temperar o aço
+鋼を鍛える
+Perde 10% da vida máxima: um buff ÉPICO numa torre aleatória
+最大ライフを10%失う: ランダムなタワーにエピックバフ
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+ランダムなタワーにエピックのダメージバフ · 30%: やけどしてライフを10%失う
+Beber a poção
+ポーションを飲む
+Quebra a maldição de uma relíquia (sem maldição: +25 de escudo)
+レリック1つの呪いを解く（呪いがなければシールド+25）
+Amuleto ($250)
+お守り（$250）
+Beijar o sapo
+カエルにキスする
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: エピックタワーに変身（アップグレード4つ） · 70%: ただのカエルだった
+Seguir
+先へ進む
+O CHEFE DO ANDAR CHEGOU!
+フロアボス出現！
+Mini chefe: {0}!
+ミニボス: {0}！
++conserto
++修理
+ESCUDO QUEBRADO!
+シールド破壊！
+CORAÇÃO TEIMOSO!
+不屈の心！
+Nv {0}
+Lv {0}
+Nenhuma torre no campo pra upar.
+アップグレードできるタワーが場にありません。
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+ミミックだった！宝箱を倒してゴールドを2倍ゲット
+Onda perfeita x{0}: +${1}
+パーフェクトウェーブ x{0}: +${1}
+{0} EVOLUIU: {1}
+{0}が進化: {1}
+O chefe escapou! Sem a recompensa dele.
+ボスに逃げられた！報酬はなし。
+O chefe escapou!
+ボスに逃げられた！
+Sem a recompensa dele.
+報酬はなし。
+Revive usado! A onda recomeça.
+復活を使用！ウェーブをやり直します。
+Maldição quebrada: {0} (o bônus fica)
+呪いが解けた: {0}（ボーナスはそのまま）
+Escolha a torre inicial
+最初のタワーを選ぼう
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+ランダムなアップグレード2つつきで無料で手に入ります。初期ゴールドはそのまま追加購入に使えます。
+Escolha uma melhoria
+強化を選ぼう
+Depois toque na torre que vai receber.
+次に、強化するタワーをタップ。
+Escolha uma torre grátis
+無料タワーを選ぼう
+Chefe derrotado! Escolha uma relíquia de chefe
+ボス撃破！ボスレリックを選ぼう
+Depois ainda ganha {0} com {1} upagens.
+さらに{0}（アップグレード{1}つ）も手に入ります。
+Elite vencido!
+エリート撃破！
++${0} de ouro. Escolha uma carta rara:
++${0}ゴールド。レアカードを選ぼう:
+Lua de Sangue: +${0}
+ブラッドムーン: +${0}
+Mini chefe derrotado!
+ミニボス撃破！
+RELÍQUIAS ESGOTADAS
+レリック品切れ
+Você já tem todas. +${0}
+すべて入手済みです。+${0}
+Escolha uma relíquia
+レリックを選ぼう
+Relíquias valem a run toda.
+レリックの効果はランの間ずっと続きます。
+Loja do Coelho
+ウサギのショップ
+Melhorias e relíquias, pagas com o ouro da run.
+強化やレリックを、ランのゴールドで買えます。
+Dinheiro
+ゴールド
+Pegar agora ou investir?
+今すぐもらう？それとも投資する？
+Escolha UMA.
+1つだけ選ぼう。
+UPAGEM GRÁTIS
+無料アップグレード
+DESAFIO: {0} de 3 estrelas
+チャレンジ: 星{0}/3
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+勝利: ○  ·  突破なし: {0}  ·  {1}秒以内: {2}  ·  +${3}
+sim
+○
+não
+×
+MÍMICO DERROTADO
+ミミック撃破
+O baú-monstro deixou cair +${0}
+宝箱モンスターが+${0}を落とした
+CAMINHO LIMPO
+異常なし
+Nenhuma recompensa por aqui.
+ここには報酬がありません。
+Ganhou {0}! Toque no campo para posicionar.
+{0}をゲット！場をタップして配置しよう。
+O investimento rendeu: +${0}
+投資が実った: +${0}
+Bolsa Furada: -${0} no fim do andar
+穴あき財布: フロア終了時に-${0}
+ANDAR {0}!
+フロア{0}！
+Entrega {0} (vale ~${1})
+{0}を捧げる（価値 約${1}）
+Treinar
+特訓
+Escolha a árvore da upagem grátis.
+無料アップグレードするツリーを選ぼう。
+Já são {0} relíquias neste andar: {1} virou +${2}
+このフロアのレリックはもう{0}個: {1}は+${2}に変わった
+Relíquia nova: {0}
+新しいレリック: {0}
+Delícia! +{0} de vida.
+おいしい！ライフ+{0}。
++$200 do saque, mas o motorista voltou: -{0} de vida.
+略奪で+$200、でも運転手が戻ってきた: ライフ-{0}。
+A coruja ensina a olhar de novo: +1 troca de cartas grátis neste andar.
+フクロウが見直し方を教えてくれた: このフロアでカードの引き直し+1回（無料）。
+Você não tinha $120 para a água.
+水を買う$120がありません。
+-$120. Água fresca: +{0} de vida.
+-$120。冷たい水: ライフ+{0}。
+Você não tinha $250 para o amuleto.
+お守りを買う$250がありません。
+A bruxa não tinha amuleto que você não possua.
+魔女はあなたが持っていないお守りを持っていなかった。
+-$250. Amuleto: {0}
+-$250。お守り: {0}
+Você segue em frente.
+あなたは先へ進んだ。
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}。{1}をアップグレード4つつきでゲット！場をタップして配置しよう。
+Era um tesouro! Relíquia: {0}
+お宝だった！レリック: {0}
+Era um tesouro! +$400
+お宝だった！+$400
+Era uma armadilha! -{0} de vida.
+ワナだった！ライフ-{0}。
+A fúria do javali corre solta: 3 ondas com inimigos mais rápidos. Sobreviva e suas torres ficam +15% mais fortes.
+イノシシの怒りが解き放たれた: 3ウェーブの間、敵が速くなる。生き残ればタワーが+15%強くなる。
+Acertou! +$300
+当たり！+$300
+Errou... -${0}
+はずれ… -${0}
+-{0} de vida.
+ライフ-{0}。
+-{0} de vida máxima. A árvore não tinha mais relíquias: +$400.
+最大ライフ-{0}。大樹にはもうレリックがなかった: +$400。
+-{0} de vida máxima. Relíquia: {1}
+最大ライフ-{0}。レリック: {1}
+Você não tinha $200. O urso fica com o mel.
+$200がない。ハチミツはクマのものに。
+-$200. Todas as torres +5% de dano pelo resto da run.
+-$200。このランの間、全タワーのダメージ+5%。
+Você não tinha $250. O corvo voa embora.
+$250がない。カラスは飛び去った。
+O corvo não tinha nada novo pra você.
+カラスには新しい品がなかった。
+-$250. Relíquia: {0}
+-$250。レリック: {0}
+A toca desabou! -{0} de vida.
+巣穴が崩れた！ライフ-{0}。
+As frutinhas renderam +$180 no mercado.
+木の実が市場で+$180になった。
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}。積み荷の中に{1}（アップグレード2つつき）！場をタップして配置しよう。
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+スズメバチが味方になった！このランの間、全タワーの連射速度+10%。
+Ferroadas! -{0} de vida.
+刺された！ライフ-{0}。
+Você não tinha $150. O vendedor guarda o ovo.
+$150がない。商人は卵をしまった。
+-$150. O ovo chocou uma relíquia: {0}
+-$150。卵からレリックがかえった: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150。ただの朝ごはん用の卵だった: ライフ+{0}。
+Você não tinha $180.
+$180がない。
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+刺された！ライフ-{0}、でもハチミツが+$300で売れた。
+O gelo aguentou! O baú tinha $300.
+氷はもちこたえた！宝箱には$300。
+CRACK! O gelo quebrou: -{0} de vida.
+バキッ！氷が割れた: ライフ-{0}。
+Você não tinha $200.
+$200がない。
+-$200. +40 de escudo até o fim do andar.
+-$200。フロア終了までシールド+40。
+Era real! Relíquia: {0}
+本物だった！レリック: {0}
+Era só o sol... você perdeu ${0} na areia.
+ただの日差しだった…砂の中で${0}を失った。
++$100 e +1 troca de cartas grátis neste andar.
++$100、このフロアでカードの引き直し+1回（無料）。
+-{0} de vida máxima.
+最大ライフ-{0}。
+A mão queimou: -{0} de vida.
+手をやけどした: ライフ-{0}。
+A maldição de {0} sumiu!
+{0}の呪いが消えた！
+Sem maldição para quebrar: a poção virou +25 de escudo.
+解く呪いがない: ポーションはシールド+25になった。
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+カエルが{0}（アップグレード4つつき）に変身！場をタップして配置しよう。
+Era só um sapo. Ele coaxa, ofendido.
+ただのカエルだった。不満そうにケロッと鳴いた。
+O altar se apagou: não há maldições novas.
+祭壇の光が消えた: 新しい呪いはない。
+Não havia torre para sacrificar.
+捧げられるタワーがなかった。
+{0} foi entregue. O altar não tinha relíquias: +${1}
+{0}を捧げた。祭壇にはレリックがなかった: +${1}
+{0} foi entregue ao altar. Relíquia: {1}
+{0}を祭壇に捧げた。レリック: {1}
++{0} de vida.
+ライフ+{0}。
+Não havia torre para receber.
+受け取れるタワーがなかった。
+{0} ganhou {1} (Épico)
+{0}が{1}を獲得（エピック）
+Modo Rogue
+ローグモード
+Como funciona
+あそびかた
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+3フロアのマップでルートを選ぼう。各マスはウェーブか出会いです。
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+勝てば強化、無料タワー、ラン中ずっと効くレリックが手に入ります。
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+エリートとミニボスは強いけど報酬も豪華。各フロアの最後はボスです。
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+ゴールド、ライフ、タワーは次のマスに引き継がれます。ライフが尽きるとラン終了。
+No fim você ganha cristais e XP: quanto mais longe, mais.
+最後にクリスタルとXPを獲得。遠くまで進むほど多くもらえます。
+Melhor: andar {0}
+最高: フロア{0}
+Runs: {0}
+ラン: {0}
+Vitórias: {0}
+勝利: {0}
+Andar {0}
+フロア{0}
+{0} relíquias
+レリック{0}個
+Continuar run
+ランを続ける
+Nova run
+新しいラン
+Mapa: {0}
+マップ: {0}
+Começar run
+ラン開始
+Começar outra run?
+新しいランを始めますか？
+A run salva acaba aqui, sem recompensa.
+保存中のランは報酬なしで終了します。
+Sim, nova run
+はい、新しいラン
+Torre grátis: toque no campo para posicionar {0}
+無料タワー: 場をタップして{0}を配置
+Sair (a run fica salva)
+やめる（ランは保存されます）
+Sair
+やめる
++{0} escudo
+シールド+{0}
+ANDAR {0}
+フロア{0}
+Caminho {0}/{1}
+マス {0}/{1}
+Sem melhorias ainda
+まだ強化なし
+{0} melhorias nas torres
+タワー強化{0}個
+{0} ondas perfeitas
+パーフェクトウェーブ{0}回
+{0} revive
+復活{0}回
+Vida {0}/{1}
+ライフ {0}/{1}
+Toque no Início (o caminho que brilha) para começar
+スタート（光っているマス）をタップして始めよう
+Escolha o próximo caminho (os que brilham)
+次のマスを選ぼう（光っているマス）
+Andar
+フロア
+Nenhuma relíquia ainda
+まだレリックなし
+Chefe do andar
+フロアボス
+Onda {0} com inimigos +40% de vida
+ウェーブ{0}、敵のライフ+40%
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+報酬: ゴールドx1.5とレアカード3枚から1枚
+Dica: {0}
+ヒント: {0}
+Recompensa: melhoria rara, torre rara ou tesouro
+報酬: レア強化、レアタワー、または財宝
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+巨大でのろい乗り物。逃がすとラン終了。
+É o chefe final: vença e a run está ganha!
+最終ボス: 倒せばランクリア！
+Fecha o andar.
+フロアを締めくくる。
+Recompensa: relíquia de chefe e uma torre
+報酬: ボスレリックとタワー1つ
+Ir por aqui
+ここへ進む
+Trocar estoque ${0}
+品ぞろえ更新 ${0}
+Trocar (grátis)
+引き直し（無料）
+Trocar ${0}
+引き直し ${0}
+Sair da loja
+ショップを出る
+Pular
+スキップ
+de Chefe
+ボス
+Amaldiçoada
+呪い
+Comprado
+購入済み
+Lapidar
+磨き上げ
+Recrutar
+スカウト
+Tesouro
+財宝
+Pegar agora
+今すぐもらう
+Investir
+投資する
+Descansar
+休む
+Fortificar
+守りを固める
+Meditar
+瞑想
+Treinar Herói
+ヒーロー特訓
+Purificar
+お祓い
+para: {0}
+対象: {0}
+Reforça o que ela já tem: {0}
+持っている効果を強化: {0}
+Sem upagens. Chega de graça.
+アップグレードなし。無料で手に入る。
+Chega de graça com {0} upagens sorteadas.
+ランダムなアップグレード{0}つつきで無料で手に入る。
+Mais uma torre {0} sem upagens, por metade do preço.
+アップグレードなしの{0}をもう1つ、半額で。
++${0} na hora
+今すぐ+${0}
++${0} daqui a 3 caminhos (se você sobreviver)
+3マス後に+${0}（生き残っていれば）
+Recupera {0}% da vida
+ライフを{0}%回復
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: 好きなツリーを1つ無料でアップグレード
++{0} de escudo até o fim do andar (absorve vazamentos)
+フロア終了までシールド+{0}（突破を吸収）
++2 trocas de cartas grátis neste andar
+このフロアでカードの引き直し+2回（無料）
+Herói +2 níveis
+ヒーローのレベル+2
+Tira a maldição de {0} (o poder fica)
+{0}の呪いを解く（効果はそのまま）
+Nível {0} para {1}
+{1}のレベル{0}
+Escolha a torre
+タワーを選ぼう
+{0} melhorias
+強化{0}個
+Nenhuma torre no campo pode receber esta melhoria.
+この強化を受けられるタワーが場にありません。
+Andar {0} de {1}
+フロア{0}/{1}
+RUN VENCIDA!
+ランクリア！
+FIM DA RUN
+ラン終了
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+フロア{0}  ·  {1}マス  ·  ボス{2}体  ·  エリート{3}体
+{0} relíquias  ·  onda {1}  ·  {2} abates
+レリック{0}個  ·  ウェーブ{1}  ·  撃破{2}
+Rogue
+ローグ
+Diárias
+デイリー
+Relíquias  {0}/{1}
+レリック  {0}/{1}
+Relíquia liberada: {0}
+レリック解放: {0}
+Jogar {0} corridas no Rogue
+ローグで{0}回ランをプレイする
+Vencer {0} corridas no Rogue
+ローグで{0}回ランをクリアする
+Derrotar {0} chefes no Rogue
+ローグでボスを{0}体倒す
+Vencer {0} elites no Rogue
+ローグでエリートを{0}体倒す
+Chegar ao andar {0} no Rogue
+ローグでフロア{0}に到達する
+Vencer {0} partidas
+{0}回勝利する
+Baú diário
+デイリー宝箱
+Volte amanhã para continuar a sequência!
+明日もまた来て連続記録をのばそう！
+Pronto para abrir!
+開けられます！
+Resgate as 3 missões de hoje para abrir.
+今日のミッション3つの報酬を受け取ると開けられます。
+Sequência: 1 dia
+連続: 1日
+Sequência: {0} dias
+連続: {0}日
+Novas missões em {0}
+新しいミッションまで {0}
+Desafio do Dia
+今日のチャレンジ
+Desafio do Dia concluído!
+今日のチャレンジ達成！
+Concluído hoje!
+今日は達成済み！
+Vença para ganhar +{0} cristais
+勝てばクリスタル+{0}
+Recorde de hoje: onda {0}
+今日の記録: ウェーブ{0}
+Novo desafio em {0}
+新しいチャレンジまで {0}
++$40 a cada onda vencida
+ウェーブ勝利ごとに+$40
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+最初のタワーにはランダムなアップグレードが3つつきます。ほかのタワーはマップのカードとショップで手に入ります。
+O aluguel acabou: {0} foi embora
+レンタル終了: {0}が去りました
+Nenhuma torre pode ser upada agora
+今アップグレードできるタワーがありません
+Sua vida já está cheia
+ライフはすでに満タンです
+Toque no campo para posicionar: {0}
+場をタップして配置: {0}
+MODO ROGUE
+ローグモード
+Andar {0}  ·  caminho {1}/{2}
+フロア{0}  ·  マス{1}/{2}
+Revives guardados: {0}
+復活のストック: {0}
+BUFFS DA RUN
+ランのバフ
+Relíquias:
+レリック:
+Treino +{0}% de dano
+特訓 ダメージ+{0}%
+nenhum ainda
+まだなし
+Torres vêm das cartas do mapa.
+タワーはマップのカードで手に入ります。
+Upar e vender: só na Loja.
+アップグレードと売却はショップでのみ。
+SUAS TORRES
+あなたのタワー
+nenhuma ainda
+まだなし
+alugada: {0} caminhos
+レンタル: 残り{0}マス
+Treino {0}: +{1}% de dano
+特訓{0}回目: ダメージ+{1}%
+Ouro insuficiente: o treino custa ${0}
+ゴールドが足りません: 特訓には${0}必要です
+Ouro: ${0}
+ゴールド: ${0}
+Toque numa torre do painel para upar ou vender
+パネルのタワーをタップしてアップグレード・売却
+Estoque esgotado
+売り切れ
+Aluguel: {0}
+レンタル: {0}
+Cura Grande
+大回復
+Cura Pequena
+小回復
+Upagem Grátis
+無料アップグレード
+Revive
+復活
+Torre ÉPICA (4 upagens) por 3 caminhos, depois vai embora
+エピックタワー（アップグレード4つ）を3マスの間レンタル、その後は去ります
+Recupera 50% da vida
+ライフを50%回復
+Recupera 30% da vida
+ライフを30%回復
+Upa uma árvore aleatória
+ランダムなツリーをアップグレード
+Volta com metade da vida ao morrer
+倒れてもライフ半分で復活
+HERÓI  nível {0}
+ヒーロー  レベル{0}
+Sem upagens
+アップグレードなし
+{0} upagens sorteadas
+ランダムなアップグレード{0}つ
+Alugada: não vende
+レンタル中: 売却不可
+Upar e vender: só na Loja
+アップグレードと売却はショップでのみ
+O Poder da Run carrega 50% mais rápido
+ランパワーのチャージが50%速くなる
+Usar o Poder da Run dá +$100 e recupera 5 de vida
+ランパワーを使うと+$100、ライフが5回復
+A roleta nunca dá x0 (vira x1)
+ルーレットでx0が出なくなる（x1になる）
+Mercador
+商人
+Horda de Ouro
+ゴールドの大群
+Mercador Sombrio: cartas épicas e relíquias à venda
+闇の商人: エピックカードとレリックを販売中
+Inimigos dourados que pagam muito e não tiram vida
+ゴールドをたっぷり落とし、ライフを奪わない金色の敵
+Inimigos Robustos
+タフな敵
+Pressa Humana
+せっかちな人間
+Inflação
+インフレ
+Fogueira Fria
+冷えたたき火
+Chefes Furiosos
+怒れるボス
+Bolso Furado
+穴あきポケット
+Vida Curta
+短い命
+Inimigos +20% de vida
+敵のライフ+20%
+Inimigos 10% mais rápidos
+敵が10%速くなる
+Loja 25% mais cara
+ショップ価格が25%アップ
+Descansar cura a metade
+休むと回復量が半分
+Chefes +40% de vida
+ボスのライフ+40%
+Recompensas -20% de ouro
+報酬のゴールド-20%
+Vida máxima -25%
+最大ライフ-25%
+Choque Térmico
+寒暖ショック
+Olhos da Noite
+夜の瞳
+Caçada em Dupla
+コンビ狩り
+Veneno e Presas
+毒と牙
+Força Bruta
+怪力
+Mar Profundo
+深海
+Fera e Mestre
+獣と主
+Engenhoca
+からくり
+Noite Sônica
+ソニックナイト
++40% de dano e +20% de cadência
+ダメージ+40%、連射速度+20%
++25% de alcance e +2 de perfuração
+射程+25%、貫通+2
++30% de dano e +1 alvo
+ダメージ+30%、ターゲット+1
++50% de dano
+ダメージ+50%
++35% de dano e +20% de área
+ダメージ+35%、範囲+20%
++30% de dano e +15% de cadência
+ダメージ+30%、連射速度+15%
++25% de cadência e +1 alvo
+連射速度+25%、ターゲット+1
++40% de dano
+ダメージ+40%
++20% de alcance e +20% de cadência
+射程+20%、連射速度+20%
+Chuva de Meteoros
+メテオシャワー
+Muralha de Espinhos
+いばらの壁
+Tempo Lento
+スロータイム
+Ventania
+突風
+Grito de Guerra
+ときの声
+Olho que Tudo Vê
+千里眼
+Chuva de Ouro
+黄金の雨
+Fonte da Vida
+命の泉
+Dano em todos os inimigos da tela (cresce com o andar; no chefe, 5% da vida)
+画面上の全ての敵にダメージ（フロアが進むほど強化、ボスにはライフの5%）
+Prende todos os inimigos (até blindados) por 2,5s
+全ての敵（装甲の敵も）を2.5秒間拘束
+Inimigos 60% mais lentos por 6s
+6秒間、敵の速度が60%ダウン
+Empurra todos os inimigos para trás no caminho (até blindados)
+全ての敵を道の後ろへ押し戻す（装甲の敵も）
+Todas as torres atacam 60% mais rápido por 8s
+8秒間、全タワーの攻撃が60%速くなる
+Tira camuflagem e blindagem de todos os inimigos da tela
+画面上の全ての敵のカモフラージュと装甲をはがす
+Ouro na hora: $30 + $5 por inimigo na tela (cresce com o andar)
+すぐにゴールド獲得: $30 + 画面上の敵1体につき$5（フロアが進むほど増加）
+Recupera 10% da vida máxima (mínimo 5)
+最大ライフの10%を回復（最低5）
+Golpe Pesado
+重い一撃
+Olhar Afiado
+鋭い眼光
+Liderança
+リーダーシップ
+Fúria Veloz
+疾風の怒り
+Ataque em Leque
+扇状攻撃
+Habilidade recarrega 2x mais rápido
+スキルのチャージが2倍速くなる
+Herói +30% de alcance
+ヒーローの射程+30%
+TODAS as torres +8% de dano
+全タワーのダメージ+8%
+Herói +35% de cadência
+ヒーローの連射速度+35%
+Herói +2 alvos/projéteis
+ヒーローのターゲット/弾数+2
+Só torres mágicas
+マジカルタワー限定
+Tudo camuflado
+全員カモフラージュ
+Sem loja
+ショップなし
+Metade da vida
+ライフ半分
+Inimigos 30% mais rápidos
+敵が30%速い
+Só cartas ÉPICAS, loja 2x mais cara
+エピックカードのみ、ショップ価格2倍
+Floresta
+森
+Neve
+雪原
+Deserto
+砂漠
+Vulcão
+火山
+Pântano
+沼地
+sem regra especial
+特別ルールなし
+inimigos 15% mais lentos, mas resistem a gelo (-20%)
+敵が15%遅くなるが、氷に強い（-20%）
+alcance de todas -10%, ouro das recompensas +20%
+全タワーの射程-10%、報酬のゴールド+20%
+fogo +20% de dano, inimigos +10% de vida
+炎のダメージ+20%、敵のライフ+10%
+veneno +40% e inimigos regeneram mais
+毒+40%、敵の再生力がアップ
+Zepelim Tempestade
+ストーム飛行船
+Tanque Escavador
+ドリル戦車
+Fortaleza de Geradores
+発電機要塞
+General Barril
+タル将軍
+Iceberg Blindado
+装甲アイスバーグ
+Rainha da Nevasca
+吹雪の女王
+Escorpião de Areia
+砂サソリ
+Faraó Mumificado
+ミイラのファラオ
+Golem de Magma
+マグマゴーレム
+Hidra do Pântano
+沼のヒドラ
+a cada fase some na nuvem (camuflado) e solta caminhões
+フェーズごとに雲に隠れ（カモフラージュ）、トラックを放つ
+a cada fase se enterra e fica imune por 3s
+フェーズごとに地中に潜り、3秒間無敵になる
+a cada fase liga um escudo de 25% da vida
+フェーズごとにライフ25%分のシールドを張る
+a cada fase acelera os inimigos e joga bombinhas
+フェーズごとに敵を加速させ、ちび爆弾を投げる
+a cada fase solta 3 cerâmicas e toma só metade do dano por 4s
+フェーズごとにセラミックを3体放ち、4秒間被ダメージが半分になる
+a cada fase blinda todos os inimigos do campo e se cura 10%
+フェーズごとに場の全ての敵に装甲をつけ、ライフを10%回復
+a cada fase dá uma ARRANCADA (2,5x mais rápido por 2,5s)
+フェーズごとに猛ダッシュ（2.5秒間2.5倍速）
+a cada fase levanta 6 inimigos e se cura 15%
+フェーズごとに敵を6体よみがえらせ、ライフを15%回復
+a cada fase se parte em 2 tanques e fica 30% mais rápido
+フェーズごとに2台の戦車に分裂し、30%速くなる
+a cada fase passa a regenerar e chama 2 curandeiros
+フェーズごとに再生能力を得て、ヒーラーを2体呼ぶ
++2 projéteis por tiro
+1発ごとに弾数+2
+25% de chance de ATORDOAR no acerto
+命中時25%の確率で気絶させる
+20% de chance de EXPLOSÃO arcana no acerto
+命中時20%の確率で秘術の爆発
+Primeiro Passo
+最初の一歩
+Explorador
+探検家
+Veterano
+ベテラン
+Rei Deposto
+王座陥落
+Colecionador
+コレクター
+Estrela
+スター
+Perfeccionista
+完璧主義者
+Achado Raro
+レアな掘り出し物
+Contratado
+契約成立
+Corajoso
+勇者
+Caça-Mímico
+ミミックハンター
+Combo Lendário
+伝説のコンボ
+Vença o chefe do andar 1
+フロア1のボスを倒す
+Alcance o andar 3
+フロア3に到達する
+Alcance o andar 5
+フロア5に到達する
+Vença o Rei das Bombas (andar 10)
+ボムキングを倒す（フロア10）
+Tenha 10 relíquias numa run
+1回のランでレリックを10個集める
+Funda uma torre ESTRELA
+スタータワーを合成する
+3 estrelas num Desafio
+チャレンジで星3つを獲得する
+Encontre o Mercador Sombrio
+闇の商人を見つける
+Cumpra um contrato do andar
+フロアの契約を達成する
+Vença o andar 3 com Ameaça 5+
+脅威度5+でフロア3をクリアする
+Derrote um Mímico
+ミミックを倒す
+Faça um combo x50
+コンボx50を達成する
+Sem borda
+フチなし
+Bronze
+ブロンズ
+Prata
+シルバー
+primárias
+プライマリ
+militares
+ミリタリー
+mágicas
+マジカル
+Festival
+フェスティバル
+Erupção
+噴火
+todos os inimigos camuflados, mas +50% de ouro nas recompensas
+全ての敵がカモフラージュ、ただし報酬のゴールド+50%
+loja e mercador 30% mais baratos
+ショップと商人が30%安くなる
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+敵のライフ+20%、ただしボスが追加の財宝を落とす
+Vocês, bichos, não vão passar daqui!
+動物ども、ここから先へは行かせないぞ！
+Mais uma floresta pra explodir!
+吹っ飛ばす森がまたひとつ！
+Ninguém segura o caminhão dos humanos!
+人間のトラックは止められないぜ！
+Quanto mais torre, mais diversão!
+タワーが多いほど楽しいぜ！
+Hoje a floresta vira estacionamento!
+今日からこの森は駐車場だ！
+Isso não acabou... tenho primos!
+これで終わりじゃない…いとこがいるんだ！
+Meu seguro não cobre esquilo!
+リスは保険の対象外だぞ！
+Volto no próximo andar!
+次のフロアでまた会おう！
+Socorro, uma coruja!
+助けて、フクロウだ！
+Meu escudo é de primeira!
+オレの盾は一級品だ！
+Abram caminho!
+道をあけろ！
+Quem quer bombinha?
+ちび爆弾ほしいヤツはいるか？
+Vou consertar tudo!
+全部直してやる！
+EU SOU O REI DAS BOMBAS! Ajoelhem-se, bichinhos!
+我こそはボムキング！ひざまずけ、動物どもめ！
+Bando
+群れ
+Batalhão
+大隊
+Círculo Arcano
+秘術の輪
+primárias +15% / +30% de cadência
+プライマリの連射速度+15% / +30%
+militares +15% / +30% de dano
+ミリタリーのダメージ+15% / +30%
+mágicas +15% / +30% de dano e +10% de alcance
+マジカルのダメージ+15% / +30%、射程+10%
+TODAS +5% / +10% de alcance
+全タワーの射程+5% / +10%
+Caçador
+ハンター
+Intocável
+無傷
+Jejum
+断食
+Mão de Vaca
+ケチ
+Gatilho Rápido
+早撃ち
+Mestre do Combo
+コンボマスター
+Muralha
+鉄壁
+Poder Total
+フルパワー
+Enxuto
+少数精鋭
+Fartura
+大盤振る舞い
+Caça-Tesouro
+トレジャーハンター
+Ferreiro
+鍛冶屋
+Vença 2 Elites ou Mini Chefes neste andar
+このフロアでエリートかミニボスを2体倒す
+Chegue ao fim do andar com 90% da vida (ou mais)
+ライフ90%以上でフロアの最後までたどり着く
+Não use nenhuma frutinha neste andar
+このフロアで木の実を1つも使わない
+Chegue ao chefe com $1500 ou mais
+$1500以上持ってボスまでたどり着く
+Pegue 2 relíquias neste andar
+このフロアでレリックを2つ手に入れる
+Chame 3 ondas mais cedo neste andar
+このフロアでウェーブを3回早めに呼ぶ
+Faça um combo x30 neste andar
+このフロアでコンボx30を達成する
+Faça 3 ondas perfeitas (sem vazar) neste andar
+このフロアでパーフェクトウェーブ（突破なし）を3回達成する
+Nenhum inimigo pode vazar neste andar
+このフロアでは敵を1体も突破させない
+Use o Poder da Run 3 vezes neste andar
+このフロアでランパワーを3回使う
+Termine o andar com no máximo 6 torres em campo
+場のタワーを6つ以下にしてフロアを終える
+Use 3 frutinhas neste andar
+このフロアで木の実を3つ使う
+Ganhe $GOLD com abates neste andar
+このフロアで敵を倒して$GOLDを稼ぐ
+Compre 4 upagens de torre neste andar
+このフロアでタワーのアップグレードを4回購入する
+Chuva
+雨
+Neblina
+霧
+Noite
+夜
+Vento
+風
+fogo -20% de dano, gelo +20%
+炎のダメージ-20%、氷+20%
+todos os inimigos vêm camuflados
+全ての敵がカモフラージュで登場
+mágicas +25% de dano
+マジカルのダメージ+25%
+inimigos +15% de velocidade
+敵の速度+15%
+Escudo
+シールド
+Rápido
+俊足
+Divide
+分裂
+Regenera
+再生
+O REI DAS BOMBAS CHEGOU!
+ボムキング登場！
+{0} chegou!
+{0}登場！
+Rota secreta! O Mercador Sombrio estava escondido aqui
+秘密のルート！闇の商人がここに隠れていた
+Mistério revelado: {0}
+ミステリーの正体: {0}
+(recompensa reforçada!)
+（報酬アップ！）
+{0} vencida: +${1}
+{0}を乗り越えた: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+噴火: ボスが+${0}の財宝を落とした
+Pegar agora, investir ou girar a roleta?
+今すぐもらう？投資する？それともルーレットを回す？
+HORDA DE OURO
+ゴールドの大群
+Fim da festa! Bônus de +${0} (além do ouro de cada dourado).
+パーティーは終わり！ボーナス+${0}（金色の敵それぞれのゴールドとは別に）。
+Mercador Sombrio
+闇の商人
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+エピックカードとレアなレリック。支払いはランのゴールドで。
+Escolha uma torre
+タワーを選ぼう
+EVENTO DO ANDAR: {0}: {1}
+フロアイベント: {0}: {1}
+Andar {0}: {1}: {2}
+フロア{0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+フロアのマップでルートを選ぼう。各マスはウェーブか出会いです。
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+強化、タワー、レリック、契約、ランパワーはラン中ずっと有効です。
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+ボムキングはフロア10で待ち構えています。倒した後もランはエンドレスで続きます。
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+ライフが尽きるとラン終了。最後にクリスタルとXPを獲得。遠くまで進むほど多くもらえます。
+LADRÃO DE RELÍQUIA
+レリック泥棒
+REI DAS BOMBAS
+ボムキング
+FASE {0}/3
+フェーズ {0}/3
+fraco a {0}
+{0}に弱い
+Mistério
+ミステリー
+resiste a {0}
+{0}に強い
+Recompensa: torre rara ou tesouro
+報酬: レアタワーまたは財宝
+Banir: {0} restantes nesta run
+除外: このランで残り{0}回
+Confirmar
+決定
+Transplante ${0}
+移植 ${0}
+VENDER ESTA TORRE?
+このタワーを売却しますか？
+recebe +${0}
++${0}を受け取る
+Vender
+売却
+Girar a Roleta
+ルーレットを回す
+Dupla: {0}
+コンビ: {0}
+Fundir
+合成
+Evolução Lendária
+レジェンド進化
+Trocar Relíquia
+レリック交換
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+基本${0}: x0、x0.5、x1、x1.5、x2、x3、x5（激レア）、無料アップグレード、またはレリックが出る
+Prêmio: ${0}
+賞金: ${0}
+TROCA o seu {0} (só dá para levar 1)
+今の{0}と入れ替え（持てるのは1つだけ）
+{0} + {1}: as duas {2}
+{0} + {1}: 両方とも{2}
+3 torres {0} viram 1 torre ESTRELA: soma os buffs e ganha +80% de dano, +15% de cadência e +10% de alcance
+3つの{0}が1つのスタータワーに: バフを合算し、さらにダメージ+80%、連射速度+15%、射程+10%
+{0}: +50% de dano, brilho dourado e {1}
+{0}: ダメージ+50%、金色に輝き、さらに{1}
+Entregue uma relíquia sua e escolha 1 de 3 novas
+手持ちのレリックを1つ渡して、新しいレリック3つから1つ選ぶ
+falhou
+失敗
+ok
+OK
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+略奪者！逃がすとゴールドの10%を持っていかれる
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+レリック泥棒！逃がすとレリックを1つ盗まれる
+{0} FASE {1}/3: {2}
+{0} フェーズ{1}/3: {2}
+O saqueador fugiu com ${0}!
+略奪者が${0}を持って逃げた！
+O ladrão fugiu com {0}!
+泥棒が{0}を持って逃げた！
+Saqueador derrubado: +${0}
+略奪者を倒した: +${0}
+Ladrão derrubado! +${0}
+泥棒を倒した！+${0}
+LADRÃO! +${0}
+泥棒！+${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+人間がアンテナを建てた！5回タップして壊そう
+Antena destruída! +${0}
+アンテナを破壊！+${0}
+{0} CARREGADO! Toque no botão.
+{0}チャージ完了！ボタンをタップしよう。
+Chuva de Ouro: +${0}
+黄金の雨: +${0}
+Fonte da Vida: +{0} de vida
+命の泉: ライフ+{0}
+Contrato: {0}
+契約: {0}
+{0} (botão no topo, na onda)
+{0}（ウェーブ中に上部のボタン）
+Contrato {0} não cumprido
+契約「{0}」未達成
+Contrato cumprido! +${0}
+契約達成！+${0}
+x0: azar! Não ganhou nada
+x0: 残念！何ももらえなかった
+JACKPOT! 
+ジャックポット！ 
+Upagem grátis!
+無料アップグレード！
+RELÍQUIA! {0}
+レリック！{0}
+Talento do herói
+ヒーローのタレント
+Nível {0}: escolha um talento.
+レベル{0}: タレントを1つ選ぼう。
+{0} banido nesta run (restam {1})
+このランで{0}を除外（残り{1}回）
+Dupla ativa: {0}
+コンビ発動: {0}
+O herói aprendeu {0}
+ヒーローが{0}を覚えた
+Fusão! {0} virou torre ESTRELA
+合成！{0}がスタータワーになった
+{0} virou LENDÁRIA!
+{0}がレジェンドに！
+Poder trocado: {0}
+パワー変更: {0}
+{0} buffs foram para {1} (-${2})
+{0}個のバフを{1}に移した（-${2}）
+Entregou {0}
+{0}を渡した
+Borda {0} liberada!
+フチ「{0}」解放！
+Conquista: {0}
+実績: {0}
+Diária
+デイリー
+Ameaça {0}
+脅威度{0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+今日は全員が同じマップ。脅威は日替わりで2つ選ばれます
+Regra da semana: {0}
+今週のルール: {0}
+Ameaça
+脅威度
+Código
+コード
++{0}% de cristais no fim da run
+ラン終了時のクリスタル+{0}%
+Ameaça libera ao chegar no andar {0}
+フロア{0}に到達すると脅威度が解放されます
+Código da run
+ランコード
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+同じコードなら同じフロアが生成されます。空欄にすると新しいマップになります。
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+脅威度{0}  ·  ラン終了時のクリスタル+{1}%
+Pronto
+完了
+Compêndio
+図鑑
+Descobertos: {0}/{1}
+発見: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+まだ見つかっていません。プレイを続けて発見しよう。
+Conquistas {0}/{1}
+実績 {0}/{1}
+Borda das cartas (libera a cada 3 conquistas):
+カードのフチ（実績3つごとに解放）:
+Suas melhores runs neste quadro (neste aparelho)
+このボードでのベストラン（この端末）
+Ninguém ainda: termine uma run para entrar aqui!
+まだ誰もいません。ランを終えてここに載ろう！
+andar {0} · {1} caminhos
+フロア{0} · {1}マス
+Últimas runs
+最近のラン
+Nenhuma run terminada ainda.
+終了したランはまだありません。
+SORTEANDO A SUA RUN
+ランを抽選中
+Boa sorte! Toque para começar
+がんばって！タップしてスタート
+Toque para pular
+タップでスキップ
+ROLETA DO TESOURO
+お宝ルーレット
+Girando... base ${0}
+回転中… 基本${0}
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  渡すレリックをタップ
+2/2  Escolha a relíquia nova
+2/2  新しいレリックを選ぼう
+Transplante
+移植
+1/2  Toque na torre que vai DOAR os buffs
+1/2  バフを渡すタワーをタップ
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  {0}個のバフを受け取るタワーをタップ  ·  ${1}
+{0} buffs
+バフ{0}個
+Você derrotou o Rei das Bombas!
+ボムキングを倒した！
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+エンドレスモードで続ける（フロアはどんどん難しくなる）か、終了して報酬を受け取ろう。
+Encerrar
+終了
+carregando {0}% (derrote inimigos ou aguarde na onda)
+チャージ {0}%（敵を倒すか、ウェーブ中に待とう）
+use durante a onda
+ウェーブ中に使用
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+強化、タワー、レリック、ランパワーはラン中ずっと有効。
+Melhor: andar {0} · {1}/15
+最高: フロア{0} · {1}/15
+Andar {0} · caminho {1}/15
+フロア{0} · マス{1}/15
+(em andamento)
+（進行中）
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+まだ空です：ランの最初のマスをクリアするとここに載ります！
+Nenhuma run registrada ainda.
+まだ記録されたランはありません。
+Tempestade de Raios
+サンダーストーム
+Terremoto
+大地震
+Chuva de Flechas
+矢の雨
+Chamado da Matilha
+群れの呼び声
+Armadilha de Mel
+ハチミツの罠
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+雷が敵から敵へ跳ね（最大12体）、それぞれに大ダメージ
+Congela todos os inimigos da tela (até blindados) por 3s
+画面上の敵をすべて（装甲の敵も）3秒間凍らせる
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+地上の敵を2秒間スタンさせ、全員にダメージ
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+最も大きな群れに4秒間矢の雨が降り注ぐ
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+精霊のオオカミが道を逆走して敵にかみつく
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+最も大きな群れにハチミツの池：敵は6秒間65%遅くなりライフが減る
+Você tem {0}/{1}
+所持 {0}/{1}
+Só o que você tem aparece nas runs
+持っているものだけがランに出ます
+Você tem
+所持済み
+Novo no Arsenal: {0}
+アーセナルに新着：{0}
+Fazer {0} melhorias em torres
+タワーを{0}回アップグレードする
+Colocar {0} torres no campo
+フィールドにタワーを{0}基置く
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+マジカル限定
+Só torres mágicas na run
+このランはマジカルタワーのみ
+Tudo Camuflado
+全員カモフラージュ
+Todos os inimigos vêm camuflados
+すべての敵がカモフラージュで登場
+Sem Loja
+ショップなし
+As lojas do mapa viram melhorias
+マップのショップが強化に変わる
+Menos vida e fogueira fraca
+ライフが少なく、たき火も弱い
+Correria
+大あわて
+Inimigos apressados e loja cara
+せっかちな敵と高いショップ
+Ouro Escasso
+金欠
+Recompensas menores e loja cara
+報酬が少なく、ショップも高い
+Chefões Fortes
+強敵ボス
+Chefes e inimigos mais resistentes
+ボスも敵もさらにタフ
+Relíquias Malditas
+呪いのレリック
+Começa com 2 relíquias amaldiçoadas
+呪われたレリック2個でスタート
+Só Épicas
+エピック限定
+Toda carta é épica, mas a loja custa o dobro
+カードはすべてエピック。ただしショップは2倍の値段
+Metade da Vida
+ライフ半分
+Metade da vida e chefes furiosos
+ライフ半分＆怒れるボス
+Furacão
+ハリケーン
+Tudo corre muito mais rápido
+すべてがずっと速く動く
+Noite Eterna
+終わらない夜
+Inimigos camuflados e robustos
+カモフラージュのタフな敵
+Feitiçaria
+魔術
+Só mágicas e loja inflacionada
+マジカルのみ＆ショップ値上げ
+Deserto Sem Fim
+果てなき砂漠
+Sem loja, pouco ouro e fogueira fria
+ショップなし、ゴールド少なめ、冷えたたき火
+Maldição Antiga
+古の呪い
+3 relíquias malditas e inimigos robustos
+呪いのレリック3個＆タフな敵
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+チャレンジに挑戦
+Semanal
+ウィークリー
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+今日のチャレンジ: {0}  ·  詳細は横のカードで
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+今週のチャレンジ: {0}  ·  詳細は横のカードで
+Desafio Semanal
+ウィークリーチャレンジ
+Desafio Diário
+デイリーチャレンジ
+Nova semana em {0}d {1}h
+新しい週まで{0}日{1}時間
+Novo em {0}
+更新まで{0}
+Começa com {0} relíquias amaldiçoadas
+呪われたレリック{0}個でスタート
+Prêmio: +{0}% de cristais no fim da run
+報酬: ラン終了時のクリスタル+{0}%
+Ainda não jogado nesta semana
+今週はまだプレイしていません
+Ainda não jogado hoje
+今日はまだプレイしていません
+Seu melhor na semana: Andar {0} · caminho {1}/15
+今週のベスト: フロア{0} · マス{1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+今日のベスト: フロア{0} · マス{1}/15
+Vencer 1 partida
+1回勝利する
+Derrotar {0} tanques
+タンクを{0}体倒す
+Derrotar {0} inimigos de cerâmica
+セラミックの敵を{0}体倒す
+Um mapa diferente a cada andar
+フロアごとに違うマップ
+Presente: ouro para a melhoria!
+プレゼント:強化用のゴールド!
+PULAR TUTORIAL
+チュートリアルをスキップ
+Escolha a Raposa
+キツネを選ぼう
+Toque aqui, perto do caminho
+ここをタップ(道の近く)
+Solte a onda!
+ウェーブ開始!
+A torre ataca sozinha!
+タワーは自動で攻撃!
+Toque perto do caminho
+道の近くをタップ
+Ganhou ouro! Coloque outra torre
+ゴールド獲得!もう1つタワーを置こう
+Toque na sua torre
+自分のタワーをタップ
+Compre uma melhoria
+強化を買おう
+Mais rápido: toque no x1
+もっと速く:x1をタップ
+Vença as {0} ondas!
+{0}ウェーブ勝ち抜こう!
+Passo {0} de {1}
+ステップ {0}/{1}
+Seu HERÓI: coloque no campo
+あなたのヒーロー:フィールドに置こう
+Escolha quem a torre ataca
+タワーの攻撃対象を選ぼう
+AUTO: as ondas seguem sozinhas
+オート:ウェーブが自動で続く
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+カモフラージュ!「カモフラージュ探知」のタワーだけが見つけられる
+Vida caindo! Coloque mais torres
+ライフが減っている!タワーを増やそう
+Dica
+ヒント
+Prêmios das missões ficam aqui
+ミッションの報酬はここ
+Toque no prêmio verde para receber. Depois, Voltar
+緑の報酬をタップして受け取ろう。その後「戻る」
+Hora de jogar!
+さあ、プレイ!
+Escolha a dificuldade
+難易度を選ぼう
+Agora é só jogar!
+あとはプレイするだけ!
+Bem-vindo!
+ようこそ!
+Você já sabe jogar! Aqui está um presente para começar:
+もう遊び方はバッチリ!スタート記念のプレゼント:
+Receber
+受け取る
+Pular o tutorial?
+チュートリアルをスキップしますか?
+Dá para refazer depois no botão ? do menu.
+メニューの ? ボタンでいつでもやり直せます。
+Refazer o tutorial?
+チュートリアルをやり直しますか?
+Refazer
+やり直す
+Muito bem! Você já sabe jogar.
+よくできました!もう遊べますね。
+Aqui está um presente para começar:
+スタート記念のプレゼント:
+Ganhou ouro! Arraste uma torre até o campo
+ゴールド獲得!タワーをフィールドへドラッグしよう
+Arraste a torre até o lugar marcado
+タワーを印の場所までドラッグしよう
+Toque para receber o prêmio!
+タップして報酬を受け取ろう!
+Agora, volte ao menu
+メニューに戻ろう
+Blindado: não
+装甲: なし
+Blindado: sim
+装甲: あり
+CERÂMICA! Bem resistente: explosão faz pouco dano
+セラミック！とても頑丈：爆発はあまり効かない
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+ヒーラー！周りを回復する：先に倒そう
+Camuflado: não
+迷彩: なし
+Camuflado: sim
+迷彩: あり
+Carregando
+読み込み中
+Enviar 1
+1体送る
+Enviar 10
+10体送る
+Escolha a onda e mande qualquer inimigo
+ウェーブを選んで好きな敵を送り込もう
+Idioma
+言語
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+爆発無効！矢・剣・魔法で倒そう
+Imune a GELO e a EXPLOSÕES!
+氷と爆発が効かない！
+Imune a GELO! Não fica mais lento
+氷無効！遅くならない
+Imune a MAGIA! A magia não machuca este
+魔法無効！魔法ではダメージを与えられない
+METAL! Só fogo, raio ou explosão machucam
+メタル！炎・雷・爆発しか効かない
+Melhore a torre: {0}/{1}
+タワーを強化：{0}/{1}
+Não dá cristais, XP nem missões
+クリスタル・XP・ミッションは獲得できません
+Onda {0}
+ウェーブ {0}
+Opções
+オプション
+Ouro e vida infinitos
+ゴールドとライフが無限
+PROTEGIDO! Só MAGIA faz dano cheio
+守護あり！魔法だけがフルダメージ
+REGENERA! Acabe com ele rápido
+再生する！素早く倒そう
+SANDBOX  (abrir)
+サンドボックス（開く）
+SANDBOX  (fechar)
+サンドボックス（閉じる）
+Sandbox
+サンドボックス
+Sandbox: ouro e vida infinitos
+サンドボックス：ゴールドとライフ無限
+Som
+サウンド
+Todos os animais liberados
+全動物が解放済み
+Toque na torre para continuar
+タワーをタップして続ける
+Toque nesta torre
+このタワーをタップ
+Treine à vontade!
+自由に練習しよう！
+VEÍCULO! Muita vida: junte dano forte
+乗り物！体力が多い：強い攻撃を集めよう
+Tela cheia
+全画面
+Sair da tela cheia
+全画面を終了
+Gire o celular para continuar
+スマホを回転して続けてください
+No iPhone o Safari não deixa a página ficar em tela cheia.
+iPhoneのSafariでは、ページを全画面にできません。
+Para jogar sem as barras do navegador:
+ブラウザのバーなしで遊ぶには：
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. 共有ボタン（上向き矢印の四角）をタップ
+2. Escolha "Adicionar à Tela de Início"
+2.「ホーム画面に追加」を選ぶ
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. 新しいアイコンからゲームを開くと全画面になります
+Entendi
+OK
+Jogo
+ゲーム
+Refazer tutorial
+チュートリアルをやり直す
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+スキンのミッションを達成すると購入できます。試合に反映されます。
+Bônus
+ボーナス
+Dica: use dois dedos (pinça) para dar zoom no mapa
+ヒント：2本の指でピンチするとマップを拡大できます
+Conquistas
+実績
+Relíquias
+レリック
+Automática
+自動
+Vila
+村
+Santuário
+聖域
+Histórico
+履歴
+{0} chefes  ·  {1} elites
+ボス {0}  ·  エリート {1}
+{0} abates  ·  {1} torres
+撃破 {0}  ·  タワー {1}
+Escudo -{0}
+シールド -{0}
+Dourado: sem dano
+黄金：ダメージなし
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP 2倍！
+Aventura
+冒険
+Feira
+おまつり

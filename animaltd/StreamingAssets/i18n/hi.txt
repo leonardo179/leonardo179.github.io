@@ -1,0 +1,3300 @@
+ (+{0} da Vila)
+ (+{0} गाँव से)
+ (+{0}% da Vila)
+ (+{0}% गाँव से)
+ (Modo Livre)
+ (फ़्री प्ले)
+ (até blindados)
+ (बख़्तरबंद पर भी)
+ DEUS
+ देव
+ alvos
+ टारगेट
+ alvos  Vê camuflado
+ टारगेट  छिपे दुश्मन देखे
+ camada
+ परत
+ ou acima
+ या उससे ऊपर
+ perfura
+ भेदन
+ • vê camuflado
+ • छिपे दुश्मन देखे
+(medalha {0} só do {1} para cima)
+({0} मेडल सिर्फ़ {1} या उससे ऊपर)
++{0} alvo
++{0} टारगेट
++{0} alvo{1}
++{0} टारगेट{1}
++{0} cristais
++{0} क्रिस्टल
++{0} dano
++{0} डैमेज
++{0} dano fixo vs Cerâmica/Metal
++{0} फ़िक्स्ड डैमेज सिरेमिक/मेटल पर
++{0} dano fixo vs blindados
++{0} फ़िक्स्ड डैमेज बख़्तरबंद पर
++{0} dano vs Cerâmica/Metal
++{0} डैमेज सिरेमिक/मेटल पर
++{0} dano vs blindados
++{0} डैमेज बख़्तरबंद पर
++{0} perfura
++{0} भेदन
++{0} perfura (qualquer torre)
++{0} भेदन (कोई भी टावर)
++{0} perfura (raio)
++{0} भेदन (दायरे में)
++{0} perfura total (qualquer torre no raio)
++{0} कुल भेदन (दायरे का हर टावर)
++{0} perfura total (torres no raio)
++{0} कुल भेदन (दायरे के टावर)
++{0} projétil{1}
++{0} प्रोजेक्टाइल{1}
++{0} salto{1}
++{0} उछाल{1}
++{0} salto{1} do projétil
++{0} प्रोजेक्टाइल उछाल{1}
++{0} sentinela{1}
++{0} संतरी{1}
++{0}% alcance (raio)
++{0}% रेंज (दायरे में)
++{0}% alcance total (torres no raio)
++{0}% कुल रेंज (दायरे के टावर)
++{0}% crítico
++{0}% क्रिटिकल
++{0}% dano (raio)
++{0}% डैमेज (दायरे में)
++{0}% dano p/ aliados no raio
++{0}% डैमेज दायरे के साथियों को
++{0}% dano total p/ aliados no raio
++{0}% कुल डैमेज दायरे के साथियों को
++{0}% de ouro por camada, só dentro do alcance
++{0}% सोना हर परत पर, सिर्फ़ रेंज के अंदर
++{0}% juros
++{0}% ब्याज
++{0}% juros dos Coelhos (raio)
++{0}% खरगोशों का ब्याज (दायरे में)
++{0}% ouro por camada dos alvos que ela abater (Vila)
++{0}% सोना हर परत पर, इसके हराए टारगेट से (गाँव)
++{0}% produção dos Coelhos (raio)
++{0}% खरगोशों का उत्पादन (दायरे में)
++{0}% veloc. ataque p/ aliados no raio
++{0}% हमले की गति दायरे के साथियों को
++{0}% veloc. de ataque total p/ aliados no raio
++{0}% कुल हमले की गति दायरे के साथियों को
++{0}% veloc. projétil (raio)
++{0}% प्रोजेक्टाइल गति (दायरे में)
++{0}s de duração (lentidão/congelamento)
++{0}s अवधि (धीमा/जमाना)
+1ª upagem (T1) de cada árvore sai GRÁTIS (torres no raio)
+हर ट्री का पहला अपग्रेड (T1) मुफ़्त (दायरे के टावर)
+1ª upagem grátis (raio)
+पहला अपग्रेड मुफ़्त (दायरे में)
+Abates {0}
+किल {0}
+Alcance de invocação (coleira): {0}
+बुलाने की रेंज (पट्टा): {0}
+Alcance total (todas as torres no raio): +{0}%
+कुल रेंज (दायरे के सभी टावर): +{0}%
+Aleatório
+रैंडम
+Alvo: {0}
+टारगेट: {0}
+Alvos
+टारगेट
+Alvos na área: 
+एरिया में टारगेट: 
+Alvos por golpe: {0}
+हर वार में टारगेट: {0}
+Alvos por onda: 
+हर पल्स में टारगेट: 
+Amarelo
+पीला
+Animais
+जानवर
+Animal Tower Defense
+Animal Tower Defense
+Animal liberado: {0}
+जानवर अनलॉक: {0}
+Animal novo na loja!
+दुकान में नया जानवर!
+Anula Defesas
+डिफ़ेंस ख़त्म
+Anúncio indisponível — sem recompensa.
+विज्ञापन उपलब्ध नहीं — कोई इनाम नहीं।
+Apoio
+सपोर्ट
+Apoio às Torres
+टावर सपोर्ट
+Arco-íris
+इंद्रधनुष
+Arranca Fortificado/Camuflagem/escudo do alvo
+टारगेट का किलाबंद/छिपाव/ढाल हटा दे
+As 4 medalhas de dificuldade num mesmo mapa
+एक ही मैप पर कठिनाई के चारों मेडल
+Astuto
+चालाक
+Atalho Nevado
+बर्फ़ीला शॉर्टकट
+Ataque: onda de choque VERMELHA em volta
+हमला: चारों ओर लाल शॉकवेव
+Ataque: onda de choque em volta
+हमला: चारों ओर शॉकवेव
+Ataques 
+हमले 
+Auto
+ऑटो
+Automático
+ऑटोमैटिक
+Avançado
+एडवांस्ड
+Ave de fogo: leque de penas flamejantes que atravessam e queimam; quem morre queimando explode em cinzas. MERGULHO SOLAR: mergulha na maior multidão e deixa o chão em chamas.
+आग की चिड़िया: जलते पंखों की बौछार जो आर-पार होकर जलाती है; जलते हुए मरने वाला दुश्मन राख बनकर फट जाता है। सूर्य गोता: सबसे बड़ी भीड़ में गोता लगाकर ज़मीन में आग लगा देती है।
+Azul
+नीला
+Bloqueia a regeneração (inimigos Regenera) no raio
+दायरे में रीजेन (दोबारा ठीक होने वाले दुश्मन) रोकता है
+Bosque do Retorno
+वापसी का उपवन
+Brado
+रणघोष
+Branco
+सफ़ेद
+Brasa
+अंगारा
+Bravo
+सख़्त
+Brejo das Curvas
+मोड़ों वाला दलदल
+Bumerangue: fere na IDA e na VOLTA (dano cheio de novo na volta)
+बूमरैंग: जाते और लौटते दोनों बार वार (लौटते समय फिर पूरा डैमेज)
+BÁSICO
+बेसिक
+Bênção
+आशीर्वाद
+Bônus  {0}/{1}
+बोनस  {0}/{1}
+CONFIRMAR
+पक्का करें
+CONFIRMAR ${0}
+पक्का करें ${0}
+CONGELA BLINDADOS
+बख़्तरबंद को जमाए
+CRÍTICO!
+क्रिटिकल!
+Cadência
+फ़ायर रेट
+Calibre 12
+12 बोर
+Caminhão
+ट्रक
+Camuflado
+छिपा हुआ
+Cancelar
+रद्द करें
+Carga Pesada
+भारी माल
+Carregando o animal... tente de novo em instantes.
+जानवर लोड हो रहा है... थोड़ी देर में फिर कोशिश करें।
+Carregando o herói... tente de novo em instantes.
+हीरो लोड हो रहा है... थोड़ी देर में फिर कोशिश करें।
+Caça
+लड़ाकू विमान
+Cervo Ancestral
+प्राचीन हिरण
+Cerâmica
+सिरेमिक
+Chega no nível {0}
+लेवल {0} पर मिलेगा
+Chega no nível {0} (você está no nível {1}).
+लेवल {0} पर मिलेगा (आप लेवल {1} पर हैं)।
+Chegar à onda {0} em {1}
+{1} पर वेव {0} तक पहुँचें
+Chegar à onda {0} no {1}
+{1} पर वेव {0} तक पहुँचें
+Chumbo
+सीसा
+Cidadela Congelada
+जमा हुआ गढ़
+Clareira Sinuosa
+टेढ़ा-मेढ़ा मैदान
+Cobra
+साँप
+Cobra Atiradora
+स्नाइपर साँप
+Coelho
+खरगोश
+Coelho Fazendeiro
+किसान खरगोश
+Colocar
+रखें
+Completar um mapa (moldura de diamante)
+एक मैप पूरा करें (हीरे का फ़्रेम)
+Comprado!
+ख़रीद लिया!
+Comprar  {0}
+ख़रीदें  {0}
+Comprar nível ${0}
+लेवल ख़रीदें ${0}
+Compre o animal para usar skins
+स्किन इस्तेमाल करने के लिए जानवर ख़रीदें
+Concede visão de camuflado no raio
+दायरे में छिपे दुश्मन दिखाता है
+Concluída
+पूरा हुआ
+Congela 
+जमाए 
+Conquistas  {0}/{1}
+उपलब्धियाँ  {0}/{1}
+Conseguir {0} medalhas
+{0} मेडल जीतें
+Continuar
+जारी रखें
+Continuar jogando
+खेलते रहें
+Coruja
+उल्लू
+Coruja Maga
+जादूगर उल्लू
+Cratera Ardente
+धधकता क्रेटर
+Cristais dobrados!
+क्रिस्टल दोगुने!
+Cristais em dobro
+दोगुने क्रिस्टल
+Cristais x2
+क्रिस्टल x2
+Cristais x2 (+{0})
+क्रिस्टल x2 (+{0})
+Crítico total: {0}% de chance, x{1} dano
+कुल क्रिटिकल: {0}% मौका, x{1} डैमेज
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+स्किन ख़रीदने के लिए उसका मिशन पूरा करें। नया लुक अगले अपडेट में मैचों में दिखेगा।
+Curandeiro
+हीलर
+Cósmica
+ब्रह्मांडीय
+DERROTA
+हार
+DEUS
+देव
+DEUS: 
+देव: 
+DIFICULDADE
+कठिनाई
+DPS {0}
+DPS {0}
+Dano
+डैमेज
+Dano %.0f  Alc %.0f  %.1f/s
+डैमेज %.0f  रेंज %.0f  %.1f/s
+Dano %.0f  Ataque %.0f  %.1f/s
+डैमेज %.0f  हमला %.0f  %.1f/s
+Dano %.1f  %.1f tiros/s
+डैमेज %.1f  %.1f शॉट/s
+Dano de {0}
+{0} डैमेज
+Dano total vs Cerâmica: x{0}
+सिरेमिक पर कुल डैमेज: x{0}
+Dano {0}
+डैमेज {0}
+Dança das Adagas
+खंजरों का नाच
+Defesa
+डिफ़ेंस
+Deixa fogo no chão: {0}/s por {1}s
+ज़मीन पर आग छोड़े: {1}s तक {0}/s
+Demolidor
+विध्वंसक
+Derrotar {0} {1}
+{0} {1} हराएँ
+Desconto e Renda
+छूट और कमाई
+Desfiladeiro Estreito
+संकरा दर्रा
+Dificuldade bloqueada
+कठिनाई लॉक है
+Dificuldade liberada: {0}
+कठिनाई अनलॉक: {0}
+Difícil
+कठिन
+Dirigível
+एयरशिप
+Dirigível Maior
+बड़ा एयरशिप
+Dispara mísseis (área)
+मिसाइलें दागे (एरिया)
+Disponível para comprar!
+ख़रीदने के लिए उपलब्ध!
+Disponível! Compre por {0} cristais em Animais, no menu.
+उपलब्ध! मेन्यू में "जानवर" से {0} क्रिस्टल में ख़रीदें।
+Dragão Arcano
+रहस्यमयी ड्रैगन
+Duas adagas rápidas, vê camuflado. DANÇA DAS ADAGAS: acelera e derruba a defesa de quem está perto.
+दो तेज़ खंजर, छिपे दुश्मन देखता है। खंजरों का नाच: तेज़ी पकड़ता है और पास के दुश्मनों का डिफ़ेंस गिरा देता है।
+Dunas em Zigue-Zague
+ज़िगज़ैग टीले
+EM ONDA
+वेव जारी
+ESTILHAÇOS ferem imunes a explosão (Preto/Zebra)
+किरचें विस्फोट-रोधी दुश्मनों (काला/ज़ेबरा) को भी चोट दें
+EVOLUÍDO
+विकसित
+Eco
+गूँज
+Elefante Comandante
+सेनापति हाथी
+Elefante Guerreiro
+योद्धा हाथी
+Em uso
+इस्तेमाल में
+Embalo: até +{0}% de cadência em golpes seguidos
+जोश: लगातार वार पर +{0}% तक फ़ायर रेट
+Empurra o alvo pra trás (15% por golpe)
+टारगेट को पीछे धकेले (हर वार 15%)
+Empurra o alvo pra trás no caminho
+टारगेट को रास्ते पर पीछे धकेले
+Enxame
+झुंड
+Escadaria de Lava
+लावा की सीढ़ियाँ
+Escorpião
+बिच्छू
+Escorpião Venenoso
+ज़हरीला बिच्छू
+Esmagador
+क्रशर
+Espadachim de linha de frente. RUGIDO: atordoa e fere tudo em volta (a forma deus pega o mapa inteiro).
+सबसे आगे लड़ने वाला तलवारबाज़। दहाड़: चारों ओर सबको स्टन करके चोट पहुँचाता है (देव रूप पूरे मैप पर असर करता है)।
+Espalha armadilhas no chão do caminho, sem mirar inimigo (até {0})
+रास्ते की ज़मीन पर जाल बिछाए, दुश्मन पर निशाना लगाए बिना ({0} तक)
+Espaço: iniciar onda
+स्पेस: वेव शुरू करें
+Esperto
+होशियार
+Espinhos
+काँटे
+Esquilo
+गिलहरी
+Esquilo da Toca
+बिल वाली गिलहरी
+Estilhaço
+किरच
+Estilhaços ferem imunes a explosão (Preto/Zebra)
+किरचें विस्फोट-रोधी दुश्मनों (काला/ज़ेबरा) को भी चोट दें
+Estouro
+धमाका
+Expert
+एक्सपर्ट
+Explosivo
+विस्फोटक
+Faltam {0} cristais
+{0} क्रिस्टल कम हैं
+Fechar
+बंद करें
+Feixe
+किरण
+Feroz
+खूँखार
+Floresta Sombria
+अंधेरा जंगल
+Fogo
+आग
+Fogo Arcano
+रहस्यमयी आग
+Fogo total: 
+कुल आग: 
+Fora da regra
+नियम के ख़िलाफ़
+Forte
+ताकतवर
+Fragmentação
+विखंडन
+Fura 
+भेदे 
+Fácil
+आसान
+Fênix
+फ़ीनिक्स
+Físico
+भौतिक
+GRÁTIS
+मुफ़्त
+Gato
+बिल्ली
+Gato Samurai
+समुराई बिल्ली
+Gelo
+बर्फ़
+Gelo Profundo
+गहरी ठंड
+Golpe devastador em quem está perto. INVESTIDA: dano enorme e derruba os inimigos.
+पास के दुश्मनों पर ज़बरदस्त वार। धावा: भारी डैमेज और दुश्मनों को गिरा देता है।
+Gorila
+गोरिल्ला
+Gorila Marteleiro
+हथौड़ा गोरिल्ला
+Grito
+चीख
+Guaxinim
+रैकून
+Guaxinim Druida
+ड्रुइड रैकून
+HERÓI
+हीरो
+Herói.
+हीरो।
+Heróis
+हीरो
+INVOCA {0}: dano {1}, {2}/s
+{0} बुलाए: डैमेज {1}, {2}/s
+Ignora TODAS as imunidades de dano (Vila)
+सारी डैमेज इम्युनिटी अनदेखी करे (गाँव)
+Ignora imunidade a Metal
+मेटल इम्युनिटी अनदेखी करे
+Ilhas Flutuantes
+तैरते द्वीप
+Imparável
+अजेय
+Iniciante
+शुरुआती
+Intermediário
+इंटरमीडिएट
+Investida
+धावा
+JOGAR
+खेलें
+Jacaré
+मगरमच्छ
+Jacaré Pistoleiro
+पिस्तौलबाज़ मगरमच्छ
+Jade
+जेड
+Jogar novamente
+फिर से खेलें
+Jogar {0} partidas
+{0} मैच खेलें
+Jogue partidas para ganhar XP
+XP कमाने के लिए मैच खेलें
+Juros
+ब्याज
+Juros totais: {0}% do seu ouro atual (máx. sobre os primeiros $100.000), por onda{1}
+कुल ब्याज: आपके मौजूदा सोने का {0}% (ज़्यादा से ज़्यादा पहले $100.000 पर), हर वेव{1}
+Já gerou no total: ${0}
+अब तक कुल कमाई: ${0}
+LOBO
+भेड़िया
+Larga estrepes no caminho ({0} cargas, até {1})
+रास्ते में कीलें बिछाए ({0} चार्ज, {1} तक)
+Larga minas no caminho (até {0})
+रास्ते में माइन बिछाए ({0} तक)
+Lentidão total: {0}%
+कुल धीमापन: {0}%
+Levar {0} árvores ao nível DEUS
+{0} ट्री को देव लेवल तक ले जाएँ
+Leão Rei
+शेर राजा
+Libera espaço para torres
+टावरों के लिए जगह खाली करे
+Liberado! Este animal chega na próxima atualização da versão web.
+अनलॉक! यह जानवर वेब वर्ज़न के अगले अपडेट में आएगा।
+Lobo
+भेड़िया
+Lobo das Adagas
+खंजर भेड़िया
+Local válido
+सही जगह
+Lâmina Flamejante
+ज्वाला ब्लेड
+Machado de gelo que deixa lento. NEVASCA: congela todo mundo em volta.
+बर्फ़ की कुल्हाड़ी जो धीमा करती है। बर्फ़ीला तूफ़ान: चारों ओर सबको जमा देता है।
+Mago de área que vê camuflado. METEORO: dano pesado e queimadura em área.
+एरिया जादूगर जो छिपे दुश्मन देखता है। उल्कापिंड: भारी डैमेज और एरिया में जलन।
+Mapa bloqueado
+मैप लॉक है
+Mapa liberado: {0}
+मैप अनलॉक: {0}
+Mapas
+मैप
+Marca inimigos no raio como vulneráveis
+दायरे के दुश्मनों को कमज़ोर बना दे
+Marca o alvo: +{0}% de dano de todas as torres ({1}s)
+टारगेट पर निशान: सभी टावरों से +{0}% डैमेज ({1}s)
+Martelo pesado em área. ESTOURO: pisa no chão e atordoa todos em volta.
+भारी एरिया हथौड़ा। धमाका: ज़मीन पर पैर पटककर चारों ओर सबको स्टन करता है।
+Medalhas
+मेडल
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+मेडल: F आसान · M मध्यम · D कठिन · I अजेय · P सिर्फ़ मुख्य · H बिना हीरो (मध्यम+) · ½ आधा सोना (कठिन+)। फ़्रेम: कांस्य (आसान), चाँदी (मध्यम), सोना (कठिन/अजेय), हीरा (सभी 7)।
+Meio Ouro
+आधा सोना
+Menu
+मेन्यू
+Mercado
+बाज़ार
+Mergulho Solar
+सूर्य गोता
+Mestria: Nível {0}/5
+महारत: लेवल {0}/5
+Meteoro
+उल्कापिंड
+Metralhadora automática
+ऑटोमैटिक मशीन गन
+Militar
+मिलिट्री
+Mina Abandonada
+वीरान खदान
+Minas
+माइन
+Missão concluída!
+मिशन पूरा!
+Missões
+मिशन
+Missões dão cristais extras
+मिशन से एक्स्ट्रा क्रिस्टल मिलते हैं
+Modo Livre
+फ़्री प्ले
+Morcego
+चमगादड़
+Morcego Sonar
+सोनार चमगादड़
+Morsa Glacial
+हिमनदी वालरस
+Mouse ou toque
+माउस या टच
+MÁX
+मैक्स
+MÁXIMO 5/5
+मैक्स 5/5
+Mágica
+जादुई
+Mágico
+जादुई
+Médio
+मध्यम
+Mísseis
+मिसाइलें
+Música
+संगीत
+Música: não
+संगीत: बंद
+Música: sim
+संगीत: चालू
+NOVO
+नया
+Na sua coleção
+आपके कलेक्शन में
+Nave
+स्पेसशिप
+Necromante
+नेक्रोमैंसर
+Nenhuma partida neste mapa ainda.
+इस मैप पर अभी तक कोई मैच नहीं।
+Nevasca
+बर्फ़ीला तूफ़ान
+Ninja
+निंजा
+Novo animal disponível!
+नया जानवर उपलब्ध!
+Novo: {0} disponível!
+नया: {0} उपलब्ध!
+Nv 
+लेवल 
+Nv 1
+लेवल 1
+Nv 10
+लेवल 10
+Nv 20
+लेवल 20
+NÍVEL MÁXIMO
+मैक्स लेवल
+Nível {0}
+लेवल {0}
+O golpe nasce EM CIMA do alvo (sem trajetória)
+वार सीधे टारगेट के ऊपर होता है (बिना उड़ान पथ)
+O machado VOA até o alvo (trajetória)
+कुल्हाड़ी उड़कर टारगेट तक जाती है (उड़ान पथ)
+OK
+ठीक है
+ONDA 
+वेव 
+Oficina
+वर्कशॉप
+Oito do Deserto
+रेगिस्तानी आठ
+Os inimigos dão metade do ouro.
+दुश्मन आधा सोना देते हैं।
+Ouriço
+साही
+Ouriço Armadilheiro
+जाल बिछाने वाली साही
+Ouro insuficiente
+सोना काफ़ी नहीं
+Ouro total: ${0}/onda{1}
+कुल सोना: ${0}/वेव{1}
+PARA BLINDADOS
+बख़्तरबंद को रोके
+PRONTO
+तैयार
+Padrão
+डिफ़ॉल्ट
+Paralisa
+सुन्न करे
+Partida normal.
+सामान्य मैच।
+Pausado
+रुका हुआ
+Perfura 
+भेदन 
+Perfura total: 
+कुल भेदन: 
+Perfura-camada
+परत-भेदी
+Perfura-camada: {0}% do dano passa para o 1º inimigo de dentro
+परत-भेदी: {0}% डैमेज अंदर के पहले दुश्मन तक जाता है
+Perfurante
+भेदक
+Perto
+नज़दीकी
+Pinguim
+पेंगुइन
+Pinguim Machadeiro
+कुल्हाड़ी पेंगुइन
+Poder
+पावर
+Polvo Abissal
+गहरे सागर का ऑक्टोपस
+Porta-Tanques
+टैंक कैरियर
+Praia dos Piratas
+समुद्री डाकुओं का तट
+Precisão
+सटीकता
+Preto
+काला
+Primeiro
+पहला
+Primária
+मुख्य
+Produção
+उत्पादन
+Progresso: {0}/{1} mapas
+प्रगति: {0}/{1} मैप
+Projéteis
+प्रोजेक्टाइल
+Projéteis por tiro: {0}
+हर शॉट में प्रोजेक्टाइल: {0}
+Próx. nível: {0}
+अगला लेवल: {0}
+Próxima missão!
+अगला मिशन!
+Próximo animal: {0} no nível {1}
+अगला जानवर: लेवल {1} पर {0}
+Pântano Nebuloso
+धुंध भरा दलदल
+Pântano em Espiral
+घुमावदार दलदल
+REGRA ESPECIAL
+ख़ास नियम
+Raio
+बिजली
+Raio em cadeia: {0} saltos
+चेन बिजली: {0} छलाँग
+Raio salta 
+बिजली की छलाँग 
+Raios
+किरणें
+Rajada
+बौछार
+Raposa
+लोमड़ी
+Raposa Arqueira
+तीरंदाज़ लोमड़ी
+Recarga Rápida
+तेज़ रीचार्ज
+Recebendo de aliadas: {0}
+साथियों से मिल रहा: {0}
+Recebido
+मिल गया
+Recordes
+रिकॉर्ड
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+इस डिवाइस के रिकॉर्ड। ऑनलाइन रैंकिंग Poki की मंज़ूरी पर निर्भर है।
+Rede
+जाल
+Redemoinho
+बवंडर
+Regenerativo
+रीजेन
+Remove Fortificado do alvo atingido
+लगे हुए टारगेट से किलाबंदी हटाए
+Remover a pedra?
+पत्थर हटाएँ?
+Reposicionar
+जगह बदलें
+Respingo no impacto: {0} (até 3 inimigos colados no alvo)
+टक्कर पर छींटे: {0} (टारगेट से सटे 3 दुश्मनों तक)
+Retalhar
+चीर-फाड़
+Revela camuflado no MAPA TODO
+पूरे मैप पर छिपे दुश्मन दिखाए
+Reviver
+फिर ज़िंदा करें
+Rifle
+राइफ़ल
+Rinoceronte
+गैंडा
+Rosa
+गुलाबी
+Roxo
+बैंगनी
+Rugido
+दहाड़
+SENTINELA {0}
+संतरी {0}
+Sair da partida?
+मैच छोड़ें?
+Sair para o menu
+मेन्यू पर जाएँ
+Salamandra
+सैलामैंडर
+Salto do projétil: {0} ricochetes (-15% dano por salto)
+प्रोजेक्टाइल उछाल: {0} बार टकराकर उछले (हर उछाल पर -15% डैमेज)
+Salvar
+सेव करें
+Samurai
+समुराई
+Saque Rápido
+झटपट वार
+Selecionado
+चुना गया
+Selecionar
+चुनें
+Sem Heróis
+बिना हीरो
+Sem herói na partida.
+इस मैच में कोई हीरो नहीं।
+Sentinela {0}
+संतरी {0}
+Sentinelas
+संतरी
+Sentinelas: {0} (dano x{1}, 1 tiro a cada {2}s)
+संतरी: {0} (डैमेज x{1}, हर {2}s में 1 शॉट)
+Seu apelido
+आपका निकनेम
+Skin liberada para compra: {0} {1}
+स्किन ख़रीद के लिए अनलॉक: {0} {1}
+Skins
+स्किन
+Sombria
+छाया
+Sons
+आवाज़ें
+Sons: não
+आवाज़ें: बंद
+Sons: sim
+आवाज़ें: चालू
+Subiu para o nível {0}!
+लेवल {0} पर पहुँच गए!
+Suporte: fortalece as torres perto e vê camuflado. BÊNÇÃO: cura vidas e prende os inimigos com raízes.
+सपोर्ट: पास के टावरों को मज़बूत करता है और छिपे दुश्मन देखता है। आशीर्वाद: जानें वापस देता है और दुश्मनों को जड़ों में जकड़ देता है।
+Só Primárias
+सिर्फ़ मुख्य
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+सिर्फ़ मुख्य टावर (लोमड़ी, भालू, कछुआ, गरुड़, पेंगुइन, साही, शार्क)।
+Só torres Primárias nesta partida.
+इस मैच में सिर्फ़ मुख्य टावर।
+T-REX
+टी-रेक्स
+T-Rex
+टी-रेक्स
+T1+T2 de cada árvore saem GRÁTIS (torres no raio)
+हर ट्री के T1+T2 मुफ़्त (दायरे के टावर)
+T1+T2 grátis (raio)
+T1+T2 मुफ़्त (दायरे में)
+TD:
+TD:
+TOP JOGADORES
+टॉप खिलाड़ी
+TORRES
+टावर
+TRAVADO
+लॉक
+Tanque
+टैंक
+Tanque Maior
+बड़ा टैंक
+Tartaruga
+कछुआ
+Tartaruga de Gelo
+बर्फ़ीला कछुआ
+Texugo
+बिज्जू
+Texugo Engenheiro
+इंजीनियर बिज्जू
+Tigre
+बाघ
+Tigre Assassino
+शिकारी बाघ
+Tigre Lutador
+लड़ाकू बाघ
+Tinta Tóxica
+ज़हरीली स्याही
+Todos os animais disponíveis!
+सभी जानवर उपलब्ध!
+Toque na criatura p/ ver dano/ataque/DPS dela
+जीव को टैप करके उसका डैमेज/हमला/DPS देखें
+Toque no alcance do Guaxinim
+रैकून की रेंज में टैप करें
+Toque no alcance do Texugo
+बिज्जू की रेंज में टैप करें
+Toque num local válido
+किसी सही जगह पर टैप करें
+Torre
+टावर
+Torres no raio ignoram TODAS as imunidades
+दायरे के टावर सारी इम्युनिटी अनदेखी करें
+Touro Minotauro
+मिनोटौर बैल
+Trilha das Raízes
+जड़ों की पगडंडी
+Trono do Caos
+अराजकता का सिंहासन
+Tubarão
+शार्क
+Tubarão Lanceiro
+भाला शार्क
+Tudo vencido!
+सब जीत लिया!
+ULT: 
+अल्टी: 
+Urso
+भालू
+Urso Espadachim
+तलवारबाज़ भालू
+Usar
+इस्तेमाल करें
+Use de 3 a 16 letras/números, sem palavrões.
+3 से 16 अक्षर/अंक इस्तेमाल करें, गाली नहीं।
+Utilidade
+उपयोगिता
+VITÓRIA!
+जीत!
+Vale Gelado
+बर्फ़ीली घाटी
+Valente
+बहादुर
+Velocidade
+गति
+Velocidade do projétil: {0}% do padrão
+प्रोजेक्टाइल गति: डिफ़ॉल्ट का {0}%
+Veloz
+फुर्तीला
+Vencer dá a medalha 
+जीतने पर मेडल मिलेगा: 
+Vencer os 10 mapas
+सभी 10 मैप जीतें
+Vencer {0} mapas diferentes
+{0} अलग-अलग मैप जीतें
+Vencer {0} no {1}
+{1} पर {0} जीतें
+Vender ${0}
+बेचें ${0}
+Vender tudo ${0}
+सब बेचें ${0}
+Veneno
+ज़हर
+Veneno em vários alvos. TINTA TÓXICA: envenena e deixa lento todos em volta.
+कई टारगेट पर ज़हर। ज़हरीली स्याही: चारों ओर सबको ज़हर देकर धीमा कर देता है।
+Vença "{0}" para liberar.
+अनलॉक करने के लिए "{0}" जीतें।
+Ver em Animais
+"जानवर" में देखें
+Ver skins
+स्किन देखें
+Verde
+हरा
+Vermelho
+लाल
+Você chegou até a onda {0}.
+आप वेव {0} तक पहुँचे।
+Você venceu {0} no {1}!
+आपने {1} पर {0} जीत लिया!
+Você: nível {0}
+आप: लेवल {0}
+Voltar
+वापस
+Vulcão Rugidor
+गरजता ज्वालामुखी
+Vê camuflado
+छिपे दुश्मन देखे
+XP
+XP
+XP em dobro nesta partida
+इस मैच में डबल XP
+XP em dobro nesta partida!
+इस मैच में डबल XP!
+XP x2
+XP x2
+XP x2 ativo
+XP x2 चालू
+Zebra
+ज़ेबरा
+a onda fica VERMELHA e acerta muito mais alvos
+शॉकवेव लाल हो जाती है और कहीं ज़्यादा टारगेट को लगती है
+alc {0}
+रेंज {0}
+alvo atingido recebe +{0}% de dano de TODAS as torres
+लगे टारगेट को सभी टावरों से +{0}% ज़्यादा डैमेज
+apoio da Vila
+गाँव का सपोर्ट
+arranca Fortificado, Camuflagem e escudo do alvo
+टारगेट का किलाबंद, छिपाव और ढाल हटा दे
+azul
+नीला
+bloqueia regeneração (raio)
+रीजेन रोके (दायरे में)
+bronze
+कांस्य
+bumerangue: fere na ida e na volta
+बूमरैंग: जाते और लौटते दोनों बार चोट
+camuflados
+छिपे दुश्मन
+carregando
+लोड हो रहा है
+com a regra "{0}"
+"{0}" नियम के साथ
+com {0} em campo
+मैदान में {0} के साथ
+congela {0}%
+{0}% जमाए
+dano
+डैमेज
+dano vira FOGO (estoura Metal)
+डैमेज आग बन जाता है (मेटल फोड़े)
+dano vira MÁGICO (fere Mágico, não fere Roxo)
+डैमेज जादुई बन जाता है (जादुई को चोट, बैंगनी को नहीं)
+derrota
+हार
+deus
+देव
+diamante
+हीरा
+dispara MÍSSEIS que explodem
+फटने वाली मिसाइलें दागे
+efeito passa a valer no MAPA TODO
+असर अब पूरे मैप पर
+embalo: até +{0}% de cadência em golpes seguidos
+जोश: लगातार वार पर +{0}% तक फ़ायर रेट
+empurra inimigos
+दुश्मनों को धकेले
+empurra o alvo (15% por golpe)
+टारगेट को धकेले (हर वार 15%)
+estrepes com {0} cargas
+{0} चार्ज वाली कीलें
+fogo
+आग
+fogo no chão
+ज़मीन पर आग
+fogo no chão {0} dano/s
+ज़मीन पर आग {0} डैमेज/s
+fura +{0} camada{1}
++{0} परत{1} भेदे
+ganha respingo no impacto
+टक्कर पर छींटे मिलते हैं
+ganha área de impacto
+टक्कर का एरिया मिलता है
+ignora imunidade a Metal
+मेटल इम्युनिटी अनदेखी करे
+ignora imunidades (raio)
+इम्युनिटी अनदेखी (दायरे में)
+inimigo
+दुश्मन
+inimigos
+दुश्मन
+inimigos: 
+दुश्मन: 
+larga ESTREPES no caminho
+रास्ते में कीलें बिछाए
+larga MINAS no caminho
+रास्ते में माइन बिछाए
+lentidão {0}%
+धीमा {0}%
+libera {0}
+{0} अनलॉक करे
+lixo
+कचरा
+marca de vulnerabilidade dura {0}s
+कमज़ोरी का निशान {0}s तक रहता है
+marca inimigos no alcance (+20% dano recebido)
+रेंज के दुश्मनों पर निशान (+20% ज़्यादा डैमेज)
+o machado passa a VOAR até o alvo
+कुल्हाड़ी अब उड़कर टारगेट तक जाती है
+o xamã continua atacando
+शमन हमला करता रहता है
+oficina do Texugo
+बिज्जू की वर्कशॉप
+onda
+वेव
+onda {0}
+वेव {0}
+ouro
+सोना
+prata
+चाँदी
+qualquer mapa
+कोई भी मैप
+queimadura 
+जलन 
+recorde {0}
+रिकॉर्ड {0}
+remove Fortificado do alvo
+टारगेट से किलाबंदी हटाए
+revela camuflado no MAPA TODO
+पूरे मैप पर छिपे दुश्मन दिखाए
+sem moldura
+बिना फ़्रेम
+sexta
+शुक्रवार
+solta NUVENS DE MORCEGOS em vez da onda
+शॉकवेव की जगह चमगादड़ों के झुंड छोड़े
+torre
+टावर
+velocidade de ataque
+हमले की गति
+vê camuflado
+छिपे दुश्मन देखे
+x{0} dano vs Cerâmica
+सिरेमिक पर x{0} डैमेज
+{0} ondas
+{0} वेव
+{0} por {1}s
+{1}s तक {0}
+{0} | alc {1}
+{0} | रेंज {1}
+{0}% alcance
+{0}% रेंज
+{0}% cadência
+{0}% फ़ायर रेट
+{0}% crítico
+{0}% क्रिटिकल
+{0}% dano
+{0}% डैमेज
+{0}% de desconto de compra/upagem no raio
+दायरे में ख़रीद/अपग्रेड पर {0}% छूट
+{0}% desconto de compra (raio)
+{0}% ख़रीद छूट (दायरे में)
+{0}% empurrão
+{0}% धक्का
+{0}% respingo no impacto
+{0}% टक्कर पर छींटे
+{0}% veloc. projétil
+{0}% प्रोजेक्टाइल गति
+{0}% área de impacto
+{0}% टक्कर का एरिया
+{0}/7 medalhas  -  moldura {1}
+{0}/7 मेडल  -  {1} फ़्रेम
+{0}/s por {1}s
+{1}s तक {0}/s
+{0}sem efeito extra aqui (já no teto de outra árvore)
+{0}यहाँ कोई एक्स्ट्रा असर नहीं (दूसरे ट्री में पहले से अधिकतम)
+ÁGUIA
+गरुड़
+Água
+पानी
+Águia
+गरुड़
+Águia Batedora
+स्काउट गरुड़
+Álbum de medalhas — {0} de {1}
+मेडल एल्बम — {1} में से {0}
+Área de impacto: {0}
+टक्कर का एरिया: {0}
+ÚNICO
+अनोखा
+Último
+आख़िरी
+▶ INICIAR ONDA {0}
+▶ वेव {0} शुरू करें
+Pena da Coruja
+उल्लू का पंख
+Instinto de Matilha
+झुंड का जज़्बा
+Bico Afiado
+तेज़ चोंच
+Couro Grosso
+मोटी खाल
+Olho de Águia
+गरुड़ की आँख
+Fúria Selvagem
+जंगली क्रोध
+Arsenal
+शस्त्रागार
+Cofrinho do Castor
+बीवर की गुल्लक
+Bolsa de Couro
+चमड़े की थैली
+Coração de Carvalho
+ओक का दिल
+Ovo de Fênix
+फ़ीनिक्स का अंडा
+Trevo de Quatro Folhas
+चार पत्ती तिपतिया
+Pata de Coelho
+खरगोश का पंजा
+Pacto do Javali
+जंगली सूअर का क़रार
+Vidro de Canhão
+काँच की तोप
+Cauda de Lagartixa
+छिपकली की पूँछ
+Pacto do Lobo Solitário
+अकेले भेड़िये का क़रार
+Coração Teimoso
+ज़िद्दी दिल
+Ninho de Esquilo
+गिलहरी का घोंसला
+Brasa e Neve
+अंगारा और बर्फ़
+Pena da Lua
+चाँद का पंख
+Ovo de Ouro
+सोने का अंडा
+Ampulheta de Resina
+राल की रेत-घड़ी
+Coroa do Leão
+शेर का ताज
+Eclipse
+ग्रहण
+Presa de Sangue
+ख़ूनी दाँत
+Totem Sombrio
+छाया टोटेम
+Ouro Maldito
+श्रापित सोना
+Sino do Pastor
+चरवाहे की घंटी
+Bumerangue Ancião
+प्राचीन बूमरैंग
+Braseiro
+अंगीठी
+Cinzas Vivas
+ज़िंदा राख
+Geada Eterna
+अनंत पाला
+Peçonha
+विष
+Contágio
+संक्रमण
+Olho de Falcão
+बाज़ की आँख
+Lâmina Fina
+पतली धार
+Cofre de Nozes
+अखरोट की तिजोरी
+Moeda da Sorte
+किस्मत का सिक्का
+Cesto de Vime
+बेंत की टोकरी
+Semente Mágica
+जादुई बीज
+Estandarte
+युद्ध-ध्वज
+Laços de Lealdade
+वफ़ादारी के बंधन
+Espírito Selvagem
+जंगली आत्मा
+Ninhada
+नन्ही फ़ौज
+Coração de Magma
+मैग्मा का दिल
+Teia da Viúva
+काली मकड़ी का जाला
+Dado Viciado
+धोखेबाज़ पासा
+Bolsa Furada
+फटी थैली
+Fungo Faminto
+भूखी फफूंद
+Pacto da Serpente
+नाग का क़रार
+Ossos do Ancestral
+पुरखों की हड्डियाँ
+Lua de Sangue
+ख़ूनी चाँद
+Relógio Partido
+टूटी घड़ी
+Baralho Marcado
+निशान लगे पत्ते
+Pólvora Instável
+बेक़ाबू बारूद
+Coroa de Espinhos
+काँटों का ताज
+Luneta do Almirante
+एडमिरल की दूरबीन
+Ampulheta do Rei
+राजा की रेत-घड़ी
+Tesouro do Dragão
+ड्रैगन का ख़ज़ाना
+Tambor de Guerra
+युद्ध का ढोल
+Coração de Pedra
+पत्थर का दिल
+Bússola Antiga
+पुराना कम्पास
+Pacto do Poder
+ताक़त का क़रार
+Raiz Profunda
+गहरी जड़
+Totem das Frutas
+फलों का टोटेम
+Olho do Caçador
+शिकारी की आँख
+Martelo Rachador
+चीरने वाला हथौड़ा
+Contador Mágico
+जादुई काउंटर
+Dado de Ouro
+सुनहरा पासा
+Mágicas +35% de dano; militares -15% de alcance
+जादुई टावर +35% डैमेज; मिलिट्री टावर -15% रेंज
++7% de dano por outra torre IGUAL no campo (até +35%)
+मैदान में हर दूसरे एक जैसे टावर पर +7% डैमेज (+35% तक)
+Primárias +2 de perfuração; -10% de cadência nelas
+मुख्य टावर +2 भेदन; उनका फ़ायर रेट -10%
+Militares +25% de dano; mágicas -10% de cadência
+मिलिट्री टावर +25% डैमेज; जादुई टावर -10% फ़ायर रेट
+Todas +20% de alcance; -10% de dano
+सभी टावर +20% रेंज; -10% डैमेज
+Todas +40% de cadência; -20% de dano
+सभी टावर +40% फ़ायर रेट; -20% डैमेज
+Todas +1 alvo/projétil; inimigos +15% de vida
+सभी टावर +1 टारगेट/प्रोजेक्टाइल; दुश्मनों की हेल्थ +15%
+Fim de cada onda: +8% de juros sobre o ouro (até $500)
+हर वेव के अंत में: सोने पर +8% ब्याज ($500 तक)
++$300 agora e +$60 a cada caminho
+अभी +$300 और हर पड़ाव पर +$60
++50 de vida máxima e cura tudo agora
++50 मैक्स जान और अभी पूरी जान वापस
++1 revive guardado
++1 रिवाइव जमा
+Toda raridade é sorteada 2x: fica a melhor
+हर रेयरिटी 2x निकलती है: बेहतर वाली मिलती है
+Recompensas de carta mostram 4 opções
+कार्ड इनाम में 4 विकल्प
+Todas +25% de dano e +1 alvo; inimigos +20% de vida; loja +25%
+सभी टावर +25% डैमेज और +1 टारगेट; दुश्मनों की हेल्थ +20%; दुकान +25% महँगी
+Todas +60% de dano; vida máxima -40%
+सभी टावर +60% डैमेज; मैक्स जान -40%
+Vender uma torre no mesmo caminho em que foi colocada devolve 100%
+टावर को उसी पड़ाव में बेचें जहाँ रखा था, तो 100% वापस
+Sem torres repetidas no campo: todas +25% de dano e +10% de alcance
+मैदान में कोई टावर दोहराया न हो: सभी +25% डैमेज और +10% रेंज
+1x por andar: o vazamento que te mataria te deixa com 1 de vida
+हर फ़्लोर में 1x: जानलेवा लीक के बाद भी 1 जान बच जाती है
+Bolotas douradas caem o dobro e são coletadas sozinhas
+सुनहरे बलूत दोगुने गिरते हैं और अपने-आप जमा होते हैं
+Salamandra E Tartaruga no campo: as duas +30% de dano e +15% de cadência
+मैदान में सैलामैंडर और कछुआ दोनों: दोनों को +30% डैमेज और +15% फ़ायर रेट
+Mágicas +1 alvo/projétil e +15% de alcance
+जादुई टावर +1 टारगेट/प्रोजेक्टाइल और +15% रेंज
++$40 a cada onda vencida e bolotas douradas valem o dobro
+हर जीती वेव पर +$40 और सुनहरे बलूत की क़ीमत दोगुनी
+Todas +35% de dano; ouro das recompensas -30%
+सभी टावर +35% डैमेज; इनाम का सोना -30%
+Todas +2 alvos/projéteis; inimigos +25% de velocidade
+सभी टावर +2 टारगेट/प्रोजेक्टाइल; दुश्मनों की गति +25%
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+सभी टावर +60% डैमेज। श्राप: हर वेव में 3% जान घटती है
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+सभी टावर +25% फ़ायर रेट और +1 टारगेट। श्राप: दुश्मनों की हेल्थ +20%
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
+अभी +$500 और हर वेव +$60। श्राप: दुकान 40% महँगी
+ATIVA (toque no ícone na onda, 1x por andar): empurra todos os inimigos para trás
+एक्टिव (वेव में आइकन टैप करें, हर फ़्लोर में 1x): सारे दुश्मनों को पीछे धकेले
+ATIVA (toque no ícone na onda, 1x por andar): dano em todos os inimigos do caminho
+एक्टिव (वेव में आइकन टैप करें, हर फ़्लोर में 1x): रास्ते के सारे दुश्मनों पर डैमेज
+Queimaduras duram o dobro; Salamandra +20% de dano
+जलन दोगुनी देर चलती है; सैलामैंडर +20% डैमेज
+Inimigo que morre queimando EXPLODE nos vizinhos
+जलते हुए मरने वाला दुश्मन आसपास वालों पर फट पड़ता है
+Lentidões duram +50%; Tartaruga +20% de dano
+धीमापन +50% ज़्यादा देर चलता है; कछुआ +20% डैमेज
+Inimigos lentos ou congelados levam +25% de dano
+धीमे या जमे दुश्मनों को +25% डैमेज
+Acertos das torres primárias envenenam
+मुख्य टावरों के वार ज़हर देते हैं
+Inimigo que morre envenenado espalha o veneno
+ज़हर से मरने वाला दुश्मन ज़हर फैला देता है
++10% de chance de crítico em todas as torres
+सभी टावरों पर +10% क्रिटिकल मौका
+Críticos causam x3 em vez de x2
+क्रिटिकल से x2 की जगह x3 डैमेज
++5% de dano em todas a cada $1000 que você tiver (até +25%)
+आपके हर $1000 पर सभी टावर +5% डैमेज (+25% तक)
+Cada crítico dá $1 (até $60 por onda)
+हर क्रिटिकल पर $1 (हर वेव $60 तक)
+Herói +40% de dano
+हीरो +40% डैमेज
+Herói sobe +1 nível a cada chefe vencido
+हर बॉस हराने पर हीरो +1 लेवल
+Invocações do Guaxinim e sentinelas do Texugo +40% de dano
+रैकून के बुलाए जीव और बिज्जू के संतरी +40% डैमेज
+Invocações e sentinelas atacam 30% mais rápido
+बुलाए जीव और संतरी 30% तेज़ हमला करते हैं
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+जलन से दोगुना डैमेज। श्राप: बर्फ़ के टावर -30% डैमेज
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+एक ही दुश्मन पर ज़हर 3x तक जमा होता है। श्राप: ज़हरीले दुश्मन 15% तेज़ चलते हैं
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+क्रिटिकल से x4 डैमेज। श्राप: बिना क्रिटिकल वाले वार -20% डैमेज
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+परतें फूटने से सोना +100%। श्राप: हर फ़्लोर के अंत में 25% सोना चला जाता है
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+हीरो +80% डैमेज। श्राप: बाकी टावर -15% डैमेज
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+बुलाए जीव और संतरी +60% डैमेज; रैकून के जीव +1 टारगेट। श्राप: न बुलाने वाले टावर -10% फ़ायर रेट
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+एलीट और मिनी बॉस दोगुना इनाम देते हैं। श्राप: दुश्मनों की हेल्थ +15%
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+सभी टावर +30% फ़ायर रेट। श्राप: दुश्मन 25% ज़्यादा पास-पास आते हैं
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+बफ़ कार्ड 1 रेयरिटी ऊपर आते हैं। श्राप: कार्ड रीरोल नहीं
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+मरने वाला दुश्मन आसपास वालों पर फट पड़ता है। श्राप: लीक होने वाला फटकर +5 जान ले जाता है
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+सभी टावर +40% डैमेज। श्राप: हर लीक पर दोगुनी जान जाती है
+Todas as torres veem camuflados e têm +25% de alcance; inimigos +20% de velocidade
+सभी टावर छिपे दुश्मन देखें और +25% रेंज; दुश्मनों की गति +20%
+Todas +45% de cadência; vida máxima -25
+सभी टावर +45% फ़ायर रेट; मैक्स जान -25
++$400 agora e ouro dos abates +60%; loja 30% mais cara
+अभी +$400 और किल से सोना +60%; दुकान 30% महँगी
+A cada 10 abates, TODAS as torres atacam 60% mais rápido por 3s
+हर 10 किल पर सभी टावर 3s तक 60% तेज़ हमला करते हैं
+Cada inimigo que vaza tira no máximo 1 vida (até blindado e chefe)
+हर लीक ज़्यादा से ज़्यादा 1 जान लेता है (बख़्तरबंद और बॉस भी)
+Cada onda perfeita (sem vazar) recupera 3 de vida
+हर परफ़ेक्ट वेव (बिना लीक) पर 3 जान वापस
+Todas as torres veem camuflados; alcance -10%
+सभी टावर छिपे दुश्मन देखें; रेंज -10%
+Inimigos chegam SEM blindagem (fortificados perdem a casca)
+दुश्मन बिना बख़्तर आते हैं (किलाबंद का खोल उतर जाता है)
+vença {0} Elites ou Mini Chefes
+{0} एलीट या मिनी बॉस हराएँ
+vença 1 chefe
+1 बॉस हराएँ
+vença {0} chefes
+{0} बॉस हराएँ
+faça {0} ondas perfeitas
+{0} परफ़ेक्ट वेव पूरी करें
+vença {0} ondas
+{0} वेव जीतें
+Quebra: {0}
+श्राप तोड़ें: {0}
+Mágicas +60% de dano
+जादुई टावर +60% डैमेज
++10% por torre igual (até +50%)
+हर एक जैसे टावर पर +10% (+50% तक)
+Primárias +4 de perfuração
+मुख्य टावर +4 भेदन
+Militares +45% de dano
+मिलिट्री टावर +45% डैमेज
++35% de alcance
++35% रेंज
++60% de cadência
++60% फ़ायर रेट
+Juros de 12% (até $800)
+12% ब्याज ($800 तक)
++45% de dano e +15% de alcance
++45% डैमेज और +15% रेंज
+Perfuração
+भेदन
+Velocidade de Ataque
+हमले की गति
+Alvos/Projéteis
+टारगेट/प्रोजेक्टाइल
+Dano em Blindados
+बख़्तरबंद पर डैमेज
+Área de Impacto
+टक्कर का एरिया
+Alcance
+रेंज
+Crítico
+क्रिटिकल
++{0} de perfuração
++{0} भेदन
++{0} alvo/projétil por ataque
+हर हमले में +{0} टारगेट/प्रोजेक्टाइल
++{0} de dano contra blindados
+बख़्तरबंद पर +{0} डैमेज
+fura +{0} camada(s)
++{0} परत भेदे
++{0}% de chance de CRÍTICO (dano x2)
++{0}% क्रिटिकल मौका (x2 डैमेज)
+acerto envenena: {0}% do dano por segundo (2s)
+वार से ज़हर: हर सेकंड {0}% डैमेज (2s)
+Normal
+सामान्य
+Raro
+रेयर
+Épico
+एपिक
+Melhoria
+बूस्ट
+Ouro
+सोना
+Upagem
+अपग्रेड
+Loja
+दुकान
+Fogueira
+अलाव
+CHEFE
+बॉस
+Início
+शुरुआत
+Elite
+एलीट
+Relíquia
+रेलिक
+Evento
+इवेंट
+Mini Chefe
+मिनी बॉस
+Desafio
+चुनौती
+Mímico
+मिमिक
+Nada
+कुछ नहीं
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+वेव जीतें और एक टावर के लिए 3 में से 1 बूस्ट चुनें
+Vença a onda: ouro na hora ou investido
+वेव जीतें: तुरंत सोना या निवेश
+Vença a onda e ganhe 1 de 3 torres grátis
+वेव जीतें और 3 में से 1 मुफ़्त टावर पाएँ
+Vença a onda: upagem grátis numa torre
+वेव जीतें: एक टावर पर मुफ़्त अपग्रेड
+Sem onda: compre melhorias e relíquias com ouro
+कोई वेव नहीं: सोने से बूस्ट और रेलिक ख़रीदें
+Sem onda: descansar ou treinar
+कोई वेव नहीं: आराम करें या ट्रेनिंग लें
+O chefe do andar: vença e escolha uma relíquia de chefe
+फ़्लोर का बॉस: जीतें और एक बॉस रेलिक चुनें
+Escolha a torre inicial da run
+रन का पहला टावर चुनें
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+ताक़तवर दुश्मन और एक मॉडिफ़ायर: इनाम में रेयर कार्ड और सोना
+Vença a onda e escolha 1 de 3 relíquias
+वेव जीतें और 3 में से 1 रेलिक चुनें
+Sem onda: um encontro com escolhas
+कोई वेव नहीं: विकल्पों वाली एक मुलाक़ात
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+आख़िर में मिनी बॉस वाली वेव: इनाम में रेयर टावर या ख़ज़ाना
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+जीत, बिना लीक और समय पर: 3 सुनहरे सितारे तक
+Uma onda, sem recompensa extra
+एक वेव, कोई एक्स्ट्रा इनाम नहीं
+Camuflados
+छिपे हुए
+Fortificados
+किलाबंद
+Regeneram
+रीजेन
+Apressados
+तेज़ रफ़्तार
+Horda
+भीड़
+todos vêm camuflados
+सब छिपकर आते हैं
+todos vêm fortificados
+सब किलाबंद आते हैं
+todos regeneram
+सब रीजेन करते हैं
++30% de velocidade
++30% गति
++50% de inimigos
++50% दुश्मन
+Escudeiro Demolidor
+विध्वंसक ढालधारी
+Mãe-Bomba
+बम-अम्मा
+Engenheiro Remendão
+जुगाड़ू इंजीनियर
+Rasga-Vento
+हवा-चीर
+Escudo de 30% da vida. Quando quebra, fica atordoado 2,5s
+हेल्थ की 30% ढाल। टूटने पर 2.5s तक स्टन
+A cada 4s solta 2 bombinhas no caminho (até 14)
+हर 4s में रास्ते पर 2 नन्हे बम छोड़ती है (14 तक)
+Conserta a si mesmo e cura os aliados por perto a cada 3s
+हर 3s में ख़ुद की मरम्मत करता है और पास के साथियों को हील करता है
+A cada 5s dá uma arrancada 4x mais rápida
+हर 5s में 4x तेज़ दौड़ लगाता है
+dano alto de uma vez quebra o escudo; depois é a hora de bater
+एक साथ भारी डैमेज से ढाल टूटती है; फिर वार करने का मौका
+torres de área e perfuração limpam os filhotes
+एरिया और भेदन वाले टावर नन्हे बमों को साफ़ करते हैं
+dano concentrado antes do conserto
+मरम्मत से पहले एक जगह पूरा डैमेज लगाएँ
+lentidão e torres no fim do caminho
+धीमापन और रास्ते के आख़िर में टावर
+Esquilo Contrabandista
+तस्कर गिलहरी
+Ninho Abandonado
+वीरान घोंसला
+Javali do Caos
+अराजकता का सूअर
+Aposta do Guaxinim
+रैकून का दाँव
+Lago Espelhado
+आईना झील
+Fonte Sagrada
+पवित्र झरना
+Dinamite Abandonada
+छोड़ा हुआ डायनामाइट
+Árvore Ancestral
+प्राचीन पेड़
+Mel do Urso
+भालू का शहद
+O Corvo Mercador
+सौदागर कौआ
+Toca Desmoronada
+ढहा हुआ बिल
+Arbusto de Frutinhas
+बेरी की झाड़ी
+Caminhão Capturado
+लूटा हुआ ट्रक
+Ninho de Vespas
+ततैयों का छत्ता
+Ovo Misterioso
+रहस्यमयी अंडा
+Altar do Sacrifício
+बलि की वेदी
+Altar das Maldições
+श्रापों की वेदी
+Coruja Sábia
+समझदार उल्लू
+Colmeia Selvagem
+जंगली मधुमक्खी छत्ता
+Lago Congelado
+जमी हुई झील
+Iglu do Pinguim
+पेंगुइन का इग्लू
+Miragem
+मृगतृष्णा
+Caravana do Deserto
+रेगिस्तानी कारवाँ
+Forja de Lava
+लावा भट्टी
+Ovo de Fogo
+आग का अंडा
+Bruxa do Pântano
+दलदल की चुड़ैल
+Sapo Rei
+मेंढक राजा
+Um esquilo de capa abre um saco cheio de mapas roubados. "Tenho uma torre de elite pra você... por um terço do seu ouro."
+चोगा पहने एक गिलहरी चोरी के नक्शों से भरा थैला खोलती है। "आपके लिए एक एलीट टावर है... आपके सोने के एक-तिहाई में।"
+No alto de uma árvore, um ninho com um brilho estranho. Pode ser um tesouro. Pode ser uma armadilha dos humanos.
+एक ऊँचे पेड़ पर अजीब चमक वाला घोंसला। ख़ज़ाना हो सकता है। या इंसानों का जाल।
+Um javali enorme bufa no caminho. "Deixe minha fúria correr pelo campo e eu ensino suas torres a bater mais forte."
+एक विशाल जंगली सूअर रास्ते में फुफकार रहा है। "मेरे ग़ुस्से को मैदान में दौड़ने दो, फिर मैं तुम्हारे टावरों को और ज़ोर से मारना सिखाऊँगा।"
+Um guaxinim embaralha três cascas de noz. "Aposta $300? Acertou, dobra. Errou... é meu."
+एक रैकून अखरोट के तीन छिलके घुमाता है। "$300 का दाँव? सही निकला तो दोगुना। ग़लत... तो मेरा।"
+A água do lago reflete suas torres mais fortes do que são. Tocar nela cobra um preço.
+झील का पानी आपके टावरों को असल से ज़्यादा ताक़तवर दिखाता है। उसे छूने की क़ीमत चुकानी पड़ती है।
+Uma fonte de água cristalina no meio da floresta.
+जंगल के बीचोंबीच साफ़ पानी का एक झरना।
+Humanos-bomba fugiram e largaram um caixote com o pavio aceso.
+बम वाले इंसान भाग गए और जलती बत्ती वाला एक बक्सा छोड़ गए।
+Uma árvore milenar sussurra: "dê um pouco da sua vida e eu te dou um presente antigo."
+एक हज़ार साल पुराना पेड़ फुसफुसाता है: "थोड़ी-सी जान दो, बदले में मैं एक प्राचीन तोहफ़ा दूँगा।"
+Um urso guarda um pote de mel dourado. Ele aceita dividir... por um preço.
+एक भालू सुनहरे शहद के मटके की रखवाली कर रहा है। वो बाँटने को तैयार है... एक क़ीमत पर।
+Um corvo pousa num galho com objetos brilhantes. "Brilho por brilho, amigo."
+चमकीली चीज़ें लिए एक कौआ डाल पर आ बैठता है। "चमक के बदले चमक, दोस्त।"
+Uma toca antiga. Escavar aqui pode revelar algo útil ou derrubar tudo.
+एक पुराना बिल। यहाँ खुदाई से कुछ काम का मिल सकता है, या सब ढह सकता है।
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+जादुई बेरियों से लदी एक झाड़ी। बाज़ार में बेच सकते हैं या अभी खा सकते हैं।
+Um caminhão dos humanos tombou na estrada, cheio de caixas. O motorista fugiu... por enquanto.
+इंसानों का एक ट्रक सड़क पर पलट गया है, बक्सों से भरा। ड्राइवर भाग गया... फ़िलहाल।
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+नीची डाल पर ततैयों का छत्ता भिनभिना रहा है। ग़ुस्सैल ततैये बढ़िया साथी होते हैं, या बहुत बुरे दुश्मन।
+Um ovo brilhante, quentinho, esquecido no meio da trilha. Um vendedor pede $150 por ele.
+रास्ते के बीच छूटा एक चमकता, गरम अंडा। एक विक्रेता इसके $150 माँग रहा है।
+Um altar de pedra antiga pulsa com poder. Ele pede uma das suas torres... e promete algo à altura.
+पुराने पत्थर की एक वेदी ताक़त से धड़क रही है। वो आपका एक टावर माँगती है... और बराबर का कुछ देने का वादा करती है।
+Duas relíquias negras flutuam sobre um altar rachado. Poder de verdade... com um preço que cobra todo dia.
+टूटी वेदी पर दो काले रेलिक तैर रहे हैं। असली ताक़त... ऐसी क़ीमत पर जो हर दिन चुकानी पड़ती है।
+Uma coruja velha de óculos abre um livro de estratégia. "Conhecimento custa caro, filhote."
+चश्मे वाला एक बूढ़ा उल्लू रणनीति की किताब खोलता है। "ज्ञान महँगा पड़ता है, बच्चे।"
+Uma colmeia enorme pinga mel dourado. As abelhas não parecem nada contentes com visitas.
+एक विशाल छत्ते से सुनहरा शहद टपक रहा है। मधुमक्खियाँ मेहमानों से बिल्कुल ख़ुश नहीं दिखतीं।
+Um lago totalmente congelado corta o caminho. Do outro lado, um baú brilha. O gelo range.
+पूरी तरह जमी एक झील रास्ता रोके है। उस पार एक संदूक चमक रहा है। बर्फ़ चरमरा रही है।
+Um pinguim de cachecol vende neve mágica na porta do iglu. "Fresquinha, direto do polo!"
+मफ़लर वाला एक पेंगुइन इग्लू के दरवाज़े पर जादुई बर्फ़ बेच रहा है। "एकदम ताज़ा, सीधे ध्रुव से!"
+No horizonte, um oásis cheio de tesouros tremula no calor. Pode ser real... ou só o sol.
+क्षितिज पर ख़ज़ानों से भरा एक नख़लिस्तान गर्मी में झिलमिला रहा है। असली हो सकता है... या बस धूप।
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+ऊँटों का एक कारवाँ टीले पर रुकता है। सौदागर नक्शे बदलते हैं और पानी बेचते हैं।
+Uma forja antiga, aquecida pela própria lava. Ela pede sangue para temperar o aço.
+एक पुरानी भट्टी, जो ख़ुद लावा से तपती है। स्टील तपाने के लिए वो ख़ून माँगती है।
+Um ovo vermelho, quente como brasa, pulsa entre as rochas. Pegar com a mão vai doer.
+चट्टानों के बीच अंगारे जैसा गरम एक लाल अंडा धड़क रहा है। हाथ से उठाया तो जलेगा।
+Uma bruxa mexe um caldeirão verde. "Uma poção desfaz maldições, querido... ou um amuleto, se preferir."
+एक चुड़ैल हरी कड़ाही चला रही है। "एक दवा श्राप मिटा देती है, प्यारे... या चाहो तो एक तावीज़।"
+Um sapo de coroa olha fundo nos seus olhos. Dizem que ele é um herói amaldiçoado.
+ताज पहने एक मेंढक आपकी आँखों में गहराई से झाँकता है। कहते हैं वो एक श्रापित हीरो है।
+Comprar
+ख़रीदें
+Paga 1/3 do ouro: uma torre ÉPICA (4 upagens)
+1/3 सोना दें: एक एपिक टावर (4 अपग्रेड)
+Recusar
+मना करें
+Segue em frente
+आगे बढ़ें
+Pegar o ovo
+अंडा उठाएँ
+50%: uma relíquia · 50%: perde 15% da vida
+50%: एक रेलिक · 50%: 15% जान जाती है
+Deixar
+छोड़ दें
+Aceitar
+मंज़ूर
+Próximas 3 ondas: inimigos +25% de velocidade. Depois: +15% de dano em TODAS as torres pra sempre
+अगली 3 वेव: दुश्मनों की गति +25%। फिर: सभी टावर हमेशा के लिए +15% डैमेज
+Apostar
+दाँव लगाएँ
+Passar
+पास
+Tocar a água
+पानी छुएँ
+Perde 20% da vida: um buff ÉPICO numa torre aleatória
+20% जान दें: रैंडम टावर पर एक एपिक बफ़
+Ir embora
+चले जाएँ
+Beber
+पिएँ
+Recupera 20% da vida
+20% जान वापस
+Encher o cantil
+बोतल भरें
++$150 vendendo a água
+पानी बेचकर +$150
+Desarmar
+बत्ती बुझाएँ
++$120 e 1 upagem grátis numa torre aleatória
++$120 और रैंडम टावर पर 1 मुफ़्त अपग्रेड
+Sair de fininho
+चुपके से खिसकें
+Oferecer vida
+जान दें
+Perde 10% da vida máxima: uma relíquia aleatória
+10% मैक्स जान दें: एक रैंडम रेलिक
+Pagar $200
+$200 दें
+Todas as torres +5% de dano pelo resto da run
+बाकी रन में सभी टावर +5% डैमेज
+Pagar $250
+$250 दें
+Uma relíquia aleatória
+एक रैंडम रेलिक
+Escavar
+खुदाई करें
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+60%: मुफ़्त अपग्रेड + $100 · 40%: 10% जान जाती है
+Colher e vender
+तोड़कर बेचें
++$180 no mercado
+बाज़ार में +$180
+Comer agora
+अभी खाएँ
+Recupera 10% da vida
+10% जान वापस
+Pagar 40% do ouro
+40% सोना दें
+Uma torre RARA aleatória (2 upagens)
+एक रैंडम रेयर टावर (2 अपग्रेड)
+Saquear
+लूटें
++$200, mas perde 5% da vida
++$200, पर 5% जान जाती है
+Cutucar
+छेड़ें
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+50%: बाकी रन में सभी टावर +10% फ़ायर रेट · 50%: 10% जान जाती है
+Comprar ($150)
+ख़रीदें ($150)
+60%: uma relíquia · 40%: recupera 15% da vida
+60%: एक रेलिक · 40%: 15% जान वापस
+Sacrificar
+बलि दें
+Entrega uma torre: relíquia conforme o valor dela
+एक टावर दें: उसकी क़ीमत के हिसाब से रेलिक
+Aceitar a maldição
+श्राप स्वीकारें
+Escolha 1 de 2 relíquias amaldiçoadas (não conta no limite do andar)
+2 श्रापित रेलिक में से 1 चुनें (फ़्लोर की सीमा में नहीं गिना जाता)
+Pagar $180
+$180 दें
+1 upagem grátis em 2 torres aleatórias
+2 रैंडम टावरों पर 1 मुफ़्त अपग्रेड
+Ouvir o conselho
+सलाह सुनें
++1 troca de cartas grátis neste andar
+इस फ़्लोर में +1 मुफ़्त कार्ड रीरोल
+Pegar o mel
+शहद लें
+Perde 8% da vida: +$300 vendendo o mel
+8% जान दें: शहद बेचकर +$300
+Atravessar
+पार करें
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+60%: +$300 वाला संदूक · 40%: बर्फ़ टूटती है, 15% जान जाती है
+Contornar
+घूमकर जाएँ
+Comprar ($200)
+ख़रीदें ($200)
++40 de escudo até o fim do andar (absorve vazamentos)
+फ़्लोर के अंत तक +40 ढाल (लीक सोख लेती है)
+Seguir a miragem
+मृगतृष्णा के पीछे जाएँ
+50%: uma relíquia · 50%: perde $200 na areia
+50%: एक रेलिक · 50%: रेत में $200 खो जाते हैं
+Ignorar
+नज़रअंदाज़ करें
+Trocar mapas
+नक्शे बदलें
++$100 e +1 troca de cartas grátis neste andar
++$100 और इस फ़्लोर में +1 मुफ़्त कार्ड रीरोल
+Comprar água ($120)
+पानी ख़रीदें ($120)
+Temperar o aço
+स्टील तपाएँ
+Perde 10% da vida máxima: um buff ÉPICO numa torre aleatória
+10% मैक्स जान दें: रैंडम टावर पर एक एपिक बफ़
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+रैंडम टावर पर एक एपिक डैमेज बफ़ · 30%: हाथ जलता है, 10% जान जाती है
+Beber a poção
+दवा पिएँ
+Quebra a maldição de uma relíquia (sem maldição: +25 de escudo)
+एक रेलिक का श्राप तोड़ती है (श्राप न हो तो: +25 ढाल)
+Amuleto ($250)
+तावीज़ ($250)
+Beijar o sapo
+मेंढक को चूमें
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+30%: एपिक टावर बन जाता है (4 अपग्रेड) · 70%: बस मेंढक था
+Seguir
+आगे चलें
+O CHEFE DO ANDAR CHEGOU!
+फ़्लोर का बॉस आ गया!
+Mini chefe: {0}!
+मिनी बॉस: {0}!
++conserto
++मरम्मत
+ESCUDO QUEBRADO!
+ढाल टूट गई!
+CORAÇÃO TEIMOSO!
+ज़िद्दी दिल!
+Nv {0}
+लेवल {0}
+Nenhuma torre no campo pra upar.
+अपग्रेड के लिए मैदान में कोई टावर नहीं।
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+ये मिमिक था! संदूक को हराएँ और दोगुना सोना पाएँ
+Onda perfeita x{0}: +${1}
+परफ़ेक्ट वेव x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} विकसित हुआ: {1}
+O chefe escapou! Sem a recompensa dele.
+बॉस भाग गया! उसका इनाम नहीं मिलेगा।
+O chefe escapou!
+बॉस भाग गया!
+Sem a recompensa dele.
+उसका इनाम नहीं मिलेगा।
+Revive usado! A onda recomeça.
+रिवाइव इस्तेमाल हुआ! वेव फिर से शुरू।
+Maldição quebrada: {0} (o bônus fica)
+श्राप टूटा: {0} (बोनस बना रहेगा)
+Escolha a torre inicial
+पहला टावर चुनें
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+ये मुफ़्त आता है, 2 रैंडम अपग्रेड के साथ। शुरुआती सोना और टावर ख़रीदने के लिए बचा रहता है।
+Escolha uma melhoria
+एक बूस्ट चुनें
+Depois toque na torre que vai receber.
+फिर उस टावर पर टैप करें जिसे ये मिलेगा।
+Escolha uma torre grátis
+एक मुफ़्त टावर चुनें
+Chefe derrotado! Escolha uma relíquia de chefe
+बॉस हार गया! एक बॉस रेलिक चुनें
+Depois ainda ganha {0} com {1} upagens.
+इसके बाद {1} अपग्रेड के साथ {0} भी मिलेगा।
+Elite vencido!
+एलीट हराया!
++${0} de ouro. Escolha uma carta rara:
++${0} सोना। एक रेयर कार्ड चुनें:
+Lua de Sangue: +${0}
+ख़ूनी चाँद: +${0}
+Mini chefe derrotado!
+मिनी बॉस हराया!
+RELÍQUIAS ESGOTADAS
+रेलिक ख़त्म
+Você já tem todas. +${0}
+आपके पास सारे रेलिक हैं। +${0}
+Escolha uma relíquia
+एक रेलिक चुनें
+Relíquias valem a run toda.
+रेलिक पूरी रन तक साथ रहते हैं।
+Loja do Coelho
+खरगोश की दुकान
+Melhorias e relíquias, pagas com o ouro da run.
+बूस्ट और रेलिक, रन के सोने से ख़रीदें।
+Dinheiro
+पैसा
+Pegar agora ou investir?
+अभी लें या निवेश करें?
+Escolha UMA.
+सिर्फ़ एक चुनें।
+UPAGEM GRÁTIS
+मुफ़्त अपग्रेड
+DESAFIO: {0} de 3 estrelas
+चुनौती: 3 में से {0} सितारे
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+जीत: हाँ  ·  बिना लीक: {0}  ·  {1}s के अंदर: {2}  ·  +${3}
+sim
+हाँ
+não
+नहीं
+MÍMICO DERROTADO
+मिमिक हारा
+O baú-monstro deixou cair +${0}
+राक्षस-संदूक ने +${0} गिराए
+CAMINHO LIMPO
+रास्ता साफ़
+Nenhuma recompensa por aqui.
+यहाँ कोई इनाम नहीं।
+Ganhou {0}! Toque no campo para posicionar.
+{0} मिला! रखने के लिए मैदान पर टैप करें।
+O investimento rendeu: +${0}
+निवेश से कमाई: +${0}
+Bolsa Furada: -${0} no fim do andar
+फटी थैली: फ़्लोर के अंत में -${0}
+ANDAR {0}!
+फ़्लोर {0}!
+Entrega {0} (vale ~${1})
+{0} दें (क़ीमत ~${1})
+Treinar
+ट्रेनिंग
+Escolha a árvore da upagem grátis.
+मुफ़्त अपग्रेड का ट्री चुनें।
+Já são {0} relíquias neste andar: {1} virou +${2}
+इस फ़्लोर में पहले से {0} रेलिक हैं: {1} बदलकर +${2} बन गया
+Relíquia nova: {0}
+नया रेलिक: {0}
+Delícia! +{0} de vida.
+वाह, स्वादिष्ट! +{0} जान।
++$200 do saque, mas o motorista voltou: -{0} de vida.
+लूट से +$200, पर ड्राइवर लौट आया: -{0} जान।
+A coruja ensina a olhar de novo: +1 troca de cartas grátis neste andar.
+उल्लू ने फिर से देखना सिखाया: इस फ़्लोर में +1 मुफ़्त कार्ड रीरोल।
+Você não tinha $120 para a água.
+पानी के लिए आपके पास $120 नहीं थे।
+-$120. Água fresca: +{0} de vida.
+-$120। ताज़ा पानी: +{0} जान।
+Você não tinha $250 para o amuleto.
+तावीज़ के लिए आपके पास $250 नहीं थे।
+A bruxa não tinha amuleto que você não possua.
+चुड़ैल के पास ऐसा कोई तावीज़ नहीं जो आपके पास न हो।
+-$250. Amuleto: {0}
+-$250। तावीज़: {0}
+Você segue em frente.
+आप आगे बढ़ते हैं।
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}। आपको 4 अपग्रेड वाला {1} मिला! रखने के लिए मैदान पर टैप करें।
+Era um tesouro! Relíquia: {0}
+ख़ज़ाना था! रेलिक: {0}
+Era um tesouro! +$400
+ख़ज़ाना था! +$400
+Era uma armadilha! -{0} de vida.
+जाल था! -{0} जान।
+A fúria do javali corre solta: 3 ondas com inimigos mais rápidos. Sobreviva e suas torres ficam +15% mais fortes.
+सूअर का ग़ुस्सा बेक़ाबू: 3 वेव तक तेज़ दुश्मन। बच गए तो आपके टावर +15% ज़्यादा ताक़तवर।
+Acertou! +$300
+सही! +$300
+Errou... -${0}
+ग़लत... -${0}
+-{0} de vida.
+-{0} जान।
+-{0} de vida máxima. A árvore não tinha mais relíquias: +$400.
+-{0} मैक्स जान। पेड़ के पास और रेलिक नहीं थे: +$400।
+-{0} de vida máxima. Relíquia: {1}
+-{0} मैक्स जान। रेलिक: {1}
+Você não tinha $200. O urso fica com o mel.
+आपके पास $200 नहीं थे। शहद भालू के पास ही रहा।
+-$200. Todas as torres +5% de dano pelo resto da run.
+-$200। बाकी रन में सभी टावर +5% डैमेज।
+Você não tinha $250. O corvo voa embora.
+आपके पास $250 नहीं थे। कौआ उड़ गया।
+O corvo não tinha nada novo pra você.
+कौए के पास आपके लिए कुछ नया नहीं था।
+-$250. Relíquia: {0}
+-$250। रेलिक: {0}
+A toca desabou! -{0} de vida.
+बिल ढह गया! -{0} जान।
+As frutinhas renderam +$180 no mercado.
+बेरियों से बाज़ार में +$180 मिले।
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}। माल में मिला: 2 अपग्रेड वाला {1}! रखने के लिए मैदान पर टैप करें।
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+ततैये साथी बन गए! बाकी रन में सभी टावर +10% फ़ायर रेट।
+Ferroadas! -{0} de vida.
+डंक पर डंक! -{0} जान।
+Você não tinha $150. O vendedor guarda o ovo.
+आपके पास $150 नहीं थे। विक्रेता ने अंडा रख लिया।
+-$150. O ovo chocou uma relíquia: {0}
+-$150। अंडे से एक रेलिक निकला: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150। बस नाश्ते का अंडा था: +{0} जान।
+Você não tinha $180.
+आपके पास $180 नहीं थे।
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+डंक! -{0} जान, पर शहद से +$300 मिले।
+O gelo aguentou! O baú tinha $300.
+बर्फ़ टिकी रही! संदूक में $300 थे।
+CRACK! O gelo quebrou: -{0} de vida.
+कड़ाक! बर्फ़ टूट गई: -{0} जान।
+Você não tinha $200.
+आपके पास $200 नहीं थे।
+-$200. +40 de escudo até o fim do andar.
+-$200। फ़्लोर के अंत तक +40 ढाल।
+Era real! Relíquia: {0}
+असली था! रेलिक: {0}
+Era só o sol... você perdeu ${0} na areia.
+बस धूप थी... रेत में ${0} खो गए।
++$100 e +1 troca de cartas grátis neste andar.
++$100 और इस फ़्लोर में +1 मुफ़्त कार्ड रीरोल।
+-{0} de vida máxima.
+-{0} मैक्स जान।
+A mão queimou: -{0} de vida.
+हाथ जल गया: -{0} जान।
+A maldição de {0} sumiu!
+{0} का श्राप मिट गया!
+Sem maldição para quebrar: a poção virou +25 de escudo.
+तोड़ने को कोई श्राप नहीं: दवा +25 ढाल बन गई।
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+मेंढक 4 अपग्रेड वाला {0} बन गया! रखने के लिए मैदान पर टैप करें।
+Era só um sapo. Ele coaxa, ofendido.
+बस एक मेंढक था। वो नाराज़ होकर टर्राया।
+O altar se apagou: não há maldições novas.
+वेदी बुझ गई: कोई नया श्राप नहीं।
+Não havia torre para sacrificar.
+बलि के लिए कोई टावर नहीं था।
+{0} foi entregue. O altar não tinha relíquias: +${1}
+{0} दे दिया गया। वेदी के पास रेलिक नहीं थे: +${1}
+{0} foi entregue ao altar. Relíquia: {1}
+{0} वेदी को दे दिया गया। रेलिक: {1}
++{0} de vida.
++{0} जान।
+Não havia torre para receber.
+लेने के लिए कोई टावर नहीं था।
+{0} ganhou {1} (Épico)
+{0} को {1} मिला (एपिक)
+Modo Rogue
+रोगलाइक मोड
+Como funciona
+कैसे खेलें
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+3 फ़्लोर वाले मैप पर अपना रास्ता चुनें: हर पड़ाव एक वेव या एक मुलाक़ात है।
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+जीतकर पाएँ बूस्ट, मुफ़्त टावर और पूरी रन तक चलने वाले रेलिक।
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+एलीट और मिनी बॉस ज़्यादा ताक़तवर हैं, पर इनाम बेहतर देते हैं। हर फ़्लोर के अंत में बॉस।
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+सोना, जान और टावर एक पड़ाव से अगले तक साथ चलते हैं। जान ख़त्म, रन ख़त्म।
+No fim você ganha cristais e XP: quanto mais longe, mais.
+अंत में क्रिस्टल और XP मिलते हैं: जितना आगे, उतना ज़्यादा।
+Melhor: andar {0}
+बेस्ट: फ़्लोर {0}
+Runs: {0}
+रन: {0}
+Vitórias: {0}
+जीत: {0}
+Andar {0}
+फ़्लोर {0}
+{0} relíquias
+{0} रेलिक
+Continuar run
+रन जारी रखें
+Nova run
+नई रन
+Mapa: {0}
+मैप: {0}
+Começar run
+रन शुरू करें
+Começar outra run?
+नई रन शुरू करें?
+A run salva acaba aqui, sem recompensa.
+सेव की हुई रन यहीं ख़त्म, बिना इनाम।
+Sim, nova run
+हाँ, नई रन
+Torre grátis: toque no campo para posicionar {0}
+मुफ़्त टावर: {0} रखने के लिए मैदान पर टैप करें
+Sair (a run fica salva)
+बाहर जाएँ (रन सेव रहेगी)
+Sair
+बाहर जाएँ
++{0} escudo
++{0} ढाल
+ANDAR {0}
+फ़्लोर {0}
+Caminho {0}/{1}
+पड़ाव {0}/{1}
+Sem melhorias ainda
+अभी कोई बूस्ट नहीं
+{0} melhorias nas torres
+टावरों पर {0} बूस्ट
+{0} ondas perfeitas
+{0} परफ़ेक्ट वेव
+{0} revive
+{0} रिवाइव
+Vida {0}/{1}
+जान {0}/{1}
+Toque no Início (o caminho que brilha) para começar
+शुरू करने के लिए "शुरुआत" (चमकता पड़ाव) पर टैप करें
+Escolha o próximo caminho (os que brilham)
+अगला पड़ाव चुनें (जो चमक रहे हैं)
+Andar
+फ़्लोर
+Nenhuma relíquia ainda
+अभी कोई रेलिक नहीं
+Chefe do andar
+फ़्लोर का बॉस
+Onda {0} com inimigos +40% de vida
+वेव {0}, दुश्मनों की हेल्थ +40%
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+इनाम: सोना x1.5 और 3 में से 1 रेयर कार्ड
+Dica: {0}
+टिप: {0}
+Recompensa: melhoria rara, torre rara ou tesouro
+इनाम: रेयर बूस्ट, रेयर टावर या ख़ज़ाना
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+एक विशाल और धीमी गाड़ी। अगर ये निकल गई, तो रन ख़त्म।
+É o chefe final: vença e a run está ganha!
+ये फ़ाइनल बॉस है: जीतें और रन आपकी!
+Fecha o andar.
+फ़्लोर का आख़िरी पड़ाव।
+Recompensa: relíquia de chefe e uma torre
+इनाम: बॉस रेलिक और एक टावर
+Ir por aqui
+इधर चलें
+Trocar estoque ${0}
+स्टॉक बदलें ${0}
+Trocar (grátis)
+रीरोल (मुफ़्त)
+Trocar ${0}
+रीरोल ${0}
+Sair da loja
+दुकान से निकलें
+Pular
+छोड़ें
+de Chefe
+बॉस
+Amaldiçoada
+श्रापित
+Comprado
+ख़रीदा
+Lapidar
+निखारें
+Recrutar
+भर्ती करें
+Tesouro
+ख़ज़ाना
+Pegar agora
+अभी लें
+Investir
+निवेश करें
+Descansar
+आराम करें
+Fortificar
+ढाल बनाएँ
+Meditar
+ध्यान करें
+Treinar Herói
+हीरो ट्रेनिंग
+Purificar
+शुद्ध करें
+para: {0}
+टावर: {0}
+Reforça o que ela já tem: {0}
+जो पहले से है उसे मज़बूत करे: {0}
+Sem upagens. Chega de graça.
+कोई अपग्रेड नहीं। मुफ़्त आता है।
+Chega de graça com {0} upagens sorteadas.
+{0} रैंडम अपग्रेड के साथ मुफ़्त आता है।
+Mais uma torre {0} sem upagens, por metade do preço.
+एक और {0} टावर, बिना अपग्रेड, आधी क़ीमत पर।
++${0} na hora
+तुरंत +${0}
++${0} daqui a 3 caminhos (se você sobreviver)
+3 पड़ाव बाद +${0} (अगर आप बचे रहे)
+Recupera {0}% da vida
+{0}% जान वापस
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: आपके चुने ट्री में 1 मुफ़्त अपग्रेड
++{0} de escudo até o fim do andar (absorve vazamentos)
+फ़्लोर के अंत तक +{0} ढाल (लीक सोख लेती है)
++2 trocas de cartas grátis neste andar
+इस फ़्लोर में +2 मुफ़्त कार्ड रीरोल
+Herói +2 níveis
+हीरो +2 लेवल
+Tira a maldição de {0} (o poder fica)
+{0} का श्राप हटाए (ताक़त बनी रहेगी)
+Nível {0} para {1}
+लेवल {0} से {1}
+Escolha a torre
+टावर चुनें
+{0} melhorias
+{0} बूस्ट
+Nenhuma torre no campo pode receber esta melhoria.
+मैदान का कोई टावर ये बूस्ट नहीं ले सकता।
+Andar {0} de {1}
+फ़्लोर {0}/{1}
+RUN VENCIDA!
+रन जीत ली!
+FIM DA RUN
+रन ख़त्म
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+फ़्लोर {0}  ·  {1} पड़ाव  ·  {2} बॉस  ·  {3} एलीट
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0} रेलिक  ·  वेव {1}  ·  {2} किल
+Rogue
+रोगलाइक
+Diárias
+डेली
+Relíquias  {0}/{1}
+रेलिक  {0}/{1}
+Relíquia liberada: {0}
+रेलिक अनलॉक: {0}
+Jogar {0} corridas no Rogue
+रोगलाइक में {0} रन खेलें
+Vencer {0} corridas no Rogue
+रोगलाइक में {0} रन जीतें
+Derrotar {0} chefes no Rogue
+रोगलाइक में {0} बॉस हराएँ
+Vencer {0} elites no Rogue
+रोगलाइक में {0} एलीट हराएँ
+Chegar ao andar {0} no Rogue
+रोगलाइक में फ़्लोर {0} तक पहुँचें
+Vencer {0} partidas
+{0} मैच जीतें
+Baú diário
+डेली संदूक
+Volte amanhã para continuar a sequência!
+स्ट्रीक जारी रखने के लिए कल फिर आएँ!
+Pronto para abrir!
+खोलने के लिए तैयार!
+Resgate as 3 missões de hoje para abrir.
+खोलने के लिए आज के 3 मिशन का इनाम लें।
+Sequência: 1 dia
+स्ट्रीक: 1 दिन
+Sequência: {0} dias
+स्ट्रीक: {0} दिन
+Novas missões em {0}
+नए मिशन {0} में
+Desafio do Dia
+आज की चुनौती
+Desafio do Dia concluído!
+आज की चुनौती पूरी!
+Concluído hoje!
+आज पूरा हो गया!
+Vença para ganhar +{0} cristais
+जीतें और +{0} क्रिस्टल पाएँ
+Recorde de hoje: onda {0}
+आज का रिकॉर्ड: वेव {0}
+Novo desafio em {0}
+नई चुनौती {0} में
++$40 a cada onda vencida
+हर जीती वेव पर +$40
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+शुरुआती टावर में 3 रैंडम अपग्रेड। बाकी टावर नक्शे के कार्ड और दुकान से मिलते हैं।
+O aluguel acabou: {0} foi embora
+किराया ख़त्म: {0} चला गया
+Nenhuma torre pode ser upada agora
+अभी कोई टावर अपग्रेड नहीं हो सकता
+Sua vida já está cheia
+आपकी जान पहले से पूरी है
+Toque no campo para posicionar: {0}
+रखने के लिए मैदान पर टैप करें: {0}
+MODO ROGUE
+रोगलाइक मोड
+Andar {0}  ·  caminho {1}/{2}
+फ़्लोर {0}  ·  पड़ाव {1}/{2}
+Revives guardados: {0}
+जमा रिवाइव: {0}
+BUFFS DA RUN
+रन के बफ़
+Relíquias:
+रेलिक:
+Treino +{0}% de dano
+ट्रेनिंग +{0}% डैमेज
+nenhum ainda
+अभी कोई नहीं
+Torres vêm das cartas do mapa.
+टावर नक्शे के कार्ड से मिलते हैं।
+Upar e vender: só na Loja.
+अपग्रेड और बेचना: सिर्फ़ दुकान में।
+SUAS TORRES
+आपके टावर
+nenhuma ainda
+अभी कोई नहीं
+alugada: {0} caminhos
+किराए पर: {0} पड़ाव
+Treino {0}: +{1}% de dano
+ट्रेनिंग {0}: +{1}% डैमेज
+Ouro insuficiente: o treino custa ${0}
+सोना काफ़ी नहीं: ट्रेनिंग की क़ीमत ${0} है
+Ouro: ${0}
+सोना: ${0}
+Toque numa torre do painel para upar ou vender
+अपग्रेड करने या बेचने के लिए पैनल के किसी टावर पर टैप करें
+Estoque esgotado
+स्टॉक ख़त्म
+Aluguel: {0}
+किराया: {0}
+Cura Grande
+बड़ी हील
+Cura Pequena
+छोटी हील
+Upagem Grátis
+मुफ़्त अपग्रेड
+Revive
+रिवाइव
+Torre ÉPICA (4 upagens) por 3 caminhos, depois vai embora
+एपिक टावर (4 अपग्रेड) 3 पड़ाव के लिए, फिर चला जाता है
+Recupera 50% da vida
+50% जान वापस
+Recupera 30% da vida
+30% जान वापस
+Upa uma árvore aleatória
+किसी रैंडम ट्री को अपग्रेड करता है
+Volta com metade da vida ao morrer
+हारने पर आधी जान के साथ वापसी
+HERÓI  nível {0}
+हीरो  लेवल {0}
+Sem upagens
+कोई अपग्रेड नहीं
+{0} upagens sorteadas
+{0} रैंडम अपग्रेड
+Alugada: não vende
+किराए का: बेच नहीं सकते
+Upar e vender: só na Loja
+अपग्रेड और बेचना: सिर्फ़ दुकान में
+O Poder da Run carrega 50% mais rápido
+रन पावर 50% ज़्यादा तेज़ी से चार्ज होती है
+Usar o Poder da Run dá +$100 e recupera 5 de vida
+रन पावर इस्तेमाल करने पर +$100 और 5 जान वापस
+A roleta nunca dá x0 (vira x1)
+रूलेट में कभी x0 नहीं आता (x1 बन जाता है)
+Mercador
+सौदागर
+Horda de Ouro
+सोने का झुंड
+Mercador Sombrio: cartas épicas e relíquias à venda
+छाया सौदागर: एपिक कार्ड और रेलिक बिक्री पर
+Inimigos dourados que pagam muito e não tiram vida
+सुनहरे दुश्मन जो ख़ूब सोना देते हैं और जान नहीं लेते
+Inimigos Robustos
+मज़बूत दुश्मन
+Pressa Humana
+इंसानों की जल्दी
+Inflação
+महँगाई
+Fogueira Fria
+ठंडा अलाव
+Chefes Furiosos
+ग़ुस्सैल बॉस
+Bolso Furado
+फटी जेब
+Vida Curta
+छोटी जान
+Inimigos +20% de vida
+दुश्मनों की हेल्थ +20%
+Inimigos 10% mais rápidos
+दुश्मन 10% ज़्यादा तेज़
+Loja 25% mais cara
+दुकान 25% महँगी
+Descansar cura a metade
+आराम से सिर्फ़ आधी हील
+Chefes +40% de vida
+बॉस की हेल्थ +40%
+Recompensas -20% de ouro
+इनाम में सोना -20%
+Vida máxima -25%
+मैक्स जान -25%
+Choque Térmico
+गर्म-ठंडा झटका
+Olhos da Noite
+रात की आँखें
+Caçada em Dupla
+जोड़ी में शिकार
+Veneno e Presas
+ज़हर और दाँत
+Força Bruta
+ज़बरदस्त ताक़त
+Mar Profundo
+गहरा समंदर
+Fera e Mestre
+जानवर और उस्ताद
+Engenhoca
+जुगाड़ू मशीन
+Noite Sônica
+सोनिक रात
++40% de dano e +20% de cadência
++40% डैमेज और +20% फ़ायर रेट
++25% de alcance e +2 de perfuração
++25% रेंज और +2 भेदन
++30% de dano e +1 alvo
++30% डैमेज और +1 टारगेट
++50% de dano
++50% डैमेज
++35% de dano e +20% de área
++35% डैमेज और +20% एरिया
++30% de dano e +15% de cadência
++30% डैमेज और +15% फ़ायर रेट
++25% de cadência e +1 alvo
++25% फ़ायर रेट और +1 टारगेट
++40% de dano
++40% डैमेज
++20% de alcance e +20% de cadência
++20% रेंज और +20% फ़ायर रेट
+Chuva de Meteoros
+उल्का वर्षा
+Muralha de Espinhos
+काँटों की दीवार
+Tempo Lento
+धीमा समय
+Ventania
+आँधी
+Grito de Guerra
+युद्ध की ललकार
+Olho que Tudo Vê
+सब देखने वाली आँख
+Chuva de Ouro
+सोने की बारिश
+Fonte da Vida
+जीवन का झरना
+Dano em todos os inimigos da tela (cresce com o andar; no chefe, 5% da vida)
+स्क्रीन के सभी दुश्मनों को डैमेज (फ़्लोर के साथ बढ़ता है; बॉस पर उसकी हेल्थ का 5%)
+Prende todos os inimigos (até blindados) por 2,5s
+सभी दुश्मनों को (बख़्तरबंद को भी) 2.5s तक जकड़ दे
+Inimigos 60% mais lentos por 6s
+दुश्मन 6s तक 60% धीमे
+Empurra todos os inimigos para trás no caminho (até blindados)
+सभी दुश्मनों को रास्ते पर पीछे धकेले (बख़्तरबंद को भी)
+Todas as torres atacam 60% mais rápido por 8s
+सभी टावर 8s तक 60% तेज़ हमला करें
+Tira camuflagem e blindagem de todos os inimigos da tela
+स्क्रीन के सभी दुश्मनों का छिपाव और बख़्तर हटा दे
+Ouro na hora: $30 + $5 por inimigo na tela (cresce com o andar)
+तुरंत सोना: $30 + स्क्रीन के हर दुश्मन पर $5 (फ़्लोर के साथ बढ़ता है)
+Recupera 10% da vida máxima (mínimo 5)
+मैक्स जान का 10% वापस (कम से कम 5)
+Golpe Pesado
+भारी वार
+Olhar Afiado
+पैनी नज़र
+Liderança
+नेतृत्व
+Fúria Veloz
+फुर्तीला ग़ुस्सा
+Ataque em Leque
+फैलता वार
+Habilidade recarrega 2x mais rápido
+स्किल 2x तेज़ी से रीचार्ज होती है
+Herói +30% de alcance
+हीरो +30% रेंज
+TODAS as torres +8% de dano
+सभी टावर +8% डैमेज
+Herói +35% de cadência
+हीरो +35% फ़ायर रेट
+Herói +2 alvos/projéteis
+हीरो +2 टारगेट/प्रोजेक्टाइल
+Só torres mágicas
+सिर्फ़ जादुई टावर
+Tudo camuflado
+सब छिपे हुए
+Sem loja
+कोई दुकान नहीं
+Metade da vida
+आधी जान
+Inimigos 30% mais rápidos
+दुश्मन 30% ज़्यादा तेज़
+Só cartas ÉPICAS, loja 2x mais cara
+सिर्फ़ एपिक कार्ड, दुकान 2x महँगी
+Floresta
+जंगल
+Neve
+बर्फ़ीला इलाक़ा
+Deserto
+रेगिस्तान
+Vulcão
+ज्वालामुखी
+Pântano
+दलदल
+sem regra especial
+कोई ख़ास नियम नहीं
+inimigos 15% mais lentos, mas resistem a gelo (-20%)
+दुश्मन 15% धीमे, पर उन पर बर्फ़ का असर कम (-20%)
+alcance de todas -10%, ouro das recompensas +20%
+सभी की रेंज -10%, इनाम का सोना +20%
+fogo +20% de dano, inimigos +10% de vida
+आग +20% डैमेज, दुश्मनों की हेल्थ +10%
+veneno +40% e inimigos regeneram mais
+ज़हर +40% और दुश्मन ज़्यादा रीजेन करते हैं
+Zepelim Tempestade
+तूफ़ानी ज़ेपेलिन
+Tanque Escavador
+खुदाई टैंक
+Fortaleza de Geradores
+जनरेटर क़िला
+General Barril
+जनरल बैरल
+Iceberg Blindado
+बख़्तरबंद हिमखंड
+Rainha da Nevasca
+बर्फ़ीले तूफ़ान की रानी
+Escorpião de Areia
+रेत का बिच्छू
+Faraó Mumificado
+ममी फ़िरौन
+Golem de Magma
+मैग्मा गोलेम
+Hidra do Pântano
+दलदल का हाइड्रा
+a cada fase some na nuvem (camuflado) e solta caminhões
+हर फ़ेज़ में बादल में छिप जाता है (छिपा हुआ) और ट्रक छोड़ता है
+a cada fase se enterra e fica imune por 3s
+हर फ़ेज़ में ज़मीन में घुसकर 3s तक इम्यून रहता है
+a cada fase liga um escudo de 25% da vida
+हर फ़ेज़ में अपनी हेल्थ की 25% ढाल चालू करता है
+a cada fase acelera os inimigos e joga bombinhas
+हर फ़ेज़ में दुश्मनों को तेज़ करता है और छोटे बम फेंकता है
+a cada fase solta 3 cerâmicas e toma só metade do dano por 4s
+हर फ़ेज़ में 3 सिरेमिक छोड़ता है और 4s तक सिर्फ़ आधा डैमेज लेता है
+a cada fase blinda todos os inimigos do campo e se cura 10%
+हर फ़ेज़ में मैदान के सभी दुश्मनों को बख़्तर देता है और 10% हील करता है
+a cada fase dá uma ARRANCADA (2,5x mais rápido por 2,5s)
+हर फ़ेज़ में ज़ोरदार दौड़ लगाता है (2.5s तक 2.5x तेज़)
+a cada fase levanta 6 inimigos e se cura 15%
+हर फ़ेज़ में 6 दुश्मनों को फिर से खड़ा करता है और 15% हील करता है
+a cada fase se parte em 2 tanques e fica 30% mais rápido
+हर फ़ेज़ में 2 टैंकों में बँट जाता है और 30% तेज़ हो जाता है
+a cada fase passa a regenerar e chama 2 curandeiros
+हर फ़ेज़ में रीजेन शुरू करता है और 2 हीलर बुलाता है
++2 projéteis por tiro
+हर शॉट पर +2 प्रोजेक्टाइल
+25% de chance de ATORDOAR no acerto
+वार पर 25% चांस से स्टन
+20% de chance de EXPLOSÃO arcana no acerto
+वार पर 20% चांस से रहस्यमयी विस्फोट
+Primeiro Passo
+पहला क़दम
+Explorador
+खोजी
+Veterano
+अनुभवी
+Rei Deposto
+गद्दी छिन गई
+Colecionador
+संग्रहकर्ता
+Estrela
+सितारा
+Perfeccionista
+परफ़ेक्शनिस्ट
+Achado Raro
+दुर्लभ खोज
+Contratado
+कॉन्ट्रैक्टर
+Corajoso
+बहादुर
+Caça-Mímico
+मिमिक शिकारी
+Combo Lendário
+लेजेंडरी कॉम्बो
+Vença o chefe do andar 1
+फ़्लोर 1 का बॉस हराएँ
+Alcance o andar 3
+फ़्लोर 3 तक पहुँचें
+Alcance o andar 5
+फ़्लोर 5 तक पहुँचें
+Vença o Rei das Bombas (andar 10)
+बमों के राजा को हराएँ (फ़्लोर 10)
+Tenha 10 relíquias numa run
+एक रन में 10 रेलिक जुटाएँ
+Funda uma torre ESTRELA
+एक स्टार टावर फ़्यूज़ करें
+3 estrelas num Desafio
+किसी चुनौती में 3 सितारे पाएँ
+Encontre o Mercador Sombrio
+छाया सौदागर को ढूँढें
+Cumpra um contrato do andar
+फ़्लोर का एक कॉन्ट्रैक्ट पूरा करें
+Vença o andar 3 com Ameaça 5+
+ख़तरा 5+ पर फ़्लोर 3 जीतें
+Derrote um Mímico
+एक मिमिक को हराएँ
+Faça um combo x50
+x50 का कॉम्बो बनाएँ
+Sem borda
+बिना बॉर्डर
+Bronze
+कांस्य
+Prata
+चाँदी
+primárias
+मुख्य
+militares
+मिलिट्री
+mágicas
+जादुई
+Festival
+उत्सव
+Erupção
+विस्फोट
+todos os inimigos camuflados, mas +50% de ouro nas recompensas
+सभी दुश्मन छिपे हुए, पर इनाम में +50% सोना
+loja e mercador 30% mais baratos
+दुकान और सौदागर 30% सस्ते
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+दुश्मनों की हेल्थ +20%, पर बॉस एक एक्स्ट्रा ख़ज़ाना छोड़ता है
+Vocês, bichos, não vão passar daqui!
+तुम जानवर यहाँ से आगे नहीं जाओगे!
+Mais uma floresta pra explodir!
+उड़ाने को एक और जंगल!
+Ninguém segura o caminhão dos humanos!
+इंसानों के ट्रक को कोई नहीं रोक सकता!
+Quanto mais torre, mais diversão!
+जितने टावर, उतना मज़ा!
+Hoje a floresta vira estacionamento!
+आज ये जंगल पार्किंग बनेगा!
+Isso não acabou... tenho primos!
+ये ख़त्म नहीं हुआ... मेरे कज़िन भी हैं!
+Meu seguro não cobre esquilo!
+मेरा बीमा गिलहरी को कवर नहीं करता!
+Volto no próximo andar!
+अगले फ़्लोर में फिर मिलेंगे!
+Socorro, uma coruja!
+बचाओ, उल्लू!
+Meu escudo é de primeira!
+मेरी ढाल एकदम बढ़िया है!
+Abram caminho!
+रास्ता दो!
+Quem quer bombinha?
+किसे चाहिए छोटा बम?
+Vou consertar tudo!
+मैं सब ठीक कर दूँगा!
+EU SOU O REI DAS BOMBAS! Ajoelhem-se, bichinhos!
+मैं हूँ बमों का राजा! घुटने टेको, नन्हे जानवरो!
+Bando
+झुंड
+Batalhão
+बटालियन
+Círculo Arcano
+रहस्यमयी घेरा
+primárias +15% / +30% de cadência
+मुख्य +15% / +30% फ़ायर रेट
+militares +15% / +30% de dano
+मिलिट्री +15% / +30% डैमेज
+mágicas +15% / +30% de dano e +10% de alcance
+जादुई +15% / +30% डैमेज और +10% रेंज
+TODAS +5% / +10% de alcance
+सभी +5% / +10% रेंज
+Caçador
+शिकारी
+Intocável
+अछूता
+Jejum
+उपवास
+Mão de Vaca
+कंजूस
+Gatilho Rápido
+फुर्तीला ट्रिगर
+Mestre do Combo
+कॉम्बो उस्ताद
+Muralha
+दीवार
+Poder Total
+पूरी पावर
+Enxuto
+कम में काम
+Fartura
+भरमार
+Caça-Tesouro
+ख़ज़ाना खोजी
+Ferreiro
+लोहार
+Vença 2 Elites ou Mini Chefes neste andar
+इस फ़्लोर में 2 एलीट या मिनी बॉस हराएँ
+Chegue ao fim do andar com 90% da vida (ou mais)
+फ़्लोर के अंत तक 90% (या ज़्यादा) जान बचाए रखें
+Não use nenhuma frutinha neste andar
+इस फ़्लोर में कोई बेरी इस्तेमाल न करें
+Chegue ao chefe com $1500 ou mais
+$1500 या ज़्यादा लेकर बॉस तक पहुँचें
+Pegue 2 relíquias neste andar
+इस फ़्लोर में 2 रेलिक पाएँ
+Chame 3 ondas mais cedo neste andar
+इस फ़्लोर में 3 वेव जल्दी बुलाएँ
+Faça um combo x30 neste andar
+इस फ़्लोर में x30 का कॉम्बो बनाएँ
+Faça 3 ondas perfeitas (sem vazar) neste andar
+इस फ़्लोर में 3 परफ़ेक्ट वेव (बिना लीक) पूरी करें
+Nenhum inimigo pode vazar neste andar
+इस फ़्लोर में कोई दुश्मन लीक न हो
+Use o Poder da Run 3 vezes neste andar
+इस फ़्लोर में रन पावर 3 बार इस्तेमाल करें
+Termine o andar com no máximo 6 torres em campo
+फ़्लोर के अंत में मैदान पर ज़्यादा से ज़्यादा 6 टावर हों
+Use 3 frutinhas neste andar
+इस फ़्लोर में 3 बेरी इस्तेमाल करें
+Ganhe $GOLD com abates neste andar
+इस फ़्लोर में किल से $GOLD कमाएँ
+Compre 4 upagens de torre neste andar
+इस फ़्लोर में 4 टावर अपग्रेड ख़रीदें
+Chuva
+बारिश
+Neblina
+कोहरा
+Noite
+रात
+Vento
+हवा
+fogo -20% de dano, gelo +20%
+आग -20% डैमेज, बर्फ़ +20%
+todos os inimigos vêm camuflados
+सभी दुश्मन छिपकर आते हैं
+mágicas +25% de dano
+जादुई टावर +25% डैमेज
+inimigos +15% de velocidade
+दुश्मनों की स्पीड +15%
+Escudo
+ढाल
+Rápido
+तेज़
+Divide
+बँटने वाला
+Regenera
+रीजेन
+O REI DAS BOMBAS CHEGOU!
+बमों का राजा आ गया!
+{0} chegou!
+{0} आ गया!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+गुप्त रास्ता! छाया सौदागर यहाँ छिपा था
+Mistério revelado: {0}
+रहस्य खुला: {0}
+(recompensa reforçada!)
+(बढ़ा हुआ इनाम!)
+{0} vencida: +${1}
+{0} से पार पाया: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+विस्फोट: बॉस ने +${0} का ख़ज़ाना छोड़ा
+Pegar agora, investir ou girar a roleta?
+अभी लें, निवेश करें या रूलेट घुमाएँ?
+HORDA DE OURO
+सोने का झुंड
+Fim da festa! Bônus de +${0} (além do ouro de cada dourado).
+पार्टी ख़त्म! +${0} बोनस (हर सुनहरे दुश्मन के सोने के अलावा)।
+Mercador Sombrio
+छाया सौदागर
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+एपिक कार्ड और दुर्लभ रेलिक, रन के सोने से ख़रीदें।
+Escolha uma torre
+एक टावर चुनें
+EVENTO DO ANDAR: {0}: {1}
+फ़्लोर इवेंट: {0}: {1}
+Andar {0}: {1}: {2}
+फ़्लोर {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+फ़्लोर के मैप पर अपना रास्ता चुनें: हर पड़ाव एक वेव या एक मुलाक़ात है।
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+बूस्ट, टावर, रेलिक, कॉन्ट्रैक्ट और रन पावर पूरी रन तक साथ चलते हैं।
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+बमों का राजा फ़्लोर 10 पर इंतज़ार कर रहा है; उसके बाद रन अनंत मोड में चलती रहती है।
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+जान ख़त्म, रन ख़त्म। अंत में क्रिस्टल और XP मिलते हैं: जितना आगे, उतना ज़्यादा।
+LADRÃO DE RELÍQUIA
+रेलिक चोर
+REI DAS BOMBAS
+बमों का राजा
+FASE {0}/3
+फ़ेज़ {0}/3
+fraco a {0}
+{0} से कमज़ोर
+Mistério
+रहस्य
+resiste a {0}
+{0} का असर कम
+Recompensa: torre rara ou tesouro
+इनाम: रेयर टावर या ख़ज़ाना
+Banir: {0} restantes nesta run
+बैन: इस रन में {0} बाकी
+Confirmar
+पक्का करें
+Transplante ${0}
+ट्रांसप्लांट ${0}
+VENDER ESTA TORRE?
+ये टावर बेचें?
+recebe +${0}
+मिलेंगे +${0}
+Vender
+बेचें
+Girar a Roleta
+रूलेट घुमाएँ
+Dupla: {0}
+जोड़ी: {0}
+Fundir
+फ़्यूज़ करें
+Evolução Lendária
+लेजेंडरी इवोल्यूशन
+Trocar Relíquia
+रेलिक बदलें
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+बेस ${0}: x0, x0.5, x1, x1.5, x2, x3, x5 (बहुत दुर्लभ), मुफ़्त अपग्रेड या रेलिक मिल सकता है
+Prêmio: ${0}
+इनाम: ${0}
+TROCA o seu {0} (só dá para levar 1)
+आपकी {0} की जगह लेगा (सिर्फ़ 1 रख सकते हैं)
+{0} + {1}: as duas {2}
+{0} + {1}: दोनों को {2}
+3 torres {0} viram 1 torre ESTRELA: soma os buffs e ganha +80% de dano, +15% de cadência e +10% de alcance
+3 {0} टावर मिलकर 1 स्टार टावर बनते हैं: बफ़ जुड़ जाते हैं और +80% डैमेज, +15% फ़ायर रेट और +10% रेंज मिलती है
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +50% डैमेज, सुनहरी चमक और {1}
+Entregue uma relíquia sua e escolha 1 de 3 novas
+अपना एक रेलिक दें और 3 नए में से 1 चुनें
+falhou
+नाकाम
+ok
+ठीक
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+लुटेरा! अगर ये निकल गया, तो आपका 10% सोना ले जाएगा
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+रेलिक चोर! अगर ये निकल गया, तो एक रेलिक चुरा लेगा
+{0} FASE {1}/3: {2}
+{0} फ़ेज़ {1}/3: {2}
+O saqueador fugiu com ${0}!
+लुटेरा ${0} लेकर भाग गया!
+O ladrão fugiu com {0}!
+चोर {0} लेकर भाग गया!
+Saqueador derrubado: +${0}
+लुटेरा गिरा: +${0}
+Ladrão derrubado! +${0}
+चोर पकड़ा गया! +${0}
+LADRÃO! +${0}
+चोर! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+इंसानों ने एक एंटीना लगा दिया! तोड़ने के लिए उस पर 5x टैप करें
+Antena destruída! +${0}
+एंटीना टूट गया! +${0}
+{0} CARREGADO! Toque no botão.
+{0} चार्ज हो गई! बटन पर टैप करें।
+Chuva de Ouro: +${0}
+सोने की बारिश: +${0}
+Fonte da Vida: +{0} de vida
+जीवन का झरना: +{0} जान
+Contrato: {0}
+कॉन्ट्रैक्ट: {0}
+{0} (botão no topo, na onda)
+{0} (ऊपर वाला बटन, वेव के दौरान)
+Contrato {0} não cumprido
+कॉन्ट्रैक्ट {0} पूरा नहीं हुआ
+Contrato cumprido! +${0}
+कॉन्ट्रैक्ट पूरा! +${0}
+x0: azar! Não ganhou nada
+x0: क़िस्मत ख़राब! कुछ नहीं मिला
+JACKPOT! 
+जैकपॉट! 
+Upagem grátis!
+मुफ़्त अपग्रेड!
+RELÍQUIA! {0}
+रेलिक! {0}
+Talento do herói
+हीरो टैलेंट
+Nível {0}: escolha um talento.
+लेवल {0}: एक टैलेंट चुनें।
+{0} banido nesta run (restam {1})
+इस रन में {0} बैन (बाकी {1})
+Dupla ativa: {0}
+जोड़ी चालू: {0}
+O herói aprendeu {0}
+हीरो ने {0} सीखा
+Fusão! {0} virou torre ESTRELA
+फ़्यूज़न! {0} स्टार टावर बन गया
+{0} virou LENDÁRIA!
+{0} लेजेंडरी बन गया!
+Poder trocado: {0}
+पावर बदली: {0}
+{0} buffs foram para {1} (-${2})
+{0} बफ़ {1} को मिले (-${2})
+Entregou {0}
+{0} दे दिया
+Borda {0} liberada!
+{0} बॉर्डर अनलॉक!
+Conquista: {0}
+उपलब्धि: {0}
+Diária
+डेली
+Ameaça {0}
+ख़तरा {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+आज सबके लिए एक ही मैप; दिन के हिसाब से 2 रैंडम ख़तरे
+Regra da semana: {0}
+इस हफ़्ते का नियम: {0}
+Ameaça
+ख़तरा
+Código
+कोड
++{0}% de cristais no fim da run
+रन के अंत में +{0}% क्रिस्टल
+Ameaça libera ao chegar no andar {0}
+ख़तरा फ़्लोर {0} तक पहुँचने पर अनलॉक होगा
+Código da run
+रन कोड
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+एक ही कोड से वही फ़्लोर बनते हैं। नए मैप के लिए ख़ाली छोड़ें।
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+ख़तरा {0}  ·  रन के अंत में +{1}% क्रिस्टल
+Pronto
+हो गया
+Compêndio
+संग्रह
+Descobertos: {0}/{1}
+खोजे गए: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+अभी तक नहीं मिला। खोजने के लिए खेलते रहें।
+Conquistas {0}/{1}
+उपलब्धियाँ {0}/{1}
+Borda das cartas (libera a cada 3 conquistas):
+कार्ड बॉर्डर (हर 3 उपलब्धियों पर अनलॉक):
+Suas melhores runs neste quadro (neste aparelho)
+इस मैप पर आपकी सबसे अच्छी रन (इस डिवाइस पर)
+Ninguém ainda: termine uma run para entrar aqui!
+अभी कोई नहीं: यहाँ आने के लिए एक रन पूरी करें!
+andar {0} · {1} caminhos
+फ़्लोर {0} · {1} पड़ाव
+Últimas runs
+पिछली रन
+Nenhuma run terminada ainda.
+अभी तक कोई रन पूरी नहीं हुई।
+SORTEANDO A SUA RUN
+आपकी रन तैयार हो रही है
+Boa sorte! Toque para começar
+गुड लक! शुरू करने के लिए टैप करें
+Toque para pular
+छोड़ने के लिए टैप करें
+ROLETA DO TESOURO
+ख़ज़ाने का रूलेट
+Girando... base ${0}
+घूम रहा है... बेस ${0}
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  वह रेलिक टैप करें जो आप देंगे
+2/2  Escolha a relíquia nova
+2/2  नया रेलिक चुनें
+Transplante
+ट्रांसप्लांट
+1/2  Toque na torre que vai DOAR os buffs
+1/2  वह टावर टैप करें जो बफ़ देगा
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  वह टावर टैप करें जो {0} बफ़ लेगा  ·  ${1}
+{0} buffs
+{0} बफ़
+Você derrotou o Rei das Bombas!
+आपने बमों के राजा को हरा दिया!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+अनंत मोड में जारी रखें (फ़्लोर और मुश्किल होते जाएँगे) या यहीं रुककर इनाम लें।
+Encerrar
+ख़त्म करें
+carregando {0}% (derrote inimigos ou aguarde na onda)
+चार्ज हो रहा है {0}% (दुश्मन हराएँ या वेव में इंतज़ार करें)
+use durante a onda
+वेव के दौरान इस्तेमाल करें
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+बूस्ट, टावर, रेलिक और रन पावर पूरी रन तक चलते हैं।
+Melhor: andar {0} · {1}/15
+सर्वश्रेष्ठ: फ़्लोर {0} · {1}/15
+Andar {0} · caminho {1}/15
+फ़्लोर {0} · पड़ाव {1}/15
+(em andamento)
+(जारी)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+अभी खाली है: यहाँ दिखने के लिए किसी रन का पहला पड़ाव जीतें!
+Nenhuma run registrada ainda.
+अभी तक कोई रन दर्ज नहीं हुई।
+Tempestade de Raios
+बिजली का तूफ़ान
+Terremoto
+भूकंप
+Chuva de Flechas
+तीरों की बारिश
+Chamado da Matilha
+झुंड की पुकार
+Armadilha de Mel
+शहद का जाल
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+बिजली एक दुश्मन से दूसरे पर उछलती है (12 तक), हर एक को भारी डैमेज
+Congela todos os inimigos da tela (até blindados) por 3s
+स्क्रीन के सभी दुश्मनों (बख़्तरबंद भी) को 3s के लिए जमा देता है
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+ज़मीनी दुश्मनों को 2s के लिए स्टन करता है और सभी को डैमेज देता है
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+सबसे बड़े समूह पर 4s तक तीरों की बौछार
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+आत्मा भेड़िये रास्ते पर उल्टा दौड़कर दुश्मनों को काटते हैं
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+सबसे बड़े समूह पर शहद का तालाब: दुश्मन 6s तक 65% धीमे और हेल्थ खोते हुए
+Você tem {0}/{1}
+आपके पास {0}/{1}
+Só o que você tem aparece nas runs
+रन में सिर्फ़ वही आता है जो आपके पास है
+Você tem
+आपके पास है
+Novo no Arsenal: {0}
+आर्सेनल में नया: {0}
+Fazer {0} melhorias em torres
+टावरों में {0} अपग्रेड करें
+Colocar {0} torres no campo
+मैदान पर {0} टावर लगाएँ
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+सिर्फ़ जादुई
+Só torres mágicas na run
+इस रन में सिर्फ़ जादुई टावर
+Tudo Camuflado
+सब छिपे हुए
+Todos os inimigos vêm camuflados
+सभी दुश्मन छिपकर आते हैं
+Sem Loja
+दुकान नहीं
+As lojas do mapa viram melhorias
+मैप की दुकानें अपग्रेड बन जाती हैं
+Menos vida e fogueira fraca
+कम हेल्थ और कमज़ोर अलाव
+Correria
+भागदौड़
+Inimigos apressados e loja cara
+जल्दबाज़ दुश्मन और महँगी दुकान
+Ouro Escasso
+सोने की कमी
+Recompensas menores e loja cara
+कम इनाम और महँगी दुकान
+Chefões Fortes
+ताक़तवर बॉस
+Chefes e inimigos mais resistentes
+बॉस और दुश्मन ज़्यादा मज़बूत
+Relíquias Malditas
+श्रापित रेलिक
+Começa com 2 relíquias amaldiçoadas
+2 श्रापित रेलिक के साथ शुरुआत
+Só Épicas
+सिर्फ़ एपिक
+Toda carta é épica, mas a loja custa o dobro
+हर कार्ड एपिक है, पर दुकान दोगुनी महँगी
+Metade da Vida
+आधी हेल्थ
+Metade da vida e chefes furiosos
+आधी हेल्थ और ग़ुस्सैल बॉस
+Furacão
+चक्रवात
+Tudo corre muito mais rápido
+सब कुछ बहुत तेज़ चलता है
+Noite Eterna
+अनंत रात
+Inimigos camuflados e robustos
+छिपे हुए और मज़बूत दुश्मन
+Feitiçaria
+जादूगरी
+Só mágicas e loja inflacionada
+सिर्फ़ जादुई और महँगी दुकान
+Deserto Sem Fim
+अंतहीन रेगिस्तान
+Sem loja, pouco ouro e fogueira fria
+दुकान नहीं, कम सोना और ठंडा अलाव
+Maldição Antiga
+प्राचीन श्राप
+3 relíquias malditas e inimigos robustos
+3 श्रापित रेलिक और मज़बूत दुश्मन
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+चुनौती खेलें
+Semanal
+वीकली
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+आज की चुनौती: {0}  ·  विवरण बगल वाले कार्ड में
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+इस हफ़्ते की चुनौती: {0}  ·  विवरण बगल वाले कार्ड में
+Desafio Semanal
+वीकली चुनौती
+Desafio Diário
+डेली चुनौती
+Nova semana em {0}d {1}h
+नया हफ़्ता {0} दिन {1} घंटे में
+Novo em {0}
+नई चुनौती {0} में
+Começa com {0} relíquias amaldiçoadas
+{0} श्रापित रेलिक के साथ शुरुआत
+Prêmio: +{0}% de cristais no fim da run
+इनाम: रन के अंत में +{0}% क्रिस्टल
+Ainda não jogado nesta semana
+इस हफ़्ते अभी तक नहीं खेला
+Ainda não jogado hoje
+आज अभी तक नहीं खेला
+Seu melhor na semana: Andar {0} · caminho {1}/15
+इस हफ़्ते आपका सर्वश्रेष्ठ: फ़्लोर {0} · पड़ाव {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+आज आपका सर्वश्रेष्ठ: फ़्लोर {0} · पड़ाव {1}/15
+Vencer 1 partida
+1 मैच जीतें
+Derrotar {0} tanques
+{0} टैंक हराएँ
+Derrotar {0} inimigos de cerâmica
+{0} सिरेमिक दुश्मन हराएँ
+Um mapa diferente a cada andar
+हर फ़्लोर पर अलग नक्शा
+Presente: ouro para a melhoria!
+उपहार: अपग्रेड के लिए सोना!
+PULAR TUTORIAL
+ट्यूटोरियल छोड़ें
+Escolha a Raposa
+लोमड़ी चुनें
+Toque aqui, perto do caminho
+यहाँ टैप करें, रास्ते के पास
+Solte a onda!
+लहर भेजें!
+A torre ataca sozinha!
+टावर खुद हमला करता है!
+Toque perto do caminho
+रास्ते के पास टैप करें
+Ganhou ouro! Coloque outra torre
+सोना मिला! एक और टावर लगाएँ
+Toque na sua torre
+अपने टावर पर टैप करें
+Compre uma melhoria
+एक अपग्रेड खरीदें
+Mais rápido: toque no x1
+तेज़: x1 पर टैप करें
+Vença as {0} ondas!
+{0} लहरें जीतें!
+Passo {0} de {1}
+चरण {0} / {1}
+Seu HERÓI: coloque no campo
+आपका हीरो: इसे मैदान में लगाएँ
+Escolha quem a torre ataca
+चुनें कि टावर किस पर हमला करे
+AUTO: as ondas seguem sozinhas
+ऑटो: लहरें अपने आप चलती रहती हैं
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+छिपा दुश्मन! सिर्फ़ "छिपे दुश्मन देखे" वाले टावर इसे देख पाते हैं
+Vida caindo! Coloque mais torres
+जान घट रही है! और टावर लगाएँ
+Dica
+सुझाव
+Prêmios das missões ficam aqui
+मिशन के इनाम यहाँ हैं
+Toque no prêmio verde para receber. Depois, Voltar
+इनाम पाने के लिए हरे इनाम पर टैप करें। फिर, वापस
+Hora de jogar!
+खेलने का समय!
+Escolha a dificuldade
+कठिनाई चुनें
+Agora é só jogar!
+अब बस खेलिए!
+Bem-vindo!
+स्वागत है!
+Você já sabe jogar! Aqui está um presente para começar:
+आप खेलना सीख गए! शुरुआत के लिए एक उपहार:
+Receber
+पाएँ
+Pular o tutorial?
+ट्यूटोरियल छोड़ें?
+Dá para refazer depois no botão ? do menu.
+बाद में मेनू के ? बटन से इसे फिर कर सकते हैं।
+Refazer o tutorial?
+ट्यूटोरियल फिर से करें?
+Refazer
+फिर से करें
+Muito bem! Você já sabe jogar.
+बहुत बढ़िया! आप खेलना जानते हैं।
+Aqui está um presente para começar:
+शुरुआत के लिए एक उपहार:
+Ganhou ouro! Arraste uma torre até o campo
+सोना मिला! एक टावर को मैदान में खींचें
+Arraste a torre até o lugar marcado
+टावर को निशान वाली जगह तक खींचें
+Toque para receber o prêmio!
+इनाम पाने के लिए टैप करें!
+Agora, volte ao menu
+अब मेनू पर वापस जाएँ
+Blindado: não
+बख़्तरबंद: नहीं
+Blindado: sim
+बख़्तरबंद: हाँ
+CERÂMICA! Bem resistente: explosão faz pouco dano
+सिरेमिक! बहुत मज़बूत: विस्फोट कम नुकसान करते हैं
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+हीलर! पास वालों को ठीक करता है: पहले इसे गिराओ
+Camuflado: não
+छलावरण: नहीं
+Camuflado: sim
+छलावरण: हाँ
+Carregando
+लोड हो रहा है
+Enviar 1
+1 भेजें
+Enviar 10
+10 भेजें
+Escolha a onda e mande qualquer inimigo
+वेव चुनो और कोई भी दुश्मन भेजो
+Idioma
+भाषा
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+विस्फोट से अप्रभावित! तीर, तलवार या जादू इस्तेमाल करो
+Imune a GELO e a EXPLOSÕES!
+बर्फ़ और विस्फोट से अप्रभावित!
+Imune a GELO! Não fica mais lento
+बर्फ़ से अप्रभावित! धीमा नहीं होता
+Imune a MAGIA! A magia não machuca este
+जादू से अप्रभावित! जादू इसे नुकसान नहीं पहुँचाता
+METAL! Só fogo, raio ou explosão machucam
+धातु! सिर्फ़ आग, बिजली या विस्फोट ही नुकसान करते हैं
+Melhore a torre: {0}/{1}
+टावर अपग्रेड करो: {0}/{1}
+Não dá cristais, XP nem missões
+क्रिस्टल, XP या मिशन नहीं मिलते
+Onda {0}
+वेव {0}
+Opções
+विकल्प
+Ouro e vida infinitos
+अनंत सोना और जीवन
+PROTEGIDO! Só MAGIA faz dano cheio
+सुरक्षित! सिर्फ़ जादू पूरा नुकसान करता है
+REGENERA! Acabe com ele rápido
+पुनर्जीवित होता है! इसे जल्दी खत्म करो
+SANDBOX  (abrir)
+सैंडबॉक्स (खोलें)
+SANDBOX  (fechar)
+सैंडबॉक्स (बंद करें)
+Sandbox
+सैंडबॉक्स
+Sandbox: ouro e vida infinitos
+सैंडबॉक्स: अनंत सोना और जीवन
+Som
+ध्वनि
+Todos os animais liberados
+सभी जानवर अनलॉक
+Toque na torre para continuar
+जारी रखने के लिए टावर पर टैप करो
+Toque nesta torre
+इस टावर पर टैप करो
+Treine à vontade!
+जी भरकर अभ्यास करो!
+VEÍCULO! Muita vida: junte dano forte
+वाहन! बहुत जीवन: भारी नुकसान जुटाओ
+Tela cheia
+फ़ुल स्क्रीन
+Sair da tela cheia
+फ़ुल स्क्रीन से बाहर
+Gire o celular para continuar
+जारी रखने के लिए फ़ोन घुमाएँ
+No iPhone o Safari não deixa a página ficar em tela cheia.
+iPhone पर Safari पेज को फ़ुल स्क्रीन नहीं करने देता।
+Para jogar sem as barras do navegador:
+ब्राउज़र की पट्टियों के बिना खेलने के लिए:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. शेयर पर टैप करें (ऊपर तीर वाला चौकोर)
+2. Escolha "Adicionar à Tela de Início"
+2. "होम स्क्रीन में जोड़ें" चुनें
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. नए आइकन से गेम खोलें: यह फ़ुल स्क्रीन में खुलेगा
+Entendi
+ठीक है
+Jogo
+गेम
+Refazer tutorial
+ट्यूटोरियल दोबारा
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+स्किन ख़रीदने के लिए उसका मिशन पूरा करें। यह आपके मैचों में दिखती है।
+Bônus
+बोनस
+Dica: use dois dedos (pinça) para dar zoom no mapa
+सुझाव: मैप ज़ूम करने के लिए दो उंगलियों से पिंच करें
+Conquistas
+उपलब्धियाँ
+Relíquias
+रेलिक
+Automática
+स्वचालित
+Vila
+गाँव
+Santuário
+अभयारण्य
+Histórico
+इतिहास
+{0} chefes  ·  {1} elites
+{0} बॉस  ·  {1} एलीट
+{0} abates  ·  {1} torres
+{0} किल  ·  {1} टावर
+Escudo -{0}
+ढाल -{0}
+Dourado: sem dano
+सुनहरा: कोई नुकसान नहीं
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP दोगुना!
+Aventura
+रोमांच
+Feira
+मेला

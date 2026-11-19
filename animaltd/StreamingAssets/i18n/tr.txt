@@ -1,0 +1,3300 @@
+ (+{0} da Vila)
+ (Köy'den +{0})
+ (+{0}% da Vila)
+ (Köy'den +%{0})
+ (Modo Livre)
+ (Serbest Mod)
+ (até blindados)
+ (zırhlılar dahil)
+ DEUS
+ TANRI
+ alvos
+ hedef
+ alvos  Vê camuflado
+ hedef  Kamuflajı görür
+ camada
+ katman
+ ou acima
+ ve üstü
+ perfura
+ delme
+ • vê camuflado
+ • kamuflajı görür
+(medalha {0} só do {1} para cima)
+({0} madalyası yalnızca {1} ve üstünde)
++{0} alvo
++{0} hedef
++{0} alvo{1}
++{0} hedef
++{0} cristais
++{0} kristal
++{0} dano
++{0} hasar
++{0} dano fixo vs Cerâmica/Metal
++{0} sabit hasar vs Seramik/Metal
++{0} dano fixo vs blindados
++{0} sabit hasar vs zırhlılar
++{0} dano vs Cerâmica/Metal
++{0} hasar vs Seramik/Metal
++{0} dano vs blindados
++{0} hasar vs zırhlılar
++{0} perfura
++{0} delme
++{0} perfura (qualquer torre)
++{0} delme (her kule)
++{0} perfura (raio)
++{0} delme (alan)
++{0} perfura total (qualquer torre no raio)
++{0} toplam delme (alandaki her kule)
++{0} perfura total (torres no raio)
++{0} toplam delme (alandaki kuleler)
++{0} projétil{1}
++{0} mermi
++{0} salto{1}
++{0} sıçrama
++{0} salto{1} do projétil
++{0} mermi sekmesi
++{0} sentinela{1}
++{0} nöbetçi
++{0}% alcance (raio)
++%{0} menzil (alan)
++{0}% alcance total (torres no raio)
++%{0} toplam menzil (alandaki kuleler)
++{0}% crítico
++%{0} kritik
++{0}% dano (raio)
++%{0} hasar (alan)
++{0}% dano p/ aliados no raio
++%{0} hasar (alandaki dostlara)
++{0}% dano total p/ aliados no raio
++%{0} toplam hasar (alandaki dostlara)
++{0}% de ouro por camada, só dentro do alcance
+Katman başına +%{0} altın, sadece menzil içinde
++{0}% juros
++%{0} faiz
++{0}% juros dos Coelhos (raio)
+Tavşanlara +%{0} faiz (alan)
++{0}% ouro por camada dos alvos que ela abater (Vila)
+Yok ettiği hedeflerden katman başına +%{0} altın (Köy)
++{0}% produção dos Coelhos (raio)
+Tavşanlara +%{0} üretim (alan)
++{0}% veloc. ataque p/ aliados no raio
++%{0} saldırı hızı (alandaki dostlara)
++{0}% veloc. de ataque total p/ aliados no raio
++%{0} toplam saldırı hızı (alandaki dostlara)
++{0}% veloc. projétil (raio)
++%{0} mermi hızı (alan)
++{0}s de duração (lentidão/congelamento)
++{0} sn süre (yavaşlatma/dondurma)
+1ª upagem (T1) de cada árvore sai GRÁTIS (torres no raio)
+Her yolun 1. yükseltmesi (T1) ÜCRETSİZ (alandaki kuleler)
+1ª upagem grátis (raio)
+1. yükseltme ücretsiz (alan)
+Abates {0}
+Yok Edilen {0}
+Alcance de invocação (coleira): {0}
+Çağırma menzili (tasma): {0}
+Alcance total (todas as torres no raio): +{0}%
+Toplam menzil (alandaki tüm kuleler): +%{0}
+Aleatório
+Rastgele
+Alvo: {0}
+Hedef: {0}
+Alvos
+Hedefler
+Alvos na área: 
+Alandaki hedef: 
+Alvos por golpe: {0}
+Vuruş başına hedef: {0}
+Alvos por onda: 
+Dalga başına hedef: 
+Amarelo
+Sarı
+Animais
+Hayvanlar
+Animal Tower Defense
+Animal Tower Defense
+Animal liberado: {0}
+Hayvan açıldı: {0}
+Animal novo na loja!
+Mağazada yeni hayvan!
+Anula Defesas
+Savunma Kırıcı
+Anúncio indisponível — sem recompensa.
+Reklam şu an yok — ödül verilmedi.
+Apoio
+Destek
+Apoio às Torres
+Kule Desteği
+Arco-íris
+Gökkuşağı
+Arranca Fortificado/Camuflagem/escudo do alvo
+Hedeften Güçlendirilmiş/Kamuflaj/kalkanı söker
+As 4 medalhas de dificuldade num mesmo mapa
+Aynı haritada 4 zorluk madalyasının hepsi
+Astuto
+Kurnaz
+Atalho Nevado
+Karlı Kestirme
+Ataque: onda de choque VERMELHA em volta
+Saldırı: etrafına KIRMIZI şok dalgası
+Ataque: onda de choque em volta
+Saldırı: etrafına şok dalgası
+Ataques 
+Saldırı 
+Auto
+Oto
+Automático
+Otomatik
+Avançado
+İleri
+Ave de fogo: leque de penas flamejantes que atravessam e queimam; quem morre queimando explode em cinzas. MERGULHO SOLAR: mergulha na maior multidão e deixa o chão em chamas.
+Ateş kuşu: delip geçen ve yakan alevli tüyler savurur; yanarken ölenler küle dönüp patlar. GÜNEŞ DALIŞI: en kalabalık gruba dalar ve yeri alevler içinde bırakır.
+Azul
+Mavi
+Bloqueia a regeneração (inimigos Regenera) no raio
+Alandaki yenilenmeyi engeller (Yenilenen düşmanlar)
+Bosque do Retorno
+Dönüş Korusu
+Brado
+Savaş Narası
+Branco
+Beyaz
+Brasa
+Köz
+Bravo
+Sert
+Brejo das Curvas
+Kıvrımlı Bataklık
+Bumerangue: fere na IDA e na VOLTA (dano cheio de novo na volta)
+Bumerang: GİDERKEN ve DÖNERKEN vurur (dönüşte yine tam hasar)
+BÁSICO
+TEMEL
+Bênção
+Kutsama
+Bônus  {0}/{1}
+Bonus  {0}/{1}
+CONFIRMAR
+ONAYLA
+CONFIRMAR ${0}
+ONAYLA ${0}
+CONGELA BLINDADOS
+ZIRHLILARI DONDURUR
+CRÍTICO!
+KRİTİK!
+Cadência
+Atış Hızı
+Calibre 12
+12 Kalibre
+Caminhão
+Kamyon
+Camuflado
+Kamuflajlı
+Cancelar
+İptal
+Carga Pesada
+Ağır Yük
+Carregando o animal... tente de novo em instantes.
+Hayvan yükleniyor... birazdan tekrar dene.
+Carregando o herói... tente de novo em instantes.
+Kahraman yükleniyor... birazdan tekrar dene.
+Caça
+Avcı Uçağı
+Cervo Ancestral
+Kadim Geyik
+Cerâmica
+Seramik
+Chega no nível {0}
+Seviye {0} gerekir
+Chega no nível {0} (você está no nível {1}).
+Seviye {0} gerekir (şu an Seviye {1}).
+Chegar à onda {0} em {1}
+{0}. dalgaya ulaş: {1}
+Chegar à onda {0} no {1}
+{0}. dalgaya ulaş: {1}
+Chumbo
+Kurşun
+Cidadela Congelada
+Donmuş Kale
+Clareira Sinuosa
+Dolambaçlı Açıklık
+Cobra
+Yılan
+Cobra Atiradora
+Nişancı Yılan
+Coelho
+Tavşan
+Coelho Fazendeiro
+Çiftçi Tavşan
+Colocar
+Yerleştir
+Completar um mapa (moldura de diamante)
+Bir haritayı tamamla (elmas çerçeve)
+Comprado!
+Satın alındı!
+Comprar  {0}
+Satın Al  {0}
+Comprar nível ${0}
+Seviye al ${0}
+Compre o animal para usar skins
+Kostümleri kullanmak için hayvanı satın al
+Concede visão de camuflado no raio
+Alana kamuflaj görüşü verir
+Concluída
+Tamamlandı
+Congela 
+Dondurma 
+Conquistas  {0}/{1}
+Başarımlar  {0}/{1}
+Conseguir {0} medalhas
+{0} madalya kazan
+Continuar
+Devam
+Continuar jogando
+Oynamaya devam et
+Coruja
+Baykuş
+Coruja Maga
+Büyücü Baykuş
+Cratera Ardente
+Yanan Krater
+Cristais dobrados!
+Kristaller ikiye katlandı!
+Cristais em dobro
+Çift kristal
+Cristais x2
+Kristal x2
+Cristais x2 (+{0})
+Kristal x2 (+{0})
+Crítico total: {0}% de chance, x{1} dano
+Toplam kritik: %{0} şans, x{1} hasar
+Cumpra a missão da skin para poder comprá-la. O visual novo aparece nas partidas na próxima atualização.
+Satın alabilmek için kostümün görevini tamamla. Yeni görünüm bir sonraki güncellemede maçlarda görünecek.
+Curandeiro
+Şifacı
+Cósmica
+Kozmik
+DERROTA
+YENİLGİ
+DEUS
+TANRI
+DEUS: 
+TANRI: 
+DIFICULDADE
+ZORLUK
+DPS {0}
+DPS {0}
+Dano
+Hasar
+Dano %.0f  Alc %.0f  %.1f/s
+Hasar %.0f  Mnz %.0f  %.1f/sn
+Dano %.0f  Ataque %.0f  %.1f/s
+Hasar %.0f  Saldırı %.0f  %.1f/sn
+Dano %.1f  %.1f tiros/s
+Hasar %.1f  %.1f atış/sn
+Dano de {0}
+Hasar: {0}
+Dano total vs Cerâmica: x{0}
+Seramiğe karşı toplam hasar: x{0}
+Dano {0}
+Hasar: {0}
+Dança das Adagas
+Hançer Dansı
+Defesa
+Savunma
+Deixa fogo no chão: {0}/s por {1}s
+Yerde ateş bırakır: {0}/sn, {1} sn boyunca
+Demolidor
+Yıkıcı
+Derrotar {0} {1}
+Yen: {0} {1}
+Desconto e Renda
+İndirim ve Gelir
+Desfiladeiro Estreito
+Dar Kanyon
+Dificuldade bloqueada
+Zorluk kilitli
+Dificuldade liberada: {0}
+Zorluk açıldı: {0}
+Difícil
+Zor
+Dirigível
+Zeplin
+Dirigível Maior
+Büyük Zeplin
+Dispara mísseis (área)
+Füze atar (alan)
+Disponível para comprar!
+Satın alınabilir!
+Disponível! Compre por {0} cristais em Animais, no menu.
+Hazır! Menüdeki Hayvanlar bölümünden {0} kristale satın al.
+Dragão Arcano
+Gizemli Ejderha
+Duas adagas rápidas, vê camuflado. DANÇA DAS ADAGAS: acelera e derruba a defesa de quem está perto.
+İki hızlı hançer, kamuflajlıları görür. HANÇER DANSI: hızlanır ve yakındaki düşmanların savunmasını düşürür.
+Dunas em Zigue-Zague
+Zikzak Kumullar
+EM ONDA
+DALGA SÜRÜYOR
+ESTILHAÇOS ferem imunes a explosão (Preto/Zebra)
+ŞARAPNEL, patlamaya bağışık düşmanlara da işler (Siyah/Zebra)
+EVOLUÍDO
+EVRİMLEŞTİ
+Eco
+Yankı
+Elefante Comandante
+Komutan Fil
+Elefante Guerreiro
+Savaşçı Fil
+Em uso
+Kullanımda
+Embalo: até +{0}% de cadência em golpes seguidos
+İvme: art arda vuruşlarda atış hızı artar (en fazla +%{0})
+Empurra o alvo pra trás (15% por golpe)
+Hedefi geri iter (vuruş başına %15)
+Empurra o alvo pra trás no caminho
+Hedefi yolda geri iter
+Enxame
+Sürü
+Escadaria de Lava
+Lav Merdiveni
+Escorpião
+Akrep
+Escorpião Venenoso
+Zehirli Akrep
+Esmagador
+Ezici
+Espadachim de linha de frente. RUGIDO: atordoa e fere tudo em volta (a forma deus pega o mapa inteiro).
+Ön saf kılıç ustası. KÜKREME: etraftaki herkesi sersemletir ve yaralar (TANRI formu tüm haritayı vurur).
+Espalha armadilhas no chão do caminho, sem mirar inimigo (até {0})
+Yola tuzak saçar, düşmana nişan almaz (en fazla {0})
+Espaço: iniciar onda
+Boşluk: dalgayı başlat
+Esperto
+Zeki
+Espinhos
+Dikenler
+Esquilo
+Sincap
+Esquilo da Toca
+Yuva Sincabı
+Estilhaço
+Kıymık
+Estilhaços ferem imunes a explosão (Preto/Zebra)
+Şarapnel, patlamaya bağışık düşmanlara da işler (Siyah/Zebra)
+Estouro
+Patlama
+Expert
+Uzman
+Explosivo
+Patlayıcı
+Faltam {0} cristais
+{0} kristal eksik
+Fechar
+Kapat
+Feixe
+Işın
+Feroz
+Vahşi
+Floresta Sombria
+Karanlık Orman
+Fogo
+Ateş
+Fogo Arcano
+Gizemli Ateş
+Fogo total: 
+Toplam ateş: 
+Fora da regra
+Kurala aykırı
+Forte
+Güçlü
+Fragmentação
+Parçalanma
+Fura 
+Deler: 
+Fácil
+Kolay
+Fênix
+Anka Kuşu
+Físico
+Fiziksel
+GRÁTIS
+ÜCRETSİZ
+Gato
+Kedi
+Gato Samurai
+Samuray Kedi
+Gelo
+Buz
+Gelo Profundo
+Derin Dondurma
+Golpe devastador em quem está perto. INVESTIDA: dano enorme e derruba os inimigos.
+Yakındakilere yıkıcı darbe. HÜCUM: devasa hasar verir ve düşmanları yere serer.
+Gorila
+Goril
+Gorila Marteleiro
+Çekiçli Goril
+Grito
+Çığlık
+Guaxinim
+Rakun
+Guaxinim Druida
+Druid Rakun
+HERÓI
+KAHRAMAN
+Herói.
+Kahraman.
+Heróis
+Kahramanlar
+INVOCA {0}: dano {1}, {2}/s
+{0} ÇAĞIRIR: hasar {1}, {2}/sn
+Ignora TODAS as imunidades de dano (Vila)
+TÜM hasar bağışıklıklarını yok sayar (Köy)
+Ignora imunidade a Metal
+Metal bağışıklığını yok sayar
+Ilhas Flutuantes
+Uçan Adalar
+Imparável
+Durdurulamaz
+Iniciante
+Acemi
+Intermediário
+Orta Seviye
+Investida
+Hücum
+JOGAR
+OYNA
+Jacaré
+Timsah
+Jacaré Pistoleiro
+Silahşor Timsah
+Jade
+Yeşim
+Jogar novamente
+Tekrar Oyna
+Jogar {0} partidas
+{0} maç oyna
+Jogue partidas para ganhar XP
+XP kazanmak için maç oyna
+Juros
+Faiz
+Juros totais: {0}% do seu ouro atual (máx. sobre os primeiros $100.000), por onda{1}
+Toplam faiz: her dalga mevcut altınının %{0} kadarı (en fazla ilk $100.000 üzerinden){1}
+Já gerou no total: ${0}
+Şimdiye kadar toplam üretim: ${0}
+LOBO
+KURT
+Larga estrepes no caminho ({0} cargas, até {1})
+Yola çivi tuzağı bırakır ({0} kullanım, en fazla {1})
+Larga minas no caminho (até {0})
+Yola mayın bırakır (en fazla {0})
+Lentidão total: {0}%
+Toplam yavaşlatma: %{0}
+Levar {0} árvores ao nível DEUS
+{0} yükseltme yolunu TANRI seviyesine çıkar
+Leão Rei
+Aslan Kral
+Libera espaço para torres
+Kuleler için yer açar
+Liberado! Este animal chega na próxima atualização da versão web.
+Açıldı! Bu hayvan web sürümünün bir sonraki güncellemesinde geliyor.
+Lobo
+Kurt
+Lobo das Adagas
+Hançerli Kurt
+Local válido
+Geçerli yer
+Lâmina Flamejante
+Alevli Kılıç
+Machado de gelo que deixa lento. NEVASCA: congela todo mundo em volta.
+Yavaşlatan buz baltası. KAR FIRTINASI: etraftaki herkesi dondurur.
+Mago de área que vê camuflado. METEORO: dano pesado e queimadura em área.
+Kamuflajlıları gören alan büyücüsü. METEOR: ağır hasar ve alanda yanık.
+Mapa bloqueado
+Harita kilitli
+Mapa liberado: {0}
+Harita açıldı: {0}
+Mapas
+Haritalar
+Marca inimigos no raio como vulneráveis
+Alandaki düşmanları savunmasız olarak işaretler
+Marca o alvo: +{0}% de dano de todas as torres ({1}s)
+Hedefi işaretler: tüm kulelerden +%{0} hasar ({1} sn)
+Martelo pesado em área. ESTOURO: pisa no chão e atordoa todos em volta.
+Ağır alan çekici. PATLAMA: yere vurur ve etraftaki herkesi sersemletir.
+Medalhas
+Madalyalar
+Medalhas: F Fácil · M Médio · D Difícil · I Imparável · P Só Primárias · H Sem Heróis (Médio+) · ½ Meio Ouro (Difícil+). Moldura: bronze (Fácil), prata (Médio), ouro (Difícil/Imparável), diamante (todas as 7).
+Madalyalar: F Kolay · M Orta · D Zor · I Durdurulamaz · P Sadece Birincil · H Kahramansız (Orta+) · ½ Yarım Altın (Zor+). Çerçeve: bronz (Kolay), gümüş (Orta), altın (Zor/Durdurulamaz), elmas (7'sinin hepsi).
+Meio Ouro
+Yarım Altın
+Menu
+Menü
+Mercado
+Pazar
+Mergulho Solar
+Güneş Dalışı
+Mestria: Nível {0}/5
+Ustalık: Seviye {0}/5
+Meteoro
+Meteor
+Metralhadora automática
+Otomatik makineli tüfek
+Militar
+Askeri
+Mina Abandonada
+Terk Edilmiş Maden
+Minas
+Mayınlar
+Missão concluída!
+Görev tamamlandı!
+Missões
+Görevler
+Missões dão cristais extras
+Görevler ekstra kristal verir
+Modo Livre
+Serbest Mod
+Morcego
+Yarasa
+Morcego Sonar
+Sonar Yarasa
+Morsa Glacial
+Buzul Mors
+Mouse ou toque
+Fare veya dokunma
+MÁX
+MAKS
+MÁXIMO 5/5
+MAKS 5/5
+Mágica
+Sihirli
+Mágico
+Büyülü
+Médio
+Orta
+Mísseis
+Füzeler
+Música
+Müzik
+Música: não
+Müzik: kapalı
+Música: sim
+Müzik: açık
+NOVO
+YENİ
+Na sua coleção
+Koleksiyonunda
+Nave
+Uzay Gemisi
+Necromante
+Nekromant
+Nenhuma partida neste mapa ainda.
+Bu haritada henüz maç yok.
+Nevasca
+Kar Fırtınası
+Ninja
+Ninja
+Novo animal disponível!
+Yeni hayvan hazır!
+Novo: {0} disponível!
+Yeni: {0} hazır!
+Nv 
+Sv 
+Nv 1
+Sv 1
+Nv 10
+Sv 10
+Nv 20
+Sv 20
+NÍVEL MÁXIMO
+MAKS SEVİYE
+Nível {0}
+Seviye {0}
+O golpe nasce EM CIMA do alvo (sem trajetória)
+Darbe doğrudan hedefin ÜSTÜNDE oluşur (yörüngesiz)
+O machado VOA até o alvo (trajetória)
+Balta hedefe kadar UÇAR (yörüngeli)
+OK
+Tamam
+ONDA 
+DALGA 
+Oficina
+Atölye
+Oito do Deserto
+Çöl Sekizi
+Os inimigos dão metade do ouro.
+Düşmanlar yarı altın verir.
+Ouriço
+Kirpi
+Ouriço Armadilheiro
+Tuzakçı Kirpi
+Ouro insuficiente
+Yetersiz altın
+Ouro total: ${0}/onda{1}
+Toplam altın: ${0}/dalga{1}
+PARA BLINDADOS
+ZIRHLILARI DURDURUR
+PRONTO
+HAZIR
+Padrão
+Varsayılan
+Paralisa
+Felç eder
+Partida normal.
+Normal maç.
+Pausado
+Duraklatıldı
+Perfura 
+Delme 
+Perfura total: 
+Toplam delme: 
+Perfura-camada
+Katman Delici
+Perfura-camada: {0}% do dano passa para o 1º inimigo de dentro
+Katman delme: hasarın %{0} kadarı içerideki 1. düşmana geçer
+Perfurante
+Delici
+Perto
+Yakın
+Pinguim
+Penguen
+Pinguim Machadeiro
+Baltacı Penguen
+Poder
+Güç
+Polvo Abissal
+Derinlik Ahtapotu
+Porta-Tanques
+Tank Taşıyıcı
+Praia dos Piratas
+Korsan Plajı
+Precisão
+İsabet
+Preto
+Siyah
+Primeiro
+İlk
+Primária
+Birincil
+Produção
+Üretim
+Progresso: {0}/{1} mapas
+İlerleme: {0}/{1} harita
+Projéteis
+Mermiler
+Projéteis por tiro: {0}
+Atış başına mermi: {0}
+Próx. nível: {0}
+Sonraki seviye: {0}
+Próxima missão!
+Sıradaki görev!
+Próximo animal: {0} no nível {1}
+Sıradaki hayvan: {0} (Seviye {1})
+Pântano Nebuloso
+Sisli Bataklık
+Pântano em Espiral
+Sarmal Bataklık
+REGRA ESPECIAL
+ÖZEL KURAL
+Raio
+Yıldırım
+Raio em cadeia: {0} saltos
+Zincirleme yıldırım: {0} sıçrama
+Raio salta 
+Yıldırım sıçrar: 
+Raios
+Işınlar
+Rajada
+Seri Atış
+Raposa
+Tilki
+Raposa Arqueira
+Okçu Tilki
+Recarga Rápida
+Hızlı Dolum
+Recebendo de aliadas: {0}
+Dostlardan gelen: {0}
+Recebido
+Alındı
+Recordes
+Rekorlar
+Recordes deste aparelho. O ranking online depende de aprovação da Poki.
+Bu cihazdaki rekorlar. Çevrimiçi sıralama Poki onayına bağlıdır.
+Rede
+Ağ
+Redemoinho
+Girdap
+Regenerativo
+Yenilenen
+Remove Fortificado do alvo atingido
+Vurulan hedefin Güçlendirilmiş özelliğini kaldırır
+Remover a pedra?
+Kaya kaldırılsın mı?
+Reposicionar
+Yer Değiştir
+Respingo no impacto: {0} (até 3 inimigos colados no alvo)
+Çarpma sıçraması: {0} (hedefe bitişik en fazla 3 düşman)
+Retalhar
+Parçala
+Revela camuflado no MAPA TODO
+Kamuflajlıları TÜM HARİTADA açığa çıkarır
+Reviver
+Dirilt
+Rifle
+Tüfek
+Rinoceronte
+Gergedan
+Rosa
+Pembe
+Roxo
+Mor
+Rugido
+Kükreme
+SENTINELA {0}
+NÖBETÇİ {0}
+Sair da partida?
+Maçtan çıkılsın mı?
+Sair para o menu
+Menüye dön
+Salamandra
+Semender
+Salto do projétil: {0} ricochetes (-15% dano por salto)
+Mermi sekmesi: {0} sekme (sekme başına -%15 hasar)
+Salvar
+Kaydet
+Samurai
+Samuray
+Saque Rápido
+Hızlı Çekiş
+Selecionado
+Seçildi
+Selecionar
+Seç
+Sem Heróis
+Kahramansız
+Sem herói na partida.
+Bu maçta kahraman yok.
+Sentinela {0}
+Nöbetçi {0}
+Sentinelas
+Nöbetçiler
+Sentinelas: {0} (dano x{1}, 1 tiro a cada {2}s)
+Nöbetçiler: {0} (hasar x{1}, her {2} sn'de 1 atış)
+Seu apelido
+Takma adın
+Skin liberada para compra: {0} {1}
+Kostüm satın alınabilir: {0} {1}
+Skins
+Kostümler
+Sombria
+Gölge
+Sons
+Sesler
+Sons: não
+Sesler: kapalı
+Sons: sim
+Sesler: açık
+Subiu para o nível {0}!
+Yeni seviye: {0}!
+Suporte: fortalece as torres perto e vê camuflado. BÊNÇÃO: cura vidas e prende os inimigos com raízes.
+Destek: yakındaki kuleleri güçlendirir ve kamuflajlıları görür. KUTSAMA: can yeniler ve düşmanları köklerle bağlar.
+Só Primárias
+Sadece Birincil
+Só torres Primárias (Raposa, Urso, Tartaruga, Águia, Pinguim, Ouriço, Tubarão).
+Sadece Birincil kuleler (Tilki, Ayı, Kaplumbağa, Kartal, Penguen, Kirpi, Köpekbalığı).
+Só torres Primárias nesta partida.
+Bu maçta sadece Birincil kuleler.
+T-REX
+T-REX
+T-Rex
+T-Rex
+T1+T2 de cada árvore saem GRÁTIS (torres no raio)
+Her yolun T1+T2'si ÜCRETSİZ (alandaki kuleler)
+T1+T2 grátis (raio)
+T1+T2 ücretsiz (alan)
+TD:
+TD:
+TOP JOGADORES
+EN İYİ OYUNCULAR
+TORRES
+KULELER
+TRAVADO
+KİLİTLİ
+Tanque
+Tank
+Tanque Maior
+Büyük Tank
+Tartaruga
+Kaplumbağa
+Tartaruga de Gelo
+Buz Kaplumbağası
+Texugo
+Porsuk
+Texugo Engenheiro
+Mühendis Porsuk
+Tigre
+Kaplan
+Tigre Assassino
+Suikastçı Kaplan
+Tigre Lutador
+Dövüşçü Kaplan
+Tinta Tóxica
+Zehirli Mürekkep
+Todos os animais disponíveis!
+Tüm hayvanlar açık!
+Toque na criatura p/ ver dano/ataque/DPS dela
+Hasarını/saldırısını/DPS'ini görmek için yaratığa dokun
+Toque no alcance do Guaxinim
+Rakunun menziline dokun
+Toque no alcance do Texugo
+Porsuğun menziline dokun
+Toque num local válido
+Geçerli bir yere dokun
+Torre
+Kule
+Torres no raio ignoram TODAS as imunidades
+Alandaki kuleler TÜM bağışıklıkları yok sayar
+Touro Minotauro
+Minotor Boğa
+Trilha das Raízes
+Kökler Patikası
+Trono do Caos
+Kaos Tahtı
+Tubarão
+Köpekbalığı
+Tubarão Lanceiro
+Mızraklı Köpekbalığı
+Tudo vencido!
+Hepsi tamamlandı!
+ULT: 
+ULT: 
+Urso
+Ayı
+Urso Espadachim
+Kılıççı Ayı
+Usar
+Kullan
+Use de 3 a 16 letras/números, sem palavrões.
+3-16 harf/rakam kullan, küfür yok.
+Utilidade
+Yardımcı
+VITÓRIA!
+ZAFER!
+Vale Gelado
+Buzlu Vadi
+Valente
+Yiğit
+Velocidade
+Hız
+Velocidade do projétil: {0}% do padrão
+Mermi hızı: varsayılanın %{0} kadarı
+Veloz
+Çevik
+Vencer dá a medalha 
+Kazanınca verilen madalya: 
+Vencer os 10 mapas
+10 haritanın hepsini kazan
+Vencer {0} mapas diferentes
+{0} farklı haritada kazan
+Vencer {0} no {1}
+Kazan: {0}, {1}
+Vender ${0}
+Sat ${0}
+Vender tudo ${0}
+Hepsini Sat ${0}
+Veneno
+Zehir
+Veneno em vários alvos. TINTA TÓXICA: envenena e deixa lento todos em volta.
+Birden çok hedefe zehir. ZEHİRLİ MÜREKKEP: etraftaki herkesi zehirler ve yavaşlatır.
+Vença "{0}" para liberar.
+Açmak için "{0}" haritasını kazan.
+Ver em Animais
+Hayvanlar'da gör
+Ver skins
+Kostümleri gör
+Verde
+Yeşil
+Vermelho
+Kırmızı
+Você chegou até a onda {0}.
+{0}. dalgaya kadar geldin.
+Você venceu {0} no {1}!
+{0} haritasını {1} zorlukta kazandın!
+Você: nível {0}
+Sen: Seviye {0}
+Voltar
+Geri
+Vulcão Rugidor
+Gürleyen Yanardağ
+Vê camuflado
+Kamuflajı görür
+XP
+XP
+XP em dobro nesta partida
+Bu maçta çift XP
+XP em dobro nesta partida!
+Bu maçta çift XP!
+XP x2
+XP x2
+XP x2 ativo
+XP x2 aktif
+Zebra
+Zebra
+a onda fica VERMELHA e acerta muito mais alvos
+dalga KIRMIZIYA döner ve çok daha fazla hedefi vurur
+alc {0}
+mnz {0}
+alvo atingido recebe +{0}% de dano de TODAS as torres
+vurulan hedef TÜM kulelerden +%{0} hasar alır
+apoio da Vila
+Köy desteği
+arranca Fortificado, Camuflagem e escudo do alvo
+hedeften Güçlendirilmiş, Kamuflaj ve kalkanı söker
+azul
+mavi
+bloqueia regeneração (raio)
+yenilenmeyi engeller (alan)
+bronze
+bronz
+bumerangue: fere na ida e na volta
+bumerang: giderken ve dönerken vurur
+camuflados
+kamuflajlı düşman
+carregando
+yükleniyor
+com a regra "{0}"
+· "{0}" kuralıyla
+com {0} em campo
+· sahada {0} varken
+congela {0}%
+%{0} dondurma
+dano
+hasar
+dano vira FOGO (estoura Metal)
+hasar ATEŞ olur (Metali patlatır)
+dano vira MÁGICO (fere Mágico, não fere Roxo)
+hasar BÜYÜLÜ olur (Büyülüye işler, Mor'a işlemez)
+derrota
+yenilgi
+deus
+tanrı
+diamante
+elmas
+dispara MÍSSEIS que explodem
+patlayan FÜZELER atar
+efeito passa a valer no MAPA TODO
+etki artık TÜM HARİTADA geçerli
+embalo: até +{0}% de cadência em golpes seguidos
+ivme: art arda vuruşlarda atış hızı artar (en fazla +%{0})
+empurra inimigos
+düşmanları iter
+empurra o alvo (15% por golpe)
+hedefi iter (vuruş başına %15)
+estrepes com {0} cargas
+{0} kullanımlık çivi tuzağı
+fogo
+ateş
+fogo no chão
+yerde ateş
+fogo no chão {0} dano/s
+yerde ateş {0} hasar/sn
+fura +{0} camada{1}
++{0} katman deler
+ganha respingo no impacto
+çarpma sıçraması kazanır
+ganha área de impacto
+çarpma alanı kazanır
+ignora imunidade a Metal
+Metal bağışıklığını yok sayar
+ignora imunidades (raio)
+bağışıklıkları yok sayar (alan)
+inimigo
+düşman
+inimigos
+düşman
+inimigos: 
+düşman: 
+larga ESTREPES no caminho
+yola ÇİVİ TUZAĞI bırakır
+larga MINAS no caminho
+yola MAYIN bırakır
+lentidão {0}%
+%{0} yavaşlatma
+libera {0}
+açar: {0}
+lixo
+çöp
+marca de vulnerabilidade dura {0}s
+savunmasızlık işareti {0} sn sürer
+marca inimigos no alcance (+20% dano recebido)
+menzildeki düşmanları işaretler (+%20 alınan hasar)
+o machado passa a VOAR até o alvo
+balta artık hedefe kadar UÇAR
+o xamã continua atacando
+şaman saldırmaya devam eder
+oficina do Texugo
+Porsuğun atölyesi
+onda
+dalga
+onda {0}
+dalga {0}
+ouro
+altın
+prata
+gümüş
+qualquer mapa
+herhangi bir harita
+queimadura 
+yanık 
+recorde {0}
+rekor {0}
+remove Fortificado do alvo
+hedeften Güçlendirilmiş özelliğini kaldırır
+revela camuflado no MAPA TODO
+kamuflajlıları TÜM HARİTADA açığa çıkarır
+sem moldura
+çerçeve yok
+sexta
+cuma
+solta NUVENS DE MORCEGOS em vez da onda
+dalga yerine YARASA SÜRÜLERİ salar
+torre
+kule
+velocidade de ataque
+saldırı hızı
+vê camuflado
+kamuflajı görür
+x{0} dano vs Cerâmica
+Seramiğe x{0} hasar
+{0} ondas
+{0} dalga
+{0} por {1}s
+{0}, {1} sn boyunca
+{0} | alc {1}
+{0} | mnz {1}
+{0}% alcance
+{0}% menzil
+{0}% cadência
+{0}% atış hızı
+{0}% crítico
+{0}% kritik
+{0}% dano
+{0}% hasar
+{0}% de desconto de compra/upagem no raio
+alanda %{0} satın alma/yükseltme indirimi
+{0}% desconto de compra (raio)
+%{0} satın alma indirimi (alan)
+{0}% empurrão
+{0}% geri itme
+{0}% respingo no impacto
+%{0} çarpma sıçraması
+{0}% veloc. projétil
+%{0} mermi hızı
+{0}% área de impacto
+%{0} çarpma alanı
+{0}/7 medalhas  -  moldura {1}
+{0}/7 madalya  -  çerçeve: {1}
+{0}/s por {1}s
+{0}/sn, {1} sn boyunca
+{0}sem efeito extra aqui (já no teto de outra árvore)
+{0}burada ek etki yok (başka bir yol zaten sınırda)
+ÁGUIA
+KARTAL
+Água
+Su
+Águia
+Kartal
+Águia Batedora
+Kâşif Kartal
+Álbum de medalhas — {0} de {1}
+Madalya albümü — {0}/{1}
+Área de impacto: {0}
+Çarpma alanı: {0}
+ÚNICO
+EŞSİZ
+Último
+Son
+▶ INICIAR ONDA {0}
+▶ {0}. DALGAYI BAŞLAT
+Pena da Coruja
+Baykuş Tüyü
+Instinto de Matilha
+Sürü İçgüdüsü
+Bico Afiado
+Sivri Gaga
+Couro Grosso
+Kalın Deri
+Olho de Águia
+Kartal Gözü
+Fúria Selvagem
+Vahşi Öfke
+Arsenal
+Cephanelik
+Cofrinho do Castor
+Kunduzun Kumbarası
+Bolsa de Couro
+Deri Kese
+Coração de Carvalho
+Meşe Yüreği
+Ovo de Fênix
+Anka Yumurtası
+Trevo de Quatro Folhas
+Dört Yapraklı Yonca
+Pata de Coelho
+Tavşan Ayağı
+Pacto do Javali
+Yaban Domuzu Antlaşması
+Vidro de Canhão
+Cam Top
+Cauda de Lagartixa
+Kertenkele Kuyruğu
+Pacto do Lobo Solitário
+Yalnız Kurt Antlaşması
+Coração Teimoso
+İnatçı Yürek
+Ninho de Esquilo
+Sincap Yuvası
+Brasa e Neve
+Köz ve Kar
+Pena da Lua
+Ay Tüyü
+Ovo de Ouro
+Altın Yumurta
+Ampulheta de Resina
+Reçine Kum Saati
+Coroa do Leão
+Aslan Tacı
+Eclipse
+Tutulma
+Presa de Sangue
+Kan Dişi
+Totem Sombrio
+Karanlık Totem
+Ouro Maldito
+Lanetli Altın
+Sino do Pastor
+Çoban Çanı
+Bumerangue Ancião
+Kadim Bumerang
+Braseiro
+Mangal
+Cinzas Vivas
+Canlı Küller
+Geada Eterna
+Sonsuz Kırağı
+Peçonha
+Ağı
+Contágio
+Salgın
+Olho de Falcão
+Şahin Gözü
+Lâmina Fina
+İnce Bıçak
+Cofre de Nozes
+Ceviz Kasası
+Moeda da Sorte
+Şans Parası
+Cesto de Vime
+Hasır Sepet
+Semente Mágica
+Sihirli Tohum
+Estandarte
+Sancak
+Laços de Lealdade
+Sadakat Bağları
+Espírito Selvagem
+Vahşi Ruh
+Ninhada
+Kuluçka
+Coração de Magma
+Magma Yüreği
+Teia da Viúva
+Kara Dul Ağı
+Dado Viciado
+Hileli Zar
+Bolsa Furada
+Delik Kese
+Fungo Faminto
+Aç Mantar
+Pacto da Serpente
+Yılan Antlaşması
+Ossos do Ancestral
+Ata Kemikleri
+Lua de Sangue
+Kanlı Ay
+Relógio Partido
+Kırık Saat
+Baralho Marcado
+İşaretli Deste
+Pólvora Instável
+Dengesiz Barut
+Coroa de Espinhos
+Diken Tacı
+Luneta do Almirante
+Amiralin Dürbünü
+Ampulheta do Rei
+Kralın Kum Saati
+Tesouro do Dragão
+Ejderha Hazinesi
+Tambor de Guerra
+Savaş Davulu
+Coração de Pedra
+Taş Yürek
+Bússola Antiga
+Eski Pusula
+Pacto do Poder
+Güç Antlaşması
+Raiz Profunda
+Derin Kök
+Totem das Frutas
+Meyve Totemi
+Olho do Caçador
+Avcı Gözü
+Martelo Rachador
+Yarıcı Çekiç
+Contador Mágico
+Sihirli Sayaç
+Dado de Ouro
+Altın Zar
+Mágicas +35% de dano; militares -15% de alcance
+Sihirli kuleler +%35 hasar; Askeri kuleler -%15 menzil
++7% de dano por outra torre IGUAL no campo (até +35%)
+Sahadaki AYNI türden her diğer kule için +%7 hasar (en fazla +%35)
+Primárias +2 de perfuração; -10% de cadência nelas
+Birincil kuleler +2 delme; atış hızları -%10
+Militares +25% de dano; mágicas -10% de cadência
+Askeri kuleler +%25 hasar; Sihirli kuleler -%10 atış hızı
+Todas +20% de alcance; -10% de dano
+Tüm kuleler +%20 menzil; -%10 hasar
+Todas +40% de cadência; -20% de dano
+Tüm kuleler +%40 atış hızı; -%20 hasar
+Todas +1 alvo/projétil; inimigos +15% de vida
+Tüm kuleler +1 hedef/mermi; düşmanlar +%15 can
+Fim de cada onda: +8% de juros sobre o ouro (até $500)
+Her dalga sonunda: altına %8 faiz (en fazla $500)
++$300 agora e +$60 a cada caminho
+Şimdi +$300 ve her durakta +$60
++50 de vida máxima e cura tudo agora
++50 maks can ve şimdi tam iyileşme
++1 revive guardado
++1 yedek diriliş
+Toda raridade é sorteada 2x: fica a melhor
+Her nadirlik 2 kez çekilir: iyisi kalır
+Recompensas de carta mostram 4 opções
+Kart ödülleri 4 seçenek gösterir
+Todas +25% de dano e +1 alvo; inimigos +20% de vida; loja +25%
+Tüm kuleler +%25 hasar ve +1 hedef; düşmanlar +%20 can; mağaza +%25
+Todas +60% de dano; vida máxima -40%
+Tüm kuleler +%60 hasar; maks can -%40
+Vender uma torre no mesmo caminho em que foi colocada devolve 100%
+Kule, kurulduğu durakta satılırsa parasının %100'ü iade edilir
+Sem torres repetidas no campo: todas +25% de dano e +10% de alcance
+Sahada aynı kuleden iki tane yoksa: tümü +%25 hasar ve +%10 menzil
+1x por andar: o vazamento que te mataria te deixa com 1 de vida
+Kat başına 1 kez: seni öldürecek kaçak 1 canla bırakır
+Bolotas douradas caem o dobro e são coletadas sozinhas
+Altın palamutlar iki kat düşer ve kendiliğinden toplanır
+Salamandra E Tartaruga no campo: as duas +30% de dano e +15% de cadência
+Sahada Semender VE Kaplumbağa varsa: ikisi de +%30 hasar ve +%15 atış hızı
+Mágicas +1 alvo/projétil e +15% de alcance
+Sihirli kuleler +1 hedef/mermi ve +%15 menzil
++$40 a cada onda vencida e bolotas douradas valem o dobro
+Kazanılan her dalgada +$40, altın palamutlar iki kat değerli
+Todas +35% de dano; ouro das recompensas -30%
+Tüm kuleler +%35 hasar; ödül altını -%30
+Todas +2 alvos/projéteis; inimigos +25% de velocidade
+Tüm kuleler +2 hedef/mermi; düşmanlar +%25 hız
+Todas +60% de dano. Maldição: perde 3% da vida a cada onda
+Tüm kuleler +%60 hasar. Lanet: her dalga canının %3'ünü kaybedersin
+Todas +25% de cadência e +1 alvo. Maldição: inimigos +20% de vida
+Tüm kuleler +%25 atış hızı ve +1 hedef. Lanet: düşmanlar +%20 can
++$500 agora e +$60 por onda. Maldição: loja 40% mais cara
+Şimdi +$500 ve dalga başına +$60. Lanet: mağaza %40 daha pahalı
+ATIVA (toque no ícone na onda, 1x por andar): empurra todos os inimigos para trás
+AKTİF (dalgada simgeye dokun, kat başına 1 kez): tüm düşmanları geri iter
+ATIVA (toque no ícone na onda, 1x por andar): dano em todos os inimigos do caminho
+AKTİF (dalgada simgeye dokun, kat başına 1 kez): yoldaki tüm düşmanlara hasar
+Queimaduras duram o dobro; Salamandra +20% de dano
+Yanıklar iki kat sürer; Semender +%20 hasar
+Inimigo que morre queimando EXPLODE nos vizinhos
+Yanarak ölen düşman yanındakilere PATLAR
+Lentidões duram +50%; Tartaruga +20% de dano
+Yavaşlatmalar %50 daha uzun sürer; Kaplumbağa +%20 hasar
+Inimigos lentos ou congelados levam +25% de dano
+Yavaşlamış veya donmuş düşmanlar +%25 hasar alır
+Acertos das torres primárias envenenam
+Birincil kulelerin vuruşları zehirler
+Inimigo que morre envenenado espalha o veneno
+Zehirliyken ölen düşman zehri etrafa yayar
++10% de chance de crítico em todas as torres
+Tüm kulelere +%10 kritik şansı
+Críticos causam x3 em vez de x2
+Kritikler x2 yerine x3 vurur
++5% de dano em todas a cada $1000 que você tiver (até +25%)
+Sahip olduğun her $1000 için tüm kulelere +%5 hasar (en fazla +%25)
+Cada crítico dá $1 (até $60 por onda)
+Her kritik $1 verir (dalga başına en fazla $60)
+Herói +40% de dano
+Kahraman +%40 hasar
+Herói sobe +1 nível a cada chefe vencido
+Her Boss yenildiğinde kahraman +1 seviye atlar
+Invocações do Guaxinim e sentinelas do Texugo +40% de dano
+Rakunun yaratıkları ve Porsuğun nöbetçileri +%40 hasar
+Invocações e sentinelas atacam 30% mais rápido
+Yaratıklar ve nöbetçiler %30 daha hızlı saldırır
+Queimaduras causam o dobro de dano. Maldição: torres de gelo -30% de dano
+Yanıklar iki kat hasar verir. Lanet: buz kuleleri -%30 hasar
+O veneno acumula até 3x no mesmo inimigo. Maldição: envenenados andam 15% mais rápido
+Zehir aynı düşmanda 3 kata kadar birikir. Lanet: zehirliler %15 daha hızlı yürür
+Críticos causam x4. Maldição: acertos sem crítico -20% de dano
+Kritikler x4 vurur. Lanet: kritik olmayan vuruşlar -%20 hasar
+Ouro dos estouros +100%. Maldição: no fim de cada andar perde 25% do ouro
+Patlatma altını +%100. Lanet: her kat sonunda altının %25'ini kaybedersin
+Herói +80% de dano. Maldição: as outras torres -15% de dano
+Kahraman +%80 hasar. Lanet: diğer kuleler -%15 hasar
+Invocações e sentinelas +60% de dano; criaturas do Guaxinim +1 alvo. Maldição: torres que não invocam -10% de cadência
+Yaratıklar ve nöbetçiler +%60 hasar; Rakunun yaratıkları +1 hedef. Lanet: çağırmayan kuleler -%10 atış hızı
+Elites e Mini Chefes dão recompensa em dobro. Maldição: inimigos +15% de vida
+Elitler ve Mini Bosslar iki kat ödül verir. Lanet: düşmanlar +%15 can
+Todas +30% de cadência. Maldição: os inimigos saem 25% mais juntos
+Tüm kuleler +%30 atış hızı. Lanet: düşmanlar %25 daha sık gelir
+Cartas de buff vêm 1 raridade acima. Maldição: sem trocas de cartas
+Güçlendirme kartları 1 nadirlik üstte gelir. Lanet: kart yenileme yok
+Inimigo que morre EXPLODE nos vizinhos. Maldição: quem vaza explode e tira +5 de vida
+Ölen düşman yanındakilere PATLAR. Lanet: kaçan düşman patlar ve +5 can götürür
+Todas +40% de dano. Maldição: cada vazamento custa o dobro de vida
+Tüm kuleler +%40 hasar. Lanet: her kaçak iki kat can götürür
+Todas as torres veem camuflados e têm +25% de alcance; inimigos +20% de velocidade
+Tüm kuleler kamuflajlıları görür ve +%25 menzil kazanır; düşmanlar +%20 hız
+Todas +45% de cadência; vida máxima -25
+Tüm kuleler +%45 atış hızı; maks can -25
++$400 agora e ouro dos abates +60%; loja 30% mais cara
+Şimdi +$400 ve yok etme altını +%60; mağaza %30 daha pahalı
+A cada 10 abates, TODAS as torres atacam 60% mais rápido por 3s
+Her 10 yok etmede TÜM kuleler 3 sn boyunca %60 daha hızlı saldırır
+Cada inimigo que vaza tira no máximo 1 vida (até blindado e chefe)
+Kaçan her düşman en fazla 1 can götürür (zırhlı ve Boss dahil)
+Cada onda perfeita (sem vazar) recupera 3 de vida
+Her kusursuz dalga (kaçaksız) 3 can yeniler
+Todas as torres veem camuflados; alcance -10%
+Tüm kuleler kamuflajlıları görür; menzil -%10
+Inimigos chegam SEM blindagem (fortificados perdem a casca)
+Düşmanlar ZIRHSIZ gelir (Güçlendirilmişler kabuğunu kaybeder)
+vença {0} Elites ou Mini Chefes
+{0} Elit veya Mini Boss yen
+vença 1 chefe
+1 Boss yen
+vença {0} chefes
+{0} Boss yen
+faça {0} ondas perfeitas
+{0} kusursuz dalga tamamla
+vença {0} ondas
+{0} dalga kazan
+Quebra: {0}
+Lanetten kurtul: {0}
+Mágicas +60% de dano
+Sihirli kuleler +%60 hasar
++10% por torre igual (até +50%)
+Aynı türden her kule için +%10 (en fazla +%50)
+Primárias +4 de perfuração
+Birincil kuleler +4 delme
+Militares +45% de dano
+Askeri kuleler +%45 hasar
++35% de alcance
++%35 menzil
++60% de cadência
++%60 atış hızı
+Juros de 12% (até $800)
+%12 faiz (en fazla $800)
++45% de dano e +15% de alcance
++%45 hasar ve +%15 menzil
+Perfuração
+Delme
+Velocidade de Ataque
+Saldırı Hızı
+Alvos/Projéteis
+Hedef/Mermi
+Dano em Blindados
+Zırhlılara Hasar
+Área de Impacto
+Çarpma Alanı
+Alcance
+Menzil
+Crítico
+Kritik
++{0} de perfuração
++{0} delme
++{0} alvo/projétil por ataque
+Saldırı başına +{0} hedef/mermi
++{0} de dano contra blindados
+Zırhlılara +{0} hasar
+fura +{0} camada(s)
++{0} katman deler
++{0}% de chance de CRÍTICO (dano x2)
++%{0} KRİTİK şansı (x2 hasar)
+acerto envenena: {0}% do dano por segundo (2s)
+vuruş zehirler: saniyede hasarın %{0} kadarı (2 sn)
+Normal
+Normal
+Raro
+Nadir
+Épico
+Destansı
+Melhoria
+Geliştirme
+Ouro
+Altın
+Upagem
+Yükseltme
+Loja
+Mağaza
+Fogueira
+Kamp Ateşi
+CHEFE
+BOSS
+Início
+Başlangıç
+Elite
+Elit
+Relíquia
+Kalıntı
+Evento
+Olay
+Mini Chefe
+Mini Boss
+Desafio
+Meydan Okuma
+Mímico
+Mimik
+Nada
+Boş
+Vença a onda e escolha 1 de 3 melhorias para uma torre
+Dalgayı kazan, bir kule için 3 geliştirmeden 1'ini seç
+Vença a onda: ouro na hora ou investido
+Dalgayı kazan: altını hemen al ya da yatır
+Vença a onda e ganhe 1 de 3 torres grátis
+Dalgayı kazan, 3 ücretsiz kuleden 1'ini al
+Vença a onda: upagem grátis numa torre
+Dalgayı kazan: bir kuleye ücretsiz yükseltme
+Sem onda: compre melhorias e relíquias com ouro
+Dalga yok: altınla geliştirme ve kalıntı al
+Sem onda: descansar ou treinar
+Dalga yok: dinlen ya da antrenman yap
+O chefe do andar: vença e escolha uma relíquia de chefe
+Katın Boss'u: yen ve bir Boss kalıntısı seç
+Escolha a torre inicial da run
+Turun başlangıç kulesini seç
+Inimigos mais fortes e um modificador: paga cartas raras e ouro
+Daha güçlü düşmanlar ve bir değiştirici: nadir kart ve altın kazandırır
+Vença a onda e escolha 1 de 3 relíquias
+Dalgayı kazan, 3 kalıntıdan 1'ini seç
+Sem onda: um encontro com escolhas
+Dalga yok: seçimli bir karşılaşma
+Onda com um mini chefe no fim: paga torre rara ou tesouro
+Sonunda mini Boss olan dalga: nadir kule veya hazine kazandırır
+Vencer, sem vazar e no tempo: até 3 estrelas de ouro
+Kazan, kaçak verme, süreye yetiş: 3 altın yıldıza kadar
+Uma onda, sem recompensa extra
+Tek dalga, ek ödül yok
+Camuflados
+Kamuflajlı
+Fortificados
+Güçlendirilmiş
+Regeneram
+Yenilenen
+Apressados
+Aceleci
+Horda
+Akın
+todos vêm camuflados
+hepsi kamuflajlı gelir
+todos vêm fortificados
+hepsi güçlendirilmiş gelir
+todos regeneram
+hepsi yenilenir
++30% de velocidade
++%30 hız
++50% de inimigos
++%50 düşman
+Escudeiro Demolidor
+Yıkıcı Kalkancı
+Mãe-Bomba
+Bomba Ana
+Engenheiro Remendão
+Yamacı Mühendis
+Rasga-Vento
+Rüzgâr Yaran
+Escudo de 30% da vida. Quando quebra, fica atordoado 2,5s
+Canının %30'u kadar kalkan. Kırılınca 2,5 sn sersemler
+A cada 4s solta 2 bombinhas no caminho (até 14)
+Her 4 sn'de yola 2 küçük bomba bırakır (en fazla 14)
+Conserta a si mesmo e cura os aliados por perto a cada 3s
+Her 3 sn'de kendini onarır ve yakındaki dostlarını iyileştirir
+A cada 5s dá uma arrancada 4x mais rápida
+Her 5 sn'de 4 kat hızla atılır
+dano alto de uma vez quebra o escudo; depois é a hora de bater
+tek seferde yüksek hasar kalkanı kırar; sonra vurma zamanı
+torres de área e perfuração limpam os filhotes
+alan ve delme kuleleri yavruları temizler
+dano concentrado antes do conserto
+onarımdan önce yoğun hasar
+lentidão e torres no fim do caminho
+yavaşlatma ve yolun sonuna kuleler
+Esquilo Contrabandista
+Kaçakçı Sincap
+Ninho Abandonado
+Terk Edilmiş Yuva
+Javali do Caos
+Kaos Domuzu
+Aposta do Guaxinim
+Rakunun Kumarı
+Lago Espelhado
+Ayna Göl
+Fonte Sagrada
+Kutsal Pınar
+Dinamite Abandonada
+Unutulmuş Dinamit
+Árvore Ancestral
+Kadim Ağaç
+Mel do Urso
+Ayının Balı
+O Corvo Mercador
+Tüccar Karga
+Toca Desmoronada
+Çökmüş İn
+Arbusto de Frutinhas
+Meyveli Çalı
+Caminhão Capturado
+Ele Geçirilen Kamyon
+Ninho de Vespas
+Eşek Arısı Yuvası
+Ovo Misterioso
+Gizemli Yumurta
+Altar do Sacrifício
+Kurban Sunağı
+Altar das Maldições
+Lanetler Sunağı
+Coruja Sábia
+Bilge Baykuş
+Colmeia Selvagem
+Yabani Kovan
+Lago Congelado
+Donmuş Göl
+Iglu do Pinguim
+Penguenin İglosu
+Miragem
+Serap
+Caravana do Deserto
+Çöl Kervanı
+Forja de Lava
+Lav Ocağı
+Ovo de Fogo
+Ateş Yumurtası
+Bruxa do Pântano
+Bataklık Cadısı
+Sapo Rei
+Kurbağa Kral
+Um esquilo de capa abre um saco cheio de mapas roubados. "Tenho uma torre de elite pra você... por um terço do seu ouro."
+Pelerinli bir sincap çalıntı haritalarla dolu bir çuval açıyor. "Sana elit bir kulem var... altınının üçte biri karşılığında."
+No alto de uma árvore, um ninho com um brilho estranho. Pode ser um tesouro. Pode ser uma armadilha dos humanos.
+Bir ağacın tepesinde tuhaf parıltılı bir yuva. Hazine olabilir. İnsanların tuzağı da olabilir.
+Um javali enorme bufa no caminho. "Deixe minha fúria correr pelo campo e eu ensino suas torres a bater mais forte."
+Dev bir yaban domuzu yolda burnundan soluyor. "Öfkemin sahada koşmasına izin ver, kulelerine daha sert vurmayı öğreteyim."
+Um guaxinim embaralha três cascas de noz. "Aposta $300? Acertou, dobra. Errou... é meu."
+Bir rakun üç ceviz kabuğunu karıştırıyor. "$300'ına iddiaya var mısın? Bilirsen ikiye katlanır. Bilemezsen... benim."
+A água do lago reflete suas torres mais fortes do que são. Tocar nela cobra um preço.
+Göl suyu kulelerini olduklarından güçlü yansıtıyor. Ona dokunmanın bir bedeli var.
+Uma fonte de água cristalina no meio da floresta.
+Ormanın ortasında pırıl pırıl sulu bir pınar.
+Humanos-bomba fugiram e largaram um caixote com o pavio aceso.
+Bombacı insanlar kaçarken fitili yanan bir sandık bırakmış.
+Uma árvore milenar sussurra: "dê um pouco da sua vida e eu te dou um presente antigo."
+Bin yıllık bir ağaç fısıldıyor: "Canından biraz ver, sana kadim bir hediye vereyim."
+Um urso guarda um pote de mel dourado. Ele aceita dividir... por um preço.
+Bir ayı altın sarısı bir bal kavanozunu koruyor. Paylaşmaya razı... bir bedel karşılığında.
+Um corvo pousa num galho com objetos brilhantes. "Brilho por brilho, amigo."
+Bir karga parlak eşyalarla dolu bir dala konuyor. "Parıltıya parıltı, dostum."
+Uma toca antiga. Escavar aqui pode revelar algo útil ou derrubar tudo.
+Eski bir in. Burayı kazmak işe yarar bir şey çıkarabilir ya da her şeyi yıkabilir.
+Um arbusto carregado de frutinhas mágicas. Dá para vender no mercado ou comer agora.
+Sihirli meyvelerle dolu bir çalı. Pazarda satabilir ya da hemen yiyebilirsin.
+Um caminhão dos humanos tombou na estrada, cheio de caixas. O motorista fugiu... por enquanto.
+İnsanların kutu dolu bir kamyonu yolda devrilmiş. Şoför kaçmış... şimdilik.
+Um ninho de vespas zumbe num galho baixo. Vespas furiosas são ótimas aliadas, ou péssimas inimigas.
+Alçak bir dalda eşek arısı yuvası vızıldıyor. Öfkeli arılar harika dost olur, ya da berbat düşman.
+Um ovo brilhante, quentinho, esquecido no meio da trilha. Um vendedor pede $150 por ele.
+Patikanın ortasında unutulmuş, parlak ve sıcacık bir yumurta. Bir satıcı onun için $150 istiyor.
+Um altar de pedra antiga pulsa com poder. Ele pede uma das suas torres... e promete algo à altura.
+Kadim taştan bir sunak güçle titreşiyor. Kulelerinden birini istiyor... ve karşılığında ona layık bir şey vaat ediyor.
+Duas relíquias negras flutuam sobre um altar rachado. Poder de verdade... com um preço que cobra todo dia.
+Çatlak bir sunağın üstünde iki kara kalıntı süzülüyor. Gerçek güç... bedeli her gün ödenen cinsten.
+Uma coruja velha de óculos abre um livro de estratégia. "Conhecimento custa caro, filhote."
+Gözlüklü yaşlı bir baykuş bir strateji kitabı açıyor. "Bilgi pahalıdır, yavrum."
+Uma colmeia enorme pinga mel dourado. As abelhas não parecem nada contentes com visitas.
+Dev bir kovandan altın bal damlıyor. Arılar misafirden hiç hoşlanmışa benzemiyor.
+Um lago totalmente congelado corta o caminho. Do outro lado, um baú brilha. O gelo range.
+Tamamen donmuş bir göl yolu kesiyor. Karşı kıyıda bir sandık parlıyor. Buz gıcırdıyor.
+Um pinguim de cachecol vende neve mágica na porta do iglu. "Fresquinha, direto do polo!"
+Atkılı bir penguen iglosunun kapısında sihirli kar satıyor. "Taptaze, doğrudan kutuptan!"
+No horizonte, um oásis cheio de tesouros tremula no calor. Pode ser real... ou só o sol.
+Ufukta hazine dolu bir vaha sıcakta titreşiyor. Gerçek olabilir... ya da sadece güneş.
+Uma caravana de camelos para na duna. Os mercadores trocam mapas e vendem água.
+Bir deve kervanı kum tepesinde mola veriyor. Tüccarlar harita takas ediyor ve su satıyor.
+Uma forja antiga, aquecida pela própria lava. Ela pede sangue para temperar o aço.
+Lavın kendisiyle ısınan kadim bir ocak. Çeliğe su vermek için kan istiyor.
+Um ovo vermelho, quente como brasa, pulsa entre as rochas. Pegar com a mão vai doer.
+Kayaların arasında köz gibi sıcak, kırmızı bir yumurta atıyor. Elle almak acıtacak.
+Uma bruxa mexe um caldeirão verde. "Uma poção desfaz maldições, querido... ou um amuleto, se preferir."
+Bir cadı yeşil bir kazanı karıştırıyor. "İksir lanetleri bozar, şekerim... ya da istersen bir muska."
+Um sapo de coroa olha fundo nos seus olhos. Dizem que ele é um herói amaldiçoado.
+Taçlı bir kurbağa gözlerinin içine bakıyor. Lanetlenmiş bir kahraman olduğu söylenir.
+Comprar
+Satın Al
+Paga 1/3 do ouro: uma torre ÉPICA (4 upagens)
+Altının 1/3'ünü öde: DESTANSI bir kule (4 yükseltme)
+Recusar
+Reddet
+Segue em frente
+Yoluna devam et
+Pegar o ovo
+Yumurtayı al
+50%: uma relíquia · 50%: perde 15% da vida
+%50: bir kalıntı · %50: canının %15'ini kaybet
+Deixar
+Bırak
+Aceitar
+Kabul et
+Próximas 3 ondas: inimigos +25% de velocidade. Depois: +15% de dano em TODAS as torres pra sempre
+Sonraki 3 dalga: düşmanlar +%25 hız. Sonra: TÜM kulelere kalıcı +%15 hasar
+Apostar
+İddiaya gir
+Passar
+Pas geç
+Tocar a água
+Suya dokun
+Perde 20% da vida: um buff ÉPICO numa torre aleatória
+Canının %20'sini kaybet: rastgele bir kuleye DESTANSI güçlendirme
+Ir embora
+Uzaklaş
+Beber
+İç
+Recupera 20% da vida
+Canının %20'sini yeniler
+Encher o cantil
+Mataranı doldur
++$150 vendendo a água
+Suyu satarak +$150
+Desarmar
+Etkisizleştir
++$120 e 1 upagem grátis numa torre aleatória
++$120 ve rastgele bir kuleye 1 ücretsiz yükseltme
+Sair de fininho
+Sessizce sıvış
+Oferecer vida
+Can sun
+Perde 10% da vida máxima: uma relíquia aleatória
+Maks canının %10'unu kaybet: rastgele bir kalıntı
+Pagar $200
+$200 öde
+Todas as torres +5% de dano pelo resto da run
+Tur boyunca tüm kuleler +%5 hasar
+Pagar $250
+$250 öde
+Uma relíquia aleatória
+Rastgele bir kalıntı
+Escavar
+Kaz
+60%: upagem grátis + $100 · 40%: perde 10% da vida
+%60: ücretsiz yükseltme + $100 · %40: canının %10'unu kaybet
+Colher e vender
+Topla ve sat
++$180 no mercado
+Pazarda +$180
+Comer agora
+Hemen ye
+Recupera 10% da vida
+Canının %10'unu yeniler
+Pagar 40% do ouro
+Altının %40'ını öde
+Uma torre RARA aleatória (2 upagens)
+Rastgele NADİR bir kule (2 yükseltme)
+Saquear
+Yağmala
++$200, mas perde 5% da vida
++$200, ama canının %5'ini kaybet
+Cutucar
+Dürt
+50%: todas as torres +10% de cadência pelo resto da run · 50%: perde 10% da vida
+%50: tur boyunca tüm kuleler +%10 atış hızı · %50: canının %10'unu kaybet
+Comprar ($150)
+Satın Al ($150)
+60%: uma relíquia · 40%: recupera 15% da vida
+%60: bir kalıntı · %40: canının %15'ini yeniler
+Sacrificar
+Kurban et
+Entrega uma torre: relíquia conforme o valor dela
+Bir kule ver: değerine göre kalıntı
+Aceitar a maldição
+Laneti kabul et
+Escolha 1 de 2 relíquias amaldiçoadas (não conta no limite do andar)
+2 lanetli kalıntıdan 1'ini seç (kat sınırına sayılmaz)
+Pagar $180
+$180 öde
+1 upagem grátis em 2 torres aleatórias
+Rastgele 2 kuleye 1'er ücretsiz yükseltme
+Ouvir o conselho
+Tavsiyeyi dinle
++1 troca de cartas grátis neste andar
+Bu katta +1 ücretsiz kart yenileme
+Pegar o mel
+Balı al
+Perde 8% da vida: +$300 vendendo o mel
+Canının %8'ini kaybet: balı satarak +$300
+Atravessar
+Karşıya geç
+60%: baú com +$300 · 40%: o gelo quebra, perde 15% da vida
+%60: +$300'lık sandık · %40: buz kırılır, canının %15'ini kaybet
+Contornar
+Etrafından dolaş
+Comprar ($200)
+Satın Al ($200)
++40 de escudo até o fim do andar (absorve vazamentos)
+Kat sonuna kadar +40 kalkan (kaçakları emer)
+Seguir a miragem
+Serabın peşine düş
+50%: uma relíquia · 50%: perde $200 na areia
+%50: bir kalıntı · %50: kumda $200 kaybet
+Ignorar
+Görmezden gel
+Trocar mapas
+Harita takas et
++$100 e +1 troca de cartas grátis neste andar
++$100 ve bu katta +1 ücretsiz kart yenileme
+Comprar água ($120)
+Su al ($120)
+Temperar o aço
+Çeliğe su ver
+Perde 10% da vida máxima: um buff ÉPICO numa torre aleatória
+Maks canının %10'unu kaybet: rastgele bir kuleye DESTANSI güçlendirme
+Um buff ÉPICO de dano numa torre aleatória · 30%: queima a mão, perde 10% da vida
+Rastgele bir kuleye DESTANSI hasar güçlendirmesi · %30: elin yanar, canının %10'unu kaybet
+Beber a poção
+İksiri iç
+Quebra a maldição de uma relíquia (sem maldição: +25 de escudo)
+Bir kalıntının lanetini bozar (lanet yoksa: +25 kalkan)
+Amuleto ($250)
+Muska ($250)
+Beijar o sapo
+Kurbağayı öp
+30%: vira uma torre ÉPICA (4 upagens) · 70%: era só um sapo
+%30: DESTANSI bir kuleye dönüşür (4 yükseltme) · %70: sadece bir kurbağaymış
+Seguir
+Devam
+O CHEFE DO ANDAR CHEGOU!
+KATIN BOSS'U GELDİ!
+Mini chefe: {0}!
+Mini Boss: {0}!
++conserto
++onarım
+ESCUDO QUEBRADO!
+KALKAN KIRILDI!
+CORAÇÃO TEIMOSO!
+İNATÇI YÜREK!
+Nv {0}
+Sv {0}
+Nenhuma torre no campo pra upar.
+Sahada yükseltilecek kule yok.
+Era um MÍMICO! Vença o baú e leve o ouro em dobro
+MİMİKMİŞ! Sandığı yen, altını iki kat al
+Onda perfeita x{0}: +${1}
+Kusursuz dalga x{0}: +${1}
+{0} EVOLUIU: {1}
+{0} EVRİMLEŞTİ: {1}
+O chefe escapou! Sem a recompensa dele.
+Boss kaçtı! Ödülü yok.
+O chefe escapou!
+Boss kaçtı!
+Sem a recompensa dele.
+Ödülü yok.
+Revive usado! A onda recomeça.
+Diriliş kullanıldı! Dalga yeniden başlıyor.
+Maldição quebrada: {0} (o bônus fica)
+Lanet bozuldu: {0} (bonus kalır)
+Escolha a torre inicial
+Başlangıç kulesini seç
+Ela chega de graça, com 2 upagens sorteadas. O ouro inicial continua para comprar mais.
+2 rastgele yükseltmeyle ücretsiz gelir. Başlangıç altınınla daha fazla kule alabilirsin.
+Escolha uma melhoria
+Bir geliştirme seç
+Depois toque na torre que vai receber.
+Sonra onu alacak kuleye dokun.
+Escolha uma torre grátis
+Ücretsiz bir kule seç
+Chefe derrotado! Escolha uma relíquia de chefe
+Boss yenildi! Bir Boss kalıntısı seç
+Depois ainda ganha {0} com {1} upagens.
+Ayrıca kazanacağın kule: {0} ({1} yükseltme).
+Elite vencido!
+Elit yenildi!
++${0} de ouro. Escolha uma carta rara:
++${0} altın. Nadir bir kart seç:
+Lua de Sangue: +${0}
+Kanlı Ay: +${0}
+Mini chefe derrotado!
+Mini Boss yenildi!
+RELÍQUIAS ESGOTADAS
+KALINTILAR TÜKENDİ
+Você já tem todas. +${0}
+Hepsine sahipsin. +${0}
+Escolha uma relíquia
+Bir kalıntı seç
+Relíquias valem a run toda.
+Kalıntılar tüm tur boyunca geçerli.
+Loja do Coelho
+Tavşanın Mağazası
+Melhorias e relíquias, pagas com o ouro da run.
+Geliştirmeler ve kalıntılar, tur altınıyla ödenir.
+Dinheiro
+Para
+Pegar agora ou investir?
+Hemen al mı, yatır mı?
+Escolha UMA.
+BİRİNİ seç.
+UPAGEM GRÁTIS
+ÜCRETSİZ YÜKSELTME
+DESAFIO: {0} de 3 estrelas
+MEYDAN OKUMA: 3 yıldızdan {0}
+Vencer: sim  ·  Sem vazar: {0}  ·  Em até {1}s: {2}  ·  +${3}
+Kazan: evet  ·  Kaçaksız: {0}  ·  {1} sn içinde: {2}  ·  +${3}
+sim
+evet
+não
+hayır
+MÍMICO DERROTADO
+MİMİK YENİLDİ
+O baú-monstro deixou cair +${0}
+Canavar sandık +${0} düşürdü
+CAMINHO LIMPO
+YOL TEMİZ
+Nenhuma recompensa por aqui.
+Burada ödül yok.
+Ganhou {0}! Toque no campo para posicionar.
+Kazandın: {0}! Yerleştirmek için sahaya dokun.
+O investimento rendeu: +${0}
+Yatırım kazandırdı: +${0}
+Bolsa Furada: -${0} no fim do andar
+Delik Kese: kat sonunda -${0}
+ANDAR {0}!
+KAT {0}!
+Entrega {0} (vale ~${1})
+Ver: {0} (değeri ~${1})
+Treinar
+Antrenman
+Escolha a árvore da upagem grátis.
+Ücretsiz yükseltme için yolu seç.
+Já são {0} relíquias neste andar: {1} virou +${2}
+Bu katta zaten {0} kalıntı var: {1} yerine +${2}
+Relíquia nova: {0}
+Yeni kalıntı: {0}
+Delícia! +{0} de vida.
+Nefis! +{0} can.
++$200 do saque, mas o motorista voltou: -{0} de vida.
+Yağmadan +$200, ama şoför geri döndü: -{0} can.
+A coruja ensina a olhar de novo: +1 troca de cartas grátis neste andar.
+Baykuş yeniden bakmayı öğretiyor: bu katta +1 ücretsiz kart yenileme.
+Você não tinha $120 para a água.
+Su için paran yetmedi ($120).
+-$120. Água fresca: +{0} de vida.
+-$120. Taze su: +{0} can.
+Você não tinha $250 para o amuleto.
+Muska için paran yetmedi ($250).
+A bruxa não tinha amuleto que você não possua.
+Cadının sende olmayan bir muskası kalmamış.
+-$250. Amuleto: {0}
+-$250. Muska: {0}
+Você segue em frente.
+Yoluna devam ediyorsun.
+-${0}. Você ganhou {1} com 4 upagens! Toque no campo para posicionar.
+-${0}. Kazandın: {1} (4 yükseltme)! Yerleştirmek için sahaya dokun.
+Era um tesouro! Relíquia: {0}
+Hazineymiş! Kalıntı: {0}
+Era um tesouro! +$400
+Hazineymiş! +$400
+Era uma armadilha! -{0} de vida.
+Tuzakmış! -{0} can.
+A fúria do javali corre solta: 3 ondas com inimigos mais rápidos. Sobreviva e suas torres ficam +15% mais fortes.
+Domuzun öfkesi serbest: 3 dalga boyunca düşmanlar daha hızlı. Hayatta kal, kulelerin %15 güçlensin.
+Acertou! +$300
+Bildin! +$300
+Errou... -${0}
+Bilemedin... -${0}
+-{0} de vida.
+-{0} can.
+-{0} de vida máxima. A árvore não tinha mais relíquias: +$400.
+-{0} maks can. Ağacın kalıntısı kalmamış: +$400.
+-{0} de vida máxima. Relíquia: {1}
+-{0} maks can. Kalıntı: {1}
+Você não tinha $200. O urso fica com o mel.
+Paran yetmedi ($200). Bal ayıda kaldı.
+-$200. Todas as torres +5% de dano pelo resto da run.
+-$200. Tur boyunca tüm kuleler +%5 hasar.
+Você não tinha $250. O corvo voa embora.
+Paran yetmedi ($250). Karga uçup gitti.
+O corvo não tinha nada novo pra você.
+Karganın sana yeni bir şeyi yoktu.
+-$250. Relíquia: {0}
+-$250. Kalıntı: {0}
+A toca desabou! -{0} de vida.
+İn çöktü! -{0} can.
+As frutinhas renderam +$180 no mercado.
+Meyveler pazarda +$180 getirdi.
+-${0}. Na carga: {1} com 2 upagens! Toque no campo para posicionar.
+-${0}. Yükte: {1} (2 yükseltme)! Yerleştirmek için sahaya dokun.
+As vespas viraram aliadas! Todas as torres +10% de cadência pelo resto da run.
+Arılar dost oldu! Tur boyunca tüm kuleler +%10 atış hızı.
+Ferroadas! -{0} de vida.
+Sokuldun! -{0} can.
+Você não tinha $150. O vendedor guarda o ovo.
+Paran yetmedi ($150). Yumurta satıcıda kaldı.
+-$150. O ovo chocou uma relíquia: {0}
+-$150. Yumurtadan bir kalıntı çıktı: {0}
+-$150. Era só um ovo de café da manhã: +{0} de vida.
+-$150. Kahvaltılık bir yumurtaymış: +{0} can.
+Você não tinha $180.
+Paran yetmedi ($180).
+Picadas! -{0} de vida, mas o mel rendeu +$300.
+Sokuldun! -{0} can, ama bal +$300 getirdi.
+O gelo aguentou! O baú tinha $300.
+Buz dayandı! Sandıkta $300 vardı.
+CRACK! O gelo quebrou: -{0} de vida.
+ÇATIRT! Buz kırıldı: -{0} can.
+Você não tinha $200.
+Paran yetmedi ($200).
+-$200. +40 de escudo até o fim do andar.
+-$200. Kat sonuna kadar +40 kalkan.
+Era real! Relíquia: {0}
+Gerçekmiş! Kalıntı: {0}
+Era só o sol... você perdeu ${0} na areia.
+Sadece güneşmiş... kumda ${0} kaybettin.
++$100 e +1 troca de cartas grátis neste andar.
++$100 ve bu katta +1 ücretsiz kart yenileme.
+-{0} de vida máxima.
+-{0} maks can.
+A mão queimou: -{0} de vida.
+Elin yandı: -{0} can.
+A maldição de {0} sumiu!
+Lanet kalktı: {0}!
+Sem maldição para quebrar: a poção virou +25 de escudo.
+Bozulacak lanet yok: iksir +25 kalkana dönüştü.
+O sapo virou {0} com 4 upagens! Toque no campo para posicionar.
+Kurbağa dönüştü: {0} (4 yükseltme)! Yerleştirmek için sahaya dokun.
+Era só um sapo. Ele coaxa, ofendido.
+Sadece bir kurbağaymış. Alınmış gibi vıraklıyor.
+O altar se apagou: não há maldições novas.
+Sunak söndü: yeni lanet yok.
+Não havia torre para sacrificar.
+Kurban edilecek kule yoktu.
+{0} foi entregue. O altar não tinha relíquias: +${1}
+{0} verildi. Sunakta kalıntı kalmamış: +${1}
+{0} foi entregue ao altar. Relíquia: {1}
+{0} sunağa verildi. Kalıntı: {1}
++{0} de vida.
++{0} can.
+Não havia torre para receber.
+Alacak kule yoktu.
+{0} ganhou {1} (Épico)
+{0} kazandı: {1} (Destansı)
+Modo Rogue
+Rogue Modu
+Como funciona
+Nasıl oynanır
+Escolha seu caminho num mapa de 3 andares: cada parada é uma onda ou um encontro.
+3 katlı bir haritada yolunu seç: her durak bir dalga ya da bir karşılaşma.
+Vença para ganhar melhorias, torres grátis e relíquias que valem a run toda.
+Kazandıkça geliştirmeler, ücretsiz kuleler ve tur boyunca geçerli kalıntılar topla.
+Elites e mini chefes são mais fortes, mas pagam melhor. O chefe fecha cada andar.
+Elitler ve mini Bosslar daha güçlü ama daha çok kazandırır. Her katı Boss kapatır.
+Ouro, vida e torres seguem de um caminho para o outro. Sem vida, a run acaba.
+Altın, can ve kuleler duraktan durağa taşınır. Can biterse tur biter.
+No fim você ganha cristais e XP: quanto mais longe, mais.
+Sonunda kristal ve XP kazanırsın: ne kadar ilerlersen o kadar çok.
+Melhor: andar {0}
+En iyi: Kat {0}
+Runs: {0}
+Turlar: {0}
+Vitórias: {0}
+Zaferler: {0}
+Andar {0}
+Kat {0}
+{0} relíquias
+{0} kalıntı
+Continuar run
+Tura devam et
+Nova run
+Yeni tur
+Mapa: {0}
+Harita: {0}
+Começar run
+Turu başlat
+Começar outra run?
+Yeni bir tur başlasın mı?
+A run salva acaba aqui, sem recompensa.
+Kayıtlı tur burada biter, ödülsüz.
+Sim, nova run
+Evet, yeni tur
+Torre grátis: toque no campo para posicionar {0}
+Ücretsiz kule: {0} için sahaya dokun
+Sair (a run fica salva)
+Çık (tur kaydedilir)
+Sair
+Çık
++{0} escudo
++{0} kalkan
+ANDAR {0}
+KAT {0}
+Caminho {0}/{1}
+Durak {0}/{1}
+Sem melhorias ainda
+Henüz geliştirme yok
+{0} melhorias nas torres
+{0} kule geliştirmesi
+{0} ondas perfeitas
+{0} kusursuz dalga
+{0} revive
+{0} diriliş
+Vida {0}/{1}
+Can {0}/{1}
+Toque no Início (o caminho que brilha) para começar
+Başlamak için Başlangıç'a dokun (parlayan durak)
+Escolha o próximo caminho (os que brilham)
+Sıradaki durağı seç (parlayanlar)
+Andar
+Kat
+Nenhuma relíquia ainda
+Henüz kalıntı yok
+Chefe do andar
+Kat Boss'u
+Onda {0} com inimigos +40% de vida
+Dalga {0}: düşmanlar +%40 can
+Recompensa: ouro x1,5 e 1 de 3 cartas raras
+Ödül: altın x1,5 ve 3 nadir karttan 1'i
+Dica: {0}
+İpucu: {0}
+Recompensa: melhoria rara, torre rara ou tesouro
+Ödül: nadir geliştirme, nadir kule veya hazine
+Um veículo gigante e lento. Se ele escapar, a run acaba.
+Dev ve yavaş bir araç. Kaçarsa tur biter.
+É o chefe final: vença e a run está ganha!
+Bu son Boss: yen, tur senin!
+Fecha o andar.
+Katı kapatır.
+Recompensa: relíquia de chefe e uma torre
+Ödül: Boss kalıntısı ve bir kule
+Ir por aqui
+Buradan git
+Trocar estoque ${0}
+Stoku yenile ${0}
+Trocar (grátis)
+Yenile (ücretsiz)
+Trocar ${0}
+Yenile ${0}
+Sair da loja
+Mağazadan çık
+Pular
+Atla
+de Chefe
+Boss
+Amaldiçoada
+Lanetli
+Comprado
+Satın alındı
+Lapidar
+Cilala
+Recrutar
+Askere Al
+Tesouro
+Hazine
+Pegar agora
+Hemen al
+Investir
+Yatır
+Descansar
+Dinlen
+Fortificar
+Tahkim Et
+Meditar
+Meditasyon
+Treinar Herói
+Kahramanı Eğit
+Purificar
+Arındır
+para: {0}
+kule: {0}
+Reforça o que ela já tem: {0}
+Sahip olduğunu güçlendirir: {0}
+Sem upagens. Chega de graça.
+Yükseltmesiz. Ücretsiz gelir.
+Chega de graça com {0} upagens sorteadas.
+{0} rastgele yükseltmeyle ücretsiz gelir.
+Mais uma torre {0} sem upagens, por metade do preço.
+Yarı fiyatına bir {0} daha, yükseltmesiz.
++${0} na hora
+Hemen +${0}
++${0} daqui a 3 caminhos (se você sobreviver)
+3 durak sonra +${0} (hayatta kalırsan)
+Recupera {0}% da vida
+Canının %{0} kadarını yeniler
+{0}: 1 upagem grátis na árvore que você escolher
+{0}: seçtiğin yolda 1 ücretsiz yükseltme
++{0} de escudo até o fim do andar (absorve vazamentos)
+Kat sonuna kadar +{0} kalkan (kaçakları emer)
++2 trocas de cartas grátis neste andar
+Bu katta +2 ücretsiz kart yenileme
+Herói +2 níveis
+Kahraman +2 seviye
+Tira a maldição de {0} (o poder fica)
+Laneti kaldırır: {0} (güç kalır)
+Nível {0} para {1}
+Seviye {0} → {1}
+Escolha a torre
+Kuleyi seç
+{0} melhorias
+{0} geliştirme
+Nenhuma torre no campo pode receber esta melhoria.
+Sahada bu geliştirmeyi alabilecek kule yok.
+Andar {0} de {1}
+Kat {0}/{1}
+RUN VENCIDA!
+TUR KAZANILDI!
+FIM DA RUN
+TUR BİTTİ
+Andar {0}  ·  {1} caminhos  ·  {2} chefes  ·  {3} elites
+Kat {0}  ·  {1} durak  ·  {2} Boss  ·  {3} elit
+{0} relíquias  ·  onda {1}  ·  {2} abates
+{0} kalıntı  ·  dalga {1}  ·  {2} yok edilen
+Rogue
+Rogue
+Diárias
+Günlük
+Relíquias  {0}/{1}
+Kalıntılar  {0}/{1}
+Relíquia liberada: {0}
+Kalıntı açıldı: {0}
+Jogar {0} corridas no Rogue
+Rogue'da {0} tur oyna
+Vencer {0} corridas no Rogue
+Rogue'da {0} tur kazan
+Derrotar {0} chefes no Rogue
+Rogue'da {0} Boss yen
+Vencer {0} elites no Rogue
+Rogue'da {0} elit yen
+Chegar ao andar {0} no Rogue
+Rogue'da {0}. kata ulaş
+Vencer {0} partidas
+{0} maç kazan
+Baú diário
+Günlük Sandık
+Volte amanhã para continuar a sequência!
+Seriyi sürdürmek için yarın yine gel!
+Pronto para abrir!
+Açmaya hazır!
+Resgate as 3 missões de hoje para abrir.
+Açmak için bugünün 3 görevinin ödülünü al.
+Sequência: 1 dia
+Seri: 1 gün
+Sequência: {0} dias
+Seri: {0} gün
+Novas missões em {0}
+Yeni görevler: {0}
+Desafio do Dia
+Günün Meydan Okuması
+Desafio do Dia concluído!
+Günün Meydan Okuması tamamlandı!
+Concluído hoje!
+Bugün tamamlandı!
+Vença para ganhar +{0} cristais
+Kazan, +{0} kristal al
+Recorde de hoje: onda {0}
+Bugünün rekoru: dalga {0}
+Novo desafio em {0}
+Yeni meydan okuma: {0}
++$40 a cada onda vencida
+Kazanılan her dalgada +$40
+Torre inicial com 3 upagens sorteadas. As outras torres vêm das cartas do mapa e da Loja.
+Başlangıç kulesi rastgele 3 yükseltmeyle gelir. Diğer kuleler haritadaki kartlardan ve Mağaza'dan gelir.
+O aluguel acabou: {0} foi embora
+Kira süresi doldu: {0} ayrıldı
+Nenhuma torre pode ser upada agora
+Şu an hiçbir kule yükseltilemez
+Sua vida já está cheia
+Canın zaten dolu
+Toque no campo para posicionar: {0}
+Yerleştirmek için sahaya dokun: {0}
+MODO ROGUE
+ROGUE MODU
+Andar {0}  ·  caminho {1}/{2}
+Kat {0}  ·  durak {1}/{2}
+Revives guardados: {0}
+Saklanan diriliş: {0}
+BUFFS DA RUN
+TUR BUFFLARI
+Relíquias:
+Kalıntılar:
+Treino +{0}% de dano
+Antrenman +%{0} hasar
+nenhum ainda
+henüz yok
+Torres vêm das cartas do mapa.
+Kuleler haritadaki kartlardan gelir.
+Upar e vender: só na Loja.
+Yükseltme ve satış: sadece Mağaza'da.
+SUAS TORRES
+KULELERİN
+nenhuma ainda
+henüz yok
+alugada: {0} caminhos
+kiralık: {0} durak
+Treino {0}: +{1}% de dano
+Antrenman {0}: +%{1} hasar
+Ouro insuficiente: o treino custa ${0}
+Yetersiz altın: antrenman ${0} tutuyor
+Ouro: ${0}
+Altın: ${0}
+Toque numa torre do painel para upar ou vender
+Yükseltmek veya satmak için paneldeki bir kuleye dokun
+Estoque esgotado
+Stok tükendi
+Aluguel: {0}
+Kiralık: {0}
+Cura Grande
+Büyük İyileştirme
+Cura Pequena
+Küçük İyileştirme
+Upagem Grátis
+Ücretsiz Yükseltme
+Revive
+Diriliş
+Torre ÉPICA (4 upagens) por 3 caminhos, depois vai embora
+DESTANSI kule (4 yükseltme) 3 durak boyunca, sonra ayrılır
+Recupera 50% da vida
+Canının %50'sini yeniler
+Recupera 30% da vida
+Canının %30'unu yeniler
+Upa uma árvore aleatória
+Rastgele bir yolu yükseltir
+Volta com metade da vida ao morrer
+Yenilince canının yarısıyla geri dönersin
+HERÓI  nível {0}
+KAHRAMAN  seviye {0}
+Sem upagens
+Yükseltme yok
+{0} upagens sorteadas
+Rastgele {0} yükseltme
+Alugada: não vende
+Kiralık: satılamaz
+Upar e vender: só na Loja
+Yükseltme ve satış: sadece Mağaza'da
+O Poder da Run carrega 50% mais rápido
+Tur Gücü %50 daha hızlı dolar
+Usar o Poder da Run dá +$100 e recupera 5 de vida
+Tur Gücü'nü kullanmak +$100 verir ve 5 can yeniler
+A roleta nunca dá x0 (vira x1)
+Çark asla x0 vermez (x1 olur)
+Mercador
+Tüccar
+Horda de Ouro
+Altın Sürüsü
+Mercador Sombrio: cartas épicas e relíquias à venda
+Gölge Tüccar: destansı kartlar ve kalıntılar satışta
+Inimigos dourados que pagam muito e não tiram vida
+Çok altın veren ve can götürmeyen altın düşmanlar
+Inimigos Robustos
+Dayanıklı Düşmanlar
+Pressa Humana
+İnsan Telaşı
+Inflação
+Enflasyon
+Fogueira Fria
+Soğuk Kamp Ateşi
+Chefes Furiosos
+Öfkeli Bosslar
+Bolso Furado
+Delik Cep
+Vida Curta
+Kısa Ömür
+Inimigos +20% de vida
+Düşmanlar +%20 can
+Inimigos 10% mais rápidos
+Düşmanlar %10 daha hızlı
+Loja 25% mais cara
+Mağaza %25 daha pahalı
+Descansar cura a metade
+Dinlenmek yarısı kadar iyileştirir
+Chefes +40% de vida
+Bosslar +%40 can
+Recompensas -20% de ouro
+Ödüller -%20 altın
+Vida máxima -25%
+Maks can -%25
+Choque Térmico
+Termal Şok
+Olhos da Noite
+Gece Gözleri
+Caçada em Dupla
+İkili Av
+Veneno e Presas
+Zehir ve Diş
+Força Bruta
+Kaba Kuvvet
+Mar Profundo
+Derin Deniz
+Fera e Mestre
+Canavar ve Usta
+Engenhoca
+Düzenek
+Noite Sônica
+Sonik Gece
++40% de dano e +20% de cadência
++%40 hasar ve +%20 atış hızı
++25% de alcance e +2 de perfuração
++%25 menzil ve +2 delme
++30% de dano e +1 alvo
++%30 hasar ve +1 hedef
++50% de dano
++%50 hasar
++35% de dano e +20% de área
++%35 hasar ve +%20 alan
++30% de dano e +15% de cadência
++%30 hasar ve +%15 atış hızı
++25% de cadência e +1 alvo
++%25 atış hızı ve +1 hedef
++40% de dano
++%40 hasar
++20% de alcance e +20% de cadência
++%20 menzil ve +%20 atış hızı
+Chuva de Meteoros
+Meteor Yağmuru
+Muralha de Espinhos
+Dikenli Duvar
+Tempo Lento
+Ağır Zaman
+Ventania
+Sert Rüzgâr
+Grito de Guerra
+Savaş Narası
+Olho que Tudo Vê
+Her Şeyi Gören Göz
+Chuva de Ouro
+Altın Yağmuru
+Fonte da Vida
+Hayat Pınarı
+Dano em todos os inimigos da tela (cresce com o andar; no chefe, 5% da vida)
+Ekrandaki tüm düşmanlara hasar (katla artar; Boss'a canının %5'i)
+Prende todos os inimigos (até blindados) por 2,5s
+Tüm düşmanları (zırhlılar dahil) 2,5 sn boyunca bağlar
+Inimigos 60% mais lentos por 6s
+Düşmanlar 6 sn boyunca %60 daha yavaş
+Empurra todos os inimigos para trás no caminho (até blindados)
+Tüm düşmanları yolda geri iter (zırhlılar dahil)
+Todas as torres atacam 60% mais rápido por 8s
+Tüm kuleler 8 sn boyunca %60 daha hızlı saldırır
+Tira camuflagem e blindagem de todos os inimigos da tela
+Ekrandaki tüm düşmanların kamuflajını ve zırhını söker
+Ouro na hora: $30 + $5 por inimigo na tela (cresce com o andar)
+Anında altın: $30 + ekrandaki düşman başına $5 (katla artar)
+Recupera 10% da vida máxima (mínimo 5)
+Maks canın %10'unu yeniler (en az 5)
+Golpe Pesado
+Ağır Darbe
+Olhar Afiado
+Keskin Bakış
+Liderança
+Liderlik
+Fúria Veloz
+Hızlı Öfke
+Ataque em Leque
+Yelpaze Saldırısı
+Habilidade recarrega 2x mais rápido
+Yetenek 2 kat hızlı dolar
+Herói +30% de alcance
+Kahraman +%30 menzil
+TODAS as torres +8% de dano
+TÜM kuleler +%8 hasar
+Herói +35% de cadência
+Kahraman +%35 atış hızı
+Herói +2 alvos/projéteis
+Kahraman +2 hedef/mermi
+Só torres mágicas
+Sadece Sihirli kuleler
+Tudo camuflado
+Her şey kamuflajlı
+Sem loja
+Mağaza yok
+Metade da vida
+Yarım can
+Inimigos 30% mais rápidos
+Düşmanlar %30 daha hızlı
+Só cartas ÉPICAS, loja 2x mais cara
+Sadece DESTANSI kartlar, mağaza 2 kat pahalı
+Floresta
+Orman
+Neve
+Kar
+Deserto
+Çöl
+Vulcão
+Volkan
+Pântano
+Bataklık
+sem regra especial
+özel kural yok
+inimigos 15% mais lentos, mas resistem a gelo (-20%)
+düşmanlar %15 daha yavaş ama buza dirençli (-%20)
+alcance de todas -10%, ouro das recompensas +20%
+tüm kulelerin menzili -%10, ödül altını +%20
+fogo +20% de dano, inimigos +10% de vida
+ateş +%20 hasar, düşmanlar +%10 can
+veneno +40% e inimigos regeneram mais
+zehir +%40 ve düşmanlar daha çok yenilenir
+Zepelim Tempestade
+Fırtına Zeplini
+Tanque Escavador
+Kazıcı Tank
+Fortaleza de Geradores
+Jeneratör Kalesi
+General Barril
+General Varil
+Iceberg Blindado
+Zırhlı Buzdağı
+Rainha da Nevasca
+Tipi Kraliçesi
+Escorpião de Areia
+Kum Akrebi
+Faraó Mumificado
+Mumya Firavun
+Golem de Magma
+Magma Golemi
+Hidra do Pântano
+Bataklık Hidrası
+a cada fase some na nuvem (camuflado) e solta caminhões
+her evrede buluta karışır (kamuflajlı) ve kamyonlar salar
+a cada fase se enterra e fica imune por 3s
+her evrede toprağa gömülür ve 3 sn boyunca hasar almaz
+a cada fase liga um escudo de 25% da vida
+her evrede canının %25'i kadar kalkan açar
+a cada fase acelera os inimigos e joga bombinhas
+her evrede düşmanları hızlandırır ve küçük bombalar atar
+a cada fase solta 3 cerâmicas e toma só metade do dano por 4s
+her evrede 3 seramik salar ve 4 sn boyunca yarım hasar alır
+a cada fase blinda todos os inimigos do campo e se cura 10%
+her evrede sahadaki tüm düşmanları zırhlandırır ve %10 iyileşir
+a cada fase dá uma ARRANCADA (2,5x mais rápido por 2,5s)
+her evrede ATAK yapar (2,5 sn boyunca 2,5 kat hızlı)
+a cada fase levanta 6 inimigos e se cura 15%
+her evrede 6 düşman diriltir ve %15 iyileşir
+a cada fase se parte em 2 tanques e fica 30% mais rápido
+her evrede 2 tanka bölünür ve %30 hızlanır
+a cada fase passa a regenerar e chama 2 curandeiros
+her evrede yenilenmeye başlar ve 2 şifacı çağırır
++2 projéteis por tiro
+Atış başına +2 mermi
+25% de chance de ATORDOAR no acerto
+Vuruşta %25 SERSEMLETME şansı
+20% de chance de EXPLOSÃO arcana no acerto
+Vuruşta %20 gizemli PATLAMA şansı
+Primeiro Passo
+İlk Adım
+Explorador
+Kaşif
+Veterano
+Kıdemli
+Rei Deposto
+Tahtından Olan Kral
+Colecionador
+Koleksiyoncu
+Estrela
+Yıldız
+Perfeccionista
+Mükemmeliyetçi
+Achado Raro
+Nadir Buluntu
+Contratado
+Sözleşmeli
+Corajoso
+Cesur
+Caça-Mímico
+Mimik Avcısı
+Combo Lendário
+Efsanevi Kombo
+Vença o chefe do andar 1
+1. katın Boss'unu yen
+Alcance o andar 3
+3. kata ulaş
+Alcance o andar 5
+5. kata ulaş
+Vença o Rei das Bombas (andar 10)
+Bomba Kralı'nı yen (10. kat)
+Tenha 10 relíquias numa run
+Bir turda 10 kalıntı topla
+Funda uma torre ESTRELA
+Bir YILDIZ kule birleştir
+3 estrelas num Desafio
+Bir Meydan Okumada 3 yıldız al
+Encontre o Mercador Sombrio
+Gölge Tüccar'ı bul
+Cumpra um contrato do andar
+Bir kat sözleşmesini tamamla
+Vença o andar 3 com Ameaça 5+
+3. katı Tehdit 5+ ile geç
+Derrote um Mímico
+Bir Mimiği yen
+Faça um combo x50
+x50 kombo yap
+Sem borda
+Kenarlıksız
+Bronze
+Bronz
+Prata
+Gümüş
+primárias
+birincil
+militares
+askeri
+mágicas
+sihirli
+Festival
+Festival
+Erupção
+Püskürme
+todos os inimigos camuflados, mas +50% de ouro nas recompensas
+tüm düşmanlar kamuflajlı ama ödüllerde +%50 altın
+loja e mercador 30% mais baratos
+mağaza ve tüccar %30 daha ucuz
+inimigos +20% de vida, mas o chefe deixa um tesouro extra
+düşmanlar +%20 can ama Boss ekstra bir hazine bırakır
+Vocês, bichos, não vão passar daqui!
+Siz hayvanlar buradan geçemezsiniz!
+Mais uma floresta pra explodir!
+Patlatılacak bir orman daha!
+Ninguém segura o caminhão dos humanos!
+İnsanların kamyonunu kimse durduramaz!
+Quanto mais torre, mais diversão!
+Kule ne kadar çoksa eğlence o kadar çok!
+Hoje a floresta vira estacionamento!
+Bugün bu orman otopark oluyor!
+Isso não acabou... tenho primos!
+Bu iş bitmedi... kuzenlerim var!
+Meu seguro não cobre esquilo!
+Sigortam sincabı karşılamıyor!
+Volto no próximo andar!
+Bir sonraki katta dönerim!
+Socorro, uma coruja!
+İmdat, baykuş!
+Meu escudo é de primeira!
+Kalkanım birinci sınıf!
+Abram caminho!
+Yol açın!
+Quem quer bombinha?
+Bomba isteyen var mı?
+Vou consertar tudo!
+Her şeyi tamir edeceğim!
+EU SOU O REI DAS BOMBAS! Ajoelhem-se, bichinhos!
+BEN BOMBA KRALIYIM! Diz çökün, hayvancıklar!
+Bando
+Sürü
+Batalhão
+Tabur
+Círculo Arcano
+Gizemli Çember
+primárias +15% / +30% de cadência
+birincil +%15 / +%30 atış hızı
+militares +15% / +30% de dano
+askeri +%15 / +%30 hasar
+mágicas +15% / +30% de dano e +10% de alcance
+sihirli +%15 / +%30 hasar ve +%10 menzil
+TODAS +5% / +10% de alcance
+TÜMÜ +%5 / +%10 menzil
+Caçador
+Avcı
+Intocável
+Dokunulmaz
+Jejum
+Perhiz
+Mão de Vaca
+Eli Sıkı
+Gatilho Rápido
+Hızlı Tetik
+Mestre do Combo
+Kombo Ustası
+Muralha
+Sur
+Poder Total
+Tam Güç
+Enxuto
+Az ve Öz
+Fartura
+Bolluk
+Caça-Tesouro
+Hazine Avcısı
+Ferreiro
+Demirci
+Vença 2 Elites ou Mini Chefes neste andar
+Bu katta 2 Elit veya Mini Boss yen
+Chegue ao fim do andar com 90% da vida (ou mais)
+Katı canının %90'ı (veya fazlası) ile bitir
+Não use nenhuma frutinha neste andar
+Bu katta hiç meyve kullanma
+Chegue ao chefe com $1500 ou mais
+Boss'a $1500 veya daha fazlasıyla ulaş
+Pegue 2 relíquias neste andar
+Bu katta 2 kalıntı al
+Chame 3 ondas mais cedo neste andar
+Bu katta 3 dalgayı erken çağır
+Faça um combo x30 neste andar
+Bu katta x30 kombo yap
+Faça 3 ondas perfeitas (sem vazar) neste andar
+Bu katta 3 kusursuz dalga çıkar (kaçaksız)
+Nenhum inimigo pode vazar neste andar
+Bu katta hiçbir düşman kaçmasın
+Use o Poder da Run 3 vezes neste andar
+Bu katta Tur Gücü'nü 3 kez kullan
+Termine o andar com no máximo 6 torres em campo
+Katı sahada en fazla 6 kuleyle bitir
+Use 3 frutinhas neste andar
+Bu katta 3 meyve kullan
+Ganhe $GOLD com abates neste andar
+Bu katta düşman yok ederek $GOLD kazan
+Compre 4 upagens de torre neste andar
+Bu katta 4 kule yükseltmesi satın al
+Chuva
+Yağmur
+Neblina
+Sis
+Noite
+Gece
+Vento
+Rüzgâr
+fogo -20% de dano, gelo +20%
+ateş -%20 hasar, buz +%20
+todos os inimigos vêm camuflados
+tüm düşmanlar kamuflajlı gelir
+mágicas +25% de dano
+sihirli +%25 hasar
+inimigos +15% de velocidade
+düşmanlar +%15 hız
+Escudo
+Kalkanlı
+Rápido
+Hızlı
+Divide
+Bölünen
+Regenera
+Yenilenen
+O REI DAS BOMBAS CHEGOU!
+BOMBA KRALI GELDİ!
+{0} chegou!
+{0} geldi!
+Rota secreta! O Mercador Sombrio estava escondido aqui
+Gizli yol! Gölge Tüccar burada saklanıyormuş
+Mistério revelado: {0}
+Gizem çözüldü: {0}
+(recompensa reforçada!)
+(ödül güçlendirildi!)
+{0} vencida: +${1}
+{0} yenildi: +${1}
+Erupção: o chefe deixou um tesouro de +${0}
+Püskürme: Boss +${0} değerinde hazine bıraktı
+Pegar agora, investir ou girar a roleta?
+Hemen al, yatır ya da çarkı çevir?
+HORDA DE OURO
+ALTIN SÜRÜSÜ
+Fim da festa! Bônus de +${0} (além do ouro de cada dourado).
+Parti bitti! +${0} bonus (her altın düşmanın altınına ek olarak).
+Mercador Sombrio
+Gölge Tüccar
+Cartas épicas e relíquias raras, pagas com o ouro da run.
+Destansı kartlar ve nadir kalıntılar, tur altınıyla ödenir.
+Escolha uma torre
+Bir kule seç
+EVENTO DO ANDAR: {0}: {1}
+KAT OLAYI: {0}: {1}
+Andar {0}: {1}: {2}
+Kat {0}: {1}: {2}
+Escolha o caminho num mapa de andares: cada parada é uma onda ou um encontro.
+Katlardan oluşan bir haritada yolunu seç: her durak bir dalga ya da bir karşılaşma.
+Melhorias, torres, relíquias, contrato e o Poder da Run valem a run toda.
+Geliştirmeler, kuleler, kalıntılar, sözleşme ve Tur Gücü tüm tur boyunca geçerli.
+O Rei das Bombas espera no andar 10; depois dele a run segue no infinito.
+Bomba Kralı 10. katta bekliyor; ondan sonra tur sonsuza dek sürer.
+Sem vida, a run acaba. No fim você ganha cristais e XP: quanto mais longe, mais.
+Can biterse tur biter. Sonunda kristal ve XP kazanırsın: ne kadar ilerlersen o kadar çok.
+LADRÃO DE RELÍQUIA
+KALINTI HIRSIZI
+REI DAS BOMBAS
+BOMBA KRALI
+FASE {0}/3
+EVRE {0}/3
+fraco a {0}
+zayıf: {0}
+Mistério
+Gizem
+resiste a {0}
+dirençli: {0}
+Recompensa: torre rara ou tesouro
+Ödül: nadir kule veya hazine
+Banir: {0} restantes nesta run
+Yasakla: bu turda {0} hak kaldı
+Confirmar
+Onayla
+Transplante ${0}
+Aktarım ${0}
+VENDER ESTA TORRE?
+BU KULE SATILSIN MI?
+recebe +${0}
++${0} alırsın
+Vender
+Sat
+Girar a Roleta
+Çarkı Çevir
+Dupla: {0}
+İkili: {0}
+Fundir
+Birleştir
+Evolução Lendária
+Efsanevi Evrim
+Trocar Relíquia
+Kalıntı Takası
+Base ${0}: pode sair x0, x0,5, x1, x1,5, x2, x3, x5 (raríssimo), upagem grátis ou relíquia
+Taban ${0}: x0, x0,5, x1, x1,5, x2, x3, x5 (çok nadir), ücretsiz yükseltme veya kalıntı çıkabilir
+Prêmio: ${0}
+Ödül: ${0}
+TROCA o seu {0} (só dá para levar 1)
+Mevcut gücünün YERİNE geçer: {0} (sadece 1 tane taşınabilir)
+{0} + {1}: as duas {2}
+{0} + {1}: ikisi de {2}
+3 torres {0} viram 1 torre ESTRELA: soma os buffs e ganha +80% de dano, +15% de cadência e +10% de alcance
+3 kule ({0}) 1 YILDIZ kuleye dönüşür: bufflar toplanır, +%80 hasar, +%15 atış hızı ve +%10 menzil kazanır
+{0}: +50% de dano, brilho dourado e {1}
+{0}: +%50 hasar, altın parıltı ve {1}
+Entregue uma relíquia sua e escolha 1 de 3 novas
+Kalıntılarından birini ver, 3 yeniden 1'ini seç
+falhou
+başarısız
+ok
+tamam
+SAQUEADOR! Se ele escapar, leva 10% do seu ouro
+YAĞMACI! Kaçarsa altınının %10'unu götürür
+LADRÃO DE RELÍQUIA! Se ele escapar, rouba uma relíquia
+KALINTI HIRSIZI! Kaçarsa bir kalıntını çalar
+{0} FASE {1}/3: {2}
+{0} EVRE {1}/3: {2}
+O saqueador fugiu com ${0}!
+Yağmacı ${0} ile kaçtı!
+O ladrão fugiu com {0}!
+Hırsız kaçtı, çaldığı: {0}!
+Saqueador derrubado: +${0}
+Yağmacı düşürüldü: +${0}
+Ladrão derrubado! +${0}
+Hırsız düşürüldü! +${0}
+LADRÃO! +${0}
+HIRSIZ! +${0}
+Os humanos montaram uma ANTENA! Toque nela 5x para destruir
+İnsanlar bir ANTEN kurdu! Yok etmek için 5 kez dokun
+Antena destruída! +${0}
+Anten yok edildi! +${0}
+{0} CARREGADO! Toque no botão.
+{0} DOLDU! Düğmeye dokun.
+Chuva de Ouro: +${0}
+Altın Yağmuru: +${0}
+Fonte da Vida: +{0} de vida
+Hayat Pınarı: +{0} can
+Contrato: {0}
+Sözleşme: {0}
+{0} (botão no topo, na onda)
+{0} (dalga sırasında üstteki düğme)
+Contrato {0} não cumprido
+Sözleşme tamamlanamadı: {0}
+Contrato cumprido! +${0}
+Sözleşme tamamlandı! +${0}
+x0: azar! Não ganhou nada
+x0: şanssızlık! Hiçbir şey kazanamadın
+JACKPOT! 
+BÜYÜK İKRAMİYE! 
+Upagem grátis!
+Ücretsiz yükseltme!
+RELÍQUIA! {0}
+KALINTI! {0}
+Talento do herói
+Kahraman uzmanlığı
+Nível {0}: escolha um talento.
+Seviye {0}: bir uzmanlık seç.
+{0} banido nesta run (restam {1})
+Bu turda yasaklandı: {0} ({1} hak kaldı)
+Dupla ativa: {0}
+İkili aktif: {0}
+O herói aprendeu {0}
+Kahraman yeni uzmanlık öğrendi: {0}
+Fusão! {0} virou torre ESTRELA
+Birleştirme! YILDIZ kule oldu: {0}
+{0} virou LENDÁRIA!
+EFSANEVİ oldu: {0}!
+Poder trocado: {0}
+Güç değişti: {0}
+{0} buffs foram para {1} (-${2})
+{0} buff aktarıldı: {1} (-${2})
+Entregou {0}
+Verildi: {0}
+Borda {0} liberada!
+Kenarlık açıldı: {0}!
+Conquista: {0}
+Başarım: {0}
+Diária
+Günlük
+Ameaça {0}
+Tehdit {0}
+Mesmo mapa para todos hoje; 2 ameaças sorteadas pelo dia
+Bugün herkese aynı harita; günün 2 rastgele tehdidi
+Regra da semana: {0}
+Haftanın kuralı: {0}
+Ameaça
+Tehdit
+Código
+Kod
++{0}% de cristais no fim da run
+Tur sonunda +%{0} kristal
+Ameaça libera ao chegar no andar {0}
+Tehdit, {0}. kata ulaşınca açılır
+Código da run
+Tur kodu
+O mesmo código gera os mesmos andares. Deixe vazio para um mapa novo.
+Aynı kod aynı katları üretir. Yeni harita için boş bırak.
+Ameaça {0}  ·  +{1}% de cristais no fim da run
+Tehdit {0}  ·  tur sonunda +%{1} kristal
+Pronto
+Tamam
+Compêndio
+Ansiklopedi
+Descobertos: {0}/{1}
+Keşfedilen: {0}/{1}
+Ainda não encontrado. Continue jogando para descobrir.
+Henüz bulunmadı. Keşfetmek için oynamaya devam et.
+Conquistas {0}/{1}
+Başarımlar {0}/{1}
+Borda das cartas (libera a cada 3 conquistas):
+Kart kenarlığı (her 3 başarımda bir açılır):
+Suas melhores runs neste quadro (neste aparelho)
+Bu tablodaki en iyi turların (bu cihazda)
+Ninguém ainda: termine uma run para entrar aqui!
+Henüz kimse yok: buraya girmek için bir tur bitir!
+andar {0} · {1} caminhos
+kat {0} · {1} durak
+Últimas runs
+Son turlar
+Nenhuma run terminada ainda.
+Henüz bitirilmiş tur yok.
+SORTEANDO A SUA RUN
+TURUN BELİRLENİYOR
+Boa sorte! Toque para começar
+Bol şans! Başlamak için dokun
+Toque para pular
+Geçmek için dokun
+ROLETA DO TESOURO
+HAZİNE ÇARKI
+Girando... base ${0}
+Çevriliyor... taban ${0}
+1/2  Toque na relíquia que você vai ENTREGAR
+1/2  VERECEĞİN kalıntıya dokun
+2/2  Escolha a relíquia nova
+2/2  Yeni kalıntıyı seç
+Transplante
+Aktarım
+1/2  Toque na torre que vai DOAR os buffs
+1/2  Buffları VERECEK kuleye dokun
+2/2  Toque na torre que vai RECEBER os {0} buffs  ·  ${1}
+2/2  {0} buffı ALACAK kuleye dokun  ·  ${1}
+{0} buffs
+{0} buff
+Você derrotou o Rei das Bombas!
+Bomba Kralı'nı yendin!
+Continue no modo infinito (os andares seguem cada vez mais difíceis) ou encerre e receba a recompensa.
+Sonsuz modda devam et (katlar giderek zorlaşır) ya da bitir ve ödülünü al.
+Encerrar
+Bitir
+carregando {0}% (derrote inimigos ou aguarde na onda)
+doluyor: %{0} (düşmanları yen veya dalgada bekle)
+use durante a onda
+dalga sırasında kullan
+Melhorias, torres, relíquias e o Poder da Run valem a run toda.
+Geliştirmeler, kuleler, kalıntılar ve Tur Gücü tüm tur boyunca geçerli.
+Melhor: andar {0} · {1}/15
+En iyi: Kat {0} · {1}/15
+Andar {0} · caminho {1}/15
+Kat {0} · durak {1}/15
+(em andamento)
+(devam ediyor)
+Ainda vazio: vença o primeiro caminho de uma run para aparecer aqui!
+Henüz boş: burada görünmek için bir turun ilk durağını geç!
+Nenhuma run registrada ainda.
+Henüz kayıtlı tur yok.
+Tempestade de Raios
+Yıldırım Fırtınası
+Terremoto
+Deprem
+Chuva de Flechas
+Ok Yağmuru
+Chamado da Matilha
+Sürünün Çağrısı
+Armadilha de Mel
+Bal Tuzağı
+Um raio salta de inimigo em inimigo (até 12), com dano alto em cada um
+Yıldırım düşmandan düşmana sıçrar (12'ye kadar), her birine yüksek hasar
+Congela todos os inimigos da tela (até blindados) por 3s
+Ekrandaki tüm düşmanları (zırhlılar dahil) 3s dondurur
+Atordoa os inimigos de chão por 2s e causa dano em todos eles
+Yer düşmanlarını 2s sersemletir ve hepsine hasar verir
+Uma saraivada de flechas cai sobre o grupo maior por 4s
+En büyük grubun üstüne 4s ok yağar
+Lobos espirituais correm o caminho de trás para a frente mordendo os inimigos
+Ruh kurtlar yolu tersten koşup düşmanları ısırır
+Uma poça de mel no grupo maior: inimigos 65% mais lentos e perdendo vida por 6s
+En büyük gruba bal havuzu: düşmanlar 6s %65 yavaş ve can kaybeder
+Você tem {0}/{1}
+Sahip olunan: {0}/{1}
+Só o que você tem aparece nas runs
+Turlarda sadece sahip oldukların çıkar
+Você tem
+Sahipsin
+Novo no Arsenal: {0}
+Cephanelikte yeni: {0}
+Fazer {0} melhorias em torres
+Kulelere {0} yükseltme yap
+Colocar {0} torres no campo
+Sahaya {0} kule yerleştir
+meteoro
+meteoro
+muralha
+muralha
+tempo
+tempo
+ventania
+ventania
+grito
+grito
+olho
+olho
+fonte
+fonte
+raio
+raio
+nevasca
+nevasca
+terremoto
+terremoto
+flechas
+flechas
+matilha
+matilha
+mel
+mel
+Só Mágicas
+Sadece Sihirli
+Só torres mágicas na run
+Turda sadece sihirli kuleler
+Tudo Camuflado
+Hepsi Kamuflajlı
+Todos os inimigos vêm camuflados
+Tüm düşmanlar kamuflajlı gelir
+Sem Loja
+Mağaza Yok
+As lojas do mapa viram melhorias
+Haritadaki mağazalar geliştirmeye dönüşür
+Menos vida e fogueira fraca
+Daha az can ve zayıf kamp ateşi
+Correria
+Koşuşturma
+Inimigos apressados e loja cara
+Aceleci düşmanlar ve pahalı mağaza
+Ouro Escasso
+Kıt Altın
+Recompensas menores e loja cara
+Daha az ödül ve pahalı mağaza
+Chefões Fortes
+Güçlü Bosslar
+Chefes e inimigos mais resistentes
+Bosslar ve düşmanlar daha dayanıklı
+Relíquias Malditas
+Lanetli Kalıntılar
+Começa com 2 relíquias amaldiçoadas
+2 lanetli kalıntıyla başla
+Só Épicas
+Sadece Destansı
+Toda carta é épica, mas a loja custa o dobro
+Her kart destansı ama mağaza iki kat pahalı
+Metade da Vida
+Yarım Can
+Metade da vida e chefes furiosos
+Yarım can ve öfkeli bosslar
+Furacão
+Kasırga
+Tudo corre muito mais rápido
+Her şey çok daha hızlı akar
+Noite Eterna
+Sonsuz Gece
+Inimigos camuflados e robustos
+Kamuflajlı ve dayanıklı düşmanlar
+Feitiçaria
+Büyücülük
+Só mágicas e loja inflacionada
+Sadece sihirli ve fiyatları şişmiş mağaza
+Deserto Sem Fim
+Uçsuz Bucaksız Çöl
+Sem loja, pouco ouro e fogueira fria
+Mağaza yok, az altın ve soğuk kamp ateşi
+Maldição Antiga
+Kadim Lanet
+3 relíquias malditas e inimigos robustos
+3 lanetli kalıntı ve dayanıklı düşmanlar
+rogue_rel_0
+rogue_rel_0
+rogue_cl_neblina
+rogue_cl_neblina
+rogue_no_loja
+rogue_no_loja
+rogue_am_vidacurta
+rogue_am_vidacurta
+rogue_am_pressa
+rogue_am_pressa
+rogue_rel_6
+rogue_rel_6
+Jogar desafio
+Meydan okumayı oyna
+Semanal
+Haftalık
+Desafio de hoje: {0}  ·  detalhes no cartão ao lado
+Bugünün meydan okuması: {0}  ·  ayrıntılar yandaki kartta
+Desafio da semana: {0}  ·  detalhes no cartão ao lado
+Haftanın meydan okuması: {0}  ·  ayrıntılar yandaki kartta
+Desafio Semanal
+Haftalık Meydan Okuma
+Desafio Diário
+Günlük Meydan Okuma
+Nova semana em {0}d {1}h
+Yeni hafta: {0}g {1}s sonra
+Novo em {0}
+Yenisi {0} sonra
+Começa com {0} relíquias amaldiçoadas
+{0} lanetli kalıntıyla başla
+Prêmio: +{0}% de cristais no fim da run
+Ödül: tur sonunda +%{0} kristal
+Ainda não jogado nesta semana
+Bu hafta henüz oynanmadı
+Ainda não jogado hoje
+Bugün henüz oynanmadı
+Seu melhor na semana: Andar {0} · caminho {1}/15
+Bu haftaki en iyin: Kat {0} · durak {1}/15
+Seu melhor hoje: Andar {0} · caminho {1}/15
+Bugünkü en iyin: Kat {0} · durak {1}/15
+Vencer 1 partida
+1 maç kazan
+Derrotar {0} tanques
+{0} tank yen
+Derrotar {0} inimigos de cerâmica
+{0} seramik düşman yen
+Um mapa diferente a cada andar
+Her katta farklı bir harita
+Presente: ouro para a melhoria!
+Hediye: geliştirme için altın!
+PULAR TUTORIAL
+EĞİTİMİ ATLA
+Escolha a Raposa
+Tilki'yi seç
+Toque aqui, perto do caminho
+Buraya dokun, yolun yanına
+Solte a onda!
+Dalgayı gönder!
+A torre ataca sozinha!
+Kule kendi kendine saldırır!
+Toque perto do caminho
+Yolun yanına dokun
+Ganhou ouro! Coloque outra torre
+Altın kazandın! Bir kule daha koy
+Toque na sua torre
+Kulene dokun
+Compre uma melhoria
+Bir geliştirme al
+Mais rápido: toque no x1
+Daha hızlı: x1'e dokun
+Vença as {0} ondas!
+{0} dalga kazan!
+Passo {0} de {1}
+Adım {0}/{1}
+Seu HERÓI: coloque no campo
+KAHRAMANIN: sahaya yerleştir
+Escolha quem a torre ataca
+Kulenin kime saldıracağını seç
+AUTO: as ondas seguem sozinhas
+OTO: dalgalar kendiliğinden devam eder
+CAMUFLADO! Só torres com "Vê camuflado" o enxergam
+KAMUFLAJ! Sadece "Kamuflajı görür" kuleler onu fark eder
+Vida caindo! Coloque mais torres
+Can azalıyor! Daha fazla kule koy
+Dica
+İpucu
+Prêmios das missões ficam aqui
+Görev ödülleri burada
+Toque no prêmio verde para receber. Depois, Voltar
+Almak için yeşil ödüle dokun. Sonra Geri
+Hora de jogar!
+Oyun zamanı!
+Escolha a dificuldade
+Zorluğu seç
+Agora é só jogar!
+Artık sadece oyna!
+Bem-vindo!
+Hoş geldin!
+Você já sabe jogar! Aqui está um presente para começar:
+Artık oynamayı biliyorsun! Başlangıç için bir hediye:
+Receber
+Al
+Pular o tutorial?
+Eğitim atlansın mı?
+Dá para refazer depois no botão ? do menu.
+Daha sonra menüdeki ? düğmesiyle tekrar yapabilirsin.
+Refazer o tutorial?
+Eğitim tekrarlansın mı?
+Refazer
+Tekrarla
+Muito bem! Você já sabe jogar.
+Harika! Artık oynamayı biliyorsun.
+Aqui está um presente para começar:
+Başlangıç için bir hediye:
+Ganhou ouro! Arraste uma torre até o campo
+Altın kazandın! Bir kuleyi sahaya sürükle
+Arraste a torre até o lugar marcado
+Kuleyi işaretli yere sürükle
+Toque para receber o prêmio!
+Ödülü almak için dokun!
+Agora, volte ao menu
+Şimdi menüye dön
+Blindado: não
+Zırhlı: hayır
+Blindado: sim
+Zırhlı: evet
+CERÂMICA! Bem resistente: explosão faz pouco dano
+SERAMİK! Çok dayanıklı: patlamalar az hasar verir
+CURANDEIRO! Cura os vizinhos: derrube primeiro
+ŞİFACI! Yakındakileri iyileştirir: önce onu indir
+Camuflado: não
+Kamuflaj: hayır
+Camuflado: sim
+Kamuflaj: evet
+Carregando
+Yükleniyor
+Enviar 1
+1 gönder
+Enviar 10
+10 gönder
+Escolha a onda e mande qualquer inimigo
+Dalgayı seç, istediğin düşmanı gönder
+Idioma
+Dil
+Imune a EXPLOSÕES! Use flechas, espadas ou magia
+PATLAMALARA bağışık! Ok, kılıç ya da büyü kullan
+Imune a GELO e a EXPLOSÕES!
+BUZA ve PATLAMALARA bağışık!
+Imune a GELO! Não fica mais lento
+BUZA bağışık! Yavaşlamaz
+Imune a MAGIA! A magia não machuca este
+BÜYÜYE bağışık! Büyü buna hasar vermez
+METAL! Só fogo, raio ou explosão machucam
+METAL! Sadece ateş, yıldırım ya da patlama hasar verir
+Melhore a torre: {0}/{1}
+Kuleyi geliştir: {0}/{1}
+Não dá cristais, XP nem missões
+Kristal, XP ya da görev yok
+Onda {0}
+Dalga {0}
+Opções
+Seçenekler
+Ouro e vida infinitos
+Sonsuz altın ve can
+PROTEGIDO! Só MAGIA faz dano cheio
+KORUMALI! Sadece BÜYÜ tam hasar verir
+REGENERA! Acabe com ele rápido
+YENİLENİR! Onu çabuk bitir
+SANDBOX  (abrir)
+SANDBOX  (aç)
+SANDBOX  (fechar)
+SANDBOX  (kapat)
+Sandbox
+Sandbox
+Sandbox: ouro e vida infinitos
+Sandbox: sonsuz altın ve can
+Som
+Ses
+Todos os animais liberados
+Tüm hayvanlar açık
+Toque na torre para continuar
+Devam etmek için kuleye dokun
+Toque nesta torre
+Bu kuleye dokun
+Treine à vontade!
+İstediğin gibi antrenman yap!
+VEÍCULO! Muita vida: junte dano forte
+ARAÇ! Çok canı var: güçlü hasar topla
+Tela cheia
+Tam ekran
+Sair da tela cheia
+Tam ekrandan çık
+Gire o celular para continuar
+Devam etmek için telefonu çevir
+No iPhone o Safari não deixa a página ficar em tela cheia.
+iPhone'da Safari sayfanın tam ekran olmasına izin vermiyor.
+Para jogar sem as barras do navegador:
+Tarayıcı çubukları olmadan oynamak için:
+1. Toque em Compartilhar (o quadrado com a seta para cima)
+1. Paylaş'a dokun (yukarı oklu kare)
+2. Escolha "Adicionar à Tela de Início"
+2. "Ana Ekrana Ekle"yi seç
+3. Abra o jogo pelo ícone novo: ele abre em tela cheia
+3. Oyunu yeni simgeden aç: tam ekran açılır
+Entendi
+Tamam
+Jogo
+Oyun
+Refazer tutorial
+Eğitimi tekrarla
+Cumpra a missão da skin para poder comprá-la. Ela aparece nas suas partidas.
+Satın alabilmek için kostümün görevini tamamla. Maçlarında görünür.
+Bônus
+Bonus
+Dica: use dois dedos (pinça) para dar zoom no mapa
+İpucu: haritayı yakınlaştırmak için iki parmakla sıkıştır
+Conquistas
+Başarımlar
+Relíquias
+Kalıntılar
+Automática
+Otomatik
+Vila
+Köy
+Santuário
+Tapınak
+Histórico
+Geçmiş
+{0} chefes  ·  {1} elites
+{0} patron  ·  {1} elit
+{0} abates  ·  {1} torres
+{0} öldürme  ·  {1} kule
+Escudo -{0}
+Kalkan -{0}
+Dourado: sem dano
+Altın: hasar yok
+XP x2 (+{0})
+XP x2 (+{0})
+XP dobrado!
+XP ikiye katlandı!
+Aventura
+Macera
+Feira
+Panayır
