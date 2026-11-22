@@ -1,0 +1,3294 @@
+VOLTAR
+QUAY LẠI
+Carregando
+Đang tải
+Masmorra
+Hầm ngục
+Contra IA
+Đấu với AI
+Partida local
+Trận cục bộ
+MASMORRA
+HẦM NGỤC
+CONTRA IA
+ĐẤU VỚI AI
+PARTIDA LOCAL
+TRẬN CỤC BỘ
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+10 hầm ngục có trùm, 4 độ khó và sao. Phần thưởng: huy chương, đá, cỏ bốn lá và phước lành.
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+Hai người chơi trở lên trên cùng một thiết bị, lần lượt theo lượt. Trang bị cân bằng, không có thưởng.
+Música
+Nhạc
+Sons
+Âm thanh
+Som
+Âm thanh
+Idioma
+Ngôn ngữ
+Batalha de artilharia entre animais
+Trận chiến pháo binh của các loài vật
+Ferreiro
+Thợ rèn
+Armeiro
+Kho vũ khí
+Animais
+Động vật
+Opções
+Tùy chọn
+versão de teste
+bản thử nghiệm
+Nível {0}
+Cấp {0}
+Todos os animais disponíveis!
+Đã mở tất cả động vật!
+Próximo animal: {0} no nível {1}
+Động vật tiếp theo: {0} ở cấp {1}
+Em construção
+Đang xây dựng
+Batalha em construção
+Trận đấu đang xây dựng
+Raposa
+Cáo
+Urso
+Gấu
+Coruja
+Cú
+Salamandra
+Kỳ giông
+Rinoceronte
+Tê giác
+Cobra
+Rắn
+Tartaruga
+Rùa
+Guaxinim
+Gấu mèo
+Gato
+Mèo
+Águia
+Đại bàng
+Tigre
+Hổ
+Pinguim
+Chim cánh cụt
+Gorila
+Khỉ đột
+Tubarão
+Cá mập
+Jacaré
+Cá sấu
+Texugo
+Lửng
+Ouriço
+Nhím
+Morcego
+Dơi
+Arma
+Vũ khí
+Chapéu
+Mũ
+Roupa
+Áo giáp
+Amuleto
+Bùa hộ mệnh
+Madeira
+Gỗ
+Ferro
+Sắt
+Aço
+Thép
+Mítico
+Thần thoại
+Lendário
+Huyền thoại
+Pedras
+Đá
+Trevo
+Cỏ bốn lá
+Bênção
+Phước lành
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+Nâng cấp bậc trang bị (Gỗ, Sắt, Thép, Thần thoại, Huyền thoại) và mua đá.
+Medalhas
+Huy chương
+Escolhido
+Đã chọn
+Escolher
+Chọn
+cristais
+pha lê
+{0} comprado!
+Đã mở khóa {0}!
+Cristais insuficientes
+Không đủ pha lê
+Disponível no nível {0}
+Mở ở cấp {0}
+Jogador
+Người chơi
+Aliado
+Đồng minh
+Rival
+Đối thủ
+Não foi possível baixar o mapa. Verifique a conexão.
+Không thể tải bản đồ. Hãy kiểm tra kết nối.
+Carregando os animais
+Đang tải các con vật
+Mapa inválido
+Bản đồ không hợp lệ
+Colinas Verdes
+Đồi Xanh
+Picos Nevados
+Đỉnh Tuyết
+Deserto Dourado
+Sa Mạc Vàng
+Floresta Encantada
+Rừng Phép Thuật
+Vulcão
+Núi Lửa
+Praia Pirata
+Bãi Biển Hải Tặc
+Terra dos Doces
+Xứ Sở Kẹo Ngọt
+Castelo
+Lâu Đài
+Caverna de Cristal
+Hang Pha Lê
+Pântano
+Đầm Lầy
+Cemitério Assombrado
+Nghĩa Địa Ma Ám
+Ruínas Celestes
+Tàn Tích Trên Mây
+Fábrica Steampunk
+Nhà Máy Steampunk
+Recife de Coral
+Rạn San Hô
+Templo da Selva
+Đền Rừng Rậm
+Cidade Neon
+Thành Phố Neon
+Base Lunar
+Căn Cứ Mặt Trăng
+Faroeste
+Miền Viễn Tây
+caiu na lava
+rơi vào dung nham
+caiu no chocolate
+rơi vào sô-cô-la
+caiu no lodo
+rơi xuống bùn
+sumiu na névoa
+biến mất trong sương mù
+caiu das nuvens
+rơi khỏi những đám mây
+caiu no metal derretido
+rơi vào kim loại nóng chảy
+foi levado pela correnteza
+bị dòng nước cuốn trôi
+caiu no vazio neon
+rơi vào khoảng không neon
+flutuou para o espaço
+trôi dạt vào vũ trụ
+afundou na areia movediça
+chìm trong cát lún
+caiu na água
+rơi xuống nước
+4 TxT
+4 FFA
+6 TxT
+6 FFA
+8 TxT
+8 FFA
+Fácil
+Dễ
+Normal
+Thường
+Difícil
+Khó
+erram muito
+bắn trượt nhiều
+erram um pouco
+trượt một chút
+quase não erram
+hầu như không trượt
+mira perfeita
+ngắm hoàn hảo
+Valente
+Dũng Cảm
+Veloz
+Nhanh Nhẹn
+Sombrio
+Bóng Tối
+Feroz
+Hung Dữ
+Astuto
+Láu Lỉnh
+Dourado
+Hoàng Kim
+Furioso
+Giận Dữ
+Sereno
+Điềm Tĩnh
+Selvagem
+Hoang Dã
+Teimoso
+Bướng Bỉnh
+Ligeiro
+Lanh Lẹ
+Brabo
+Dữ Tợn
+Sorrateiro
+Lén Lút
+Bravo
+Gan Lì
+Esperto
+Thông Minh
+Trovão
+Sấm Sét
+Relâmpago
+Tia Chớp
+Pimenta
+Cay Nồng
+Corajoso
+Gan Dạ
+ÁRVORE 1 NÍVEL 4
+CÂY 1 CẤP 4
+DEUS 1
+THẦN 1
+DEUS 2
+THẦN 2
+DEUS 3
+THẦN 3
+SEU TIME
+ĐỘI CỦA BẠN
+VOCÊ
+BẠN
+TODOS CONTRA TODOS
+HỖN CHIẾN
+RIVAIS
+ĐỐI THỦ
+Nv {0}
+Cấp {0}
+PAUSADO
+TẠM DỪNG
+Sair agora encerra a partida sem prêmio.
+Thoát bây giờ sẽ kết thúc trận mà không có phần thưởng.
+turno {0}
+lượt {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+sát thương {0}  ·  nhận {1}  ·  hạ gục {2}  ·  chính xác {3}%
+Tremor
+Rung
+CONTINUAR
+TIẾP TỤC
+RENDER-SE
+ĐẦU HÀNG
+SAIR
+THOÁT
+EMPATE
+HÒA
+VITÓRIA!
+CHIẾN THẮNG!
+DERROTA
+THẤT BẠI
+VER PLACAR
+XEM BẢNG ĐIỂM
+DE NOVO
+CHƠI LẠI
+REVANCHE
+TÁI ĐẤU
+{0} turnos
+{0} lượt
+mais dano: {0}
+nhiều sát thương nhất: {0}
+JOGADOR
+NGƯỜI CHƠI
+DANO
+SÁT THƯƠNG
+ABATES
+HẠ GỤC
+PRECISÃO
+CHÍNH XÁC
+MAIOR TIRO
+PHÁT BẮN LỚN NHẤT
+precisão: {0} {1}%
+chính xác: {0} {1}%
+maior tiro: {0} {1}
+phát bắn lớn nhất: {0} {1}
+abates: {0} x{1}
+hạ gục: {0} x{1}
+prêmios da partida: em breve
+phần thưởng trận: sắp ra mắt
+Você se rendeu
+Bạn đã đầu hàng
+O tiro saiu do mapa!
+Phát bắn đã bay ra khỏi bản đồ!
+na água
+dưới nước
+ALELUIA!
+A-LÊ-LU-IA!
+era uma armadilha!
+là một cái bẫy!
+caixa destruída
+thùng bị phá hủy
+atingido por um raio
+bị sét đánh
+o gelo quebrou!
+băng vỡ rồi!
+TIRO LONGO! {0}m
+CÚ BẮN XA! {0}m
+CRÍTICO
+CHÍ MẠNG
+ANIQUILADO!
+HỦY DIỆT!
+congelado {0} turno(s)
+đóng băng {0} lượt
+NA MOSCA!
+TRÚNG HỒNG TÂM!
+ÓTIMO!
+TUYỆT VỜI!
+BOM
+TỐT
+DE RASPÃO
+SƯỢT QUA
+MULTI-ACERTO x{0}
+ĐA TRÚNG x{0}
+ABATE QUÁDRUPLO!
+HẠ GỤC BỐN!
+ABATE TRIPLO!
+HẠ GỤC BA!
+ABATE DUPLO!
+HẠ GỤC ĐÔI!
+FÚRIA PRONTA!
+CUỒNG NỘ SẴN SÀNG!
+caiu de muito alto
+rơi từ quá cao
+PLOFT!
+PLỐP!
+TCHIBUM!
+ÙM!
+caiu do mapa
+rơi khỏi bản đồ
+Precisa estar no chão
+Phải đứng trên mặt đất
+Energia insuficiente para pular
+Không đủ năng lượng để nhảy
+água!
+nước!
+ESPECIAL
+TUYỆT CHIÊU
+invisível
+tàng hình
+Ninguém colado — chegue mais (energia gasta)
+Không ai ở sát — lại gần hơn (đã tốn năng lượng)
+{0} (pronta em {1}): {2}
+{0} (sẵn sàng sau {1}): {2}
+{0} precisa de {1} de energia
+{0} cần {1} năng lượng
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+DỊCH CHUYỂN: chạm vào nơi trên bản đồ bạn muốn đến rồi xác nhận (chạm vào kỹ năng để hủy)
+Teletransporte cancelado
+Đã hủy dịch chuyển
+Aí não dá — escolha um chão firme e livre
+Không thể đến đó — chọn chỗ đất vững và trống
+{0} se teletransportou!
+{0} đã dịch chuyển!
+CONGELADO (protegido)
+ĐÓNG BĂNG (được bảo vệ)
+patada de urso
+cú vả của gấu
+cutucão
+cú chọc
+soco de fogo
+cú đấm lửa
+machado de batalha
+rìu chiến
+martelada sísmica
+búa địa chấn
+Nenhum rival à vista (energia gasta)
+Không thấy đối thủ nào (đã tốn năng lượng)
+revólver
+súng lục
+{0} usou {1}
+{0} đã dùng {1}
+SINERGIA +10
+CỘNG HƯỞNG +10
+arco longo
+cung dài
+Não acertou ninguém no caminho
+Không trúng ai trên đường đi
+orbe arcano
+quả cầu bí thuật
+BUM ARCANO!
+BÙM BÍ THUẬT!
+Ninguém ao alcance (energia gasta)
+Không ai trong tầm (đã tốn năng lượng)
+Ninguém na sua frente — chegue mais (energia gasta)
+Không ai trước mặt bạn — lại gần hơn (đã tốn năng lượng)
+grito sônico
+tiếng thét siêu âm
+Ninguém na sua frente (energia gasta)
+Không ai trước mặt bạn (đã tốn năng lượng)
+enrolado nas vinhas
+bị dây leo quấn
+bola de dragão
+quả cầu rồng
+machado giratório
+rìu xoáy
+pisão do gorila
+cú dậm của khỉ đột
+Sem combustível
+Hết nhiên liệu
+Toque no mapa para marcar o alvo
+Chạm vào bản đồ để đánh dấu mục tiêu
+SUA VEZ!
+LƯỢT CỦA BẠN!
+VEZ DE {0}
+LƯỢT CỦA {0}
+RETIRADA: {0} s - corra para um lugar seguro!
+RÚT LUI: {0} s - chạy đến nơi an toàn!
+VOCÊ CAIU
+BẠN ĐÃ RƠI
+últ.
+cuối
+MIRA
+NGẮM
+na sua vez
+trong lượt của bạn
+ESPECIAL PRONTO
+TUYỆT CHIÊU SẴN SÀNG
+fúria
+cuồng nộ
+FORÇA
+LỰC
+último
+cuối cùng
+FÚRIA
+CUỒNG NỘ
+FÚRIA!
+CUỒNG NỘ!
+PASSAR
+BỎ LƯỢT
+EXPLODIR
+KÍCH NỔ
+AGUARDE
+CHỜ
+VOANDO!
+ĐANG BAY!
+VOAR
+BAY
+SEM GÁS
+HẾT XĂNG
+SOLTE!
+THẢ RA!
+USAR
+DÙNG
+SEGURE
+GIỮ
+atire ou PASSE!
+bắn hoặc BỎ LƯỢT!
+{0} no próximo tiro
+{0} cho phát bắn kế tiếp
+DANO x2
+SÁT THƯƠNG x2
+Você foi derrotado - assistindo
+Bạn đã bị hạ - đang xem
+PRÓX.
+TIẾP
+VENTO
+GIÓ
+A FAVOR
+XUÔI GIÓ
+CONTRA
+NGƯỢC GIÓ
+SUBINDO!
+ĐANG DÂNG!
+água sobe em {0}
+nước dâng sau {0}
+TURNO {0}
+LƯỢT {0}
+SUA VEZ
+LƯỢT CỦA BẠN
+RETIRADA
+RÚT LUI
+{0} está mirando...
+{0} đang ngắm...
+VERDADEIRO
+THẬT
+DANO +{0}%
+SÁT THƯƠNG +{0}%
+ITENS
+VẬT PHẨM
+MAIS
+THÊM
+em {0} vezes
+trong {0} lần
+rod. {0}
+vòng {0}
+espera {0}
+chờ {0}
+CONFIRMAR
+XÁC NHẬN
+Nv {0}  
+Cấp {0}  
+joga em {0}º
+lượt thứ {0}
+vida {0} / {1}
+máu {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+CÔNG {0}   THỦ {1}   NHANH {2}   MAY {3}    (chí mạng {4}% · nhận -{5}%)
+Especial: {0}
+Tuyệt chiêu: {0}
+ (em {0})
+ (sau {0})
+ferramentas restantes: {0}   ·   {1} de energia por vez
+dụng cụ còn lại: {0}   ·   {1} năng lượng mỗi lần
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} sát thương · trúng {1}/{2} · hạ gục {3}
+ · sequência {0}
+ · chuỗi {0}
+coragem +15%
+dũng khí +15%
+último tiro: {0}° · força {1}
+phát cuối: {0}° · lực {1}
+dano +
+sát thương +
+dano 
+sát thương 
+raio +
+bán kính +
+raio 
+bán kính 
+bala pesada
+đạn nặng
+bala leve (vai longe)
+đạn nhẹ (bay xa)
+sofre pouco com o vento
+ít bị gió ảnh hưởng
+sofre mais com o vento
+bị gió ảnh hưởng nhiều
+arma equilibrada
+vũ khí cân bằng
+{0} desmarcado
+đã bỏ chọn {0}
+Nada para prender nessa mira
+Không có gì để móc vào theo hướng ngắm này
+A corda não alcança nada nessa direção (até {0})
+Dây không chạm tới gì theo hướng này (tối đa {0})
+andar balança · as setas sobem/descem · PULAR solta
+đi để đu · mũi tên lên/xuống · NHẢY để thả
+{0} libera na rodada {1} (faltam {2})
+{0} mở khóa ở vòng {1} (còn {2})
+{0} já está ativo
+{0} đã được kích hoạt
+Acabou: {0} ({1}x por partida)
+Hết lượt dùng: {0} ({1}x mỗi trận)
+{0}: recarrega em {1} turno(s)
+{0}: hồi sau {1} lượt
+Vida já está cheia
+Máu đã đầy
+Na masmorra o cenário não se destrói
+Trong hầm ngục, địa hình không thể bị phá hủy
+A granada não soma com a Fúria nem com o Avião
+Lựu đạn không cộng dồn với Cuồng nộ hay Máy bay
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} là đòn tấn công của lượt này (không cộng với Cuồng nộ, +1, +2 hay 3 Phát)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0} không nhận Sát thương +% hay Băng (chúng chỉ áp dụng cho phát bắn)
+{0} vale só para o tiro (não para a ferramenta)
+{0} chỉ áp dụng cho phát bắn (không cho dụng cụ)
+Energia insuficiente ({0})
+Không đủ năng lượng ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+Đòn TUYỆT CHIÊU không cộng với 3 Phát, +1 hay +2
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+Chỉ một: 3 Phát, +1 HOẶC +2 (chỉ 3 Phát + +1 đi cùng nhau)
+Toque no TERRENO (até 520 de você) para prender a corda
+Chạm vào ĐỊA HÌNH (cách bạn tối đa 520) để móc dây
+o fogo apagou
+lửa đã tắt
+veneno curado
+đã giải độc
+{0} se curou (+{1}) e encerrou a vez
+{0} đã hồi máu (+{1}) và kết thúc lượt
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+Không có gì để móc vào theo hướng ngắm này — chạm vào ĐỊA HÌNH để phóng dây
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+Đang bay! GIỮ nút BAY · di chuyển trên không · đáp đất là hết
+Pavio da granada: {0} s (toque de novo para mudar)
+Ngòi lựu đạn: {0} s (chạm lần nữa để đổi)
+as setas inclinam o túnel · USAR acende
+mũi tên chỉnh độ nghiêng đường hầm · DÙNG để đốt
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+Chạm vào bản đồ để đánh dấu mục tiêu · mũi tên đổi phía máy bay · XÁC NHẬN
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+Chạm vào bản đồ để đặt · mũi tên để xoay · XÁC NHẬN
+{0} pronto — toque em USAR
+{0} sẵn sàng — chạm DÙNG
+paraquedas pronto
+dù đã sẵn sàng
+CORRA!
+CHẠY!
+BÉÉÉ!
+BE BE!
+cacho de granadas!
+chùm lựu đạn!
+mina plantada
+đã đặt mìn
+granada na mão
+lựu đạn trong tay
+jetpack pronto
+jetpack sẵn sàng
+Não cabe aí
+Không vừa chỗ đó
+Longe demais — até 600 de você
+Xa quá — tối đa 600 từ bạn
+Tem alguém aí — escolha outro lugar
+Có người ở đó — chọn chỗ khác
+britadeira!
+máy khoan!
+maçarico!
+đèn khò!
+maçarico
+đèn khò
+Acabou o combustível
+Hết nhiên liệu
+Pousou — o botão volta a atirar
+Đã đáp — nút bấm bắn lại được
+ATAQUE AÉREO!
+KHÔNG KÍCH!
+3 Tiros
+3 Phát
+Ataque +1
+Tấn công +1
+Ataque +2
+Tấn công +2
+Dano +10%
+Sát thương +10%
+Dano +20%
+Sát thương +20%
+Dano +30%
+Sát thương +30%
+Dano +40%
+Sát thương +40%
+Dano +50%
+Sát thương +50%
+Avião
+Máy bay
+Gelo
+Băng
+Invisível
+Tàng hình
+Cura
+Hồi máu
+Guia
+Dẫn đường
+Mudar Vento
+Đổi Gió
+Paraquedas
+Dù
+Baixa gravidade
+Trọng lực thấp
+Viga
+Thanh dầm
+Maçarico
+Đèn khò
+Cipó
+Dây leo
+Britadeira
+Máy khoan
+Passo Rápido
+Bước Nhanh
+Elástico
+Dây Thun
+Dinamite
+Thuốc nổ
+Ovelha
+Cừu
+Granada
+Lựu đạn
+Mina
+Mìn
+Cacho de Granadas
+Chùm Lựu Đạn
+Teletransporte
+Dịch chuyển
+Ataque Aéreo
+Không kích
+Pombo-bomba
+Bồ câu bom
+Bolha-escudo
+Bong bóng khiên
+Ampulheta
+Đồng hồ cát
+Ataque
+Tấn công
+Ataques
+Đòn đánh
+Dano
+Sát thương
+Vento
+Gió
+Paraq.
+Dù
+Gravid.
+Tr.lực
+Corda
+Dây
+Britad.
+Khoan
+Rápido
+Nhanh
+Cacho
+Chùm
+Portal
+Cổng
+Aéreo
+Không kích
+Pombo
+Bồ câu
+Bolha
+Bóng
+Tempo
+Thời gian
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+3 phát hình quạt (-50% mỗi phát) · với +1 = combo 1+2 (6 viên)
+atira mais 1 vez (-10% cada)
+bắn thêm 1 lần (-10% mỗi phát)
+atira mais 2 vezes (-40% cada)
+bắn thêm 2 lần (-40% mỗi phát)
++10% de dano (soma com os outros)
++10% sát thương (cộng dồn với các cái khác)
++20% de dano (soma com os outros)
++20% sát thương (cộng dồn với các cái khác)
++30% de dano (soma com os outros)
++30% sát thương (cộng dồn với các cái khác)
++40% de dano (soma com os outros)
++40% sát thương (cộng dồn với các cái khác)
++50% de dano (soma com os outros)
++50% sát thương (cộng dồn với các cái khác)
+você vai voando até onde a bala cair (sem dano)
+bạn bay tới nơi viên đạn rơi (không sát thương)
+congela quem for atingido por 2 turnos
+đóng băng kẻ bị trúng trong 2 lượt
+invisível para os rivais por 3 rodadas
+tàng hình với đối thủ trong 3 vòng
+recupera 30% da vida e ENCERRA o turno
+hồi 30% máu và KẾT THÚC lượt
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+phát bắn đuổi theo đối thủ gần nhất nếu bay ngang qua (-20% sát thương)
+inverte o vento nesta rodada
+đảo chiều gió trong vòng này
+cai devagar e sem dano de queda até a sua próxima vez
+rơi chậm và không chịu sát thương rơi cho đến lượt sau
+os tiros deste turno voam mais longe (gravidade baixa)
+phát bắn lượt này bay xa hơn (trọng lực thấp)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+DẦM thép: chạm vào bản đồ để đặt, mũi tên để xoay và XÁC NHẬN để đặt — làm cầu, chỗ nấp hoặc dốc
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+mở một ĐƯỜNG HẦM xuyên qua đồi; mũi tên chỉnh độ nghiêng trước khi dùng; ai cản đường nhận 40
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+DÙNG để cất cánh; GIỮ nút tấn công để bay lên và di chuyển trên không — 3 s nhiên liệu, không sát thương rơi
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+DÙNG phóng dây theo hướng ngắm (tối đa 520); đi để đu, mũi tên rút ngắn/kéo dài, NHẢY để thả
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+đào một giếng XUỐNG DƯỚI và bạn rơi qua đó; ai ở bên dưới nhận 40
+nesta vez você anda quase o DOBRO gastando metade da energia
+lượt này bạn đi xa gần GẤP ĐÔI mà chỉ tốn nửa năng lượng
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+lượt này, nếu rơi xuống nước hoặc ra khỏi bản đồ, dây thun sẽ kéo bạn lại
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+thả THUỐC NỔ dưới chân (300 sát thương) với ngòi 5 s — là đòn tấn công của lượt
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+thả một con CỪU nổ: tự đi theo hướng bạn nhìn, nhảy qua chướng ngại và nổ vào đối thủ đầu tiên (hoặc sau 6 s) — là đòn tấn công của lượt
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+phát bắn kế tiếp là LỰU ĐẠN: nảy trên mặt đất và các con vật rồi nổ sau 6 s
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+đặt một quả MÌN trên mặt đất trước mặt: kích hoạt sau 2,5 s; khi BẤT KỲ AI lại gần (cả bạn và đồng minh!), nó kêu bíp và nổ sau 1,5 s (đôi khi tịt) — là đòn tấn công của lượt
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+phát bắn kế tiếp là CHÙM LỰU ĐẠN: nảy, nổ sau 6 s và tách thành 5 quả nhỏ hơn
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+chạm/kéo trên bản đồ để chọn điểm đến và DÙNG để dịch chuyển — tốn lượt
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+chạm vào bản đồ để đánh dấu mục tiêu, mũi tên chọn phía máy bay đến và XÁC NHẬN gọi 5 tên lửa — là đòn tấn công của lượt
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+chạm vào bản đồ để đánh dấu mục tiêu và DÙNG để thả BỒ CÂU: bay thẳng tới đó (không bị gió) và nổ — là đòn tấn công của lượt
+uma BOLHA te protege: metade do dano até a sua próxima vez
+một BONG BÓNG bảo vệ bạn: giảm nửa sát thương đến lượt sau
++10 s nesta vez para mirar com calma
++10 s lượt này để ngắm thong thả
+Tiro Especial
+Phát Bắn Đặc Biệt
+Chuva de Flechas
+Mưa Tên
+Terremoto
+Động Đất
+Orbe Teleguiado
+Cầu Dẫn Đường
+Inferno
+Hỏa Ngục
+Bala Quicante
+Đạn Nảy
+Picada Venenosa
+Vết Đốt Độc
+Casco de Gelo
+Mai Băng
+Chuva Curativa
+Mưa Chữa Lành
+Corte Duplo
+Song Trảm
+Garras em Fúria
+Vuốt Cuồng Nộ
+Avalanche
+Tuyết Lở
+Pedregulho
+Tảng Đá
+Gêiser
+Mạch Phun
+Broca
+Mũi Khoan
+Fragmentação
+Phân Mảnh
+Explosão de Espinhos
+Bùng Nổ Gai
+Mordida Vampira
+Cắn Ma Cà Rồng
+tiro forte e cratera grande
+phát bắn mạnh và hố lớn
+6 flechas caem do céu em volta
+6 mũi tên rơi từ trời xuống xung quanh
+cratera gigante e tremor
+hố khổng lồ và rung chấn
+persegue o inimigo mais perto
+đuổi theo kẻ địch gần nhất
+queima 3 turnos
+thiêu đốt 3 lượt
+raio cai do céu na coluna do impacto
+sét đánh thẳng xuống điểm va chạm
+quica 2 vezes explodindo
+nảy 2 lần và phát nổ
+envenena 3 turnos
+gây độc 3 lượt
+congela quem atingir + escudo 2 turnos
+đóng băng kẻ trúng + khiên 2 lượt
+cura os aliados e fere os rivais
+hồi máu đồng minh và gây thương đối thủ
+2 tiros especiais seguidos
+2 phát đặc biệt liên tiếp
+3 explosões em linha
+3 vụ nổ thẳng hàng
+congela tudo numa área grande
+đóng băng mọi thứ trong vùng rộng
+pedra enorme e pesada
+tảng đá to và nặng
+lança os rivais para o alto
+hất đối thủ lên cao
+atravessa o chão e explode por dentro
+xuyên đất và nổ từ bên trong
+se parte em 5 bombas
+tách thành 5 quả bom
+8 espinhos para todo lado
+8 gai bắn ra tứ phía
+cura você com 60% do dano
+hồi máu cho bạn bằng 60% sát thương
+Flecha Certeira
+Mũi Tên Chuẩn Xác
+Patada de Urso
+Cú Vả Của Gấu
+Rastro de Brasas
+Vệt Than Hồng
+Mergulho Teleguiado
+Bổ Nhào Dẫn Đường
+Bala Colossal
+Đạn Khổng Lồ
+Tiro Duplo
+Bắn Đôi
+Bloco de Gelo
+Khối Băng
+Ferrão
+Ngòi Chích
+Ervas Curativas
+Thảo Dược Chữa Lành
+Cutucão
+Cú Chọc
+Chuva de Bolotas
+Mưa Hạt Sồi
+Soco de Fogo
+Cú Đấm Lửa
+Machado de Batalha
+Rìu Chiến
+Martelada Sísmica
+Búa Địa Chấn
+Lança Afiada
+Giáo Sắc
+Revólver
+Súng Lục
+Sentinela
+Tháp Canh
+Espinhos
+Gai
+Eco Teleguiado
+Tiếng Vang Dẫn Đường
+o próximo tiro é CRÍTICO
+phát bắn kế tiếp là CHÍ MẠNG
+patada no rival colado: joga ele LONGE
+vả đối thủ đứng sát: hất văng nó ĐI XA
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+chạm bất kỳ đâu trên bản đồ và xuất hiện ở đó (kết thúc lượt)
+o próximo tiro deixa BRASAS no chão
+phát bắn kế tiếp để lại THAN HỒNG trên mặt đất
+o próximo tiro persegue o rival (mergulho da águia)
+phát bắn kế tiếp đuổi theo đối thủ (cú bổ nhào của đại bàng)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+phát bắn kế tiếp thành ĐẠN KHỔNG LỒ: vùng cực rộng và sát thương rất lớn
+dois tiros certeiros no rival à vista
+hai phát bắn chuẩn xác vào đối thủ trong tầm nhìn
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+bạn bọc mình trong khối băng: gần như không nhận sát thương đến lượt sau
+o próximo tiro envenena
+phát bắn kế tiếp gây độc
+cura 15% de você e dos aliados perto
+hồi 15% máu cho bạn và đồng minh gần đó
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+cú chọc katana: đẩy mạnh đối thủ đứng sát (tuyệt khi ở mép vực)
+3 bolotas caem em cima do rival mais perto
+3 hạt sồi rơi xuống đối thủ gần nhất
+soco de fogo: joga o rival colado lá no alto
+cú đấm lửa: hất đối thủ đứng sát lên thật cao
+corta METADE da vida do rival colado
+chém mất MỘT NỬA máu đối thủ đứng sát
+martelo no chão: dano e joga para o alto quem está perto
+nện búa xuống đất: gây sát thương và hất tung kẻ ở gần
+a lança afia: o próximo tiro dá +35%
+mài giáo: phát bắn kế tiếp +35%
+seis tiros de revólver no rival à vista
+sáu phát súng lục vào đối thủ trong tầm nhìn
+torreta que atira sozinha em quem chega perto (4 tiros)
+tháp súng tự bắn kẻ đến gần (4 phát)
+espinhos no chão ferem o 1º rival que pisar
+gai trên mặt đất làm bị thương đối thủ đầu tiên giẫm lên
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+tiếng vang của dơi: phát bắn kế tiếp theo sóng âm đến đối thủ
+Arco Longo
+Cung Dài
+Investida do Urso
+Cú Húc Của Gấu
+Orbe Arcano
+Cầu Bí Thuật
+Lança-chamas
+Súng Phun Lửa
+Tempestade
+Bão Tố
+Morteiro
+Súng Cối
+Rajada de Precisão
+Loạt Bắn Chuẩn Xác
+Nevasca
+Bão Tuyết
+Nuvem Venenosa
+Mây Độc
+Vinhas
+Dây Leo
+Corte Relâmpago
+Trảm Tia Chớp
+Toca Explosiva
+Hang Nổ
+Cometa de Brasa
+Sao Chổi Lửa
+Machado Giratório
+Rìu Xoáy
+Pisão do Gorila
+Cú Dậm Khỉ Đột
+Cutucão de Lança
+Đâm Giáo
+Chuva de Balas
+Mưa Đạn
+Chuva de Espinhos
+Mưa Gai
+Grito Sônico
+Tiếng Thét Siêu Âm
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+hai mũi tên THẲNG vào đối thủ trong tầm nhìn (tối đa 1000): sát thương và đẩy lùi
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+con gấu lao về phía trước húc văng kẻ cản đường (-8% máu)
+um orbe mágico voa até o rival mais perto e EXPLODE
+quả cầu phép bay đến đối thủ gần nhất và PHÁT NỔ
+jato de fogo nos rivais à sua frente: dano e queimadura
+luồng lửa vào đối thủ trước mặt: sát thương và bỏng
+um raio cai no rival mais perto (até 900)
+sét đánh vào đối thủ gần nhất (tối đa 900)
+3 tiros de morteiro caem em volta do rival mais perto
+3 phát súng cối rơi quanh đối thủ gần nhất
+rajada de 5 tiros no rival à vista (até 800)
+loạt 5 phát vào đối thủ trong tầm nhìn (tối đa 800)
+congela os rivais perto por 1 turno
+đóng băng đối thủ gần đó trong 1 lượt
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+mây độc: gây độc TẤT CẢ đối thủ gần đó trong 3 lượt
+puxa o rival mais perto para junto de você e fere
+kéo đối thủ gần nhất về phía bạn và gây thương
+dispara para a frente cortando quem estiver no caminho
+lao về phía trước chém kẻ cản đường
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+phát bắn kế tiếp ĐÀO hang xuyên đất và nổ từ bên trong
+bola de energia reta para a frente: dano e empurrão no 1º rival
+quả cầu năng lượng bay thẳng: sát thương và đẩy lùi đối thủ đầu tiên
+machado que vai e volta: fere os rivais na sua frente (até 500)
+rìu bay đi rồi quay lại: gây thương đối thủ trước mặt (tối đa 500)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+DẬM: mặt đất rung chuyển, mọi đối thủ trên bản đồ nhận sát thương và bị lắc
+estocada longa na frente (até 380): dano e empurrão
+cú đâm dài phía trước (tối đa 380): sát thương và đẩy lùi
+rajada de pistolas em TODOS os rivais à vista (até 700)
+loạt súng lục vào TẤT CẢ đối thủ trong tầm nhìn (tối đa 700)
+rajada de 6 tiros no rival à vista (até 800)
+loạt 6 phát vào đối thủ trong tầm nhìn (tối đa 800)
+3 armadilhas de espinhos caem em volta do rival mais perto
+3 bẫy gai rơi quanh đối thủ gần nhất
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+tiếng thét siêu âm: sát thương và đẩy lùi mọi đối thủ trước mặt (tối đa 450)
+Poção: +25% de vida e cura veneno
+Thuốc: +25% máu và giải độc
+Energético: +120 de energia
+Nước tăng lực: +120 năng lượng
+Baú: +1 uso de cada ferramenta
+Rương: +1 lượt dùng mỗi dụng cụ
+Fúria: +40
+Cuồng nộ: +40
+ARMADILHA! O baú explodiu
+BẪY! Rương đã phát nổ
+Escudo: -50% de dano por 2 vezes
+Khiên: -50% sát thương trong 2 lần
+Luneta: +1 Mira Guiada
+Ống ngắm: +1 Ngắm Dẫn Đường
+Arma Surpresa: Fúria de outro animal no próximo tiro
+Vũ Khí Bất Ngờ: Cuồng nộ của con vật khác ở phát bắn kế tiếp
+Golpe Certeiro: o próximo tiro é CRÍTICO
+Đòn Chuẩn Xác: phát bắn kế tiếp là CHÍ MẠNG
+Paraquedas: +1 uso
+Dù: +1 lượt dùng
+Recarga: as 2 habilidades prontas
+Nạp Lại: 2 kỹ năng sẵn sàng
+Balança da Justiça: a vida dos times é dividida igual
+Cán Cân Công Lý: máu của các đội được chia đều
+Dano em Dobro: o próximo tiro causa 2x
+Sát Thương Gấp Đôi: phát bắn kế tiếp gây 2x
+Tempo Extra: +15 s na sua próxima vez
+Thêm Giờ: +15 s ở lượt sau của bạn
+Caixa de Arsenal: +1 de um utilitário
+Thùng Vũ Khí: +1 vật phẩm hỗ trợ
+Ai, meu rabo!
+Ui da, đuôi của tôi!
+Astúcia pura!
+Đúng là láu cá!
+O vento me enganou!
+Gió lừa tôi rồi!
+GRRRAU!
+GRRRAAA!
+Abraço de urso!
+Cái ôm của gấu!
+Cadê o mel?
+Mật ong đâu rồi?
+Uh-uh! Doeu!
+Hu hu! Đau quá!
+Previsível.
+Đoán trước được.
+Calculei errado...
+Tính sai rồi...
+Tô pegando fogo!
+Tôi đang cháy!
+Queimou!
+Cháy rồi!
+Esfriou...
+Nguội rồi...
+Penas pra todo lado!
+Lông bay tứ tung!
+Visão de águia!
+Mắt đại bàng!
+Vento traiçoeiro!
+Gió phản trắc!
+Nem senti... ai!
+Chẳng thấy gì... á!
+ATROPELADO!
+BỊ HÚC BAY!
+Mira de rinoceronte...
+Ngắm kiểu tê giác...
+Sssocorro!
+Cứu với sss!
+Sssó um bote!
+Chỉ một cú đớp thôi sss!
+Errei o bote...
+Đớp trượt rồi...
+Meu casco!
+Mai của tôi!
+Devagar e sempre!
+Chậm mà chắc!
+Calma, tô mirando...
+Bình tĩnh, đang ngắm...
+Minha lixeira!
+Thùng rác của tôi!
+Achado não é roubado!
+Nhặt được là của tôi!
+Era pra lá?
+Phải đằng đó à?
+Miau! Seis vidas...
+Meo! Còn sáu mạng...
+Caiu de pé? Não!
+Tiếp đất bằng chân? Không!
+Hmpf. Foi de propósito.
+Hừm. Cố ý đấy.
+Arranhão de nada!
+Chỉ xước nhẹ thôi!
+Rugido final!
+Tiếng gầm cuối cùng!
+Grrr... quase!
+Grrr... suýt nữa!
+Gelou!
+Đông cứng rồi!
+Escorregou, hein?
+Trượt chân hả?
+Patinei...
+Tôi trượt rồi...
+UH UH AH AH!
+U U A A!
+Força bruta!
+Sức mạnh cơ bắp!
+Bananas!
+Chuối!
+Sangue na água!
+Có máu dưới nước!
+Mordida certa!
+Cắn chuẩn!
+Nadei e morri na praia
+Bơi mãi rồi chết đuối bên bờ
+Couro duro!
+Da dày!
+Abocanhei!
+Đớp!
+Lágrimas de jacaré...
+Nước mắt cá sấu...
+Ninguém mexe comigo!
+Đừng ai đụng vào tôi!
+Cavei sua cova!
+Ta đã đào mộ cho ngươi!
+Terra no olho!
+Đất vào mắt rồi!
+Espinhos pra quê?!
+Cần gai làm gì?!
+Espetado!
+Bị đâm!
+Furou...
+Thủng rồi...
+Ecoou na cabeça!
+Vang cả trong đầu!
+Na escuridão!
+Trong bóng tối!
+Sonar falhou!
+Sóng âm hỏng rồi!
+Ai!
+Á!
+Essa doeu!
+Đau đấy!
+Ei!
+Này!
+Tá louco?!
+Điên à?!
+Toma!
+Nhận lấy!
+Um a menos!
+Bớt một!
+Próximo!
+Kế tiếp!
+Vai pra casa!
+Về nhà đi!
+Quase!
+Suýt nữa!
+Errei feio...
+Trượt xa quá...
+Era pra lá!
+Định bắn đằng đó mà!
+Ninguém viu.
+Không ai thấy đâu.
+fácil demais
+dễ quá
+socorro!
+cứu với!
+boa!
+hay!
+foi mal!
+xin lỗi nha!
+pegou fogo!
+cháy rồi!
+já era!
+xong rồi!
+bom jogo!
+chơi hay!
+na mosca!
+trúng hồng tâm!
+acorda!
+tỉnh dậy!
+que sorte!
+may thế!
+chorei!
+khóc luôn!
+vamos!
+đi nào!
+respeito!
+tôn trọng!
+anda logo!
+nhanh lên!
+isso aí!
+đúng rồi!
+agressivo: empilha Dano +%
+hung hăng: cộng dồn Sát thương +%
+preciso: erra menos
+chuẩn xác: ít trượt
+sorrateiro: some quando apanha
+lén lút: biến mất khi bị đánh
+apressado: atira rápido
+vội vàng: bắn nhanh
+teimoso: nunca se cura
+bướng bỉnh: không bao giờ hồi máu
+REAÇÃO EM CADEIA!
+PHẢN ỨNG DÂY CHUYỀN!
+BARRIL!
+THÙNG NỔ!
+BUUUM!
+BÙMMM!
+BÉÉÉ-BUM!
+BEEE-BÙM!
+MINA!
+MÌN!
+Sentinela destruída!
+Tháp canh bị phá hủy!
+pisou nos espinhos
+giẫm phải gai
+mina falhou!
+mìn bị tịt!
+Rastro de fogo no chão!
+Vệt lửa trên mặt đất!
+queimado no fogo
+bị cháy trong lửa
+abatido pela sentinela
+bị tháp canh hạ gục
+A sentinela de {0} atirou em {1}
+Tháp canh của {0} đã bắn {1}
+Um GALÃO EXPLOSIVO está caindo!
+Một THÙNG NỔ đang rơi xuống!
+Uma MINA está caindo!
+Một quả MÌN đang rơi xuống!
+Uma caixa de suprimento está caindo!
+Một thùng tiếp tế đang rơi xuống!
++{0} {1} (agora {2})
++{0} {1} (giờ là {2})
+{0} pegou {1}
+{0} đã nhặt {1}
+curado do {0}
+đã khỏi {0}
+Arsenal: +1 {0}
+Thùng Vũ Khí: +1 {0}
+{0} abriu uma ARMADILHA!
+{0} đã mở trúng BẪY!
+BÉÉ!
+BE!
+TIMES
+ĐỘI
+TxT = todos contra todos
+FFA = hỗn chiến
+DIFICULDADE DOS BOTS
+ĐỘ KHÓ CỦA BOT
+equip. dos bots {0}
+trang bị bot {0}
+{0} lutadores, cada um por si
+{0} đấu sĩ, mỗi người tự chiến
+{0} contra {1}
+{0} đấu {1}
+{0} bots
+{0} bot
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+Bàn phím: mũi tên để đi và ngắm · DẤU CÁCH giữ rồi thả để bắn · J nhảy · P bỏ lượt · F tuyệt chiêu · V toàn cảnh · Esc tạm dừng
+JOGAR
+CHƠI
+Aleatório
+Ngẫu nhiên
+MAPA
+BẢN ĐỒ
+FECHADO + TETO
+KÍN + TRẦN
+FECHADO
+KÍN
+ABERTO
+MỞ
+sorteia entre {0}
+chọn ngẫu nhiên trong {0}
+toque para ver todos
+chạm để xem tất cả
+MAPAS
+BẢN ĐỒ
+TETO
+TRẦN
+Sorte
+May mắn
+Defesa
+Phòng thủ
+Agilidade
+Nhanh nhẹn
+PODER {0}
+SỨC MẠNH {0}
+ARMA VERDADEIRA
+VŨ KHÍ THẬT
+Contra a IA o seu equipamento conta.
+Đấu với AI thì trang bị của bạn có tác dụng.
+TROCAR
+ĐỔI
+dano {0}%
+sát thương {0}%
+raio {0}%
+bán kính {0}%
+ humano
+ người
+A água começa a subir em 3 turnos!
+Nước bắt đầu dâng sau 3 lượt!
+MORTE SÚBITA: a água subiu!
+ĐỘT TỬ: nước đã dâng!
+MORTE SÚBITA! A água sobe a cada turno
+ĐỘT TỬ! Nước dâng mỗi lượt
+O vento VIROU para {0}
+Gió ĐỔI hướng sang {0}
+a direita
+phải
+a esquerda
+trái
+{0} joga DE NOVO (pouco atraso)!
+{0} chơi LẦN NỮA (ít trễ)!
+Tempo Extra: +15 s nesta vez
+Thêm Giờ: +15 s lượt này
+CORAGEM: último do time causa +15% de dano!
+DŨNG KHÍ: người cuối cùng của đội gây +15% sát thương!
+{0} está congelado!
+{0} bị đóng băng!
+{0} PRONTA! (botão roxo)
+{0} SẴN SÀNG! (nút tím)
+{0} pronta! (botão verde)
+{0} sẵn sàng! (nút xanh lá)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+Bạn có một CUỒNG NỘ MƯỢN: chạm vào quả cầu!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+CUỒNG NỘ SẴN SÀNG! Chạm vào quả cầu để kích hoạt tuyệt chiêu
+Rodada {0}: {1} liberado!
+Vòng {0}: đã mở khóa {1}!
+{0} passou a vez
+{0} đã bỏ lượt
+RÁPIDO! (joga antes)
+NHANH! (đi trước)
+pino fora!
+rút chốt!
+glub glub...
+ọc ọc...
+DUELO FINAL: {0} x {1}
+SONG ĐẤU CUỐI: {0} x {1}
+DUELO FINAL!
+SONG ĐẤU CUỐI!
+Só falta 1 rival!
+Chỉ còn 1 đối thủ!
+Você é o último do time!
+Bạn là người cuối cùng của đội!
+PRIMEIRO SANGUE: {0}
+MÁU ĐẦU: {0}
+VINGANÇA! {0} vingou {1}
+BÁO THÙ! {0} đã báo thù cho {1}
+EM CHAMAS!
+BỐC CHÁY!
+IMPARÁVEL!
+KHÔNG THỂ CẢN!
+DOMINANDO!
+ÁP ĐẢO!
+LENDÁRIO!
+HUYỀN THOẠI!
+DIVINO!
+THẦN THÁNH!
+{0}  {1} ({2} abates)
+{0}  {1} ({2} hạ gục)
+FOGO AMIGO: {0} derrubou {1}
+BẮN NHẦM ĐỒNG ĐỘI: {0} hạ gục {1}
+Tempo esgotado
+Hết giờ
+PEGOU NO AR!
+BẮT TRÊN KHÔNG!
+BUM!
+BÙM!
+{0} causou {1} de dano
+{0} gây {1} sát thương
+Fúria desarmada
+Đã hủy Cuồng nộ
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: cuồng nộ đạt {1}% (gây và nhận sát thương)
+Fúria: {0} — {1}
+Cuồng nộ: {0} — {1}
+Lobo
+Sói
+Aguia
+Đại Bàng
+Ourico
+Nhím
+Jacare
+Cá Sấu
+Tubarao
+Cá Mập
+Coelho
+Thỏ
+Sabio
+Hiền Triết
+Agil
+Nhanh Nhẹn
+Forte
+Mạnh Mẽ
+Lendario
+Huyền Thoại
+Boneco {0}
+Hình nộm {0}
+ TxT
+ FFA
+BONECOS
+HÌNH NỘM
+TIME AZUL
+ĐỘI XANH
+TIME VERMELHO
+ĐỘI ĐỎ
+OS HUMANOS VENCERAM!
+NGƯỜI CHƠI THẮNG!
+OS BOTS VENCERAM
+BOT THẮNG
+TIME {0} VENCEU!
+ĐỘI {0} THẮNG!
+AZUL
+XANH
+VERMELHO
+ĐỎ
+{0} VENCEU!
+{0} THẮNG!
+JOGAR DE NOVO
+CHƠI LẠI
+PRÓXIMA LUTA ({0}/3)
+TRẬN TIẾP ({0}/3)
+FIM DO TORNEIO
+KẾT THÚC GIẢI ĐẤU
+Cristais dobrados!
+Pha lê nhân đôi!
+Cristais x2
+Pha lê x2
+XP dobrado!
+XP nhân đôi!
+Anúncio indisponível: sem prêmio desta vez
+Quảng cáo không khả dụng: lần này không có thưởng
+ESCOLHA UMA CARTA!
+CHỌN MỘT LÁ BÀI!
+vitória! vire uma carta para ganhar um prêmio extra
+chiến thắng! lật một lá bài để nhận thưởng thêm
+PASSE O APARELHO
+CHUYỀN MÁY
+Vez de {0}
+Lượt của {0}
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  máu {1} / {2}  ·  cuồng nộ {3}%
+time {0}
+đội {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+Người vừa chơi: đừng nhìn trộm · đồng hồ chỉ chạy sau khi bấm TÔI SẴN SÀNG
+ESTOU PRONTO
+TÔI SẴN SÀNG
+PAUSA
+TẠM DỪNG
+DICA {0}/{1}
+MẸO {0}/{1}
+PULAR DICAS
+BỎ QUA MẸO
+ENTENDI
+ĐÃ HIỂU
+PRÓXIMA
+TIẾP
+Jogo local: sem prêmio nem estatística
+Chơi tại chỗ: không có thưởng hay thống kê
+TREINO · sem prêmio
+LUYỆN TẬP · không thưởng
+(NÍVEL {0}!)
+(CẤP {0}!)
++{0} cristais
++{0} pha lê
++{0} cristais pelo nível
++{0} pha lê nhờ lên cấp
+TREVO DA SORTE!
+CỎ BỐN LÁ MAY MẮN!
+BÊNÇÃO DIVINA!
+PHƯỚC LÀNH THẦN THÁNH!
+PERFEITA +{0}
+HOÀN HẢO +{0}
+1ª VITÓRIA DO DIA +{0}
+THẮNG TRẬN ĐẦU TRONG NGÀY +{0}
+MAPA DO DIA +{0}
+BẢN ĐỒ HÔM NAY +{0}
+VOLTA POR CIMA +{0}
+LỘI NGƯỢC DÒNG +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+VÔ ĐỊCH GIẢI ĐẤU! +{0} pha lê +3 đá +1 cỏ bốn lá
+RECORDE de tiro: {0}!
+KỶ LỤC phát bắn: {0}!
+RECORDE de dano: {0}!
+KỶ LỤC sát thương: {0}!
+NÍVEL {0}!
+CẤP {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+CẤP {0}  ·  {1} / {2} XP
+missões prontas: {0}
+nhiệm vụ đã xong: {0}
+conquistas para coletar: {0}
+thành tựu chờ nhận: {0}
+Novo: {0} disponível!
+Mới: đã có {0}!
+faltou {0} m
+thiếu {0} m
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+DI CHUYỂN bằng nút mũi tên (tốn năng lượng). Dốc thấp thì bạn leo được.
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+ĐỔI GÓC bằng nút lên và xuống. Mũi tên chỉ hướng bắn.
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+GIỮ để tích LỰC và THẢ để bắn. Xem GIÓ ở phía trên!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+DỤNG CỤ: mỗi lần chỉ MỘT trong +1, +2 hoặc 3 Phát (3 Phát + +1 = combo 6 viên); Sát thương +% cộng với mọi thứ (tốn năng lượng).
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+Nạp CUỒNG NỘ bằng cách gây và nhận sát thương rồi chạm vào quả cầu: TUYỆT CHIÊU!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+Chạm 2 lần vào bản đồ: xem toàn cảnh. Chạm vào một con vật: xem chỉ số. Rơi cao sẽ mất máu! Chúc chiến đấu vui!
+Mire com as setas e SEGURE o botão de ataque para atirar
+Ngắm bằng mũi tên và GIỮ nút tấn công để bắn
+Acerte um boneco (olhe o VENTO lá em cima)
+Bắn trúng một hình nộm (xem GIÓ ở phía trên)
+Use uma ferramenta da coluna da esquerda
+Dùng một dụng cụ ở cột bên trái
+Pegue uma caixa (ande até ela ou acerte quando cair)
+Nhặt một thùng (đi tới hoặc bắn khi nó rơi)
+Feito!
+Xong!
+Você já sabe o básico!
+Bạn đã nắm được cơ bản!
+do dia: {0} +50%
+hôm nay: {0} +50%
+DO DIA +50%
+HÔM NAY +50%
+{0} vit.
+{0} thắng
+1ª partida com dicas
+Trận đầu có hướng dẫn
+boneco de novo!
+lại hình nộm!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+10 hầm ngục có trùm, 4 độ khó và sao. Phần thưởng: pha lê, đá, cỏ bốn lá và phước lành.
+TORNEIO
+GIẢI ĐẤU
+TREINO
+LUYỆN TẬP
+Missões
+Nhiệm vụ
+Conquistas
+Thành tựu
+Compre na tela Animais por {0} cristais
+Mua ở màn hình Con vật với giá {0} pha lê
+VER
+XEM
+Seu
+Đã có
+ESCOLHER
+CHỌN
+COMPRAR {0}
+MUA {0}
+Especial
+Tuyệt chiêu
+{0} vitórias em {1} partidas
+{0} thắng trong {1} trận
+renovam em {0}h {1}
+làm mới sau {0}h {1}
+complete as 3 para chance de Trevo
+hoàn thành cả 3 để có cơ hội nhận Cỏ bốn lá
+prêmio: +{0} cristais · +1 pedra
+thưởng: +{0} pha lê · +1 đá
+FEITA
+XONG
+COLETAR
+NHẬN
+em andamento
+đang thực hiện
+TORNEIO DO DIA
+GIẢI ĐẤU HÔM NAY
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+3 trận 1x1 liên tiếp với bot ngày càng mạnh · thua là bắt đầu lại từ trận 1 · thắng cả 3 để nhận thưởng
+que erra um pouco
+hơi hay trượt
+que quase não erra
+hầu như không trượt
+de mira perfeita
+ngắm hoàn hảo
+LUTA {0}  ·  {1}
+TRẬN {0}  ·  {1}
+1x1 contra bot {0}
+1x1 với bot {0}
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+THƯỞNG khi thắng cả 3: +{0} pha lê  +3 đá sức mạnh  +1 Cỏ bốn lá
+campeão {0} vez(es)
+vô địch {0} lần
+o prêmio sai 1 vez por dia
+phần thưởng chỉ có 1 lần mỗi ngày
+Você já jogou o torneio de hoje - ele volta amanhã!
+Bạn đã chơi giải đấu hôm nay - mai quay lại nhé!
+Seu animal: {0}  (troque na tela Animais)
+Con vật của bạn: {0}  (đổi ở màn hình Con vật)
+VOLTA AMANHÃ
+MAI QUAY LẠI
+COMEÇAR A LUTA 1
+BẮT ĐẦU TRẬN 1
+Rever as dicas na próxima partida
+Xem lại mẹo ở trận sau
+ATQ
+CÔNG
+SOR
+MAY
+DEF
+THỦ
+AGI
+NHANH
+PODER DE COMBATE
+LỰC CHIẾN
+forma normal
+dạng thường
+FERREIRO
+THỢ RÈN
+ARMEIRO
+KHO VŨ KHÍ
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+Mỗi con vật có cường hóa RIÊNG. Thất bại chỉ mất đá - vật phẩm không bao giờ bị giảm cấp.
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+Có hiệu lực ở Đấu AI, Giải đấu và Hầm ngục · chơi tại chỗ thì mọi người như nhau · ngoại hình áp dụng mọi chế độ
+{0} no máximo do tier {1} (+12)
+{0} đã tối đa ở bậc {1} (+12)
+compre {0} no Armeiro
+mua {0} ở Kho vũ khí
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+THÀNH CÔNG {0}%  ·  THẤT BẠI {1}%  ·  giá {2} (bạn có {3})
++{0}% pelas falhas
++{0}% nhờ các lần thất bại
+Trevo ({0})
+Cỏ bốn lá ({0})
+-20% de falha
+-20% thất bại
+Bênção ({0})
+Phước lành ({0})
+nunca falha
+không bao giờ thất bại
+MÁXIMO
+TỐI ĐA
+APRIMORAR
+CƯỜNG HÓA
+SUCESSO! +{0}
+THÀNH CÔNG! +{0}
+FALHOU…
+THẤT BẠI…
++{0}% na próxima pelas falhas
++{0}% lần sau nhờ các lần thất bại
+Faltam pedras: {0}
+Thiếu đá: {0}
+custo {0} · tem {1}
+giá {0} · có {1}
+{0} {1} usa {2}.
+{0} {1} dùng {2}.
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+Đá: thắng trận, lá bài, nhiệm vụ và Rương Thợ Rèn (Kho vũ khí).
+FORMA máxima: DEUS 3
+DẠNG tối đa: THẦN 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+còn thiếu {0} vật phẩm ở {1} để lên dạng tiếp theo (dạng theo vật phẩm có bậc thấp nhất)
+EQUIPAMENTO
+TRANG BỊ
+MATERIAIS
+NGUYÊN LIỆU
+precisa +12 (está +{0})
+cần +12 (đang +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+Đưa lên +12 ở Thợ rèn trước khi đổi bậc
+NOVA FORMA: {0}!
+DẠNG MỚI: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+Chỉ đổi bậc khi vật phẩm ở +12. Bậc mới bắt đầu từ +0 và cường hóa bằng loại đá riêng. Cả 4 cùng bậc thì đổi dạng.
+ESTATÍSTICAS
+THỐNG KÊ
+GERAL
+TỔNG QUAN
+CARREIRA
+SỰ NGHIỆP
+Partidas
+Số trận
+Vitórias
+Chiến thắng
+Melhor sequência
+Chuỗi thắng dài nhất
+Abates
+Hạ gục
+Dano total
+Tổng sát thương
+Maior dano num tiro
+Sát thương lớn nhất một phát
+Tiros
+Phát bắn
+Precisão
+Độ chính xác
+Animal favorito
+Con vật yêu thích
+Vitórias perfeitas
+Thắng hoàn hảo
+Mais dano numa partida
+Sát thương nhiều nhất một trận
+Tiros longos · vinganças
+Bắn xa · báo thù
+Partidas hoje
+Số trận hôm nay
+Fúrias
+Cuồng nộ
+Caixas
+Thùng
+Ferramentas
+Dụng cụ
+Suporte
+Hỗ trợ
+Quedas
+Rơi ngã
+Tiros rápidos
+Bắn nhanh
+Multi-acertos
+Đa trúng
+Críticos
+Chí mạng
+NA MOSCA
+TRÚNG HỒNG TÂM
+Passou
+Bỏ lượt
+Habilidades
+Kỹ năng
+Torneios vencidos
+Giải đấu đã thắng
+Nível
+Cấp
+Liga
+Hạng
+CONQUISTAS {0}/{1}
+THÀNH TỰU {0}/{1}
+COLETAR TODAS ({0})
+NHẬN TẤT CẢ ({0})
+{0} conquistas: +{1} cristais
+{0} thành tựu: +{1} pha lê
+(masmorra)
+(hầm ngục)
+toque: +{0} cristais
+chạm: +{0} pha lê
+página {0}/{1}
+trang {0}/{1}
+Bronze
+Đồng
+Prata
+Bạc
+Ouro
+Vàng
+Platina
+Bạch kim
+Diamante
+Kim cương
+HUMANOS × BOTS
+NGƯỜI × BOT
+cada um por si (+ bots, se quiser)
+mỗi người tự chiến (+ bot, nếu muốn)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (bot lấp chỗ)
+todos juntos contra o PC
+tất cả cùng đấu máy
+Jogador {0}
+Người chơi {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKL-ZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+Mỗi người chơi đến lượt rồi chuyền máy  ·  chỉ số NHƯ NHAU cho mọi người  ·  không thưởng, không xếp hạng
+JOGADORES
+NGƯỜI CHƠI
+TAMANHO
+QUY MÔ
+BOTS EXTRAS
+BOT THÊM
+BOTS
+BOT
+DIFICULDADE
+ĐỘ KHÓ
+sem bots
+không bot
+Toque no NOME para trocar e no ANIMAL para escolher
+Chạm vào TÊN để đổi và vào CON VẬT để chọn
+no TIME para mudar de lado
+vào ĐỘI để đổi phe
+pode repetir animal
+có thể trùng con vật
+Mapa aleatório
+Bản đồ ngẫu nhiên
+{0} TODOS CONTRA TODOS
+{0} HỖN CHIẾN
+{0} HUMANOS × {1} BOTS
+{0} NGƯỜI × {1} BOT
+{0} no aparelho
+{0} trên máy
+COMEÇAR
+BẮT ĐẦU
+NOME DO JOGADOR {0}  (até 12 letras)
+TÊN NGƯỜI CHƠI {0}  (tối đa 12 chữ)
+vazio = Jogador {0}
+trống = Người chơi {0}
+APAGAR
+XÓA
+ESPAÇO
+DẤU CÁCH
+Animal de {0}
+Con vật của {0}
+Compre mais animais na tela ANIMAIS
+Mua thêm con vật ở màn hình CON VẬT
++dano dos tiros
++sát thương phát bắn
++chance de crítico
++tỉ lệ chí mạng
+-dano recebido
+-sát thương nhận vào
++energia e joga antes
++năng lượng và đi trước
+Pedra de força
+Đá sức mạnh
+Pedra de ferro
+Đá sắt
+Pedra de aço
+Đá thép
+Pedra mítica
+Đá thần thoại
+Pedra lendária
+Đá huyền thoại
+5 Pedras de Força
+5 Đá Sức Mạnh
+20 Pedras de Força
+20 Đá Sức Mạnh
+Baú do Ferreiro
+Rương Thợ Rèn
+aprimora itens de MADEIRA no Ferreiro
+cường hóa vật phẩm GỖ ở Thợ rèn
+pacote grande: 4 pedras de brinde
+gói lớn: tặng thêm 4 đá
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+3 đến 6 đá CÙNG loại, ngẫu nhiên (Sức mạnh 60% · Sắt 25% · Thép 10% · Thần thoại 4% · Huyền thoại 1%) · cơ hội nhận Cỏ bốn lá (5%) và Phước lành (0,5%)
++5 pedras de força
++5 đá sức mạnh
++20 pedras de força
++20 đá sức mạnh
+BÊNÇÃO!
+PHƯỚC LÀNH!
+TREVO!
+CỎ BỐN LÁ!
+Vença {0} partidas
+Thắng {0} trận
+Cause {0} de dano
+Gây {0} sát thương
+Acerte {0} tiros
+Bắn trúng {0} phát
+Use a Fúria {0} vezes
+Dùng Cuồng nộ {0} lần
+Pegue {0} caixas de suprimento
+Nhặt {0} thùng tiếp tế
+Derrote {0} inimigos
+Hạ {0} kẻ địch
+Vença {0} masmorra
+Vượt {0} hầm ngục
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+Dùng 3 Phát/+1/+2/Sát thương+% {0} lần
+Derrube rivais de muito alto {0} vezes
+Hất đối thủ rơi từ trên cao {0} lần
+Consiga {0} vitória perfeita
+Đạt {0} trận thắng hoàn hảo
+Faça {0} tiros rápidos (<5 s)
+Bắn nhanh {0} lần (<5 s)
+Acerte 2+ rivais num só tiro {0} vezes
+Trúng 2+ đối thủ trong một phát {0} lần
+Acerte {0} tiros longos
+Trúng {0} phát bắn xa
+Vença {0} vez no mapa do dia
+Thắng {0} lần ở bản đồ hôm nay
+Jogue {0} partidas
+Chơi {0} trận
+Vença {0} partidas em time (2x2+)
+Thắng {0} trận đồng đội (2x2+)
+Faça {0} vingança
+Báo thù {0} lần
+Cause 600+ de dano em {0} partida
+Gây 600+ sát thương trong {0} trận
+Use o PASSAR {0} vezes
+Dùng BỎ LƯỢT {0} lần
+Acerte {0} críticos
+Đánh {0} đòn chí mạng
+Derrote {0} monstros na masmorra
+Hạ {0} quái vật trong hầm ngục
+Vença {0} partida no Todos x Todos
+Thắng {0} trận Hỗn chiến
+Vença {0} partida no Difícil+
+Thắng {0} trận ở Khó trở lên
+Jogue {0} partida online
+Chơi {0} trận online
+Cause {0} de dano na masmorra
+Gây {0} sát thương trong hầm ngục
+Acerte {0} tiros NA MOSCA
+Bắn {0} phát TRÚNG HỒNG TÂM
+Use {0} ferramentas do Arsenal
+Dùng {0} dụng cụ Thùng Vũ Khí
+Use {0} itens de suporte
+Dùng {0} vật phẩm hỗ trợ
+Use {0} habilidades
+Dùng {0} kỹ năng
+Coloque {0} vigas
+Đặt {0} thanh dầm
+Primeiro sangue
+Máu đầu
+Veterano
+Cựu binh
+Lenda da Arena
+Huyền thoại Đấu trường
+Atirador
+Xạ thủ
+Demolidor
+Kẻ phá hủy
+Tiro perfeito
+Phát bắn hoàn hảo
+Invicto
+Bất bại
+Exterminador
+Kẻ tiêu diệt
+Caçador de chefes
+Thợ săn trùm
+Conquistador
+Kẻ chinh phục
+Ferreiro mestre
+Thợ rèn bậc thầy
+Nível 20
+Cấp 20
+Centenário
+Bách chiến
+Imperador
+Hoàng đế
+Olho de águia
+Mắt đại bàng
+Apocalipse
+Tận thế
+Golpe divino
+Đòn thần thánh
+Imparável
+Không thể cản
+Ceifador
+Thần chết
+Perfeccionista
+Người cầu toàn
+Franco-atirador
+Bắn tỉa
+Vingador
+Kẻ báo thù
+Mestre do modo
+Bậc thầy chế độ
+Colecionador
+Nhà sưu tầm
+Maratonista
+Vận động viên marathon
+Imortal
+Bất tử
+Atirador de elite
+Xạ thủ tinh nhuệ
+Destruidor
+Kẻ hủy diệt
+Golpe lendário
+Đòn huyền thoại
+Exterminador supremo
+Kẻ tiêu diệt tối thượng
+Sempre perfeito
+Luôn hoàn hảo
+Explorador
+Nhà thám hiểm
+Domador
+Người thuần thú
+Lenda das masmorras
+Huyền thoại hầm ngục
+Campeão do torneio
+Vô địch giải đấu
+Rei do mapa do dia
+Vua bản đồ hôm nay
+Desbravador
+Người tiên phong
+Senhor das masmorras
+Chúa tể hầm ngục
+Naturalista
+Nhà tự nhiên học
+Enciclopédia
+Bách khoa toàn thư
+Rei da Fúria
+Vua Cuồng nộ
+Caçador de caixas
+Thợ săn thùng
+Mestre das ferramentas
+Bậc thầy dụng cụ
+Derrubador
+Kẻ quật ngã
+Chuva de golpes
+Mưa đòn
+Estrategista
+Chiến lược gia
+Golpe crítico
+Đòn chí mạng
+Desarmador
+Chuyên gia gỡ bom
+Quebra-aço
+Phá thép
+Exorcista
+Pháp sư trừ tà
+Guardião do céu
+Hộ vệ bầu trời
+Quebra-gelo
+Phá băng
+Caça-piratas
+Thợ săn hải tặc
+Ás dos céus
+Át chủ bài bầu trời
+Fim do caos
+Kết thúc hỗn loạn
+Matador de dragões
+Kẻ diệt rồng
+Senhor do vazio
+Chúa tể hư không
+Mestre das habilidades
+Bậc thầy kỹ năng
+Engenheiro
+Kỹ sư
+Constelação
+Chòm sao
+Céu estrelado
+Bầu trời sao
+Escavador
+Thợ đào
+Piloto
+Phi công
+Pirotécnico
+Thợ pháo hoa
+Pastor
+Người chăn cừu
+Granadeiro
+Lính ném lựu đạn
+Chuva de granadas
+Mưa lựu đạn
+Sapador
+Công binh
+Piloto de caça
+Phi công chiến đấu
+Britador
+Thợ khoan
+Vença 1 partida
+Thắng 1 trận
+Jogue 50 partidas
+Chơi 50 trận
+Vença 100 partidas
+Thắng 100 trận
+Acerte 200 tiros
+Bắn trúng 200 phát
+Cause 50.000 de dano
+Gây 50.000 sát thương
+Cause 800 de dano num só tiro
+Gây 800 sát thương trong một phát
+Vença 5 seguidas
+Thắng 5 trận liên tiếp
+Derrote 100 inimigos
+Hạ 100 kẻ địch
+Vença a 1ª masmorra
+Vượt hầm ngục đầu tiên
+Vença as 4 masmorras
+Vượt cả 4 hầm ngục
+Aprimore um item até +10
+Cường hóa một vật phẩm lên +10
+Chegue ao nível 20
+Đạt cấp 20
+Jogue 200 partidas
+Chơi 200 trận
+Vença 300 partidas
+Thắng 300 trận
+Acerte 1000 tiros
+Bắn trúng 1000 phát
+Cause 250.000 de dano
+Gây 250.000 sát thương
+Cause 1200 num só tiro
+Gây 1200 trong một phát
+Vença 10 seguidas
+Thắng 10 trận liên tiếp
+Derrote 500 inimigos
+Hạ 500 kẻ địch
+10 vitórias perfeitas
+10 trận thắng hoàn hảo
+50 tiros longos
+50 phát bắn xa
+20 vinganças
+20 lần báo thù
+Chegue ao nível 40
+Đạt cấp 40
+Vença com 10 animais diferentes
+Thắng với 10 con vật khác nhau
+Jogue 500 partidas
+Chơi 500 trận
+Vença 20 seguidas
+Thắng 20 trận liên tiếp
+Acerte 3000 tiros
+Bắn trúng 3000 phát
+Cause 1.000.000 de dano
+Gây 1.000.000 sát thương
+Cause 1500 num só tiro
+Gây 1500 trong một phát
+Derrote 1500 inimigos
+Hạ 1500 kẻ địch
+50 vitórias perfeitas
+50 trận thắng hoàn hảo
+Vença em 10 mapas diferentes
+Thắng trên 10 bản đồ khác nhau
+Vença com 18 animais diferentes
+Thắng với 18 con vật khác nhau
+Vença uma masmorra no Lendário
+Vượt một hầm ngục ở độ khó Huyền thoại
+Vença o Torneio do Dia
+Thắng Giải Đấu Hôm Nay
+Vença 10 vezes no mapa do dia
+Thắng 10 lần ở bản đồ hôm nay
+Vença 6 masmorras diferentes
+Vượt 6 hầm ngục khác nhau
+Vença as 10 masmorras
+Vượt cả 10 hầm ngục
+Descubra 15 monstros no bestiário
+Khám phá 15 quái vật trong sách quái vật
+Descubra todos os monstros
+Khám phá tất cả quái vật
+Use a Fúria 100 vezes
+Dùng Cuồng nộ 100 lần
+Pegue 100 caixas
+Nhặt 100 thùng
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+Dùng 3 Phát/+1/+2/Sát thương+% 500 lần
+Derrube 50 rivais de muito alto
+Hất 50 đối thủ rơi từ trên cao
+Faça 100 tiros rápidos (<5 s)
+Bắn nhanh 100 lần (<5 s)
+Acerte 2+ rivais num tiro 50 vezes
+Trúng 2+ đối thủ trong một phát 50 lần
+Use o PASSAR 50 vezes
+Dùng BỎ LƯỢT 50 lần
+Acerte 200 críticos
+Đánh 200 đòn chí mạng
+Vença o Ninho das Bombas
+Vượt Tổ Bom
+Vença a Fortaleza de Aço
+Vượt Pháo Đài Thép
+Vença o Templo Sombrio
+Vượt Ngôi Đền Bóng Tối
+Vença o Santuário Celeste
+Vượt Thánh Địa Thiên Giới
+Vença o Pico Congelado
+Vượt Đỉnh Băng Giá
+Vença o Estaleiro Pirata
+Vượt Xưởng Tàu Hải Tặc
+Vença o Céu de Guerra
+Vượt Bầu Trời Chiến Tranh
+Vença o Trono do Caos
+Vượt Ngai Vàng Hỗn Loạn
+Vença o Covil do Dragão
+Vượt Hang Ổ Rồng
+Vença o Trono do Vazio
+Vượt Ngai Vàng Hư Không
+Use 100 habilidades
+Dùng 100 kỹ năng
+Coloque 50 vigas
+Đặt 50 thanh dầm
+Tire 3 estrelas numa masmorra
+Đạt 3 sao ở một hầm ngục
+Junte 30 estrelas nas masmorras
+Gom 30 sao ở các hầm ngục
+Cave 20 túneis/poços
+Đào 20 đường hầm/giếng
+Voe de jetpack 15 vezes
+Bay jetpack 15 lần
+Use a corda ninja 15 vezes
+Dùng dây ninja 15 lần
+Exploda 15 dinamites
+Kích nổ 15 thuốc nổ
+Solte 15 ovelhas
+Thả 15 con cừu
+Arremesse 30 granadas
+Ném 30 lựu đạn
+Use 8 cachos de granadas
+Dùng 8 chùm lựu đạn
+Plante 15 minas
+Đặt 15 quả mìn
+Chame 6 ataques aéreos
+Gọi 6 đợt không kích
+Use a Britadeira 10 vezes
+Dùng Máy khoan 10 lần
++1 Trevo
++1 Cỏ bốn lá
+TREVO
+CỎ BỐN LÁ
+BÊNÇÃO
+PHƯỚC LÀNH
+FERRO
+SẮT
+AÇO
+THÉP
+MÍTICA
+THẦN THOẠI
+LENDÁRIA
+HUYỀN THOẠI
+INIMIGOS
+KẺ THÙ
+ELITE
+TINH NHUỆ
+CHEFE
+TRÙM
+Sair agora encerra a masmorra sem prêmio.
+Thoát bây giờ sẽ kết thúc hầm ngục mà không có thưởng.
+chefe derrotado
+đã hạ trùm
+parou no chefe
+dừng ở trùm
+onda {0}/2
+đợt {0}/2
+venceu
+thắng
+sem baixas
+không mất ai
+teve baixa
+có người ngã
+não
+không
+até {0} turnos
+trong {0} lượt
+3 estrelas pela 1ª vez: +{0} cristais
+3 sao lần đầu: +{0} pha lê
+novo recorde de estrelas!
+kỷ lục sao mới!
+PONTO FRACO!
+ĐIỂM YẾU!
+BLOQUEADO - acerte de cima
+BỊ CHẶN - bắn từ trên xuống
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+DẠNG 2: Xe tăng thành TÀU CHỞ TĂNG!
+restam {0}
+còn {0}
+ONDA {0}/2
+ĐỢT {0}/2
+avança...
+tiến lên...
+arremessa...
+ném...
+cura...
+hồi máu...
+ataca...
+tấn công...
+chama os lacaios...
+gọi tay sai...
+está mirando...
+đang ngắm...
+enfurecido
+nổi giận
+defesa {0}  (leva -{1}%)
+phòng thủ {0}  (nhận -{1}%)
+ELITE: +50% vida, +20% dano · 
+TINH NHUỆ: +50% máu, +20% sát thương · 
+ENFURECIDO: +20% dano · 
+NỔI GIẬN: +20% sát thương · 
+anda até você e bate de perto{0}
+đi tới gần và đánh{0}
+ (explode!)
+ (phát nổ!)
+cura os aliados - derrube primeiro
+hồi máu đồng minh - hạ trước
+atira de longe
+bắn từ xa
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+ĐỢT {0} HOÀN THÀNH · {1} hạ gục · {2} sát thương · +{3} máu
+NOVO no bestiário: {0}
+MỚI trong sổ quái: {0}
+Onda {0}: 
+Đợt {0}: 
+ONDA {0} de 2: {1} inimigos!
+ĐỢT {0}/2: {1} kẻ thù!
+({0} elite)
+({0} tinh nhuệ)
+ONDA {0} DE 2 - {1} INIMIGOS
+ĐỢT {0}/2 - {1} KẺ THÙ
+OS SENHORES DO CAOS!
+CHÚA TỂ HỖN LOẠN!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+PHÙ THỦY và HIỆP SĨ cùng lúc! Hạ Phù thủy trước khi hắn hồi máu cho tên kia
+CHEFE: {0}
+TRÙM: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+RỒNG CỔ ĐẠI thức tỉnh! Cứ 3 lượt phát bắn thiêu đốt, cứ 4 lượt mưa lửa
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+VUA HƯ VÔ đã đến! Giáp mỗi 3 lượt và gọi tay sai TINH NHUỆ
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+CHÚA BĂNG đã đến! Cứ 3 lượt phát bắn đóng băng
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+THIẾT GIÁP HẠM đã đến! Bắn 3 viên một lúc - tản ra
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+KHINH KHÍ CẦU KHỔNG LỒ đã đến! Cứ 4 lượt ném bom tất cả
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+XE TĂNG KHỔNG LỒ đã đến! Lá chắn chỉ thủng với phát bắn rơi TỪ TRÊN
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+PHÙ THỦY BÓNG TỐI đã đến! Hạ thầy thuốc trước
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+HIỆP SĨ BÓNG TỐI đã đến! Tấn công khi giáp rơi
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+VUA BOM đã đến! Nhắm vào ĐẦU (điểm yếu)
+cura
+hồi máu
+Ritual de cura!
+Nghi lễ hồi máu!
+Lacaios, ataquem!
+Tay sai, tấn công!
+{0} ENFURECEU! (+20% de dano)
+{0} NỔI GIẬN! (+20% sát thương)
+O CHEFE ENFURECEU!
+TRÙM NỔI GIẬN!
+ARMADURA NEGRA!
+GIÁP ĐEN!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+Hiệp sĩ dựng giáp (-50% trong 2 lượt)
+NEVASCA!
+BÃO TUYẾT!
+CHUVA DE FOGO!
+MƯA LỬA!
+BOMBARDEIO!
+OANH TẠC!
+FURIOSO!
+ĐIÊN CUỒNG!
+bravo
+tức giận
+CHEFE  ·  {0}
+TRÙM  ·  {0}
+{0} de vida
+{0} máu
+toque para pular
+chạm để bỏ qua
+o tempo acabou
+hết giờ
+Faltam 5 turnos: {0} vai desabar!
+Còn 5 lượt: {0} sắp sụp đổ!
+ELITE derrotado por {0} (+20 de fúria)
+{0} hạ TINH NHUỆ (+20 cuồng nộ)
+{0} deixou cair uma caixa!
+{0} làm rơi một thùng!
+fugiu!
+bỏ chạy!
+{0} caiu! Os lacaios fugiram!
+{0} đã gục! Bọn tay sai bỏ chạy!
+Bombinha
+Bom Nhỏ
+Lança-Bombas
+Kẻ Ném Bom
+Brutamontes
+Gã Vũ Phu
+REI BOMBA
+VUA BOM
+Blindado
+Bọc Thép
+TANQUE COLOSSAL
+XE TĂNG KHỔNG LỒ
+Bandido
+Thổ Phỉ
+Golem
+Người Đá
+Curandeiro
+Thầy Thuốc
+FEITICEIRO SOMBRIO
+PHÙ THỦY BÓNG TỐI
+Mago
+Pháp Sư
+Bárbaro
+Man Rợ
+Motosserra
+Cưa Máy
+CAVALEIRO SOMBRIO
+HIỆP SĨ BÓNG TỐI
+Lenhador
+Tiều Phu
+Ninja do Gelo
+Ninja Băng
+LORDE DO GELO
+CHÚA BĂNG
+Gladiador
+Đấu Sĩ
+Tanque Pirata
+Xe Tăng Hải Tặc
+Caminhão Viking
+Xe Tải Viking
+ENCOURAÇADO PIRATA
+THIẾT GIÁP HẠM HẢI TẶC
+Dirigível
+Khinh Khí Cầu
+Caça
+Tiêm Kích
+Encapuzada
+Kẻ Trùm Mũ
+DIRIGÍVEL COLOSSAL
+KHINH KHÍ CẦU KHỔNG LỒ
+Sombra Veloz
+Bóng Ma Tốc Độ
+DRAGÃO ANCESTRAL
+RỒNG CỔ ĐẠI
+REI DO VAZIO
+VUA HƯ VÔ
+anda até você e EXPLODE
+đi tới gần và PHÁT NỔ
+atira bombas de longe
+ném bom từ xa
+lento, muito resistente
+chậm, rất trâu
+ponto fraco na cabeça · invoca lacaios
+điểm yếu ở đầu · gọi tay sai
+corre e ataca de perto
+chạy tới và đánh gần
+blindado: aguenta muito
+bọc thép: chịu đòn rất tốt
+barreira: acerte DE CIMA · 2ª forma
+lá chắn: bắn TỪ TRÊN · dạng 2
+pedra viva: forte de perto
+đá sống: mạnh khi đánh gần
+se cura · tiros envenenam
+tự hồi máu · đạn gây độc
+magia de longe
+phép thuật từ xa
+REGENERA a cada vez
+HỒI PHỤC mỗi lượt
+serra de perto, dano alto
+cưa ở gần, sát thương cao
+ARMADURA a cada 3 vezes · chama magos
+GIÁP mỗi 3 lượt · gọi pháp sư
+machado de perto, resistente
+rìu đánh gần, trâu
+atira estrelas de longe
+ném phi tiêu từ xa
+a cada 3 vezes o tiro CONGELA
+cứ 3 lượt phát bắn ĐÓNG BĂNG
+corre e golpeia de perto
+chạy tới và chém gần
+canhão de longe, blindado
+pháo từ xa, bọc thép
+avança e atropela de perto
+lao tới và cán qua
+sempre atira 3 balas de canhão
+luôn bắn 3 viên đạn pháo
+bombardeia do alto
+ném bom từ trên cao
+rápido, atira de longe
+nhanh, bắn từ xa
+cura os aliados · derrube primeiro
+hồi máu đồng minh · hạ trước
+a cada 4 vezes BOMBARDEIA todo mundo
+cứ 4 lượt NÉM BOM tất cả
+muito rápida, ataca de perto
+rất nhanh, đánh gần
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+cứ 3 lượt đạn thiêu đốt · cứ 4 lượt MƯA LỬA
+armadura a cada 3 · veneno · chama ELITE
+giáp mỗi 3 lượt · độc · gọi TINH NHUỆ
+NINHO DAS BOMBAS
+TỔ BOM
+FORTALEZA DE AÇO
+PHÁO ĐÀI THÉP
+TEMPLO SOMBRIO
+ĐỀN BÓNG TỐI
+SANTUÁRIO CELESTE
+THÁNH ĐỊA THIÊN KHÔNG
+PICO CONGELADO
+ĐỈNH BĂNG GIÁ
+ESTALEIRO PIRATA
+XƯỞNG TÀU HẢI TẶC
+CÉU DE GUERRA
+BẦU TRỜI CHIẾN TRANH
+TRONO DO CAOS
+NGAI VÀNG HỖN LOẠN
+COVIL DO DRAGÃO
+HANG RỒNG
+TRONO DO VAZIO
+NGAI VÀNG HƯ VÔ
+Ondas: Bombinhas que explodem, Lança-Bombas
+Các đợt: Bom Nhỏ phát nổ, Kẻ Ném Bom
+e Brutamontes. Chefe: REI BOMBA
+và Gã Vũ Phu. Trùm: VUA BOM
+Ondas: Vikings, Blindados e Lança-Bombas.
+Các đợt: Viking, Bọc Thép và Kẻ Ném Bom.
+Chefe: TANQUE COLOSSAL
+Trùm: XE TĂNG KHỔNG LỒ
+barreira: acerte DE CIMA · tem 2ª forma
+lá chắn: bắn TỪ TRÊN · có dạng 2
+Ondas: Bandidos, Golens e Curandeiros.
+Các đợt: Thổ Phỉ, Người Đá và Thầy Thuốc.
+Chefe: FEITICEIRO SOMBRIO
+Trùm: PHÙ THỦY BÓNG TỐI
+se cura (mate os curandeiros) · veneno
+tự hồi máu (hạ thầy thuốc) · độc
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+Các đợt: Pháp Sư, Man Rợ (hồi phục) và Cưa Máy.
+Chefe: CAVALEIRO SOMBRIO
+Trùm: HIỆP SĨ BÓNG TỐI
+armadura a cada 3 vezes · chama magos
+giáp mỗi 3 lượt · gọi pháp sư
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+Các đợt: Tiều Phu và Ninja Băng. đá THÉP
+Chefe: LORDE DO GELO
+Trùm: CHÚA BĂNG
+a cada 3 vezes o tiro dele CONGELA
+cứ 3 lượt phát bắn của hắn ĐÓNG BĂNG
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+Các đợt: Đấu Sĩ, Xe Tải và Xe Tăng. đá THÉP
+Chefe: ENCOURAÇADO PIRATA
+Trùm: THIẾT GIÁP HẠM HẢI TẶC
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+Các đợt: Tiêm Kích, Khinh Khí Cầu và Kẻ Trùm Mũ (hồi máu). THẦN THOẠI
+Chefe: DIRIGÍVEL COLOSSAL
+Trùm: KHINH KHÍ CẦU KHỔNG LỒ
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+Các đợt: Bóng Ma Tốc Độ và Đấu Sĩ. đá THẦN THOẠI
+Chefes: FEITICEIRO + CAVALEIRO juntos
+Trùm: PHÙ THỦY + HIỆP SĨ cùng lúc
+dois chefes: cura, veneno e armadura
+hai trùm: hồi máu, độc và giáp
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+Các đợt: Man Rợ, Đấu Sĩ và Ninja. HUYỀN THOẠI
+Chefe: DRAGÃO ANCESTRAL
+Trùm: RỒNG CỔ ĐẠI
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+Các đợt: Bóng Ma, Pháp Sư và Kẻ Trùm Mũ. HUYỀN THOẠI
+Chefe: REI DO VAZIO
+Trùm: VUA HƯ VÔ
+Bênção da Força: +10% de dano
+Phúc Sức Mạnh: +10% sát thương
+Bênção da Fúria: começa com 25 de fúria
+Phúc Cuồng Nộ: bắt đầu với 25 cuồng nộ
+Bênção do Arsenal: +1 uso de cada ferramenta
+Phúc Kho Vũ Khí: +1 lượt mỗi công cụ
+Bênção da Pedra: -15% de dano recebido
+Phúc Đá: -15% sát thương nhận
+Bênção da Vida: +20% de vida
+Phúc Sinh Mệnh: +20% máu
+Bênção da Sorte: +8% de chance de crítico
+Phúc May Mắn: +8% tỉ lệ chí mạng
+Bênção do Guia: +2 usos da mira guiada
+Phúc Dẫn Đường: +2 lượt ngắm dẫn đường
+Bênção do Escudo: começa com escudo
+Phúc Khiên: bắt đầu có khiên
+ e 
+ và 
+Vença os 2 anteriores{0}
+Thắng 2 hầm trước{0}
+ainda não jogou
+chưa chơi
+chegou ao chefe
+đã tới trùm
+onda {0}
+đợt {0}
+Recorde: {0}
+Kỷ lục: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+Thưởng: {0} pha lê · {1} {2}-{3}
+chance de Trevo e Bênção
+cơ hội Cỏ Ba Lá và Phúc Lành
+DIFICULDADE DOS MONSTROS
+ĐỘ KHÓ QUÁI VẬT
+EQUIPE: só jogadores (sem bots)
+ĐỘI: chỉ người chơi (không bot)
+Aqui você entra SOZINHO.
+Ở đây bạn vào MỘT MÌNH.
+Lendário: vença as 4 primeiras masmorras
+Huyền Thoại: thắng 4 hầm ngục đầu
+Monstros
+Quái vật
+ENTRAR NA MASMORRA
+VÀO HẦM NGỤC
+BLOQUEADA
+BỊ KHÓA
+MONSTROS DAS MASMORRAS · {0} / {1}
+QUÁI VẬT HẦM NGỤC · {0} / {1}
+vida {0}   defesa {1}
+máu {0}   phòng thủ {1}
+Enfrente-o numa masmorra para revelar
+Đối đầu trong hầm ngục để mở khóa
+masmorra
+hầm ngục
+Masmorras
+Hầm ngục
+Bestiário
+Sổ quái vật
+VISUAL
+NGOẠI HÌNH
+EM USO
+ĐANG DÙNG
+toque para usar
+chạm để dùng
+Rastro {0}!
+Vệt {0}!
+Clássico
+Cổ điển
+Fogo
+Lửa
+Arco-íris
+Cầu vồng
+Veneno
+Độc
+Sombra
+Bóng tối
+Chiclete
+Kẹo cao su
+PRESENTE DIÁRIO
+QUÀ HẰNG NGÀY
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+Quay lại mỗi ngày: phần thưởng tăng dần. Lỡ một ngày sẽ về lại ngày 1.
+DIA {0}
+NGÀY {0}
+COLETAR DIA {0}
+NHẬN NGÀY {0}
+volte amanhã
+mai quay lại nhé
+{0} cristais
+{0} pha lê
+2 pedras do seu nível
+2 đá theo cấp của bạn
+1 Trevo
+1 Cỏ Ba Lá
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} pha lê + 3 đá theo cấp + cơ hội Phúc Lành
+Dia {0}: {1}
+Ngày {0}: {1}
+10 masmorras · monstros e chefes
+10 hầm ngục · quái vật và trùm
+você contra os bots · 1x1 a 4x4
+bạn đấu với bot · 1x1 đến 4x4
+2 a 8 no mesmo aparelho
+2 đến 8 người trên cùng máy
+cada um por si
+mỗi người một phe
+monte os times como quiser: 1x3, 2x4...
+chia đội tùy ý: 1x3, 2x4...
+LUTADORES  {0}/{1}
+CHIẾN BINH  {0}/{1}
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+Chạm vào CON VẬT để chọn và vào TÊN để đổi người điều khiển (người chơi hoặc bot)
+animal sorteado
+ngẫu nhiên
+jogador {0}
+người chơi {0}
+JOGADORES NO APARELHO
+NGƯỜI CHƠI TRÊN MÁY
+bots com o mesmo nível e força do jogador
+bot cùng cấp và sức mạnh với người chơi
+bots mais fortes que o jogador
+bot mạnh hơn người chơi
+{0} não controla nenhum animal
+{0} chưa điều khiển con vật nào
+Sorteado
+Ngẫu nhiên
+TIME VERDE
+ĐỘI XANH LÁ
+TIME AMARELO
+ĐỘI VÀNG
+TIME
+ĐỘI
+OUTROS TIMES
+CÁC ĐỘI KHÁC
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+Mọi người chơi đã ở đội khác - dùng + BOT hoặc chạm vào tên
+{0} mudou de time com todos os seus animais
+{0} đã đổi đội cùng tất cả con vật
+{0} já está no {1}
+{0} đã ở {1}
+na próxima vez
+lượt sau
+PADRÃO
+MẶC ĐỊNH
+SOMBRIA
+BÓNG TỐI
+JADE
+NGỌC BÍCH
+BRASA
+THAN HỒNG
+CÓSMICA
+VŨ TRỤ
+Skin
+Trang phục
+SKINS
+TRANG PHỤC
+Skins
+Trang phục
+Em uso
+Đang dùng
+Usar
+Dùng
+Derrote {0} inimigos com este animal
+Hạ {0} kẻ địch bằng con vật này
+Vença {0} partidas com este animal
+Thắng {0} trận với con vật này
+Vença a masmorra {0} no Normal (ou mais) com este animal
+Vượt hầm ngục {0} ở mức Thường (trở lên) với con vật này
+Acerte {0} tiros NA MOSCA com este animal
+Bắn TRÚNG ĐÍCH {0} lần với con vật này
+Cause {0} de dano num só tiro com este animal
+Gây {0} sát thương trong một phát với con vật này
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+Thắng {0} trận Đấu AI mức Khó hoặc Huyền thoại với con vật này
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+Vượt hầm ngục {0} ở mức Khó (trở lên) với con vật này
+Cumpra a missão para liberar a compra
+Hoàn thành nhiệm vụ để mở khóa mua
+Compre o animal para usar skins
+Mua con vật để dùng trang phục
+Liberada!
+Đã mở!
+Skin {0} comprada!
+Đã mua trang phục {0}!
+Não foi possível comprar
+Không thể mua
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+Trang phục xuất hiện trong trận và kết hợp với hình dạng trang bị. Bot cũng dùng trang phục.
+Skin liberada: {0} {1}!
+Đã mở trang phục: {0} {1}!
+Compre na tela Skins por {0} cristais
+Mua ở màn Trang phục với {0} pha lê
+SEU NOME  (3 a {0} letras ou números)
+TÊN CỦA BẠN  (3 đến {0} chữ hoặc số)
+SORTEAR
+NGẪU NHIÊN
+LIMPAR
+XÓA HẾT
+Use pelo menos 3 letras ou números
+Dùng ít nhất 3 chữ hoặc số
+Nome não permitido - escolha outro
+Tên không được phép - chọn tên khác
+Seu animal: {0}  (troque nas setas)
+Con vật của bạn: {0}  (đổi bằng mũi tên)
+Pets
+Thú cưng
+Equipado
+Đang dùng
+EQUIPAR
+TRANG BỊ
+TIRAR
+BỎ RA
+Buff
+Bổ trợ
+Pet: {0}
+Thú cưng: {0}
+Sem pet
+Không có thú cưng
+toque para escolher um pet
+chạm để chọn thú cưng
+Pets a partir do nível {0}
+Thú cưng từ cấp {0}
+só visual no treino
+chỉ để xem khi luyện tập
+Liberado no nível {0}
+Đã mở ở cấp {0}
+Libera no nível {0}
+Mở ở cấp {0}
+Truques (na partida, toque no pet):
+Trò diễn (trong trận, chạm vào thú cưng):
+{0} é seu!
+{0} là của bạn!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+Mỗi lần một thú cưng. Bổ trợ có hiệu lực ở Đấu AI, Hầm ngục và Giải đấu (khi luyện tập chỉ hiện ra). Không áp dụng ở trận tại chỗ.
+Novo pet disponível!
+Có thú cưng mới!
+Compre na tela Pets por {0} cristais
+Mua ở màn Thú cưng với {0} pha lê
+ESCOLHA MAIS 2 CARTAS!
+CHỌN THÊM 2 LÁ!
+vídeo assistido: vire mais 2 cartas!
+đã xem video: lật thêm 2 lá!
++2 CARTAS (vídeo)
++2 LÁ (video)
+XP x2 (vídeo)
+XP x2 (video)
+XP x2 ativo
+XP x2 đang bật
+sem vídeo
+không có video
+Pinguinzinho
+Chim cánh cụt nhỏ
+Corujinha
+Cú nhỏ
+Patinho
+Vịt con
+Tartaruguinha
+Rùa nhỏ
+Esquilinho
+Sóc nhỏ
+Hamster
+Chuột hamster
+Tartaruga azul
+Rùa xanh
+Gatinho
+Mèo con
+Coelhinho
+Thỏ con
+Raposinha
+Cáo nhỏ
+Porquinho cinza
+Heo con xám
+Porquinho
+Heo con
+Cachorrinho
+Cún con
+Pandinha
+Gấu trúc nhỏ
+Ursinho
+Gấu con
+Unicórnio
+Kỳ lân
+Raposa-fênix
+Cáo phượng hoàng
+Dragão Negro
+Rồng Đen
+Dragãozinho
+Rồng con
+Sentar
+Ngồi
+Rolar
+Lăn
+Mortal
+Lộn ngược
+Dançar
+Nhảy múa
+Pulo de Alegria
+Nhảy vui
+-30% de efeito do vento nos seus tiros
+-30% ảnh hưởng của gió lên phát bắn
++10% de chance de crítico
++10% tỉ lệ chí mạng
++15% de dano em alvos a mais de 60 m
++15% sát thương lên mục tiêu xa hơn 60 m
+-35% de empurrão das explosões
+-35% lực đẩy từ vụ nổ
+Sem dano de queda
+Không mất máu khi rơi
++1 Mira guiada por partida
++1 Ngắm dẫn đường mỗi trận
+-50% de dano de fogo e veneno
+-50% sát thương lửa và độc
+Crítico causa x1,8 (normal x1,5)
+Chí mạng x1,8 (bình thường x1,5)
++15% de energia em cada vez
++15% năng lượng mỗi lượt
+Começa a partida com 30% de fúria
+Bắt đầu trận với 30% nộ
+Começa com escudo (metade do dano) até a 2ª vez
+Có khiên (giảm nửa sát thương) đến lượt thứ 2
++15% de fúria ganha
++15% nộ nhận được
+Recupera 10% do dano que causa
+Hồi 10% sát thương gây ra
+-15% de dano recebido
+-15% sát thương nhận vào
++10% de vida máxima
++10% máu tối đa
++15% de raio de explosão
++15% bán kính nổ
+Recupera 20 de vida no início de cada vez
+Hồi 20 máu đầu mỗi lượt
++15% de dano
++15% sát thương
+{1} pedras do seu nível
+{1} đá theo cấp của bạn
+1 Trevo + {1} pedras do seu nível
+1 Cỏ Ba Lá + {1} đá theo cấp
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} pha lê + {1} đá theo cấp + cơ hội Phúc Lành
+Vitória: {0}+ cristais
+Thắng: {0}+ pha lê
+prêmio x{0}
+thưởng x{0}
+mapa do dia +50%
+bản đồ hôm nay +50%
+1ª vitória do dia +{0}
+thắng trận đầu trong ngày +{0}
+energia
+năng lượng
+aguarde...
+chờ...
+errou
+trượt
+escudo
+khiên
+congelado
+đóng băng
+acabou
+hết
+ativo
+đang bật
+emprestado
+mượn
+envenenado
+trúng độc
+jogando
+đang chơi
+queimando
+đang cháy
+viga
+dầm
+armando
+đang kích hoạt
+fogo
+lửa
+veneno
+độc
+derrotado
+bị hạ
+coletada
+đã nhận
++15% de dano do Especial
++15% sát thương tuyệt chiêu
+Derrote {0} inimigos com o Especial deste animal
+Hạ {0} kẻ địch bằng tuyệt chiêu của con vật này
+ENTRAR
+VÀO
+equipamento dos bots um pouco abaixo do seu
+trang bị của bot thấp hơn bạn một chút
+bots com o mesmo equipamento que você
+bot có trang bị giống bạn
+equipamento dos bots um pouco acima do seu
+trang bị của bot cao hơn bạn một chút
+equipamento dos bots bem acima do seu
+trang bị của bot cao hơn bạn nhiều
+Ande até a bandeira
+Đi đến lá cờ
+Mire em {0}°
+Ngắm {0}°
+Segure e solte na marca
+Giữ và thả ở vạch
+Acerte o inimigo!
+Bắn trúng kẻ địch!
+Muito bem! Vença!
+Tốt lắm! Thắng đi!
+Use a habilidade verde
+Dùng kỹ năng xanh lá
+Agora a habilidade roxa
+Giờ kỹ năng tím
+Use um item e atire
+Dùng vật phẩm rồi bắn
+Fúria cheia: use o Especial!
+Đầy cuồng nộ: dùng Đặc biệt!
+Use a granada
+Dùng lựu đạn
+Coloque uma viga
+Đặt một thanh dầm
+Voe de jetpack
+Bay bằng ba lô phản lực
+Lance a corda no teto
+Phóng dây lên trần
+Pronto! Vença!
+Xong! Thắng đi!
+Muito bem!
+Tốt lắm!
+PULAR TUTORIAL
+BỎ QUA HƯỚNG DẪN
+Pular o tutorial?
+Bỏ qua hướng dẫn?
+Você vai direto para o menu. Dá para refazer em Opções.
+Bạn sẽ về thẳng menu. Có thể làm lại trong Tùy chọn.
+PULAR
+BỎ QUA
+PRÓXIMO TUTORIAL ({0}/3)
+HƯỚNG DẪN TIẾP ({0}/3)
+IR PARA O MENU
+VỀ MENU
+Refazer tutorial
+Làm lại hướng dẫn
+Bem-vindo à batalha!
+Chào mừng đến trận chiến!
+Tutorial concluído: +{0} cristais
+Hoàn thành hướng dẫn: +{0} pha lê
+SEGURE o botão para voar · setas para os lados
+GIỮ nút để bay · mũi tên để lái
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+DÙNG để bật · GIỮ nút để bay (13 giây nhiên liệu) · mũi tên để lái · đáp nhẹ · đáp rồi bắn
+partida rápida 1x1
+trận nhanh 1v1
+1x1 a 4x4 · escolha mapa e dificuldade
+1v1 đến 4v4 · chọn bản đồ và độ khó
+Mostrar todos os controles
+Hiện mọi nút điều khiển
+ANDE: segure as setas
+DI CHUYỂN: giữ mũi tên
+MIRE: setas para cima e para baixo
+NGẮM: mũi tên lên và xuống
+SEGURE para dar força e SOLTE para atirar!
+GIỮ để lấy lực, THẢ để bắn!
+PULE com este botão (gasta energia)
+NHẢY bằng nút này (tốn năng lượng)
+O VENTO empurra o tiro: olhe aqui em cima
+GIÓ đẩy phát bắn: xem ở đây
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+BỎ LƯỢT hồi chút máu. Chạm 2 lần vào bản đồ để xem toàn bộ
+NOVO: ITENS
+MỚI: VẬT PHẨM
+NOVO: HABILIDADES
+MỚI: KỸ NĂNG
+NOVO: ESPECIAL
+MỚI: ĐẶC BIỆT
+NOVO: FERRAMENTAS
+MỚI: CÔNG CỤ
+TODOS OS CONTROLES LIBERADOS!
+ĐÃ MỞ MỌI NÚT ĐIỀU KHIỂN!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+Chạm vật phẩm trước khi bắn: 3 Phát, +1, +2 hoặc Sát thương. Tốn năng lượng.
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+Mỗi con vật có 2 kỹ năng: các nút trên BỎ LƯỢT.
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+Gây và nhận sát thương để nạp CUỒNG NỘ. Đầy rồi? Chạm quả cầu và bắn Đặc biệt!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+Công cụ ở cột trái: lựu đạn, dây, ba lô phản lực, dầm và hơn nữa.
+Emotes e todas as ferramentas. Boa batalha!
+Biểu cảm và mọi công cụ. Chiến đấu vui!
+toque para acelerar
+chạm để tua nhanh
+Longe demais: até 600 m de você
+Quá xa: tối đa 600 m
+Tem alguém aí: escolha outro lugar
+Có người ở đó: chọn chỗ khác
+Muito dentro do chão
+Lún quá sâu vào đất
+longa
+dài
+curta
+ngắn
+Não alcançou: mire e lance de novo
+Không tới: ngắm và phóng lại
+A corda não alcançou nada
+Dây không bám được gì
+Pousou: agora atire!
+Đã đáp: giờ bắn đi!
+O tempo na corda acabou
+Hết giờ đu dây
+Acabou o combustível: pouso suave
+Hết nhiên liệu: đáp nhẹ
+SOLTAR
+THẢ
+CORDA
+DÂY
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+Mũi tên: đu và lên/xuống · THẢ giữ đà
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+Mũi tên lên để bay · hai bên để lái · GIỮ để tắt và bắn
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+Kéo hoặc di chuột · mũi tên: xoay và cỡ · XÁC NHẬN
+Mire e toque em USAR para lançar o gancho
+Ngắm và chạm DÙNG để phóng móc
+Toque em USAR para ligar o jetpack
+Chạm DÙNG để bật ba lô phản lực
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+DẦM: kéo để đặt · mũi tên xoay và đổi cỡ · XÁC NHẬN để đặt (cầu, chỗ nấp, dốc)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+DÙNG để bật · mũi tên lên để bay, hai bên để đẩy · 4 giây nhiên liệu · đáp nhẹ · GIỮ để tắt và bắn
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+DÙNG phóng móc theo hướng ngắm (tới 520 m) · mũi tên để đu và lên/xuống · THẢ giữ đà · phóng lại trên không
+Solte na marca amarela!
+Thả ở vạch vàng!
+Agora atire!
+Giờ bắn đi!
+Toque em {0}
+Chạm {0}
+Segure para voar
+Giữ để bay
+Balance e toque para soltar
+Đu rồi chạm để thả
+Segure o botão até a marca amarela e solte
+Giữ nút đến vạch vàng rồi thả
+Segure a seta até chegar na bandeira
+Giữ mũi tên đến khi tới lá cờ
+Segure o botão que brilha
+Giữ nút đang sáng
+Toque no botão que brilha
+Chạm nút đang sáng
+Teclado
+Phím
+Perfeito!
+Hoàn hảo!
+Acabe com ele!
+Kết liễu nó!
+PARTE {0} CONCLUÍDA!
+XONG PHẦN {0}!
+Você aprendeu
+Bạn đã học
+Andar
+Di chuyển
+Mirar
+Ngắm
+Atirar
+Bắn
+Itens
+Vật phẩm
+De volta!
+Quay lại!
+JOGAR!
+CHƠI!
+inclui +{0} de bônus do tutorial
+gồm +{0} thưởng hướng dẫn
+Refazer o tutorial?
+Làm lại hướng dẫn?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+Chỉ các trận có hướng dẫn. Không nhận thưởng lại và tiến độ của bạn không đổi.
+Cancelar
+Hủy
+Refazer
+Làm lại
+Tutorial refeito: sem prêmios
+Chơi lại hướng dẫn: không thưởng
+Gire o celular para continuar
+Xoay điện thoại để tiếp tục
+Controles
+Điều khiển
+Jogue 80 partidas
+Chơi 80 trận
+Vença 150 partidas
+Thắng 150 trận
+Acerte 400 tiros
+Bắn trúng 400 phát
+Cause 100.000 de dano
+Gây 100.000 sát thương
+Cause 1000 de dano num só tiro
+Gây 1000 sát thương trong một phát
+Vença 6 seguidas
+Thắng 6 trận liên tiếp
+Derrote 200 inimigos
+Hạ 200 kẻ địch
+Jogue 300 partidas
+Chơi 300 trận
+Vença 400 partidas
+Thắng 400 trận
+Acerte 1500 tiros
+Bắn trúng 1500 phát
+Cause 400.000 de dano
+Gây 400.000 sát thương
+Cause 1400 num só tiro
+Gây 1400 trong một phát
+Derrote 800 inimigos
+Hạ 800 kẻ địch
+15 vitórias perfeitas
+15 trận thắng hoàn hảo
+80 tiros longos
+80 phát bắn xa
+30 vinganças
+30 lần báo thù
+Derrote 2500 inimigos
+Hạ 2500 kẻ địch
+Vença em 14 mapas diferentes
+Thắng trên 14 bản đồ khác nhau
+Vença 15 vezes no mapa do dia
+Thắng 15 lần ở bản đồ hôm nay
+Use a Fúria 150 vezes
+Dùng Cuồng nộ 150 lần
+Pegue 200 caixas
+Nhặt 200 thùng
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+Dùng 3 Phát/+1/+2/Sát thương+% 800 lần
+Derrube 80 rivais de muito alto
+Hất 80 đối thủ rơi từ trên cao
+Faça 200 tiros rápidos (<5 s)
+Bắn nhanh 200 lần (<5 s)
+Acerte 2+ rivais num tiro 80 vezes
+Trúng 2+ đối thủ trong một phát 80 lần
+Use o PASSAR 100 vezes
+Dùng BỎ LƯỢT 100 lần
+Acerte 300 críticos
+Đánh 300 đòn chí mạng
+Use 200 habilidades
+Dùng 200 kỹ năng
+Coloque 80 vigas
+Đặt 80 thanh dầm
+Cave 30 túneis/poços
+Đào 30 đường hầm/giếng
+Voe de jetpack 25 vezes
+Bay jetpack 25 lần
+Use a corda ninja 25 vezes
+Dùng dây ninja 25 lần
+Exploda 25 dinamites
+Kích nổ 25 thuốc nổ
+Solte 25 ovelhas
+Thả 25 con cừu
+Arremesse 50 granadas
+Ném 50 lựu đạn
+Use 12 cachos de granadas
+Dùng 12 chùm lựu đạn
+Plante 25 minas
+Đặt 25 quả mìn
+Chame 10 ataques aéreos
+Gọi 10 đợt không kích
+Use a Britadeira 15 vezes
+Dùng Máy khoan 15 lần
+Mire na linha amarela
+Ngắm vào vạch vàng
+Quanto mais tempo segurar, mais longe vai o tiro
+Giữ càng lâu, đạn bay càng xa
+As setas andam pelo mapa
+Các mũi tên giúp bạn di chuyển
+A mira muda a altura do tiro
+Góc ngắm đổi độ cao của đạn
+Acerte o rival para vencer!
+Bắn trúng đối thủ để thắng!
+Atira 3 balas de uma vez
+Bắn 3 viên cùng lúc
+Vira chão: uma ponte ou um escudo
+Thành nền đất: cầu hoặc khiên
+Segure para voar até outro lugar
+Giữ để bay đến chỗ khác
+Pendure-se e balance para ir longe
+Đu dây và lắc để đi xa
+Vira chão: ponte, abrigo ou rampa
+Thành nền: cầu, chỗ nấp hoặc dốc
+Abre um túnel e passa por dentro do morro
+Đào đường hầm xuyên qua đồi
+Voe para outro lugar do mapa
+Bay đến chỗ khác trên bản đồ
+Cava um poço e você desce por ele
+Đào giếng và bạn đi xuống
+Deixe aos seus pés e fuja: explode forte
+Đặt dưới chân rồi chạy: nổ rất mạnh
+Anda sozinha até o rival e explode
+Tự đi tới đối thủ rồi nổ
+Explode quando alguém chega perto
+Nổ khi có ai đến gần
+Marque o alvo: 5 mísseis caem do céu
+Đánh dấu mục tiêu: 5 tên lửa rơi từ trời
+NOVO!
+MỚI!
+Cristais x2 (vídeo)
+Pha lê x2 (video)
+Empurra o tiro: a bandeira mostra para onde
+Gió đẩy đạn: lá cờ chỉ hướng
+TUTORIAL CONCLUÍDO!
+HOÀN THÀNH HƯỚNG DẪN!
+O resto você aprende jogando, com dicas na hora certa
+Phần còn lại bạn học khi chơi, có mẹo đúng lúc
+Quica no chão e explode depois
+Nảy trên đất rồi nổ
+Melhor com o celular deitado
+Xoay ngang điện thoại để chơi tốt nhất
+Gire o celular: a tela fica maior e os controles mais fáceis
+Xoay máy: màn hình rộng hơn, điều khiển dễ hơn
+JOGAR MASMORRA
+CHƠI HẦM NGỤC
+JOGAR VS
+CHƠI VS
+JOGAR ASSIM MESMO
+VẪN CHƠI

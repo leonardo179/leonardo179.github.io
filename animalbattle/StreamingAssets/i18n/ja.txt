@@ -1,0 +1,3320 @@
+VOLTAR
+戻る
+Carregando
+読み込み中
+Masmorra
+ダンジョン
+Contra IA
+AI対戦
+Partida local
+ローカル対戦
+MASMORRA
+ダンジョン
+CONTRA IA
+AI対戦
+PARTIDA LOCAL
+ローカル対戦
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+ボス付きの10のダンジョン、4つの難易度とスター。報酬：メダル、強化石、クローバー、祝福。
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+同じ端末で2人以上が交代でプレイ。装備は均等化、報酬なし。
+Música
+音楽
+Sons
+効果音
+Som
+サウンド
+Idioma
+言語
+Batalha de artilharia entre animais
+動物たちの砲撃バトル
+Ferreiro
+鍛冶屋
+Armeiro
+武器屋
+Animais
+動物
+Opções
+設定
+versão de teste
+テスト版
+Nível {0}
+レベル {0}
+Todos os animais disponíveis!
+すべての動物が解放済み！
+Próximo animal: {0} no nível {1}
+次の動物：レベル{1}で{0}
+Em construção
+準備中
+Batalha em construção
+バトルは準備中
+Raposa
+キツネ
+Urso
+クマ
+Coruja
+フクロウ
+Salamandra
+サラマンダー
+Rinoceronte
+サイ
+Cobra
+ヘビ
+Tartaruga
+カメ
+Guaxinim
+アライグマ
+Gato
+ネコ
+Águia
+ワシ
+Tigre
+トラ
+Pinguim
+ペンギン
+Gorila
+ゴリラ
+Tubarão
+サメ
+Jacaré
+ワニ
+Texugo
+アナグマ
+Ouriço
+ハリネズミ
+Morcego
+コウモリ
+Arma
+武器
+Chapéu
+帽子
+Roupa
+服
+Amuleto
+お守り
+Madeira
+木
+Ferro
+鉄
+Aço
+鋼
+Mítico
+神話
+Lendário
+伝説
+Pedras
+強化石
+Trevo
+クローバー
+Bênção
+祝福
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+装備のランク（木・鉄・鋼・神話・伝説）を変えて、強化石を買おう。
+Medalhas
+メダル
+Escolhido
+選択中
+Escolher
+選ぶ
+cristais
+クリスタル
+{0} comprado!
+{0}を解放しました！
+Cristais insuficientes
+クリスタルが足りません
+Disponível no nível {0}
+レベル{0}で解放
+Jogador
+プレイヤー
+Aliado
+味方
+Rival
+ライバル
+Não foi possível baixar o mapa. Verifique a conexão.
+マップをダウンロードできませんでした。接続を確認してください。
+Carregando os animais
+動物を読み込み中
+Mapa inválido
+無効なマップ
+Colinas Verdes
+緑の丘
+Picos Nevados
+雪の峰
+Deserto Dourado
+黄金の砂漠
+Floresta Encantada
+魔法の森
+Vulcão
+火山
+Praia Pirata
+海賊ビーチ
+Terra dos Doces
+お菓子の国
+Castelo
+お城
+Caverna de Cristal
+クリスタル洞窟
+Pântano
+沼地
+Cemitério Assombrado
+おばけ墓地
+Ruínas Celestes
+天空の遺跡
+Fábrica Steampunk
+スチームパンク工場
+Recife de Coral
+サンゴ礁
+Templo da Selva
+ジャングル神殿
+Cidade Neon
+ネオンシティ
+Base Lunar
+月面基地
+Faroeste
+西部
+caiu na lava
+溶岩に落ちた
+caiu no chocolate
+チョコに落ちた
+caiu no lodo
+泥に落ちた
+sumiu na névoa
+霧に消えた
+caiu das nuvens
+雲から落ちた
+caiu no metal derretido
+溶けた金属に落ちた
+foi levado pela correnteza
+流れにさらわれた
+caiu no vazio neon
+ネオンの虚空に落ちた
+flutuou para o espaço
+宇宙へ飛んでいった
+afundou na areia movediça
+流砂に沈んだ
+caiu na água
+水に落ちた
+4 TxT
+4人乱戦
+6 TxT
+6人乱戦
+8 TxT
+8人乱戦
+Fácil
+かんたん
+Normal
+ふつう
+Difícil
+むずかしい
+erram muito
+よく外す
+erram um pouco
+少し外す
+quase não erram
+ほぼ外さない
+mira perfeita
+百発百中
+Valente
+勇者
+Veloz
+疾風
+Sombrio
+影
+Feroz
+猛者
+Astuto
+策士
+Dourado
+黄金
+Furioso
+怒涛
+Sereno
+静寂
+Selvagem
+野生
+Teimoso
+頑固
+Ligeiro
+俊足
+Brabo
+荒くれ
+Sorrateiro
+忍び
+Bravo
+豪傑
+Esperto
+知恵者
+Trovão
+雷鳴
+Relâmpago
+稲妻
+Pimenta
+激辛
+Corajoso
+勇猛
+ÁRVORE 1 NÍVEL 4
+ツリー1 Lv4
+DEUS 1
+神 1
+DEUS 2
+神 2
+DEUS 3
+神 3
+SEU TIME
+自チーム
+VOCÊ
+あなた
+TODOS CONTRA TODOS
+個人戦
+RIVAIS
+ライバル
+Nv {0}
+Lv{0}
+PAUSADO
+ポーズ中
+Sair agora encerra a partida sem prêmio.
+今やめると報酬なしで試合終了です。
+turno {0}
+ターン {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+ダメージ {0}  ·  被ダメ {1}  ·  撃破 {2}  ·  命中率 {3}%
+Tremor
+画面の揺れ
+CONTINUAR
+続ける
+RENDER-SE
+降参
+SAIR
+やめる
+EMPATE
+引き分け
+VITÓRIA!
+勝利！
+DERROTA
+敗北
+VER PLACAR
+スコアを見る
+DE NOVO
+もう一度
+REVANCHE
+リベンジ
+{0} turnos
+{0}ターン
+mais dano: {0}
+最大ダメージ: {0}
+JOGADOR
+プレイヤー
+DANO
+ダメージ
+ABATES
+撃破
+PRECISÃO
+命中率
+MAIOR TIRO
+最大ショット
+precisão: {0} {1}%
+命中率: {0} {1}%
+maior tiro: {0} {1}
+最大ショット: {0} {1}
+abates: {0} x{1}
+撃破: {0} x{1}
+prêmios da partida: em breve
+試合の報酬: 近日公開
+Você se rendeu
+降参しました
+O tiro saiu do mapa!
+弾がマップ外に出た！
+na água
+水の中
+ALELUIA!
+ハレルヤ！
+era uma armadilha!
+ワナだった！
+caixa destruída
+箱を破壊
+atingido por um raio
+雷に打たれた
+o gelo quebrou!
+氷が割れた！
+TIRO LONGO! {0}m
+ロングショット！{0}m
+CRÍTICO
+クリティカル
+ANIQUILADO!
+全滅！
+congelado {0} turno(s)
+{0}ターン凍結
+NA MOSCA!
+ど真ん中！
+ÓTIMO!
+グレート！
+BOM
+グッド
+DE RASPÃO
+かすった
+MULTI-ACERTO x{0}
+マルチヒット x{0}
+ABATE QUÁDRUPLO!
+4連続撃破！
+ABATE TRIPLO!
+3連続撃破！
+ABATE DUPLO!
+2連続撃破！
+COMBO x{0}
+コンボ x{0}
+FÚRIA PRONTA!
+怒りMAX！
+caiu de muito alto
+高すぎて落ちた
+TSSSS!
+ジュウゥ！
+PLOFT!
+ボテッ！
+TCHIBUM!
+ザブーン！
+caiu do mapa
+マップから落ちた
+Precisa estar no chão
+地面にいる必要があります
+Energia insuficiente para pular
+ジャンプのエネルギーが足りない
+água!
+水だ！
+ESPECIAL
+必殺技
+invisível
+透明
+Ninguém colado — chegue mais (energia gasta)
+近くに誰もいない — もっと近づこう（エネルギー消費）
+{0} (pronta em {1}): {2}
+{0}（あと{1}）: {2}
+{0} precisa de {1} de energia
+{0}にはエネルギー{1}が必要
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+テレポート: 行きたい場所をタップして確定（キャンセルはスキルをタップ）
+Teletransporte cancelado
+テレポート中止
+Aí não dá — escolha um chão firme e livre
+そこは無理 — 平らで空いている地面を選んで
+{0} se teletransportou!
+{0}がテレポートした！
+CONGELADO (protegido)
+凍結（保護中）
+patada de urso
+クマパンチ
+cutucão
+つつき
+soco de fogo
+ファイアパンチ
+machado de batalha
+バトルアックス
+martelada sísmica
+地震ハンマー
+Nenhum rival à vista (energia gasta)
+ライバルが見えない（エネルギー消費）
+revólver
+リボルバー
+{0} usou {1}
+{0}が{1}を使った
+SINERGIA +10
+シナジー +10
+arco longo
+ロングボウ
+Não acertou ninguém no caminho
+途中で誰にも当たらなかった
+orbe arcano
+魔法オーブ
+BUM ARCANO!
+魔法ドカン！
+Ninguém ao alcance (energia gasta)
+射程内に誰もいない（エネルギー消費）
+Ninguém na sua frente — chegue mais (energia gasta)
+目の前に誰もいない — もっと近づこう（エネルギー消費）
+grito sônico
+音波シャウト
+Ninguém na sua frente (energia gasta)
+目の前に誰もいない（エネルギー消費）
+enrolado nas vinhas
+ツタにからまった
+bola de dragão
+ドラゴンボール
+machado giratório
+回転オノ
+pisão do gorila
+ゴリラスタンプ
+Sem combustível
+燃料切れ
+Toque no mapa para marcar o alvo
+マップをタップして目標をマーク
+SUA VEZ!
+あなたの番！
+VEZ DE {0}
+{0}の番
+RETIRADA: {0} s - corra para um lugar seguro!
+撤退: {0}秒 - 安全な場所へ走れ！
+VOCÊ CAIU
+落ちた！
+últ.
+前回
+MIRA
+照準
+na sua vez
+自分の番に
+ESPECIAL PRONTO
+必殺技OK
+fúria
+怒り
+FORÇA
+パワー
+último
+前回
+FÚRIA
+怒り
+FÚRIA!
+怒り！
+PASSAR
+パス
+EXPLODIR
+爆破
+AGUARDE
+待って
+VOANDO!
+飛行中！
+VOAR
+飛ぶ
+SEM GÁS
+燃料なし
+SOLTE!
+離して！
+ s
+秒
+USAR
+使う
+SEGURE
+長押し
+atire ou PASSE!
+撃つかパス！
+{0} no próximo tiro
+次の弾に{0}
+DANO x2
+ダメージ x2
+Você foi derrotado - assistindo
+やられた - 観戦中
+PRÓX.
+次
+VENTO
+風
+A FAVOR
+追い風
+CONTRA
+向かい風
+SUBINDO!
+上昇中！
+água sobe em {0}
+水位上昇まで{0}
+TURNO {0}
+ターン {0}
+SUA VEZ
+あなたの番
+RETIRADA
+撤退
+{0} está mirando...
+{0}が狙っている...
+VERDADEIRO
+真
+DANO +{0}%
+ダメージ +{0}%
+ITENS
+アイテム
+MAIS
+もっと
+em {0} vezes
+{0}回で
+rod. {0}
+R{0}
+espera {0}
+待機 {0}
+CONFIRMAR
+決定
+Nv {0}  
+Lv{0}  
+joga em {0}º
+{0}番目
+vida {0} / {1}
+HP {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+攻撃 {0}   防御 {1}   素早さ {2}   運 {3}    (クリティカル {4}% · 被ダメ -{5}%)
+Especial: {0}
+必殺技: {0}
+ (em {0})
+（あと{0}）
+ ok
+ OK
+ferramentas restantes: {0}   ·   {1} de energia por vez
+残り道具: {0}   ·   1回 エネルギー{1}
+{0} de dano · acertos {1}/{2} · abates {3}
+ダメージ{0} · 命中 {1}/{2} · 撃破 {3}
+ · sequência {0}
+ · 連続 {0}
+ · combo {0}
+ · コンボ {0}
+coragem +15%
+勇気 +15%
+último tiro: {0}° · força {1}
+前回: {0}° · パワー {1}
+dano +
+ダメージ +
+dano 
+ダメージ 
+raio +
+範囲 +
+raio 
+範囲 
+bala pesada
+重い弾
+bala leve (vai longe)
+軽い弾（遠くまで飛ぶ）
+sofre pouco com o vento
+風の影響が少ない
+sofre mais com o vento
+風の影響が大きい
+arma equilibrada
+バランス型の武器
+{0} desmarcado
+{0} 解除
+Nada para prender nessa mira
+この照準ではつかまる所がない
+A corda não alcança nada nessa direção (até {0})
+その方向にロープが届かない（最大{0}）
+andar balança · as setas sobem/descem · PULAR solta
+移動で揺れる · 矢印で上下 · ジャンプで離す
+{0} libera na rodada {1} (faltam {2})
+{0}はラウンド{1}で解放（あと{2}）
+{0} já está ativo
+{0}はすでに有効
+Acabou: {0} ({1}x por partida)
+使い切った: {0}（1試合{1}回）
+{0}: recarrega em {1} turno(s)
+{0}: あと{1}ターンで回復
+Vida já está cheia
+HPはすでに満タン
+Na masmorra o cenário não se destrói
+ダンジョンでは地形は壊れない
+A granada não soma com a Fúria nem com o Avião
+グレネードは怒りや飛行機と併用できない
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0}はこのターンの攻撃（怒り・+1・+2・3連射と併用不可）
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0}にはダメージ+%や氷は乗らない（弾専用）
+{0} vale só para o tiro (não para a ferramenta)
+{0}は弾にのみ有効（道具には無効）
+Energia insuficiente ({0})
+エネルギー不足（{0}）
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+必殺技は3連射・+1・+2と併用できない
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+1つだけ: 3連射・+1・+2（3連射と+1のみ併用可）
+Toque no TERRENO (até 520 de você) para prender a corda
+地形をタップ（自分から520以内）してロープをかける
+o fogo apagou
+火が消えた
+veneno curado
+毒が治った
+{0} se curou (+{1}) e encerrou a vez
+{0}は回復（+{1}）してターン終了
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+この照準ではつかまる所がない — 地形をタップしてロープを投げよう
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+飛行中！飛ぶボタンを長押し · 空中で移動 · 着地で終了
+Pavio da granada: {0} s (toque de novo para mudar)
+グレネードの導火線: {0}秒（タップで変更）
+as setas inclinam o túnel · USAR acende
+矢印でトンネルの角度 · 使うで点火
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+マップをタップして目標 · 矢印で飛行機の向き · 決定
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+マップをタップして配置 · 矢印で回転 · 決定
+{0} pronto — toque em USAR
+{0}準備OK — 使うをタップ
+paraquedas pronto
+パラシュート準備OK
+CORRA!
+走れ！
+BÉÉÉ!
+メェェェ！
+cacho de granadas!
+クラスターグレネード！
+mina plantada
+地雷設置
+granada na mão
+グレネードを手に
+jetpack pronto
+ジェットパック準備OK
+Não cabe aí
+そこには置けない
+Longe demais — até 600 de você
+遠すぎ — 自分から600以内
+Tem alguém aí — escolha outro lugar
+そこに誰かいる — 別の場所を選んで
+britadeira!
+ドリル！
+maçarico!
+バーナー！
+maçarico
+バーナー
+Acabou o combustível
+燃料切れ
+Pousou — o botão volta a atirar
+着地 — ボタンは射撃に戻る
+ATAQUE AÉREO!
+空爆！
+3 Tiros
+3連射
+Ataque +1
+攻撃 +1
+Ataque +2
+攻撃 +2
+Dano +10%
+ダメージ +10%
+Dano +20%
+ダメージ +20%
+Dano +30%
+ダメージ +30%
+Dano +40%
+ダメージ +40%
+Dano +50%
+ダメージ +50%
+Avião
+飛行機
+Gelo
+氷
+Invisível
+透明
+Cura
+回復
+Guia
+追尾
+Mudar Vento
+風向き変更
+Paraquedas
+パラシュート
+Baixa gravidade
+低重力
+Viga
+鉄骨
+Maçarico
+バーナー
+Jetpack
+ジェットパック
+Cipó
+ツタ
+Britadeira
+ドリル
+Passo Rápido
+早足
+Elástico
+バンジー
+Dinamite
+ダイナマイト
+Ovelha
+ヒツジ
+Granada
+グレネード
+Mina
+地雷
+Cacho de Granadas
+クラスターグレネード
+Teletransporte
+テレポート
+Ataque Aéreo
+空爆
+Pombo-bomba
+ハト爆弾
+Bolha-escudo
+バリアバブル
+Ampulheta
+砂時計
+Ataque
+攻撃
+Ataques
+攻撃
+Dano
+ダメージ
+Vento
+風
+Paraq.
+パラシュ
+Gravid.
+重力
+Corda
+ロープ
+Britad.
+ドリル
+Rápido
+早足
+Cacho
+クラスター
+Portal
+ポータル
+Aéreo
+空爆
+Pombo
+ハト
+Bolha
+バブル
+Tempo
+時間
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+扇状に3発（各-50%） · +1と合わせてコンボ1+2（6発）
+atira mais 1 vez (-10% cada)
+もう1発撃つ（各-10%）
+atira mais 2 vezes (-40% cada)
+もう2発撃つ（各-40%）
++10% de dano (soma com os outros)
+ダメージ+10%（他と重複）
++20% de dano (soma com os outros)
+ダメージ+20%（他と重複）
++30% de dano (soma com os outros)
+ダメージ+30%（他と重複）
++40% de dano (soma com os outros)
+ダメージ+40%（他と重複）
++50% de dano (soma com os outros)
+ダメージ+50%（他と重複）
+você vai voando até onde a bala cair (sem dano)
+弾の着地点まで飛んでいく（ダメージなし）
+congela quem for atingido por 2 turnos
+当たった相手を2ターン凍結
+invisível para os rivais por 3 rodadas
+3ラウンドの間ライバルから見えない
+recupera 30% da vida e ENCERRA o turno
+HPを30%回復してターン終了
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+近くを通ると一番近いライバルを追尾（ダメージ-20%）
+inverte o vento nesta rodada
+このラウンドの風を逆にする
+cai devagar e sem dano de queda até a sua próxima vez
+次の自分の番まで、ゆっくり落ちて落下ダメージなし
+os tiros deste turno voam mais longe (gravidade baixa)
+このターンの弾が遠くまで飛ぶ（低重力）
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+鉄骨: マップをタップして配置、矢印で回転、決定で設置 — 橋・盾・坂に
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+トンネルを掘って山を通り抜ける。使う前に矢印で角度調整。途中の相手に40ダメージ
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+使うで離陸。攻撃ボタン長押しで上昇、空中を移動 — 燃料3秒、落下ダメージなし
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+使うで照準の方向にロープを発射（最大520）。移動で揺れ、矢印で長さ調整、ジャンプで離す
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+下に穴を掘って降りる。下にいる相手に40ダメージ
+nesta vez você anda quase o DOBRO gastando metade da energia
+このターン、半分のエネルギーで約2倍移動できる
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+このターン、水やマップ外に落ちてもバンジーで引き戻される
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+足元にダイナマイト（300ダメージ）、導火線5秒 — このターンの攻撃
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+爆弾ヒツジを放つ: 向いた方向へ歩き、障害物を跳び越え、最初のライバルで爆発（または6秒後） — このターンの攻撃
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+次の弾はグレネード: 地面や動物で跳ね、6秒後に爆発
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+目の前に地雷を設置: 2.5秒で作動。誰か（自分や味方も！）が近づくと鳴って1.5秒後に爆発（不発あり） — このターンの攻撃
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+次の弾はクラスターグレネード: 跳ねて6秒後に爆発し、小さな5個に分裂
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+マップをタップ/ドラッグで行き先を選び、使うでテレポート — ターンを消費
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+マップをタップして目標、矢印で飛行機の向きを選び、決定でミサイル5発 — このターンの攻撃
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+マップをタップして目標、使うでハトを放つ: まっすぐ飛んで（風なし）爆発 — このターンの攻撃
+uma BOLHA te protege: metade do dano até a sua próxima vez
+バブルが守る: 次の自分の番までダメージ半減
++10 s nesta vez para mirar com calma
+このターン+10秒、じっくり狙おう
+Tiro Especial
+必殺ショット
+Chuva de Flechas
+矢の雨
+Terremoto
+大地震
+Orbe Teleguiado
+追尾オーブ
+Inferno
+インフェルノ
+Bala Quicante
+バウンド弾
+Picada Venenosa
+毒針
+Casco de Gelo
+氷の甲羅
+Chuva Curativa
+癒しの雨
+Corte Duplo
+ダブルスラッシュ
+Garras em Fúria
+怒りの爪
+Avalanche
+雪崩
+Pedregulho
+大岩
+Gêiser
+間欠泉
+Broca
+ドリル
+Fragmentação
+フラグメント
+Explosão de Espinhos
+トゲバースト
+Mordida Vampira
+ヴァンパイアバイト
+tiro forte e cratera grande
+強力な弾と大きなクレーター
+6 flechas caem do céu em volta
+周りに空から矢が6本降る
+cratera gigante e tremor
+巨大クレーターと揺れ
+persegue o inimigo mais perto
+一番近い敵を追う
+queima 3 turnos
+3ターン燃やす
+raio cai do céu na coluna do impacto
+着弾点に雷が落ちる
+quica 2 vezes explodindo
+爆発しながら2回跳ねる
+envenena 3 turnos
+3ターン毒
+congela quem atingir + escudo 2 turnos
+当たった相手を凍結 + 2ターンシールド
+cura os aliados e fere os rivais
+味方を回復し、ライバルにダメージ
+2 tiros especiais seguidos
+必殺ショット2連発
+3 explosões em linha
+一列に3回爆発
+congela tudo numa área grande
+広範囲をすべて凍結
+pedra enorme e pesada
+巨大で重い岩
+lança os rivais para o alto
+ライバルを打ち上げる
+atravessa o chão e explode por dentro
+地面を貫き内部で爆発
+se parte em 5 bombas
+5つの爆弾に分裂
+8 espinhos para todo lado
+全方向にトゲ8本
+cura você com 60% do dano
+与ダメージの60%回復
+Flecha Certeira
+必中の矢
+Patada de Urso
+クマパンチ
+Rastro de Brasas
+炎の軌跡
+Mergulho Teleguiado
+追尾ダイブ
+Bala Colossal
+巨大弾
+Tiro Duplo
+ダブルショット
+Bloco de Gelo
+氷ブロック
+Ferrão
+毒針
+Ervas Curativas
+薬草
+Cutucão
+つつき
+Chuva de Bolotas
+どんぐりの雨
+Soco de Fogo
+ファイアパンチ
+Machado de Batalha
+バトルアックス
+Martelada Sísmica
+地震ハンマー
+Lança Afiada
+鋭い槍
+Revólver
+リボルバー
+Sentinela
+セントリー
+Espinhos
+トゲ
+Eco Teleguiado
+追尾エコー
+o próximo tiro é CRÍTICO
+次の弾がクリティカル
+patada no rival colado: joga ele LONGE
+隣のライバルにパンチ: 遠くへふっ飛ばす
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+マップのどこかをタップしてワープ（ターン終了）
+o próximo tiro deixa BRASAS no chão
+次の弾が地面に炎を残す
+o próximo tiro persegue o rival (mergulho da águia)
+次の弾がライバルを追う（ワシのダイブ）
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+次の弾が巨大弾に: 超広範囲・大ダメージ
+dois tiros certeiros no rival à vista
+見えるライバルに必中の2発
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+氷ブロックにこもる: 次の自分の番までほぼノーダメージ
+o próximo tiro envenena
+次の弾が毒になる
+cura 15% de você e dos aliados perto
+自分と近くの味方を15%回復
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+刀でつつく: 隣のライバルを強く押す（崖っぷちで効果大）
+3 bolotas caem em cima do rival mais perto
+一番近いライバルにどんぐり3個
+soco de fogo: joga o rival colado lá no alto
+ファイアパンチ: 隣のライバルを空高く打ち上げる
+corta METADE da vida do rival colado
+隣のライバルのHPを半分削る
+martelo no chão: dano e joga para o alto quem está perto
+ハンマーを地面に: 近くの相手にダメージ＆打ち上げ
+a lança afia: o próximo tiro dá +35%
+槍を研ぐ: 次の弾が+35%
+seis tiros de revólver no rival à vista
+見えるライバルにリボルバー6発
+torreta que atira sozinha em quem chega perto (4 tiros)
+近づく相手を自動で撃つタレット（4発）
+espinhos no chão ferem o 1º rival que pisar
+地面のトゲが最初に踏んだライバルを傷つける
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+コウモリのエコー: 次の弾が音波をたどってライバルへ
+Arco Longo
+ロングボウ
+Investida do Urso
+クマ突進
+Orbe Arcano
+魔法オーブ
+Lança-chamas
+火炎放射
+Tempestade
+嵐
+Morteiro
+迫撃砲
+Rajada de Precisão
+精密連射
+Nevasca
+吹雪
+Nuvem Venenosa
+毒の雲
+Vinhas
+ツタ
+Corte Relâmpago
+稲妻斬り
+Toca Explosiva
+爆裂トンネル
+Cometa de Brasa
+炎の彗星
+Machado Giratório
+回転オノ
+Pisão do Gorila
+ゴリラスタンプ
+Cutucão de Lança
+槍突き
+Chuva de Balas
+弾の雨
+Minigun
+ミニガン
+Chuva de Espinhos
+トゲの雨
+Grito Sônico
+音波シャウト
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+見えるライバルにまっすぐ矢2本（最大1000）: ダメージ＆ノックバック
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+クマが前へ突進して進路上の相手をはねる（HP-8%）
+um orbe mágico voa até o rival mais perto e EXPLODE
+魔法のオーブが一番近いライバルへ飛んで爆発
+jato de fogo nos rivais à sua frente: dano e queimadura
+前方のライバルに火炎: ダメージ＆やけど
+um raio cai no rival mais perto (até 900)
+一番近いライバルに雷（最大900）
+3 tiros de morteiro caem em volta do rival mais perto
+一番近いライバルの周りに迫撃砲3発
+rajada de 5 tiros no rival à vista (até 800)
+見えるライバルに5連射（最大800）
+congela os rivais perto por 1 turno
+近くのライバルを1ターン凍結
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+毒の雲: 近くのライバル全員を3ターン毒に
+puxa o rival mais perto para junto de você e fere
+一番近いライバルを引き寄せてダメージ
+dispara para a frente cortando quem estiver no caminho
+前へ突進して進路上の相手を斬る
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+次の弾が地中を掘り進み内部で爆発
+bola de energia reta para a frente: dano e empurrão no 1º rival
+前方にまっすぐエネルギー弾: 最初のライバルにダメージ＆ノックバック
+machado que vai e volta: fere os rivais na sua frente (até 500)
+行って戻るオノ: 前方のライバルにダメージ（最大500）
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+スタンプ: 地面が揺れ、マップ上のライバル全員にダメージ＆揺さぶり
+estocada longa na frente (até 380): dano e empurrão
+前方に長い突き（最大380）: ダメージ＆ノックバック
+rajada de pistolas em TODOS os rivais à vista (até 700)
+見えるライバル全員に拳銃の連射（最大700）
+rajada de 6 tiros no rival à vista (até 800)
+見えるライバルに6連射（最大800）
+3 armadilhas de espinhos caem em volta do rival mais perto
+一番近いライバルの周りにトゲのワナ3つ
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+音波シャウト: 前方のライバル全員にダメージ＆ノックバック（最大450）
+Poção: +25% de vida e cura veneno
+ポーション: HP+25%＆毒を治す
+Energético: +120 de energia
+エナジードリンク: エネルギー+120
+Baú: +1 uso de cada ferramenta
+宝箱: 道具の使用回数 各+1
+Fúria: +40
+怒り: +40
+ARMADILHA! O baú explodiu
+ワナ！宝箱が爆発した
+Escudo: -50% de dano por 2 vezes
+シールド: 2回までダメージ-50%
+Luneta: +1 Mira Guiada
+スコープ: 追尾照準 +1
+Arma Surpresa: Fúria de outro animal no próximo tiro
+サプライズ武器: 次の弾が他の動物の怒り
+Golpe Certeiro: o próximo tiro é CRÍTICO
+必中の一撃: 次の弾がクリティカル
+Paraquedas: +1 uso
+パラシュート: +1回
+Recarga: as 2 habilidades prontas
+リチャージ: スキル2つ準備OK
+Balança da Justiça: a vida dos times é dividida igual
+正義の天秤: チームのHPを均等に分ける
+Dano em Dobro: o próximo tiro causa 2x
+ダメージ2倍: 次の弾が2倍
+Tempo Extra: +15 s na sua próxima vez
+タイム延長: 次の自分の番に+15秒
+Caixa de Arsenal: +1 de um utilitário
+武器箱: 便利アイテム+1
+Ai, meu rabo!
+いてっ、しっぽが！
+Astúcia pura!
+これぞ知恵！
+O vento me enganou!
+風にだまされた！
+GRRRAU!
+グルルァ！
+Abraço de urso!
+クマのハグだ！
+Cadê o mel?
+ハチミツどこ？
+Uh-uh! Doeu!
+ホーホー！痛い！
+Previsível.
+読めてたよ。
+Calculei errado...
+計算ミス...
+Tô pegando fogo!
+燃えてる！
+Queimou!
+焦げた！
+Esfriou...
+冷めちゃった...
+Penas pra todo lado!
+羽が飛び散る！
+Visão de águia!
+ワシの目！
+Vento traiçoeiro!
+裏切りの風！
+Nem senti... ai!
+効かない...いてっ！
+ATROPELADO!
+ひかれた！
+Mira de rinoceronte...
+サイ並みの照準...
+Sssocorro!
+たすけてぇ！
+Sssó um bote!
+ひと咬みで十分！
+Errei o bote...
+咬み損ねた...
+Meu casco!
+甲羅が！
+Devagar e sempre!
+ゆっくり着実に！
+Calma, tô mirando...
+待って、狙ってる...
+Minha lixeira!
+ぼくのゴミ箱！
+Achado não é roubado!
+拾ったもん勝ち！
+Era pra lá?
+あっちだっけ？
+Miau! Seis vidas...
+ニャー！残り6つの命...
+Caiu de pé? Não!
+ネコは着地上手？ ムリ！
+Hmpf. Foi de propósito.
+フン、わざとだし。
+Arranhão de nada!
+かすり傷だよ！
+Rugido final!
+最後の咆哮！
+Grrr... quase!
+グルル...惜しい！
+Gelou!
+凍った！
+Escorregou, hein?
+すべったね？
+Patinei...
+すべった...
+UH UH AH AH!
+ウホウホ ウッキー！
+Força bruta!
+力ずくだ！
+Bananas!
+バナナ！
+Sangue na água!
+血の匂いだ！
+Mordida certa!
+ナイスバイト！
+Nadei e morri na praia
+あと一歩だったのに
+Couro duro!
+皮は硬いぞ！
+Abocanhei!
+ガブッ！
+Lágrimas de jacaré...
+ワニの涙...
+Ninguém mexe comigo!
+オレに手を出すな！
+Cavei sua cova!
+墓穴を掘ってやった！
+Terra no olho!
+目に土が！
+Espinhos pra quê?!
+トゲなんていらない？！
+Espetado!
+刺された！
+Furou...
+しぼんだ...
+Ecoou na cabeça!
+頭に響いた！
+Na escuridão!
+闇の中で！
+Sonar falhou!
+ソナー失敗！
+Ai!
+いたっ！
+Essa doeu!
+効いた！
+Ei!
+おい！
+Ui ui ui!
+うわわっ！
+Tá louco?!
+正気か？！
+Toma!
+くらえ！
+Um a menos!
+1人撃破！
+Próximo!
+次！
+Vai pra casa!
+帰りな！
+Quase!
+惜しい！
+Errei feio...
+大ハズレ...
+Era pra lá!
+狙い通り！
+Ninguém viu.
+誰も見てないよね。
+hahaha!
+あははは！
+fácil demais
+楽勝
+grrr!
+ぐるる！
+socorro!
+たすけて！
+boa!
+ナイス！
+foi mal!
+ごめん！
+pegou fogo!
+燃えた！
+já era!
+終わりだ！
+bom jogo!
+いい試合！
+na mosca!
+ど真ん中！
+acorda!
+起きて！
+que sorte!
+ラッキー！
+chorei!
+泣いた！
+vamos!
+いくぞ！
+respeito!
+リスペクト！
+anda logo!
+早くして！
+isso aí!
+いいね！
+agressivo: empilha Dano +%
+攻撃的: ダメージ+%を重ねる
+preciso: erra menos
+正確: 外しにくい
+sorrateiro: some quando apanha
+こっそり: 攻撃を受けると消える
+apressado: atira rápido
+せっかち: すぐ撃つ
+teimoso: nunca se cura
+頑固: 回復しない
+REAÇÃO EM CADEIA!
+連鎖爆発！
+BARRIL!
+タル！
+BUUUM!
+ドカーン！
+BÉÉÉ-BUM!
+メェェ-ドカン！
+MINA!
+地雷！
+Sentinela destruída!
+セントリー破壊！
+pisou nos espinhos
+トゲを踏んだ
+mina falhou!
+地雷が不発！
+Rastro de fogo no chão!
+地面に炎の軌跡！
+queimado no fogo
+炎で焼かれた
+abatido pela sentinela
+セントリーに倒された
+A sentinela de {0} atirou em {1}
+{0}のセントリーが{1}を撃った
+Um GALÃO EXPLOSIVO está caindo!
+爆発タルが落ちてくる！
+Uma MINA está caindo!
+地雷が落ちてくる！
+Uma caixa de suprimento está caindo!
+補給箱が落ちてくる！
++{0} {1} (agora {2})
++{0} {1}（現在 {2}）
+{0} pegou {1}
+{0}が{1}をゲット
+curado do {0}
+{0}が治った
+Arsenal: +1 {0}
+武器箱: {0} +1
+{0} abriu uma ARMADILHA!
+{0}がワナを開けた！
+BÉÉ!
+メェェ！
+TIMES
+チーム
+TxT = todos contra todos
+個人戦 = 全員が敵
+DIFICULDADE DOS BOTS
+ボットの難易度
+equip. dos bots {0}
+ボットの装備 {0}
+{0} lutadores, cada um por si
+{0}人、全員が敵
+{0} contra {1}
+{0} 対 {1}
+1 bot
+ボット1体
+{0} bots
+ボット{0}体
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+キーボード: 矢印で移動・照準 · スペース長押しで溜めて離して発射 · Jでジャンプ · Pでパス · Fで必殺技 · Vで全体表示 · Escでポーズ
+JOGAR
+プレイ
+Aleatório
+ランダム
+MAPA
+マップ
+FECHADO + TETO
+閉鎖 + 天井
+FECHADO
+閉鎖
+ABERTO
+開放
+sorteia entre {0}
+{0}からランダム
+toque para ver todos
+タップですべて表示
+MAPAS
+マップ
+TETO
+天井
+Sorte
+運
+Defesa
+防御
+Agilidade
+素早さ
+PODER {0}
+パワー {0}
+ARMA VERDADEIRA
+真の武器
+Contra a IA o seu equipamento conta.
+AI戦では装備が反映されます。
+TROCAR
+変更
+dano {0}%
+ダメージ {0}%
+raio {0}%
+範囲 {0}%
+ t
+T
+ bot
+ ボット
+ humano
+ 人間
+A água começa a subir em 3 turnos!
+3ターン後に水位が上がり始める！
+MORTE SÚBITA: a água subiu!
+サドンデス: 水位が上がった！
+MORTE SÚBITA! A água sobe a cada turno
+サドンデス！毎ターン水位が上がる
+O vento VIROU para {0}
+風向きが{0}に変わった
+a direita
+右
+a esquerda
+左
+{0} joga DE NOVO (pouco atraso)!
+{0}がもう一度プレイ（待ち時間が短い）！
+Tempo Extra: +15 s nesta vez
+タイム延長: このターン+15秒
+CORAGEM: último do time causa +15% de dano!
+勇気: チーム最後の1人はダメージ+15%！
+{0} está congelado!
+{0}は凍結中！
+{0} PRONTA! (botão roxo)
+{0}準備OK！（紫のボタン）
+{0} pronta! (botão verde)
+{0}準備OK！（緑のボタン）
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+借りた怒りがある: オーブをタップ！
+FÚRIA PRONTA! Toque no orbe para armar o especial
+怒りMAX！オーブをタップして必殺技を構えよう
+Rodada {0}: {1} liberado!
+ラウンド{0}: {1}解放！
+time 
+チーム 
+{0} passou a vez
+{0}がパス
+RÁPIDO! (joga antes)
+速い！（先に行動）
+pino fora!
+ピンを抜いた！
+glub glub...
+ブクブク...
+DUELO FINAL: {0} x {1}
+最終決戦: {0} x {1}
+DUELO FINAL!
+最終決戦！
+Só falta 1 rival!
+ライバルあと1人！
+Você é o último do time!
+チーム最後の1人だ！
+PRIMEIRO SANGUE: {0}
+ファーストブラッド: {0}
+VINGANÇA! {0} vingou {1}
+リベンジ！{0}が{1}の仇を討った
+EM CHAMAS!
+絶好調！
+IMPARÁVEL!
+止まらない！
+DOMINANDO!
+圧倒中！
+LENDÁRIO!
+伝説！
+DIVINO!
+神業！
+{0}  {1} ({2} abates)
+{0}  {1}（{2}撃破）
+FOGO AMIGO: {0} derrubou {1}
+同士討ち: {0}が{1}を倒した
+Tempo esgotado
+時間切れ
+PEGOU NO AR!
+空中キャッチ！
+BUM!
+ドカン！
+{0} causou {1} de dano
+{0}が{1}ダメージ
+Fúria desarmada
+怒り解除
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: 怒りは{1}%（ダメージを与えて・受けて溜まる）
+Fúria: {0} — {1}
+怒り: {0} — {1}
+Lobo
+オオカミ
+Coelho
+ウサギ
+Forte
+剛力
+Boneco {0}
+かかし {0}
+BOT 
+ボット 
+ TxT
+ 個人戦
+BONECOS
+かかし
+TIME AZUL
+青チーム
+TIME VERMELHO
+赤チーム
+OS HUMANOS VENCERAM!
+人間チームの勝利！
+OS BOTS VENCERAM
+ボットの勝利
+TIME {0} VENCEU!
+{0}チームの勝利！
+AZUL
+青
+VERMELHO
+赤
+{0} VENCEU!
+{0}の勝利！
+JOGAR DE NOVO
+もう一度プレイ
+PRÓXIMA LUTA ({0}/3)
+次の戦い（{0}/3）
+FIM DO TORNEIO
+トーナメント終了
+Cristais dobrados!
+クリスタル2倍！
+Cristais x2
+クリスタル x2
+XP dobrado!
+XP2倍！
+Anúncio indisponível: sem prêmio desta vez
+広告を利用できません: 今回は報酬なし
+ESCOLHA UMA CARTA!
+カードを選ぼう！
+vitória! vire uma carta para ganhar um prêmio extra
+勝利！カードをめくってボーナス報酬をゲット
+PASSE O APARELHO
+端末を渡して
+Vez de {0}
+{0}の番
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  HP {1} / {2}  ·  怒り {3}%
+time {0}
+チーム {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+前の人はのぞき見禁止 · 時間は「準備OK」を押してからスタート
+ESTOU PRONTO
+準備OK
+PAUSA
+ポーズ
+DICA {0}/{1}
+ヒント {0}/{1}
+PULAR DICAS
+ヒントをスキップ
+ENTENDI
+わかった
+PRÓXIMA
+次へ
+Jogo local: sem prêmio nem estatística
+ローカル対戦: 報酬・記録なし
+TREINO · sem prêmio
+トレーニング · 報酬なし
+(NÍVEL {0}!)
+（レベル{0}！）
++{0} cristais
++{0} クリスタル
++{0} cristais pelo nível
+レベルアップで +{0} クリスタル
+TREVO DA SORTE!
+幸運のクローバー！
+BÊNÇÃO DIVINA!
+神の祝福！
+PERFEITA +{0}
+パーフェクト +{0}
+1ª VITÓRIA DO DIA +{0}
+本日初勝利 +{0}
+MAPA DO DIA +{0}
+今日のマップ +{0}
+VOLTA POR CIMA +{0}
+逆転勝利 +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+トーナメント優勝！ +{0} クリスタル +強化石3 +クローバー1
+RECORDE de tiro: {0}!
+ショット記録更新: {0}！
+RECORDE de dano: {0}!
+ダメージ記録更新: {0}！
+NÍVEL {0}!
+レベル{0}！
+NÍVEL {0}  ·  {1} / {2} XP
+レベル{0}  ·  {1} / {2} XP
+missões prontas: {0}
+完了ミッション: {0}
+conquistas para coletar: {0}
+受取可能な実績: {0}
+Novo: {0} disponível!
+新登場: {0}が利用可能！
+faltou {0} m
+あと{0}m
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+矢印ボタンで移動（エネルギー消費）。低い段差なら登れる。
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+上下ボタンで角度を変更。矢印が弾の方向。
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+長押しでパワーを溜めて、離して発射。上の風をチェック！
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+道具: +1・+2・3連射は1回に1つだけ（3連射+ +1 = 6発コンボ）。ダメージ+%は全部と重複（エネルギー消費）。
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+ダメージを与えて・受けて怒りを溜め、オーブをタップ: 必殺技！
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+マップをダブルタップで全体表示。動物をタップで詳細。高い所から落ちるとダメージ！健闘を祈る！
+Mire com as setas e SEGURE o botão de ataque para atirar
+矢印で狙い、攻撃ボタンを長押しして撃とう
+Acerte um boneco (olhe o VENTO lá em cima)
+かかしに当てよう（上の風をチェック）
+Use uma ferramenta da coluna da esquerda
+左の列から道具を使おう
+Pegue uma caixa (ande até ela ou acerte quando cair)
+箱を取ろう（歩いて行くか、落ちてくる時に撃つ）
+Feito!
+完了！
+Você já sabe o básico!
+基本はバッチリ！
+do dia: {0} +50%
+今日: {0} +50%
+DO DIA +50%
+今日の +50%
+{0} vit.
+{0}勝
+1ª partida com dicas
+初回はヒント付き
+boneco de novo!
+またかかし！
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+ボス付きダンジョン10個、難易度4段階と星。報酬: クリスタル、強化石、クローバー、祝福。
+TORNEIO
+トーナメント
+TREINO
+トレーニング
+Missões
+ミッション
+Conquistas
+実績
+Compre na tela Animais por {0} cristais
+動物画面で{0}クリスタルで購入
+VER
+見る
+Seu
+所持
+ESCOLHER
+選ぶ
+COMPRAR {0}
+購入 {0}
+Especial
+必殺技
+{0} vitórias em {1} partidas
+{1}試合中{0}勝
+renovam em {0}h {1}
+更新まで{0}時間{1}
+complete as 3 para chance de Trevo
+3つ達成でクローバーのチャンス
+prêmio: +{0} cristais · +1 pedra
+報酬: +{0} クリスタル · 強化石+1
+FEITA
+完了
+COLETAR
+受け取る
+em andamento
+進行中
+TORNEIO DO DIA
+今日のトーナメント
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+強くなるボットと1x1で3連戦 · 負けたら1戦目から · 3勝で報酬
+que erra um pouco
+少し外す
+que quase não erra
+ほぼ外さない
+de mira perfeita
+百発百中の
+LUTA {0}  ·  {1}
+第{0}戦  ·  {1}
+1x1 contra bot {0}
+1x1 vs ボット {0}
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+3勝の報酬: +{0} クリスタル  +強化石3  +クローバー1
+campeão {0} vez(es)
+優勝 {0}回
+o prêmio sai 1 vez por dia
+報酬は1日1回
+Você já jogou o torneio de hoje - ele volta amanhã!
+今日のトーナメントはプレイ済み - また明日！
+Seu animal: {0}  (troque na tela Animais)
+あなたの動物: {0}  (動物画面で変更)
+VOLTA AMANHÃ
+また明日
+COMEÇAR A LUTA 1
+第1戦スタート
+Rever as dicas na próxima partida
+次の試合でヒントを再表示
+ATQ
+攻撃
+SOR
+運
+DEF
+防御
+AGI
+素早
+PODER DE COMBATE
+戦闘力
+forma normal
+通常フォーム
+FERREIRO
+鍛冶屋
+ARMEIRO
+武器屋
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+強化は動物ごとに別々。失敗しても石を失うだけ - アイテムは弱くならない。
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+AI戦・トーナメント・ダンジョンで有効 · ローカルでは全員同じ · 見た目は全モードで有効
+{0} no máximo do tier {1} (+12)
+{0}はティア{1}の最大（+12）
+compre {0} no Armeiro
+武器屋で{0}を購入
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+成功 {0}%  ·  失敗 {1}%  ·  費用 {2}（所持 {3}）
++{0}% pelas falhas
+失敗ボーナス +{0}%
+Trevo ({0})
+クローバー（{0}）
+-20% de falha
+失敗率 -20%
+Bênção ({0})
+祝福（{0}）
+nunca falha
+絶対成功
+MÁXIMO
+MAX
+APRIMORAR
+強化
+SUCESSO! +{0}
+成功！ +{0}
+FALHOU…
+失敗…
++{0}% na próxima pelas falhas
+失敗ボーナスで次回 +{0}%
+Faltam pedras: {0}
+石が足りない: {0}
+custo {0} · tem {1}
+費用 {0} · 所持 {1}
+{0} {1} usa {2}.
+{0} {1}は{2}を使用。
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+石の入手: 勝利、カード、ミッション、鍛冶屋の宝箱（武器屋）。
+FORMA máxima: DEUS 3
+最大フォーム: 神 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+次のフォームまで{1}のアイテムがあと{0}個（フォームは一番低いティアのアイテムで決まる）
+EQUIPAMENTO
+装備
+MATERIAIS
+素材
+precisa +12 (está +{0})
++12が必要（現在 +{0}）
+Leve ao +12 no Ferreiro antes de trocar o tier
+ティア変更の前に鍛冶屋で+12にしよう
+NOVA FORMA: {0}!
+新フォーム: {0}！
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+ティア変更はアイテムが+12の時だけ。新ティアは+0から始まり、専用の石で強化。4つが同じティアでフォームが変わる。
+ESTATÍSTICAS
+戦績
+GERAL
+全体
+CARREIRA
+キャリア
+Partidas
+試合数
+Vitórias
+勝利
+Melhor sequência
+最高連勝
+Abates
+撃破
+Dano total
+総ダメージ
+Maior dano num tiro
+1発の最大ダメージ
+Tiros
+ショット数
+Precisão
+命中率
+Animal favorito
+お気に入りの動物
+Vitórias perfeitas
+パーフェクト勝利
+Mais dano numa partida
+1試合の最大ダメージ
+Tiros longos · vinganças
+ロングショット · リベンジ
+Partidas hoje
+今日の試合数
+Fúrias
+怒り
+Caixas
+箱
+Ferramentas
+道具
+Suporte
+サポート
+Quedas
+落下
+Tiros rápidos
+速攻ショット
+Multi-acertos
+マルチヒット
+Críticos
+クリティカル
+NA MOSCA
+ど真ん中
+Passou
+パス
+Habilidades
+スキル
+Torneios vencidos
+トーナメント優勝
+Nível
+レベル
+Liga
+リーグ
+CONQUISTAS {0}/{1}
+実績 {0}/{1}
+COLETAR TODAS ({0})
+すべて受け取る（{0}）
+{0} conquistas: +{1} cristais
+実績{0}個: +{1} クリスタル
+(masmorra)
+（ダンジョン）
+toque: +{0} cristais
+タップ: +{0} クリスタル
+página {0}/{1}
+ページ {0}/{1}
+Bronze
+ブロンズ
+Prata
+シルバー
+Ouro
+ゴールド
+Platina
+プラチナ
+Diamante
+ダイヤ
+HUMANOS × BOTS
+人間 × ボット
+cada um por si (+ bots, se quiser)
+全員が敵（ボット追加も可）
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4（ボットが補充）
+todos juntos contra o PC
+みんなでCPUと対決
+Jogador {0}
+プレイヤー{0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKL-ZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+順番にプレイして端末を渡す  ·  能力は全員同じ  ·  報酬・ランキングなし
+JOGADORES
+プレイヤー
+TAMANHO
+サイズ
+BOTS EXTRAS
+追加ボット
+BOTS
+ボット
+DIFICULDADE
+難易度
+sem bots
+ボットなし
+Toque no NOME para trocar e no ANIMAL para escolher
+名前をタップで変更、動物をタップで選択
+no TIME para mudar de lado
+チームをタップで陣営を変更
+pode repetir animal
+同じ動物もOK
+Mapa aleatório
+ランダムマップ
+{0} TODOS CONTRA TODOS
+{0} 個人戦
+{0} HUMANOS × {1} BOTS
+人間{0} × ボット{1}
+{0} no aparelho
+端末に{0}人
+COMEÇAR
+スタート
+NOME DO JOGADOR {0}  (até 12 letras)
+プレイヤー{0}の名前（12文字まで）
+vazio = Jogador {0}
+空欄 = プレイヤー{0}
+APAGAR
+削除
+ESPAÇO
+スペース
+Animal de {0}
+{0}の動物
+Compre mais animais na tela ANIMAIS
+動物画面でもっと動物を買おう
++dano dos tiros
++ショットのダメージ
++chance de crítico
++クリティカル率
+-dano recebido
+-被ダメージ
++energia e joga antes
++エネルギー＆先に行動
+Pedra de força
+強化石
+Pedra de ferro
+鉄の石
+Pedra de aço
+鋼の石
+Pedra mítica
+神話の石
+Pedra lendária
+伝説の石
+5 Pedras de Força
+強化石 x5
+20 Pedras de Força
+強化石 x20
+Baú do Ferreiro
+鍛冶屋の宝箱
+aprimora itens de MADEIRA no Ferreiro
+鍛冶屋で木のアイテムを強化
+pacote grande: 4 pedras de brinde
+大パック: 石4個おまけ
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+同じ種類の石3〜6個、種類はランダム（強化60% · 鉄25% · 鋼10% · 神話4% · 伝説1%）· クローバー（5%）と祝福（0.5%）のチャンス
++5 pedras de força
++強化石5
++20 pedras de força
++強化石20
+BÊNÇÃO!
+祝福！
+TREVO!
+クローバー！
+Vença {0} partidas
+{0}回勝利する
+Cause {0} de dano
+{0}ダメージを与える
+Acerte {0} tiros
+{0}発命中させる
+Use a Fúria {0} vezes
+怒りを{0}回使う
+Pegue {0} caixas de suprimento
+補給箱を{0}個取る
+Derrote {0} inimigos
+敵を{0}体倒す
+Vença {0} masmorra
+ダンジョンを{0}回クリア
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+3連射/+1/+2/ダメージ+%を{0}回使う
+Derrube rivais de muito alto {0} vezes
+ライバルを高所から{0}回落とす
+Consiga {0} vitória perfeita
+パーフェクト勝利を{0}回
+Faça {0} tiros rápidos (<5 s)
+速攻ショット（5秒未満）を{0}回
+Acerte 2+ rivais num só tiro {0} vezes
+1発で2体以上に{0}回当てる
+Acerte {0} tiros longos
+ロングショットを{0}回当てる
+Vença {0} vez no mapa do dia
+今日のマップで{0}回勝利
+Jogue {0} partidas
+{0}試合プレイする
+Vença {0} partidas em time (2x2+)
+チーム戦（2x2以上）で{0}回勝利
+Faça {0} vingança
+リベンジを{0}回
+Cause 600+ de dano em {0} partida
+1試合で600以上のダメージを{0}回
+Use o PASSAR {0} vezes
+パスを{0}回使う
+Acerte {0} críticos
+クリティカルを{0}回当てる
+Derrote {0} monstros na masmorra
+ダンジョンでモンスターを{0}体倒す
+Vença {0} partida no Todos x Todos
+個人戦で{0}回勝利
+Vença {0} partida no Difícil+
+むずかしい以上で{0}回勝利
+Jogue {0} partida online
+オンラインで{0}試合プレイ
+Cause {0} de dano na masmorra
+ダンジョンで{0}ダメージを与える
+Acerte {0} tiros NA MOSCA
+ど真ん中を{0}回当てる
+Use {0} ferramentas do Arsenal
+武器箱の道具を{0}回使う
+Use {0} itens de suporte
+サポートアイテムを{0}回使う
+Use {0} habilidades
+スキルを{0}回使う
+Coloque {0} vigas
+鉄骨を{0}本置く
+Primeiro sangue
+ファーストブラッド
+Veterano
+ベテラン
+Lenda da Arena
+アリーナの伝説
+Atirador
+シューター
+Demolidor
+破壊屋
+Tiro perfeito
+完璧な一撃
+Invicto
+無敗
+Exterminador
+殲滅者
+Caçador de chefes
+ボスハンター
+Conquistador
+征服者
+Ferreiro mestre
+鍛冶の達人
+Nível 20
+レベル20
+Centenário
+百戦錬磨
+Imperador
+皇帝
+Olho de águia
+鷹の目
+Apocalipse
+アポカリプス
+Golpe divino
+神の一撃
+Imparável
+止められない
+Ceifador
+死神
+Perfeccionista
+完璧主義者
+Franco-atirador
+スナイパー
+Vingador
+復讐者
+Mestre do modo
+モードマスター
+Colecionador
+コレクター
+Maratonista
+マラソンランナー
+Imortal
+不死身
+Atirador de elite
+名射手
+Destruidor
+破壊者
+Golpe lendário
+伝説の一撃
+Exterminador supremo
+究極の殲滅者
+Sempre perfeito
+常に完璧
+Explorador
+探検家
+Domador
+猛獣使い
+Lenda das masmorras
+ダンジョンの伝説
+Campeão do torneio
+トーナメント王者
+Rei do mapa do dia
+今日のマップの王
+Desbravador
+開拓者
+Senhor das masmorras
+ダンジョンの支配者
+Naturalista
+博物学者
+Enciclopédia
+百科事典
+Rei da Fúria
+怒りの王
+Caçador de caixas
+箱ハンター
+Mestre das ferramentas
+道具マスター
+Derrubador
+突き落とし屋
+Chuva de golpes
+攻撃の嵐
+Estrategista
+策略家
+Golpe crítico
+会心の一撃
+Desarmador
+解除のプロ
+Quebra-aço
+鋼砕き
+Exorcista
+エクソシスト
+Guardião do céu
+空の守護者
+Quebra-gelo
+砕氷者
+Caça-piratas
+海賊ハンター
+Ás dos céus
+空のエース
+Fim do caos
+混沌の終焉
+Matador de dragões
+ドラゴンスレイヤー
+Senhor do vazio
+虚空の王
+Mestre das habilidades
+スキルマスター
+Engenheiro
+エンジニア
+Constelação
+星座
+Céu estrelado
+満天の星
+Escavador
+掘削者
+Piloto
+パイロット
+Ninja
+忍者
+Pirotécnico
+花火師
+Pastor
+羊飼い
+Granadeiro
+擲弾兵
+Chuva de granadas
+グレネードの雨
+Sapador
+工兵
+Piloto de caça
+戦闘機乗り
+Britador
+ドリル使い
+Vença 1 partida
+1回勝利する
+Jogue 50 partidas
+50試合プレイする
+Vença 100 partidas
+100回勝利する
+Acerte 200 tiros
+200発命中させる
+Cause 50.000 de dano
+50,000ダメージを与える
+Cause 800 de dano num só tiro
+1発で800ダメージを与える
+Vença 5 seguidas
+5連勝する
+Derrote 100 inimigos
+敵を100体倒す
+Vença a 1ª masmorra
+1つ目のダンジョンをクリア
+Vença as 4 masmorras
+4つのダンジョンをクリア
+Aprimore um item até +10
+アイテムを+10まで強化
+Chegue ao nível 20
+レベル20に到達
+Jogue 200 partidas
+200試合プレイする
+Vença 300 partidas
+300回勝利する
+Acerte 1000 tiros
+1000発命中させる
+Cause 250.000 de dano
+250,000ダメージを与える
+Cause 1200 num só tiro
+1発で1200ダメージ
+Vença 10 seguidas
+10連勝する
+Derrote 500 inimigos
+敵を500体倒す
+10 vitórias perfeitas
+パーフェクト勝利10回
+50 tiros longos
+ロングショット50回
+20 vinganças
+リベンジ20回
+Chegue ao nível 40
+レベル40に到達
+Vença com 10 animais diferentes
+10種類の動物で勝利
+Jogue 500 partidas
+500試合プレイする
+Vença 20 seguidas
+20連勝する
+Acerte 3000 tiros
+3000発命中させる
+Cause 1.000.000 de dano
+1,000,000ダメージを与える
+Cause 1500 num só tiro
+1発で1500ダメージ
+Derrote 1500 inimigos
+敵を1500体倒す
+50 vitórias perfeitas
+パーフェクト勝利50回
+Vença em 10 mapas diferentes
+10種類のマップで勝利
+Vença com 18 animais diferentes
+18種類の動物で勝利
+Vença uma masmorra no Lendário
+伝説でダンジョンをクリア
+Vença o Torneio do Dia
+今日のトーナメントで優勝
+Vença 10 vezes no mapa do dia
+今日のマップで10回勝利
+Vença 6 masmorras diferentes
+6種類のダンジョンをクリア
+Vença as 10 masmorras
+10個のダンジョンをすべてクリア
+Descubra 15 monstros no bestiário
+図鑑でモンスターを15体発見
+Descubra todos os monstros
+すべてのモンスターを発見
+Use a Fúria 100 vezes
+怒りを100回使う
+Pegue 100 caixas
+箱を100個取る
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+3連射/+1/+2/ダメージ+%を500回使う
+Derrube 50 rivais de muito alto
+ライバルを高所から50回落とす
+Faça 100 tiros rápidos (<5 s)
+速攻ショット（5秒未満）を100回
+Acerte 2+ rivais num tiro 50 vezes
+1発で2体以上に50回当てる
+Use o PASSAR 50 vezes
+パスを50回使う
+Acerte 200 críticos
+クリティカルを200回当てる
+Vença o Ninho das Bombas
+爆弾の巣をクリア
+Vença a Fortaleza de Aço
+鋼の要塞をクリア
+Vença o Templo Sombrio
+闇の神殿をクリア
+Vença o Santuário Celeste
+天空の聖域をクリア
+Vença o Pico Congelado
+凍てつく峰をクリア
+Vença o Estaleiro Pirata
+海賊の造船所をクリア
+Vença o Céu de Guerra
+戦火の空をクリア
+Vença o Trono do Caos
+混沌の玉座をクリア
+Vença o Covil do Dragão
+竜の巣をクリア
+Vença o Trono do Vazio
+虚空の玉座をクリア
+Use 100 habilidades
+スキルを100回使う
+Coloque 50 vigas
+鉄骨を50本置く
+Tire 3 estrelas numa masmorra
+ダンジョンで星3つを獲得
+Junte 30 estrelas nas masmorras
+ダンジョンで星を30個集める
+Cave 20 túneis/poços
+トンネル/穴を20回掘る
+Voe de jetpack 15 vezes
+ジェットパックで15回飛ぶ
+Use a corda ninja 15 vezes
+忍者ロープを15回使う
+Exploda 15 dinamites
+ダイナマイトを15回爆発させる
+Solte 15 ovelhas
+ヒツジを15匹放つ
+Arremesse 30 granadas
+グレネードを30個投げる
+Use 8 cachos de granadas
+クラスターグレネードを8回使う
+Plante 15 minas
+地雷を15個設置
+Chame 6 ataques aéreos
+空爆を6回呼ぶ
+Use a Britadeira 10 vezes
+ドリルを10回使う
++1 Trevo
++クローバー1
+TREVO
+クローバー
+BÊNÇÃO
+祝福
+FERRO
+鉄
+AÇO
+鋼
+MÍTICA
+神話
+LENDÁRIA
+伝説
+INIMIGOS
+敵
+ELITE
+エリート
+CHEFE
+ボス
+Sair agora encerra a masmorra sem prêmio.
+今やめるとダンジョンは報酬なしで終わります。
+chefe derrotado
+ボス撃破
+parou no chefe
+ボスで敗退
+onda {0}/2
+ウェーブ {0}/2
+venceu
+勝利
+sem baixas
+犠牲なし
+teve baixa
+犠牲あり
+não
+未達成
+até {0} turnos
+{0}ターン以内
+3 estrelas pela 1ª vez: +{0} cristais
+初の星3つ: クリスタル +{0}
+novo recorde de estrelas!
+星の新記録!
+PONTO FRACO!
+弱点!
+BLOQUEADO - acerte de cima
+防がれた - 上から当てよう
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+第2形態: 戦車がタンク輸送車に!
+restam {0}
+残り {0}
+ONDA {0}/2
+ウェーブ {0}/2
+avança...
+前進中...
+arremessa...
+投げる...
+cura...
+回復中...
+ataca...
+攻撃中...
+chama os lacaios...
+手下を呼ぶ...
+está mirando...
+狙っている...
+enfurecido
+激怒
+defesa {0}  (leva -{1}%)
+防御 {0}  (被ダメ -{1}%)
+ELITE: +50% vida, +20% dano · 
+エリート: 体力+50%、ダメージ+20% · 
+ENFURECIDO: +20% dano · 
+激怒: ダメージ+20% · 
+anda até você e bate de perto{0}
+近づいて殴る{0}
+ (explode!)
+ (爆発!)
+cura os aliados - derrube primeiro
+仲間を回復 - 先に倒そう
+atira de longe
+遠くから撃つ
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+ウェーブ{0}突破 · 撃破{1} · ダメージ{2} · 体力+{3}
+NOVO no bestiário: {0}
+図鑑に新登録: {0}
+Onda {0}: 
+ウェーブ{0}: 
+ONDA {0} de 2: {1} inimigos!
+ウェーブ {0}/2: 敵{1}体!
+({0} elite)
+(エリート{0})
+ONDA {0} DE 2 - {1} INIMIGOS
+ウェーブ {0}/2 - 敵{1}体
+OS SENHORES DO CAOS!
+混沌の支配者たち!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+魔術師と騎士が一緒に! もう一方を回復される前に魔術師を倒せ
+CHEFE: {0}
+ボス: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+古代竜が目覚めた! 3回ごとに燃える弾、4回ごとに火の雨
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+虚無の王が来た! 3回ごとに鎧、エリートの手下を呼ぶ
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+氷の王が来た! 3回ごとに弾が凍らせる
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+戦艦が来た! 一度に3発撃つ - 散らばれ
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+巨大飛行船が来た! 4回ごとに全員を爆撃
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+巨大戦車が来た! バリアは上から落ちる弾にしか破れない
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+闇の魔術師が来た! まず回復役を倒せ
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+闇の騎士が来た! 鎧が外れたら攻撃
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+ボムキングが来た! 頭を狙え(弱点)
+cura
+回復
+Ritual de cura!
+回復の儀式!
+Lacaios, ataquem!
+手下ども、かかれ!
+{0} ENFURECEU! (+20% de dano)
+{0}が激怒! (ダメージ+20%)
+O CHEFE ENFURECEU!
+ボスが激怒!
+ARMADURA NEGRA!
+漆黒の鎧!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+騎士が鎧をまとった (2回 -50%)
+NEVASCA!
+吹雪!
+CHUVA DE FOGO!
+火の雨!
+BOMBARDEIO!
+爆撃!
+FURIOSO!
+激怒!
+bravo
+怒り
+CHEFE  ·  {0}
+ボス  ·  {0}
+{0} de vida
+体力 {0}
+toque para pular
+タップでスキップ
+o tempo acabou
+時間切れ
+Faltam 5 turnos: {0} vai desabar!
+残り5ターン: {0}が崩れる!
+ELITE derrotado por {0} (+20 de fúria)
+{0}がエリートを撃破 (怒り+20)
+{0} deixou cair uma caixa!
+{0}が箱を落とした!
+fugiu!
+逃げた!
+{0} caiu! Os lacaios fugiram!
+{0}が倒れた! 手下は逃げた!
+Bombinha
+ちびボム
+Lança-Bombas
+ボム投げ
+Brutamontes
+怪力男
+REI BOMBA
+ボムキング
+Viking
+バイキング
+Blindado
+装甲兵
+TANQUE COLOSSAL
+巨大戦車
+Bandido
+盗賊
+Golem
+ゴーレム
+Curandeiro
+回復師
+FEITICEIRO SOMBRIO
+闇の魔術師
+Mago
+魔法使い
+Bárbaro
+バーバリアン
+Motosserra
+チェーンソー
+CAVALEIRO SOMBRIO
+闇の騎士
+Lenhador
+きこり
+Ninja do Gelo
+氷の忍者
+LORDE DO GELO
+氷の王
+Gladiador
+剣闘士
+Tanque Pirata
+海賊戦車
+Caminhão Viking
+バイキングトラック
+ENCOURAÇADO PIRATA
+海賊戦艦
+Dirigível
+飛行船
+Caça
+戦闘機
+Encapuzada
+フードの女
+DIRIGÍVEL COLOSSAL
+巨大飛行船
+Sombra Veloz
+疾風の影
+DRAGÃO ANCESTRAL
+古代竜
+REI DO VAZIO
+虚無の王
+anda até você e EXPLODE
+近づいて爆発する
+atira bombas de longe
+遠くから爆弾を投げる
+lento, muito resistente
+遅いがとても頑丈
+ponto fraco na cabeça · invoca lacaios
+弱点は頭 · 手下を呼ぶ
+corre e ataca de perto
+走って近接攻撃
+blindado: aguenta muito
+装甲: とても打たれ強い
+barreira: acerte DE CIMA · 2ª forma
+バリア: 上から当てよう · 第2形態
+pedra viva: forte de perto
+生きた岩: 近接が強い
+se cura · tiros envenenam
+自己回復 · 弾が毒
+magia de longe
+遠くから魔法
+REGENERA a cada vez
+毎ターン再生する
+serra de perto, dano alto
+近接ノコギリ、高ダメージ
+ARMADURA a cada 3 vezes · chama magos
+3回ごとに鎧 · 魔法使いを呼ぶ
+machado de perto, resistente
+近接の斧、頑丈
+atira estrelas de longe
+遠くから手裏剣
+a cada 3 vezes o tiro CONGELA
+3回ごとに弾が凍らせる
+corre e golpeia de perto
+走って近接で殴る
+canhão de longe, blindado
+遠くから大砲、装甲
+avança e atropela de perto
+突進して轢く
+sempre atira 3 balas de canhão
+常に砲弾3発
+bombardeia do alto
+上空から爆撃
+rápido, atira de longe
+素早い、遠くから撃つ
+cura os aliados · derrube primeiro
+仲間を回復 · 先に倒そう
+a cada 4 vezes BOMBARDEIA todo mundo
+4回ごとに全員を爆撃
+muito rápida, ataca de perto
+とても速い、近接攻撃
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+3回ごとに燃える弾 · 4回ごとに火の雨
+armadura a cada 3 · veneno · chama ELITE
+3回ごとに鎧 · 毒 · エリートを呼ぶ
+NINHO DAS BOMBAS
+ボムの巣
+FORTALEZA DE AÇO
+鋼の要塞
+TEMPLO SOMBRIO
+闇の神殿
+SANTUÁRIO CELESTE
+天空の聖域
+PICO CONGELADO
+凍てつく峰
+ESTALEIRO PIRATA
+海賊の造船所
+CÉU DE GUERRA
+戦場の空
+TRONO DO CAOS
+混沌の玉座
+COVIL DO DRAGÃO
+竜の巣穴
+TRONO DO VAZIO
+虚無の玉座
+Ondas: Bombinhas que explodem, Lança-Bombas
+ウェーブ: 爆発するちびボム、ボム投げ
+e Brutamontes. Chefe: REI BOMBA
+と怪力男。ボス: ボムキング
+Ondas: Vikings, Blindados e Lança-Bombas.
+ウェーブ: バイキング、装甲兵、ボム投げ。
+Chefe: TANQUE COLOSSAL
+ボス: 巨大戦車
+barreira: acerte DE CIMA · tem 2ª forma
+バリア: 上から当てよう · 第2形態あり
+Ondas: Bandidos, Golens e Curandeiros.
+ウェーブ: 盗賊、ゴーレム、回復師。
+Chefe: FEITICEIRO SOMBRIO
+ボス: 闇の魔術師
+se cura (mate os curandeiros) · veneno
+自己回復(回復師を倒せ) · 毒
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+ウェーブ: 魔法使い、バーバリアン(再生)、チェーンソー。
+Chefe: CAVALEIRO SOMBRIO
+ボス: 闇の騎士
+armadura a cada 3 vezes · chama magos
+3回ごとに鎧 · 魔法使いを呼ぶ
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+ウェーブ: きこりと氷の忍者。鋼の石
+Chefe: LORDE DO GELO
+ボス: 氷の王
+a cada 3 vezes o tiro dele CONGELA
+3回ごとに弾が凍らせる
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+ウェーブ: 剣闘士、トラック、戦車。鋼の石
+Chefe: ENCOURAÇADO PIRATA
+ボス: 海賊戦艦
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+ウェーブ: 戦闘機、飛行船、フードの女(回復)。神話
+Chefe: DIRIGÍVEL COLOSSAL
+ボス: 巨大飛行船
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+ウェーブ: 疾風の影と剣闘士。神話の石
+Chefes: FEITICEIRO + CAVALEIRO juntos
+ボス: 魔術師+騎士が一緒に
+dois chefes: cura, veneno e armadura
+ボス2体: 回復、毒、鎧
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+ウェーブ: バーバリアン、剣闘士、忍者。伝説
+Chefe: DRAGÃO ANCESTRAL
+ボス: 古代竜
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+ウェーブ: 影、魔法使い、フードの女。伝説
+Chefe: REI DO VAZIO
+ボス: 虚無の王
+Bênção da Força: +10% de dano
+力の加護: ダメージ+10%
+Bênção da Fúria: começa com 25 de fúria
+怒りの加護: 怒り25で開始
+Bênção do Arsenal: +1 uso de cada ferramenta
+武器庫の加護: 各道具の使用回数+1
+Bênção da Pedra: -15% de dano recebido
+石の加護: 被ダメージ-15%
+Bênção da Vida: +20% de vida
+生命の加護: 体力+20%
+Bênção da Sorte: +8% de chance de crítico
+幸運の加護: クリティカル率+8%
+Bênção do Guia: +2 usos da mira guiada
+導きの加護: 誘導照準+2回
+Bênção do Escudo: começa com escudo
+盾の加護: 盾を持って開始
+ e 
+と
+Vença os 2 anteriores{0}
+前の2つをクリア{0}
+ainda não jogou
+未プレイ
+chegou ao chefe
+ボスに到達
+onda {0}
+ウェーブ {0}
+Recorde: {0}
+記録: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+報酬: クリスタル{0} · {1} {2}-{3}
+chance de Trevo e Bênção
+クローバーと祝福のチャンス
+DIFICULDADE DOS MONSTROS
+モンスターの難易度
+EQUIPE: só jogadores (sem bots)
+チーム: プレイヤーのみ(ボットなし)
+Aqui você entra SOZINHO.
+ここには一人で挑む。
+Lendário: vença as 4 primeiras masmorras
+伝説: 最初の4ダンジョンをクリア
+Monstros
+モンスター
+ENTRAR NA MASMORRA
+ダンジョンに入る
+BLOQUEADA
+ロック中
+MONSTROS DAS MASMORRAS · {0} / {1}
+ダンジョンのモンスター · {0} / {1}
+vida {0}   defesa {1}
+体力 {0}   防御 {1}
+Enfrente-o numa masmorra para revelar
+ダンジョンで戦うと判明
+masmorra
+ダンジョン
+Masmorras
+ダンジョン
+Bestiário
+モンスター図鑑
+VISUAL
+見た目
+EM USO
+使用中
+toque para usar
+タップで使う
+Rastro {0}!
+軌跡 {0}!
+Clássico
+クラシック
+Fogo
+炎
+Arco-íris
+虹
+Veneno
+毒
+Sombra
+影
+Chiclete
+ガム
+Neon
+ネオン
+PRESENTE DIÁRIO
+デイリーギフト
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+毎日来よう: 報酬が増える。1日休むと1日目に戻る。
+DIA {0}
+{0}日目
+COLETAR DIA {0}
+{0}日目を受け取る
+volte amanhã
+また明日
+{0} cristais
+クリスタル {0}
+2 pedras do seu nível
+あなたのレベルの石2個
+1 Trevo
+クローバー1個
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+クリスタル{0} + あなたのレベルの石3個 + 祝福のチャンス
+Dia {0}: {1}
+{0}日目: {1}
+10 masmorras · monstros e chefes
+ダンジョン10個 · モンスターとボス
+você contra os bots · 1x1 a 4x4
+ボットと対戦 · 1対1〜4対4
+2 a 8 no mesmo aparelho
+同じ端末で2〜8人
+cada um por si
+全員が敵
+monte os times como quiser: 1x3, 2x4...
+チームは自由に: 1対3、2対4...
+LUTADORES  {0}/{1}
+ファイター  {0}/{1}
+BOT
+ボット
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+動物をタップで選択、名前をタップで操作する人を変更(プレイヤーかボット)
+animal sorteado
+ランダムな動物
+jogador {0}
+プレイヤー{0}
+JOGADORES NO APARELHO
+この端末のプレイヤー
+bots com o mesmo nível e força do jogador
+ボットはプレイヤーと同じレベルと強さ
+bots mais fortes que o jogador
+ボットはプレイヤーより強い
+{0} não controla nenhum animal
+{0}は動物を操作していません
+Sorteado
+ランダム
+TIME VERDE
+緑チーム
+TIME AMARELO
+黄チーム
+TIME
+チーム
+OUTROS TIMES
+他のチーム
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+全員が他のチームにいます。+ ボットを使うか名前をタップ
+{0} mudou de time com todos os seus animais
+{0}は全ての動物と一緒にチームを移動しました
+{0} já está no {1}
+{0}はすでに{1}です
+na próxima vez
+次のターン
+PADRÃO
+ノーマル
+SOMBRIA
+シャドウ
+JADE
+ジェイド
+BRASA
+エンバー
+CÓSMICA
+コズミック
+Skin
+スキン
+SKINS
+スキン
+Skins
+スキン
+Em uso
+使用中
+Usar
+使う
+Derrote {0} inimigos com este animal
+この動物で敵を{0}体倒す
+Vença {0} partidas com este animal
+この動物で{0}回勝つ
+Vença a masmorra {0} no Normal (ou mais) com este animal
+この動物でダンジョン「{0}」をノーマル以上でクリア
+Acerte {0} tiros NA MOSCA com este animal
+この動物でど真ん中を{0}回当てる
+Cause {0} de dano num só tiro com este animal
+この動物で1発{0}ダメージを与える
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+この動物でVS AIのハードかレジェンドで{0}回勝つ
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+この動物でダンジョン「{0}」をハード以上でクリア
+Cumpra a missão para liberar a compra
+ミッションを達成すると購入できます
+Compre o animal para usar skins
+スキンを使うには動物を購入してください
+Liberada!
+解放!
+Skin {0} comprada!
+スキン「{0}」を購入!
+Não foi possível comprar
+購入できませんでした
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+スキンは試合で表示され、装備のフォームと組み合わさります。ボットもスキンを使います。
+Skin liberada: {0} {1}!
+スキン解放: {0} {1}!
+Compre na tela Skins por {0} cristais
+スキン画面で{0}クリスタルで購入
+SEU NOME  (3 a {0} letras ou números)
+名前  (英数字3〜{0}文字)
+SORTEAR
+ランダム
+LIMPAR
+クリア
+Use pelo menos 3 letras ou números
+英数字を3文字以上使ってください
+Nome não permitido - escolha outro
+この名前は使えません。別の名前を選んでください
+Seu animal: {0}  (troque nas setas)
+あなたの動物: {0}  (矢印で変更)
+Pets
+ペット
+Equipado
+装備中
+EQUIPAR
+装備する
+TIRAR
+外す
+Buff
+ボーナス
+Pet: {0}
+ペット: {0}
+Sem pet
+ペットなし
+toque para escolher um pet
+タップしてペットを選ぶ
+Pets a partir do nível {0}
+ペットはレベル{0}から
+só visual no treino
+練習では見た目だけ
+Liberado no nível {0}
+レベル{0}で解放済み
+Libera no nível {0}
+レベル{0}で解放
+Truques (na partida, toque no pet):
+芸(試合中はペットをタップ):
+{0} é seu!
+{0}があなたの仲間に!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+ペットは1匹ずつ。ボーナスはVS AI・ダンジョン・トーナメントで有効(練習では表示のみ)。ローカル対戦では無効。
+Novo pet disponível!
+新しいペットが登場!
+Compre na tela Pets por {0} cristais
+ペット画面で{0}クリスタルで購入
+ESCOLHA MAIS 2 CARTAS!
+あと2枚選ぼう!
+vídeo assistido: vire mais 2 cartas!
+動画視聴完了:あと2枚めくろう!
++2 CARTAS (vídeo)
++2枚 (動画)
+XP x2 (vídeo)
+XP×2 (動画)
+XP x2 ativo
+XP×2 発動中
+sem vídeo
+動画なし
+Pinguinzinho
+ちびペンギン
+Corujinha
+ちびフクロウ
+Patinho
+アヒルの子
+Tartaruguinha
+ちびカメ
+Esquilinho
+ちびリス
+Hamster
+ハムスター
+Tartaruga azul
+青いカメ
+Gatinho
+子ネコ
+Coelhinho
+子ウサギ
+Raposinha
+子ギツネ
+Porquinho cinza
+灰色の子ブタ
+Porquinho
+子ブタ
+Cachorrinho
+子イヌ
+Pandinha
+ちびパンダ
+Ursinho
+子グマ
+Unicórnio
+ユニコーン
+Raposa-fênix
+フェニックスギツネ
+Dragão Negro
+ブラックドラゴン
+Dragãozinho
+ちびドラゴン
+Sentar
+おすわり
+Rolar
+ころがる
+Mortal
+バク宙
+Dançar
+ダンス
+Pulo de Alegria
+よろこびジャンプ
+-30% de efeito do vento nos seus tiros
+自分の弾への風の影響-30%
++10% de chance de crítico
+クリティカル率+10%
++15% de dano em alvos a mais de 60 m
+60m以上離れた相手へのダメージ+15%
+-35% de empurrão das explosões
+爆発で吹き飛ぶ距離-35%
+Sem dano de queda
+落下ダメージなし
++1 Mira guiada por partida
+試合ごとに誘導エイム+1
+-50% de dano de fogo e veneno
+炎と毒のダメージ-50%
+Crítico causa x1,8 (normal x1,5)
+クリティカルが×1.8(通常×1.5)
++15% de energia em cada vez
+毎ターンのエネルギー+15%
+Começa a partida com 30% de fúria
+怒り30%で試合開始
+Começa com escudo (metade do dano) até a 2ª vez
+2ターン目までシールド(ダメージ半減)
++15% de fúria ganha
+怒りの獲得量+15%
+Recupera 10% do dano que causa
+与えたダメージの10%を回復
+-15% de dano recebido
+受けるダメージ-15%
++10% de vida máxima
+最大体力+10%
++15% de raio de explosão
+爆発範囲+15%
+Recupera 20 de vida no início de cada vez
+毎ターン開始時に体力20回復
++15% de dano
+ダメージ+15%
+{1} pedras do seu nível
+あなたのレベルの石{1}個
+1 Trevo + {1} pedras do seu nível
+クローバー1個 + あなたのレベルの石{1}個
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+クリスタル{0} + あなたのレベルの石{1}個 + 祝福のチャンス
+Vitória: {0}+ cristais
+勝利: クリスタル{0}+
+prêmio x{0}
+報酬×{0}
+mapa do dia +50%
+今日のマップ +50%
+1ª vitória do dia +{0}
+本日初勝利 +{0}
+energia
+エネルギー
+aguarde...
+待って...
+errou
+ミス
+escudo
+シールド
+congelado
+凍結
+acabou
+なし
+ativo
+発動中
+emprestado
+借り物
+envenenado
+毒
+jogando
+プレイ中
+queimando
+炎上
+viga
+梁
+armando
+準備中
+fogo
+炎
+veneno
+毒
+derrotado
+撃破
+coletada
+受取済み
++15% de dano do Especial
+必殺技ダメージ+15%
+Derrote {0} inimigos com o Especial deste animal
+この動物の必殺技で敵を{0}体倒す
+ENTRAR
+入る
+equipamento dos bots um pouco abaixo do seu
+ボットの装備はあなたより少し下
+bots com o mesmo equipamento que você
+ボットはあなたと同じ装備
+equipamento dos bots um pouco acima do seu
+ボットの装備はあなたより少し上
+equipamento dos bots bem acima do seu
+ボットの装備はあなたよりかなり上
+Ande até a bandeira
+旗まで歩こう
+Mire em {0}°
+{0}°に狙おう
+Segure e solte na marca
+押して印で離す
+Acerte o inimigo!
+敵に当てよう!
+Muito bem! Vença!
+いいね! 勝とう!
+Use a habilidade verde
+緑のスキルを使おう
+Agora a habilidade roxa
+次は紫のスキル
+Use um item e atire
+アイテムを使って撃とう
+Fúria cheia: use o Especial!
+フューリー満タン: スペシャル!
+Use a granada
+手榴弾を使おう
+Coloque uma viga
+梁を置こう
+Voe de jetpack
+ジェットパックで飛ぼう
+Lance a corda no teto
+天井にロープを撃とう
+Pronto! Vença!
+完了! 勝とう!
+Muito bem!
+いいね!
+PULAR TUTORIAL
+チュートリアルをスキップ
+Pular o tutorial?
+チュートリアルをスキップ?
+Você vai direto para o menu. Dá para refazer em Opções.
+メニューへ進みます。オプションでやり直せます。
+PULAR
+スキップ
+PRÓXIMO TUTORIAL ({0}/3)
+次のチュートリアル ({0}/3)
+IR PARA O MENU
+メニューへ
+MENU
+メニュー
+Refazer tutorial
+チュートリアルをやり直す
+Bem-vindo à batalha!
+バトルへようこそ!
+Tutorial concluído: +{0} cristais
+チュートリアル完了: クリスタル+{0}
+SEGURE o botão para voar · setas para os lados
+ボタン長押しで飛行 · 矢印で左右
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+使うで起動 · 長押しで飛行(燃料13秒) · 矢印で左右 · ゆっくり着地 · 着地したら撃つ
+partida rápida 1x1
+すぐに1対1
+1x1 a 4x4 · escolha mapa e dificuldade
+1対1〜4対4・マップと難易度を選ぶ
+Mostrar todos os controles
+すべての操作を表示
+ANDE: segure as setas
+移動: 矢印を長押し
+MIRE: setas para cima e para baixo
+狙う: 上下の矢印
+SEGURE para dar força e SOLTE para atirar!
+長押しでパワー、離して発射!
+PULE com este botão (gasta energia)
+このボタンでジャンプ(エネルギー消費)
+O VENTO empurra o tiro: olhe aqui em cima
+風が弾を流す: ここで確認
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+パスで少し回復。マップを2回タップで全体表示
+NOVO: ITENS
+新登場: アイテム
+NOVO: HABILIDADES
+新登場: スキル
+NOVO: ESPECIAL
+新登場: スペシャル
+NOVO: FERRAMENTAS
+新登場: ツール
+TODOS OS CONTROLES LIBERADOS!
+すべての操作が解放!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+撃つ前にアイテムをタップ: 3連射、+1、+2、ダメージ。エネルギーを使う。
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+動物ごとにスキルが2つ: パスの上のボタン。
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+ダメージを与えて受けてフューリーを満たそう。満タンでオーブをタップ、スペシャル発射!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+左の列にツール: 手榴弾、ロープ、ジェットパック、梁など。
+Emotes e todas as ferramentas. Boa batalha!
+エモートと全ツール。よい戦いを!
+toque para acelerar
+タップで早送り
+Longe demais: até 600 m de você
+遠すぎる: 600mまで
+Tem alguém aí: escolha outro lugar
+誰かいる: 別の場所へ
+Muito dentro do chão
+地面に埋まりすぎ
+longa
+長い
+curta
+短い
+Não alcançou: mire e lance de novo
+届かない: 狙ってもう一度
+A corda não alcançou nada
+ロープが届かなかった
+Pousou: agora atire!
+着地: さあ撃て!
+O tempo na corda acabou
+ロープの時間切れ
+Acabou o combustível: pouso suave
+燃料切れ: ゆっくり着地
+SOLTAR
+離す
+CORDA
+ロープ
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+矢印: 揺れる・上下 · 離すと勢いそのまま
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+上矢印で上昇 · 左右で移動 · 長押しで停止して射撃
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+ドラッグかマウスで移動 · 矢印: 回転とサイズ · 確定
+Mire e toque em USAR para lançar o gancho
+狙って使うでフックを発射
+Toque em USAR para ligar o jetpack
+使うでジェットパック起動
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+梁: ドラッグで配置 · 矢印で回転とサイズ · 確定で設置(橋・盾・坂)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+使うで起動 · 上で上昇、左右で推進 · 燃料4秒 · ゆっくり着地 · 長押しで停止して射撃
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+使うで狙った方へフック(520mまで) · 矢印で揺れ・上下 · 離すと勢いそのまま · 空中で再発射
+Solte na marca amarela!
+黄色い印で離そう!
+Agora atire!
+さあ撃とう!
+Toque em {0}
+{0}をタップ
+Segure para voar
+長押しで飛ぶ
+Balance e toque para soltar
+揺らしてタップで離す
+Segure o botão até a marca amarela e solte
+黄色い印まで押して離そう
+Segure a seta até chegar na bandeira
+旗に着くまで矢印を押し続けよう
+Segure o botão que brilha
+光るボタンを長押し
+Toque no botão que brilha
+光るボタンをタップ
+Teclado
+キー
+Perfeito!
+パーフェクト!
+Acabe com ele!
+とどめを刺そう!
+PARTE {0} CONCLUÍDA!
+パート{0} クリア!
+Você aprendeu
+覚えたこと
+Andar
+移動
+Mirar
+狙う
+Atirar
+撃つ
+Itens
+アイテム
+De volta!
+戻った!
+JOGAR!
+プレイ!
+inclui +{0} de bônus do tutorial
+チュートリアルボーナス+{0}を含む
+Refazer o tutorial?
+チュートリアルをやり直す?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+ガイド付きの試合だけ。報酬は再びもらえず、進行状況は変わりません。
+Cancelar
+キャンセル
+Refazer
+やり直す
+Tutorial refeito: sem prêmios
+チュートリアル再挑戦: 報酬なし
+Gire o celular para continuar
+スマホを横にして続けてください
+Controles
+操作
+Jogue 80 partidas
+80試合プレイする
+Vença 150 partidas
+150回勝利する
+Acerte 400 tiros
+400発命中させる
+Cause 100.000 de dano
+100,000ダメージを与える
+Cause 1000 de dano num só tiro
+1発で1000ダメージを与える
+Vença 6 seguidas
+6連勝する
+Derrote 200 inimigos
+敵を200体倒す
+Jogue 300 partidas
+300試合プレイする
+Vença 400 partidas
+400回勝利する
+Acerte 1500 tiros
+1500発命中させる
+Cause 400.000 de dano
+400,000ダメージを与える
+Cause 1400 num só tiro
+1発で1400ダメージ
+Derrote 800 inimigos
+敵を800体倒す
+15 vitórias perfeitas
+パーフェクト勝利15回
+80 tiros longos
+ロングショット80回
+30 vinganças
+リベンジ30回
+Derrote 2500 inimigos
+敵を2500体倒す
+Vença em 14 mapas diferentes
+14種類のマップで勝利
+Vença 15 vezes no mapa do dia
+今日のマップで15回勝利
+Use a Fúria 150 vezes
+怒りを150回使う
+Pegue 200 caixas
+箱を200個取る
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+3連射/+1/+2/ダメージ+%を800回使う
+Derrube 80 rivais de muito alto
+ライバルを高所から80回落とす
+Faça 200 tiros rápidos (<5 s)
+速攻ショット（5秒未満）を200回
+Acerte 2+ rivais num tiro 80 vezes
+1発で2体以上に80回当てる
+Use o PASSAR 100 vezes
+パスを100回使う
+Acerte 300 críticos
+クリティカルを300回当てる
+Use 200 habilidades
+スキルを200回使う
+Coloque 80 vigas
+鉄骨を80本置く
+Cave 30 túneis/poços
+トンネル/穴を30回掘る
+Voe de jetpack 25 vezes
+ジェットパックで25回飛ぶ
+Use a corda ninja 25 vezes
+忍者ロープを25回使う
+Exploda 25 dinamites
+ダイナマイトを25回爆発させる
+Solte 25 ovelhas
+ヒツジを25匹放つ
+Arremesse 50 granadas
+グレネードを50個投げる
+Use 12 cachos de granadas
+クラスターグレネードを12回使う
+Plante 25 minas
+地雷を25個設置
+Chame 10 ataques aéreos
+空爆を10回呼ぶ
+Use a Britadeira 15 vezes
+ドリルを15回使う
+Mire na linha amarela
+黄色い線に合わせて狙おう
+Quanto mais tempo segurar, mais longe vai o tiro
+長く押すほど遠くへ飛ぶ
+As setas andam pelo mapa
+矢印でマップを移動
+A mira muda a altura do tiro
+角度で弾の高さが変わる
+Acerte o rival para vencer!
+相手に当てて勝とう!
+Atira 3 balas de uma vez
+3発同時に撃つ
+Vira chão: uma ponte ou um escudo
+足場になる: 橋や盾に
+Segure para voar até outro lugar
+押し続けて別の場所へ飛ぶ
+Pendure-se e balance para ir longe
+ぶら下がって揺れて遠くへ
+Vira chão: ponte, abrigo ou rampa
+足場になる: 橋・盾・坂
+Abre um túnel e passa por dentro do morro
+トンネルを掘って丘を抜ける
+Voe para outro lugar do mapa
+マップの別の場所へ飛ぶ
+Cava um poço e você desce por ele
+穴を掘って下に降りる
+Deixe aos seus pés e fuja: explode forte
+足元に置いて逃げろ: 大爆発
+Anda sozinha até o rival e explode
+自分で相手まで歩いて爆発
+Explode quando alguém chega perto
+誰かが近づくと爆発
+Marque o alvo: 5 mísseis caem do céu
+目標を指定: 空から5発のミサイル
+NOVO!
+NEW!
+Cristais x2 (vídeo)
+クリスタル x2 (動画)
+Empurra o tiro: a bandeira mostra para onde
+弾を押し流す: 旗が向きを示す
+TUTORIAL CONCLUÍDO!
+チュートリアル完了!
+O resto você aprende jogando, com dicas na hora certa
+残りは遊びながら、ちょうどいい時にヒントで覚えよう
+Quica no chão e explode depois
+地面で跳ねてから爆発
+Melhor com o celular deitado
+スマホを横向きにするのがおすすめ
+Gire o celular: a tela fica maior e os controles mais fáceis
+スマホを回すと画面が広く、操作もかんたんに
+JOGAR MASMORRA
+ダンジョンで遊ぶ
+JOGAR VS
+対戦で遊ぶ
+JOGAR ASSIM MESMO
+このまま遊ぶ

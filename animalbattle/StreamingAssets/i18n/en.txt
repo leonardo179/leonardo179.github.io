@@ -1,0 +1,3248 @@
+VOLTAR
+BACK
+Carregando
+Loading
+Masmorra
+Dungeon
+Contra IA
+Vs AI
+Partida local
+Local match
+MASMORRA
+DUNGEON
+CONTRA IA
+VS AI
+PARTIDA LOCAL
+LOCAL MATCH
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+10 dungeons with bosses, 4 difficulties and stars. Rewards: medals, stones, clover and blessing.
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+Two or more players on the same device, taking turns. Equalized equipment, no rewards.
+Música
+Music
+Sons
+Sounds
+Som
+Sound
+Idioma
+Language
+Batalha de artilharia entre animais
+Animal artillery battle
+Ferreiro
+Blacksmith
+Armeiro
+Armory
+Animais
+Animals
+Opções
+Options
+versão de teste
+test version
+Nível {0}
+Level {0}
+Todos os animais disponíveis!
+All animals available!
+Próximo animal: {0} no nível {1}
+Next animal: {0} at level {1}
+Em construção
+Under construction
+Batalha em construção
+Battle under construction
+Raposa
+Fox
+Urso
+Bear
+Coruja
+Owl
+Salamandra
+Salamander
+Rinoceronte
+Rhino
+Cobra
+Snake
+Tartaruga
+Turtle
+Guaxinim
+Raccoon
+Gato
+Cat
+Águia
+Eagle
+Tigre
+Tiger
+Pinguim
+Penguin
+Gorila
+Gorilla
+Tubarão
+Shark
+Jacaré
+Alligator
+Texugo
+Badger
+Ouriço
+Hedgehog
+Morcego
+Bat
+Arma
+Weapon
+Chapéu
+Hat
+Roupa
+Armor
+Amuleto
+Amulet
+Madeira
+Wood
+Ferro
+Iron
+Aço
+Steel
+Mítico
+Mythic
+Lendário
+Legendary
+Pedras
+Stones
+Trevo
+Clover
+Bênção
+Blessing
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+Upgrade your gear's tier (Wood, Iron, Steel, Mythic, Legendary) and buy stones.
+Medalhas
+Medals
+Escolhido
+Selected
+Escolher
+Choose
+cristais
+crystals
+{0} comprado!
+{0} unlocked!
+Cristais insuficientes
+Not enough crystals
+Disponível no nível {0}
+Available at level {0}
+Jogador
+Player
+Aliado
+Ally
+Não foi possível baixar o mapa. Verifique a conexão.
+Couldn't download the map. Check your connection.
+Carregando os animais
+Loading the animals
+Mapa inválido
+Invalid map
+Colinas Verdes
+Verdant Hills
+Picos Nevados
+Snowy Peaks
+Deserto Dourado
+Golden Desert
+Floresta Encantada
+Enchanted Forest
+Vulcão
+Volcano
+Praia Pirata
+Pirate Beach
+Terra dos Doces
+Candy Land
+Castelo
+Castle
+Caverna de Cristal
+Crystal Cave
+Pântano
+Swamp
+Cemitério Assombrado
+Haunted Graveyard
+Ruínas Celestes
+Sky Ruins
+Fábrica Steampunk
+Steampunk Factory
+Recife de Coral
+Coral Reef
+Templo da Selva
+Jungle Temple
+Cidade Neon
+Neon City
+Base Lunar
+Moon Base
+Faroeste
+Wild West
+caiu na lava
+fell into the lava
+caiu no chocolate
+fell into the chocolate
+caiu no lodo
+fell into the mud
+sumiu na névoa
+vanished in the fog
+caiu das nuvens
+fell from the clouds
+caiu no metal derretido
+fell into the molten metal
+foi levado pela correnteza
+was swept away by the current
+caiu no vazio neon
+fell into the neon void
+flutuou para o espaço
+floated off into space
+afundou na areia movediça
+sank in quicksand
+caiu na água
+fell into the water
+4 TxT
+4 FFA
+6 TxT
+6 FFA
+8 TxT
+8 FFA
+Fácil
+Easy
+Difícil
+Hard
+erram muito
+miss a lot
+erram um pouco
+miss a little
+quase não erram
+almost never miss
+mira perfeita
+perfect aim
+Valente
+Brave
+Veloz
+Swift
+Sombrio
+Shadowy
+Feroz
+Ferocious
+Astuto
+Cunning
+Dourado
+Golden
+Furioso
+Furious
+Sereno
+Serene
+Selvagem
+Wild
+Teimoso
+Stubborn
+Ligeiro
+Nimble
+Brabo
+Fierce
+Sorrateiro
+Sneaky
+Bravo
+Tough
+Esperto
+Clever
+Trovão
+Thunder
+Relâmpago
+Lightning
+Pimenta
+Spicy
+Corajoso
+Courageous
+ÁRVORE 1 NÍVEL 4
+TREE 1 LEVEL 4
+DEUS 1
+GOD 1
+DEUS 2
+GOD 2
+DEUS 3
+GOD 3
+SEU TIME
+YOUR TEAM
+VOCÊ
+YOU
+TODOS CONTRA TODOS
+FREE FOR ALL
+RIVAIS
+RIVALS
+Nv {0}
+Lv {0}
+PAUSADO
+PAUSED
+Sair agora encerra a partida sem prêmio.
+Leaving now ends the match with no prize.
+turno {0}
+turn {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+damage {0}  ·  taken {1}  ·  kills {2}  ·  accuracy {3}%
+CONTINUAR
+CONTINUE
+RENDER-SE
+SURRENDER
+SAIR
+EXIT
+EMPATE
+DRAW
+VITÓRIA!
+VICTORY!
+DERROTA
+DEFEAT
+VER PLACAR
+VIEW SCOREBOARD
+DE NOVO
+AGAIN
+REVANCHE
+REMATCH
+{0} turnos
+{0} turns
+mais dano: {0}
+most damage: {0}
+JOGADOR
+PLAYER
+DANO
+DAMAGE
+ABATES
+KILLS
+PRECISÃO
+ACCURACY
+MAIOR TIRO
+BIGGEST SHOT
+precisão: {0} {1}%
+accuracy: {0} {1}%
+maior tiro: {0} {1}
+biggest shot: {0} {1}
+abates: {0} x{1}
+kills: {0} x{1}
+prêmios da partida: em breve
+match rewards: coming soon
+Você se rendeu
+You surrendered
+O tiro saiu do mapa!
+The shot left the map!
+na água
+in the water
+ALELUIA!
+HALLELUJAH!
+era uma armadilha!
+it was a trap!
+caixa destruída
+crate destroyed
+atingido por um raio
+struck by lightning
+o gelo quebrou!
+the ice broke!
+TIRO LONGO! {0}m
+LONG SHOT! {0}m
+CRÍTICO
+CRIT
+ANIQUILADO!
+ANNIHILATED!
+congelado {0} turno(s)
+frozen {0} turn(s)
+NA MOSCA!
+BULLSEYE!
+ÓTIMO!
+GREAT!
+BOM
+GOOD
+DE RASPÃO
+GRAZE
+MULTI-ACERTO x{0}
+MULTI-HIT x{0}
+ABATE QUÁDRUPLO!
+QUADRUPLE KILL!
+ABATE TRIPLO!
+TRIPLE KILL!
+ABATE DUPLO!
+DOUBLE KILL!
+FÚRIA PRONTA!
+FURY READY!
+caiu de muito alto
+fell from way too high
+TCHIBUM!
+SPLASH!
+caiu do mapa
+fell off the map
+Precisa estar no chão
+You need to be on the ground
+Energia insuficiente para pular
+Not enough energy to jump
+água!
+water!
+ESPECIAL
+SPECIAL
+invisível
+invisible
+Ninguém colado — chegue mais (energia gasta)
+No one close enough — get closer (energy spent)
+{0} (pronta em {1}): {2}
+{0} (ready in {1}): {2}
+{0} precisa de {1} de energia
+{0} needs {1} energy
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+TELEPORT: tap the spot on the map where you want to go and confirm (tap the ability to cancel)
+Teletransporte cancelado
+Teleport canceled
+Aí não dá — escolha um chão firme e livre
+Can't go there — pick firm, open ground
+{0} se teletransportou!
+{0} teleported!
+CONGELADO (protegido)
+FROZEN (protected)
+patada de urso
+bear kick
+cutucão
+poke
+soco de fogo
+fire punch
+machado de batalha
+battle axe
+martelada sísmica
+seismic hammer blow
+Nenhum rival à vista (energia gasta)
+No rival in sight (energy spent)
+revólver
+revolver
+{0} usou {1}
+{0} used {1}
+SINERGIA +10
+SYNERGY +10
+arco longo
+longbow
+Não acertou ninguém no caminho
+Didn't hit anyone on the way
+orbe arcano
+arcane orb
+BUM ARCANO!
+ARCANE BOOM!
+Ninguém ao alcance (energia gasta)
+No one in range (energy spent)
+Ninguém na sua frente — chegue mais (energia gasta)
+No one in front of you — get closer (energy spent)
+grito sônico
+sonic scream
+Ninguém na sua frente (energia gasta)
+No one in front of you (energy spent)
+enrolado nas vinhas
+tangled in vines
+bola de dragão
+dragon ball
+machado giratório
+spinning axe
+pisão do gorila
+gorilla stomp
+Sem combustível
+Out of fuel
+Toque no mapa para marcar o alvo
+Tap the map to mark the target
+SUA VEZ!
+YOUR TURN!
+VEZ DE {0}
+{0}'S TURN
+RETIRADA: {0} s - corra para um lugar seguro!
+RETREAT: {0} s - run somewhere safe!
+VOCÊ CAIU
+YOU FELL
+últ.
+last
+MIRA
+AIM
+na sua vez
+on your turn
+ESPECIAL PRONTO
+SPECIAL READY
+fúria
+fury
+FORÇA
+POWER
+último
+last
+FÚRIA
+FURY
+FÚRIA!
+FURY!
+PASSAR
+PASS
+EXPLODIR
+EXPLODE
+AGUARDE
+WAIT
+VOANDO!
+FLYING!
+VOAR
+FLY
+SEM GÁS
+NO FUEL
+SOLTE!
+RELEASE!
+USAR
+USE
+SEGURE
+HOLD
+atire ou PASSE!
+shoot or PASS!
+{0} no próximo tiro
+{0} on the next shot
+DANO x2
+DAMAGE x2
+Você foi derrotado - assistindo
+You were defeated - spectating
+PRÓX.
+NEXT
+VENTO
+WIND
+A FAVOR
+TAILWIND
+CONTRA
+HEADWIND
+SUBINDO!
+RISING!
+água sobe em {0}
+water rises in {0}
+TURNO {0}
+TURN {0}
+SUA VEZ
+YOUR TURN
+RETIRADA
+RETREAT
+{0} está mirando...
+{0} is aiming...
+VERDADEIRO
+TRUE
+DANO +{0}%
+DAMAGE +{0}%
+ITENS
+ITEMS
+MAIS
+MORE
+em {0} vezes
+in {0} turns
+rod. {0}
+rd. {0}
+espera {0}
+wait {0}
+CONFIRMAR
+CONFIRM
+Nv {0}  
+Lv {0}  
+joga em {0}º
+#{0} in line
+vida {0} / {1}
+health {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+ATK {0}   DEF {1}   AGI {2}   LUCK {3}    (crit {4}% · takes -{5}%)
+Especial: {0}
+Special: {0}
+ (em {0})
+ (in {0})
+ferramentas restantes: {0}   ·   {1} de energia por vez
+tools left: {0} · {1} energy per turn
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} damage · hits {1}/{2} · kills {3}
+ · sequência {0}
+ · streak {0}
+coragem +15%
+courage +15%
+último tiro: {0}° · força {1}
+last shot: {0}° · power {1}
+dano +
+damage +
+dano 
+damage 
+raio +
+radius +
+raio 
+radius 
+bala pesada
+heavy shot
+bala leve (vai longe)
+light shot (flies far)
+sofre pouco com o vento
+barely affected by wind
+sofre mais com o vento
+more affected by wind
+arma equilibrada
+balanced weapon
+{0} desmarcado
+{0} deselected
+Nada para prender nessa mira
+Nothing to attach to with this aim
+A corda não alcança nada nessa direção (até {0})
+The rope can't reach anything in that direction (up to {0})
+andar balança · as setas sobem/descem · PULAR solta
+move to swing · arrows go up/down · JUMP releases
+{0} libera na rodada {1} (faltam {2})
+{0} unlocks in round {1} ({2} to go)
+{0} já está ativo
+{0} is already active
+Acabou: {0} ({1}x por partida)
+Out of uses: {0} ({1}x per match)
+{0}: recarrega em {1} turno(s)
+{0}: recharges in {1} turn(s)
+Vida já está cheia
+Health is already full
+Na masmorra o cenário não se destrói
+In the dungeon the scenery can't be destroyed
+A granada não soma com a Fúria nem com o Avião
+The grenade doesn't stack with Fury or the Plane
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} is your attack this turn (doesn't stack with Fury, +1, +2 or 3 Shots)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0} doesn't get Damage +% or Ice (they only apply to the shot)
+{0} vale só para o tiro (não para a ferramenta)
+{0} only works on the shot (not on the tool)
+Energia insuficiente ({0})
+Not enough energy ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+The SPECIAL strike doesn't stack with 3 Shots, +1 or +2
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+Only one: 3 Shots, +1 OR +2 (only 3 Shots + +1 go together)
+Toque no TERRENO (até 520 de você) para prender a corda
+Tap the TERRAIN (up to 520 from you) to attach the rope
+o fogo apagou
+the fire went out
+veneno curado
+poison cured
+{0} se curou (+{1}) e encerrou a vez
+{0} healed (+{1}) and ended the turn
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+Nothing to attach to with this aim — tap the TERRAIN to throw the rope
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+Flying! HOLD the FLY button · move in the air · landing ends it
+Pavio da granada: {0} s (toque de novo para mudar)
+Grenade fuse: {0} s (tap again to change)
+as setas inclinam o túnel · USAR acende
+arrows tilt the tunnel · USE lights it
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+Tap the map to mark the target · arrows switch the plane's side · CONFIRM
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+Tap the map to place · arrows rotate · CONFIRM
+{0} pronto — toque em USAR
+{0} ready — tap USE
+paraquedas pronto
+parachute ready
+CORRA!
+RUN!
+BÉÉÉ!
+BAAAH!
+cacho de granadas!
+grenade cluster!
+mina plantada
+mine planted
+granada na mão
+grenade in hand
+jetpack pronto
+jetpack ready
+Não cabe aí
+Doesn't fit there
+Longe demais — até 600 de você
+Too far — max 600 from you
+Tem alguém aí — escolha outro lugar
+Someone's there — pick another spot
+britadeira!
+jackhammer!
+maçarico!
+blowtorch!
+maçarico
+blowtorch
+Acabou o combustível
+Out of fuel
+Pousou — o botão volta a atirar
+Landed — the button shoots again
+ATAQUE AÉREO!
+AIR STRIKE!
+3 Tiros
+3 Shots
+Ataque +1
+Attack +1
+Ataque +2
+Attack +2
+Dano +10%
+Damage +10%
+Dano +20%
+Damage +20%
+Dano +30%
+Damage +30%
+Dano +40%
+Damage +40%
+Dano +50%
+Damage +50%
+Avião
+Plane
+Gelo
+Ice
+Invisível
+Invisible
+Cura
+Heal
+Guia
+Homing
+Mudar Vento
+Change Wind
+Paraquedas
+Parachute
+Baixa gravidade
+Low Gravity
+Viga
+Beam
+Maçarico
+Blowtorch
+Cipó
+Vine
+Britadeira
+Jackhammer
+Passo Rápido
+Quick Step
+Elástico
+Bungee
+Dinamite
+Dynamite
+Ovelha
+Sheep
+Granada
+Grenade
+Mina
+Mine
+Cacho de Granadas
+Cluster Grenade
+Teletransporte
+Teleport
+Ataque Aéreo
+Airstrike
+Pombo-bomba
+Bomb Pigeon
+Bolha-escudo
+Shield Bubble
+Ampulheta
+Hourglass
+Ataque
+Attack
+Ataques
+Attacks
+Dano
+Damage
+Vento
+Wind
+Paraq.
+Chute
+Gravid.
+Grav.
+Corda
+Rope
+Britad.
+Drill
+Rápido
+Fast
+Cacho
+Cluster
+Aéreo
+Air
+Pombo
+Pigeon
+Bolha
+Bubble
+Tempo
+Time
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+3 shots in a fan (-50% each) · with +1 = combo 1+2 (6 bullets)
+atira mais 1 vez (-10% cada)
+shoots 1 more time (-10% each)
+atira mais 2 vezes (-40% cada)
+shoots 2 more times (-40% each)
++10% de dano (soma com os outros)
++10% damage (stacks with the others)
++20% de dano (soma com os outros)
++20% damage (stacks with the others)
++30% de dano (soma com os outros)
++30% damage (stacks with the others)
++40% de dano (soma com os outros)
++40% damage (stacks with the others)
++50% de dano (soma com os outros)
++50% damage (stacks with the others)
+você vai voando até onde a bala cair (sem dano)
+you fly to wherever the bullet lands (no damage)
+congela quem for atingido por 2 turnos
+anyone hit is frozen for 2 turns
+invisível para os rivais por 3 rodadas
+invisible to rivals for 3 rounds
+recupera 30% da vida e ENCERRA o turno
+restores 30% health and ENDS your turn
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+the shot chases the nearest rival if it passes close by (-20% damage)
+inverte o vento nesta rodada
+reverses the wind this round
+cai devagar e sem dano de queda até a sua próxima vez
+you fall slowly with no fall damage until your next turn
+os tiros deste turno voam mais longe (gravidade baixa)
+this turn's shots fly farther (low gravity)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+Steel BEAM: tap the map to position it, arrows rotate and CONFIRM places it — bridge, shelter or ramp
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+opens a TUNNEL through the hill; arrows tilt it before use; anyone in the way takes 40
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+USE takes off; HOLD the attack button to rise and move in the air — 3 s of fuel, no fall damage
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+USE fires the rope toward your aim (up to 520); move to swing, arrows shorten/lengthen, JUMP releases
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+digs a shaft DOWN and you drop through it; anyone below takes 40
+nesta vez você anda quase o DOBRO gastando metade da energia
+this turn you move almost TWICE as far for half the energy
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+this turn, if you fall in the water or off the map, the bungee pulls you back
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+drops DYNAMITE at your feet (300 damage) with a 5 s fuse — it's your attack for the turn
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+releases an explosive SHEEP: walks on its own where you're facing, hops over obstacles and explodes on the 1st rival (or after 6 s) — it's your attack for the turn
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+your next shot is a GRENADE: bounces off the ground and animals and explodes after 6 s
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+leaves a MINE on the ground in front of you: arms in 2.5 s; when ANYONE gets close (you and allies too!), it beeps and explodes 1.5 s later (sometimes a dud) — it's your attack for the turn
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+your next shot is a CLUSTER GRENADE: bounces, explodes after 6 s and splits into 5 smaller grenades
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+tap/drag on the map to pick a destination and USE teleports — costs your turn
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+tap the map to mark the target, arrows choose which side the plane comes from and CONFIRM calls 5 missiles — it's your attack for the turn
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+tap the map to mark the target and USE releases the PIGEON: flies straight there (no wind) and explodes — it's your attack for the turn
+uma BOLHA te protege: metade do dano até a sua próxima vez
+a BUBBLE protects you: half damage until your next turn
++10 s nesta vez para mirar com calma
++10 s this turn to aim calmly
+Tiro Especial
+Special Shot
+Chuva de Flechas
+Arrow Rain
+Terremoto
+Earthquake
+Orbe Teleguiado
+Homing Orb
+Bala Quicante
+Bouncing Shot
+Picada Venenosa
+Venom Sting
+Casco de Gelo
+Ice Shell
+Chuva Curativa
+Healing Rain
+Corte Duplo
+Double Slash
+Garras em Fúria
+Furious Claws
+Pedregulho
+Boulder
+Gêiser
+Geyser
+Broca
+Drill
+Fragmentação
+Fragmentation
+Explosão de Espinhos
+Spike Burst
+Mordida Vampira
+Vampire Bite
+tiro forte e cratera grande
+strong shot and big crater
+6 flechas caem do céu em volta
+6 arrows fall from the sky all around
+cratera gigante e tremor
+giant crater and tremor
+persegue o inimigo mais perto
+chases the nearest enemy
+queima 3 turnos
+burns for 3 turns
+raio cai do céu na coluna do impacto
+lightning strikes straight down on the impact spot
+quica 2 vezes explodindo
+bounces twice, exploding
+envenena 3 turnos
+poisons for 3 turns
+congela quem atingir + escudo 2 turnos
+freezes whoever it hits + shield for 2 turns
+cura os aliados e fere os rivais
+heals allies and hurts rivals
+2 tiros especiais seguidos
+2 special shots in a row
+3 explosões em linha
+3 explosions in a line
+congela tudo numa área grande
+freezes everything in a large area
+pedra enorme e pesada
+huge, heavy rock
+lança os rivais para o alto
+launches rivals into the air
+atravessa o chão e explode por dentro
+pierces the ground and explodes from inside
+se parte em 5 bombas
+splits into 5 bombs
+8 espinhos para todo lado
+8 spikes in every direction
+cura você com 60% do dano
+heals you for 60% of the damage
+Flecha Certeira
+Sure Shot
+Patada de Urso
+Bear Swipe
+Rastro de Brasas
+Ember Trail
+Mergulho Teleguiado
+Homing Dive
+Bala Colossal
+Colossal Shot
+Tiro Duplo
+Double Shot
+Bloco de Gelo
+Ice Block
+Ferrão
+Stinger
+Ervas Curativas
+Healing Herbs
+Cutucão
+Poke
+Chuva de Bolotas
+Acorn Rain
+Soco de Fogo
+Fire Punch
+Machado de Batalha
+Battle Axe
+Martelada Sísmica
+Seismic Hammer
+Lança Afiada
+Sharp Spear
+Revólver
+Revolver
+Sentinela
+Sentry
+Espinhos
+Spikes
+Eco Teleguiado
+Homing Echo
+o próximo tiro é CRÍTICO
+your next shot is a CRIT
+patada no rival colado: joga ele LONGE
+swipe at the adjacent rival: sends them FLYING
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+tap anywhere on the map and appear there (ends your turn)
+o próximo tiro deixa BRASAS no chão
+your next shot leaves EMBERS on the ground
+o próximo tiro persegue o rival (mergulho da águia)
+your next shot chases the rival (eagle dive)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+your next shot becomes a COLOSSAL SHOT: huge area and lots of damage
+dois tiros certeiros no rival à vista
+two sure shots at the rival in sight
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+you encase yourself in an ice block: you take almost no damage until your next turn
+o próximo tiro envenena
+your next shot poisons
+cura 15% de você e dos aliados perto
+heals you and nearby allies for 15%
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+katana poke: shoves the adjacent rival hard (great at the edge)
+3 bolotas caem em cima do rival mais perto
+3 acorns fall on the nearest rival
+soco de fogo: joga o rival colado lá no alto
+fire punch: launches the adjacent rival sky-high
+corta METADE da vida do rival colado
+cuts the adjacent rival's health in HALF
+martelo no chão: dano e joga para o alto quem está perto
+hammer on the ground: damages and launches anyone nearby into the air
+a lança afia: o próximo tiro dá +35%
+the spear sharpens: your next shot deals +35%
+seis tiros de revólver no rival à vista
+six revolver shots at the rival in sight
+torreta que atira sozinha em quem chega perto (4 tiros)
+turret that shoots on its own at anyone who gets close (4 shots)
+espinhos no chão ferem o 1º rival que pisar
+spikes on the ground hurt the first rival that steps on them
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+bat echo: your next shot follows the sound waves to the rival
+Arco Longo
+Longbow
+Investida do Urso
+Bear Charge
+Orbe Arcano
+Arcane Orb
+Lança-chamas
+Flamethrower
+Tempestade
+Storm
+Morteiro
+Mortar
+Rajada de Precisão
+Precision Burst
+Nevasca
+Blizzard
+Nuvem Venenosa
+Poison Cloud
+Vinhas
+Vines
+Corte Relâmpago
+Lightning Slash
+Toca Explosiva
+Explosive Burrow
+Cometa de Brasa
+Ember Comet
+Machado Giratório
+Spinning Axe
+Pisão do Gorila
+Gorilla Stomp
+Cutucão de Lança
+Spear Jab
+Chuva de Balas
+Bullet Rain
+Chuva de Espinhos
+Spike Rain
+Grito Sônico
+Sonic Scream
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+two STRAIGHT arrows at the rival in sight (up to 1000): damage and knockback
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+the bear charges forward, running over anyone in the way (-8% health)
+um orbe mágico voa até o rival mais perto e EXPLODE
+a magic orb flies to the nearest rival and EXPLODES
+jato de fogo nos rivais à sua frente: dano e queimadura
+fire jet at the rivals in front of you: damage and burn
+um raio cai no rival mais perto (até 900)
+lightning strikes the nearest rival (up to 900)
+3 tiros de morteiro caem em volta do rival mais perto
+3 mortar shots land around the nearest rival
+rajada de 5 tiros no rival à vista (até 800)
+5-shot burst at the rival in sight (up to 800)
+congela os rivais perto por 1 turno
+freezes nearby rivals for 1 turn
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+poison cloud: poisons ALL nearby rivals for 3 turns
+puxa o rival mais perto para junto de você e fere
+pulls the nearest rival to you and hurts them
+dispara para a frente cortando quem estiver no caminho
+dashes forward, slashing anyone in the way
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+your next shot DIGS a burrow through the ground and explodes from inside
+bola de energia reta para a frente: dano e empurrão no 1º rival
+energy ball straight ahead: damage and knockback on the 1st rival
+machado que vai e volta: fere os rivais na sua frente (até 500)
+axe that goes out and comes back: hurts rivals in front of you (up to 500)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+STOMP: the ground shakes and every rival on the map takes damage and gets shaken
+estocada longa na frente (até 380): dano e empurrão
+long thrust ahead (up to 380): damage and knockback
+rajada de pistolas em TODOS os rivais à vista (até 700)
+pistol volley at ALL rivals in sight (up to 700)
+rajada de 6 tiros no rival à vista (até 800)
+6-shot burst at the rival in sight (up to 800)
+3 armadilhas de espinhos caem em volta do rival mais perto
+3 spike traps land around the nearest rival
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+sonic scream: damage and knockback on all rivals in front of you (up to 450)
+Poção: +25% de vida e cura veneno
+Potion: +25% health and cures poison
+Energético: +120 de energia
+Energy Drink: +120 energy
+Baú: +1 uso de cada ferramenta
+Chest: +1 use of each tool
+Fúria: +40
+Fury: +40
+ARMADILHA! O baú explodiu
+TRAP! The chest exploded
+Escudo: -50% de dano por 2 vezes
+Shield: -50% damage for 2 turns
+Luneta: +1 Mira Guiada
+Scope: +1 Guided Aim
+Arma Surpresa: Fúria de outro animal no próximo tiro
+Surprise Weapon: another animal's Fury on your next shot
+Golpe Certeiro: o próximo tiro é CRÍTICO
+Sure Hit: your next shot is a CRIT
+Paraquedas: +1 uso
+Parachute: +1 use
+Recarga: as 2 habilidades prontas
+Recharge: both abilities ready
+Balança da Justiça: a vida dos times é dividida igual
+Scales of Justice: team health is split evenly
+Dano em Dobro: o próximo tiro causa 2x
+Double Damage: your next shot deals 2x
+Tempo Extra: +15 s na sua próxima vez
+Extra Time: +15 s on your next turn
+Caixa de Arsenal: +1 de um utilitário
+Arsenal Crate: +1 utility item
+Ai, meu rabo!
+Ouch, my tail!
+Astúcia pura!
+Pure cunning!
+O vento me enganou!
+The wind tricked me!
+GRRRAU!
+GRRROAR!
+Abraço de urso!
+Bear hug!
+Cadê o mel?
+Where's the honey?
+Uh-uh! Doeu!
+Hoo-hoo! That hurt!
+Previsível.
+Predictable.
+Calculei errado...
+I miscalculated...
+Tô pegando fogo!
+I'm on fire!
+Queimou!
+Burned!
+Esfriou...
+It cooled off...
+Penas pra todo lado!
+Feathers everywhere!
+Visão de águia!
+Eagle eye!
+Vento traiçoeiro!
+Treacherous wind!
+Nem senti... ai!
+Didn't feel a thing... ouch!
+ATROPELADO!
+RUN OVER!
+Mira de rinoceronte...
+Rhino aim...
+Sssocorro!
+Sssave me!
+Sssó um bote!
+Jussst one strike!
+Errei o bote...
+Missed my strike...
+Meu casco!
+My shell!
+Devagar e sempre!
+Slow and steady!
+Calma, tô mirando...
+Easy, I'm aiming...
+Minha lixeira!
+My trash can!
+Achado não é roubado!
+Finders keepers!
+Era pra lá?
+Was it that way?
+Miau! Seis vidas...
+Meow! Six lives left...
+Caiu de pé? Não!
+Land on your feet? Nope!
+Hmpf. Foi de propósito.
+Hmpf. I meant to do that.
+Arranhão de nada!
+That's just a scratch!
+Rugido final!
+Final roar!
+Grrr... quase!
+Grrr... so close!
+Gelou!
+Frozen!
+Escorregou, hein?
+Slipped, huh?
+Patinei...
+I slid...
+UH UH AH AH!
+OO OO AH AH!
+Força bruta!
+Brute force!
+Sangue na água!
+Blood in the water!
+Mordida certa!
+Perfect bite!
+Nadei e morri na praia
+Swam so far, died ashore
+Couro duro!
+Tough hide!
+Abocanhei!
+Chomp!
+Lágrimas de jacaré...
+Crocodile tears...
+Ninguém mexe comigo!
+Nobody messes with me!
+Cavei sua cova!
+I dug your grave!
+Terra no olho!
+Dirt in my eye!
+Espinhos pra quê?!
+Who needs spikes?!
+Espetado!
+Spiked!
+Furou...
+Popped...
+Ecoou na cabeça!
+Echoed in my head!
+Na escuridão!
+In the darkness!
+Sonar falhou!
+Sonar failed!
+Ai!
+Ouch!
+Essa doeu!
+That hurt!
+Ei!
+Hey!
+Ui ui ui!
+Ooh ooh ooh!
+Tá louco?!
+Are you crazy?!
+Toma!
+Take that!
+Um a menos!
+One down!
+Próximo!
+Next!
+Vai pra casa!
+Go home!
+Quase!
+Almost!
+Errei feio...
+Missed badly...
+Era pra lá!
+It was meant to go that way!
+Ninguém viu.
+Nobody saw that.
+fácil demais
+too easy
+socorro!
+help!
+boa!
+nice!
+foi mal!
+my bad!
+pegou fogo!
+on fire!
+já era!
+it's over!
+bom jogo!
+good game!
+na mosca!
+bullseye!
+acorda!
+wake up!
+que sorte!
+what luck!
+chorei!
+I cried!
+vamos!
+let's go!
+respeito!
+respect!
+anda logo!
+hurry up!
+isso aí!
+yeah!
+agressivo: empilha Dano +%
+aggressive: stacks Damage +%
+preciso: erra menos
+precise: misses less
+sorrateiro: some quando apanha
+sneaky: vanishes when hit
+apressado: atira rápido
+hasty: shoots fast
+teimoso: nunca se cura
+stubborn: never heals
+REAÇÃO EM CADEIA!
+CHAIN REACTION!
+BARRIL!
+BARREL!
+BUUUM!
+BOOOM!
+BÉÉÉ-BUM!
+BAAA-BOOM!
+MINA!
+MINE!
+Sentinela destruída!
+Sentry destroyed!
+pisou nos espinhos
+stepped on the spikes
+mina falhou!
+mine misfired!
+Rastro de fogo no chão!
+Fire trail on the ground!
+queimado no fogo
+burned in the fire
+abatido pela sentinela
+taken down by a sentry
+A sentinela de {0} atirou em {1}
+{0}'s sentry shot {1}
+Um GALÃO EXPLOSIVO está caindo!
+An EXPLOSIVE BARREL is falling!
+Uma MINA está caindo!
+A MINE is falling!
+Uma caixa de suprimento está caindo!
+A supply crate is falling!
++{0} {1} (agora {2})
++{0} {1} (now {2})
+{0} pegou {1}
+{0} grabbed {1}
+curado do {0}
+cured of {0}
+{0} abriu uma ARMADILHA!
+{0} opened a TRAP!
+BÉÉ!
+BAA!
+TIMES
+TEAMS
+TxT = todos contra todos
+FFA = free for all
+DIFICULDADE DOS BOTS
+BOT DIFFICULTY
+equip. dos bots {0}
+bot gear {0}
+{0} lutadores, cada um por si
+{0} fighters, each on their own
+{0} contra {1}
+{0} vs {1}
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+Keyboard: arrows move and aim · SPACE hold and release to shoot · J jump · P pass · F special · V overview · Esc pause
+JOGAR
+PLAY
+Aleatório
+Random
+MAPA
+MAP
+FECHADO + TETO
+CLOSED + ROOF
+FECHADO
+CLOSED
+ABERTO
+OPEN
+sorteia entre {0}
+picks from {0}
+toque para ver todos
+tap to see all
+MAPAS
+MAPS
+TETO
+ROOF
+Sorte
+Luck
+Defesa
+Defense
+Agilidade
+Agility
+PODER {0}
+POWER {0}
+ARMA VERDADEIRA
+TRUE WEAPON
+Contra a IA o seu equipamento conta.
+Against the AI, your gear counts.
+TROCAR
+REROLL
+dano {0}%
+damage {0}%
+raio {0}%
+radius {0}%
+ humano
+ human
+A água começa a subir em 3 turnos!
+The water starts rising in 3 turns!
+MORTE SÚBITA: a água subiu!
+SUDDEN DEATH: the water rose!
+MORTE SÚBITA! A água sobe a cada turno
+SUDDEN DEATH! The water rises every turn
+O vento VIROU para {0}
+The wind TURNED toward {0}
+a direita
+the right
+a esquerda
+the left
+{0} joga DE NOVO (pouco atraso)!
+{0} plays AGAIN (little delay)!
+Tempo Extra: +15 s nesta vez
+Extra Time: +15 s this turn
+CORAGEM: último do time causa +15% de dano!
+COURAGE: the last one on the team deals +15% damage!
+{0} está congelado!
+{0} is frozen!
+{0} PRONTA! (botão roxo)
+{0} READY! (purple button)
+{0} pronta! (botão verde)
+{0} ready! (green button)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+You have a BORROWED FURY: tap the orb!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+FURY READY! Tap the orb to arm the special
+Rodada {0}: {1} liberado!
+Round {0}: {1} unlocked!
+{0} passou a vez
+{0} passed
+RÁPIDO! (joga antes)
+FAST! (plays first)
+pino fora!
+pin pulled!
+DUELO FINAL: {0} x {1}
+FINAL DUEL: {0} x {1}
+DUELO FINAL!
+FINAL DUEL!
+Só falta 1 rival!
+Only 1 rival left!
+Você é o último do time!
+You're the last one on your team!
+PRIMEIRO SANGUE: {0}
+FIRST BLOOD: {0}
+VINGANÇA! {0} vingou {1}
+REVENGE! {0} avenged {1}
+EM CHAMAS!
+ON FIRE!
+IMPARÁVEL!
+UNSTOPPABLE!
+DOMINANDO!
+DOMINATING!
+LENDÁRIO!
+LEGENDARY!
+DIVINO!
+GODLIKE!
+{0}  {1} ({2} abates)
+{0} {1} ({2} kills)
+FOGO AMIGO: {0} derrubou {1}
+FRIENDLY FIRE: {0} took down {1}
+Tempo esgotado
+Time's up
+PEGOU NO AR!
+CAUGHT IN MIDAIR!
+BUM!
+BOOM!
+{0} causou {1} de dano
+{0} dealt {1} damage
+Fúria desarmada
+Fury disarmed
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: fury is at {1}% (deal and take damage)
+Fúria: {0} — {1}
+Fury: {0} — {1}
+Lobo
+Wolf
+Aguia
+Eagle
+Ourico
+Hedgehog
+Jacare
+Gator
+Tubarao
+Shark
+Coelho
+Rabbit
+Sabio
+Wise
+Agil
+Swift
+Forte
+Strong
+Lendario
+Legendary
+Boneco {0}
+Dummy {0}
+ TxT
+ FFA
+BONECOS
+DUMMIES
+TIME AZUL
+BLUE TEAM
+TIME VERMELHO
+RED TEAM
+OS HUMANOS VENCERAM!
+THE HUMANS WON!
+OS BOTS VENCERAM
+THE BOTS WON
+TIME {0} VENCEU!
+{0} TEAM WON!
+AZUL
+BLUE
+VERMELHO
+RED
+{0} VENCEU!
+{0} WON!
+JOGAR DE NOVO
+PLAY AGAIN
+PRÓXIMA LUTA ({0}/3)
+NEXT FIGHT ({0}/3)
+FIM DO TORNEIO
+END OF TOURNAMENT
+Cristais dobrados!
+Crystals doubled!
+Cristais x2
+Crystals x2
+XP dobrado!
+XP doubled!
+Anúncio indisponível: sem prêmio desta vez
+Ad unavailable: no reward this time
+ESCOLHA UMA CARTA!
+PICK A CARD!
+vitória! vire uma carta para ganhar um prêmio extra
+victory! flip a card to win a bonus prize
+PASSE O APARELHO
+PASS THE DEVICE
+Vez de {0}
+{0}'s turn
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  health {1} / {2}  ·  fury {3}%
+time {0}
+team {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+Whoever played before: no peeking · the clock only runs after I'M READY
+ESTOU PRONTO
+I'M READY
+PAUSA
+PAUSE
+DICA {0}/{1}
+TIP {0}/{1}
+PULAR DICAS
+SKIP TIPS
+ENTENDI
+GOT IT
+PRÓXIMA
+NEXT
+Jogo local: sem prêmio nem estatística
+Local game: no rewards or stats
+TREINO · sem prêmio
+TRAINING · no prize
+(NÍVEL {0}!)
+(LEVEL {0}!)
++{0} cristais
++{0} crystals
++{0} cristais pelo nível
++{0} crystals for leveling up
+TREVO DA SORTE!
+LUCKY CLOVER!
+BÊNÇÃO DIVINA!
+DIVINE BLESSING!
+PERFEITA +{0}
+PERFECT +{0}
+1ª VITÓRIA DO DIA +{0}
+1ST WIN OF THE DAY +{0}
+MAPA DO DIA +{0}
+MAP OF THE DAY +{0}
+VOLTA POR CIMA +{0}
+COMEBACK +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+TOURNAMENT CHAMPION! +{0} crystals +3 stones +1 clover
+RECORDE de tiro: {0}!
+Shot RECORD: {0}!
+RECORDE de dano: {0}!
+Damage RECORD: {0}!
+NÍVEL {0}!
+LEVEL {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+LEVEL {0}  ·  {1} / {2} XP
+missões prontas: {0}
+missions ready: {0}
+conquistas para coletar: {0}
+achievements to collect: {0}
+Novo: {0} disponível!
+New: {0} available!
+faltou {0} m
+{0} m short
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+MOVE with the arrow buttons (uses energy). You can climb small slopes.
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+CHANGE THE ANGLE with the up and down buttons. The arrow shows the shot direction.
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+HOLD to charge POWER and RELEASE to fire. Watch the WIND up top!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+TOOLS: only ONE of +1, +2 or 3 Shots at a time (3 Shots + +1 = 6-bullet combo); Damage +% stacks with everything (they use energy).
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+Fill the FURY by dealing and taking damage, then tap the orb: SPECIAL!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+Double-tap the map to see the whole field. Tap an animal to see its stats. Big falls hurt! Have a good battle!
+Mire com as setas e SEGURE o botão de ataque para atirar
+Aim with the arrows and HOLD the attack button to shoot
+Acerte um boneco (olhe o VENTO lá em cima)
+Hit a dummy (watch the WIND up top)
+Use uma ferramenta da coluna da esquerda
+Use a tool from the left column
+Pegue uma caixa (ande até ela ou acerte quando cair)
+Grab a crate (walk to it or hit it when it drops)
+Feito!
+Done!
+Você já sabe o básico!
+You know the basics now!
+do dia: {0} +50%
+today: {0} +50%
+DO DIA +50%
+DAILY +50%
+{0} vit.
+{0} wins
+1ª partida com dicas
+1st match with tips
+boneco de novo!
+dummy again!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+10 dungeons with bosses, 4 difficulties and stars. Rewards: crystals, stones, clover and blessing.
+TORNEIO
+TOURNAMENT
+TREINO
+TRAINING
+Missões
+Missions
+Conquistas
+Achievements
+Compre na tela Animais por {0} cristais
+Buy it on the Animals screen for {0} crystals
+VER
+VIEW
+Seu
+Owned
+ESCOLHER
+CHOOSE
+COMPRAR {0}
+BUY {0}
+Especial
+Special
+{0} vitórias em {1} partidas
+{0} wins in {1} matches
+renovam em {0}h {1}
+renew in {0}h {1}
+complete as 3 para chance de Trevo
+complete all 3 for a chance at a Clover
+prêmio: +{0} cristais · +1 pedra
+reward: +{0} crystals · +1 stone
+FEITA
+DONE
+COLETAR
+COLLECT
+em andamento
+in progress
+TORNEIO DO DIA
+DAILY TOURNAMENT
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+3 back-to-back 1x1 fights against increasingly strong bots · lose and you restart from fight 1 · win all 3 for the prize
+que erra um pouco
+that misses a little
+que quase não erra
+that almost never misses
+de mira perfeita
+with perfect aim
+LUTA {0}  ·  {1}
+FIGHT {0} · {1}
+1x1 contra bot {0}
+1x1 vs bot {0}
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+PRIZE for winning all 3: +{0} crystals  +3 strength stones  +1 Clover
+campeão {0} vez(es)
+champion {0} time(s)
+o prêmio sai 1 vez por dia
+the prize is given once a day
+Você já jogou o torneio de hoje - ele volta amanhã!
+You've already played today's tournament - it's back tomorrow!
+Seu animal: {0}  (troque na tela Animais)
+Your animal: {0}  (change it on the Animals screen)
+VOLTA AMANHÃ
+BACK TOMORROW
+COMEÇAR A LUTA 1
+START FIGHT 1
+Rever as dicas na próxima partida
+Show the tips again next match
+ATQ
+ATK
+SOR
+LCK
+PODER DE COMBATE
+COMBAT POWER
+forma normal
+normal form
+FERREIRO
+BLACKSMITH
+ARMEIRO
+ARMORY
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+Each animal has its OWN upgrades. A failure only costs the stones - the item never gets worse.
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+Applies in Vs AI, Tournament and Dungeon · in Local everyone is equal · the look applies in all modes
+{0} no máximo do tier {1} (+12)
+{0} at tier {1} max (+12)
+compre {0} no Armeiro
+buy {0} at the Armory
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+SUCCESS {0}%  ·  FAIL {1}%  ·  cost {2} (you have {3})
++{0}% pelas falhas
++{0}% from failures
+Trevo ({0})
+Clover ({0})
+-20% de falha
+-20% fail chance
+Bênção ({0})
+Blessing ({0})
+nunca falha
+never fails
+MÁXIMO
+MAX
+APRIMORAR
+UPGRADE
+SUCESSO! +{0}
+SUCCESS! +{0}
+FALHOU…
+FAILED…
++{0}% na próxima pelas falhas
++{0}% next time from failures
+Faltam pedras: {0}
+Not enough stones: {0}
+custo {0} · tem {1}
+cost {0} · have {1}
+{0} {1} usa {2}.
+{0} {1} uses {2}.
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+Stones: wins, cards, missions and the Blacksmith Chest (Armory).
+FORMA máxima: DEUS 3
+MAX form: GOD 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+{0} more items at {1} for the next form (the form follows the lowest-tier item)
+EQUIPAMENTO
+GEAR
+MATERIAIS
+MATERIALS
+precisa +12 (está +{0})
+needs +12 (is at +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+Reach +12 at the Blacksmith first
+NOVA FORMA: {0}!
+NEW FORM: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+Tier only changes with the item at +12. The new tier starts at +0 and upgrades with its own stone. All 4 at the same tier change the form.
+ESTATÍSTICAS
+STATISTICS
+GERAL
+GENERAL
+CARREIRA
+CAREER
+Partidas
+Matches
+Vitórias
+Wins
+Melhor sequência
+Best streak
+Abates
+Kills
+Dano total
+Total damage
+Maior dano num tiro
+Biggest hit in one shot
+Tiros
+Shots
+Precisão
+Accuracy
+Animal favorito
+Favorite animal
+Vitórias perfeitas
+Perfect wins
+Mais dano numa partida
+Most damage in a match
+Tiros longos · vinganças
+Long shots · revenges
+Partidas hoje
+Matches today
+Fúrias
+Furies
+Caixas
+Crates
+Ferramentas
+Tools
+Suporte
+Support
+Quedas
+Falls
+Tiros rápidos
+Quick shots
+Multi-acertos
+Multi-hits
+Críticos
+Crits
+NA MOSCA
+BULLSEYE
+Passou
+Passes
+Habilidades
+Abilities
+Torneios vencidos
+Tournaments won
+Nível
+Level
+Liga
+League
+CONQUISTAS {0}/{1}
+ACHIEVEMENTS {0}/{1}
+COLETAR TODAS ({0})
+COLLECT ALL ({0})
+{0} conquistas: +{1} cristais
+{0} achievements: +{1} crystals
+(masmorra)
+(dungeon)
+toque: +{0} cristais
+tap: +{0} crystals
+página {0}/{1}
+page {0}/{1}
+Prata
+Silver
+Ouro
+Gold
+Platina
+Platinum
+Diamante
+Diamond
+HUMANOS × BOTS
+HUMANS × BOTS
+cada um por si (+ bots, se quiser)
+every player for themselves (+ bots, if you want)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (bots fill in)
+todos juntos contra o PC
+everyone together against the PC
+Jogador {0}
+Player {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKL'ZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+Each player takes a turn and passes the device  ·  EQUAL stats for everyone  ·  no rewards or ranking
+JOGADORES
+PLAYERS
+TAMANHO
+SIZE
+BOTS EXTRAS
+EXTRA BOTS
+DIFICULDADE
+DIFFICULTY
+sem bots
+no bots
+Toque no NOME para trocar e no ANIMAL para escolher
+Tap the NAME to change it and the ANIMAL to choose
+no TIME para mudar de lado
+the TEAM to switch sides
+pode repetir animal
+animals can repeat
+Mapa aleatório
+Random map
+{0} TODOS CONTRA TODOS
+{0} FFA
+{0} HUMANOS × {1} BOTS
+{0} HUMANS × {1} BOTS
+{0} no aparelho
+{0} on the device
+COMEÇAR
+START
+NOME DO JOGADOR {0}  (até 12 letras)
+PLAYER {0} NAME (up to 12 letters)
+vazio = Jogador {0}
+empty = Player {0}
+APAGAR
+DELETE
+ESPAÇO
+SPACE
+Animal de {0}
+{0}'s animal
+Compre mais animais na tela ANIMAIS
+Buy more animals on the ANIMALS screen
++dano dos tiros
++shot damage
++chance de crítico
++crit chance
+-dano recebido
+-damage taken
++energia e joga antes
++energy and plays earlier
+Pedra de força
+Strength stone
+Pedra de ferro
+Iron stone
+Pedra de aço
+Steel stone
+Pedra mítica
+Mythic stone
+Pedra lendária
+Legendary stone
+5 Pedras de Força
+5 Strength Stones
+20 Pedras de Força
+20 Strength Stones
+Baú do Ferreiro
+Blacksmith Chest
+aprimora itens de MADEIRA no Ferreiro
+upgrades WOOD items at the Blacksmith
+pacote grande: 4 pedras de brinde
+big pack: 4 bonus stones
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+3 to 6 stones of the SAME randomly picked type (Strength 60% · Iron 25% · Steel 10% · Mythic 4% · Legendary 1%) · chance of a Clover (5%) and Blessing (0.5%)
++5 pedras de força
++5 strength stones
++20 pedras de força
++20 strength stones
+BÊNÇÃO!
+BLESSING!
+TREVO!
+CLOVER!
+Vença {0} partidas
+Win {0} matches
+Cause {0} de dano
+Deal {0} damage
+Acerte {0} tiros
+Land {0} shots
+Use a Fúria {0} vezes
+Use Fury {0} times
+Pegue {0} caixas de suprimento
+Grab {0} supply crates
+Derrote {0} inimigos
+Defeat {0} enemies
+Vença {0} masmorra
+Beat {0} dungeon
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+Use 3 Shots/+1/+2/Damage+% {0} times
+Derrube rivais de muito alto {0} vezes
+Knock rivals down from very high up {0} times
+Consiga {0} vitória perfeita
+Get {0} perfect win
+Faça {0} tiros rápidos (<5 s)
+Fire {0} quick shots (<5 s)
+Acerte 2+ rivais num só tiro {0} vezes
+Hit 2+ rivals with one shot {0} times
+Acerte {0} tiros longos
+Land {0} long shots
+Vença {0} vez no mapa do dia
+Win {0} time on the map of the day
+Jogue {0} partidas
+Play {0} matches
+Vença {0} partidas em time (2x2+)
+Win {0} team matches (2x2+)
+Faça {0} vingança
+Get {0} revenge
+Cause 600+ de dano em {0} partida
+Deal 600+ damage in {0} match
+Use o PASSAR {0} vezes
+Use PASS {0} times
+Acerte {0} críticos
+Land {0} crits
+Derrote {0} monstros na masmorra
+Defeat {0} monsters in the dungeon
+Vença {0} partida no Todos x Todos
+Win {0} match in Free for All
+Vença {0} partida no Difícil+
+Win {0} match on Hard+
+Jogue {0} partida online
+Play {0} online match
+Cause {0} de dano na masmorra
+Deal {0} damage in the dungeon
+Acerte {0} tiros NA MOSCA
+Land {0} BULLSEYE shots
+Use {0} ferramentas do Arsenal
+Use {0} Arsenal tools
+Use {0} itens de suporte
+Use {0} support items
+Use {0} habilidades
+Use {0} abilities
+Coloque {0} vigas
+Place {0} beams
+Primeiro sangue
+First Blood
+Veterano
+Veteran
+Lenda da Arena
+Arena Legend
+Atirador
+Shooter
+Demolidor
+Demolisher
+Tiro perfeito
+Perfect Shot
+Invicto
+Undefeated
+Exterminador
+Exterminator
+Caçador de chefes
+Boss Hunter
+Conquistador
+Conqueror
+Ferreiro mestre
+Master Blacksmith
+Nível 20
+Level 20
+Centenário
+Centurion
+Imperador
+Emperor
+Olho de águia
+Eagle Eye
+Apocalipse
+Apocalypse
+Golpe divino
+Divine Strike
+Imparável
+Unstoppable
+Ceifador
+Reaper
+Perfeccionista
+Perfectionist
+Franco-atirador
+Sniper
+Vingador
+Avenger
+Mestre do modo
+Mode Master
+Colecionador
+Collector
+Maratonista
+Marathoner
+Imortal
+Immortal
+Atirador de elite
+Sharpshooter
+Destruidor
+Destroyer
+Golpe lendário
+Legendary Strike
+Exterminador supremo
+Supreme Exterminator
+Sempre perfeito
+Always Perfect
+Explorador
+Explorer
+Domador
+Tamer
+Lenda das masmorras
+Dungeon Legend
+Campeão do torneio
+Tournament Champion
+Rei do mapa do dia
+Map of the Day King
+Desbravador
+Trailblazer
+Senhor das masmorras
+Dungeon Lord
+Naturalista
+Naturalist
+Enciclopédia
+Encyclopedia
+Rei da Fúria
+Fury King
+Caçador de caixas
+Crate Hunter
+Mestre das ferramentas
+Tool Master
+Derrubador
+Toppler
+Chuva de golpes
+Hail of Blows
+Estrategista
+Strategist
+Golpe crítico
+Critical Strike
+Desarmador
+Disarmer
+Quebra-aço
+Steelbreaker
+Exorcista
+Exorcist
+Guardião do céu
+Sky Guardian
+Quebra-gelo
+Icebreaker
+Caça-piratas
+Pirate Hunter
+Ás dos céus
+Ace of the Skies
+Fim do caos
+End of Chaos
+Matador de dragões
+Dragon Slayer
+Senhor do vazio
+Lord of the Void
+Mestre das habilidades
+Ability Master
+Engenheiro
+Engineer
+Constelação
+Constellation
+Céu estrelado
+Starry Sky
+Escavador
+Digger
+Piloto
+Pilot
+Pirotécnico
+Pyrotechnician
+Pastor
+Shepherd
+Granadeiro
+Grenadier
+Chuva de granadas
+Grenade Rain
+Sapador
+Sapper
+Piloto de caça
+Fighter Pilot
+Britador
+Jackhammer
+Vença 1 partida
+Win 1 match
+Jogue 50 partidas
+Play 50 matches
+Vença 100 partidas
+Win 100 matches
+Acerte 200 tiros
+Land 200 shots
+Cause 50.000 de dano
+Deal 50,000 damage
+Cause 800 de dano num só tiro
+Deal 800 damage in a single shot
+Vença 5 seguidas
+Win 5 in a row
+Derrote 100 inimigos
+Defeat 100 enemies
+Vença a 1ª masmorra
+Beat the 1st dungeon
+Vença as 4 masmorras
+Beat all 4 dungeons
+Aprimore um item até +10
+Upgrade an item to +10
+Chegue ao nível 20
+Reach level 20
+Jogue 200 partidas
+Play 200 matches
+Vença 300 partidas
+Win 300 matches
+Acerte 1000 tiros
+Land 1000 shots
+Cause 250.000 de dano
+Deal 250,000 damage
+Cause 1200 num só tiro
+Deal 1200 in a single shot
+Vença 10 seguidas
+Win 10 in a row
+Derrote 500 inimigos
+Defeat 500 enemies
+10 vitórias perfeitas
+10 perfect wins
+50 tiros longos
+50 long shots
+20 vinganças
+20 revenges
+Chegue ao nível 40
+Reach level 40
+Vença com 10 animais diferentes
+Win with 10 different animals
+Jogue 500 partidas
+Play 500 matches
+Vença 20 seguidas
+Win 20 in a row
+Acerte 3000 tiros
+Land 3000 shots
+Cause 1.000.000 de dano
+Deal 1,000,000 damage
+Cause 1500 num só tiro
+Deal 1500 in a single shot
+Derrote 1500 inimigos
+Defeat 1500 enemies
+50 vitórias perfeitas
+50 perfect wins
+Vença em 10 mapas diferentes
+Win on 10 different maps
+Vença com 18 animais diferentes
+Win with 18 different animals
+Vença uma masmorra no Lendário
+Beat a dungeon on Legendary
+Vença o Torneio do Dia
+Win the Daily Tournament
+Vença 10 vezes no mapa do dia
+Win 10 times on the map of the day
+Vença 6 masmorras diferentes
+Beat 6 different dungeons
+Vença as 10 masmorras
+Beat all 10 dungeons
+Descubra 15 monstros no bestiário
+Discover 15 monsters in the bestiary
+Descubra todos os monstros
+Discover all the monsters
+Use a Fúria 100 vezes
+Use Fury 100 times
+Pegue 100 caixas
+Grab 100 crates
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+Use 3 Shots/+1/+2/Damage+% 500 times
+Derrube 50 rivais de muito alto
+Knock 50 rivals down from very high up
+Faça 100 tiros rápidos (<5 s)
+Fire 100 quick shots (<5 s)
+Acerte 2+ rivais num tiro 50 vezes
+Hit 2+ rivals with one shot 50 times
+Use o PASSAR 50 vezes
+Use PASS 50 times
+Acerte 200 críticos
+Land 200 crits
+Vença o Ninho das Bombas
+Beat the Bomb Nest
+Vença a Fortaleza de Aço
+Beat the Steel Fortress
+Vença o Templo Sombrio
+Beat the Dark Temple
+Vença o Santuário Celeste
+Beat the Celestial Sanctuary
+Vença o Pico Congelado
+Beat the Frozen Peak
+Vença o Estaleiro Pirata
+Beat the Pirate Shipyard
+Vença o Céu de Guerra
+Beat the War Sky
+Vença o Trono do Caos
+Beat the Throne of Chaos
+Vença o Covil do Dragão
+Beat the Dragon's Lair
+Vença o Trono do Vazio
+Beat the Throne of the Void
+Use 100 habilidades
+Use 100 abilities
+Coloque 50 vigas
+Place 50 beams
+Tire 3 estrelas numa masmorra
+Get 3 stars in a dungeon
+Junte 30 estrelas nas masmorras
+Collect 30 stars in dungeons
+Cave 20 túneis/poços
+Dig 20 tunnels/pits
+Voe de jetpack 15 vezes
+Fly the jetpack 15 times
+Use a corda ninja 15 vezes
+Use the ninja rope 15 times
+Exploda 15 dinamites
+Blow up 15 sticks of dynamite
+Solte 15 ovelhas
+Release 15 sheep
+Arremesse 30 granadas
+Throw 30 grenades
+Use 8 cachos de granadas
+Use 8 grenade clusters
+Plante 15 minas
+Plant 15 mines
+Chame 6 ataques aéreos
+Call in 6 air strikes
+Use a Britadeira 10 vezes
+Use the Jackhammer 10 times
++1 Trevo
++1 Clover
+TREVO
+CLOVER
+BÊNÇÃO
+BLESSING
+FERRO
+IRON
+AÇO
+STEEL
+MÍTICA
+MYTHIC
+LENDÁRIA
+LEGENDARY
+INIMIGOS
+ENEMIES
+CHEFE
+BOSS
+Sair agora encerra a masmorra sem prêmio.
+Leaving now ends the dungeon with no prize.
+chefe derrotado
+boss defeated
+parou no chefe
+stopped at the boss
+onda {0}/2
+wave {0}/2
+venceu
+won
+sem baixas
+no losses
+teve baixa
+had a loss
+não
+not
+até {0} turnos
+within {0} turns
+3 estrelas pela 1ª vez: +{0} cristais
+3 stars for the 1st time: +{0} crystals
+novo recorde de estrelas!
+new star record!
+PONTO FRACO!
+WEAK SPOT!
+BLOQUEADO - acerte de cima
+BLOCKED - hit from above
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+2ND FORM: the Tank became a TANK CARRIER!
+restam {0}
+{0} left
+ONDA {0}/2
+WAVE {0}/2
+avança...
+advances...
+arremessa...
+throws...
+cura...
+heals...
+ataca...
+attacks...
+chama os lacaios...
+calls the minions...
+está mirando...
+is aiming...
+enfurecido
+enraged
+defesa {0}  (leva -{1}%)
+defense {0}  (takes -{1}%)
+ELITE: +50% vida, +20% dano · 
+ELITE: +50% health, +20% damage · 
+ENFURECIDO: +20% dano · 
+ENRAGED: +20% damage · 
+anda até você e bate de perto{0}
+walks up to you and hits up close{0}
+ (explode!)
+ (explodes!)
+cura os aliados - derrube primeiro
+heals allies - take it down first
+atira de longe
+shoots from afar
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+WAVE {0} CLEARED · {1} kills · {2} damage · +{3} health
+NOVO no bestiário: {0}
+NEW in the bestiary: {0}
+Onda {0}: 
+Wave {0}: 
+ONDA {0} de 2: {1} inimigos!
+WAVE {0} of 2: {1} enemies!
+ONDA {0} DE 2 - {1} INIMIGOS
+WAVE {0} OF 2 - {1} ENEMIES
+OS SENHORES DO CAOS!
+THE LORDS OF CHAOS!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+SORCERER and KNIGHT together! Take down the Sorcerer before he heals the other
+CHEFE: {0}
+BOSS: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+The ANCIENT DRAGON has awakened! Every 3 turns the shot burns and every 4 it rains fire
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+The VOID KING has arrived! Armor every 3 turns and summons an ELITE minion
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+The ICE LORD has arrived! Every 3 turns his shot freezes
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+The BATTLESHIP has arrived! It fires 3 shells at once - spread out
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+The COLOSSAL AIRSHIP has arrived! Every 4 turns it bombs everyone
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+The COLOSSAL TANK has arrived! The barrier only yields to shots that land FROM ABOVE
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+The DARK SORCERER has arrived! Kill the healers first
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+The DARK KNIGHT has arrived! Attack when the armor drops
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+The BOMB KING has arrived! Aim for the HEAD (weak spot)
+cura
+heal
+Ritual de cura!
+Healing ritual!
+Lacaios, ataquem!
+Minions, attack!
+{0} ENFURECEU! (+20% de dano)
+{0} IS ENRAGED! (+20% damage)
+O CHEFE ENFURECEU!
+THE BOSS IS ENRAGED!
+ARMADURA NEGRA!
+BLACK ARMOR!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+The Knight raised his armor (-50% for 2 turns)
+NEVASCA!
+BLIZZARD!
+CHUVA DE FOGO!
+FIRE RAIN!
+BOMBARDEIO!
+BOMBARDMENT!
+FURIOSO!
+FURIOUS!
+bravo
+angry
+CHEFE  ·  {0}
+BOSS  ·  {0}
+{0} de vida
+{0} health
+toque para pular
+tap to skip
+o tempo acabou
+time ran out
+Faltam 5 turnos: {0} vai desabar!
+5 turns left: {0} is about to collapse!
+ELITE derrotado por {0} (+20 de fúria)
+ELITE defeated by {0} (+20 rage)
+{0} deixou cair uma caixa!
+{0} dropped a crate!
+fugiu!
+fled!
+{0} caiu! Os lacaios fugiram!
+{0} has fallen! The minions fled!
+Bombinha
+Little Bomb
+Lança-Bombas
+Bomb Thrower
+Brutamontes
+Brute
+REI BOMBA
+BOMB KING
+Blindado
+Armored
+TANQUE COLOSSAL
+COLOSSAL TANK
+Bandido
+Bandit
+Curandeiro
+Healer
+FEITICEIRO SOMBRIO
+DARK SORCERER
+Mago
+Mage
+Bárbaro
+Barbarian
+Motosserra
+Chainsaw
+CAVALEIRO SOMBRIO
+DARK KNIGHT
+Lenhador
+Lumberjack
+Ninja do Gelo
+Ice Ninja
+LORDE DO GELO
+ICE LORD
+Gladiador
+Gladiator
+Tanque Pirata
+Pirate Tank
+Caminhão Viking
+Viking Truck
+ENCOURAÇADO PIRATA
+PIRATE BATTLESHIP
+Dirigível
+Airship
+Caça
+Fighter
+Encapuzada
+Hooded One
+DIRIGÍVEL COLOSSAL
+COLOSSAL AIRSHIP
+Sombra Veloz
+Swift Shadow
+DRAGÃO ANCESTRAL
+ANCIENT DRAGON
+REI DO VAZIO
+VOID KING
+anda até você e EXPLODE
+walks up to you and EXPLODES
+atira bombas de longe
+throws bombs from afar
+lento, muito resistente
+slow, very tough
+ponto fraco na cabeça · invoca lacaios
+weak spot on the head · summons minions
+corre e ataca de perto
+runs and attacks up close
+blindado: aguenta muito
+armored: takes a lot of hits
+barreira: acerte DE CIMA · 2ª forma
+barrier: hit FROM ABOVE · 2nd form
+pedra viva: forte de perto
+living rock: strong up close
+se cura · tiros envenenam
+heals itself · shots poison
+magia de longe
+magic from afar
+REGENERA a cada vez
+REGENERATES every turn
+serra de perto, dano alto
+saw up close, high damage
+ARMADURA a cada 3 vezes · chama magos
+ARMOR every 3 turns · summons mages
+machado de perto, resistente
+axe up close, tough
+atira estrelas de longe
+throws stars from afar
+a cada 3 vezes o tiro CONGELA
+every 3 turns the shot FREEZES
+corre e golpeia de perto
+runs and strikes up close
+canhão de longe, blindado
+cannon from afar, armored
+avança e atropela de perto
+charges and tramples up close
+sempre atira 3 balas de canhão
+always fires 3 cannonballs
+bombardeia do alto
+bombs from above
+rápido, atira de longe
+fast, shoots from afar
+cura os aliados · derrube primeiro
+heals allies · take it down first
+a cada 4 vezes BOMBARDEIA todo mundo
+every 4 turns it BOMBS everyone
+muito rápida, ataca de perto
+very fast, attacks up close
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+every 3 turns the shot burns · every 4 FIRE RAIN
+armadura a cada 3 · veneno · chama ELITE
+armor every 3 · poison · summons ELITE
+NINHO DAS BOMBAS
+BOMB NEST
+FORTALEZA DE AÇO
+STEEL FORTRESS
+TEMPLO SOMBRIO
+DARK TEMPLE
+SANTUÁRIO CELESTE
+CELESTIAL SANCTUARY
+PICO CONGELADO
+FROZEN PEAK
+ESTALEIRO PIRATA
+PIRATE SHIPYARD
+CÉU DE GUERRA
+WAR SKY
+TRONO DO CAOS
+THRONE OF CHAOS
+COVIL DO DRAGÃO
+DRAGON'S LAIR
+TRONO DO VAZIO
+THRONE OF THE VOID
+Ondas: Bombinhas que explodem, Lança-Bombas
+Waves: exploding Little Bombs, Bomb Throwers
+e Brutamontes. Chefe: REI BOMBA
+and Brutes. Boss: BOMB KING
+Ondas: Vikings, Blindados e Lança-Bombas.
+Waves: Vikings, Armored and Bomb Throwers.
+Chefe: TANQUE COLOSSAL
+Boss: COLOSSAL TANK
+barreira: acerte DE CIMA · tem 2ª forma
+barrier: hit FROM ABOVE · has a 2nd form
+Ondas: Bandidos, Golens e Curandeiros.
+Waves: Bandits, Golems and Healers.
+Chefe: FEITICEIRO SOMBRIO
+Boss: DARK SORCERER
+se cura (mate os curandeiros) · veneno
+heals itself (kill the healers) · poison
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+Waves: Mages, Barbarians (they regenerate) and Chainsaws.
+Chefe: CAVALEIRO SOMBRIO
+Boss: DARK KNIGHT
+armadura a cada 3 vezes · chama magos
+armor every 3 turns · summons mages
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+Waves: Lumberjacks and Ice Ninjas. STEEL stone
+Chefe: LORDE DO GELO
+Boss: ICE LORD
+a cada 3 vezes o tiro dele CONGELA
+every 3 turns his shot FREEZES
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+Waves: Gladiators, Trucks and Tanks. STEEL stone
+Chefe: ENCOURAÇADO PIRATA
+Boss: PIRATE BATTLESHIP
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+Waves: Fighters, Airships and Hooded Ones (they heal). MYTHIC
+Chefe: DIRIGÍVEL COLOSSAL
+Boss: COLOSSAL AIRSHIP
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+Waves: Swift Shadows and Gladiators. MYTHIC stone
+Chefes: FEITICEIRO + CAVALEIRO juntos
+Bosses: SORCERER + KNIGHT together
+dois chefes: cura, veneno e armadura
+two bosses: healing, poison and armor
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+Waves: Barbarians, Gladiators and Ninjas. LEGENDARY
+Chefe: DRAGÃO ANCESTRAL
+Boss: ANCIENT DRAGON
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+Waves: Shadows, Mages and Hooded Ones. LEGENDARY
+Chefe: REI DO VAZIO
+Boss: VOID KING
+Bênção da Força: +10% de dano
+Blessing of Strength: +10% damage
+Bênção da Fúria: começa com 25 de fúria
+Blessing of Rage: starts with 25 rage
+Bênção do Arsenal: +1 uso de cada ferramenta
+Blessing of the Arsenal: +1 use of each tool
+Bênção da Pedra: -15% de dano recebido
+Blessing of Stone: -15% damage taken
+Bênção da Vida: +20% de vida
+Blessing of Life: +20% health
+Bênção da Sorte: +8% de chance de crítico
+Blessing of Luck: +8% crit chance
+Bênção do Guia: +2 usos da mira guiada
+Blessing of the Guide: +2 guided aim uses
+Bênção do Escudo: começa com escudo
+Blessing of the Shield: starts with a shield
+ e 
+ and 
+Vença os 2 anteriores{0}
+Beat the 2 previous ones{0}
+ainda não jogou
+not played yet
+chegou ao chefe
+reached the boss
+onda {0}
+wave {0}
+Recorde: {0}
+Record: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+Prize: {0} crystals · {1} {2}-{3}
+chance de Trevo e Bênção
+chance of Clover and Blessing
+DIFICULDADE DOS MONSTROS
+MONSTER DIFFICULTY
+EQUIPE: só jogadores (sem bots)
+TEAM: players only (no bots)
+Aqui você entra SOZINHO.
+Here you go in ALONE.
+Lendário: vença as 4 primeiras masmorras
+Legendary: beat the first 4 dungeons
+Monstros
+Monsters
+ENTRAR NA MASMORRA
+ENTER THE DUNGEON
+BLOQUEADA
+LOCKED
+MONSTROS DAS MASMORRAS · {0} / {1}
+DUNGEON MONSTERS · {0} / {1}
+vida {0}   defesa {1}
+health {0}   defense {1}
+Enfrente-o numa masmorra para revelar
+Face it in a dungeon to reveal it
+masmorra
+dungeon
+Masmorras
+Dungeons
+Bestiário
+Bestiary
+VISUAL
+LOOKS
+EM USO
+IN USE
+toque para usar
+tap to use
+Rastro {0}!
+Trail {0}!
+Clássico
+Classic
+Fogo
+Fire
+Arco-íris
+Rainbow
+Veneno
+Poison
+Sombra
+Shadow
+Chiclete
+Bubblegum
+PRESENTE DIÁRIO
+DAILY GIFT
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+Come back every day: the prize grows. Miss a day and it restarts from day 1.
+DIA {0}
+DAY {0}
+COLETAR DIA {0}
+COLLECT DAY {0}
+volte amanhã
+come back tomorrow
+{0} cristais
+{0} crystals
+2 pedras do seu nível
+2 stones of your level
+1 Trevo
+1 Clover
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} crystals + 3 stones of your level + chance of Blessing
+Dia {0}: {1}
+Day {0}: {1}
+10 masmorras · monstros e chefes
+10 dungeons · monsters and bosses
+você contra os bots · 1x1 a 4x4
+you vs the bots · 1v1 to 4v4
+2 a 8 no mesmo aparelho
+2 to 8 on the same device
+cada um por si
+every animal for itself
+monte os times como quiser: 1x3, 2x4...
+build the teams any way you like: 1v3, 2v4...
+LUTADORES  {0}/{1}
+FIGHTERS  {0}/{1}
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+Tap the ANIMAL to choose it and the NAME to change who controls it (player or bot)
+animal sorteado
+random animal
+jogador {0}
+player {0}
+JOGADORES NO APARELHO
+PLAYERS ON THIS DEVICE
+bots com o mesmo nível e força do jogador
+bots with the same level and strength as the player
+bots mais fortes que o jogador
+bots stronger than the player
+{0} não controla nenhum animal
+{0} doesn't control any animal
+Sorteado
+Random
+TIME VERDE
+GREEN TEAM
+TIME AMARELO
+YELLOW TEAM
+TIME
+TEAM
+OUTROS TIMES
+OTHER TEAMS
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+All players are already on other teams - use + BOT or tap a name
+{0} mudou de time com todos os seus animais
+{0} changed teams with all their animals
+{0} já está no {1}
+{0} is already on the {1}
+na próxima vez
+next turn
+PADRÃO
+DEFAULT
+SOMBRIA
+SHADOW
+BRASA
+EMBER
+CÓSMICA
+COSMIC
+Em uso
+In use
+Usar
+Use
+Derrote {0} inimigos com este animal
+Defeat {0} enemies with this animal
+Vença {0} partidas com este animal
+Win {0} matches with this animal
+Vença a masmorra {0} no Normal (ou mais) com este animal
+Beat the {0} dungeon on Normal (or higher) with this animal
+Acerte {0} tiros NA MOSCA com este animal
+Land {0} BULLSEYE shots with this animal
+Cause {0} de dano num só tiro com este animal
+Deal {0} damage in a single shot with this animal
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+Win {0} Hard or Legendary Vs AI matches with this animal
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+Beat the {0} dungeon on Hard (or higher) with this animal
+Cumpra a missão para liberar a compra
+Complete the mission to unlock the purchase
+Compre o animal para usar skins
+Buy the animal to use skins
+Liberada!
+Unlocked!
+Skin {0} comprada!
+{0} skin bought!
+Não foi possível comprar
+Could not buy
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+The skin shows up in matches and combines with your gear form. Bots use skins too.
+Skin liberada: {0} {1}!
+Skin unlocked: {0} {1}!
+Compre na tela Skins por {0} cristais
+Buy it on the Skins screen for {0} crystals
+SEU NOME  (3 a {0} letras ou números)
+YOUR NAME  (3 to {0} letters or digits)
+SORTEAR
+RANDOM
+LIMPAR
+CLEAR
+Use pelo menos 3 letras ou números
+Use at least 3 letters or digits
+Nome não permitido - escolha outro
+Name not allowed - choose another
+Seu animal: {0}  (troque nas setas)
+Your animal: {0}  (change with the arrows)
+Equipado
+Equipped
+EQUIPAR
+EQUIP
+TIRAR
+REMOVE
+Buff
+Bonus
+Sem pet
+No pet
+toque para escolher um pet
+tap to choose a pet
+Pets a partir do nível {0}
+Pets from level {0}
+só visual no treino
+visual only in training
+Liberado no nível {0}
+Unlocked at level {0}
+Libera no nível {0}
+Unlocks at level {0}
+Truques (na partida, toque no pet):
+Tricks (in a match, tap your pet):
+{0} é seu!
+{0} is yours!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+One pet at a time. The bonus works in Vs AI, Dungeon and Tournament (in training the pet just shows up). Not in local matches.
+Novo pet disponível!
+New pet available!
+Compre na tela Pets por {0} cristais
+Buy it on the Pets screen for {0} crystals
+ESCOLHA MAIS 2 CARTAS!
+PICK 2 MORE CARDS!
+vídeo assistido: vire mais 2 cartas!
+video watched: flip 2 more cards!
++2 CARTAS (vídeo)
++2 CARDS (video)
+XP x2 (vídeo)
+XP x2 (video)
+XP x2 ativo
+XP x2 active
+sem vídeo
+no video
+Pinguinzinho
+Little Penguin
+Corujinha
+Little Owl
+Patinho
+Duckling
+Tartaruguinha
+Little Turtle
+Esquilinho
+Little Squirrel
+Tartaruga azul
+Blue Turtle
+Gatinho
+Kitten
+Coelhinho
+Bunny
+Raposinha
+Little Fox
+Porquinho cinza
+Grey Piglet
+Porquinho
+Piglet
+Cachorrinho
+Puppy
+Pandinha
+Little Panda
+Ursinho
+Teddy Bear
+Unicórnio
+Unicorn
+Raposa-fênix
+Phoenix Fox
+Dragão Negro
+Black Dragon
+Dragãozinho
+Baby Dragon
+Sentar
+Sit
+Rolar
+Roll
+Mortal
+Backflip
+Dançar
+Dance
+Pulo de Alegria
+Happy Jump
+-30% de efeito do vento nos seus tiros
+-30% wind effect on your shots
++10% de chance de crítico
++10% critical chance
++15% de dano em alvos a mais de 60 m
++15% damage to targets over 60 m away
+-35% de empurrão das explosões
+-35% knockback from explosions
+Sem dano de queda
+No fall damage
++1 Mira guiada por partida
++1 Guided Aim per match
+-50% de dano de fogo e veneno
+-50% fire and poison damage
+Crítico causa x1,8 (normal x1,5)
+Critical hits deal x1.8 (normally x1.5)
++15% de energia em cada vez
++15% energy every turn
+Começa a partida com 30% de fúria
+Starts the match with 30% fury
+Começa com escudo (metade do dano) até a 2ª vez
+Starts with a shield (half damage) until your 2nd turn
++15% de fúria ganha
++15% fury gained
+Recupera 10% do dano que causa
+Heals 10% of the damage you deal
+-15% de dano recebido
+-15% damage taken
++10% de vida máxima
++10% max health
++15% de raio de explosão
++15% explosion radius
+Recupera 20 de vida no início de cada vez
+Heals 20 health at the start of each turn
++15% de dano
++15% damage
+{1} pedras do seu nível
+{1} stones of your level
+1 Trevo + {1} pedras do seu nível
+1 Clover + {1} stones of your level
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} crystals + {1} stones of your level + chance of Blessing
+Vitória: {0}+ cristais
+Win: {0}+ crystals
+prêmio x{0}
+reward x{0}
+mapa do dia +50%
+map of the day +50%
+1ª vitória do dia +{0}
+1st win of the day +{0}
+energia
+energy
+aguarde...
+wait...
+errou
+missed
+escudo
+shield
+congelado
+frozen
+acabou
+used up
+ativo
+active
+emprestado
+borrowed
+envenenado
+poisoned
+jogando
+playing
+queimando
+burning
+viga
+girder
+armando
+arming
+fogo
+fire
+veneno
+poison
+derrotado
+defeated
+coletada
+collected
++15% de dano do Especial
++15% Special damage
+Derrote {0} inimigos com o Especial deste animal
+Defeat {0} enemies with this animal's Special
+ENTRAR
+ENTER
+equipamento dos bots um pouco abaixo do seu
+bots' gear a bit below yours
+bots com o mesmo equipamento que você
+bots with the same gear as you
+equipamento dos bots um pouco acima do seu
+bots' gear a bit above yours
+equipamento dos bots bem acima do seu
+bots' gear well above yours
+Ande até a bandeira
+Walk to the flag
+Mire em {0}°
+Aim at {0}°
+Segure e solte na marca
+Hold and release at the mark
+Acerte o inimigo!
+Hit the enemy!
+Muito bem! Vença!
+Great! Now win!
+Use a habilidade verde
+Use the green skill
+Agora a habilidade roxa
+Now the purple skill
+Use um item e atire
+Use an item and fire
+Fúria cheia: use o Especial!
+Rage full: use the Special!
+Use a granada
+Use the grenade
+Coloque uma viga
+Place a girder
+Voe de jetpack
+Fly with the jetpack
+Lance a corda no teto
+Throw the rope at the ceiling
+Pronto! Vença!
+Done! Now win!
+Muito bem!
+Great!
+PULAR TUTORIAL
+SKIP TUTORIAL
+Pular o tutorial?
+Skip the tutorial?
+Você vai direto para o menu. Dá para refazer em Opções.
+You'll go straight to the menu. You can redo it in Options.
+PULAR
+SKIP
+PRÓXIMO TUTORIAL ({0}/3)
+NEXT TUTORIAL ({0}/3)
+IR PARA O MENU
+GO TO MENU
+Refazer tutorial
+Redo tutorial
+Bem-vindo à batalha!
+Welcome to the battle!
+Tutorial concluído: +{0} cristais
+Tutorial complete: +{0} crystals
+SEGURE o botão para voar · setas para os lados
+HOLD the button to fly · arrows to steer
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+USE starts it · HOLD the button to fly (13 s of fuel) · arrows steer · soft landing · landed, fire
+partida rápida 1x1
+quick 1v1 match
+1x1 a 4x4 · escolha mapa e dificuldade
+1v1 to 4v4 · pick map and difficulty
+Mostrar todos os controles
+Show all controls
+ANDE: segure as setas
+MOVE: hold the arrows
+MIRE: setas para cima e para baixo
+AIM: up and down arrows
+SEGURE para dar força e SOLTE para atirar!
+HOLD for power and RELEASE to fire!
+PULE com este botão (gasta energia)
+JUMP with this button (uses energy)
+O VENTO empurra o tiro: olhe aqui em cima
+The WIND pushes your shot: check it up here
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+SKIP ends your turn and heals a bit. Tap the map twice to see it all
+NOVO: ITENS
+NEW: ITEMS
+NOVO: HABILIDADES
+NEW: SKILLS
+NOVO: ESPECIAL
+NEW: SPECIAL
+NOVO: FERRAMENTAS
+NEW: TOOLS
+TODOS OS CONTROLES LIBERADOS!
+ALL CONTROLS UNLOCKED!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+Tap an item before firing: 3 Shots, +1, +2 or Damage. They use energy.
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+Each animal has 2 skills: the buttons above SKIP.
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+Deal and take damage to fill RAGE. Full? Tap the orb and fire the Special!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+Tools in the left column: grenade, rope, jetpack, girder and more.
+Emotes e todas as ferramentas. Boa batalha!
+Emotes and every tool. Have a great battle!
+toque para acelerar
+tap to speed up
+Longe demais: até 600 m de você
+Too far: up to 600 m from you
+Tem alguém aí: escolha outro lugar
+Someone is there: pick another spot
+Muito dentro do chão
+Too deep in the ground
+longa
+long
+curta
+short
+Não alcançou: mire e lance de novo
+Missed: aim and throw again
+A corda não alcançou nada
+The rope didn't reach anything
+Pousou: agora atire!
+Landed: now fire!
+O tempo na corda acabou
+Rope time is over
+Acabou o combustível: pouso suave
+Out of fuel: soft landing
+SOLTAR
+RELEASE
+CORDA
+ROPE
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+Arrows: swing and climb · RELEASE keeps the momentum
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+Up arrow lifts · side arrows steer · HOLD turns it off and fires
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+Drag or move the mouse · arrows: rotate and size · CONFIRM
+Mire e toque em USAR para lançar o gancho
+Aim and tap USE to throw the hook
+Toque em USAR para ligar o jetpack
+Tap USE to start the jetpack
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+GIRDER: drag to place · arrows rotate and change size · CONFIRM sets it (bridge, cover or ramp)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+USE starts it · up arrow lifts, side arrows push · 4 s of fuel · soft landing · HOLD turns it off and fires
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+USE throws the hook where you aim (up to 520 m) · arrows swing and climb · RELEASE keeps momentum · throw again in the air
+Solte na marca amarela!
+Release at the yellow mark!
+Agora atire!
+Now fire!
+Toque em {0}
+Tap {0}
+Segure para voar
+Hold to fly
+Balance e toque para soltar
+Swing, then tap to let go
+Segure o botão até a marca amarela e solte
+Hold the button to the yellow mark, then let go
+Segure a seta até chegar na bandeira
+Hold the arrow until you reach the flag
+Segure o botão que brilha
+Hold the glowing button
+Toque no botão que brilha
+Tap the glowing button
+Teclado
+Keyboard
+Perfeito!
+Perfect!
+Acabe com ele!
+Finish him off!
+PARTE {0} CONCLUÍDA!
+PART {0} COMPLETE!
+Você aprendeu
+You learned
+Andar
+Walk
+Mirar
+Aim
+Atirar
+Fire
+Itens
+Items
+De volta!
+Back!
+JOGAR!
+PLAY!
+inclui +{0} de bônus do tutorial
+includes +{0} tutorial bonus
+Refazer o tutorial?
+Redo the tutorial?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+Only the guided matches. No rewards again and your progress stays the same.
+Cancelar
+Cancel
+Refazer
+Redo
+Tutorial refeito: sem prêmios
+Tutorial replay: no rewards
+Gire o celular para continuar
+Rotate your phone to continue
+Tremor
+Screen shake
+Controles
+Controls
+Jogue 80 partidas
+Play 80 matches
+Vença 150 partidas
+Win 150 matches
+Acerte 400 tiros
+Land 400 shots
+Cause 100.000 de dano
+Deal 100,000 damage
+Cause 1000 de dano num só tiro
+Deal 1000 damage in a single shot
+Vença 6 seguidas
+Win 6 in a row
+Derrote 200 inimigos
+Defeat 200 enemies
+Jogue 300 partidas
+Play 300 matches
+Vença 400 partidas
+Win 400 matches
+Acerte 1500 tiros
+Land 1500 shots
+Cause 400.000 de dano
+Deal 400,000 damage
+Cause 1400 num só tiro
+Deal 1400 in a single shot
+Derrote 800 inimigos
+Defeat 800 enemies
+15 vitórias perfeitas
+15 perfect wins
+80 tiros longos
+80 long shots
+30 vinganças
+30 revenges
+Derrote 2500 inimigos
+Defeat 2500 enemies
+Vença em 14 mapas diferentes
+Win on 14 different maps
+Vença 15 vezes no mapa do dia
+Win 15 times on the map of the day
+Use a Fúria 150 vezes
+Use Fury 150 times
+Pegue 200 caixas
+Grab 200 crates
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+Use 3 Shots/+1/+2/Damage+% 800 times
+Derrube 80 rivais de muito alto
+Knock 80 rivals down from very high up
+Faça 200 tiros rápidos (<5 s)
+Fire 200 quick shots (<5 s)
+Acerte 2+ rivais num tiro 80 vezes
+Hit 2+ rivals with one shot 80 times
+Use o PASSAR 100 vezes
+Use PASS 100 times
+Acerte 300 críticos
+Land 300 crits
+Use 200 habilidades
+Use 200 abilities
+Coloque 80 vigas
+Place 80 beams
+Cave 30 túneis/poços
+Dig 30 tunnels/pits
+Voe de jetpack 25 vezes
+Fly the jetpack 25 times
+Use a corda ninja 25 vezes
+Use the ninja rope 25 times
+Exploda 25 dinamites
+Blow up 25 sticks of dynamite
+Solte 25 ovelhas
+Release 25 sheep
+Arremesse 50 granadas
+Throw 50 grenades
+Use 12 cachos de granadas
+Use 12 grenade clusters
+Plante 25 minas
+Plant 25 mines
+Chame 10 ataques aéreos
+Call in 10 air strikes
+Use a Britadeira 15 vezes
+Use the Jackhammer 15 times
+Mire na linha amarela
+Aim at the yellow line
+Quanto mais tempo segurar, mais longe vai o tiro
+The longer you hold, the farther the shot goes
+As setas andam pelo mapa
+The arrows move you across the map
+A mira muda a altura do tiro
+Aiming changes how high the shot flies
+Acerte o rival para vencer!
+Hit the rival to win!
+Atira 3 balas de uma vez
+Fires 3 shots at once
+Vira chão: uma ponte ou um escudo
+Becomes ground: a bridge or a shield
+Segure para voar até outro lugar
+Hold to fly somewhere else
+Pendure-se e balance para ir longe
+Hang on and swing to go far
+Vira chão: ponte, abrigo ou rampa
+Becomes ground: a bridge, cover or ramp
+Abre um túnel e passa por dentro do morro
+Digs a tunnel right through the hill
+Voe para outro lugar do mapa
+Fly to another spot on the map
+Cava um poço e você desce por ele
+Digs a shaft and you drop down it
+Deixe aos seus pés e fuja: explode forte
+Drop it at your feet and run: big blast
+Anda sozinha até o rival e explode
+Walks to the rival on its own and explodes
+Explode quando alguém chega perto
+Explodes when someone gets close
+Marque o alvo: 5 mísseis caem do céu
+Mark the target: 5 missiles fall from the sky
+NOVO!
+NEW!
+Cristais x2 (vídeo)
+Crystals x2 (video)
+Empurra o tiro: a bandeira mostra para onde
+It pushes your shot: the flag shows which way
+TUTORIAL CONCLUÍDO!
+TUTORIAL COMPLETE!
+O resto você aprende jogando, com dicas na hora certa
+You'll learn the rest while playing, with tips at the right time
+Quica no chão e explode depois
+Bounces on the ground, then explodes
+Melhor com o celular deitado
+Best with your phone sideways
+Gire o celular: a tela fica maior e os controles mais fáceis
+Turn your phone: bigger view and easier controls
+JOGAR MASMORRA
+PLAY DUNGEON
+JOGAR VS
+PLAY VS
+JOGAR ASSIM MESMO
+PLAY ANYWAY

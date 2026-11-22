@@ -1,0 +1,3292 @@
+VOLTAR
+GERİ
+Carregando
+Yükleniyor
+Masmorra
+Zindan
+Contra IA
+Yapay Zekâya Karşı
+Partida local
+Yerel maç
+MASMORRA
+ZİNDAN
+CONTRA IA
+YAPAY ZEKÂYA KARŞI
+PARTIDA LOCAL
+YEREL MAÇ
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+Patronlu 10 zindan, 4 zorluk ve yıldızlar. Ödüller: madalya, taş, yonca ve kutsama.
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+Aynı cihazda iki veya daha fazla oyuncu, sırayla. Eşitlenmiş ekipman, ödül yok.
+Música
+Müzik
+Sons
+Sesler
+Som
+Ses
+Idioma
+Dil
+Batalha de artilharia entre animais
+Hayvanların topçu savaşı
+Ferreiro
+Demirci
+Armeiro
+Cephanelik
+Animais
+Hayvanlar
+Opções
+Seçenekler
+versão de teste
+test sürümü
+Nível {0}
+Seviye {0}
+Todos os animais disponíveis!
+Tüm hayvanlar açık!
+Próximo animal: {0} no nível {1}
+Sıradaki hayvan: Seviye {1}'de {0}
+Em construção
+Yapım aşamasında
+Batalha em construção
+Savaş yapım aşamasında
+Raposa
+Tilki
+Urso
+Ayı
+Coruja
+Baykuş
+Salamandra
+Semender
+Rinoceronte
+Gergedan
+Cobra
+Yılan
+Tartaruga
+Kaplumbağa
+Guaxinim
+Rakun
+Gato
+Kedi
+Águia
+Kartal
+Tigre
+Kaplan
+Pinguim
+Penguen
+Gorila
+Goril
+Tubarão
+Köpekbalığı
+Jacaré
+Timsah
+Texugo
+Porsuk
+Ouriço
+Kirpi
+Morcego
+Yarasa
+Arma
+Silah
+Chapéu
+Şapka
+Roupa
+Zırh
+Amuleto
+Muska
+Madeira
+Ahşap
+Ferro
+Demir
+Aço
+Çelik
+Mítico
+Efsanevi
+Lendário
+Destansı
+Pedras
+Taşlar
+Trevo
+Yonca
+Bênção
+Kutsama
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+Ekipmanın kademesini değiştir (Ahşap, Demir, Çelik, Efsanevi, Destansı) ve taş satın al.
+Medalhas
+Madalyalar
+Escolhido
+Seçildi
+Escolher
+Seç
+cristais
+kristal
+{0} comprado!
+{0} açıldı!
+Cristais insuficientes
+Yeterli kristal yok
+Disponível no nível {0}
+Seviye {0}'da açılır
+Jogador
+Oyuncu
+Aliado
+Müttefik
+Rival
+Rakip
+Não foi possível baixar o mapa. Verifique a conexão.
+Harita indirilemedi. Bağlantını kontrol et.
+Carregando os animais
+Hayvanlar yükleniyor
+Mapa inválido
+Geçersiz harita
+Colinas Verdes
+Yeşil Tepeler
+Picos Nevados
+Karlı Zirveler
+Deserto Dourado
+Altın Çöl
+Floresta Encantada
+Büyülü Orman
+Vulcão
+Yanardağ
+Praia Pirata
+Korsan Plajı
+Terra dos Doces
+Şeker Diyarı
+Castelo
+Kale
+Caverna de Cristal
+Kristal Mağara
+Pântano
+Bataklık
+Cemitério Assombrado
+Perili Mezarlık
+Ruínas Celestes
+Gök Harabeleri
+Fábrica Steampunk
+Steampunk Fabrikası
+Recife de Coral
+Mercan Resifi
+Templo da Selva
+Orman Tapınağı
+Cidade Neon
+Neon Şehir
+Base Lunar
+Ay Üssü
+Faroeste
+Vahşi Batı
+caiu na lava
+lavaya düştü
+caiu no chocolate
+çikolataya düştü
+caiu no lodo
+çamura düştü
+sumiu na névoa
+siste kayboldu
+caiu das nuvens
+bulutlardan düştü
+caiu no metal derretido
+erimiş metale düştü
+foi levado pela correnteza
+akıntıya kapıldı
+caiu no vazio neon
+neon boşluğa düştü
+flutuou para o espaço
+uzaya süzüldü
+afundou na areia movediça
+bataklık kumuna gömüldü
+caiu na água
+suya düştü
+4 TxT
+4 FFA
+6 TxT
+6 FFA
+8 TxT
+8 FFA
+Fácil
+Kolay
+Difícil
+Zor
+erram muito
+çok ıskalar
+erram um pouco
+biraz ıskalar
+quase não erram
+neredeyse hiç ıskalamaz
+mira perfeita
+kusursuz nişan
+Valente
+Cesur
+Veloz
+Hızlı
+Sombrio
+Karanlık
+Feroz
+Yırtıcı
+Astuto
+Kurnaz
+Dourado
+Altın
+Furioso
+Öfkeli
+Sereno
+Sakin
+Selvagem
+Vahşi
+Teimoso
+İnatçı
+Ligeiro
+Çevik
+Brabo
+Azgın
+Sorrateiro
+Sinsi
+Bravo
+Sert
+Esperto
+Zeki
+Trovão
+Gök Gürültüsü
+Relâmpago
+Şimşek
+Pimenta
+Acı Biber
+Corajoso
+Yürekli
+ÁRVORE 1 NÍVEL 4
+AĞAÇ 1 SEVİYE 4
+DEUS 1
+TANRI 1
+DEUS 2
+TANRI 2
+DEUS 3
+TANRI 3
+SEU TIME
+TAKIMIN
+VOCÊ
+SEN
+TODOS CONTRA TODOS
+HERKES HERKESE KARŞI
+RIVAIS
+RAKİPLER
+Nv {0}
+Sv {0}
+PAUSADO
+DURAKLATILDI
+Sair agora encerra a partida sem prêmio.
+Şimdi çıkarsan maç ödülsüz biter.
+turno {0}
+tur {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+hasar {0}  ·  alınan {1}  ·  leş {2}  ·  isabet %{3}
+Tremor
+Sarsıntı
+CONTINUAR
+DEVAM
+RENDER-SE
+TESLİM OL
+SAIR
+ÇIKIŞ
+EMPATE
+BERABERE
+VITÓRIA!
+ZAFER!
+DERROTA
+YENİLGİ
+VER PLACAR
+SKOR TABLOSU
+DE NOVO
+TEKRAR
+REVANCHE
+RÖVANŞ
+{0} turnos
+{0} tur
+mais dano: {0}
+en çok hasar: {0}
+JOGADOR
+OYUNCU
+DANO
+HASAR
+ABATES
+LEŞ
+PRECISÃO
+İSABET
+MAIOR TIRO
+EN BÜYÜK ATIŞ
+precisão: {0} {1}%
+isabet: {0} %{1}
+maior tiro: {0} {1}
+en büyük atış: {0} {1}
+abates: {0} x{1}
+leş: {0} x{1}
+prêmios da partida: em breve
+maç ödülleri: yakında
+Você se rendeu
+Teslim oldun
+O tiro saiu do mapa!
+Atış haritadan çıktı!
+na água
+suda
+ALELUIA!
+HALELUYA!
+era uma armadilha!
+tuzakmış!
+caixa destruída
+sandık yok edildi
+atingido por um raio
+yıldırım çarptı
+o gelo quebrou!
+buz kırıldı!
+TIRO LONGO! {0}m
+UZUN ATIŞ! {0}m
+CRÍTICO
+KRİTİK
+ANIQUILADO!
+YOK EDİLDİ!
+congelado {0} turno(s)
+{0} tur donduruldu
+NA MOSCA!
+TAM İSABET!
+ÓTIMO!
+HARİKA!
+BOM
+İYİ
+DE RASPÃO
+SIYIRDI
+MULTI-ACERTO x{0}
+ÇOKLU VURUŞ x{0}
+ABATE QUÁDRUPLO!
+DÖRTLÜ LEŞ!
+ABATE TRIPLO!
+ÜÇLÜ LEŞ!
+ABATE DUPLO!
+ÇİFT LEŞ!
+COMBO x{0}
+KOMBO x{0}
+FÚRIA PRONTA!
+ÖFKE HAZIR!
+caiu de muito alto
+çok yüksekten düştü
+PLOFT!
+PLOF!
+TCHIBUM!
+CUMBUL!
+caiu do mapa
+haritadan düştü
+Precisa estar no chão
+Yerde olman gerekiyor
+Energia insuficiente para pular
+Zıplamak için yeterli enerji yok
+água!
+su!
+ESPECIAL
+ÖZEL SALDIRI
+invisível
+görünmez
+Ninguém colado — chegue mais (energia gasta)
+Yakında kimse yok — daha yaklaş (enerji harcandı)
+{0} (pronta em {1}): {2}
+{0} ({1} sonra hazır): {2}
+{0} precisa de {1} de energia
+{0} için {1} enerji gerekli
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+IŞINLANMA: haritada gitmek istediğin yere dokun ve onayla (iptal için yeteneğe dokun)
+Teletransporte cancelado
+Işınlanma iptal edildi
+Aí não dá — escolha um chão firme e livre
+Oraya gidilemez — sağlam ve boş bir zemin seç
+{0} se teletransportou!
+{0} ışınlandı!
+CONGELADO (protegido)
+DONDU (korumalı)
+patada de urso
+ayı tekmesi
+cutucão
+dürtme
+soco de fogo
+ateş yumruğu
+machado de batalha
+savaş baltası
+martelada sísmica
+sismik çekiç darbesi
+Nenhum rival à vista (energia gasta)
+Görünürde rakip yok (enerji harcandı)
+revólver
+tabanca
+{0} usou {1}
+{0} kullandı: {1}
+SINERGIA +10
+SİNERJİ +10
+arco longo
+uzun yay
+Não acertou ninguém no caminho
+Yolda kimseye isabet etmedi
+orbe arcano
+gizemli küre
+BUM ARCANO!
+GİZEMLİ PATLAMA!
+Ninguém ao alcance (energia gasta)
+Menzilde kimse yok (enerji harcandı)
+Ninguém na sua frente — chegue mais (energia gasta)
+Önünde kimse yok — daha yaklaş (enerji harcandı)
+grito sônico
+sonik çığlık
+Ninguém na sua frente (energia gasta)
+Önünde kimse yok (enerji harcandı)
+enrolado nas vinhas
+sarmaşıklara dolandı
+bola de dragão
+ejderha topu
+machado giratório
+dönen balta
+pisão do gorila
+goril ezmesi
+Sem combustível
+Yakıt bitti
+Toque no mapa para marcar o alvo
+Hedefi işaretlemek için haritaya dokun
+SUA VEZ!
+SIRA SENDE!
+VEZ DE {0}
+SIRA: {0}
+RETIRADA: {0} s - corra para um lugar seguro!
+GERİ ÇEKİL: {0} sn - güvenli bir yere koş!
+VOCÊ CAIU
+DÜŞTÜN
+últ.
+son
+MIRA
+NİŞAN
+na sua vez
+sıran gelince
+ESPECIAL PRONTO
+ÖZEL SALDIRI HAZIR
+fúria
+öfke
+FORÇA
+GÜÇ
+último
+son
+FÚRIA
+ÖFKE
+FÚRIA!
+ÖFKE!
+PASSAR
+PAS
+EXPLODIR
+PATLAT
+AGUARDE
+BEKLE
+VOANDO!
+UÇUYOR!
+VOAR
+UÇ
+SEM GÁS
+YAKIT YOK
+SOLTE!
+BIRAK!
+USAR
+KULLAN
+SEGURE
+BASILI TUT
+atire ou PASSE!
+ateş et ya da PAS!
+{0} no próximo tiro
+sonraki atışta {0}
+DANO x2
+HASAR x2
+Você foi derrotado - assistindo
+Yenildin - izleniyor
+PRÓX.
+SONRAKİ
+VENTO
+RÜZGAR
+A FAVOR
+ARKADAN
+CONTRA
+KARŞIDAN
+SUBINDO!
+YÜKSELİYOR!
+água sobe em {0}
+su yükselmesine {0}
+TURNO {0}
+TUR {0}
+SUA VEZ
+SIRA SENDE
+RETIRADA
+GERİ ÇEKİL
+{0} está mirando...
+{0} nişan alıyor...
+VERDADEIRO
+GERÇEK
+DANO +{0}%
+HASAR +%{0}
+ITENS
+EŞYALAR
+MAIS
+DAHA
+em {0} vezes
+{0} seferde
+rod. {0}
+tur {0}
+espera {0}
+bekle {0}
+CONFIRMAR
+ONAYLA
+Nv {0}  
+Sv {0}  
+joga em {0}º
+{0}. sırada
+vida {0} / {1}
+can {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+SAL {0}   SAV {1}   ÇEV {2}   ŞANS {3}    (kritik %{4} · alınan -%{5})
+Especial: {0}
+Özel saldırı: {0}
+ (em {0})
+ ({0} sonra)
+ferramentas restantes: {0}   ·   {1} de energia por vez
+kalan alet: {0}   ·   her seferinde {1} enerji
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} hasar · isabet {1}/{2} · leş {3}
+ · sequência {0}
+ · seri {0}
+ · combo {0}
+ · kombo {0}
+coragem +15%
+cesaret +%15
+último tiro: {0}° · força {1}
+son atış: {0}° · güç {1}
+dano +
+hasar +
+dano 
+hasar 
+raio +
+yarıçap +
+raio 
+yarıçap 
+bala pesada
+ağır mermi
+bala leve (vai longe)
+hafif mermi (uzağa gider)
+sofre pouco com o vento
+rüzgardan az etkilenir
+sofre mais com o vento
+rüzgardan çok etkilenir
+arma equilibrada
+dengeli silah
+{0} desmarcado
+{0} seçimi kaldırıldı
+Nada para prender nessa mira
+Bu nişanla tutunacak bir şey yok
+A corda não alcança nada nessa direção (até {0})
+İp bu yönde hiçbir şeye ulaşmıyor (en fazla {0})
+andar balança · as setas sobem/descem · PULAR solta
+yürü: sallan · oklar: yukarı/aşağı · ZIPLA: bırak
+{0} libera na rodada {1} (faltam {2})
+{0}, {1}. turda açılır ({2} kaldı)
+{0} já está ativo
+{0} zaten aktif
+Acabou: {0} ({1}x por partida)
+Hakkın bitti: {0} (maç başına {1}x)
+{0}: recarrega em {1} turno(s)
+{0}: {1} tur sonra dolar
+Vida já está cheia
+Can zaten dolu
+Na masmorra o cenário não se destrói
+Zindanda arazi yıkılmaz
+A granada não soma com a Fúria nem com o Avião
+El bombası Öfke veya Uçak ile birleşmez
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} bu turun saldırısı (Öfke, +1, +2 veya 3 Atış ile birleşmez)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0} Hasar +% veya Buz almaz (bunlar sadece atış için geçerli)
+{0} vale só para o tiro (não para a ferramenta)
+{0} sadece atış için geçerli (alet için değil)
+Energia insuficiente ({0})
+Yetersiz enerji ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+ÖZEL SALDIRI 3 Atış, +1 veya +2 ile birleşmez
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+Sadece biri: 3 Atış, +1 VEYA +2 (sadece 3 Atış + +1 birlikte olur)
+Toque no TERRENO (até 520 de você) para prender a corda
+İpi tutturmak için ARAZİYE dokun (senden en fazla 520)
+o fogo apagou
+ateş söndü
+veneno curado
+zehir iyileşti
+{0} se curou (+{1}) e encerrou a vez
+{0} iyileşti (+{1}) ve turu bitirdi
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+Bu nişanla tutunacak bir şey yok — ipi atmak için ARAZİYE dokun
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+Uçuyorsun! UÇ düğmesini BASILI TUT · havada hareket et · inince biter
+Pavio da granada: {0} s (toque de novo para mudar)
+El bombası fitili: {0} sn (değiştirmek için tekrar dokun)
+as setas inclinam o túnel · USAR acende
+oklar tüneli eğer · KULLAN yakar
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+Hedefi işaretlemek için haritaya dokun · oklar uçağın yönünü değiştirir · ONAYLA
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+Yerleştirmek için haritaya dokun · oklar döndürür · ONAYLA
+{0} pronto — toque em USAR
+{0} hazır — KULLAN'a dokun
+paraquedas pronto
+paraşüt hazır
+CORRA!
+KOŞ!
+BÉÉÉ!
+MEEE!
+cacho de granadas!
+misket bombası!
+mina plantada
+mayın yerleştirildi
+granada na mão
+el bombası elde
+jetpack pronto
+jetpack hazır
+Não cabe aí
+Oraya sığmaz
+Longe demais — até 600 de você
+Çok uzak — senden en fazla 600
+Tem alguém aí — escolha outro lugar
+Orada biri var — başka yer seç
+britadeira!
+matkap!
+maçarico!
+pürmüz!
+maçarico
+pürmüz
+Acabou o combustível
+Yakıt bitti
+Pousou — o botão volta a atirar
+İndin — düğme yine ateş eder
+ATAQUE AÉREO!
+HAVA SALDIRISI!
+3 Tiros
+3 Atış
+Ataque +1
+Saldırı +1
+Ataque +2
+Saldırı +2
+Dano +10%
+Hasar +%10
+Dano +20%
+Hasar +%20
+Dano +30%
+Hasar +%30
+Dano +40%
+Hasar +%40
+Dano +50%
+Hasar +%50
+Avião
+Uçak
+Gelo
+Buz
+Invisível
+Görünmez
+Cura
+İyileştirme
+Guia
+Güdümlü
+Mudar Vento
+Rüzgarı Değiştir
+Paraquedas
+Paraşüt
+Baixa gravidade
+Düşük Yerçekimi
+Viga
+Kiriş
+Maçarico
+Pürmüz
+Cipó
+Sarmaşık
+Britadeira
+Matkap
+Passo Rápido
+Hızlı Adım
+Elástico
+Lastik İp
+Dinamite
+Dinamit
+Ovelha
+Koyun
+Granada
+El Bombası
+Mina
+Mayın
+Cacho de Granadas
+Misket Bombası
+Teletransporte
+Işınlanma
+Ataque Aéreo
+Hava Saldırısı
+Pombo-bomba
+Bombacı Güvercin
+Bolha-escudo
+Kalkan Balonu
+Ampulheta
+Kum Saati
+Ataque
+Saldırı
+Ataques
+Saldırılar
+Dano
+Hasar
+Vento
+Rüzgar
+Paraq.
+Paraş.
+Gravid.
+Yerç.
+Corda
+İp
+Britad.
+Matkap
+Rápido
+Hızlı
+Cacho
+Misket
+Aéreo
+Hava
+Pombo
+Güvercin
+Bolha
+Balon
+Tempo
+Zaman
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+yelpaze şeklinde 3 atış (her biri -%50) · +1 ile = kombo 1+2 (6 mermi)
+atira mais 1 vez (-10% cada)
+1 kez daha atar (her biri -%10)
+atira mais 2 vezes (-40% cada)
+2 kez daha atar (her biri -%40)
++10% de dano (soma com os outros)
++%10 hasar (diğerleriyle birleşir)
++20% de dano (soma com os outros)
++%20 hasar (diğerleriyle birleşir)
++30% de dano (soma com os outros)
++%30 hasar (diğerleriyle birleşir)
++40% de dano (soma com os outros)
++%40 hasar (diğerleriyle birleşir)
++50% de dano (soma com os outros)
++%50 hasar (diğerleriyle birleşir)
+você vai voando até onde a bala cair (sem dano)
+merminin düştüğü yere uçarsın (hasarsız)
+congela quem for atingido por 2 turnos
+vurulanı 2 tur dondurur
+invisível para os rivais por 3 rodadas
+rakiplere 3 tur görünmez
+recupera 30% da vida e ENCERRA o turno
+canın %30'unu yeniler ve turu BİTİRİR
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+atış yakınından geçerse en yakın rakibi takip eder (-%20 hasar)
+inverte o vento nesta rodada
+bu tur rüzgarı tersine çevirir
+cai devagar e sem dano de queda até a sua próxima vez
+sonraki sırana kadar yavaş düşersin, düşme hasarı almazsın
+os tiros deste turno voam mais longe (gravidade baixa)
+bu turun atışları daha uzağa gider (düşük yerçekimi)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+Çelik KİRİŞ: yerleştirmek için haritaya dokun, oklar döndürür, ONAYLA koyar — köprü, siper veya rampa
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+bir TÜNEL açıp tepenin içinden geçer; oklar kullanmadan önce eğer; yoldaki herkes 40 alır
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+KULLAN ile kalkış; yükselmek için saldırı düğmesini BASILI TUT ve havada hareket et — 3 sn yakıt, düşme hasarı yok
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+KULLAN ipi nişan yönüne atar (en fazla 520); yürü: sallan, oklar: kısalt/uzat, ZIPLA: bırak
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+AŞAĞI bir kuyu kazar ve içinden inersin; aşağıdaki herkes 40 alır
+nesta vez você anda quase o DOBRO gastando metade da energia
+bu tur yarı enerjiyle neredeyse İKİ KAT yürürsün
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+bu tur suya veya haritadan düşersen lastik ip seni geri çeker
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+ayaklarının dibine DİNAMİT bırakır (300 hasar), 5 sn fitil — bu turki saldırın
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+patlayıcı bir KOYUN salar: baktığın yöne kendi yürür, engellerin üstünden atlar ve ilk rakipte (ya da 6 sn sonra) patlar — bu turki saldırın
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+sonraki atış bir EL BOMBASI: yerden ve hayvanlardan seker, 6 sn sonra patlar
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+önüne yere bir MAYIN bırakır: 2,5 sn'de kurulur; HERHANGİ biri yaklaşınca (sen ve müttefiklerin de!) öter ve 1,5 sn sonra patlar (bazen patlamaz) — bu turki saldırın
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+sonraki atış bir MİSKET BOMBASI: seker, 6 sn sonra patlar ve 5 küçük bombaya bölünür
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+varış yerini seçmek için haritaya dokun/sürükle, KULLAN ışınlar — turunu harcar
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+hedefi işaretlemek için haritaya dokun, oklar uçağın geleceği yönü seçer, ONAYLA 5 füze çağırır — bu turki saldırın
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+hedefi işaretlemek için haritaya dokun, KULLAN GÜVERCİNİ salar: oraya düz uçar (rüzgarsız) ve patlar — bu turki saldırın
+uma BOLHA te protege: metade do dano até a sua próxima vez
+bir BALON seni korur: sonraki sırana kadar yarı hasar
++10 s nesta vez para mirar com calma
+bu tur sakin nişan için +10 sn
+Tiro Especial
+Özel Atış
+Chuva de Flechas
+Ok Yağmuru
+Terremoto
+Deprem
+Orbe Teleguiado
+Güdümlü Küre
+Inferno
+Cehennem
+Bala Quicante
+Seken Mermi
+Picada Venenosa
+Zehirli İğne
+Casco de Gelo
+Buz Kabuğu
+Chuva Curativa
+Şifa Yağmuru
+Corte Duplo
+Çifte Kesik
+Garras em Fúria
+Öfkeli Pençeler
+Avalanche
+Çığ
+Pedregulho
+Kaya
+Gêiser
+Gayzer
+Broca
+Delici
+Fragmentação
+Parçalanma
+Explosão de Espinhos
+Diken Patlaması
+Mordida Vampira
+Vampir Isırığı
+tiro forte e cratera grande
+güçlü atış ve büyük krater
+6 flechas caem do céu em volta
+etrafa gökten 6 ok yağar
+cratera gigante e tremor
+dev krater ve sarsıntı
+persegue o inimigo mais perto
+en yakın düşmanı takip eder
+queima 3 turnos
+3 tur yakar
+raio cai do céu na coluna do impacto
+çarpma noktasına gökten yıldırım düşer
+quica 2 vezes explodindo
+2 kez sekip patlar
+envenena 3 turnos
+3 tur zehirler
+congela quem atingir + escudo 2 turnos
+vurduğunu dondurur + 2 tur kalkan
+cura os aliados e fere os rivais
+müttefikleri iyileştirir, rakiplere zarar verir
+2 tiros especiais seguidos
+art arda 2 özel atış
+3 explosões em linha
+sıra halinde 3 patlama
+congela tudo numa área grande
+geniş bir alandaki her şeyi dondurur
+pedra enorme e pesada
+dev ve ağır kaya
+lança os rivais para o alto
+rakipleri havaya fırlatır
+atravessa o chão e explode por dentro
+yeri deler ve içeriden patlar
+se parte em 5 bombas
+5 bombaya bölünür
+8 espinhos para todo lado
+her yöne 8 diken
+cura você com 60% do dano
+hasarın %60'ı kadar seni iyileştirir
+Flecha Certeira
+İsabetli Ok
+Patada de Urso
+Ayı Pençesi
+Rastro de Brasas
+Kor İzi
+Mergulho Teleguiado
+Güdümlü Dalış
+Bala Colossal
+Devasa Mermi
+Tiro Duplo
+Çift Atış
+Bloco de Gelo
+Buz Bloğu
+Ferrão
+İğne
+Ervas Curativas
+Şifalı Otlar
+Cutucão
+Dürtme
+Chuva de Bolotas
+Palamut Yağmuru
+Soco de Fogo
+Ateş Yumruğu
+Machado de Batalha
+Savaş Baltası
+Martelada Sísmica
+Sismik Çekiç
+Lança Afiada
+Keskin Mızrak
+Revólver
+Tabanca
+Sentinela
+Nöbetçi
+Espinhos
+Dikenler
+Eco Teleguiado
+Güdümlü Yankı
+o próximo tiro é CRÍTICO
+sonraki atış KRİTİK
+patada no rival colado: joga ele LONGE
+yanındaki rakibe pençe: onu UZAĞA fırlatır
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+haritada herhangi bir yere dokun ve orada belir (turu bitirir)
+o próximo tiro deixa BRASAS no chão
+sonraki atış yerde KOR bırakır
+o próximo tiro persegue o rival (mergulho da águia)
+sonraki atış rakibi takip eder (kartal dalışı)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+sonraki atış DEVASA MERMİ olur: dev alan ve çok hasar
+dois tiros certeiros no rival à vista
+görünürdeki rakibe iki isabetli atış
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+kendini buz bloğuna hapsedersin: sonraki sırana kadar neredeyse hiç hasar almazsın
+o próximo tiro envenena
+sonraki atış zehirler
+cura 15% de você e dos aliados perto
+sana ve yakındaki müttefiklere %15 can verir
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+katana dürtmesi: yanındaki rakibi sertçe iter (kenarda harika)
+3 bolotas caem em cima do rival mais perto
+en yakın rakibin üstüne 3 palamut düşer
+soco de fogo: joga o rival colado lá no alto
+ateş yumruğu: yanındaki rakibi göğe fırlatır
+corta METADE da vida do rival colado
+yanındaki rakibin canını YARIYA indirir
+martelo no chão: dano e joga para o alto quem está perto
+yere çekiç: yakındakilere hasar verir ve havaya fırlatır
+a lança afia: o próximo tiro dá +35%
+mızrak bilenir: sonraki atış +%35
+seis tiros de revólver no rival à vista
+görünürdeki rakibe altı tabanca atışı
+torreta que atira sozinha em quem chega perto (4 tiros)
+yaklaşana kendi ateş eden taret (4 atış)
+espinhos no chão ferem o 1º rival que pisar
+yerdeki dikenler üstüne basan ilk rakibi yaralar
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+yarasa yankısı: sonraki atış ses dalgalarını izleyip rakibe gider
+Arco Longo
+Uzun Yay
+Investida do Urso
+Ayı Hücumu
+Orbe Arcano
+Gizemli Küre
+Lança-chamas
+Alev Makinesi
+Tempestade
+Fırtına
+Morteiro
+Havan
+Rajada de Precisão
+Hassas Seri Atış
+Nevasca
+Tipi
+Nuvem Venenosa
+Zehir Bulutu
+Vinhas
+Sarmaşıklar
+Corte Relâmpago
+Şimşek Kesiği
+Toca Explosiva
+Patlayan Yuva
+Cometa de Brasa
+Kor Kuyrukluyıldızı
+Machado Giratório
+Dönen Balta
+Pisão do Gorila
+Goril Ezmesi
+Cutucão de Lança
+Mızrak Darbesi
+Chuva de Balas
+Kurşun Yağmuru
+Chuva de Espinhos
+Diken Yağmuru
+Grito Sônico
+Sonik Çığlık
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+görünürdeki rakibe iki DÜZ ok (en fazla 1000): hasar ve geri itme
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+ayı ileri koşup yoldakileri ezer (-%8 can)
+um orbe mágico voa até o rival mais perto e EXPLODE
+büyülü bir küre en yakın rakibe uçar ve PATLAR
+jato de fogo nos rivais à sua frente: dano e queimadura
+önündeki rakiplere alev: hasar ve yanık
+um raio cai no rival mais perto (até 900)
+en yakın rakibe yıldırım düşer (en fazla 900)
+3 tiros de morteiro caem em volta do rival mais perto
+en yakın rakibin etrafına 3 havan mermisi düşer
+rajada de 5 tiros no rival à vista (até 800)
+görünürdeki rakibe 5'li seri atış (en fazla 800)
+congela os rivais perto por 1 turno
+yakındaki rakipleri 1 tur dondurur
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+zehir bulutu: yakındaki TÜM rakipleri 3 tur zehirler
+puxa o rival mais perto para junto de você e fere
+en yakın rakibi yanına çeker ve yaralar
+dispara para a frente cortando quem estiver no caminho
+ileri atılıp yoldakileri keser
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+sonraki atış yerin içinden bir yuva KAZAR ve içeriden patlar
+bola de energia reta para a frente: dano e empurrão no 1º rival
+dümdüz enerji topu: ilk rakibe hasar ve geri itme
+machado que vai e volta: fere os rivais na sua frente (até 500)
+gidip gelen balta: önündeki rakipleri yaralar (en fazla 500)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+EZME: yer sarsılır, haritadaki tüm rakipler hasar alır ve sarsılır
+estocada longa na frente (até 380): dano e empurrão
+önüne uzun hamle (en fazla 380): hasar ve geri itme
+rajada de pistolas em TODOS os rivais à vista (até 700)
+görünürdeki TÜM rakiplere tabanca yaylımı (en fazla 700)
+rajada de 6 tiros no rival à vista (até 800)
+görünürdeki rakibe 6'lı seri atış (en fazla 800)
+3 armadilhas de espinhos caem em volta do rival mais perto
+en yakın rakibin etrafına 3 diken tuzağı düşer
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+sonik çığlık: önündeki tüm rakiplere hasar ve geri itme (en fazla 450)
+Poção: +25% de vida e cura veneno
+İksir: +%25 can ve zehri iyileştirir
+Energético: +120 de energia
+Enerji İçeceği: +120 enerji
+Baú: +1 uso de cada ferramenta
+Sandık: her alete +1 kullanım
+Fúria: +40
+Öfke: +40
+ARMADILHA! O baú explodiu
+TUZAK! Sandık patladı
+Escudo: -50% de dano por 2 vezes
+Kalkan: 2 kez -%50 hasar
+Luneta: +1 Mira Guiada
+Dürbün: +1 Güdümlü Nişan
+Arma Surpresa: Fúria de outro animal no próximo tiro
+Sürpriz Silah: sonraki atışta başka bir hayvanın Öfkesi
+Golpe Certeiro: o próximo tiro é CRÍTICO
+İsabetli Darbe: sonraki atış KRİTİK
+Paraquedas: +1 uso
+Paraşüt: +1 kullanım
+Recarga: as 2 habilidades prontas
+Yenileme: 2 yetenek de hazır
+Balança da Justiça: a vida dos times é dividida igual
+Adalet Terazisi: takımların canı eşit bölünür
+Dano em Dobro: o próximo tiro causa 2x
+Çift Hasar: sonraki atış 2x vurur
+Tempo Extra: +15 s na sua próxima vez
+Ek Süre: sonraki sırana +15 sn
+Caixa de Arsenal: +1 de um utilitário
+Cephane Sandığı: +1 yardımcı eşya
+Ai, meu rabo!
+Ay, kuyruğum!
+Astúcia pura!
+Saf kurnazlık!
+O vento me enganou!
+Rüzgar beni kandırdı!
+GRRRAU!
+GRRRAAA!
+Abraço de urso!
+Ayı kucaklaması!
+Cadê o mel?
+Bal nerede?
+Uh-uh! Doeu!
+Hu-hu! Acıdı!
+Previsível.
+Tahmin edilebilir.
+Calculei errado...
+Yanlış hesapladım...
+Tô pegando fogo!
+Yanıyorum!
+Queimou!
+Yandı!
+Esfriou...
+Soğudu...
+Penas pra todo lado!
+Her yer tüy!
+Visão de águia!
+Kartal gözü!
+Vento traiçoeiro!
+Hain rüzgar!
+Nem senti... ai!
+Hiçbir şey hissetmedim... ay!
+ATROPELADO!
+EZİLDİN!
+Mira de rinoceronte...
+Gergedan nişanı...
+Sssocorro!
+İmdatsss!
+Sssó um bote!
+Tek bir ısırıksss!
+Errei o bote...
+Isırığı kaçırdım...
+Meu casco!
+Kabuğum!
+Devagar e sempre!
+Yavaş ama emin!
+Calma, tô mirando...
+Sakin ol, nişan alıyorum...
+Minha lixeira!
+Çöp kutum!
+Achado não é roubado!
+Bulan alır!
+Era pra lá?
+O tarafa mıydı?
+Miau! Seis vidas...
+Miyav! Altı canım kaldı...
+Caiu de pé? Não!
+Dört ayak üstüne mi? Hayır!
+Hmpf. Foi de propósito.
+Hıh. Bilerek yaptım.
+Arranhão de nada!
+Sadece bir çizik!
+Rugido final!
+Son kükreme!
+Grrr... quase!
+Grrr... az kaldı!
+Gelou!
+Dondu!
+Escorregou, hein?
+Kaydın mı?
+Patinei...
+Kaydım...
+UH UH AH AH!
+UU UU AA AA!
+Força bruta!
+Kaba kuvvet!
+Bananas!
+Muzlar!
+Sangue na água!
+Suda kan var!
+Mordida certa!
+Tam ısırık!
+Nadei e morri na praia
+Bunca yüzdüm, kıyıda boğuldum
+Couro duro!
+Kalın deri!
+Abocanhei!
+Hapır!
+Lágrimas de jacaré...
+Timsah gözyaşları...
+Ninguém mexe comigo!
+Kimse bana bulaşamaz!
+Cavei sua cova!
+Mezarını kazdım!
+Terra no olho!
+Gözüme toprak kaçtı!
+Espinhos pra quê?!
+Dikene ne gerek var?!
+Espetado!
+Diken battı!
+Furou...
+Patladı...
+Ecoou na cabeça!
+Kafamda yankılandı!
+Na escuridão!
+Karanlıkta!
+Sonar falhou!
+Sonar bozuldu!
+Ai!
+Ay!
+Essa doeu!
+Bu acıttı!
+Ei!
+Hey!
+Ui ui ui!
+Uy uy uy!
+Tá louco?!
+Deli misin?!
+Toma!
+Al bakalım!
+Um a menos!
+Biri gitti!
+Próximo!
+Sıradaki!
+Vai pra casa!
+Evine git!
+Quase!
+Az kaldı!
+Errei feio...
+Fena ıskaladım...
+Era pra lá!
+O tarafa olacaktı!
+Ninguém viu.
+Kimse görmedi.
+fácil demais
+çok kolay
+socorro!
+imdat!
+boa!
+güzel!
+foi mal!
+pardon!
+pegou fogo!
+yanıyor!
+já era!
+bitti!
+bom jogo!
+iyi oyun!
+na mosca!
+tam isabet!
+acorda!
+uyan!
+que sorte!
+ne şans!
+chorei!
+ağladım!
+vamos!
+hadi!
+respeito!
+saygılar!
+anda logo!
+acele et!
+isso aí!
+işte bu!
+agressivo: empilha Dano +%
+agresif: Hasar +% biriktirir
+preciso: erra menos
+isabetli: az ıskalar
+sorrateiro: some quando apanha
+sinsi: vurulunca kaybolur
+apressado: atira rápido
+aceleci: hızlı atar
+teimoso: nunca se cura
+inatçı: asla iyileşmez
+REAÇÃO EM CADEIA!
+ZİNCİRLEME REAKSİYON!
+BARRIL!
+VARİL!
+BÉÉÉ-BUM!
+MEEE-BUM!
+MINA!
+MAYIN!
+Sentinela destruída!
+Nöbetçi yok edildi!
+pisou nos espinhos
+dikenlere bastı
+mina falhou!
+mayın patlamadı!
+Rastro de fogo no chão!
+Yerde ateş izi!
+queimado no fogo
+ateşte yandı
+abatido pela sentinela
+nöbetçi tarafından vuruldu
+A sentinela de {0} atirou em {1}
+Nöbetçi ({0}) ateş etti: {1}
+Um GALÃO EXPLOSIVO está caindo!
+Bir PATLAYICI VARİL düşüyor!
+Uma MINA está caindo!
+Bir MAYIN düşüyor!
+Uma caixa de suprimento está caindo!
+Bir ikmal sandığı düşüyor!
++{0} {1} (agora {2})
++{0} {1} (şimdi {2})
+{0} pegou {1}
+{0} aldı: {1}
+curado do {0}
+{0} iyileşti
+Arsenal: +1 {0}
+Cephane: +1 {0}
+{0} abriu uma ARMADILHA!
+{0} bir TUZAK açtı!
+BÉÉ!
+MEE!
+TIMES
+TAKIMLAR
+TxT = todos contra todos
+FFA = herkes herkese karşı
+DIFICULDADE DOS BOTS
+BOT ZORLUĞU
+equip. dos bots {0}
+bot ekipmanı {0}
+{0} lutadores, cada um por si
+{0} savaşçı, herkes kendi için
+{0} contra {1}
+{0} vs {1}
+{0} bots
+{0} bot
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+Klavye: oklar yürür ve nişan alır · BOŞLUK basılı tut, bırakınca ateş · J zıpla · P pas · F özel saldırı · V genel görünüm · Esc duraklat
+JOGAR
+OYNA
+Aleatório
+Rastgele
+MAPA
+HARİTA
+FECHADO + TETO
+KAPALI + TAVAN
+FECHADO
+KAPALI
+ABERTO
+AÇIK
+sorteia entre {0}
+{0} arasından seçer
+toque para ver todos
+hepsini görmek için dokun
+MAPAS
+HARİTALAR
+TETO
+TAVAN
+Sorte
+Şans
+Defesa
+Savunma
+Agilidade
+Çeviklik
+PODER {0}
+GÜÇ {0}
+ARMA VERDADEIRA
+GERÇEK SİLAH
+Contra a IA o seu equipamento conta.
+Yapay zekaya karşı ekipmanın geçerli.
+TROCAR
+DEĞİŞTİR
+dano {0}%
+hasar %{0}
+raio {0}%
+yarıçap %{0}
+ humano
+ insan
+A água começa a subir em 3 turnos!
+Su 3 tur sonra yükselmeye başlıyor!
+MORTE SÚBITA: a água subiu!
+ANİ ÖLÜM: su yükseldi!
+MORTE SÚBITA! A água sobe a cada turno
+ANİ ÖLÜM! Su her tur yükseliyor
+O vento VIROU para {0}
+Rüzgar {0} DÖNDÜ
+a direita
+sağa
+a esquerda
+sola
+{0} joga DE NOVO (pouco atraso)!
+{0} TEKRAR oynuyor (az gecikme)!
+Tempo Extra: +15 s nesta vez
+Ek Süre: bu tur +15 sn
+CORAGEM: último do time causa +15% de dano!
+CESARET: takımın sonuncusu +%15 hasar verir!
+{0} está congelado!
+{0} dondu!
+{0} PRONTA! (botão roxo)
+{0} HAZIR! (mor düğme)
+{0} pronta! (botão verde)
+{0} hazır! (yeşil düğme)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+ÖDÜNÇ bir ÖFKEN var: küreye dokun!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+ÖFKE HAZIR! Özel saldırıyı kurmak için küreye dokun
+Rodada {0}: {1} liberado!
+{0}. tur: {1} açıldı!
+{0} passou a vez
+{0} pas geçti
+RÁPIDO! (joga antes)
+HIZLI! (önce oynar)
+pino fora!
+pim çekildi!
+glub glub...
+glu glu...
+DUELO FINAL: {0} x {1}
+SON DÜELLO: {0} x {1}
+DUELO FINAL!
+SON DÜELLO!
+Só falta 1 rival!
+Sadece 1 rakip kaldı!
+Você é o último do time!
+Takımında son kalan sensin!
+PRIMEIRO SANGUE: {0}
+İLK KAN: {0}
+VINGANÇA! {0} vingou {1}
+İNTİKAM! {0}, {1} için intikam aldı
+EM CHAMAS!
+ALEV ALEV!
+IMPARÁVEL!
+DURDURULAMAZ!
+DOMINANDO!
+HÜKMEDİYOR!
+LENDÁRIO!
+EFSANEVİ!
+DIVINO!
+TANRISAL!
+{0}  {1} ({2} abates)
+{0}  {1} ({2} leş)
+FOGO AMIGO: {0} derrubou {1}
+DOST ATEŞİ: {0} → {1}
+Tempo esgotado
+Süre doldu
+PEGOU NO AR!
+HAVADA YAKALANDI!
+{0} causou {1} de dano
+{0}, {1} hasar verdi
+Fúria desarmada
+Öfke iptal edildi
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: öfke %{1} (hasar ver ve al)
+Fúria: {0} — {1}
+Öfke: {0} — {1}
+Lobo
+Kurt
+Aguia
+Kartal
+Ourico
+Kirpi
+Jacare
+Timsah
+Tubarao
+Köpekbalığı
+Coelho
+Tavşan
+Sabio
+Bilge
+Agil
+Çevik
+Forte
+Güçlü
+Lendario
+Efsanevi
+Boneco {0}
+Kukla {0}
+ TxT
+ FFA
+BONECOS
+KUKLALAR
+TIME AZUL
+MAVİ TAKIM
+TIME VERMELHO
+KIRMIZI TAKIM
+OS HUMANOS VENCERAM!
+İNSANLAR KAZANDI!
+OS BOTS VENCERAM
+BOTLAR KAZANDI
+TIME {0} VENCEU!
+{0} TAKIM KAZANDI!
+AZUL
+MAVİ
+VERMELHO
+KIRMIZI
+{0} VENCEU!
+{0} KAZANDI!
+JOGAR DE NOVO
+TEKRAR OYNA
+PRÓXIMA LUTA ({0}/3)
+SONRAKİ MAÇ ({0}/3)
+FIM DO TORNEIO
+TURNUVA BİTTİ
+Cristais dobrados!
+Kristaller ikiye katlandı!
+Cristais x2
+Kristal x2
+XP dobrado!
+XP ikiye katlandı!
+Anúncio indisponível: sem prêmio desta vez
+Reklam yok: bu sefer ödül yok
+ESCOLHA UMA CARTA!
+BİR KART SEÇ!
+vitória! vire uma carta para ganhar um prêmio extra
+zafer! bonus ödül için bir kart çevir
+PASSE O APARELHO
+CİHAZI DEVRET
+Vez de {0}
+Sıra: {0}
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  can {1} / {2}  ·  öfke %{3}
+time {0}
+takım {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+Önceki oyuncu: bakmak yok · süre ancak HAZIRIM'dan sonra başlar
+ESTOU PRONTO
+HAZIRIM
+PAUSA
+DURAKLAT
+DICA {0}/{1}
+İPUCU {0}/{1}
+PULAR DICAS
+İPUÇLARINI ATLA
+ENTENDI
+ANLADIM
+PRÓXIMA
+SONRAKİ
+Jogo local: sem prêmio nem estatística
+Yerel oyun: ödül ve istatistik yok
+TREINO · sem prêmio
+ANTRENMAN · ödül yok
+(NÍVEL {0}!)
+(SEVİYE {0}!)
++{0} cristais
++{0} kristal
++{0} cristais pelo nível
+seviye için +{0} kristal
+TREVO DA SORTE!
+ŞANSLI YONCA!
+BÊNÇÃO DIVINA!
+İLAHİ KUTSAMA!
+PERFEITA +{0}
+KUSURSUZ +{0}
+1ª VITÓRIA DO DIA +{0}
+GÜNÜN 1. ZAFERİ +{0}
+MAPA DO DIA +{0}
+GÜNÜN HARİTASI +{0}
+VOLTA POR CIMA +{0}
+GERİ DÖNÜŞ +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+TURNUVA ŞAMPİYONU! +{0} kristal +3 taş +1 yonca
+RECORDE de tiro: {0}!
+Atış REKORU: {0}!
+RECORDE de dano: {0}!
+Hasar REKORU: {0}!
+NÍVEL {0}!
+SEVİYE {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+SEVİYE {0}  ·  {1} / {2} XP
+missões prontas: {0}
+hazır görevler: {0}
+conquistas para coletar: {0}
+toplanacak başarımlar: {0}
+Novo: {0} disponível!
+Yeni: {0} açıldı!
+faltou {0} m
+{0} m kısa
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+Ok tuşlarıyla YÜRÜ (enerji harcar). Alçak yokuşlara tırmanabilirsin.
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+Yukarı ve aşağı tuşlarıyla AÇIYI DEĞİŞTİR. Ok atış yönünü gösterir.
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+GÜÇ toplamak için BASILI TUT, ateş için BIRAK. Yukarıdaki RÜZGARA bak!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+ALETLER: aynı anda +1, +2 veya 3 Atış'tan sadece BİRİ (3 Atış + +1 = 6 mermilik kombo); Hasar +% her şeyle birleşir (enerji harcar).
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+Hasar vererek ve alarak ÖFKEYİ doldur, sonra küreye dokun: ÖZEL SALDIRI!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+Haritaya 2 kez dokun: tüm alanı gör. Bir hayvana dokun: bilgilerini gör. Yüksekten düşmek can götürür! İyi savaşlar!
+Mire com as setas e SEGURE o botão de ataque para atirar
+Oklarla nişan al, ateş için saldırı düğmesini BASILI TUT
+Acerte um boneco (olhe o VENTO lá em cima)
+Bir kuklayı vur (yukarıdaki RÜZGARA bak)
+Use uma ferramenta da coluna da esquerda
+Sol sütundan bir alet kullan
+Pegue uma caixa (ande até ela ou acerte quando cair)
+Bir sandık al (yanına yürü ya da düşerken vur)
+Feito!
+Tamam!
+Você já sabe o básico!
+Temelleri öğrendin!
+do dia: {0} +50%
+bugün: {0} +%50
+DO DIA +50%
+GÜNLÜK +%50
+{0} vit.
+{0} galibiyet
+1ª partida com dicas
+İpuçlu ilk maç
+boneco de novo!
+yine kukla!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+Patronlu 10 zindan, 4 zorluk ve yıldızlar. Ödüller: kristal, taş, yonca ve kutsama.
+TORNEIO
+TURNUVA
+TREINO
+ANTRENMAN
+Missões
+Görevler
+Conquistas
+Başarımlar
+Compre na tela Animais por {0} cristais
+Hayvanlar ekranından {0} kristale satın al
+VER
+GÖR
+Seu
+Sende
+ESCOLHER
+SEÇ
+COMPRAR {0}
+SATIN AL {0}
+Especial
+Özel saldırı
+{0} vitórias em {1} partidas
+{1} maçta {0} galibiyet
+renovam em {0}h {1}
+{0}sa {1} sonra yenilenir
+complete as 3 para chance de Trevo
+Yonca şansı için 3'ünü de tamamla
+prêmio: +{0} cristais · +1 pedra
+ödül: +{0} kristal · +1 taş
+FEITA
+TAMAM
+COLETAR
+TOPLA
+em andamento
+devam ediyor
+TORNEIO DO DIA
+GÜNLÜK TURNUVA
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+giderek güçlenen botlara karşı art arda 3 maç 1x1 · kaybedersen 1. maçtan başlarsın · ödül için 3'ünü de kazan
+que erra um pouco
+biraz ıskalayan
+que quase não erra
+neredeyse hiç ıskalamayan
+de mira perfeita
+kusursuz nişanlı
+LUTA {0}  ·  {1}
+MAÇ {0}  ·  {1}
+1x1 contra bot {0}
+{0} bota karşı 1x1
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+3'ünü kazanınca ÖDÜL: +{0} kristal  +3 güç taşı  +1 Yonca
+campeão {0} vez(es)
+{0} kez şampiyon
+o prêmio sai 1 vez por dia
+ödül günde 1 kez verilir
+Você já jogou o torneio de hoje - ele volta amanhã!
+Bugünün turnuvasını oynadın - yarın geri gelir!
+Seu animal: {0}  (troque na tela Animais)
+Hayvanın: {0}  (Hayvanlar ekranından değiştir)
+VOLTA AMANHÃ
+YARIN GEL
+COMEÇAR A LUTA 1
+1. MAÇA BAŞLA
+Rever as dicas na próxima partida
+Sonraki maçta ipuçlarını tekrar göster
+ATQ
+SAL
+SOR
+ŞAN
+DEF
+SAV
+AGI
+ÇEV
+PODER DE COMBATE
+SAVAŞ GÜCÜ
+forma normal
+normal form
+FERREIRO
+DEMİRCİ
+ARMEIRO
+CEPHANELİK
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+Her hayvanın KENDİ geliştirmesi var. Başarısızlık sadece taş harcar - eşya asla kötüleşmez.
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+YZ'ye Karşı, Turnuva ve Zindan'da geçerli · Yerel'de herkes eşit · görünüm tüm modlarda geçerli
+{0} no máximo do tier {1} (+12)
+{0}, {1} kademesinde maksimum (+12)
+compre {0} no Armeiro
+{0} Cephanelik'ten al
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+BAŞARI %{0}  ·  BAŞARISIZ %{1}  ·  bedel {2} (sende {3})
++{0}% pelas falhas
+başarısızlıklardan +%{0}
+Trevo ({0})
+Yonca ({0})
+-20% de falha
+-%20 başarısızlık
+Bênção ({0})
+Kutsama ({0})
+nunca falha
+asla başarısız olmaz
+MÁXIMO
+MAKS
+APRIMORAR
+GELİŞTİR
+SUCESSO! +{0}
+BAŞARILI! +{0}
+FALHOU…
+BAŞARISIZ…
++{0}% na próxima pelas falhas
+başarısızlıklardan sonrakine +%{0}
+Faltam pedras: {0}
+Eksik taş: {0}
+custo {0} · tem {1}
+bedel {0} · sende {1}
+{0} {1} usa {2}.
+{0} {1}: {2} kullanır.
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+Taşlar: galibiyetler, kartlar, görevler ve Demirci Sandığı (Cephanelik).
+FORMA máxima: DEUS 3
+Maksimum FORM: TANRI 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+sonraki form için {1} kademesinde {0} eşya eksik (form en düşük kademeli eşyaya göre)
+EQUIPAMENTO
+EKİPMAN
+MATERIAIS
+MALZEMELER
+precisa +12 (está +{0})
++12 gerekli (şu an +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+Önce Demirci'de +12'ye çıkar
+NOVA FORMA: {0}!
+YENİ FORM: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+Kademe sadece eşya +12'deyken değişir. Yeni kademe +0'dan başlar ve kendi taşıyla gelişir. 4'ü aynı kademede olunca form değişir.
+ESTATÍSTICAS
+İSTATİSTİKLER
+GERAL
+GENEL
+CARREIRA
+KARİYER
+Partidas
+Maçlar
+Vitórias
+Galibiyetler
+Melhor sequência
+En iyi seri
+Abates
+Leşler
+Dano total
+Toplam hasar
+Maior dano num tiro
+Tek atışta en büyük hasar
+Tiros
+Atışlar
+Precisão
+İsabet
+Animal favorito
+Favori hayvan
+Vitórias perfeitas
+Kusursuz galibiyetler
+Mais dano numa partida
+Bir maçta en çok hasar
+Tiros longos · vinganças
+Uzun atışlar · intikamlar
+Partidas hoje
+Bugünkü maçlar
+Fúrias
+Öfkeler
+Caixas
+Sandıklar
+Ferramentas
+Aletler
+Suporte
+Destek
+Quedas
+Düşüşler
+Tiros rápidos
+Hızlı atışlar
+Multi-acertos
+Çoklu vuruşlar
+Críticos
+Kritikler
+NA MOSCA
+TAM İSABET
+Passou
+Paslar
+Habilidades
+Yetenekler
+Torneios vencidos
+Kazanılan turnuvalar
+Nível
+Seviye
+Liga
+Lig
+CONQUISTAS {0}/{1}
+BAŞARIMLAR {0}/{1}
+COLETAR TODAS ({0})
+HEPSİNİ TOPLA ({0})
+{0} conquistas: +{1} cristais
+{0} başarım: +{1} kristal
+(masmorra)
+(zindan)
+toque: +{0} cristais
+dokun: +{0} kristal
+página {0}/{1}
+sayfa {0}/{1}
+Bronze
+Bronz
+Prata
+Gümüş
+Ouro
+Altın
+Platina
+Platin
+Diamante
+Elmas
+HUMANOS × BOTS
+İNSANLAR × BOTLAR
+cada um por si (+ bots, se quiser)
+herkes kendi için (+ istersen botlar)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (botlar tamamlar)
+todos juntos contra o PC
+hep birlikte bilgisayara karşı
+Jogador {0}
+Oyuncu {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKLŞZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+Herkes sırası gelince oynar ve cihazı devreder  ·  herkese EŞİT özellikler  ·  ödül ve sıralama yok
+JOGADORES
+OYUNCULAR
+TAMANHO
+BOYUT
+BOTS EXTRAS
+EK BOTLAR
+BOTS
+BOTLAR
+DIFICULDADE
+ZORLUK
+sem bots
+botsuz
+Toque no NOME para trocar e no ANIMAL para escolher
+Değiştirmek için İSME, seçmek için HAYVANA dokun
+no TIME para mudar de lado
+taraf değiştirmek için TAKIMA
+pode repetir animal
+aynı hayvan seçilebilir
+Mapa aleatório
+Rastgele harita
+{0} TODOS CONTRA TODOS
+{0} FFA
+{0} HUMANOS × {1} BOTS
+{0} İNSAN × {1} BOT
+{0} no aparelho
+cihazda {0}
+COMEÇAR
+BAŞLA
+NOME DO JOGADOR {0}  (até 12 letras)
+OYUNCU {0} ADI  (en fazla 12 harf)
+vazio = Jogador {0}
+boş = Oyuncu {0}
+APAGAR
+SİL
+ESPAÇO
+BOŞLUK
+Animal de {0}
+Hayvan: {0}
+Compre mais animais na tela ANIMAIS
+HAYVANLAR ekranından daha fazla hayvan al
++dano dos tiros
++atış hasarı
++chance de crítico
++kritik şansı
+-dano recebido
+-alınan hasar
++energia e joga antes
++enerji ve önce oynar
+Pedra de força
+Güç taşı
+Pedra de ferro
+Demir taşı
+Pedra de aço
+Çelik taşı
+Pedra mítica
+Mitik taş
+Pedra lendária
+Efsanevi taş
+5 Pedras de Força
+5 Güç Taşı
+20 Pedras de Força
+20 Güç Taşı
+Baú do Ferreiro
+Demirci Sandığı
+aprimora itens de MADEIRA no Ferreiro
+Demirci'de AHŞAP eşyaları geliştirir
+pacote grande: 4 pedras de brinde
+büyük paket: 4 hediye taş
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+AYNI türden 3 ila 6 taş, rastgele (Güç %60 · Demir %25 · Çelik %10 · Mitik %4 · Efsanevi %1) · Yonca (%5) ve Kutsama (%0,5) şansı
++5 pedras de força
++5 güç taşı
++20 pedras de força
++20 güç taşı
+BÊNÇÃO!
+KUTSAMA!
+TREVO!
+YONCA!
+Vença {0} partidas
+{0} maç kazan
+Cause {0} de dano
+{0} hasar ver
+Acerte {0} tiros
+{0} atış isabet ettir
+Use a Fúria {0} vezes
+Öfkeyi {0} kez kullan
+Pegue {0} caixas de suprimento
+{0} ikmal sandığı al
+Derrote {0} inimigos
+{0} düşman yen
+Vença {0} masmorra
+{0} zindan geç
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+3 Atış/+1/+2/Hasar+% {0} kez kullan
+Derrube rivais de muito alto {0} vezes
+Rakipleri {0} kez çok yüksekten düşür
+Consiga {0} vitória perfeita
+{0} kusursuz galibiyet al
+Faça {0} tiros rápidos (<5 s)
+{0} hızlı atış yap (<5 sn)
+Acerte 2+ rivais num só tiro {0} vezes
+Tek atışta 2+ rakibi {0} kez vur
+Acerte {0} tiros longos
+{0} uzun atış isabet ettir
+Vença {0} vez no mapa do dia
+Günün haritasında {0} kez kazan
+Jogue {0} partidas
+{0} maç oyna
+Vença {0} partidas em time (2x2+)
+{0} takım maçı kazan (2x2+)
+Faça {0} vingança
+{0} intikam al
+Cause 600+ de dano em {0} partida
+{0} maçta 600+ hasar ver
+Use o PASSAR {0} vezes
+PAS'ı {0} kez kullan
+Acerte {0} críticos
+{0} kritik vuruş yap
+Derrote {0} monstros na masmorra
+Zindanda {0} canavar yen
+Vença {0} partida no Todos x Todos
+FFA'da {0} maç kazan
+Vença {0} partida no Difícil+
+Zor+ seviyede {0} maç kazan
+Jogue {0} partida online
+{0} çevrimiçi maç oyna
+Cause {0} de dano na masmorra
+Zindanda {0} hasar ver
+Acerte {0} tiros NA MOSCA
+{0} TAM İSABET atış yap
+Use {0} ferramentas do Arsenal
+{0} Cephane aleti kullan
+Use {0} itens de suporte
+{0} destek eşyası kullan
+Use {0} habilidades
+{0} yetenek kullan
+Coloque {0} vigas
+{0} kiriş yerleştir
+Primeiro sangue
+İlk Kan
+Veterano
+Kıdemli
+Lenda da Arena
+Arena Efsanesi
+Atirador
+Nişancı
+Demolidor
+Yıkıcı
+Tiro perfeito
+Kusursuz Atış
+Invicto
+Yenilmez
+Exterminador
+Yok Edici
+Caçador de chefes
+Patron Avcısı
+Conquistador
+Fatih
+Ferreiro mestre
+Usta Demirci
+Nível 20
+Seviye 20
+Centenário
+Yüzbaşı
+Imperador
+İmparator
+Olho de águia
+Kartal Gözü
+Apocalipse
+Kıyamet
+Golpe divino
+İlahi Darbe
+Imparável
+Durdurulamaz
+Ceifador
+Azrail
+Perfeccionista
+Mükemmeliyetçi
+Franco-atirador
+Keskin Nişancı
+Vingador
+İntikamcı
+Mestre do modo
+Mod Ustası
+Colecionador
+Koleksiyoncu
+Maratonista
+Maratoncu
+Imortal
+Ölümsüz
+Atirador de elite
+Elit Nişancı
+Destruidor
+Yok Eden
+Golpe lendário
+Efsanevi Darbe
+Exterminador supremo
+Yüce Yok Edici
+Sempre perfeito
+Hep Kusursuz
+Explorador
+Kaşif
+Domador
+Terbiyeci
+Lenda das masmorras
+Zindan Efsanesi
+Campeão do torneio
+Turnuva Şampiyonu
+Rei do mapa do dia
+Günün Haritası Kralı
+Desbravador
+Öncü
+Senhor das masmorras
+Zindan Lordu
+Naturalista
+Doğabilimci
+Enciclopédia
+Ansiklopedi
+Rei da Fúria
+Öfke Kralı
+Caçador de caixas
+Sandık Avcısı
+Mestre das ferramentas
+Alet Ustası
+Derrubador
+Devirici
+Chuva de golpes
+Darbe Yağmuru
+Estrategista
+Stratejist
+Golpe crítico
+Kritik Darbe
+Desarmador
+Bomba İmhacı
+Quebra-aço
+Çelik Kıran
+Exorcista
+Şeytan Kovucu
+Guardião do céu
+Gök Muhafızı
+Quebra-gelo
+Buz Kıran
+Caça-piratas
+Korsan Avcısı
+Ás dos céus
+Gökyüzü Ası
+Fim do caos
+Kaosun Sonu
+Matador de dragões
+Ejderha Avcısı
+Senhor do vazio
+Boşluğun Efendisi
+Mestre das habilidades
+Yetenek Ustası
+Engenheiro
+Mühendis
+Constelação
+Takımyıldız
+Céu estrelado
+Yıldızlı Gök
+Escavador
+Kazıcı
+Piloto
+Pilot
+Pirotécnico
+Havai Fişekçi
+Pastor
+Çoban
+Granadeiro
+Bombacı
+Chuva de granadas
+Bomba Yağmuru
+Sapador
+İstihkamcı
+Piloto de caça
+Savaş Pilotu
+Britador
+Matkapçı
+Vença 1 partida
+1 maç kazan
+Jogue 50 partidas
+50 maç oyna
+Vença 100 partidas
+100 maç kazan
+Acerte 200 tiros
+200 atış isabet ettir
+Cause 50.000 de dano
+50.000 hasar ver
+Cause 800 de dano num só tiro
+Tek atışta 800 hasar ver
+Vença 5 seguidas
+Üst üste 5 kazan
+Derrote 100 inimigos
+100 düşman yen
+Vença a 1ª masmorra
+1. zindanı geç
+Vença as 4 masmorras
+4 zindanın hepsini geç
+Aprimore um item até +10
+Bir eşyayı +10'a geliştir
+Chegue ao nível 20
+20. seviyeye ulaş
+Jogue 200 partidas
+200 maç oyna
+Vença 300 partidas
+300 maç kazan
+Acerte 1000 tiros
+1000 atış isabet ettir
+Cause 250.000 de dano
+250.000 hasar ver
+Cause 1200 num só tiro
+Tek atışta 1200 ver
+Vença 10 seguidas
+Üst üste 10 kazan
+Derrote 500 inimigos
+500 düşman yen
+10 vitórias perfeitas
+10 kusursuz galibiyet
+50 tiros longos
+50 uzun atış
+20 vinganças
+20 intikam
+Chegue ao nível 40
+40. seviyeye ulaş
+Vença com 10 animais diferentes
+10 farklı hayvanla kazan
+Jogue 500 partidas
+500 maç oyna
+Vença 20 seguidas
+Üst üste 20 kazan
+Acerte 3000 tiros
+3000 atış isabet ettir
+Cause 1.000.000 de dano
+1.000.000 hasar ver
+Cause 1500 num só tiro
+Tek atışta 1500 ver
+Derrote 1500 inimigos
+1500 düşman yen
+50 vitórias perfeitas
+50 kusursuz galibiyet
+Vença em 10 mapas diferentes
+10 farklı haritada kazan
+Vença com 18 animais diferentes
+18 farklı hayvanla kazan
+Vença uma masmorra no Lendário
+Efsanevi'de bir zindan geç
+Vença o Torneio do Dia
+Günlük Turnuvayı kazan
+Vença 10 vezes no mapa do dia
+Günün haritasında 10 kez kazan
+Vença 6 masmorras diferentes
+6 farklı zindan geç
+Vença as 10 masmorras
+10 zindanın hepsini geç
+Descubra 15 monstros no bestiário
+Canavar ansiklopedisinde 15 canavar keşfet
+Descubra todos os monstros
+Tüm canavarları keşfet
+Use a Fúria 100 vezes
+Öfkeyi 100 kez kullan
+Pegue 100 caixas
+100 sandık al
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+3 Atış/+1/+2/Hasar+% 500 kez kullan
+Derrube 50 rivais de muito alto
+50 rakibi çok yüksekten düşür
+Faça 100 tiros rápidos (<5 s)
+100 hızlı atış yap (<5 sn)
+Acerte 2+ rivais num tiro 50 vezes
+Tek atışta 2+ rakibi 50 kez vur
+Use o PASSAR 50 vezes
+PAS'ı 50 kez kullan
+Acerte 200 críticos
+200 kritik vuruş yap
+Vença o Ninho das Bombas
+Bomba Yuvası'nı geç
+Vença a Fortaleza de Aço
+Çelik Kale'yi geç
+Vença o Templo Sombrio
+Karanlık Tapınak'ı geç
+Vença o Santuário Celeste
+Göksel Sığınak'ı geç
+Vença o Pico Congelado
+Donmuş Zirve'yi geç
+Vença o Estaleiro Pirata
+Korsan Tersanesi'ni geç
+Vença o Céu de Guerra
+Savaş Göğü'nü geç
+Vença o Trono do Caos
+Kaos Tahtı'nı geç
+Vença o Covil do Dragão
+Ejderha İni'ni geç
+Vença o Trono do Vazio
+Boşluk Tahtı'nı geç
+Use 100 habilidades
+100 yetenek kullan
+Coloque 50 vigas
+50 kiriş yerleştir
+Tire 3 estrelas numa masmorra
+Bir zindanda 3 yıldız al
+Junte 30 estrelas nas masmorras
+Zindanlarda 30 yıldız topla
+Cave 20 túneis/poços
+20 tünel/kuyu kaz
+Voe de jetpack 15 vezes
+15 kez jetpack ile uç
+Use a corda ninja 15 vezes
+Ninja ipini 15 kez kullan
+Exploda 15 dinamites
+15 dinamit patlat
+Solte 15 ovelhas
+15 koyun sal
+Arremesse 30 granadas
+30 el bombası at
+Use 8 cachos de granadas
+8 misket bombası kullan
+Plante 15 minas
+15 mayın yerleştir
+Chame 6 ataques aéreos
+6 hava saldırısı çağır
+Use a Britadeira 10 vezes
+Matkabı 10 kez kullan
++1 Trevo
++1 Yonca
+TREVO
+YONCA
+BÊNÇÃO
+KUTSAMA
+FERRO
+DEMİR
+AÇO
+ÇELİK
+MÍTICA
+MİTİK
+LENDÁRIA
+EFSANEVİ
+INIMIGOS
+DÜŞMANLAR
+ELITE
+ELİT
+CHEFE
+BOSS
+Sair agora encerra a masmorra sem prêmio.
+Şimdi çıkarsan zindan ödülsüz biter.
+chefe derrotado
+boss yenildi
+parou no chefe
+boss'ta kaldı
+onda {0}/2
+dalga {0}/2
+venceu
+kazandın
+sem baixas
+kayıpsız
+teve baixa
+kayıp verdin
+não
+değil
+até {0} turnos
+{0} tur içinde
+3 estrelas pela 1ª vez: +{0} cristais
+İlk kez 3 yıldız: +{0} kristal
+novo recorde de estrelas!
+yeni yıldız rekoru!
+PONTO FRACO!
+ZAYIF NOKTA!
+BLOQUEADO - acerte de cima
+ENGELLENDİ - yukarıdan vur
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+2. FORM: Tank, TANK TAŞIYICIYA dönüştü!
+restam {0}
+{0} kaldı
+ONDA {0}/2
+DALGA {0}/2
+avança...
+ilerliyor...
+arremessa...
+fırlatıyor...
+cura...
+iyileştiriyor...
+ataca...
+saldırıyor...
+chama os lacaios...
+uşakları çağırıyor...
+está mirando...
+nişan alıyor...
+enfurecido
+öfkeli
+defesa {0}  (leva -{1}%)
+savunma {0}  (-{1}% hasar alır)
+ELITE: +50% vida, +20% dano · 
+ELİT: +%50 can, +%20 hasar · 
+ENFURECIDO: +20% dano · 
+ÖFKELİ: +%20 hasar · 
+anda até você e bate de perto{0}
+yanına gelip yakından vurur{0}
+ (explode!)
+ (patlar!)
+cura os aliados - derrube primeiro
+müttefikleri iyileştirir - önce onu indir
+atira de longe
+uzaktan ateş eder
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+DALGA {0} GEÇİLDİ · {1} leş · {2} hasar · +{3} can
+NOVO no bestiário: {0}
+Bestiyerde YENİ: {0}
+Onda {0}: 
+Dalga {0}: 
+ONDA {0} de 2: {1} inimigos!
+DALGA {0}/2: {1} düşman!
+({0} elite)
+({0} elit)
+ONDA {0} DE 2 - {1} INIMIGOS
+DALGA {0}/2 - {1} DÜŞMAN
+OS SENHORES DO CAOS!
+KAOS EFENDİLERİ!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+BÜYÜCÜ ve ŞÖVALYE birlikte! Diğerini iyileştirmeden önce Büyücüyü indir
+CHEFE: {0}
+BOSS: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+KADİM EJDERHA uyandı! Her 3 turda atış yakar, her 4 turda ateş yağar
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+BOŞLUK KRALI geldi! Her 3 turda zırh ve ELİT uşak çağırır
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+BUZ LORDU geldi! Her 3 turda atışı dondurur
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+ZIRHLI GEMİ geldi! Aynı anda 3 gülle atar - dağılın
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+DEV ZEPLİN geldi! Her 4 turda herkesi bombalar
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+DEV TANK geldi! Kalkan sadece YUKARIDAN düşen atışlara yenilir
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+KARANLIK BÜYÜCÜ geldi! Önce şifacıları öldür
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+KARA ŞÖVALYE geldi! Zırhı düşünce saldır
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+BOMBA KRAL geldi! KAFAYA nişan al (zayıf nokta)
+cura
+iyileştirme
+Ritual de cura!
+Şifa ayini!
+Lacaios, ataquem!
+Uşaklar, saldırın!
+{0} ENFURECEU! (+20% de dano)
+{0} ÖFKELENDİ! (+%20 hasar)
+O CHEFE ENFURECEU!
+BOSS ÖFKELENDİ!
+ARMADURA NEGRA!
+KARA ZIRH!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+Şövalye zırhını kuşandı (2 tur -%50)
+NEVASCA!
+TİPİ!
+CHUVA DE FOGO!
+ATEŞ YAĞMURU!
+BOMBARDEIO!
+BOMBARDIMAN!
+FURIOSO!
+ÖFKELİ!
+bravo
+kızgın
+CHEFE  ·  {0}
+BOSS  ·  {0}
+{0} de vida
+{0} can
+toque para pular
+geçmek için dokun
+o tempo acabou
+süre doldu
+Faltam 5 turnos: {0} vai desabar!
+5 tur kaldı: {0} çökmek üzere!
+ELITE derrotado por {0} (+20 de fúria)
+ELİT {0} tarafından yenildi (+20 öfke)
+{0} deixou cair uma caixa!
+{0} bir sandık düşürdü!
+fugiu!
+kaçtı!
+{0} caiu! Os lacaios fugiram!
+{0} düştü! Uşaklar kaçtı!
+Bombinha
+Minik Bomba
+Lança-Bombas
+Bomba Atıcı
+Brutamontes
+Kaba Dev
+REI BOMBA
+BOMBA KRAL
+Blindado
+Zırhlı
+TANQUE COLOSSAL
+DEV TANK
+Bandido
+Haydut
+Curandeiro
+Şifacı
+FEITICEIRO SOMBRIO
+KARANLIK BÜYÜCÜ
+Mago
+Büyücü
+Bárbaro
+Barbar
+Motosserra
+Testere
+CAVALEIRO SOMBRIO
+KARA ŞÖVALYE
+Lenhador
+Oduncu
+Ninja do Gelo
+Buz Ninjası
+LORDE DO GELO
+BUZ LORDU
+Gladiador
+Gladyatör
+Tanque Pirata
+Korsan Tankı
+Caminhão Viking
+Viking Kamyonu
+ENCOURAÇADO PIRATA
+KORSAN ZIRHLISI
+Dirigível
+Zeplin
+Caça
+Avcı Uçağı
+Encapuzada
+Kukuletalı
+DIRIGÍVEL COLOSSAL
+DEV ZEPLİN
+Sombra Veloz
+Hızlı Gölge
+DRAGÃO ANCESTRAL
+KADİM EJDERHA
+REI DO VAZIO
+BOŞLUK KRALI
+anda até você e EXPLODE
+yanına gelip PATLAR
+atira bombas de longe
+uzaktan bomba atar
+lento, muito resistente
+yavaş, çok dayanıklı
+ponto fraco na cabeça · invoca lacaios
+zayıf nokta kafada · uşak çağırır
+corre e ataca de perto
+koşar ve yakından saldırır
+blindado: aguenta muito
+zırhlı: çok dayanır
+barreira: acerte DE CIMA · 2ª forma
+kalkan: YUKARIDAN vur · 2. form
+pedra viva: forte de perto
+canlı kaya: yakında güçlü
+se cura · tiros envenenam
+kendini iyileştirir · atışları zehirler
+magia de longe
+uzaktan büyü
+REGENERA a cada vez
+her turda YENİLENİR
+serra de perto, dano alto
+yakından testere, yüksek hasar
+ARMADURA a cada 3 vezes · chama magos
+her 3 turda ZIRH · büyücü çağırır
+machado de perto, resistente
+yakından balta, dayanıklı
+atira estrelas de longe
+uzaktan yıldız fırlatır
+a cada 3 vezes o tiro CONGELA
+her 3 turda atış DONDURUR
+corre e golpeia de perto
+koşar ve yakından vurur
+canhão de longe, blindado
+uzaktan top, zırhlı
+avança e atropela de perto
+ilerler ve yakından ezer
+sempre atira 3 balas de canhão
+hep 3 top güllesi atar
+bombardeia do alto
+yukarıdan bombalar
+rápido, atira de longe
+hızlı, uzaktan ateş eder
+cura os aliados · derrube primeiro
+müttefikleri iyileştirir · önce onu indir
+a cada 4 vezes BOMBARDEIA todo mundo
+her 4 turda herkesi BOMBALAR
+muito rápida, ataca de perto
+çok hızlı, yakından saldırır
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+her 3 turda atış yakar · her 4 turda ATEŞ YAĞMURU
+armadura a cada 3 · veneno · chama ELITE
+her 3 turda zırh · zehir · ELİT çağırır
+NINHO DAS BOMBAS
+BOMBA YUVASI
+FORTALEZA DE AÇO
+ÇELİK KALE
+TEMPLO SOMBRIO
+KARANLIK TAPINAK
+SANTUÁRIO CELESTE
+GÖK TAPINAĞI
+PICO CONGELADO
+DONMUŞ ZİRVE
+ESTALEIRO PIRATA
+KORSAN TERSANESİ
+CÉU DE GUERRA
+SAVAŞ GÖKYÜZÜ
+TRONO DO CAOS
+KAOS TAHTI
+COVIL DO DRAGÃO
+EJDERHA İNİ
+TRONO DO VAZIO
+BOŞLUK TAHTI
+Ondas: Bombinhas que explodem, Lança-Bombas
+Dalgalar: patlayan Minik Bombalar, Bomba Atıcılar
+e Brutamontes. Chefe: REI BOMBA
+ve Kaba Devler. Boss: BOMBA KRAL
+Ondas: Vikings, Blindados e Lança-Bombas.
+Dalgalar: Vikingler, Zırhlılar ve Bomba Atıcılar.
+Chefe: TANQUE COLOSSAL
+Boss: DEV TANK
+barreira: acerte DE CIMA · tem 2ª forma
+kalkan: YUKARIDAN vur · 2. formu var
+Ondas: Bandidos, Golens e Curandeiros.
+Dalgalar: Haydutlar, Golemler ve Şifacılar.
+Chefe: FEITICEIRO SOMBRIO
+Boss: KARANLIK BÜYÜCÜ
+se cura (mate os curandeiros) · veneno
+kendini iyileştirir (şifacıları öldür) · zehir
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+Dalgalar: Büyücüler, Barbarlar (yenilenir) ve Testereler.
+Chefe: CAVALEIRO SOMBRIO
+Boss: KARA ŞÖVALYE
+armadura a cada 3 vezes · chama magos
+her 3 turda zırh · büyücü çağırır
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+Dalgalar: Oduncular ve Buz Ninjaları. ÇELİK taşı
+Chefe: LORDE DO GELO
+Boss: BUZ LORDU
+a cada 3 vezes o tiro dele CONGELA
+her 3 turda atışı DONDURUR
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+Dalgalar: Gladyatörler, Kamyonlar ve Tanklar. ÇELİK taşı
+Chefe: ENCOURAÇADO PIRATA
+Boss: KORSAN ZIRHLISI
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+Dalgalar: Avcı Uçakları, Zeplinler ve Kukuletalılar (iyileştirir). EFSANEVİ
+Chefe: DIRIGÍVEL COLOSSAL
+Boss: DEV ZEPLİN
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+Dalgalar: Hızlı Gölgeler ve Gladyatörler. EFSANEVİ taş
+Chefes: FEITICEIRO + CAVALEIRO juntos
+Bosslar: BÜYÜCÜ + ŞÖVALYE birlikte
+dois chefes: cura, veneno e armadura
+iki boss: şifa, zehir ve zırh
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+Dalgalar: Barbarlar, Gladyatörler ve Ninjalar. EFSANE
+Chefe: DRAGÃO ANCESTRAL
+Boss: KADİM EJDERHA
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+Dalgalar: Gölgeler, Büyücüler ve Kukuletalılar. EFSANE
+Chefe: REI DO VAZIO
+Boss: BOŞLUK KRALI
+Bênção da Força: +10% de dano
+Güç Lütfu: +%10 hasar
+Bênção da Fúria: começa com 25 de fúria
+Öfke Lütfu: 25 öfkeyle başlar
+Bênção do Arsenal: +1 uso de cada ferramenta
+Cephanelik Lütfu: her alete +1 kullanım
+Bênção da Pedra: -15% de dano recebido
+Taş Lütfu: -%15 alınan hasar
+Bênção da Vida: +20% de vida
+Hayat Lütfu: +%20 can
+Bênção da Sorte: +8% de chance de crítico
+Şans Lütfu: +%8 kritik şansı
+Bênção do Guia: +2 usos da mira guiada
+Rehber Lütfu: +2 güdümlü nişan
+Bênção do Escudo: começa com escudo
+Kalkan Lütfu: kalkanla başlar
+ e 
+ ve 
+Vença os 2 anteriores{0}
+Önceki 2'yi geç{0}
+ainda não jogou
+henüz oynanmadı
+chegou ao chefe
+boss'a ulaştı
+onda {0}
+dalga {0}
+Recorde: {0}
+Rekor: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+Ödül: {0} kristal · {1} {2}-{3}
+chance de Trevo e Bênção
+Yonca ve Lütuf şansı
+DIFICULDADE DOS MONSTROS
+CANAVAR ZORLUĞU
+EQUIPE: só jogadores (sem bots)
+TAKIM: sadece oyuncular (bot yok)
+Aqui você entra SOZINHO.
+Buraya YALNIZ girersin.
+Lendário: vença as 4 primeiras masmorras
+Efsane: ilk 4 zindanı geç
+Monstros
+Canavarlar
+ENTRAR NA MASMORRA
+ZİNDANA GİR
+BLOQUEADA
+KİLİTLİ
+MONSTROS DAS MASMORRAS · {0} / {1}
+ZİNDAN CANAVARLARI · {0} / {1}
+vida {0}   defesa {1}
+can {0}   savunma {1}
+Enfrente-o numa masmorra para revelar
+Görmek için bir zindanda onunla yüzleş
+masmorra
+zindan
+Masmorras
+Zindanlar
+Bestiário
+Bestiyer
+VISUAL
+GÖRÜNÜM
+EM USO
+KULLANIMDA
+toque para usar
+kullanmak için dokun
+Rastro {0}!
+İz {0}!
+Clássico
+Klasik
+Fogo
+Ateş
+Arco-íris
+Gökkuşağı
+Veneno
+Zehir
+Sombra
+Gölge
+Chiclete
+Sakız
+PRESENTE DIÁRIO
+GÜNLÜK HEDİYE
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+Her gün gel: ödül büyür. Bir gün kaçırırsan 1. günden başlar.
+DIA {0}
+GÜN {0}
+COLETAR DIA {0}
+GÜN {0} AL
+volte amanhã
+yarın gel
+{0} cristais
+{0} kristal
+2 pedras do seu nível
+seviyene göre 2 taş
+1 Trevo
+1 Yonca
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} kristal + seviyene göre 3 taş + Lütuf şansı
+Dia {0}: {1}
+Gün {0}: {1}
+10 masmorras · monstros e chefes
+10 zindan · canavarlar ve bosslar
+você contra os bots · 1x1 a 4x4
+botlara karşı · 1x1 ile 4x4
+2 a 8 no mesmo aparelho
+aynı cihazda 2-8 kişi
+cada um por si
+herkes kendi için
+monte os times como quiser: 1x3, 2x4...
+takımları istediğin gibi kur: 1x3, 2x4...
+LUTADORES  {0}/{1}
+SAVAŞÇILAR  {0}/{1}
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+Seçmek için HAYVANA, kontrol edeni değiştirmek için İSME dokun (oyuncu ya da bot)
+animal sorteado
+rastgele hayvan
+jogador {0}
+oyuncu {0}
+JOGADORES NO APARELHO
+CİHAZDAKİ OYUNCULAR
+bots com o mesmo nível e força do jogador
+botlar oyuncuyla aynı seviye ve güçte
+bots mais fortes que o jogador
+botlar oyuncudan güçlü
+{0} não controla nenhum animal
+{0} hiçbir hayvanı kontrol etmiyor
+Sorteado
+Rastgele
+TIME VERDE
+YEŞİL TAKIM
+TIME AMARELO
+SARI TAKIM
+TIME
+TAKIM
+OUTROS TIMES
+DİĞER TAKIMLAR
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+Tüm oyuncular başka takımlarda - + BOT kullan ya da bir isme dokun
+{0} mudou de time com todos os seus animais
+{0} tüm hayvanlarıyla takım değiştirdi
+{0} já está no {1}
+{0} zaten {1} içinde
+na próxima vez
+sonraki turda
+PADRÃO
+VARSAYILAN
+SOMBRIA
+GÖLGE
+JADE
+YEŞİM
+BRASA
+KOR
+CÓSMICA
+KOZMİK
+Skin
+Kostüm
+SKINS
+KOSTÜMLER
+Skins
+Kostümler
+Em uso
+Kullanımda
+Usar
+Kullan
+OK
+TAMAM
+Derrote {0} inimigos com este animal
+Bu hayvanla {0} düşman yen
+Vença {0} partidas com este animal
+Bu hayvanla {0} maç kazan
+Vença a masmorra {0} no Normal (ou mais) com este animal
+Bu hayvanla {0} zindanını Normal (veya üstü) seviyede geç
+Acerte {0} tiros NA MOSCA com este animal
+Bu hayvanla {0} TAM İSABET atış yap
+Cause {0} de dano num só tiro com este animal
+Bu hayvanla tek atışta {0} hasar ver
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+Bu hayvanla Yapay Zekâya karşı Zor veya Efsanevi'de {0} maç kazan
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+Bu hayvanla {0} zindanını Zor (veya üstü) seviyede geç
+Cumpra a missão para liberar a compra
+Satın almak için görevi tamamla
+Compre o animal para usar skins
+Kostüm için hayvanı satın al
+Liberada!
+Açıldı!
+Skin {0} comprada!
+{0} kostümü alındı!
+Não foi possível comprar
+Satın alınamadı
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+Kostüm maçlarda görünür ve ekipman biçimiyle birleşir. Botlar da kostüm kullanır.
+Skin liberada: {0} {1}!
+Kostüm açıldı: {0} {1}!
+Compre na tela Skins por {0} cristais
+Kostümler ekranında {0} kristale al
+SEU NOME  (3 a {0} letras ou números)
+ADIN  (3-{0} harf veya rakam)
+SORTEAR
+RASTGELE
+LIMPAR
+TEMİZLE
+Use pelo menos 3 letras ou números
+En az 3 harf veya rakam kullan
+Nome não permitido - escolha outro
+Bu isme izin yok - başka seç
+Seu animal: {0}  (troque nas setas)
+Hayvanın: {0}  (oklarla değiştir)
+Pets
+Evcil Hayvanlar
+Equipado
+Takılı
+EQUIPAR
+TAK
+TIRAR
+ÇIKAR
+Buff
+Bonus
+Pet: {0}
+Evcil: {0}
+Sem pet
+Evcil yok
+toque para escolher um pet
+evcil seçmek için dokun
+Pets a partir do nível {0}
+Evciller {0}. seviyeden itibaren
+só visual no treino
+antrenmanda sadece görünüş
+Liberado no nível {0}
+{0}. seviyede açıldı
+Libera no nível {0}
+{0}. seviyede açılır
+Truques (na partida, toque no pet):
+Numaralar (maçta evcil hayvana dokun):
+{0} é seu!
+{0} artık senin!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+Aynı anda bir evcil. Bonus Yapay Zekâya Karşı, Zindan ve Turnuvada geçerli (antrenmanda sadece görünür). Yerel maçta geçmez.
+Novo pet disponível!
+Yeni evcil hayvan!
+Compre na tela Pets por {0} cristais
+Evciller ekranında {0} kristale al
+ESCOLHA MAIS 2 CARTAS!
+2 KART DAHA SEÇ!
+vídeo assistido: vire mais 2 cartas!
+video izlendi: 2 kart daha çevir!
++2 CARTAS (vídeo)
++2 KART (video)
+XP x2 (vídeo)
+XP x2 (video)
+XP x2 ativo
+XP x2 aktif
+sem vídeo
+video yok
+Pinguinzinho
+Minik Penguen
+Corujinha
+Minik Baykuş
+Patinho
+Ördek Yavrusu
+Tartaruguinha
+Minik Kaplumbağa
+Esquilinho
+Minik Sincap
+Tartaruga azul
+Mavi Kaplumbağa
+Gatinho
+Kedi Yavrusu
+Coelhinho
+Tavşancık
+Raposinha
+Minik Tilki
+Porquinho cinza
+Gri Domuzcuk
+Porquinho
+Domuzcuk
+Cachorrinho
+Köpek Yavrusu
+Pandinha
+Minik Panda
+Ursinho
+Ayıcık
+Unicórnio
+Tek Boynuzlu At
+Raposa-fênix
+Anka Tilki
+Dragão Negro
+Kara Ejderha
+Dragãozinho
+Yavru Ejderha
+Sentar
+Otur
+Rolar
+Yuvarlan
+Mortal
+Ters Takla
+Dançar
+Dans
+Pulo de Alegria
+Sevinç Zıplaması
+-30% de efeito do vento nos seus tiros
+Atışlarında rüzgâr etkisi -%30
++10% de chance de crítico
+Kritik şansı +%10
++15% de dano em alvos a mais de 60 m
+60 m'den uzak hedeflere hasar +%15
+-35% de empurrão das explosões
+Patlamaların itmesi -%35
+Sem dano de queda
+Düşme hasarı yok
++1 Mira guiada por partida
+Maç başına +1 Güdümlü Nişan
+-50% de dano de fogo e veneno
+Ateş ve zehir hasarı -%50
+Crítico causa x1,8 (normal x1,5)
+Kritik x1,8 (normalde x1,5)
++15% de energia em cada vez
+Her turda enerji +%15
+Começa a partida com 30% de fúria
+Maça %30 öfkeyle başlar
+Começa com escudo (metade do dano) até a 2ª vez
+2. turuna kadar kalkan (yarı hasar)
++15% de fúria ganha
+Kazanılan öfke +%15
+Recupera 10% do dano que causa
+Verdiği hasarın %10'unu iyileştirir
+-15% de dano recebido
+Alınan hasar -%15
++10% de vida máxima
+Azami can +%10
++15% de raio de explosão
+Patlama yarıçapı +%15
+Recupera 20 de vida no início de cada vez
+Her turun başında 20 can iyileştirir
++15% de dano
+Hasar +%15
+{1} pedras do seu nível
+seviyene göre {1} taş
+1 Trevo + {1} pedras do seu nível
+1 Yonca + seviyene göre {1} taş
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} kristal + seviyene göre {1} taş + Lütuf şansı
+Vitória: {0}+ cristais
+Zafer: {0}+ kristal
+prêmio x{0}
+ödül x{0}
+mapa do dia +50%
+günün haritası +%50
+1ª vitória do dia +{0}
+günün 1. zaferi +{0}
+energia
+enerji
+aguarde...
+bekle...
+errou
+ıskaladı
+escudo
+kalkan
+congelado
+donmuş
+acabou
+bitti
+ativo
+aktif
+emprestado
+ödünç
+envenenado
+zehirli
+jogando
+oynuyor
+queimando
+yanıyor
+viga
+kiriş
+armando
+kuruluyor
+fogo
+ateş
+veneno
+zehir
+derrotado
+yenildi
+coletada
+alındı
++15% de dano do Especial
+Özel hasarı +%15
+Derrote {0} inimigos com o Especial deste animal
+Bu hayvanın Özel saldırısıyla {0} düşman yen
+ENTRAR
+GİR
+equipamento dos bots um pouco abaixo do seu
+botların ekipmanı seninkinden biraz düşük
+bots com o mesmo equipamento que você
+botlar seninle aynı ekipmanda
+equipamento dos bots um pouco acima do seu
+botların ekipmanı seninkinden biraz yüksek
+equipamento dos bots bem acima do seu
+botların ekipmanı seninkinden çok daha yüksek
+Ande até a bandeira
+Bayrağa yürü
+Mire em {0}°
+{0}°'ye nişan al
+Segure e solte na marca
+Basılı tut, işarette bırak
+Acerte o inimigo!
+Düşmanı vur!
+Muito bem! Vença!
+Harika! Kazan!
+Use a habilidade verde
+Yeşil yeteneği kullan
+Agora a habilidade roxa
+Şimdi mor yetenek
+Use um item e atire
+Eşya kullan ve ateş et
+Fúria cheia: use o Especial!
+Öfke dolu: Özel'i kullan!
+Use a granada
+El bombasını kullan
+Coloque uma viga
+Bir kiriş koy
+Voe de jetpack
+Jetpack ile uç
+Lance a corda no teto
+İpi tavana at
+Pronto! Vença!
+Tamam! Kazan!
+Muito bem!
+Harika!
+PULAR TUTORIAL
+EĞİTİMİ ATLA
+Pular o tutorial?
+Eğitim atlansın mı?
+Você vai direto para o menu. Dá para refazer em Opções.
+Doğrudan menüye gideceksin. Seçeneklerden tekrar yapabilirsin.
+PULAR
+ATLA
+PRÓXIMO TUTORIAL ({0}/3)
+SONRAKİ EĞİTİM ({0}/3)
+IR PARA O MENU
+MENÜYE GİT
+MENU
+MENÜ
+Refazer tutorial
+Eğitimi tekrarla
+Bem-vindo à batalha!
+Savaşa hoş geldin!
+Tutorial concluído: +{0} cristais
+Eğitim tamam: +{0} kristal
+SEGURE o botão para voar · setas para os lados
+Uçmak için düğmeyi BASILI TUT · oklarla yönlendir
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+KULLAN açar · uçmak için BASILI TUT (13 sn yakıt) · oklar yönlendirir · yumuşak iniş · inince ateş et
+partida rápida 1x1
+hızlı 1v1 maç
+1x1 a 4x4 · escolha mapa e dificuldade
+1v1'den 4v4'e · harita ve zorluk seç
+Mostrar todos os controles
+Tüm kontrolleri göster
+ANDE: segure as setas
+YÜRÜ: okları basılı tut
+MIRE: setas para cima e para baixo
+NİŞAN AL: yukarı ve aşağı oklar
+SEGURE para dar força e SOLTE para atirar!
+Güç için BASILI TUT, ateş için BIRAK!
+PULE com este botão (gasta energia)
+Bu düğmeyle ZIPLA (enerji harcar)
+O VENTO empurra o tiro: olhe aqui em cima
+RÜZGÂR atışı iter: buradan bak
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+PAS geç, biraz iyileş. Hepsini görmek için haritaya 2 kez dokun
+NOVO: ITENS
+YENİ: EŞYALAR
+NOVO: HABILIDADES
+YENİ: YETENEKLER
+NOVO: ESPECIAL
+YENİ: ÖZEL
+NOVO: FERRAMENTAS
+YENİ: ALETLER
+TODOS OS CONTROLES LIBERADOS!
+TÜM KONTROLLER AÇILDI!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+Atmadan önce bir eşyaya dokun: 3 Atış, +1, +2 veya Hasar. Enerji harcar.
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+Her hayvanın 2 yeteneği var: PAS'ın üstündeki düğmeler.
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+ÖFKE'yi doldurmak için hasar ver ve al. Doldu mu? Küreye dokun ve Özel'i at!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+Sol sütunda aletler: el bombası, ip, jetpack, kiriş ve daha fazlası.
+Emotes e todas as ferramentas. Boa batalha!
+İfadeler ve tüm aletler. İyi savaşlar!
+toque para acelerar
+hızlandırmak için dokun
+Longe demais: até 600 m de você
+Çok uzak: en fazla 600 m
+Tem alguém aí: escolha outro lugar
+Orada biri var: başka yer seç
+Muito dentro do chão
+Fazla toprağın içinde
+longa
+uzun
+curta
+kısa
+Não alcançou: mire e lance de novo
+Ulaşmadı: nişan al, tekrar at
+A corda não alcançou nada
+İp hiçbir yere ulaşmadı
+Pousou: agora atire!
+İndin: şimdi ateş et!
+O tempo na corda acabou
+İp süresi bitti
+Acabou o combustível: pouso suave
+Yakıt bitti: yumuşak iniş
+SOLTAR
+BIRAK
+CORDA
+İP
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+Oklar: sallan ve tırman · BIRAK ivmeyi korur
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+Yukarı ok yükselir · yan oklar yönlendirir · BASILI TUT kapatır ve ateşler
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+Sürükle veya fareyi oynat · oklar: döndür ve boyut · ONAYLA
+Mire e toque em USAR para lançar o gancho
+Nişan al ve kancayı atmak için KULLAN'a dokun
+Toque em USAR para ligar o jetpack
+Jetpack'i açmak için KULLAN'a dokun
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+KİRİŞ: yerleştirmek için sürükle · oklar döndürür ve boyutu değiştirir · ONAYLA koyar (köprü, siper, rampa)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+KULLAN açar · yukarı ok yükseltir, yan oklar iter · 4 sn yakıt · yumuşak iniş · BASILI TUT kapatır ve ateşler
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+KULLAN kancayı nişana atar (520 m'ye kadar) · oklar sallar ve tırmandırır · BIRAK ivmeyi korur · havada yeniden at
+Solte na marca amarela!
+Sarı işarette bırak!
+Agora atire!
+Şimdi ateş et!
+Toque em {0}
+{0} düğmesine dokun
+Segure para voar
+Uçmak için basılı tut
+Balance e toque para soltar
+Sallan, bırakmak için dokun
+Segure o botão até a marca amarela e solte
+Sarı işarete kadar basılı tut, sonra bırak
+Segure a seta até chegar na bandeira
+Bayrağa varana kadar oka basılı tut
+Segure o botão que brilha
+Parlayan düğmeye basılı tut
+Toque no botão que brilha
+Parlayan düğmeye dokun
+Teclado
+Klavye
+Perfeito!
+Mükemmel!
+Acabe com ele!
+İşini bitir!
+PARTE {0} CONCLUÍDA!
+BÖLÜM {0} TAMAM!
+Você aprendeu
+Öğrendiklerin
+Andar
+Yürü
+Mirar
+Nişan al
+Atirar
+Ateş et
+Itens
+Eşyalar
+De volta!
+Geri döndün!
+JOGAR!
+OYNA!
+inclui +{0} de bônus do tutorial
++{0} eğitim bonusu dahil
+Refazer o tutorial?
+Eğitim tekrarlansın mı?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+Sadece rehberli maçlar. Ödüller tekrar verilmez ve ilerlemen değişmez.
+Cancelar
+İptal
+Refazer
+Tekrarla
+Tutorial refeito: sem prêmios
+Eğitim tekrarı: ödül yok
+Gire o celular para continuar
+Devam etmek için telefonu çevir
+Controles
+Kontroller
+Jogue 80 partidas
+80 maç oyna
+Vença 150 partidas
+150 maç kazan
+Acerte 400 tiros
+400 atış isabet ettir
+Cause 100.000 de dano
+100.000 hasar ver
+Cause 1000 de dano num só tiro
+Tek atışta 1000 hasar ver
+Vença 6 seguidas
+Üst üste 6 kazan
+Derrote 200 inimigos
+200 düşman yen
+Jogue 300 partidas
+300 maç oyna
+Vença 400 partidas
+400 maç kazan
+Acerte 1500 tiros
+1500 atış isabet ettir
+Cause 400.000 de dano
+400.000 hasar ver
+Cause 1400 num só tiro
+Tek atışta 1400 ver
+Derrote 800 inimigos
+800 düşman yen
+15 vitórias perfeitas
+15 kusursuz galibiyet
+80 tiros longos
+80 uzun atış
+30 vinganças
+30 intikam
+Derrote 2500 inimigos
+2500 düşman yen
+Vença em 14 mapas diferentes
+14 farklı haritada kazan
+Vença 15 vezes no mapa do dia
+Günün haritasında 15 kez kazan
+Use a Fúria 150 vezes
+Öfkeyi 150 kez kullan
+Pegue 200 caixas
+200 sandık al
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+3 Atış/+1/+2/Hasar+% 800 kez kullan
+Derrube 80 rivais de muito alto
+80 rakibi çok yüksekten düşür
+Faça 200 tiros rápidos (<5 s)
+200 hızlı atış yap (<5 sn)
+Acerte 2+ rivais num tiro 80 vezes
+Tek atışta 2+ rakibi 80 kez vur
+Use o PASSAR 100 vezes
+PAS'ı 100 kez kullan
+Acerte 300 críticos
+300 kritik vuruş yap
+Use 200 habilidades
+200 yetenek kullan
+Coloque 80 vigas
+80 kiriş yerleştir
+Cave 30 túneis/poços
+30 tünel/kuyu kaz
+Voe de jetpack 25 vezes
+25 kez jetpack ile uç
+Use a corda ninja 25 vezes
+Ninja ipini 25 kez kullan
+Exploda 25 dinamites
+25 dinamit patlat
+Solte 25 ovelhas
+25 koyun sal
+Arremesse 50 granadas
+50 el bombası at
+Use 12 cachos de granadas
+12 misket bombası kullan
+Plante 25 minas
+25 mayın yerleştir
+Chame 10 ataques aéreos
+10 hava saldırısı çağır
+Use a Britadeira 15 vezes
+Matkabı 15 kez kullan
+Mire na linha amarela
+Sarı çizgiye nişan al
+Quanto mais tempo segurar, mais longe vai o tiro
+Ne kadar uzun basarsan atış o kadar uzağa gider
+As setas andam pelo mapa
+Oklarla haritada yürürsün
+A mira muda a altura do tiro
+Nişan atışın yüksekliğini değiştirir
+Acerte o rival para vencer!
+Kazanmak için rakibi vur!
+Atira 3 balas de uma vez
+Aynı anda 3 atış yapar
+Vira chão: uma ponte ou um escudo
+Zemin olur: köprü ya da kalkan
+Segure para voar até outro lugar
+Basılı tut ve başka yere uç
+Pendure-se e balance para ir longe
+Asıl ve sallanarak uzağa git
+Vira chão: ponte, abrigo ou rampa
+Zemin olur: köprü, siper ya da rampa
+Abre um túnel e passa por dentro do morro
+Tünel açıp tepenin içinden geçer
+Voe para outro lugar do mapa
+Haritada başka bir yere uç
+Cava um poço e você desce por ele
+Kuyu kazar ve aşağı inersin
+Deixe aos seus pés e fuja: explode forte
+Ayağının dibine bırak ve kaç: güçlü patlar
+Anda sozinha até o rival e explode
+Kendi kendine rakibe yürür ve patlar
+Explode quando alguém chega perto
+Biri yaklaşınca patlar
+Marque o alvo: 5 mísseis caem do céu
+Hedefi işaretle: gökten 5 füze düşer
+NOVO!
+YENİ!
+Cristais x2 (vídeo)
+Kristal x2 (video)
+Empurra o tiro: a bandeira mostra para onde
+Atışını iter: bayrak yönü gösterir
+TUTORIAL CONCLUÍDO!
+EĞİTİM TAMAMLANDI!
+O resto você aprende jogando, com dicas na hora certa
+Gerisini oynarken, doğru anda gelen ipuçlarıyla öğreneceksin
+Quica no chão e explode depois
+Yerde sekip sonra patlar
+Melhor com o celular deitado
+Telefonu yan çevirince daha iyi
+Gire o celular: a tela fica maior e os controles mais fáceis
+Telefonu çevir: ekran büyür, kontroller kolaylaşır
+JOGAR MASMORRA
+ZİNDAN OYNA
+JOGAR VS
+VS OYNA
+JOGAR ASSIM MESMO
+BÖYLE OYNA

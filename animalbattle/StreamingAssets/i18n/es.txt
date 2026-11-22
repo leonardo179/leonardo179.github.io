@@ -1,0 +1,2986 @@
+VOLTAR
+VOLVER
+Carregando
+Cargando
+Masmorra
+Mazmorra
+Contra IA
+Contra IA
+Partida local
+Partida local
+MASMORRA
+MAZMORRA
+CONTRA IA
+CONTRA IA
+PARTIDA LOCAL
+PARTIDA LOCAL
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+10 mazmorras con jefes, 4 dificultades y estrellas. Premios: medallas, piedras, trébol y bendición.
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+Dos o más jugadores en el mismo dispositivo, por turnos. Equipo igualado, sin premios.
+Música
+Música
+Sons
+Sonidos
+Som
+Sonido
+Idioma
+Idioma
+Batalha de artilharia entre animais
+Batalla de artillería entre animales
+Ferreiro
+Herrero
+Armeiro
+Armero
+Animais
+Animales
+Opções
+Opciones
+versão de teste
+versión de prueba
+Nível {0}
+Nivel {0}
+Todos os animais disponíveis!
+¡Todos los animales disponibles!
+Próximo animal: {0} no nível {1}
+Próximo animal: {0} en el nivel {1}
+Em construção
+En construcción
+Batalha em construção
+Batalla en construcción
+Raposa
+Zorro
+Urso
+Oso
+Coruja
+Búho
+Salamandra
+Salamandra
+Rinoceronte
+Rinoceronte
+Cobra
+Serpiente
+Tartaruga
+Tortuga
+Guaxinim
+Mapache
+Gato
+Gato
+Águia
+Águila
+Tigre
+Tigre
+Pinguim
+Pingüino
+Gorila
+Gorila
+Tubarão
+Tiburón
+Jacaré
+Caimán
+Texugo
+Tejón
+Ouriço
+Erizo
+Morcego
+Murciélago
+Arma
+Arma
+Chapéu
+Sombrero
+Roupa
+Ropa
+Amuleto
+Amuleto
+Madeira
+Madera
+Ferro
+Hierro
+Aço
+Acero
+Mítico
+Mítico
+Lendário
+Legendario
+Pedras
+Piedras
+Trevo
+Trébol
+Bênção
+Bendición
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+Cambia el nivel del equipo (Madera, Hierro, Acero, Mítico, Legendario) y compra piedras.
+Medalhas
+Medallas
+Escolhido
+Elegido
+Escolher
+Elegir
+cristais
+cristales
+{0} comprado!
+¡{0} desbloqueado!
+Cristais insuficientes
+Cristales insuficientes
+Disponível no nível {0}
+Disponible en el nivel {0}
+Jogador
+Jugador
+Não foi possível baixar o mapa. Verifique a conexão.
+No se pudo descargar el mapa. Verifica la conexión.
+Carregando os animais
+Cargando los animales
+Mapa inválido
+Mapa no válido
+Deserto Dourado
+Desierto Dorado
+Floresta Encantada
+Bosque Encantado
+Vulcão
+Volcán
+Praia Pirata
+Playa Pirata
+Terra dos Doces
+Tierra de los Dulces
+Castelo
+Castillo
+Caverna de Cristal
+Cueva de Cristal
+Pântano
+Pantano
+Cemitério Assombrado
+Cementerio Embrujado
+Ruínas Celestes
+Ruinas Celestes
+Recife de Coral
+Arrecife de Coral
+Templo da Selva
+Templo de la Selva
+Cidade Neon
+Ciudad Neón
+Faroeste
+Lejano Oeste
+caiu na lava
+cayó en la lava
+caiu no chocolate
+cayó en el chocolate
+caiu no lodo
+cayó en el lodo
+sumiu na névoa
+desapareció en la niebla
+caiu das nuvens
+cayó de las nubes
+caiu no metal derretido
+cayó en el metal fundido
+foi levado pela correnteza
+fue arrastrado por la corriente
+caiu no vazio neon
+cayó en el vacío neón
+flutuou para o espaço
+flotó hacia el espacio
+afundou na areia movediça
+se hundió en arenas movedizas
+caiu na água
+cayó al agua
+4 TxT
+4 TcT
+6 TxT
+6 TcT
+8 TxT
+8 TcT
+erram muito
+fallan mucho
+erram um pouco
+fallan un poco
+quase não erram
+casi nunca fallan
+mira perfeita
+puntería perfecta
+Valente
+Valiente
+Sombrio
+Sombrío
+Dourado
+Dorado
+Selvagem
+Salvaje
+Teimoso
+Terco
+Ligeiro
+Ligero
+Brabo
+Bravío
+Sorrateiro
+Sigiloso
+Esperto
+Listo
+Trovão
+Trueno
+Relâmpago
+Relámpago
+Pimenta
+Picante
+Corajoso
+Valeroso
+ÁRVORE 1 NÍVEL 4
+ÁRBOL 1 NIVEL 4
+DEUS 1
+DIOS 1
+DEUS 2
+DIOS 2
+DEUS 3
+DIOS 3
+SEU TIME
+TU EQUIPO
+VOCÊ
+TÚ
+RIVAIS
+RIVALES
+Sair agora encerra a partida sem prêmio.
+Salir ahora termina la partida sin premio.
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+daño {0}  ·  recibido {1}  ·  bajas {2}  ·  precisión {3}%
+Tremor
+Temblor
+RENDER-SE
+RENDIRSE
+SAIR
+SALIR
+VITÓRIA!
+¡VICTORIA!
+VER PLACAR
+VER MARCADOR
+DE NOVO
+DE NUEVO
+REVANCHE
+REVANCHA
+mais dano: {0}
+más daño: {0}
+JOGADOR
+JUGADOR
+DANO
+DAÑO
+ABATES
+BAJAS
+PRECISÃO
+PRECISIÓN
+MAIOR TIRO
+MAYOR TIRO
+precisão: {0} {1}%
+precisión: {0} {1}%
+maior tiro: {0} {1}
+mayor tiro: {0} {1}
+abates: {0} x{1}
+bajas: {0} x{1}
+prêmios da partida: em breve
+premios de la partida: próximamente
+Você se rendeu
+Te rendiste
+O tiro saiu do mapa!
+¡El tiro salió del mapa!
+na água
+en el agua
+ALELUIA!
+¡ALELUYA!
+era uma armadilha!
+¡era una trampa!
+caixa destruída
+caja destruida
+atingido por um raio
+alcanzado por un rayo
+o gelo quebrou!
+¡el hielo se rompió!
+TIRO LONGO! {0}m
+¡TIRO LARGO! {0}m
+ANIQUILADO!
+¡ANIQUILADO!
+NA MOSCA!
+¡EN EL BLANCO!
+ÓTIMO!
+¡GENIAL!
+BOM
+BIEN
+DE RASPÃO
+ROCE
+MULTI-ACERTO x{0}
+¡MULTIGOLPE x{0}!
+ABATE QUÁDRUPLO!
+¡CUÁDRUPLE BAJA!
+ABATE TRIPLO!
+¡TRIPLE BAJA!
+ABATE DUPLO!
+¡DOBLE BAJA!
+FÚRIA PRONTA!
+¡FURIA LISTA!
+caiu de muito alto
+cayó desde muy alto
+TSSSS!
+¡TSSSS!
+PLOFT!
+¡PLOF!
+TCHIBUM!
+¡SPLASH!
+caiu do mapa
+cayó del mapa
+Precisa estar no chão
+Debes estar en el suelo
+Energia insuficiente para pular
+Energía insuficiente para saltar
+água!
+¡agua!
+invisível
+invisible
+Ninguém colado — chegue mais (energia gasta)
+Nadie cerca — acércate más (energía gastada)
+{0} (pronta em {1}): {2}
+{0} (lista en {1}): {2}
+{0} precisa de {1} de energia
+{0} necesita {1} de energía
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+TELETRANSPORTE: toca el lugar del mapa al que quieres ir y confirma (toca la habilidad para cancelar)
+Aí não dá — escolha um chão firme e livre
+Ahí no se puede — elige suelo firme y libre
+{0} se teletransportou!
+¡{0} se teletransportó!
+patada de urso
+patada de oso
+cutucão
+golpecito
+soco de fogo
+puñetazo de fuego
+machado de batalha
+hacha de batalla
+martelada sísmica
+martillazo sísmico
+Nenhum rival à vista (energia gasta)
+Ningún rival a la vista (energía gastada)
+{0} usou {1}
+{0} usó {1}
+arco longo
+arco largo
+Não acertou ninguém no caminho
+No alcanzó a nadie en el camino
+BUM ARCANO!
+¡BUM ARCANO!
+Ninguém ao alcance (energia gasta)
+Nadie al alcance (energía gastada)
+Ninguém na sua frente — chegue mais (energia gasta)
+Nadie frente a ti — acércate más (energía gastada)
+grito sônico
+grito sónico
+Ninguém na sua frente (energia gasta)
+Nadie frente a ti (energía gastada)
+enrolado nas vinhas
+atrapado en las enredaderas
+bola de dragão
+bola de dragón
+machado giratório
+hacha giratoria
+pisão do gorila
+pisotón del gorila
+Sem combustível
+Sin combustible
+Toque no mapa para marcar o alvo
+Toca el mapa para marcar el objetivo
+SUA VEZ!
+¡TU TURNO!
+VEZ DE {0}
+TURNO DE {0}
+RETIRADA: {0} s - corra para um lugar seguro!
+RETIRADA: {0} s - ¡corre a un lugar seguro!
+VOCÊ CAIU
+CAÍSTE
+na sua vez
+en tu turno
+ESPECIAL PRONTO
+ESPECIAL LISTO
+fúria
+furia
+FORÇA
+FUERZA
+FÚRIA
+FURIA
+FÚRIA!
+¡FURIA!
+PASSAR
+PASAR
+EXPLODIR
+EXPLOTAR
+AGUARDE
+ESPERA
+VOANDO!
+¡VOLANDO!
+VOAR
+VOLAR
+SEM GÁS
+SIN GAS
+SOLTE!
+¡SUELTA!
+SEGURE
+MANTÉN
+atire ou PASSE!
+¡dispara o PASA!
+{0} no próximo tiro
+{0} en el próximo tiro
+DANO x2
+DAÑO x2
+Você foi derrotado - assistindo
+Fuiste derrotado - observando
+PRÓX.
+SIG.
+VENTO
+VIENTO
+CONTRA
+EN CONTRA
+SUBINDO!
+¡SUBE!
+água sobe em {0}
+el agua sube en {0}
+SUA VEZ
+TU TURNO
+{0} está mirando...
+{0} está apuntando...
+VERDADEIRO
+VERDADERO
+DANO +{0}%
+DAÑO +{0}%
+ITENS
+ÍTEMS
+MAIS
+MÁS
+em {0} vezes
+en {0} turnos
+rod. {0}
+ron. {0}
+joga em {0}º
+juega {0}º
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+ATQ {0}   DEF {1}   AGI {2}   SUERTE {3}    (crítico {4}% · recibe -{5}%)
+ (em {0})
+ (en {0})
+ferramentas restantes: {0}   ·   {1} de energia por vez
+herramientas restantes: {0} · {1} de energía por turno
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} de daño · aciertos {1}/{2} · bajas {3}
+ · sequência {0}
+ · racha {0}
+coragem +15%
+coraje +15%
+último tiro: {0}° · força {1}
+último tiro: {0}° · fuerza {1}
+dano +
+daño +
+dano 
+daño 
+raio +
+radio +
+raio 
+radio 
+bala leve (vai longe)
+bala ligera (llega lejos)
+sofre pouco com o vento
+le afecta poco el viento
+sofre mais com o vento
+le afecta más el viento
+Nada para prender nessa mira
+Nada a lo que sujetarse con esta mira
+A corda não alcança nada nessa direção (até {0})
+La cuerda no alcanza nada en esa dirección (hasta {0})
+andar balança · as setas sobem/descem · PULAR solta
+caminar balancea · las flechas suben/bajan · SALTAR suelta
+{0} libera na rodada {1} (faltam {2})
+{0} se desbloquea en la ronda {1} (faltan {2})
+{0} já está ativo
+{0} ya está activo
+Acabou: {0} ({1}x por partida)
+Agotado: {0} ({1}x por partida)
+{0}: recarrega em {1} turno(s)
+{0}: se recarga en {1} turno(s)
+Vida já está cheia
+La vida ya está llena
+Na masmorra o cenário não se destrói
+En la mazmorra el escenario no se destruye
+A granada não soma com a Fúria nem com o Avião
+La granada no se suma con la Furia ni con el Avión
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} es tu ataque del turno (no se suma con Furia, +1, +2 ni 3 Disparos)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0} no recibe Daño +% ni Hielo (solo valen para el tiro)
+{0} vale só para o tiro (não para a ferramenta)
+{0} solo vale para el tiro (no para la herramienta)
+Energia insuficiente ({0})
+Energía insuficiente ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+El golpe ESPECIAL no se suma con 3 Disparos, +1 ni +2
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+Solo una: 3 Disparos, +1 O +2 (solo 3 Disparos + +1 van juntos)
+Toque no TERRENO (até 520 de você) para prender a corda
+Toca el TERRENO (a máx. 520 de ti) para sujetar la cuerda
+o fogo apagou
+el fuego se apagó
+{0} se curou (+{1}) e encerrou a vez
+{0} se curó (+{1}) y terminó el turno
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+Nada a lo que sujetarse con esta mira — toca el TERRENO para lanzar la cuerda
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+¡Volando! MANTÉN el botón VOLAR · muévete en el aire · al aterrizar, termina
+Pavio da granada: {0} s (toque de novo para mudar)
+Mecha de la granada: {0} s (toca de nuevo para cambiar)
+as setas inclinam o túnel · USAR acende
+las flechas inclinan el túnel · USAR lo enciende
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+Toca el mapa para marcar el objetivo · las flechas cambian el lado del avión · CONFIRMAR
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+Toca el mapa para colocar · las flechas giran · CONFIRMAR
+{0} pronto — toque em USAR
+{0} listo — toca USAR
+paraquedas pronto
+paracaídas listo
+CORRA!
+¡CORRE!
+BÉÉÉ!
+¡BEEE!
+cacho de granadas!
+¡racimo de granadas!
+mina plantada
+mina colocada
+granada na mão
+granada en mano
+jetpack pronto
+jetpack listo
+Não cabe aí
+No cabe ahí
+Longe demais — até 600 de você
+Muy lejos — máximo a 600 de ti
+Tem alguém aí — escolha outro lugar
+Hay alguien ahí — elige otro lugar
+britadeira!
+¡martillo neumático!
+maçarico!
+¡soplete!
+maçarico
+soplete
+Acabou o combustível
+Sin combustible
+Pousou — o botão volta a atirar
+Aterrizaste — el botón vuelve a disparar
+ATAQUE AÉREO!
+¡ATAQUE AÉREO!
+3 Tiros
+3 Disparos
+Dano +10%
+Daño +10%
+Dano +20%
+Daño +20%
+Dano +30%
+Daño +30%
+Dano +40%
+Daño +40%
+Dano +50%
+Daño +50%
+Avião
+Avión
+Gelo
+Hielo
+Invisível
+Invisible
+Cura
+Curación
+Guia
+Guiado
+Mudar Vento
+Cambiar Viento
+Paraquedas
+Paracaídas
+Baixa gravidade
+Gravedad Baja
+Maçarico
+Soplete
+Cipó
+Liana
+Britadeira
+Martillo Neumático
+Passo Rápido
+Paso Rápido
+Dinamite
+Dinamita
+Ovelha
+Oveja
+Cacho de Granadas
+Racimo de Granadas
+Pombo-bomba
+Paloma Bomba
+Bolha-escudo
+Burbuja Escudo
+Ampulheta
+Reloj de Arena
+Dano
+Daño
+Vento
+Viento
+Paraq.
+Paraca.
+Gravid.
+Grav.
+Corda
+Cuerda
+Britad.
+Martill.
+Cacho
+Racimo
+Pombo
+Paloma
+Bolha
+Burbuja
+Tempo
+Tiempo
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+3 disparos en abanico (-50% cada uno) · con el +1 = combo 1+2 (6 balas)
+atira mais 1 vez (-10% cada)
+dispara 1 vez más (-10% cada uno)
+atira mais 2 vezes (-40% cada)
+dispara 2 veces más (-40% cada uno)
++10% de dano (soma com os outros)
++10% de daño (se suma con los otros)
++20% de dano (soma com os outros)
++20% de daño (se suma con los otros)
++30% de dano (soma com os outros)
++30% de daño (se suma con los otros)
++40% de dano (soma com os outros)
++40% de daño (se suma con los otros)
++50% de dano (soma com os outros)
++50% de daño (se suma con los otros)
+você vai voando até onde a bala cair (sem dano)
+vas volando hasta donde caiga la bala (sin daño)
+congela quem for atingido por 2 turnos
+congela por 2 turnos a quien sea alcanzado
+invisível para os rivais por 3 rodadas
+invisible para los rivales por 3 rondas
+recupera 30% da vida e ENCERRA o turno
+recupera el 30% de la vida y TERMINA el turno
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+el disparo persigue al rival más cercano si pasa cerca de él (-20% de daño)
+inverte o vento nesta rodada
+invierte el viento en esta ronda
+cai devagar e sem dano de queda até a sua próxima vez
+caes despacio y sin daño de caída hasta tu próximo turno
+os tiros deste turno voam mais longe (gravidade baixa)
+los disparos de este turno vuelan más lejos (gravedad baja)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+VIGA de acero: toca el mapa para posicionarla, las flechas la giran y CONFIRMAR la coloca — puente, refugio o rampa
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+abre un TÚNEL y atraviesa la colina; las flechas lo inclinan antes de usarlo; quien esté en el camino recibe 40
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+USAR despega; MANTÉN el botón de ataque para subir y muévete en el aire — 3 s de combustible, sin daño de caída
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+USAR lanza la cuerda hacia donde apuntas (hasta 520); caminar balancea, las flechas acortan/alargan, SALTAR suelta
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+cava un pozo HACIA ABAJO y bajas por él; quien esté debajo recibe 40
+nesta vez você anda quase o DOBRO gastando metade da energia
+en este turno caminas casi el DOBLE gastando la mitad de energía
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+en este turno, si caes al agua o fuera del mapa, el elástico te trae de vuelta
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+suelta una DINAMITA a tus pies (300 de daño) con mecha de 5 s — es tu ataque del turno
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+suelta una OVEJA explosiva: camina sola hacia donde miras, salta obstáculos y explota en el 1.er rival (o a los 6 s) — es tu ataque del turno
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+el próximo disparo es una GRANADA: rebota en el suelo y en los animales y explota a los 6 s
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+deja una MINA en el suelo frente a ti: se arma en 2,5 s; cuando CUALQUIERA se acerca (¡tú y tus aliados también!), pita y explota 1,5 s después (a veces falla) — es tu ataque del turno
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+el próximo disparo es un RACIMO DE GRANADAS: rebota, explota a los 6 s y se divide en 5 granadas más pequeñas
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+toca/arrastra en el mapa para elegir el destino y USAR teletransporta — gasta el turno
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+toca el mapa para marcar el objetivo, las flechas eligen de qué lado viene el avión y CONFIRMAR llama 5 misiles — es tu ataque del turno
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+toca en el mapa para marcar el objetivo y USAR suelta la PALOMA: vuela recto hasta allí (sin viento) y explota — es tu ataque del turno
+uma BOLHA te protege: metade do dano até a sua próxima vez
+una BURBUJA te protege: la mitad del daño hasta tu próximo turno
++10 s nesta vez para mirar com calma
++10 s en este turno para apuntar con calma
+Tiro Especial
+Disparo Especial
+Chuva de Flechas
+Lluvia de Flechas
+Orbe Teleguiado
+Orbe Teledirigido
+Inferno
+Infierno
+Bala Quicante
+Bala Rebotante
+Picada Venenosa
+Picadura Venenosa
+Casco de Gelo
+Caparazón de Hielo
+Chuva Curativa
+Lluvia Curativa
+Corte Duplo
+Corte Doble
+Garras em Fúria
+Garras Furiosas
+Avalanche
+Avalancha
+Pedregulho
+Peñasco
+Gêiser
+Géiser
+Broca
+Taladro
+Fragmentação
+Fragmentación
+Explosão de Espinhos
+Explosión de Espinas
+Mordida Vampira
+Mordida Vampírica
+tiro forte e cratera grande
+disparo fuerte y cráter grande
+6 flechas caem do céu em volta
+6 flechas caen del cielo alrededor
+cratera gigante e tremor
+cráter gigante y temblor
+persegue o inimigo mais perto
+persigue al enemigo más cercano
+queima 3 turnos
+quema 3 turnos
+raio cai do céu na coluna do impacto
+un rayo cae del cielo en la columna del impacto
+quica 2 vezes explodindo
+rebota 2 veces explotando
+congela quem atingir + escudo 2 turnos
+congela a quien alcance + escudo 2 turnos
+cura os aliados e fere os rivais
+cura a los aliados e hiere a los rivales
+2 tiros especiais seguidos
+2 disparos especiales seguidos
+3 explosões em linha
+3 explosiones en línea
+congela tudo numa área grande
+congela todo en un área grande
+pedra enorme e pesada
+roca enorme y pesada
+lança os rivais para o alto
+lanza a los rivales por los aires
+atravessa o chão e explode por dentro
+atraviesa el suelo y explota por dentro
+se parte em 5 bombas
+se parte en 5 bombas
+8 espinhos para todo lado
+8 espinas en todas direcciones
+cura você com 60% do dano
+te cura con el 60% del daño
+Flecha Certeira
+Flecha Certera
+Patada de Urso
+Zarpazo de Oso
+Mergulho Teleguiado
+Picada Teledirigida
+Bala Colossal
+Bala Colosal
+Tiro Duplo
+Disparo Doble
+Bloco de Gelo
+Bloque de Hielo
+Ferrão
+Aguijón
+Ervas Curativas
+Hierbas Curativas
+Cutucão
+Empujón
+Chuva de Bolotas
+Lluvia de Bellotas
+Soco de Fogo
+Puñetazo de Fuego
+Machado de Batalha
+Hacha de Batalla
+Martelada Sísmica
+Martillazo Sísmico
+Lança Afiada
+Lanza Afilada
+Sentinela
+Centinela
+Espinhos
+Espinas
+Eco Teleguiado
+Eco Teledirigido
+o próximo tiro é CRÍTICO
+el próximo disparo es CRÍTICO
+patada no rival colado: joga ele LONGE
+zarpazo al rival a tu lado: lo manda LEJOS
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+toca en cualquier lugar del mapa y aparece allí (termina el turno)
+o próximo tiro deixa BRASAS no chão
+el próximo disparo deja BRASAS en el suelo
+o próximo tiro persegue o rival (mergulho da águia)
+el próximo disparo persigue al rival (picada del águila)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+el próximo disparo se vuelve una BALA COLOSAL: área enorme y mucho daño
+dois tiros certeiros no rival à vista
+dos disparos certeros al rival a la vista
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+te encierras en un bloque de hielo: casi no recibes daño hasta tu próximo turno
+o próximo tiro envenena
+el próximo disparo envenena
+cura 15% de você e dos aliados perto
+te cura a ti y a los aliados cercanos un 15%
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+empujón de katana: empuja fuerte al rival a tu lado (genial en el borde)
+3 bolotas caem em cima do rival mais perto
+3 bellotas caen sobre el rival más cercano
+soco de fogo: joga o rival colado lá no alto
+puñetazo de fuego: lanza por los aires al rival a tu lado
+corta METADE da vida do rival colado
+corta la MITAD de la vida del rival a tu lado
+martelo no chão: dano e joga para o alto quem está perto
+martillo en el suelo: daño y lanza por los aires a quien esté cerca
+a lança afia: o próximo tiro dá +35%
+la lanza se afila: el próximo disparo da +35%
+seis tiros de revólver no rival à vista
+seis disparos de revólver al rival a la vista
+torreta que atira sozinha em quem chega perto (4 tiros)
+torreta que dispara sola a quien se acerca (4 disparos)
+espinhos no chão ferem o 1º rival que pisar
+espinas en el suelo hieren al 1.er rival que las pise
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+eco del murciélago: el próximo disparo sigue las ondas de sonido hasta el rival
+Arco Longo
+Arco Largo
+Investida do Urso
+Embestida del Oso
+Lança-chamas
+Lanzallamas
+Tempestade
+Tormenta
+Morteiro
+Mortero
+Rajada de Precisão
+Ráfaga de Precisión
+Nevasca
+Ventisca
+Nuvem Venenosa
+Nube Venenosa
+Vinhas
+Enredaderas
+Corte Relâmpago
+Corte Relámpago
+Toca Explosiva
+Madriguera Explosiva
+Cometa de Brasa
+Cometa de Brasas
+Machado Giratório
+Hacha Giratoria
+Pisão do Gorila
+Pisotón del Gorila
+Cutucão de Lança
+Estocada de Lanza
+Chuva de Balas
+Lluvia de Balas
+Chuva de Espinhos
+Lluvia de Espinas
+Grito Sônico
+Grito Sónico
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+dos flechas RECTAS al rival a la vista (hasta 1000): daño y empuje
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+el oso corre hacia adelante atropellando a quien esté en el camino (-8% de vida)
+um orbe mágico voa até o rival mais perto e EXPLODE
+un orbe mágico vuela hasta el rival más cercano y EXPLOTA
+jato de fogo nos rivais à sua frente: dano e queimadura
+chorro de fuego a los rivales frente a ti: daño y quemadura
+um raio cai no rival mais perto (até 900)
+un rayo cae sobre el rival más cercano (hasta 900)
+3 tiros de morteiro caem em volta do rival mais perto
+3 disparos de mortero caen alrededor del rival más cercano
+rajada de 5 tiros no rival à vista (até 800)
+ráfaga de 5 disparos al rival a la vista (hasta 800)
+congela os rivais perto por 1 turno
+congela a los rivales cercanos por 1 turno
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+nube venenosa: envenena a TODOS los rivales cercanos por 3 turnos
+puxa o rival mais perto para junto de você e fere
+atrae al rival más cercano hacia ti y lo hiere
+dispara para a frente cortando quem estiver no caminho
+se lanza hacia adelante cortando a quien esté en el camino
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+el próximo disparo CAVA una madriguera en el suelo y explota por dentro
+bola de energia reta para a frente: dano e empurrão no 1º rival
+bola de energía recta hacia adelante: daño y empuje al 1.er rival
+machado que vai e volta: fere os rivais na sua frente (até 500)
+hacha que va y vuelve: hiere a los rivales frente a ti (hasta 500)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+PISOTÓN: el suelo tiembla y todos los rivales del mapa reciben daño y son sacudidos
+estocada longa na frente (até 380): dano e empurrão
+estocada larga al frente (hasta 380): daño y empuje
+rajada de pistolas em TODOS os rivais à vista (até 700)
+ráfaga de pistolas a TODOS los rivales a la vista (hasta 700)
+rajada de 6 tiros no rival à vista (até 800)
+ráfaga de 6 disparos al rival a la vista (hasta 800)
+3 armadilhas de espinhos caem em volta do rival mais perto
+3 trampas de espinas caen alrededor del rival más cercano
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+grito sónico: daño y empuje a todos los rivales frente a ti (hasta 450)
+Poção: +25% de vida e cura veneno
+Poción: +25% de vida y cura el veneno
+Energético: +120 de energia
+Energético: +120 de energía
+Baú: +1 uso de cada ferramenta
+Cofre: +1 uso de cada herramienta
+Fúria: +40
+Furia: +40
+ARMADILHA! O baú explodiu
+¡TRAMPA! El cofre explotó
+Escudo: -50% de dano por 2 vezes
+Escudo: -50% de daño por 2 turnos
+Luneta: +1 Mira Guiada
+Catalejo: +1 Mira Guiada
+Arma Surpresa: Fúria de outro animal no próximo tiro
+Arma Sorpresa: la Furia de otro animal en tu próximo tiro
+Golpe Certeiro: o próximo tiro é CRÍTICO
+Golpe Certero: tu próximo tiro es CRÍTICO
+Paraquedas: +1 uso
+Paracaídas: +1 uso
+Recarga: as 2 habilidades prontas
+Recarga: las 2 habilidades listas
+Balança da Justiça: a vida dos times é dividida igual
+Balanza de la Justicia: la vida de los equipos se divide por igual
+Dano em Dobro: o próximo tiro causa 2x
+Daño Doble: tu próximo tiro causa 2x
+Tempo Extra: +15 s na sua próxima vez
+Tiempo Extra: +15 s en tu próximo turno
+Caixa de Arsenal: +1 de um utilitário
+Caja de Arsenal: +1 objeto útil
+Ai, meu rabo!
+¡Ay, mi cola!
+Astúcia pura!
+¡Pura astucia!
+O vento me enganou!
+¡El viento me engañó!
+GRRRAU!
+¡GRRRAU!
+Abraço de urso!
+¡Abrazo de oso!
+Cadê o mel?
+¿Dónde está la miel?
+Uh-uh! Doeu!
+¡Uh-uh! ¡Dolió!
+Previsível.
+Predecible.
+Calculei errado...
+Calculé mal...
+Tô pegando fogo!
+¡Estoy ardiendo!
+Queimou!
+¡Quemado!
+Esfriou...
+Se enfrió...
+Penas pra todo lado!
+¡Plumas por todas partes!
+Visão de águia!
+¡Vista de águila!
+Vento traiçoeiro!
+¡Viento traicionero!
+Nem senti... ai!
+Ni lo sentí... ¡ay!
+ATROPELADO!
+¡ATROPELLADO!
+Mira de rinoceronte...
+Puntería de rinoceronte...
+Sssocorro!
+¡Sssocorro!
+Sssó um bote!
+¡Sssolo un ataque!
+Errei o bote...
+Fallé el ataque...
+Meu casco!
+¡Mi caparazón!
+Devagar e sempre!
+¡Despacio pero seguro!
+Calma, tô mirando...
+Calma, estoy apuntando...
+Minha lixeira!
+¡Mi basurero!
+Achado não é roubado!
+¡Quien lo encuentra, se lo queda!
+Era pra lá?
+¿Era por allá?
+Miau! Seis vidas...
+¡Miau! Seis vidas...
+Caiu de pé? Não!
+¿Caíste de pie? ¡No!
+Hmpf. Foi de propósito.
+Hmpf. Fue a propósito.
+Arranhão de nada!
+¡Un rasguño de nada!
+Rugido final!
+¡Rugido final!
+Grrr... quase!
+Grrr... ¡casi!
+Gelou!
+¡Congelado!
+Escorregou, hein?
+¿Resbalaste, eh?
+Patinei...
+Patiné...
+UH UH AH AH!
+¡UH UH AH AH!
+Força bruta!
+¡Fuerza bruta!
+Bananas!
+¡Bananas!
+Sangue na água!
+¡Sangre en el agua!
+Mordida certa!
+¡Mordida certera!
+Nadei e morri na praia
+Nadé y morí en la orilla
+Couro duro!
+¡Cuero duro!
+Abocanhei!
+¡Te mordí!
+Lágrimas de jacaré...
+Lágrimas de cocodrilo...
+Ninguém mexe comigo!
+¡Nadie se mete conmigo!
+Cavei sua cova!
+¡Cavé tu tumba!
+Terra no olho!
+¡Tierra en el ojo!
+Espinhos pra quê?!
+¡¿Para qué espinas?!
+Espetado!
+¡Pinchado!
+Furou...
+Se pinchó...
+Ecoou na cabeça!
+¡Resonó en mi cabeza!
+Na escuridão!
+¡En la oscuridad!
+Sonar falhou!
+¡Falló el sonar!
+Ai!
+¡Ay!
+Essa doeu!
+¡Esa dolió!
+Ei!
+¡Ey!
+Ui ui ui!
+¡Uy uy uy!
+Tá louco?!
+¡¿Estás loco?!
+Toma!
+¡Toma!
+Um a menos!
+¡Uno menos!
+Próximo!
+¡Siguiente!
+Vai pra casa!
+¡Vete a casa!
+Quase!
+¡Casi!
+Errei feio...
+Fallé por mucho...
+Era pra lá!
+¡Era para allá!
+Ninguém viu.
+Nadie vio nada.
+hahaha!
+¡jajaja!
+fácil demais
+demasiado fácil
+grrr!
+¡grrr!
+socorro!
+¡socorro!
+boa!
+¡bien!
+foi mal!
+¡perdón!
+pegou fogo!
+¡en llamas!
+já era!
+¡se acabó!
+bom jogo!
+¡buen juego!
+na mosca!
+¡en el blanco!
+acorda!
+¡despierta!
+que sorte!
+¡qué suerte!
+chorei!
+¡lloré!
+vamos!
+¡vamos!
+respeito!
+¡respeto!
+anda logo!
+¡apúrate!
+isso aí!
+¡eso es!
+agressivo: empilha Dano +%
+agresivo: acumula Daño +%
+preciso: erra menos
+preciso: falla menos
+sorrateiro: some quando apanha
+sigiloso: desaparece al recibir golpes
+apressado: atira rápido
+apresurado: dispara rápido
+teimoso: nunca se cura
+terco: nunca se cura
+REAÇÃO EM CADEIA!
+¡REACCIÓN EN CADENA!
+BARRIL!
+¡BARRIL!
+BUUUM!
+¡BUUUM!
+BÉÉÉ-BUM!
+¡BEEE-BUM!
+MINA!
+¡MINA!
+Sentinela destruída!
+¡Centinela destruido!
+pisou nos espinhos
+pisó las espinas
+mina falhou!
+¡la mina falló!
+Rastro de fogo no chão!
+¡Rastro de fuego en el suelo!
+queimado no fogo
+quemado en el fuego
+abatido pela sentinela
+abatido por un centinela
+A sentinela de {0} atirou em {1}
+El centinela de {0} disparó a {1}
+Um GALÃO EXPLOSIVO está caindo!
+¡Un BARRIL EXPLOSIVO está cayendo!
+Uma MINA está caindo!
+¡Una MINA está cayendo!
+Uma caixa de suprimento está caindo!
+¡Una caja de suministros está cayendo!
++{0} {1} (agora {2})
++{0} {1} (ahora {2})
+{0} pegou {1}
+{0} recogió {1}
+curado do {0}
+curado de {0}
+{0} abriu uma ARMADILHA!
+¡{0} abrió una TRAMPA!
+BÉÉ!
+¡BEEE!
+TIMES
+EQUIPOS
+TxT = todos contra todos
+TcT = todos contra todos
+DIFICULDADE DOS BOTS
+DIFICULTAD DE LOS BOTS
+equip. dos bots {0}
+equipo de bots {0}
+{0} lutadores, cada um por si
+{0} luchadores, cada uno por su cuenta
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+Teclado: flechas caminan y apuntan · ESPACIO mantén y suelta para disparar · J salta · P pasa · F especial · V vista general · Esc pausa
+JOGAR
+JUGAR
+Aleatório
+Aleatorio
+FECHADO + TETO
+CERRADO + TECHO
+FECHADO
+CERRADO
+ABERTO
+ABIERTO
+sorteia entre {0}
+sortea entre {0}
+toque para ver todos
+toca para ver todos
+TETO
+TECHO
+Sorte
+Suerte
+Defesa
+Defensa
+Agilidade
+Agilidad
+ARMA VERDADEIRA
+ARMA VERDADERA
+Contra a IA o seu equipamento conta.
+Contra la IA, tu equipo cuenta.
+TROCAR
+CAMBIAR
+dano {0}%
+daño {0}%
+raio {0}%
+radio {0}%
+A água começa a subir em 3 turnos!
+¡El agua empieza a subir en 3 turnos!
+MORTE SÚBITA: a água subiu!
+MUERTE SÚBITA: ¡el agua subió!
+MORTE SÚBITA! A água sobe a cada turno
+¡MUERTE SÚBITA! El agua sube cada turno
+O vento VIROU para {0}
+El viento CAMBIÓ hacia {0}
+a direita
+la derecha
+a esquerda
+la izquierda
+{0} joga DE NOVO (pouco atraso)!
+¡{0} juega DE NUEVO (poco retraso)!
+Tempo Extra: +15 s nesta vez
+Tiempo Extra: +15 s en este turno
+CORAGEM: último do time causa +15% de dano!
+CORAJE: ¡el último del equipo causa +15% de daño!
+{0} está congelado!
+¡{0} está congelado!
+{0} PRONTA! (botão roxo)
+¡{0} LISTA! (botón morado)
+{0} pronta! (botão verde)
+¡{0} lista! (botón verde)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+Tienes una FURIA PRESTADA: ¡toca el orbe!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+¡FURIA LISTA! Toca el orbe para armar el especial
+Rodada {0}: {1} liberado!
+Ronda {0}: ¡{1} desbloqueado!
+{0} passou a vez
+{0} pasó el turno
+RÁPIDO! (joga antes)
+¡RÁPIDO! (juega primero)
+pino fora!
+¡anilla fuera!
+DUELO FINAL!
+¡DUELO FINAL!
+Só falta 1 rival!
+¡Solo queda 1 rival!
+Você é o último do time!
+¡Eres el último de tu equipo!
+PRIMEIRO SANGUE: {0}
+PRIMERA SANGRE: {0}
+VINGANÇA! {0} vingou {1}
+¡VENGANZA! {0} vengó a {1}
+EM CHAMAS!
+¡EN LLAMAS!
+IMPARÁVEL!
+¡IMPARABLE!
+DOMINANDO!
+¡DOMINANDO!
+LENDÁRIO!
+¡LEGENDARIO!
+DIVINO!
+¡DIVINO!
+{0}  {1} ({2} abates)
+{0} {1} ({2} bajas)
+FOGO AMIGO: {0} derrubou {1}
+FUEGO AMIGO: {0} derribó a {1}
+Tempo esgotado
+Se acabó el tiempo
+PEGOU NO AR!
+¡ATRAPADO EN EL AIRE!
+BUM!
+¡BUM!
+{0} causou {1} de dano
+{0} causó {1} de daño
+Fúria desarmada
+Furia desarmada
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: la furia está en {1}% (causa y recibe daño)
+Fúria: {0} — {1}
+Furia: {0} — {1}
+Aguia
+Aguila
+Ourico
+Erizo
+Jacare
+Caiman
+Tubarao
+Tiburon
+Coelho
+Conejo
+Forte
+Fuerte
+Lendario
+Legendario
+Boneco {0}
+Muñeco {0}
+ TxT
+ TcT
+BONECOS
+MUÑECOS
+TIME AZUL
+EQUIPO AZUL
+TIME VERMELHO
+EQUIPO ROJO
+OS HUMANOS VENCERAM!
+¡LOS HUMANOS GANARON!
+OS BOTS VENCERAM
+LOS BOTS GANARON
+TIME {0} VENCEU!
+¡EL EQUIPO {0} GANÓ!
+VERMELHO
+ROJO
+{0} VENCEU!
+¡{0} GANÓ!
+JOGAR DE NOVO
+JUGAR OTRA VEZ
+PRÓXIMA LUTA ({0}/3)
+PRÓXIMA PELEA ({0}/3)
+FIM DO TORNEIO
+FIN DEL TORNEO
+Cristais dobrados!
+¡Cristales duplicados!
+Cristais x2
+Cristales x2
+XP dobrado!
+¡XP duplicada!
+Anúncio indisponível: sem prêmio desta vez
+Anuncio no disponible: sin premio esta vez
+ESCOLHA UMA CARTA!
+¡ELIGE UNA CARTA!
+vitória! vire uma carta para ganhar um prêmio extra
+¡victoria! voltea una carta para ganar un premio extra
+PASSE O APARELHO
+PASA EL DISPOSITIVO
+Vez de {0}
+Turno de {0}
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  vida {1} / {2}  ·  furia {3}%
+time {0}
+equipo {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+Quien jugó antes: no espíes · el reloj solo corre después de ESTOY LISTO
+ESTOU PRONTO
+ESTOY LISTO
+DICA {0}/{1}
+CONSEJO {0}/{1}
+PULAR DICAS
+SALTAR CONSEJOS
+ENTENDI
+ENTENDIDO
+PRÓXIMA
+SIGUIENTE
+Jogo local: sem prêmio nem estatística
+Juego local: sin premios ni estadísticas
+TREINO · sem prêmio
+ENTRENAMIENTO · sin premio
+(NÍVEL {0}!)
+(¡NIVEL {0}!)
++{0} cristais
++{0} cristales
++{0} cristais pelo nível
++{0} cristales por el nivel
+TREVO DA SORTE!
+¡TRÉBOL DE LA SUERTE!
+BÊNÇÃO DIVINA!
+¡BENDICIÓN DIVINA!
+PERFEITA +{0}
+PERFECTA +{0}
+1ª VITÓRIA DO DIA +{0}
+1ª VICTORIA DEL DÍA +{0}
+MAPA DO DIA +{0}
+MAPA DEL DÍA +{0}
+VOLTA POR CIMA +{0}
+REMONTADA +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+¡CAMPEÓN DEL TORNEO! +{0} cristales +3 piedras +1 trébol
+RECORDE de tiro: {0}!
+¡RÉCORD de tiro: {0}!
+RECORDE de dano: {0}!
+¡RÉCORD de daño: {0}!
+NÍVEL {0}!
+¡NIVEL {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+NIVEL {0}  ·  {1} / {2} XP
+missões prontas: {0}
+misiones listas: {0}
+conquistas para coletar: {0}
+logros por recoger: {0}
+Novo: {0} disponível!
+Nuevo: ¡{0} disponible!
+faltou {0} m
+faltaron {0} m
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+CAMINA con los botones de flecha (gasta energía). Puedes subir desniveles bajos.
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+CAMBIA EL ÁNGULO con los botones de arriba y abajo. La flecha muestra la dirección del tiro.
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+MANTÉN para dar FUERZA y SUELTA para disparar. ¡Mira el VIENTO arriba!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+HERRAMIENTAS: solo UNA de +1, +2 o 3 Disparos a la vez (3 Disparos + +1 = combo de 6 balas); Daño +% se suma con todo (gastan energía).
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+Llena la FURIA dando y recibiendo daño y toca el orbe: ¡ESPECIAL!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+Toca 2 veces el mapa: ves todo el campo. Toca un animal: ves su ficha. ¡Las caídas altas quitan vida! ¡Buena batalla!
+Mire com as setas e SEGURE o botão de ataque para atirar
+Apunta con las flechas y MANTÉN el botón de ataque para disparar
+Acerte um boneco (olhe o VENTO lá em cima)
+Acierta a un muñeco (mira el VIENTO arriba)
+Use uma ferramenta da coluna da esquerda
+Usa una herramienta de la columna izquierda
+Pegue uma caixa (ande até ela ou acerte quando cair)
+Recoge una caja (camina hasta ella o dispárale cuando caiga)
+Feito!
+¡Hecho!
+Você já sabe o básico!
+¡Ya sabes lo básico!
+do dia: {0} +50%
+del día: {0} +50%
+DO DIA +50%
+DEL DÍA +50%
+{0} vit.
+{0} vic.
+1ª partida com dicas
+1ª partida con consejos
+boneco de novo!
+¡muñeco otra vez!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+10 mazmorras con jefes, 4 dificultades y estrellas. Premios: cristales, piedras, trébol y bendición.
+TORNEIO
+TORNEO
+TREINO
+ENTRENAMIENTO
+Missões
+Misiones
+Conquistas
+Logros
+Compre na tela Animais por {0} cristais
+Cómpralo en la pantalla Animales por {0} cristales
+Seu
+Tuyo
+ESCOLHER
+ELEGIR
+{0} vitórias em {1} partidas
+{0} victorias en {1} partidas
+renovam em {0}h {1}
+se renuevan en {0}h {1}
+complete as 3 para chance de Trevo
+completa las 3 para tener opción a Trébol
+prêmio: +{0} cristais · +1 pedra
+premio: +{0} cristales · +1 piedra
+FEITA
+HECHA
+COLETAR
+RECOGER
+em andamento
+en curso
+TORNEIO DO DIA
+TORNEO DEL DÍA
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+3 peleas 1x1 seguidas contra bots cada vez más fuertes · si pierdes, reinicias desde la pelea 1 · gana las 3 para el premio
+que erra um pouco
+que falla un poco
+que quase não erra
+que casi nunca falla
+de mira perfeita
+de puntería perfecta
+LUTA {0}  ·  {1}
+PELEA {0} · {1}
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+PREMIO al ganar las 3: +{0} cristales  +3 piedras de fuerza  +1 Trébol
+campeão {0} vez(es)
+campeón {0} vez(ces)
+o prêmio sai 1 vez por dia
+el premio se entrega 1 vez al día
+Você já jogou o torneio de hoje - ele volta amanhã!
+Ya jugaste el torneo de hoy - ¡vuelve mañana!
+Seu animal: {0}  (troque na tela Animais)
+Tu animal: {0}  (cámbialo en la pantalla Animales)
+VOLTA AMANHÃ
+VUELVE MAÑANA
+COMEÇAR A LUTA 1
+EMPEZAR LA PELEA 1
+Rever as dicas na próxima partida
+Volver a ver los consejos en la próxima partida
+SOR
+SUE
+FERREIRO
+HERRERO
+ARMEIRO
+ARMERO
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+Cada animal tiene SUS PROPIAS mejoras. El fallo solo gasta las piedras - el objeto nunca empeora.
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+Vale en Contra IA, Torneo y Mazmorra · en Local todos quedan iguales · la apariencia vale en todos los modos
+{0} no máximo do tier {1} (+12)
+{0} al máximo del tier {1} (+12)
+compre {0} no Armeiro
+compra {0} en el Armero
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+ÉXITO {0}%  ·  FALLO {1}%  ·  costo {2} (tienes {3})
++{0}% pelas falhas
++{0}% por los fallos
+Trevo ({0})
+Trébol ({0})
+-20% de falha
+-20% de fallo
+Bênção ({0})
+Bendición ({0})
+nunca falha
+nunca falla
+APRIMORAR
+MEJORAR
+SUCESSO! +{0}
+¡ÉXITO! +{0}
+FALHOU…
+FALLÓ…
++{0}% na próxima pelas falhas
++{0}% en la próxima por los fallos
+Faltam pedras: {0}
+Faltan piedras: {0}
+custo {0} · tem {1}
+costo {0} · tienes {1}
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+Piedras: victorias, cartas, misiones y el Cofre del Herrero (Armero).
+FORMA máxima: DEUS 3
+FORMA máxima: DIOS 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+faltan {0} objetos en {1} para la próxima forma (la forma sigue al objeto de tier más bajo)
+EQUIPAMENTO
+EQUIPAMIENTO
+MATERIAIS
+MATERIALES
+precisa +12 (está +{0})
+necesita +12 (está en +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+Llévalo a +12 en el Herrero primero
+NOVA FORMA: {0}!
+¡NUEVA FORMA: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+Solo se cambia de tier con el objeto en +12. El nuevo tier empieza en +0 y mejora con su propia piedra. Los 4 en el mismo tier cambian la forma.
+ESTATÍSTICAS
+ESTADÍSTICAS
+GERAL
+GENERAL
+CARREIRA
+CARRERA
+Vitórias
+Victorias
+Melhor sequência
+Mejor racha
+Abates
+Bajas
+Dano total
+Daño total
+Maior dano num tiro
+Mayor daño en un tiro
+Precisão
+Precisión
+Vitórias perfeitas
+Victorias perfectas
+Mais dano numa partida
+Más daño en una partida
+Tiros longos · vinganças
+Tiros largos · venganzas
+Partidas hoje
+Partidas hoy
+Fúrias
+Furias
+Caixas
+Cajas
+Ferramentas
+Herramientas
+Suporte
+Soporte
+Quedas
+Caídas
+Multi-acertos
+Multigolpes
+NA MOSCA
+EN EL BLANCO
+Passou
+Pases
+Torneios vencidos
+Torneos ganados
+Nível
+Nivel
+CONQUISTAS {0}/{1}
+LOGROS {0}/{1}
+COLETAR TODAS ({0})
+RECOGER TODOS ({0})
+{0} conquistas: +{1} cristais
+{0} logros: +{1} cristales
+(masmorra)
+(mazmorra)
+toque: +{0} cristais
+toca: +{0} cristales
+Bronze
+Bronce
+Prata
+Plata
+Ouro
+Oro
+Platina
+Platino
+cada um por si (+ bots, se quiser)
+cada quien por su cuenta (+ bots, si quieres)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (los bots completan)
+todos juntos contra o PC
+todos juntos contra la PC
+Jogador {0}
+Jugador {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKLÑZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+Cada uno juega en su turno y pasa el dispositivo  ·  atributos IGUALES para todos  ·  sin premios ni ranking
+JOGADORES
+JUGADORES
+TAMANHO
+TAMAÑO
+BOTS EXTRAS
+BOTS EXTRA
+DIFICULDADE
+DIFICULTAD
+sem bots
+sin bots
+Toque no NOME para trocar e no ANIMAL para escolher
+Toca el NOMBRE para cambiarlo y el ANIMAL para elegir
+no TIME para mudar de lado
+el EQUIPO para cambiar de lado
+pode repetir animal
+se puede repetir animal
+Mapa aleatório
+Mapa aleatorio
+{0} TODOS CONTRA TODOS
+{0} TcT
+{0} no aparelho
+{0} en el dispositivo
+COMEÇAR
+EMPEZAR
+NOME DO JOGADOR {0}  (até 12 letras)
+NOMBRE DEL JUGADOR {0} (hasta 12 letras)
+vazio = Jogador {0}
+vacío = Jugador {0}
+APAGAR
+BORRAR
+ESPAÇO
+ESPACIO
+Compre mais animais na tela ANIMAIS
+Compra más animales en la pantalla ANIMALES
++dano dos tiros
++daño de los tiros
++chance de crítico
++probabilidad de crítico
+-dano recebido
+-daño recibido
++energia e joga antes
++energía y juega antes
+Pedra de força
+Piedra de fuerza
+Pedra de ferro
+Piedra de hierro
+Pedra de aço
+Piedra de acero
+Pedra mítica
+Piedra mítica
+Pedra lendária
+Piedra legendaria
+5 Pedras de Força
+5 Piedras de Fuerza
+20 Pedras de Força
+20 Piedras de Fuerza
+Baú do Ferreiro
+Cofre del Herrero
+aprimora itens de MADEIRA no Ferreiro
+mejora objetos de MADERA con el Herrero
+pacote grande: 4 pedras de brinde
+paquete grande: 4 piedras de regalo
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+3 a 6 piedras del MISMO tipo, elegido al azar (Fuerza 60% · Hierro 25% · Acero 10% · Mítica 4% · Legendaria 1%) · posibilidad de Trébol (5%) y Bendición (0,5%)
++5 pedras de força
++5 piedras de fuerza
++20 pedras de força
++20 piedras de fuerza
+BÊNÇÃO!
+¡BENDICIÓN!
+TREVO!
+¡TRÉBOL!
+Vença {0} partidas
+Gana {0} partidas
+Cause {0} de dano
+Causa {0} de daño
+Acerte {0} tiros
+Acierta {0} tiros
+Use a Fúria {0} vezes
+Usa la Furia {0} veces
+Pegue {0} caixas de suprimento
+Recoge {0} cajas de suministros
+Derrote {0} inimigos
+Derrota a {0} enemigos
+Vença {0} masmorra
+Supera {0} mazmorra
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+Usa {0} veces 3 Disparos/+1/+2/Daño+%
+Derrube rivais de muito alto {0} vezes
+Derriba rivales desde muy alto {0} veces
+Consiga {0} vitória perfeita
+Consigue {0} victoria perfecta
+Faça {0} tiros rápidos (<5 s)
+Haz {0} tiros rápidos (<5 s)
+Acerte 2+ rivais num só tiro {0} vezes
+Acierta a 2+ rivales con un solo tiro {0} veces
+Acerte {0} tiros longos
+Acierta {0} tiros largos
+Vença {0} vez no mapa do dia
+Gana {0} vez en el mapa del día
+Jogue {0} partidas
+Juega {0} partidas
+Vença {0} partidas em time (2x2+)
+Gana {0} partidas en equipo (2x2+)
+Faça {0} vingança
+Consigue {0} venganza
+Cause 600+ de dano em {0} partida
+Causa 600+ de daño en {0} partida
+Use o PASSAR {0} vezes
+Usa PASAR {0} veces
+Acerte {0} críticos
+Acierta {0} críticos
+Derrote {0} monstros na masmorra
+Derrota a {0} monstruos en la mazmorra
+Vença {0} partida no Todos x Todos
+Gana {0} partida en Todos contra Todos
+Vença {0} partida no Difícil+
+Gana {0} partida en Difícil+
+Jogue {0} partida online
+Juega {0} partida online
+Cause {0} de dano na masmorra
+Causa {0} de daño en la mazmorra
+Acerte {0} tiros NA MOSCA
+Acierta {0} tiros EN EL BLANCO
+Use {0} ferramentas do Arsenal
+Usa {0} herramientas del Arsenal
+Use {0} itens de suporte
+Usa {0} objetos de soporte
+Use {0} habilidades
+Usa {0} habilidades
+Coloque {0} vigas
+Coloca {0} vigas
+Primeiro sangue
+Primera Sangre
+Lenda da Arena
+Leyenda de la Arena
+Atirador
+Tirador
+Demolidor
+Demoledor
+Tiro perfeito
+Tiro perfecto
+Caçador de chefes
+Cazador de jefes
+Ferreiro mestre
+Herrero maestro
+Nível 20
+Nivel 20
+Centenário
+Centenario
+Imperador
+Emperador
+Olho de águia
+Ojo de águila
+Apocalipse
+Apocalipsis
+Imparável
+Imparable
+Ceifador
+Segador
+Franco-atirador
+Francotirador
+Vingador
+Vengador
+Mestre do modo
+Maestro del modo
+Colecionador
+Coleccionista
+Imortal
+Inmortal
+Atirador de elite
+Tirador de élite
+Destruidor
+Destructor
+Golpe lendário
+Golpe legendario
+Sempre perfeito
+Siempre perfecto
+Lenda das masmorras
+Leyenda de las mazmorras
+Campeão do torneio
+Campeón del torneo
+Rei do mapa do dia
+Rey del mapa del día
+Desbravador
+Pionero
+Senhor das masmorras
+Señor de las mazmorras
+Enciclopédia
+Enciclopedia
+Rei da Fúria
+Rey de la Furia
+Caçador de caixas
+Cazador de cajas
+Mestre das ferramentas
+Maestro de herramientas
+Derrubador
+Derribador
+Chuva de golpes
+Lluvia de golpes
+Estrategista
+Estratega
+Quebra-aço
+Rompeacero
+Guardião do céu
+Guardián del cielo
+Quebra-gelo
+Rompehielos
+Caça-piratas
+Cazapiratas
+Ás dos céus
+As de los cielos
+Fim do caos
+Fin del caos
+Matador de dragões
+Matador de dragones
+Senhor do vazio
+Señor del vacío
+Mestre das habilidades
+Maestro de habilidades
+Engenheiro
+Ingeniero
+Constelação
+Constelación
+Céu estrelado
+Cielo estrellado
+Escavador
+Excavador
+Granadeiro
+Granadero
+Chuva de granadas
+Lluvia de granadas
+Sapador
+Zapador
+Piloto de caça
+Piloto de caza
+Britador
+Perforador
+Vença 1 partida
+Gana 1 partida
+Jogue 50 partidas
+Juega 50 partidas
+Vença 100 partidas
+Gana 100 partidas
+Acerte 200 tiros
+Acierta 200 tiros
+Cause 50.000 de dano
+Causa 50.000 de daño
+Cause 800 de dano num só tiro
+Causa 800 de daño en un solo tiro
+Vença 5 seguidas
+Gana 5 seguidas
+Derrote 100 inimigos
+Derrota a 100 enemigos
+Vença a 1ª masmorra
+Supera la 1ª mazmorra
+Vença as 4 masmorras
+Supera las 4 mazmorras
+Aprimore um item até +10
+Mejora un objeto hasta +10
+Chegue ao nível 20
+Llega al nivel 20
+Jogue 200 partidas
+Juega 200 partidas
+Vença 300 partidas
+Gana 300 partidas
+Acerte 1000 tiros
+Acierta 1000 tiros
+Cause 250.000 de dano
+Causa 250.000 de daño
+Cause 1200 num só tiro
+Causa 1200 en un solo tiro
+Vença 10 seguidas
+Gana 10 seguidas
+Derrote 500 inimigos
+Derrota a 500 enemigos
+10 vitórias perfeitas
+10 victorias perfectas
+50 tiros longos
+50 tiros largos
+20 vinganças
+20 venganzas
+Chegue ao nível 40
+Llega al nivel 40
+Vença com 10 animais diferentes
+Gana con 10 animales distintos
+Jogue 500 partidas
+Juega 500 partidas
+Vença 20 seguidas
+Gana 20 seguidas
+Acerte 3000 tiros
+Acierta 3000 tiros
+Cause 1.000.000 de dano
+Causa 1.000.000 de daño
+Cause 1500 num só tiro
+Causa 1500 en un solo tiro
+Derrote 1500 inimigos
+Derrota a 1500 enemigos
+50 vitórias perfeitas
+50 victorias perfectas
+Vença em 10 mapas diferentes
+Gana en 10 mapas distintos
+Vença com 18 animais diferentes
+Gana con 18 animales distintos
+Vença uma masmorra no Lendário
+Supera una mazmorra en Legendario
+Vença o Torneio do Dia
+Gana el Torneo del Día
+Vença 10 vezes no mapa do dia
+Gana 10 veces en el mapa del día
+Vença 6 masmorras diferentes
+Supera 6 mazmorras distintas
+Vença as 10 masmorras
+Supera las 10 mazmorras
+Descubra 15 monstros no bestiário
+Descubre 15 monstruos en el bestiario
+Descubra todos os monstros
+Descubre todos los monstruos
+Use a Fúria 100 vezes
+Usa la Furia 100 veces
+Pegue 100 caixas
+Recoge 100 cajas
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+Usa 500 veces 3 Disparos/+1/+2/Daño+%
+Derrube 50 rivais de muito alto
+Derriba a 50 rivales desde muy alto
+Faça 100 tiros rápidos (<5 s)
+Haz 100 tiros rápidos (<5 s)
+Acerte 2+ rivais num tiro 50 vezes
+Acierta a 2+ rivales con un tiro 50 veces
+Use o PASSAR 50 vezes
+Usa PASAR 50 veces
+Acerte 200 críticos
+Acierta 200 críticos
+Vença o Ninho das Bombas
+Supera el Nido de Bombas
+Vença a Fortaleza de Aço
+Supera la Fortaleza de Acero
+Vença o Templo Sombrio
+Supera el Templo Sombrío
+Vença o Santuário Celeste
+Supera el Santuario Celestial
+Vença o Pico Congelado
+Supera el Pico Congelado
+Vença o Estaleiro Pirata
+Supera el Astillero Pirata
+Vença o Céu de Guerra
+Supera el Cielo de Guerra
+Vença o Trono do Caos
+Supera el Trono del Caos
+Vença o Covil do Dragão
+Supera la Guarida del Dragón
+Vença o Trono do Vazio
+Supera el Trono del Vacío
+Use 100 habilidades
+Usa 100 habilidades
+Coloque 50 vigas
+Coloca 50 vigas
+Tire 3 estrelas numa masmorra
+Consigue 3 estrellas en una mazmorra
+Junte 30 estrelas nas masmorras
+Junta 30 estrellas en las mazmorras
+Cave 20 túneis/poços
+Cava 20 túneles/pozos
+Voe de jetpack 15 vezes
+Vuela con el jetpack 15 veces
+Use a corda ninja 15 vezes
+Usa la cuerda ninja 15 veces
+Exploda 15 dinamites
+Detona 15 dinamitas
+Solte 15 ovelhas
+Suelta 15 ovejas
+Arremesse 30 granadas
+Lanza 30 granadas
+Use 8 cachos de granadas
+Usa 8 racimos de granadas
+Plante 15 minas
+Coloca 15 minas
+Chame 6 ataques aéreos
+Pide 6 ataques aéreos
+Use a Britadeira 10 vezes
+Usa el Martillo Neumático 10 veces
++1 Trevo
++1 Trébol
+TREVO
+TRÉBOL
+BÊNÇÃO
+BENDICIÓN
+FERRO
+HIERRO
+AÇO
+ACERO
+LENDÁRIA
+LEGENDARIA
+INIMIGOS
+ENEMIGOS
+ELITE
+ÉLITE
+CHEFE
+JEFE
+Sair agora encerra a masmorra sem prêmio.
+Salir ahora termina la mazmorra sin premio.
+chefe derrotado
+jefe derrotado
+parou no chefe
+se detuvo en el jefe
+onda {0}/2
+oleada {0}/2
+venceu
+ganaste
+sem baixas
+sin bajas
+teve baixa
+hubo una baja
+não
+no
+até {0} turnos
+en {0} turnos o menos
+3 estrelas pela 1ª vez: +{0} cristais
+3 estrellas por 1ª vez: +{0} cristales
+novo recorde de estrelas!
+¡nuevo récord de estrellas!
+PONTO FRACO!
+¡PUNTO DÉBIL!
+BLOQUEADO - acerte de cima
+BLOQUEADO - acierta desde arriba
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+2ª FORMA: ¡el Tanque se convirtió en PORTATANQUES!
+restam {0}
+quedan {0}
+ONDA {0}/2
+OLEADA {0}/2
+avança...
+avanza...
+arremessa...
+lanza...
+chama os lacaios...
+llama a los esbirros...
+está mirando...
+está apuntando...
+defesa {0}  (leva -{1}%)
+defensa {0}  (recibe -{1}%)
+ELITE: +50% vida, +20% dano · 
+ÉLITE: +50% de vida, +20% de daño · 
+ENFURECIDO: +20% dano · 
+ENFURECIDO: +20% de daño · 
+anda até você e bate de perto{0}
+se acerca y golpea de cerca{0}
+ (explode!)
+ (¡explota!)
+cura os aliados - derrube primeiro
+cura a los aliados - derríbalo primero
+atira de longe
+dispara de lejos
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+OLEADA {0} SUPERADA · {1} derribos · {2} de daño · +{3} de vida
+NOVO no bestiário: {0}
+NUEVO en el bestiario: {0}
+Onda {0}: 
+Oleada {0}: 
+ONDA {0} de 2: {1} inimigos!
+¡OLEADA {0} de 2: {1} enemigos!
+({0} elite)
+({0} élite)
+ONDA {0} DE 2 - {1} INIMIGOS
+OLEADA {0} DE 2 - {1} ENEMIGOS
+OS SENHORES DO CAOS!
+¡LOS SEÑORES DEL CAOS!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+¡HECHICERO y CABALLERO juntos! Derriba al Hechicero antes de que cure al otro
+CHEFE: {0}
+JEFE: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+¡El DRAGÓN ANCESTRAL despertó! Cada 3 turnos el tiro quema y cada 4 llueve fuego
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+¡El REY DEL VACÍO llegó! Armadura cada 3 turnos y llama a un esbirro ÉLITE
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+¡El SEÑOR DEL HIELO llegó! Cada 3 turnos su tiro congela
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+¡El ACORAZADO llegó! Dispara 3 balas a la vez - sepárense
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+¡El DIRIGIBLE COLOSAL llegó! Cada 4 turnos bombardea a todos
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+¡El TANQUE COLOSAL llegó! La barrera solo cede ante tiros que caen DESDE ARRIBA
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+¡El HECHICERO SOMBRÍO llegó! Mata primero a los curanderos
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+¡El CABALLERO SOMBRÍO llegó! Ataca cuando caiga la armadura
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+¡El REY BOMBA llegó! Apunta a la CABEZA (punto débil)
+Ritual de cura!
+¡Ritual de curación!
+Lacaios, ataquem!
+¡Esbirros, al ataque!
+{0} ENFURECEU! (+20% de dano)
+¡{0} SE ENFURECIÓ! (+20% de daño)
+O CHEFE ENFURECEU!
+¡EL JEFE SE ENFURECIÓ!
+ARMADURA NEGRA!
+¡ARMADURA NEGRA!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+El Caballero alzó la armadura (-50% por 2 turnos)
+NEVASCA!
+¡VENTISCA!
+CHUVA DE FOGO!
+¡LLUVIA DE FUEGO!
+BOMBARDEIO!
+¡BOMBARDEO!
+FURIOSO!
+¡FURIOSO!
+bravo
+enojado
+CHEFE  ·  {0}
+JEFE  ·  {0}
+toque para pular
+toca para saltar
+o tempo acabou
+se acabó el tiempo
+Faltam 5 turnos: {0} vai desabar!
+Quedan 5 turnos: ¡{0} se va a derrumbar!
+ELITE derrotado por {0} (+20 de fúria)
+ÉLITE derrotado por {0} (+20 de furia)
+{0} deixou cair uma caixa!
+¡{0} dejó caer una caja!
+fugiu!
+¡huyó!
+{0} caiu! Os lacaios fugiram!
+¡{0} cayó! ¡Los esbirros huyeron!
+Bombinha
+Bombita
+Lança-Bombas
+Lanzabombas
+Brutamontes
+Bruto
+REI BOMBA
+REY BOMBA
+Viking
+Vikingo
+TANQUE COLOSSAL
+TANQUE COLOSAL
+Curandeiro
+Curandero
+FEITICEIRO SOMBRIO
+HECHICERO SOMBRÍO
+Motosserra
+Motosierra
+CAVALEIRO SOMBRIO
+CABALLERO SOMBRÍO
+Lenhador
+Leñador
+Ninja do Gelo
+Ninja de Hielo
+LORDE DO GELO
+SEÑOR DEL HIELO
+Caminhão Viking
+Camión Vikingo
+ENCOURAÇADO PIRATA
+ACORAZADO PIRATA
+Dirigível
+Dirigible
+Caça
+Caza
+Encapuzada
+Encapuchada
+DIRIGÍVEL COLOSSAL
+DIRIGIBLE COLOSAL
+DRAGÃO ANCESTRAL
+DRAGÓN ANCESTRAL
+REI DO VAZIO
+REY DEL VACÍO
+anda até você e EXPLODE
+se acerca y EXPLOTA
+atira bombas de longe
+lanza bombas de lejos
+lento, muito resistente
+lento, muy resistente
+ponto fraco na cabeça · invoca lacaios
+punto débil en la cabeza · invoca esbirros
+corre e ataca de perto
+corre y ataca de cerca
+blindado: aguenta muito
+blindado: aguanta mucho
+barreira: acerte DE CIMA · 2ª forma
+barrera: acierta DESDE ARRIBA · 2ª forma
+pedra viva: forte de perto
+roca viva: fuerte de cerca
+se cura · tiros envenenam
+se cura · sus tiros envenenan
+magia de longe
+magia de lejos
+REGENERA a cada vez
+se REGENERA cada turno
+serra de perto, dano alto
+sierra de cerca, daño alto
+ARMADURA a cada 3 vezes · chama magos
+ARMADURA cada 3 turnos · llama a magos
+machado de perto, resistente
+hacha de cerca, resistente
+atira estrelas de longe
+lanza estrellas de lejos
+a cada 3 vezes o tiro CONGELA
+cada 3 turnos el tiro CONGELA
+corre e golpeia de perto
+corre y golpea de cerca
+canhão de longe, blindado
+cañón de lejos, blindado
+avança e atropela de perto
+avanza y arrolla de cerca
+sempre atira 3 balas de canhão
+siempre dispara 3 balas de cañón
+bombardeia do alto
+bombardea desde el aire
+rápido, atira de longe
+rápido, dispara de lejos
+cura os aliados · derrube primeiro
+cura a los aliados · derríbala primero
+a cada 4 vezes BOMBARDEIA todo mundo
+cada 4 turnos BOMBARDEA a todos
+muito rápida, ataca de perto
+muy rápida, ataca de cerca
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+cada 3 turnos el tiro quema · cada 4 LLUVIA DE FUEGO
+armadura a cada 3 · veneno · chama ELITE
+armadura cada 3 · veneno · llama a ÉLITE
+NINHO DAS BOMBAS
+NIDO DE BOMBAS
+FORTALEZA DE AÇO
+FORTALEZA DE ACERO
+TEMPLO SOMBRIO
+TEMPLO SOMBRÍO
+SANTUÁRIO CELESTE
+SANTUARIO CELESTIAL
+ESTALEIRO PIRATA
+ASTILLERO PIRATA
+CÉU DE GUERRA
+CIELO DE GUERRA
+TRONO DO CAOS
+TRONO DEL CAOS
+COVIL DO DRAGÃO
+GUARIDA DEL DRAGÓN
+TRONO DO VAZIO
+TRONO DEL VACÍO
+Ondas: Bombinhas que explodem, Lança-Bombas
+Oleadas: Bombitas que explotan, Lanzabombas
+e Brutamontes. Chefe: REI BOMBA
+y Brutos. Jefe: REY BOMBA
+Ondas: Vikings, Blindados e Lança-Bombas.
+Oleadas: Vikingos, Blindados y Lanzabombas.
+Chefe: TANQUE COLOSSAL
+Jefe: TANQUE COLOSAL
+barreira: acerte DE CIMA · tem 2ª forma
+barrera: acierta DESDE ARRIBA · tiene 2ª forma
+Ondas: Bandidos, Golens e Curandeiros.
+Oleadas: Bandidos, Golems y Curanderos.
+Chefe: FEITICEIRO SOMBRIO
+Jefe: HECHICERO SOMBRÍO
+se cura (mate os curandeiros) · veneno
+se cura (mata a los curanderos) · veneno
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+Oleadas: Magos, Bárbaros (se regeneran) y Motosierras.
+Chefe: CAVALEIRO SOMBRIO
+Jefe: CABALLERO SOMBRÍO
+armadura a cada 3 vezes · chama magos
+armadura cada 3 turnos · llama a magos
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+Oleadas: Leñadores y Ninjas de Hielo. piedra de ACERO
+Chefe: LORDE DO GELO
+Jefe: SEÑOR DEL HIELO
+a cada 3 vezes o tiro dele CONGELA
+cada 3 turnos su tiro CONGELA
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+Oleadas: Gladiadores, Camiones y Tanques. piedra de ACERO
+Chefe: ENCOURAÇADO PIRATA
+Jefe: ACORAZADO PIRATA
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+Oleadas: Cazas, Dirigibles y Encapuchadas (curan). MÍTICA
+Chefe: DIRIGÍVEL COLOSSAL
+Jefe: DIRIGIBLE COLOSAL
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+Oleadas: Sombras Veloces y Gladiadores. piedra MÍTICA
+Chefes: FEITICEIRO + CAVALEIRO juntos
+Jefes: HECHICERO + CABALLERO juntos
+dois chefes: cura, veneno e armadura
+dos jefes: curación, veneno y armadura
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+Oleadas: Bárbaros, Gladiadores y Ninjas. LEGENDARIA
+Chefe: DRAGÃO ANCESTRAL
+Jefe: DRAGÓN ANCESTRAL
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+Oleadas: Sombras, Magos y Encapuchadas. LEGENDARIA
+Chefe: REI DO VAZIO
+Jefe: REY DEL VACÍO
+Bênção da Força: +10% de dano
+Bendición de la Fuerza: +10% de daño
+Bênção da Fúria: começa com 25 de fúria
+Bendición de la Furia: empieza con 25 de furia
+Bênção do Arsenal: +1 uso de cada ferramenta
+Bendición del Arsenal: +1 uso de cada herramienta
+Bênção da Pedra: -15% de dano recebido
+Bendición de la Piedra: -15% de daño recibido
+Bênção da Vida: +20% de vida
+Bendición de la Vida: +20% de vida
+Bênção da Sorte: +8% de chance de crítico
+Bendición de la Suerte: +8% de probabilidad de crítico
+Bênção do Guia: +2 usos da mira guiada
+Bendición del Guía: +2 usos de la mira guiada
+Bênção do Escudo: começa com escudo
+Bendición del Escudo: empieza con escudo
+ e 
+ y 
+Vença os 2 anteriores{0}
+Supera las 2 anteriores{0}
+ainda não jogou
+aún no jugaste
+chegou ao chefe
+llegó al jefe
+onda {0}
+oleada {0}
+Recorde: {0}
+Récord: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+Premio: {0} cristales · {1} {2}-{3}
+chance de Trevo e Bênção
+probabilidad de Trébol y Bendición
+DIFICULDADE DOS MONSTROS
+DIFICULTAD DE LOS MONSTRUOS
+EQUIPE: só jogadores (sem bots)
+EQUIPO: solo jugadores (sin bots)
+Aqui você entra SOZINHO.
+Aquí entras SOLO.
+Lendário: vença as 4 primeiras masmorras
+Legendario: supera las 4 primeras mazmorras
+Monstros
+Monstruos
+ENTRAR NA MASMORRA
+ENTRAR A LA MAZMORRA
+MONSTROS DAS MASMORRAS · {0} / {1}
+MONSTRUOS DE LAS MAZMORRAS · {0} / {1}
+vida {0}   defesa {1}
+vida {0}   defensa {1}
+Enfrente-o numa masmorra para revelar
+Enfréntalo en una mazmorra para revelarlo
+masmorra
+mazmorra
+Masmorras
+Mazmorras
+Bestiário
+Bestiario
+VISUAL
+ASPECTO
+EM USO
+EN USO
+toque para usar
+toca para usar
+Rastro {0}!
+¡Estela {0}!
+Clássico
+Clásico
+Fogo
+Fuego
+Arco-íris
+Arcoíris
+Chiclete
+Chicle
+Neon
+Neón
+PRESENTE DIÁRIO
+REGALO DIARIO
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+Vuelve todos los días: el premio crece. Si faltas un día, vuelve al día 1.
+DIA {0}
+DÍA {0}
+COLETAR DIA {0}
+RECOGER DÍA {0}
+volte amanhã
+vuelve mañana
+{0} cristais
+{0} cristales
+2 pedras do seu nível
+2 piedras de tu nivel
+1 Trevo
+1 Trébol
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} cristales + 3 piedras de tu nivel + probabilidad de Bendición
+Dia {0}: {1}
+Día {0}: {1}
+10 masmorras · monstros e chefes
+10 mazmorras · monstruos y jefes
+você contra os bots · 1x1 a 4x4
+tú contra los bots · 1x1 a 4x4
+2 a 8 no mesmo aparelho
+2 a 8 en el mismo dispositivo
+cada um por si
+cada uno por su cuenta
+monte os times como quiser: 1x3, 2x4...
+arma los equipos como quieras: 1x3, 2x4...
+LUTADORES  {0}/{1}
+LUCHADORES  {0}/{1}
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+Toca el ANIMAL para elegirlo y el NOMBRE para cambiar quién lo controla (jugador o bot)
+animal sorteado
+animal al azar
+jogador {0}
+jugador {0}
+JOGADORES NO APARELHO
+JUGADORES EN EL DISPOSITIVO
+bots com o mesmo nível e força do jogador
+bots con el mismo nivel y fuerza que el jugador
+bots mais fortes que o jogador
+bots más fuertes que el jugador
+{0} não controla nenhum animal
+{0} no controla ningún animal
+Sorteado
+Al azar
+TIME VERDE
+EQUIPO VERDE
+TIME AMARELO
+EQUIPO AMARILLO
+TIME
+EQUIPO
+OUTROS TIMES
+OTROS EQUIPOS
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+Todos los jugadores ya están en otros equipos: usa + BOT o toca un nombre
+{0} mudou de time com todos os seus animais
+{0} cambió de equipo con todos sus animales
+{0} já está no {1}
+{0} ya está en el {1}
+na próxima vez
+en el próximo turno
+PADRÃO
+NORMAL
+SOMBRIA
+SOMBRÍA
+Em uso
+En uso
+Derrote {0} inimigos com este animal
+Derrota a {0} enemigos con este animal
+Vença {0} partidas com este animal
+Gana {0} partidas con este animal
+Vença a masmorra {0} no Normal (ou mais) com este animal
+Supera la mazmorra {0} en Normal (o más) con este animal
+Acerte {0} tiros NA MOSCA com este animal
+Acierta {0} tiros EN EL BLANCO con este animal
+Cause {0} de dano num só tiro com este animal
+Causa {0} de daño en un solo tiro con este animal
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+Gana {0} partidas Contra IA en Difícil o Legendario con este animal
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+Supera la mazmorra {0} en Difícil (o más) con este animal
+Cumpra a missão para liberar a compra
+Cumple la misión para desbloquear la compra
+Compre o animal para usar skins
+Compra el animal para usar skins
+Liberada!
+¡Desbloqueada!
+Skin {0} comprada!
+¡Skin {0} comprada!
+Não foi possível comprar
+No se pudo comprar
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+La skin aparece en las partidas y combina con la forma del equipo. Los bots también usan skins.
+Skin liberada: {0} {1}!
+¡Skin desbloqueada: {0} {1}!
+Compre na tela Skins por {0} cristais
+Cómprala en la pantalla Skins por {0} cristales
+SEU NOME  (3 a {0} letras ou números)
+TU NOMBRE  (3 a {0} letras o números)
+SORTEAR
+AL AZAR
+LIMPAR
+BORRAR
+Use pelo menos 3 letras ou números
+Usa al menos 3 letras o números
+Nome não permitido - escolha outro
+Nombre no permitido: elige otro
+Seu animal: {0}  (troque nas setas)
+Tu animal: {0}  (cambia con las flechas)
+Pets
+Mascotas
+Equipado
+Equipada
+TIRAR
+QUITAR
+Buff
+Bonus
+Pet: {0}
+Mascota: {0}
+Sem pet
+Sin mascota
+toque para escolher um pet
+toca para elegir una mascota
+Pets a partir do nível {0}
+Mascotas desde el nivel {0}
+só visual no treino
+solo visual en el entrenamiento
+Liberado no nível {0}
+Desbloqueada en el nivel {0}
+Libera no nível {0}
+Se desbloquea en el nivel {0}
+Truques (na partida, toque no pet):
+Trucos (en la partida, toca tu mascota):
+{0} é seu!
+¡{0} es tuya!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+Una mascota a la vez. El bonus vale en Contra IA, Mazmorra y Torneo (en el entrenamiento solo aparece). No vale en la partida local.
+Novo pet disponível!
+¡Nueva mascota disponible!
+Compre na tela Pets por {0} cristais
+Cómprala en la pantalla Mascotas por {0} cristales
+ESCOLHA MAIS 2 CARTAS!
+¡ELIGE 2 CARTAS MÁS!
+vídeo assistido: vire mais 2 cartas!
+video visto: ¡voltea 2 cartas más!
++2 CARTAS (vídeo)
++2 CARTAS (video)
+XP x2 (vídeo)
+XP x2 (video)
+XP x2 ativo
+XP x2 activo
+sem vídeo
+sin video
+Pinguinzinho
+Pingüinito
+Corujinha
+Buhito
+Patinho
+Patito
+Tartaruguinha
+Tortuguita
+Esquilinho
+Ardillita
+Hamster
+Hámster
+Tartaruga azul
+Tortuga azul
+Gatinho
+Gatito
+Coelhinho
+Conejito
+Raposinha
+Zorrito
+Porquinho cinza
+Cerdito gris
+Porquinho
+Cerdito
+Cachorrinho
+Perrito
+Pandinha
+Pandita
+Ursinho
+Osito
+Unicórnio
+Unicornio
+Raposa-fênix
+Zorro fénix
+Dragão Negro
+Dragón Negro
+Dragãozinho
+Dragoncito
+Sentar
+Sentarse
+Rolar
+Rodar
+Mortal
+Voltereta
+Dançar
+Bailar
+Pulo de Alegria
+Salto de Alegría
+-30% de efeito do vento nos seus tiros
+-30% de efecto del viento en tus tiros
++10% de chance de crítico
++10% de probabilidad de crítico
++15% de dano em alvos a mais de 60 m
++15% de daño a objetivos a más de 60 m
+-35% de empurrão das explosões
+-35% de empuje de las explosiones
+Sem dano de queda
+Sin daño por caída
+-50% de dano de fogo e veneno
+-50% de daño de fuego y veneno
+Crítico causa x1,8 (normal x1,5)
+El crítico hace x1,8 (normal x1,5)
++15% de energia em cada vez
++15% de energía en cada turno
+Começa a partida com 30% de fúria
+Empieza la partida con 30% de furia
+Começa com escudo (metade do dano) até a 2ª vez
+Empieza con escudo (mitad de daño) hasta el 2º turno
++15% de fúria ganha
++15% de furia ganada
+Recupera 10% do dano que causa
+Recupera el 10% del daño que causa
+-15% de dano recebido
+-15% de daño recibido
++15% de raio de explosão
++15% de radio de explosión
+Recupera 20 de vida no início de cada vez
+Recupera 20 de vida al inicio de cada turno
++15% de dano
++15% de daño
+{1} pedras do seu nível
+{1} piedras de tu nivel
+1 Trevo + {1} pedras do seu nível
+1 Trébol + {1} piedras de tu nivel
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} cristales + {1} piedras de tu nivel + probabilidad de Bendición
+Vitória: {0}+ cristais
+Victoria: {0}+ cristales
+prêmio x{0}
+premio x{0}
+mapa do dia +50%
+mapa del día +50%
+1ª vitória do dia +{0}
+1ª victoria del día +{0}
+energia
+energía
+aguarde...
+espera...
+errou
+falló
+acabou
+agotado
+ativo
+activo
+emprestado
+prestado
+jogando
+jugando
+queimando
+ardiendo
+fogo
+fuego
+coletada
+cobrada
++15% de dano do Especial
++15% de daño del Especial
+Derrote {0} inimigos com o Especial deste animal
+Derrota a {0} enemigos con el Especial de este animal
+equipamento dos bots um pouco abaixo do seu
+equipo de los bots un poco por debajo del tuyo
+bots com o mesmo equipamento que você
+bots con el mismo equipo que tú
+equipamento dos bots um pouco acima do seu
+equipo de los bots un poco por encima del tuyo
+equipamento dos bots bem acima do seu
+equipo de los bots muy por encima del tuyo
+Ande até a bandeira
+Camina hasta la bandera
+Mire em {0}°
+Apunta a {0}°
+Segure e solte na marca
+Mantén y suelta en la marca
+Acerte o inimigo!
+¡Golpea al enemigo!
+Muito bem! Vença!
+¡Muy bien! ¡Gana!
+Use a habilidade verde
+Usa la habilidad verde
+Agora a habilidade roxa
+Ahora la habilidad morada
+Use um item e atire
+Usa un objeto y dispara
+Fúria cheia: use o Especial!
+Furia llena: ¡usa el Especial!
+Use a granada
+Usa la granada
+Coloque uma viga
+Coloca una viga
+Voe de jetpack
+Vuela con el jetpack
+Lance a corda no teto
+Lanza la cuerda al techo
+Pronto! Vença!
+¡Listo! ¡Gana!
+Muito bem!
+¡Muy bien!
+PULAR TUTORIAL
+SALTAR TUTORIAL
+Pular o tutorial?
+¿Saltar el tutorial?
+Você vai direto para o menu. Dá para refazer em Opções.
+Irás directo al menú. Puedes repetirlo en Opciones.
+PULAR
+SALTAR
+PRÓXIMO TUTORIAL ({0}/3)
+SIGUIENTE TUTORIAL ({0}/3)
+IR PARA O MENU
+IR AL MENÚ
+MENU
+MENÚ
+Refazer tutorial
+Repetir tutorial
+Bem-vindo à batalha!
+¡Bienvenido a la batalla!
+Tutorial concluído: +{0} cristais
+Tutorial completado: +{0} cristales
+SEGURE o botão para voar · setas para os lados
+MANTÉN el botón para volar · flechas para los lados
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+USAR enciende · MANTÉN el botón para volar (13 s de combustible) · flechas a los lados · aterrizaje suave · al aterrizar, dispara
+1x1 a 4x4 · escolha mapa e dificuldade
+1x1 a 4x4 · elige mapa y dificultad
+Mostrar todos os controles
+Mostrar todos los controles
+ANDE: segure as setas
+MUÉVETE: mantén las flechas
+MIRE: setas para cima e para baixo
+APUNTA: flechas arriba y abajo
+SEGURE para dar força e SOLTE para atirar!
+¡MANTÉN para cargar y SUELTA para disparar!
+PULE com este botão (gasta energia)
+SALTA con este botón (gasta energía)
+O VENTO empurra o tiro: olhe aqui em cima
+El VIENTO empuja el tiro: míralo aquí arriba
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+PASAR termina tu turno y cura un poco. Toca 2 veces el mapa para verlo todo
+NOVO: ITENS
+NUEVO: OBJETOS
+NOVO: HABILIDADES
+NUEVO: HABILIDADES
+NOVO: ESPECIAL
+NUEVO: ESPECIAL
+NOVO: FERRAMENTAS
+NUEVO: HERRAMIENTAS
+TODOS OS CONTROLES LIBERADOS!
+¡TODOS LOS CONTROLES DESBLOQUEADOS!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+Toca un objeto antes de disparar: 3 Tiros, +1, +2 o Daño. Gastan energía.
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+Cada animal tiene 2 habilidades: los botones sobre PASAR.
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+Haz y recibe daño para llenar la FURIA. ¿Llena? ¡Toca el orbe y lanza el Especial!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+Herramientas en la columna izquierda: granada, cuerda, jetpack, viga y más.
+Emotes e todas as ferramentas. Boa batalha!
+Emotes y todas las herramientas. ¡Buena batalla!
+toque para acelerar
+toca para acelerar
+Longe demais: até 600 m de você
+Demasiado lejos: hasta 600 m de ti
+Tem alguém aí: escolha outro lugar
+Hay alguien ahí: elige otro lugar
+Muito dentro do chão
+Demasiado dentro del suelo
+longa
+larga
+curta
+corta
+Não alcançou: mire e lance de novo
+No alcanzó: apunta y lanza de nuevo
+A corda não alcançou nada
+La cuerda no alcanzó nada
+Pousou: agora atire!
+Aterrizaste: ¡ahora dispara!
+O tempo na corda acabou
+Se acabó el tiempo en la cuerda
+Acabou o combustível: pouso suave
+Sin combustible: aterrizaje suave
+CORDA
+CUERDA
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+Flechas: balancea y sube/baja · SOLTAR mantiene el impulso
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+Flecha arriba sube · flechas laterales · MANTÉN apaga y dispara
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+Arrastra o mueve el ratón · flechas: gira y tamaño · CONFIRMAR
+Mire e toque em USAR para lançar o gancho
+Apunta y toca USAR para lanzar el gancho
+Toque em USAR para ligar o jetpack
+Toca USAR para encender el jetpack
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+VIGA: arrastra para colocar · flechas giran y cambian el tamaño · CONFIRMAR la pone (puente, refugio o rampa)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+USAR enciende · flecha arriba sube, laterales empujan · 4 s de combustible · aterrizaje suave · MANTÉN apaga y dispara
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+USAR lanza el gancho hacia la mira (hasta 520 m) · flechas balancean y suben/bajan · SOLTAR mantiene el impulso · relanza en el aire
+Solte na marca amarela!
+¡Suelta en la marca amarilla!
+Agora atire!
+¡Ahora dispara!
+Toque em {0}
+Toca {0}
+Segure para voar
+Mantén para volar
+Balance e toque para soltar
+Balancéate y toca para soltar
+Segure o botão até a marca amarela e solte
+Mantén el botón hasta la marca amarilla y suelta
+Segure a seta até chegar na bandeira
+Mantén la flecha hasta llegar a la bandera
+Segure o botão que brilha
+Mantén el botón que brilla
+Toque no botão que brilha
+Toca el botón que brilla
+Perfeito!
+¡Perfecto!
+Acabe com ele!
+¡Acaba con él!
+PARTE {0} CONCLUÍDA!
+¡PARTE {0} COMPLETADA!
+Você aprendeu
+Aprendiste
+Andar
+Caminar
+Mirar
+Apuntar
+Atirar
+Disparar
+Itens
+Objetos
+De volta!
+¡De vuelta!
+JOGAR!
+¡JUGAR!
+inclui +{0} de bônus do tutorial
+incluye +{0} de bono del tutorial
+Refazer o tutorial?
+¿Repetir el tutorial?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+Solo las partidas guiadas. Sin premios otra vez y tu progreso no cambia.
+Refazer
+Repetir
+Tutorial refeito: sem prêmios
+Tutorial repetido: sin premios
+Gire o celular para continuar
+Gira el móvil para continuar
+Jogue 80 partidas
+Juega 80 partidas
+Vença 150 partidas
+Gana 150 partidas
+Acerte 400 tiros
+Acierta 400 tiros
+Cause 100.000 de dano
+Causa 100.000 de daño
+Cause 1000 de dano num só tiro
+Causa 1000 de daño en un solo tiro
+Vença 6 seguidas
+Gana 6 seguidas
+Derrote 200 inimigos
+Derrota a 200 enemigos
+Jogue 300 partidas
+Juega 300 partidas
+Vença 400 partidas
+Gana 400 partidas
+Acerte 1500 tiros
+Acierta 1500 tiros
+Cause 400.000 de dano
+Causa 400.000 de daño
+Cause 1400 num só tiro
+Causa 1400 en un solo tiro
+Derrote 800 inimigos
+Derrota a 800 enemigos
+15 vitórias perfeitas
+15 victorias perfectas
+80 tiros longos
+80 tiros largos
+30 vinganças
+30 venganzas
+Derrote 2500 inimigos
+Derrota a 2500 enemigos
+Vença em 14 mapas diferentes
+Gana en 14 mapas distintos
+Vença 15 vezes no mapa do dia
+Gana 15 veces en el mapa del día
+Use a Fúria 150 vezes
+Usa la Furia 150 veces
+Pegue 200 caixas
+Recoge 200 cajas
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+Usa 800 veces 3 Disparos/+1/+2/Daño+%
+Derrube 80 rivais de muito alto
+Derriba a 80 rivales desde muy alto
+Faça 200 tiros rápidos (<5 s)
+Haz 200 tiros rápidos (<5 s)
+Acerte 2+ rivais num tiro 80 vezes
+Acierta a 2+ rivales con un tiro 80 veces
+Use o PASSAR 100 vezes
+Usa PASAR 100 veces
+Acerte 300 críticos
+Acierta 300 críticos
+Use 200 habilidades
+Usa 200 habilidades
+Coloque 80 vigas
+Coloca 80 vigas
+Cave 30 túneis/poços
+Cava 30 túneles/pozos
+Voe de jetpack 25 vezes
+Vuela con el jetpack 25 veces
+Use a corda ninja 25 vezes
+Usa la cuerda ninja 25 veces
+Exploda 25 dinamites
+Detona 25 dinamitas
+Solte 25 ovelhas
+Suelta 25 ovejas
+Arremesse 50 granadas
+Lanza 50 granadas
+Use 12 cachos de granadas
+Usa 12 racimos de granadas
+Plante 25 minas
+Coloca 25 minas
+Chame 10 ataques aéreos
+Pide 10 ataques aéreos
+Use a Britadeira 15 vezes
+Usa el Martillo Neumático 15 veces
+Mire na linha amarela
+Apunta a la línea amarilla
+Quanto mais tempo segurar, mais longe vai o tiro
+Cuanto más mantengas, más lejos llega el tiro
+As setas andam pelo mapa
+Las flechas te mueven por el mapa
+A mira muda a altura do tiro
+La mira cambia la altura del tiro
+Acerte o rival para vencer!
+¡Acierta al rival para ganar!
+Atira 3 balas de uma vez
+Dispara 3 balas a la vez
+Vira chão: uma ponte ou um escudo
+Se vuelve suelo: un puente o un escudo
+Segure para voar até outro lugar
+Mantén para volar a otro lugar
+Pendure-se e balance para ir longe
+Cuélgate y balancéate para llegar lejos
+Vira chão: ponte, abrigo ou rampa
+Se vuelve suelo: puente, refugio o rampa
+Abre um túnel e passa por dentro do morro
+Abre un túnel y atraviesa la colina
+Voe para outro lugar do mapa
+Vuela a otro lugar del mapa
+Cava um poço e você desce por ele
+Cava un pozo y bajas por él
+Deixe aos seus pés e fuja: explode forte
+Déjala a tus pies y huye: explota fuerte
+Anda sozinha até o rival e explode
+Camina sola hasta el rival y explota
+Explode quando alguém chega perto
+Explota cuando alguien se acerca
+Marque o alvo: 5 mísseis caem do céu
+Marca el objetivo: caen 5 misiles del cielo
+NOVO!
+¡NUEVO!
+Cristais x2 (vídeo)
+Cristales x2 (video)
+Empurra o tiro: a bandeira mostra para onde
+Empuja el tiro: la bandera muestra hacia dónde
+TUTORIAL CONCLUÍDO!
+¡TUTORIAL COMPLETADO!
+O resto você aprende jogando, com dicas na hora certa
+El resto lo aprendes jugando, con consejos en el momento justo
+Quica no chão e explode depois
+Rebota en el suelo y luego explota
+Melhor com o celular deitado
+Mejor con el móvil en horizontal
+Gire o celular: a tela fica maior e os controles mais fáceis
+Gira el móvil: pantalla más grande y controles más fáciles
+JOGAR MASMORRA
+JUGAR MAZMORRA
+JOGAR VS
+JUGAR VS
+JOGAR ASSIM MESMO
+JUGAR ASÍ

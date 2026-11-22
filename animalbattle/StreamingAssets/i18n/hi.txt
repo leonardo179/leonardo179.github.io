@@ -1,0 +1,3332 @@
+VOLTAR
+वापस
+Carregando
+लोड हो रहा है
+Masmorra
+कालकोठरी
+Contra IA
+AI के विरुद्ध
+Partida local
+लोकल मैच
+MASMORRA
+कालकोठरी
+CONTRA IA
+AI से मुकाबला
+PARTIDA LOCAL
+लोकल मैच
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+बॉस वाली 10 कालकोठरियाँ, 4 कठिनाइयाँ और सितारे। इनाम: मेडल, पत्थर, तिपतिया और आशीर्वाद।
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+एक ही डिवाइस पर दो या ज़्यादा खिलाड़ी, बारी-बारी से। बराबर उपकरण, कोई इनाम नहीं।
+Música
+संगीत
+Sons
+ध्वनि
+Som
+ध्वनि
+Idioma
+भाषा
+Batalha de artilharia entre animais
+जानवरों की तोपखाना लड़ाई
+Ferreiro
+लोहार
+Armeiro
+शस्त्रागार
+Animais
+जानवर
+Opções
+विकल्प
+versão de teste
+परीक्षण संस्करण
+Nível {0}
+लेवल {0}
+Todos os animais disponíveis!
+सभी जानवर उपलब्ध हैं!
+Próximo animal: {0} no nível {1}
+अगला जानवर: लेवल {1} पर {0}
+Em construção
+निर्माणाधीन
+Batalha em construção
+लड़ाई निर्माणाधीन है
+Raposa
+लोमड़ी
+Urso
+भालू
+Coruja
+उल्लू
+Salamandra
+सैलामैंडर
+Rinoceronte
+गैंडा
+Cobra
+साँप
+Tartaruga
+कछुआ
+Guaxinim
+रैकून
+Gato
+बिल्ली
+Águia
+बाज़
+Tigre
+बाघ
+Pinguim
+पेंगुइन
+Gorila
+गोरिल्ला
+Tubarão
+शार्क
+Jacaré
+मगरमच्छ
+Texugo
+बिज्जू
+Ouriço
+साही
+Morcego
+चमगादड़
+Arma
+हथियार
+Chapéu
+टोपी
+Roupa
+कवच
+Amuleto
+ताबीज़
+Madeira
+लकड़ी
+Ferro
+लोहा
+Aço
+स्टील
+Mítico
+पौराणिक
+Lendário
+दिग्गज
+Pedras
+पत्थर
+Trevo
+तिपतिया
+Bênção
+आशीर्वाद
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+उपकरण का टियर बदलें (लकड़ी, लोहा, स्टील, पौराणिक, दिग्गज) और पत्थर खरीदें।
+Medalhas
+मेडल
+Escolhido
+चुना गया
+Escolher
+चुनें
+cristais
+क्रिस्टल
+{0} comprado!
+{0} अनलॉक हुआ!
+Cristais insuficientes
+क्रिस्टल कम हैं
+Disponível no nível {0}
+लेवल {0} पर उपलब्ध
+Jogador
+खिलाड़ी
+Aliado
+साथी
+Rival
+विरोधी
+Não foi possível baixar o mapa. Verifique a conexão.
+मैप डाउनलोड नहीं हो सका। कनेक्शन जाँचें।
+Carregando os animais
+जानवर लोड हो रहे हैं
+Mapa inválido
+अमान्य मैप
+Colinas Verdes
+हरी पहाड़ियाँ
+Picos Nevados
+बर्फ़ीली चोटियाँ
+Deserto Dourado
+सुनहरा रेगिस्तान
+Floresta Encantada
+जादुई जंगल
+Vulcão
+ज्वालामुखी
+Praia Pirata
+समुद्री डाकू तट
+Terra dos Doces
+कैंडी लैंड
+Castelo
+किला
+Caverna de Cristal
+क्रिस्टल गुफा
+Pântano
+दलदल
+Cemitério Assombrado
+भूतिया क़ब्रिस्तान
+Ruínas Celestes
+आसमानी खंडहर
+Fábrica Steampunk
+स्टीमपंक फ़ैक्टरी
+Recife de Coral
+मूंगा चट्टान
+Templo da Selva
+जंगल मंदिर
+Cidade Neon
+नियॉन सिटी
+Base Lunar
+चाँद बेस
+Faroeste
+जंगली पश्चिम
+caiu na lava
+लावा में गिरा
+caiu no chocolate
+चॉकलेट में गिरा
+caiu no lodo
+कीचड़ में गिरा
+sumiu na névoa
+धुंध में ग़ायब हो गया
+caiu das nuvens
+बादलों से गिरा
+caiu no metal derretido
+पिघली धातु में गिरा
+foi levado pela correnteza
+धारा में बह गया
+caiu no vazio neon
+नियॉन शून्य में गिरा
+flutuou para o espaço
+अंतरिक्ष में तैर गया
+afundou na areia movediça
+दलदली रेत में धँस गया
+caiu na água
+पानी में गिरा
+4 TxT
+4 FFA
+6 TxT
+6 FFA
+8 TxT
+8 FFA
+Fácil
+आसान
+Normal
+नॉर्मल
+Difícil
+मुश्किल
+erram muito
+बहुत चूकते हैं
+erram um pouco
+थोड़ा चूकते हैं
+quase não erram
+लगभग नहीं चूकते
+mira perfeita
+सटीक निशाना
+Valente
+बहादुर
+Veloz
+तेज़
+Sombrio
+छाया
+Feroz
+खूँखार
+Astuto
+चालाक
+Dourado
+सुनहरा
+Furioso
+गुस्सैल
+Sereno
+शांत
+Selvagem
+जंगली
+Teimoso
+ज़िद्दी
+Ligeiro
+फुर्तीला
+Brabo
+दबंग
+Sorrateiro
+छुपा रुस्तम
+Bravo
+कड़क
+Esperto
+होशियार
+Trovão
+गर्जन
+Relâmpago
+बिजली
+Pimenta
+तीखी मिर्च
+Corajoso
+निडर
+ÁRVORE 1 NÍVEL 4
+पेड़ 1 लेवल 4
+DEUS 1
+देव 1
+DEUS 2
+देव 2
+DEUS 3
+देव 3
+SEU TIME
+आपकी टीम
+VOCÊ
+आप
+TODOS CONTRA TODOS
+सब बनाम सब
+RIVAIS
+विरोधी
+Nv {0}
+लेवल {0}
+PAUSADO
+रुका हुआ
+Sair agora encerra a partida sem prêmio.
+अभी छोड़ने पर मैच बिना इनाम के ख़त्म हो जाएगा।
+turno {0}
+टर्न {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+डैमेज {0}  ·  झेला {1}  ·  किल {2}  ·  सटीकता {3}%
+Tremor
+स्क्रीन कंपन
+CONTINUAR
+जारी रखें
+RENDER-SE
+हार मानें
+SAIR
+बाहर निकलें
+EMPATE
+ड्रॉ
+VITÓRIA!
+जीत!
+DERROTA
+हार
+VER PLACAR
+स्कोरबोर्ड देखें
+DE NOVO
+फिर से
+REVANCHE
+रीमैच
+{0} turnos
+{0} टर्न
+mais dano: {0}
+सबसे ज़्यादा डैमेज: {0}
+JOGADOR
+खिलाड़ी
+DANO
+डैमेज
+ABATES
+किल
+PRECISÃO
+सटीकता
+MAIOR TIRO
+सबसे बड़ा शॉट
+precisão: {0} {1}%
+सटीकता: {0} {1}%
+maior tiro: {0} {1}
+सबसे बड़ा शॉट: {0} {1}
+abates: {0} x{1}
+किल: {0} x{1}
+prêmios da partida: em breve
+मैच इनाम: जल्द आ रहे हैं
+Você se rendeu
+आपने हार मान ली
+O tiro saiu do mapa!
+शॉट मैप से बाहर चला गया!
+na água
+पानी में
+ALELUIA!
+हलेलुयाह!
+era uma armadilha!
+यह जाल था!
+caixa destruída
+बक्सा टूट गया
+atingido por um raio
+बिजली गिरी
+o gelo quebrou!
+बर्फ़ टूट गई!
+TIRO LONGO! {0}m
+लंबा शॉट! {0}m
+CRÍTICO
+क्रिटिकल
+ANIQUILADO!
+सफ़ाया!
+congelado {0} turno(s)
+{0} टर्न के लिए जमा हुआ
+NA MOSCA!
+बिल्कुल निशाने पर!
+ÓTIMO!
+शानदार!
+BOM
+अच्छा
+DE RASPÃO
+छूकर निकला
+MULTI-ACERTO x{0}
+मल्टी-हिट x{0}
+ABATE QUÁDRUPLO!
+क्वाड्रा किल!
+ABATE TRIPLO!
+ट्रिपल किल!
+ABATE DUPLO!
+डबल किल!
+COMBO x{0}
+कॉम्बो x{0}
+FÚRIA PRONTA!
+क्रोध तैयार!
+caiu de muito alto
+बहुत ऊँचाई से गिरा
+TSSSS!
+छस्स्स्स!
+PLOFT!
+धप!
+TCHIBUM!
+छपाक!
+caiu do mapa
+मैप से गिर गया
+Precisa estar no chão
+ज़मीन पर होना ज़रूरी है
+Energia insuficiente para pular
+कूदने के लिए एनर्जी कम है
+água!
+पानी!
+ESPECIAL
+स्पेशल
+invisível
+अदृश्य
+Ninguém colado — chegue mais (energia gasta)
+कोई पास नहीं — और क़रीब जाएँ (एनर्जी ख़र्च)
+{0} (pronta em {1}): {2}
+{0} ({1} में तैयार): {2}
+{0} precisa de {1} de energia
+{0} को {1} एनर्जी चाहिए
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+टेलीपोर्ट: मैप पर जहाँ जाना है वहाँ टैप करें और कन्फ़र्म करें (रद्द करने के लिए स्किल पर टैप करें)
+Teletransporte cancelado
+टेलीपोर्ट रद्द
+Aí não dá — escolha um chão firme e livre
+वहाँ नहीं जा सकते — मज़बूत और ख़ाली ज़मीन चुनें
+{0} se teletransportou!
+{0} टेलीपोर्ट हो गया!
+CONGELADO (protegido)
+जमा हुआ (सुरक्षित)
+patada de urso
+भालू का पंजा
+cutucão
+धक्का
+soco de fogo
+आग का मुक्का
+machado de batalha
+युद्ध कुल्हाड़ी
+martelada sísmica
+भूकंपी हथौड़ा
+Nenhum rival à vista (energia gasta)
+कोई विरोधी नज़र में नहीं (एनर्जी ख़र्च)
+revólver
+रिवॉल्वर
+{0} usou {1}
+{0} ने {1} इस्तेमाल किया
+SINERGIA +10
+सिनर्जी +10
+arco longo
+लंबा धनुष
+Não acertou ninguém no caminho
+रास्ते में किसी को नहीं लगा
+orbe arcano
+जादुई गोला
+BUM ARCANO!
+जादुई धमाका!
+Ninguém ao alcance (energia gasta)
+कोई रेंज में नहीं (एनर्जी ख़र्च)
+Ninguém na sua frente — chegue mais (energia gasta)
+सामने कोई नहीं — और क़रीब जाएँ (एनर्जी ख़र्च)
+grito sônico
+सोनिक चीख
+Ninguém na sua frente (energia gasta)
+सामने कोई नहीं (एनर्जी ख़र्च)
+enrolado nas vinhas
+बेलों में उलझा
+bola de dragão
+ड्रैगन बॉल
+machado giratório
+घूमती कुल्हाड़ी
+pisão do gorila
+गोरिल्ला की धमक
+Sem combustível
+ईंधन ख़त्म
+Toque no mapa para marcar o alvo
+निशाना लगाने के लिए मैप पर टैप करें
+SUA VEZ!
+आपकी बारी!
+VEZ DE {0}
+{0} की बारी
+RETIRADA: {0} s - corra para um lugar seguro!
+पीछे हटें: {0} s - सुरक्षित जगह पर भागें!
+VOCÊ CAIU
+आप गिर गए
+últ.
+आख़िरी
+MIRA
+निशाना
+na sua vez
+आपकी बारी में
+ESPECIAL PRONTO
+स्पेशल तैयार
+fúria
+क्रोध
+FORÇA
+ताक़त
+último
+आख़िरी
+FÚRIA
+क्रोध
+FÚRIA!
+क्रोध!
+PASSAR
+पास
+EXPLODIR
+फोड़ो
+AGUARDE
+रुकें
+VOANDO!
+उड़ान!
+VOAR
+उड़ें
+SEM GÁS
+गैस ख़त्म
+SOLTE!
+छोड़ें!
+USAR
+इस्तेमाल
+SEGURE
+दबाए रखें
+atire ou PASSE!
+फ़ायर करें या पास!
+{0} no próximo tiro
+अगले शॉट में {0}
+DANO x2
+डैमेज x2
+Você foi derrotado - assistindo
+आप हार गए - देख रहे हैं
+PRÓX.
+अगला
+VENTO
+हवा
+A FAVOR
+पक्ष में
+CONTRA
+विरुद्ध
+SUBINDO!
+बढ़ रहा है!
+água sobe em {0}
+पानी {0} में बढ़ेगा
+TURNO {0}
+टर्न {0}
+SUA VEZ
+आपकी बारी
+RETIRADA
+पीछे हटें
+{0} está mirando...
+{0} निशाना लगा रहा है...
+VERDADEIRO
+सच्चा
+DANO +{0}%
+डैमेज +{0}%
+ITENS
+आइटम
+MAIS
+और
+em {0} vezes
+{0} बार में
+rod. {0}
+राउंड {0}
+espera {0}
+इंतज़ार {0}
+CONFIRMAR
+कन्फ़र्म
+Nv {0}  
+लेवल {0}  
+joga em {0}º
+क्रम #{0}
+vida {0} / {1}
+जान {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+हमला {0}   बचाव {1}   फुर्ती {2}   क़िस्मत {3}    (क्रिटिकल {4}% · डैमेज -{5}%)
+Especial: {0}
+स्पेशल: {0}
+ (em {0})
+ ({0} में)
+ferramentas restantes: {0}   ·   {1} de energia por vez
+बचे टूल: {0}   ·   हर बार {1} एनर्जी
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} डैमेज · हिट {1}/{2} · किल {3}
+ · sequência {0}
+ · लगातार {0}
+ · combo {0}
+ · कॉम्बो {0}
+coragem +15%
+हिम्मत +15%
+último tiro: {0}° · força {1}
+पिछला शॉट: {0}° · ताक़त {1}
+dano +
+डैमेज +
+dano 
+डैमेज 
+raio +
+दायरा +
+raio 
+दायरा 
+bala pesada
+भारी गोली
+bala leve (vai longe)
+हल्की गोली (दूर जाती है)
+sofre pouco com o vento
+हवा का कम असर
+sofre mais com o vento
+हवा का ज़्यादा असर
+arma equilibrada
+संतुलित हथियार
+{0} desmarcado
+{0} हटाया गया
+Nada para prender nessa mira
+इस निशाने पर पकड़ने को कुछ नहीं
+A corda não alcança nada nessa direção (até {0})
+रस्सी इस दिशा में कहीं नहीं पहुँचती ({0} तक)
+andar balança · as setas sobem/descem · PULAR solta
+चलें तो झूलें · तीर ऊपर/नीचे · कूदें = छोड़ें
+{0} libera na rodada {1} (faltam {2})
+{0} राउंड {1} में खुलेगा ({2} बाक़ी)
+{0} já está ativo
+{0} पहले से चालू है
+Acabou: {0} ({1}x por partida)
+ख़त्म: {0} (हर मैच {1}x)
+{0}: recarrega em {1} turno(s)
+{0}: {1} टर्न में रीचार्ज
+Vida já está cheia
+जान पहले से पूरी है
+Na masmorra o cenário não se destrói
+कालकोठरी में ज़मीन नहीं टूटती
+A granada não soma com a Fúria nem com o Avião
+ग्रेनेड क्रोध या विमान के साथ नहीं जुड़ता
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} इस बार का हमला है (क्रोध, +1, +2 या 3 शॉट के साथ नहीं जुड़ता)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0} पर डैमेज +% या बर्फ़ नहीं लगता (वे सिर्फ़ शॉट के लिए हैं)
+{0} vale só para o tiro (não para a ferramenta)
+{0} सिर्फ़ शॉट पर लगता है (टूल पर नहीं)
+Energia insuficiente ({0})
+एनर्जी कम है ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+स्पेशल वार 3 शॉट, +1 या +2 के साथ नहीं जुड़ता
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+सिर्फ़ एक: 3 शॉट, +1 या +2 (सिर्फ़ 3 शॉट + +1 साथ चलते हैं)
+Toque no TERRENO (até 520 de você) para prender a corda
+रस्सी बाँधने के लिए ज़मीन पर टैप करें (आपसे 520 तक)
+o fogo apagou
+आग बुझ गई
+veneno curado
+ज़हर ठीक हुआ
+{0} se curou (+{1}) e encerrou a vez
+{0} ठीक हुआ (+{1}) और बारी ख़त्म
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+इस निशाने पर पकड़ने को कुछ नहीं — रस्सी फेंकने के लिए ज़मीन पर टैप करें
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+उड़ान! उड़ें बटन दबाए रखें · हवा में चलें · उतरे तो ख़त्म
+Pavio da granada: {0} s (toque de novo para mudar)
+ग्रेनेड फ़्यूज़: {0} s (बदलने के लिए फिर टैप करें)
+as setas inclinam o túnel · USAR acende
+तीर सुरंग झुकाते हैं · इस्तेमाल से जलाएँ
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+निशाना लगाने के लिए मैप पर टैप करें · तीर विमान की दिशा बदलते हैं · कन्फ़र्म
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+रखने के लिए मैप पर टैप करें · तीर घुमाते हैं · कन्फ़र्म
+{0} pronto — toque em USAR
+{0} तैयार — इस्तेमाल पर टैप करें
+paraquedas pronto
+पैराशूट तैयार
+CORRA!
+भागो!
+BÉÉÉ!
+मैं-मैं!
+cacho de granadas!
+ग्रेनेड का गुच्छा!
+mina plantada
+माइन लगाई
+granada na mão
+हाथ में ग्रेनेड
+jetpack pronto
+जेटपैक तैयार
+Não cabe aí
+यहाँ फ़िट नहीं
+Longe demais — até 600 de você
+बहुत दूर — आपसे 600 तक
+Tem alguém aí — escolha outro lugar
+वहाँ कोई है — दूसरी जगह चुनें
+britadeira!
+ड्रिल मशीन!
+maçarico!
+ब्लोटॉर्च!
+maçarico
+ब्लोटॉर्च
+Acabou o combustível
+ईंधन ख़त्म
+Pousou — o botão volta a atirar
+उतर गए — बटन फिर से फ़ायर करता है
+ATAQUE AÉREO!
+हवाई हमला!
+3 Tiros
+3 शॉट
+Ataque +1
+हमला +1
+Ataque +2
+हमला +2
+Dano +10%
+डैमेज +10%
+Dano +20%
+डैमेज +20%
+Dano +30%
+डैमेज +30%
+Dano +40%
+डैमेज +40%
+Dano +50%
+डैमेज +50%
+Avião
+विमान
+Gelo
+बर्फ़
+Invisível
+अदृश्य
+Cura
+हील
+Guia
+गाइडेड
+Mudar Vento
+हवा बदलें
+Paraquedas
+पैराशूट
+Baixa gravidade
+कम ग्रैविटी
+Viga
+बीम
+Maçarico
+ब्लोटॉर्च
+Jetpack
+जेटपैक
+Cipó
+बेल
+Britadeira
+ड्रिल मशीन
+Passo Rápido
+तेज़ क़दम
+Elástico
+बंजी
+Dinamite
+डायनामाइट
+Ovelha
+भेड़
+Granada
+ग्रेनेड
+Mina
+माइन
+Cacho de Granadas
+ग्रेनेड गुच्छा
+Teletransporte
+टेलीपोर्ट
+Ataque Aéreo
+हवाई हमला
+Pombo-bomba
+बम कबूतर
+Bolha-escudo
+बुलबुला ढाल
+Ampulheta
+रेत घड़ी
+Ataque
+हमला
+Ataques
+हमले
+Dano
+डैमेज
+Vento
+हवा
+Paraq.
+पैरा.
+Gravid.
+ग्रैवि.
+Corda
+रस्सी
+Britad.
+ड्रिल
+Rápido
+तेज़
+Cacho
+गुच्छा
+Portal
+पोर्टल
+Aéreo
+हवाई
+Pombo
+कबूतर
+Bolha
+बुलबुला
+Tempo
+समय
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+पंखे जैसे 3 शॉट (हर एक -50%) · +1 के साथ = कॉम्बो 1+2 (6 गोलियाँ)
+atira mais 1 vez (-10% cada)
+1 बार और फ़ायर (हर एक -10%)
+atira mais 2 vezes (-40% cada)
+2 बार और फ़ायर (हर एक -40%)
++10% de dano (soma com os outros)
++10% डैमेज (बाक़ियों के साथ जुड़ता है)
++20% de dano (soma com os outros)
++20% डैमेज (बाक़ियों के साथ जुड़ता है)
++30% de dano (soma com os outros)
++30% डैमेज (बाक़ियों के साथ जुड़ता है)
++40% de dano (soma com os outros)
++40% डैमेज (बाक़ियों के साथ जुड़ता है)
++50% de dano (soma com os outros)
++50% डैमेज (बाक़ियों के साथ जुड़ता है)
+você vai voando até onde a bala cair (sem dano)
+गोली जहाँ गिरे आप वहाँ उड़कर पहुँचते हैं (कोई डैमेज नहीं)
+congela quem for atingido por 2 turnos
+जिसे लगे वह 2 टर्न जम जाता है
+invisível para os rivais por 3 rodadas
+3 राउंड तक विरोधियों से अदृश्य
+recupera 30% da vida e ENCERRA o turno
+30% जान वापस और टर्न ख़त्म
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+शॉट पास से गुज़रे तो सबसे नज़दीकी विरोधी का पीछा करता है (-20% डैमेज)
+inverte o vento nesta rodada
+इस राउंड हवा उलट जाती है
+cai devagar e sem dano de queda até a sua próxima vez
+अगली बारी तक धीरे गिरें, गिरने का डैमेज नहीं
+os tiros deste turno voam mais longe (gravidade baixa)
+इस टर्न के शॉट दूर जाते हैं (कम ग्रैविटी)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+स्टील बीम: रखने के लिए मैप पर टैप करें, तीर घुमाते हैं और कन्फ़र्म से लगाएँ — पुल, आड़ या रैंप
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+सुरंग बनाकर पहाड़ी के अंदर से निकलें; इस्तेमाल से पहले तीर झुकाते हैं; रास्ते में जो हो उसे 40 लगता है
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+इस्तेमाल से उड़ान; ऊपर जाने के लिए हमला बटन दबाए रखें और हवा में चलें — 3 s ईंधन, गिरने का डैमेज नहीं
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+इस्तेमाल से रस्सी निशाने की दिशा में जाती है (520 तक); चलने से झूलें, तीर छोटा/लंबा करते हैं, कूदें से छोड़ें
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+नीचे की ओर गड्ढा खोदकर आप उसमें उतरते हैं; नीचे जो हो उसे 40 लगता है
+nesta vez você anda quase o DOBRO gastando metade da energia
+इस बार आधी एनर्जी में लगभग दुगना चलें
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+इस बार पानी में या मैप से बाहर गिरें तो बंजी वापस खींच लेगा
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+पैरों के पास डायनामाइट रखें (300 डैमेज), 5 s का फ़्यूज़ — यही इस बार का हमला है
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+विस्फोटक भेड़ छोड़ें: आप जिधर देखें उधर ख़ुद चलती है, रुकावटें कूदती है और पहले विरोधी पर फटती है (या 6 s में) — यही इस बार का हमला है
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+अगला शॉट ग्रेनेड है: ज़मीन और जानवरों से उछलता है और 6 s में फटता है
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+आपके सामने ज़मीन पर माइन: 2.5 s में चालू; कोई भी पास आए (आप और साथी भी!) तो बीप करके 1.5 s बाद फटती है (कभी-कभी फुस्स) — यही इस बार का हमला है
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+अगला शॉट ग्रेनेड गुच्छा है: उछलता है, 6 s में फटता है और 5 छोटे ग्रेनेड में बँट जाता है
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+मैप पर टैप/ड्रैग करके जगह चुनें, इस्तेमाल से टेलीपोर्ट — बारी ख़र्च होती है
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+निशाना लगाने के लिए मैप पर टैप करें, तीर से विमान की दिशा चुनें और कन्फ़र्म से 5 मिसाइलें बुलाएँ — यही इस बार का हमला है
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+निशाना लगाने के लिए मैप पर टैप करें और इस्तेमाल से कबूतर छोड़ें: सीधा वहाँ उड़ता है (हवा का असर नहीं) और फटता है — यही इस बार का हमला है
+uma BOLHA te protege: metade do dano até a sua próxima vez
+बुलबुला आपकी रक्षा करता है: अगली बारी तक आधा डैमेज
++10 s nesta vez para mirar com calma
+आराम से निशाना लगाने के लिए इस बार +10 s
+Tiro Especial
+स्पेशल शॉट
+Chuva de Flechas
+तीरों की बारिश
+Terremoto
+भूकंप
+Orbe Teleguiado
+गाइडेड गोला
+Inferno
+इन्फ़र्नो
+Bala Quicante
+उछलती गोली
+Picada Venenosa
+ज़हरीला डंक
+Casco de Gelo
+बर्फ़ का कवच
+Chuva Curativa
+इलाज की बारिश
+Corte Duplo
+डबल वार
+Garras em Fúria
+क्रोधित पंजे
+Avalanche
+हिमस्खलन
+Pedregulho
+बड़ा पत्थर
+Gêiser
+गीज़र
+Broca
+ड्रिल
+Fragmentação
+विखंडन
+Explosão de Espinhos
+काँटों का धमाका
+Mordida Vampira
+वैम्पायर काट
+tiro forte e cratera grande
+ज़ोरदार शॉट और बड़ा गड्ढा
+6 flechas caem do céu em volta
+आसपास आसमान से 6 तीर गिरते हैं
+cratera gigante e tremor
+विशाल गड्ढा और कंपन
+persegue o inimigo mais perto
+सबसे नज़दीकी दुश्मन का पीछा करता है
+queima 3 turnos
+3 टर्न जलाता है
+raio cai do céu na coluna do impacto
+टक्कर की जगह पर आसमान से बिजली गिरती है
+quica 2 vezes explodindo
+फटते हुए 2 बार उछलता है
+envenena 3 turnos
+3 टर्न ज़हर देता है
+congela quem atingir + escudo 2 turnos
+जिसे लगे उसे जमाता है + 2 टर्न ढाल
+cura os aliados e fere os rivais
+साथियों को ठीक करता है, विरोधियों को चोट
+2 tiros especiais seguidos
+लगातार 2 स्पेशल शॉट
+3 explosões em linha
+एक लाइन में 3 धमाके
+congela tudo numa área grande
+बड़े इलाक़े में सब कुछ जमा देता है
+pedra enorme e pesada
+विशाल भारी पत्थर
+lança os rivais para o alto
+विरोधियों को हवा में उछालता है
+atravessa o chão e explode por dentro
+ज़मीन में घुसकर अंदर से फटता है
+se parte em 5 bombas
+5 बमों में बँट जाता है
+8 espinhos para todo lado
+हर तरफ़ 8 काँटे
+cura você com 60% do dano
+डैमेज के 60% से आपको ठीक करता है
+Flecha Certeira
+सटीक तीर
+Patada de Urso
+भालू का पंजा
+Rastro de Brasas
+अंगारों की लकीर
+Mergulho Teleguiado
+गाइडेड गोता
+Bala Colossal
+विशाल गोली
+Tiro Duplo
+डबल शॉट
+Bloco de Gelo
+बर्फ़ का ब्लॉक
+Ferrão
+डंक
+Ervas Curativas
+जड़ी-बूटियाँ
+Cutucão
+धक्का
+Chuva de Bolotas
+बलूत की बारिश
+Soco de Fogo
+आग का मुक्का
+Machado de Batalha
+युद्ध कुल्हाड़ी
+Martelada Sísmica
+भूकंपी हथौड़ा
+Lança Afiada
+तेज़ भाला
+Revólver
+रिवॉल्वर
+Sentinela
+सेंट्री
+Espinhos
+काँटे
+Eco Teleguiado
+गाइडेड गूँज
+o próximo tiro é CRÍTICO
+अगला शॉट क्रिटिकल है
+patada no rival colado: joga ele LONGE
+सटे विरोधी पर पंजा: उसे दूर फेंकता है
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+मैप पर कहीं भी टैप करें और वहाँ पहुँचें (बारी ख़त्म)
+o próximo tiro deixa BRASAS no chão
+अगला शॉट ज़मीन पर अंगारे छोड़ता है
+o próximo tiro persegue o rival (mergulho da águia)
+अगला शॉट विरोधी का पीछा करता है (चील का गोता)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+अगला शॉट विशाल गोली बनता है: बड़ा इलाक़ा और भारी डैमेज
+dois tiros certeiros no rival à vista
+नज़र में आए विरोधी पर दो सटीक शॉट
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+आप बर्फ़ के ब्लॉक में बंद: अगली बारी तक लगभग कोई डैमेज नहीं
+o próximo tiro envenena
+अगला शॉट ज़हर देता है
+cura 15% de você e dos aliados perto
+आपको और पास के साथियों को 15% ठीक करता है
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+कटाना का धक्का: सटे विरोधी को ज़ोर से धकेलता है (किनारे पर बढ़िया)
+3 bolotas caem em cima do rival mais perto
+सबसे नज़दीकी विरोधी पर 3 बलूत गिरते हैं
+soco de fogo: joga o rival colado lá no alto
+आग का मुक्का: सटे विरोधी को ऊपर उछालता है
+corta METADE da vida do rival colado
+सटे विरोधी की आधी जान काटता है
+martelo no chão: dano e joga para o alto quem está perto
+ज़मीन पर हथौड़ा: पास वालों को डैमेज और हवा में उछालता है
+a lança afia: o próximo tiro dá +35%
+भाला तेज़ होता है: अगला शॉट +35%
+seis tiros de revólver no rival à vista
+नज़र में आए विरोधी पर रिवॉल्वर के छह शॉट
+torreta que atira sozinha em quem chega perto (4 tiros)
+टरेट जो पास आने वाले पर ख़ुद फ़ायर करता है (4 शॉट)
+espinhos no chão ferem o 1º rival que pisar
+ज़मीन पर काँटे पहले क़दम रखने वाले विरोधी को चोट देते हैं
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+चमगादड़ की गूँज: अगला शॉट ध्वनि तरंगों के सहारे विरोधी तक जाता है
+Arco Longo
+लंबा धनुष
+Investida do Urso
+भालू की टक्कर
+Orbe Arcano
+जादुई गोला
+Lança-chamas
+फ़्लेमथ्रोअर
+Tempestade
+तूफ़ान
+Morteiro
+मोर्टार
+Rajada de Precisão
+सटीक बौछार
+Nevasca
+बर्फ़ीला तूफ़ान
+Nuvem Venenosa
+ज़हरीला बादल
+Vinhas
+बेलें
+Corte Relâmpago
+बिजली वार
+Toca Explosiva
+विस्फोटक बिल
+Cometa de Brasa
+अंगारा धूमकेतु
+Machado Giratório
+घूमती कुल्हाड़ी
+Pisão do Gorila
+गोरिल्ला की धमक
+Cutucão de Lança
+भाले का वार
+Chuva de Balas
+गोलियों की बारिश
+Minigun
+मिनीगन
+Chuva de Espinhos
+काँटों की बारिश
+Grito Sônico
+सोनिक चीख
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+नज़र में आए विरोधी पर दो सीधे तीर (1000 तक): डैमेज और धक्का
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+भालू सामने दौड़कर रास्ते में आए सबको रौंदता है (-8% जान)
+um orbe mágico voa até o rival mais perto e EXPLODE
+जादुई गोला सबसे नज़दीकी विरोधी तक उड़कर फटता है
+jato de fogo nos rivais à sua frente: dano e queimadura
+सामने के विरोधियों पर आग की धार: डैमेज और जलन
+um raio cai no rival mais perto (até 900)
+सबसे नज़दीकी विरोधी पर बिजली गिरती है (900 तक)
+3 tiros de morteiro caem em volta do rival mais perto
+सबसे नज़दीकी विरोधी के आसपास 3 मोर्टार गिरते हैं
+rajada de 5 tiros no rival à vista (até 800)
+नज़र में आए विरोधी पर 5 शॉट की बौछार (800 तक)
+congela os rivais perto por 1 turno
+पास के विरोधियों को 1 टर्न जमाता है
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+ज़हरीला बादल: पास के सभी विरोधियों को 3 टर्न ज़हर
+puxa o rival mais perto para junto de você e fere
+सबसे नज़दीकी विरोधी को अपने पास खींचकर चोट देता है
+dispara para a frente cortando quem estiver no caminho
+आगे झपटकर रास्ते में आए सबको काटता है
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+अगला शॉट ज़मीन में बिल खोदकर अंदर से फटता है
+bola de energia reta para a frente: dano e empurrão no 1º rival
+सीधा आगे ऊर्जा गोला: पहले विरोधी को डैमेज और धक्का
+machado que vai e volta: fere os rivais na sua frente (até 500)
+जाकर लौटने वाली कुल्हाड़ी: सामने के विरोधियों को चोट (500 तक)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+धमक: ज़मीन हिलती है और मैप के सभी विरोधियों को डैमेज और झटका
+estocada longa na frente (até 380): dano e empurrão
+सामने लंबा वार (380 तक): डैमेज और धक्का
+rajada de pistolas em TODOS os rivais à vista (até 700)
+नज़र में आए सभी विरोधियों पर पिस्तौलों की बौछार (700 तक)
+rajada de 6 tiros no rival à vista (até 800)
+नज़र में आए विरोधी पर 6 शॉट की बौछार (800 तक)
+3 armadilhas de espinhos caem em volta do rival mais perto
+सबसे नज़दीकी विरोधी के आसपास 3 काँटेदार जाल गिरते हैं
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+सोनिक चीख: सामने के सभी विरोधियों को डैमेज और धक्का (450 तक)
+Poção: +25% de vida e cura veneno
+दवा: +25% जान और ज़हर ठीक
+Energético: +120 de energia
+एनर्जी ड्रिंक: +120 एनर्जी
+Baú: +1 uso de cada ferramenta
+संदूक: हर टूल का +1 इस्तेमाल
+Fúria: +40
+क्रोध: +40
+ARMADILHA! O baú explodiu
+जाल! संदूक फट गया
+Escudo: -50% de dano por 2 vezes
+ढाल: 2 बार -50% डैमेज
+Luneta: +1 Mira Guiada
+दूरबीन: +1 गाइडेड निशाना
+Arma Surpresa: Fúria de outro animal no próximo tiro
+सरप्राइज़ हथियार: अगले शॉट में दूसरे जानवर का क्रोध
+Golpe Certeiro: o próximo tiro é CRÍTICO
+सटीक वार: अगला शॉट क्रिटिकल है
+Paraquedas: +1 uso
+पैराशूट: +1 इस्तेमाल
+Recarga: as 2 habilidades prontas
+रीचार्ज: दोनों स्किल तैयार
+Balança da Justiça: a vida dos times é dividida igual
+न्याय का तराज़ू: टीमों की जान बराबर बँटती है
+Dano em Dobro: o próximo tiro causa 2x
+डबल डैमेज: अगला शॉट 2x डैमेज देता है
+Tempo Extra: +15 s na sua próxima vez
+अतिरिक्त समय: अगली बारी में +15 s
+Caixa de Arsenal: +1 de um utilitário
+शस्त्रागार बक्सा: एक यूटिलिटी का +1
+Ai, meu rabo!
+हाय, मेरी पूँछ!
+Astúcia pura!
+पूरी चालाकी!
+O vento me enganou!
+हवा ने धोखा दिया!
+GRRRAU!
+ग्र्र्रआउ!
+Abraço de urso!
+भालू की झप्पी!
+Cadê o mel?
+शहद कहाँ है?
+Uh-uh! Doeu!
+हू-हू! दर्द हुआ!
+Previsível.
+पहले से पता था।
+Calculei errado...
+ग़लत हिसाब लगाया...
+Tô pegando fogo!
+मैं जल रहा हूँ!
+Queimou!
+जल गया!
+Esfriou...
+ठंडा हो गया...
+Penas pra todo lado!
+हर तरफ़ पंख!
+Visão de águia!
+चील की नज़र!
+Vento traiçoeiro!
+धोखेबाज़ हवा!
+Nem senti... ai!
+कुछ महसूस नहीं हुआ... आह!
+ATROPELADO!
+रौंद दिया!
+Mira de rinoceronte...
+गैंडे का निशाना...
+Sssocorro!
+बचाओस्स्स!
+Sssó um bote!
+बस्स्स एक डंक!
+Errei o bote...
+डंक चूक गया...
+Meu casco!
+मेरा खोल!
+Devagar e sempre!
+धीरे-धीरे, पर पक्का!
+Calma, tô mirando...
+रुको, निशाना लगा रहा हूँ...
+Minha lixeira!
+मेरा कूड़ेदान!
+Achado não é roubado!
+जो मिला, वो मेरा!
+Era pra lá?
+उधर था क्या?
+Miau! Seis vidas...
+म्याऊँ! छह जानें बचीं...
+Caiu de pé? Não!
+पैरों के बल गिरे? नहीं!
+Hmpf. Foi de propósito.
+हम्फ़। जानबूझकर किया।
+Arranhão de nada!
+बस एक खरोंच!
+Rugido final!
+आख़िरी दहाड़!
+Grrr... quase!
+ग्र्र... बस थोड़ा सा!
+Gelou!
+जम गया!
+Escorregou, hein?
+फिसल गए, हाँ?
+Patinei...
+फिसल गया...
+UH UH AH AH!
+ऊ ऊ आ आ!
+Força bruta!
+ज़बरदस्त ताक़त!
+Bananas!
+केले!
+Sangue na água!
+पानी में ख़ून!
+Mordida certa!
+सही काट!
+Nadei e morri na praia
+किनारे पर आकर डूब गया
+Couro duro!
+मोटी चमड़ी!
+Abocanhei!
+कच्च!
+Lágrimas de jacaré...
+मगरमच्छ के आँसू...
+Ninguém mexe comigo!
+मुझसे कोई पंगा नहीं!
+Cavei sua cova!
+तेरी क़ब्र खोद दी!
+Terra no olho!
+आँख में मिट्टी!
+Espinhos pra quê?!
+काँटों की क्या ज़रूरत?!
+Espetado!
+चुभ गया!
+Furou...
+फूट गया...
+Ecoou na cabeça!
+सिर में गूँज गया!
+Na escuridão!
+अंधेरे में!
+Sonar falhou!
+सोनार फ़ेल!
+Ai!
+आह!
+Essa doeu!
+ये लगी!
+Ei!
+अरे!
+Ui ui ui!
+उई उई उई!
+Tá louco?!
+पागल हो क्या?!
+Toma!
+ले!
+Um a menos!
+एक कम!
+Próximo!
+अगला!
+Vai pra casa!
+घर जाओ!
+Quase!
+बस थोड़ा सा!
+Errei feio...
+बुरी तरह चूका...
+Era pra lá!
+उधर जाना था!
+Ninguém viu.
+किसी ने नहीं देखा।
+hahaha!
+हाहाहा!
+fácil demais
+बहुत आसान
+grrr!
+ग्र्र!
+socorro!
+बचाओ!
+boa!
+बढ़िया!
+foi mal!
+मेरी ग़लती!
+pegou fogo!
+आग लग गई!
+já era!
+खेल ख़त्म!
+bom jogo!
+अच्छा खेल!
+na mosca!
+बिल्कुल निशाने पर!
+acorda!
+जागो!
+que sorte!
+क्या क़िस्मत!
+chorei!
+रो पड़ा!
+vamos!
+चलो!
+respeito!
+सम्मान!
+anda logo!
+जल्दी करो!
+isso aí!
+यही तो!
+agressivo: empilha Dano +%
+आक्रामक: डैमेज +% जोड़ता है
+preciso: erra menos
+सटीक: कम चूकता है
+sorrateiro: some quando apanha
+छुपा रुस्तम: चोट लगने पर ग़ायब
+apressado: atira rápido
+जल्दबाज़: तेज़ फ़ायर
+teimoso: nunca se cura
+ज़िद्दी: कभी ठीक नहीं होता
+REAÇÃO EM CADEIA!
+चेन रिएक्शन!
+BARRIL!
+बैरल!
+BUUUM!
+बूऊऊम!
+BÉÉÉ-BUM!
+मैं-बूम!
+MINA!
+माइन!
+Sentinela destruída!
+सेंट्री नष्ट!
+pisou nos espinhos
+काँटों पर पैर रखा
+mina falhou!
+माइन फ़ेल!
+Rastro de fogo no chão!
+ज़मीन पर आग की लकीर!
+queimado no fogo
+आग में जला
+abatido pela sentinela
+सेंट्री ने गिराया
+A sentinela de {0} atirou em {1}
+{0} की सेंट्री ने {1} पर फ़ायर किया
+Um GALÃO EXPLOSIVO está caindo!
+एक विस्फोटक बैरल गिर रहा है!
+Uma MINA está caindo!
+एक माइन गिर रही है!
+Uma caixa de suprimento está caindo!
+सप्लाई बक्सा गिर रहा है!
++{0} {1} (agora {2})
++{0} {1} (अब {2})
+{0} pegou {1}
+{0} ने {1} उठाया
+curado do {0}
+{0} से ठीक हुआ
+Arsenal: +1 {0}
+शस्त्रागार: +1 {0}
+{0} abriu uma ARMADILHA!
+{0} ने जाल खोला!
+BÉÉ!
+मैं!
+TIMES
+टीमें
+TxT = todos contra todos
+FFA = सब बनाम सब
+DIFICULDADE DOS BOTS
+बॉट की कठिनाई
+equip. dos bots {0}
+बॉट का सामान {0}
+{0} lutadores, cada um por si
+{0} लड़ाके, सब अपने लिए
+{0} contra {1}
+{0} बनाम {1}
+1 bot
+1 बॉट
+{0} bots
+{0} बॉट
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+कीबोर्ड: तीर से चलें और निशाना · SPACE दबाकर छोड़ें = फ़ायर · J कूदें · P पास · F स्पेशल · V पूरा नज़ारा · Esc रोकें
+JOGAR
+खेलें
+Aleatório
+रैंडम
+MAPA
+मैप
+FECHADO + TETO
+बंद + छत
+FECHADO
+बंद
+ABERTO
+खुला
+sorteia entre {0}
+{0} में से रैंडम
+toque para ver todos
+सब देखने के लिए टैप करें
+MAPAS
+सभी मैप
+TETO
+छत
+Sorte
+क़िस्मत
+Defesa
+बचाव
+Agilidade
+फुर्ती
+PODER {0}
+पावर {0}
+ARMA VERDADEIRA
+सच्चा हथियार
+Contra a IA o seu equipamento conta.
+AI के ख़िलाफ़ आपका सामान मायने रखता है।
+TROCAR
+बदलें
+dano {0}%
+डैमेज {0}%
+raio {0}%
+दायरा {0}%
+ t
+ टर्न
+ bot
+ बॉट
+ humano
+ इंसान
+A água começa a subir em 3 turnos!
+पानी 3 टर्न में बढ़ना शुरू होगा!
+MORTE SÚBITA: a água subiu!
+सडन डेथ: पानी बढ़ गया!
+MORTE SÚBITA! A água sobe a cada turno
+सडन डेथ! पानी हर टर्न बढ़ता है
+O vento VIROU para {0}
+हवा {0} मुड़ गई
+a direita
+दाईं ओर
+a esquerda
+बाईं ओर
+{0} joga DE NOVO (pouco atraso)!
+{0} फिर से खेलेगा (कम देरी)!
+Tempo Extra: +15 s nesta vez
+अतिरिक्त समय: इस बार +15 s
+CORAGEM: último do time causa +15% de dano!
+हिम्मत: टीम का आख़िरी +15% डैमेज देता है!
+{0} está congelado!
+{0} जमा हुआ है!
+{0} PRONTA! (botão roxo)
+{0} तैयार! (बैंगनी बटन)
+{0} pronta! (botão verde)
+{0} तैयार! (हरा बटन)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+आपके पास उधार का क्रोध है: गोले पर टैप करें!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+क्रोध तैयार! स्पेशल चालू करने के लिए गोले पर टैप करें
+Rodada {0}: {1} liberado!
+राउंड {0}: {1} खुल गया!
+time 
+टीम 
+{0} passou a vez
+{0} ने बारी छोड़ी
+RÁPIDO! (joga antes)
+तेज़! (पहले खेलता है)
+pino fora!
+पिन निकली!
+glub glub...
+गुड़ुप गुड़ुप...
+DUELO FINAL: {0} x {1}
+फ़ाइनल मुक़ाबला: {0} x {1}
+DUELO FINAL!
+फ़ाइनल मुक़ाबला!
+Só falta 1 rival!
+बस 1 विरोधी बचा!
+Você é o último do time!
+आप टीम के आख़िरी हैं!
+PRIMEIRO SANGUE: {0}
+फ़र्स्ट ब्लड: {0}
+VINGANÇA! {0} vingou {1}
+बदला! {0} ने {1} का बदला लिया
+EM CHAMAS!
+आग लगा दी!
+IMPARÁVEL!
+बेरोक!
+DOMINANDO!
+दबदबा!
+LENDÁRIO!
+दिग्गज!
+DIVINO!
+दिव्य!
+{0}  {1} ({2} abates)
+{0}  {1} ({2} किल)
+FOGO AMIGO: {0} derrubou {1}
+फ़्रेंडली फ़ायर: {0} ने {1} को गिराया
+Tempo esgotado
+समय ख़त्म
+PEGOU NO AR!
+हवा में पकड़ा!
+BUM!
+बूम!
+{0} causou {1} de dano
+{0} ने {1} डैमेज किया
+Fúria desarmada
+क्रोध हटाया
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: क्रोध {1}% पर है (डैमेज दें और झेलें)
+Fúria: {0} — {1}
+क्रोध: {0} — {1}
+Lobo
+भेड़िया
+Aguia
+चील
+Ourico
+साही
+Jacare
+मगरमच्छ
+Tubarao
+शार्क
+Coelho
+खरगोश
+Sabio
+ज्ञानी
+Agil
+फुर्तीला
+Forte
+ताक़तवर
+Lendario
+दिग्गज
+Boneco {0}
+डमी {0}
+BOT 
+बॉट 
+ TxT
+ FFA
+BONECOS
+डमी
+TIME AZUL
+नीली टीम
+TIME VERMELHO
+लाल टीम
+OS HUMANOS VENCERAM!
+इंसान जीत गए!
+OS BOTS VENCERAM
+बॉट जीत गए
+TIME {0} VENCEU!
+{0} टीम जीती!
+AZUL
+नीली
+VERMELHO
+लाल
+{0} VENCEU!
+{0} जीता!
+JOGAR DE NOVO
+फिर से खेलें
+PRÓXIMA LUTA ({0}/3)
+अगली लड़ाई ({0}/3)
+FIM DO TORNEIO
+टूर्नामेंट ख़त्म
+Cristais dobrados!
+क्रिस्टल दोगुने!
+Cristais x2
+क्रिस्टल x2
+XP dobrado!
+XP दोगुना!
+Anúncio indisponível: sem prêmio desta vez
+विज्ञापन उपलब्ध नहीं: इस बार कोई इनाम नहीं
+ESCOLHA UMA CARTA!
+एक कार्ड चुनें!
+vitória! vire uma carta para ganhar um prêmio extra
+जीत! अतिरिक्त इनाम के लिए एक कार्ड पलटें
+PASSE O APARELHO
+डिवाइस आगे दें
+Vez de {0}
+{0} की बारी
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  जान {1} / {2}  ·  क्रोध {3}%
+time {0}
+टीम {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+पिछला खिलाड़ी: झाँकना मना · घड़ी 'मैं तैयार हूँ' के बाद ही चलेगी
+ESTOU PRONTO
+मैं तैयार हूँ
+PAUSA
+विराम
+DICA {0}/{1}
+टिप {0}/{1}
+PULAR DICAS
+टिप्स छोड़ें
+ENTENDI
+समझ गया
+PRÓXIMA
+अगली
+Jogo local: sem prêmio nem estatística
+लोकल गेम: न इनाम, न आँकड़े
+TREINO · sem prêmio
+ट्रेनिंग · कोई इनाम नहीं
+(NÍVEL {0}!)
+(लेवल {0}!)
++{0} cristais
++{0} क्रिस्टल
++{0} cristais pelo nível
+लेवल के लिए +{0} क्रिस्टल
+TREVO DA SORTE!
+क़िस्मत का तिपतिया!
+BÊNÇÃO DIVINA!
+दिव्य आशीर्वाद!
+PERFEITA +{0}
+परफ़ेक्ट +{0}
+1ª VITÓRIA DO DIA +{0}
+दिन की पहली जीत +{0}
+MAPA DO DIA +{0}
+आज का मैप +{0}
+VOLTA POR CIMA +{0}
+शानदार वापसी +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+टूर्नामेंट चैंपियन! +{0} क्रिस्टल +3 पत्थर +1 तिपतिया
+RECORDE de tiro: {0}!
+शॉट का रिकॉर्ड: {0}!
+RECORDE de dano: {0}!
+डैमेज का रिकॉर्ड: {0}!
+NÍVEL {0}!
+लेवल {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+लेवल {0}  ·  {1} / {2} XP
+missões prontas: {0}
+मिशन तैयार: {0}
+conquistas para coletar: {0}
+लेने को उपलब्धियाँ: {0}
+Novo: {0} disponível!
+नया: {0} उपलब्ध!
+faltou {0} m
+{0} m कम पड़ा
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+तीर बटनों से चलें (एनर्जी लगती है)। छोटी ऊँचाइयाँ आप चढ़ जाते हैं।
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+ऊपर और नीचे के बटनों से कोण बदलें। तीर शॉट की दिशा दिखाता है।
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+ताक़त के लिए दबाए रखें और फ़ायर के लिए छोड़ें। ऊपर हवा देखें!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+टूल: एक बार में +1, +2 या 3 शॉट में से सिर्फ़ एक (3 शॉट + +1 = 6 गोलियों का कॉम्बो); डैमेज +% सबके साथ जुड़ता है (एनर्जी लगती है)।
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+डैमेज देकर और झेलकर क्रोध भरें, फिर गोले पर टैप करें: स्पेशल!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+मैप पर 2 बार टैप: पूरा मैदान देखें। जानवर पर टैप: उसकी जानकारी देखें। ऊँचाई से गिरने पर जान घटती है! अच्छी लड़ाई!
+Mire com as setas e SEGURE o botão de ataque para atirar
+तीरों से निशाना लगाएँ और फ़ायर के लिए हमला बटन दबाए रखें
+Acerte um boneco (olhe o VENTO lá em cima)
+एक डमी को मारें (ऊपर हवा देखें)
+Use uma ferramenta da coluna da esquerda
+बाईं कॉलम से एक टूल इस्तेमाल करें
+Pegue uma caixa (ande até ela ou acerte quando cair)
+एक बक्सा उठाएँ (उस तक चलें या गिरते समय मारें)
+Feito!
+हो गया!
+Você já sabe o básico!
+आप बेसिक सीख गए!
+do dia: {0} +50%
+आज का: {0} +50%
+DO DIA +50%
+आज का +50%
+{0} vit.
+{0} जीत
+1ª partida com dicas
+पहला मैच टिप्स के साथ
+boneco de novo!
+फिर डमी!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+बॉस वाली 10 कालकोठरियाँ, 4 कठिनाइयाँ और स्टार। इनाम: क्रिस्टल, पत्थर, तिपतिया और आशीर्वाद।
+TORNEIO
+टूर्नामेंट
+TREINO
+ट्रेनिंग
+Missões
+मिशन
+Conquistas
+उपलब्धियाँ
+Compre na tela Animais por {0} cristais
+जानवर स्क्रीन पर {0} क्रिस्टल में ख़रीदें
+VER
+देखें
+Seu
+आपका
+ESCOLHER
+चुनें
+COMPRAR {0}
+ख़रीदें {0}
+Especial
+स्पेशल
+{0} vitórias em {1} partidas
+{1} मैच में {0} जीत
+renovam em {0}h {1}
+{0}घं {1} में रीसेट
+complete as 3 para chance de Trevo
+तिपतिया का मौक़ा पाने के लिए तीनों पूरे करें
+prêmio: +{0} cristais · +1 pedra
+इनाम: +{0} क्रिस्टल · +1 पत्थर
+FEITA
+पूरा
+COLETAR
+लें
+em andamento
+जारी है
+TORNEIO DO DIA
+आज का टूर्नामेंट
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+लगातार 3 लड़ाइयाँ 1x1, बॉट हर बार ज़्यादा ताक़तवर · हारे तो लड़ाई 1 से दोबारा · इनाम के लिए तीनों जीतें
+que erra um pouco
+जो थोड़ा चूकता है
+que quase não erra
+जो लगभग नहीं चूकता
+de mira perfeita
+सटीक निशाने वाला
+LUTA {0}  ·  {1}
+लड़ाई {0}  ·  {1}
+1x1 contra bot {0}
+बॉट {0} के ख़िलाफ़ 1x1
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+तीनों जीतने पर इनाम: +{0} क्रिस्टल  +3 ताक़त पत्थर  +1 तिपतिया
+campeão {0} vez(es)
+{0} बार चैंपियन
+o prêmio sai 1 vez por dia
+इनाम दिन में 1 बार मिलता है
+Você já jogou o torneio de hoje - ele volta amanhã!
+आप आज का टूर्नामेंट खेल चुके हैं - कल फिर आएगा!
+Seu animal: {0}  (troque na tela Animais)
+आपका जानवर: {0}  (जानवर स्क्रीन पर बदलें)
+VOLTA AMANHÃ
+कल फिर आएँ
+COMEÇAR A LUTA 1
+लड़ाई 1 शुरू करें
+Rever as dicas na próxima partida
+अगले मैच में टिप्स फिर देखें
+ATQ
+हमला
+SOR
+क़िस्मत
+DEF
+बचाव
+AGI
+फुर्ती
+PODER DE COMBATE
+कॉम्बैट पावर
+forma normal
+सामान्य रूप
+FERREIRO
+लोहार
+ARMEIRO
+शस्त्रागार
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+हर जानवर का अपना अपग्रेड है। फ़ेल होने पर सिर्फ़ पत्थर जाते हैं - आइटम कभी ख़राब नहीं होता।
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+AI के ख़िलाफ़, टूर्नामेंट और कालकोठरी में लागू · लोकल में सब बराबर · लुक सभी मोड में लागू
+{0} no máximo do tier {1} (+12)
+{0} टियर {1} में अधिकतम (+12)
+compre {0} no Armeiro
+शस्त्रागार में {0} ख़रीदें
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+सफलता {0}%  ·  फ़ेल {1}%  ·  क़ीमत {2} (आपके पास {3})
++{0}% pelas falhas
+फ़ेल होने से +{0}%
+Trevo ({0})
+तिपतिया ({0})
+-20% de falha
+-20% फ़ेल
+Bênção ({0})
+आशीर्वाद ({0})
+nunca falha
+कभी फ़ेल नहीं
+MÁXIMO
+अधिकतम
+APRIMORAR
+अपग्रेड
+SUCESSO! +{0}
+सफल! +{0}
+FALHOU…
+फ़ेल…
++{0}% na próxima pelas falhas
+फ़ेल होने से अगली बार +{0}%
+Faltam pedras: {0}
+पत्थर कम हैं: {0}
+custo {0} · tem {1}
+क़ीमत {0} · है {1}
+{0} {1} usa {2}.
+{0} {1} में {2} लगता है।
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+पत्थर: जीत, कार्ड, मिशन और लोहार का संदूक (शस्त्रागार)।
+FORMA máxima: DEUS 3
+अधिकतम रूप: देव 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+अगले रूप के लिए {1} में {0} आइटम बाक़ी (रूप सबसे कम टियर वाले आइटम पर चलता है)
+EQUIPAMENTO
+सामान
+MATERIAIS
+सामग्री
+precisa +12 (está +{0})
++12 चाहिए (अभी +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+पहले लोहार के पास +12 तक ले जाएँ
+NOVA FORMA: {0}!
+नया रूप: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+टियर तभी बदलता है जब आइटम +12 पर हो। नया टियर +0 से शुरू होता है और अपने पत्थर से अपग्रेड होता है। चारों एक ही टियर पर हों तो रूप बदलता है।
+ESTATÍSTICAS
+आँकड़े
+GERAL
+सामान्य
+CARREIRA
+करियर
+Partidas
+मैच
+Vitórias
+जीत
+Melhor sequência
+सबसे लंबी जीत-लड़ी
+Abates
+किल
+Dano total
+कुल डैमेज
+Maior dano num tiro
+एक शॉट में सबसे ज़्यादा डैमेज
+Tiros
+शॉट
+Precisão
+सटीकता
+Animal favorito
+पसंदीदा जानवर
+Vitórias perfeitas
+परफ़ेक्ट जीत
+Mais dano numa partida
+एक मैच में सबसे ज़्यादा डैमेज
+Tiros longos · vinganças
+लंबे शॉट · बदले
+Partidas hoje
+आज के मैच
+Fúrias
+क्रोध
+Caixas
+बक्से
+Ferramentas
+टूल
+Suporte
+सपोर्ट
+Quedas
+गिराए
+Tiros rápidos
+तेज़ शॉट
+Multi-acertos
+मल्टी-हिट
+Críticos
+क्रिटिकल
+NA MOSCA
+बिल्कुल निशाने पर
+Passou
+पास किया
+Habilidades
+स्किल
+Torneios vencidos
+जीते टूर्नामेंट
+Nível
+लेवल
+Liga
+लीग
+CONQUISTAS {0}/{1}
+उपलब्धियाँ {0}/{1}
+COLETAR TODAS ({0})
+सब लें ({0})
+{0} conquistas: +{1} cristais
+{0} उपलब्धियाँ: +{1} क्रिस्टल
+(masmorra)
+(कालकोठरी)
+toque: +{0} cristais
+टैप: +{0} क्रिस्टल
+página {0}/{1}
+पेज {0}/{1}
+Bronze
+ब्रॉन्ज़
+Prata
+सिल्वर
+Ouro
+गोल्ड
+Platina
+प्लैटिनम
+Diamante
+डायमंड
+HUMANOS × BOTS
+इंसान × बॉट
+cada um por si (+ bots, se quiser)
+सब अपने लिए (+ बॉट, चाहें तो)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (बॉट भरते हैं)
+todos juntos contra o PC
+सब मिलकर कंप्यूटर के ख़िलाफ़
+Jogador {0}
+खिलाड़ी {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKL-ZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+सब अपनी बारी में खेलें और डिवाइस आगे दें  ·  सबके गुण बराबर  ·  न इनाम, न रैंकिंग
+JOGADORES
+खिलाड़ी
+TAMANHO
+साइज़
+BOTS EXTRAS
+अतिरिक्त बॉट
+BOTS
+बॉट
+DIFICULDADE
+कठिनाई
+sem bots
+बिना बॉट
+Toque no NOME para trocar e no ANIMAL para escolher
+बदलने के लिए नाम पर और चुनने के लिए जानवर पर टैप करें
+no TIME para mudar de lado
+पाला बदलने के लिए टीम पर
+pode repetir animal
+जानवर दोहरा सकते हैं
+Mapa aleatório
+रैंडम मैप
+{0} TODOS CONTRA TODOS
+{0} सब बनाम सब
+{0} HUMANOS × {1} BOTS
+{0} इंसान × {1} बॉट
+{0} no aparelho
+डिवाइस पर {0}
+COMEÇAR
+शुरू करें
+NOME DO JOGADOR {0}  (até 12 letras)
+खिलाड़ी {0} का नाम  (12 अक्षर तक)
+vazio = Jogador {0}
+ख़ाली = खिलाड़ी {0}
+APAGAR
+मिटाएँ
+ESPAÇO
+स्पेस
+Animal de {0}
+{0} का जानवर
+Compre mais animais na tela ANIMAIS
+जानवर स्क्रीन पर और जानवर ख़रीदें
++dano dos tiros
++शॉट का डैमेज
++chance de crítico
++क्रिटिकल का मौक़ा
+-dano recebido
+-झेला गया डैमेज
++energia e joga antes
++एनर्जी और पहले खेलता है
+Pedra de força
+ताक़त पत्थर
+Pedra de ferro
+लोहे का पत्थर
+Pedra de aço
+स्टील का पत्थर
+Pedra mítica
+मिथिक पत्थर
+Pedra lendária
+लेजेंडरी पत्थर
+5 Pedras de Força
+5 ताक़त पत्थर
+20 Pedras de Força
+20 ताक़त पत्थर
+Baú do Ferreiro
+लोहार का संदूक
+aprimora itens de MADEIRA no Ferreiro
+लोहार के पास लकड़ी के आइटम अपग्रेड करता है
+pacote grande: 4 pedras de brinde
+बड़ा पैक: 4 पत्थर मुफ़्त
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+एक ही तरह के 3 से 6 पत्थर, रैंडम (ताक़त 60% · लोहा 25% · स्टील 10% · मिथिक 4% · लेजेंडरी 1%) · तिपतिया (5%) और आशीर्वाद (0.5%) का मौक़ा
++5 pedras de força
++5 ताक़त पत्थर
++20 pedras de força
++20 ताक़त पत्थर
+BÊNÇÃO!
+आशीर्वाद!
+TREVO!
+तिपतिया!
+Vença {0} partidas
+{0} मैच जीतें
+Cause {0} de dano
+{0} डैमेज करें
+Acerte {0} tiros
+{0} शॉट लगाएँ
+Use a Fúria {0} vezes
+क्रोध {0} बार इस्तेमाल करें
+Pegue {0} caixas de suprimento
+{0} सप्लाई बक्से उठाएँ
+Derrote {0} inimigos
+{0} दुश्मन हराएँ
+Vença {0} masmorra
+{0} कालकोठरी जीतें
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+3 शॉट/+1/+2/डैमेज+% {0} बार इस्तेमाल करें
+Derrube rivais de muito alto {0} vezes
+विरोधियों को बहुत ऊँचाई से {0} बार गिराएँ
+Consiga {0} vitória perfeita
+{0} परफ़ेक्ट जीत पाएँ
+Faça {0} tiros rápidos (<5 s)
+{0} तेज़ शॉट लगाएँ (<5 s)
+Acerte 2+ rivais num só tiro {0} vezes
+एक शॉट में 2+ विरोधियों को {0} बार मारें
+Acerte {0} tiros longos
+{0} लंबे शॉट लगाएँ
+Vença {0} vez no mapa do dia
+आज के मैप पर {0} बार जीतें
+Jogue {0} partidas
+{0} मैच खेलें
+Vença {0} partidas em time (2x2+)
+टीम में {0} मैच जीतें (2x2+)
+Faça {0} vingança
+{0} बदला लें
+Cause 600+ de dano em {0} partida
+{0} मैच में 600+ डैमेज करें
+Use o PASSAR {0} vezes
+पास {0} बार इस्तेमाल करें
+Acerte {0} críticos
+{0} क्रिटिकल लगाएँ
+Derrote {0} monstros na masmorra
+कालकोठरी में {0} राक्षस हराएँ
+Vença {0} partida no Todos x Todos
+सब बनाम सब में {0} मैच जीतें
+Vença {0} partida no Difícil+
+मुश्किल+ पर {0} मैच जीतें
+Jogue {0} partida online
+{0} ऑनलाइन मैच खेलें
+Cause {0} de dano na masmorra
+कालकोठरी में {0} डैमेज करें
+Acerte {0} tiros NA MOSCA
+{0} शॉट बिल्कुल निशाने पर लगाएँ
+Use {0} ferramentas do Arsenal
+शस्त्रागार के {0} टूल इस्तेमाल करें
+Use {0} itens de suporte
+{0} सपोर्ट आइटम इस्तेमाल करें
+Use {0} habilidades
+{0} स्किल इस्तेमाल करें
+Coloque {0} vigas
+{0} बीम लगाएँ
+Primeiro sangue
+फ़र्स्ट ब्लड
+Veterano
+अनुभवी
+Lenda da Arena
+अखाड़े का दिग्गज
+Atirador
+निशानेबाज़
+Demolidor
+विध्वंसक
+Tiro perfeito
+परफ़ेक्ट शॉट
+Invicto
+अजेय
+Exterminador
+संहारक
+Caçador de chefes
+बॉस शिकारी
+Conquistador
+विजेता
+Ferreiro mestre
+मास्टर लोहार
+Nível 20
+लेवल 20
+Centenário
+शतकवीर
+Imperador
+सम्राट
+Olho de águia
+चील की नज़र
+Apocalipse
+प्रलय
+Golpe divino
+दिव्य वार
+Imparável
+बेरोक
+Ceifador
+यमराज
+Perfeccionista
+परफ़ेक्शनिस्ट
+Franco-atirador
+स्नाइपर
+Vingador
+बदला लेने वाला
+Mestre do modo
+मोड मास्टर
+Colecionador
+संग्रहकर्ता
+Maratonista
+मैराथन खिलाड़ी
+Imortal
+अमर
+Atirador de elite
+अचूक निशानेबाज़
+Destruidor
+तबाही मचाने वाला
+Golpe lendário
+लेजेंडरी वार
+Exterminador supremo
+महा संहारक
+Sempre perfeito
+हमेशा परफ़ेक्ट
+Explorador
+खोजी
+Domador
+वश में करने वाला
+Lenda das masmorras
+कालकोठरी का दिग्गज
+Campeão do torneio
+टूर्नामेंट चैंपियन
+Rei do mapa do dia
+आज के मैप का राजा
+Desbravador
+पथप्रदर्शक
+Senhor das masmorras
+कालकोठरी का स्वामी
+Naturalista
+प्रकृतिविद
+Enciclopédia
+विश्वकोश
+Rei da Fúria
+क्रोध का राजा
+Caçador de caixas
+बक्सा शिकारी
+Mestre das ferramentas
+टूल मास्टर
+Derrubador
+गिराने वाला
+Chuva de golpes
+वारों की बारिश
+Estrategista
+रणनीतिकार
+Golpe crítico
+क्रिटिकल वार
+Desarmador
+निहत्था करने वाला
+Quebra-aço
+स्टील तोड़
+Exorcista
+ओझा
+Guardião do céu
+आसमान का रक्षक
+Quebra-gelo
+बर्फ़ तोड़
+Caça-piratas
+समुद्री डाकू शिकारी
+Ás dos céus
+आसमान का इक्का
+Fim do caos
+अराजकता का अंत
+Matador de dragões
+ड्रैगन संहारक
+Senhor do vazio
+शून्य का स्वामी
+Mestre das habilidades
+स्किल मास्टर
+Engenheiro
+इंजीनियर
+Constelação
+तारामंडल
+Céu estrelado
+तारों भरा आसमान
+Escavador
+खुदाई करने वाला
+Piloto
+पायलट
+Ninja
+निंजा
+Pirotécnico
+आतिशबाज़
+Pastor
+चरवाहा
+Granadeiro
+ग्रेनेडियर
+Chuva de granadas
+ग्रेनेड की बारिश
+Sapador
+सुरंगबाज़
+Piloto de caça
+फ़ाइटर पायलट
+Britador
+ड्रिल मशीन
+Vença 1 partida
+1 मैच जीतें
+Jogue 50 partidas
+50 मैच खेलें
+Vença 100 partidas
+100 मैच जीतें
+Acerte 200 tiros
+200 शॉट लगाएँ
+Cause 50.000 de dano
+50,000 डैमेज करें
+Cause 800 de dano num só tiro
+एक ही शॉट में 800 डैमेज करें
+Vença 5 seguidas
+लगातार 5 जीतें
+Derrote 100 inimigos
+100 दुश्मन हराएँ
+Vença a 1ª masmorra
+पहली कालकोठरी जीतें
+Vença as 4 masmorras
+चारों कालकोठरियाँ जीतें
+Aprimore um item até +10
+एक आइटम +10 तक अपग्रेड करें
+Chegue ao nível 20
+लेवल 20 तक पहुँचें
+Jogue 200 partidas
+200 मैच खेलें
+Vença 300 partidas
+300 मैच जीतें
+Acerte 1000 tiros
+1000 शॉट लगाएँ
+Cause 250.000 de dano
+2,50,000 डैमेज करें
+Cause 1200 num só tiro
+एक ही शॉट में 1200 करें
+Vença 10 seguidas
+लगातार 10 जीतें
+Derrote 500 inimigos
+500 दुश्मन हराएँ
+10 vitórias perfeitas
+10 परफ़ेक्ट जीत
+50 tiros longos
+50 लंबे शॉट
+20 vinganças
+20 बदले
+Chegue ao nível 40
+लेवल 40 तक पहुँचें
+Vença com 10 animais diferentes
+10 अलग जानवरों से जीतें
+Jogue 500 partidas
+500 मैच खेलें
+Vença 20 seguidas
+लगातार 20 जीतें
+Acerte 3000 tiros
+3000 शॉट लगाएँ
+Cause 1.000.000 de dano
+10,00,000 डैमेज करें
+Cause 1500 num só tiro
+एक ही शॉट में 1500 करें
+Derrote 1500 inimigos
+1500 दुश्मन हराएँ
+50 vitórias perfeitas
+50 परफ़ेक्ट जीत
+Vença em 10 mapas diferentes
+10 अलग मैप पर जीतें
+Vença com 18 animais diferentes
+18 अलग जानवरों से जीतें
+Vença uma masmorra no Lendário
+लेजेंडरी पर एक कालकोठरी जीतें
+Vença o Torneio do Dia
+आज का टूर्नामेंट जीतें
+Vença 10 vezes no mapa do dia
+आज के मैप पर 10 बार जीतें
+Vença 6 masmorras diferentes
+6 अलग कालकोठरियाँ जीतें
+Vença as 10 masmorras
+सभी 10 कालकोठरियाँ जीतें
+Descubra 15 monstros no bestiário
+बेस्टियरी में 15 राक्षस खोजें
+Descubra todos os monstros
+सभी राक्षस खोजें
+Use a Fúria 100 vezes
+क्रोध 100 बार इस्तेमाल करें
+Pegue 100 caixas
+100 बक्से उठाएँ
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+3 शॉट/+1/+2/डैमेज+% 500 बार इस्तेमाल करें
+Derrube 50 rivais de muito alto
+50 विरोधियों को बहुत ऊँचाई से गिराएँ
+Faça 100 tiros rápidos (<5 s)
+100 तेज़ शॉट लगाएँ (<5 s)
+Acerte 2+ rivais num tiro 50 vezes
+एक शॉट में 2+ विरोधियों को 50 बार मारें
+Use o PASSAR 50 vezes
+पास 50 बार इस्तेमाल करें
+Acerte 200 críticos
+200 क्रिटिकल लगाएँ
+Vença o Ninho das Bombas
+बमों का घोंसला जीतें
+Vença a Fortaleza de Aço
+स्टील का क़िला जीतें
+Vença o Templo Sombrio
+अंधेरा मंदिर जीतें
+Vença o Santuário Celeste
+आसमानी धाम जीतें
+Vença o Pico Congelado
+जमी हुई चोटी जीतें
+Vença o Estaleiro Pirata
+समुद्री डाकू शिपयार्ड जीतें
+Vença o Céu de Guerra
+जंग का आसमान जीतें
+Vença o Trono do Caos
+अराजकता का सिंहासन जीतें
+Vença o Covil do Dragão
+ड्रैगन की माँद जीतें
+Vença o Trono do Vazio
+शून्य का सिंहासन जीतें
+Use 100 habilidades
+100 स्किल इस्तेमाल करें
+Coloque 50 vigas
+50 बीम लगाएँ
+Tire 3 estrelas numa masmorra
+एक कालकोठरी में 3 स्टार पाएँ
+Junte 30 estrelas nas masmorras
+कालकोठरियों में 30 स्टार जमा करें
+Cave 20 túneis/poços
+20 सुरंगें/गड्ढे खोदें
+Voe de jetpack 15 vezes
+जेटपैक से 15 बार उड़ें
+Use a corda ninja 15 vezes
+निंजा रस्सी 15 बार इस्तेमाल करें
+Exploda 15 dinamites
+15 डायनामाइट फोड़ें
+Solte 15 ovelhas
+15 भेड़ें छोड़ें
+Arremesse 30 granadas
+30 ग्रेनेड फेंकें
+Use 8 cachos de granadas
+8 ग्रेनेड गुच्छे इस्तेमाल करें
+Plante 15 minas
+15 माइन लगाएँ
+Chame 6 ataques aéreos
+6 हवाई हमले बुलाएँ
+Use a Britadeira 10 vezes
+ड्रिल मशीन 10 बार इस्तेमाल करें
++1 Trevo
++1 तिपतिया
+TREVO
+तिपतिया
+BÊNÇÃO
+आशीर्वाद
+FERRO
+लोहा
+AÇO
+स्टील
+MÍTICA
+मिथिक
+LENDÁRIA
+लेजेंडरी
+INIMIGOS
+दुश्मन
+ELITE
+एलीट
+CHEFE
+बॉस
+Sair agora encerra a masmorra sem prêmio.
+अभी निकलने पर डंजन बिना इनाम के खत्म होगा।
+chefe derrotado
+बॉस हराया
+parou no chefe
+बॉस पर रुके
+onda {0}/2
+लहर {0}/2
+venceu
+जीते
+sem baixas
+कोई हार नहीं
+teve baixa
+एक गिरा
+não
+नहीं
+até {0} turnos
+{0} टर्न के अंदर
+3 estrelas pela 1ª vez: +{0} cristais
+पहली बार 3 सितारे: +{0} क्रिस्टल
+novo recorde de estrelas!
+सितारों का नया रिकॉर्ड!
+PONTO FRACO!
+कमज़ोर जगह!
+BLOQUEADO - acerte de cima
+रोका गया - ऊपर से मारो
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+दूसरा रूप: टैंक बना टैंक-वाहक!
+restam {0}
+{0} बचे
+ONDA {0}/2
+लहर {0}/2
+avança...
+आगे बढ़ रहा...
+arremessa...
+फेंक रहा...
+cura...
+ठीक कर रहा...
+ataca...
+हमला कर रहा...
+chama os lacaios...
+गुर्गों को बुला रहा...
+está mirando...
+निशाना ले रहा...
+enfurecido
+क्रोधित
+defesa {0}  (leva -{1}%)
+रक्षा {0}  (-{1}% नुकसान)
+ELITE: +50% vida, +20% dano · 
+एलीट: +50% जान, +20% नुकसान · 
+ENFURECIDO: +20% dano · 
+क्रोधित: +20% नुकसान · 
+anda até você e bate de perto{0}
+पास आकर मारता है{0}
+ (explode!)
+ (फटता है!)
+cura os aliados - derrube primeiro
+साथियों को ठीक करता है - पहले गिराओ
+atira de longe
+दूर से गोली चलाता है
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+लहर {0} जीती · {1} मारे · {2} नुकसान · +{3} जान
+NOVO no bestiário: {0}
+जीव-सूची में नया: {0}
+Onda {0}: 
+लहर {0}: 
+ONDA {0} de 2: {1} inimigos!
+लहर {0} / 2: {1} दुश्मन!
+({0} elite)
+({0} एलीट)
+ONDA {0} DE 2 - {1} INIMIGOS
+लहर {0} / 2 - {1} दुश्मन
+OS SENHORES DO CAOS!
+अराजकता के स्वामी!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+जादूगर और योद्धा साथ! दूसरे को ठीक करने से पहले जादूगर को गिराओ
+CHEFE: {0}
+बॉस: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+प्राचीन ड्रैगन जागा! हर 3 बार गोली जलाती है और हर 4 बार आग बरसती है
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+शून्य का राजा आया! हर 3 बार कवच और एलीट गुर्गा बुलाता है
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+बर्फ़ का स्वामी आया! हर 3 बार उसकी गोली जमा देती है
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+युद्धपोत आया! एक साथ 3 गोले - फैल जाओ
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+विशाल हवाई जहाज़ आया! हर 4 बार सब पर बमबारी
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+विशाल टैंक आया! ढाल सिर्फ़ ऊपर से गिरती गोलियों से टूटती है
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+अंधेरा जादूगर आया! पहले वैद्यों को मारो
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+अंधेरा योद्धा आया! कवच हटने पर हमला करो
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+बम राजा आया! सिर पर निशाना लगाओ (कमज़ोर जगह)
+cura
+उपचार
+Ritual de cura!
+उपचार अनुष्ठान!
+Lacaios, ataquem!
+गुर्गों, हमला करो!
+{0} ENFURECEU! (+20% de dano)
+{0} क्रोधित हुआ! (+20% नुकसान)
+O CHEFE ENFURECEU!
+बॉस क्रोधित हुआ!
+ARMADURA NEGRA!
+काला कवच!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+योद्धा ने कवच पहना (2 बार -50%)
+NEVASCA!
+बर्फ़ीला तूफ़ान!
+CHUVA DE FOGO!
+आग की बारिश!
+BOMBARDEIO!
+बमबारी!
+FURIOSO!
+गुस्से में!
+bravo
+नाराज़
+CHEFE  ·  {0}
+बॉस  ·  {0}
+{0} de vida
+{0} जान
+toque para pular
+छोड़ने के लिए टैप करें
+o tempo acabou
+समय खत्म
+Faltam 5 turnos: {0} vai desabar!
+5 टर्न बाकी: {0} ढहने वाला है!
+ELITE derrotado por {0} (+20 de fúria)
+{0} ने एलीट हराया (+20 क्रोध)
+{0} deixou cair uma caixa!
+{0} ने एक बक्सा गिराया!
+fugiu!
+भाग गया!
+{0} caiu! Os lacaios fugiram!
+{0} गिर गया! गुर्गे भाग गए!
+Bombinha
+छोटा बम
+Lança-Bombas
+बम फेंकू
+Brutamontes
+दैत्य
+REI BOMBA
+बम राजा
+Viking
+वाइकिंग
+Blindado
+बख़्तरबंद
+TANQUE COLOSSAL
+विशाल टैंक
+Bandido
+डाकू
+Golem
+गोलेम
+Curandeiro
+वैद्य
+FEITICEIRO SOMBRIO
+अंधेरा जादूगर
+Mago
+जादूगर
+Bárbaro
+बर्बर
+Motosserra
+आरा मशीन
+CAVALEIRO SOMBRIO
+अंधेरा योद्धा
+Lenhador
+लकड़हारा
+Ninja do Gelo
+बर्फ़ निंजा
+LORDE DO GELO
+बर्फ़ का स्वामी
+Gladiador
+ग्लैडिएटर
+Tanque Pirata
+समुद्री डाकू टैंक
+Caminhão Viking
+वाइकिंग ट्रक
+ENCOURAÇADO PIRATA
+समुद्री डाकू युद्धपोत
+Dirigível
+हवाई जहाज़
+Caça
+लड़ाकू विमान
+Encapuzada
+नकाबपोश
+DIRIGÍVEL COLOSSAL
+विशाल हवाई जहाज़
+Sombra Veloz
+तेज़ छाया
+DRAGÃO ANCESTRAL
+प्राचीन ड्रैगन
+REI DO VAZIO
+शून्य का राजा
+anda até você e EXPLODE
+पास आकर फट जाता है
+atira bombas de longe
+दूर से बम फेंकता है
+lento, muito resistente
+धीमा, बहुत मज़बूत
+ponto fraco na cabeça · invoca lacaios
+सिर कमज़ोर जगह · गुर्गे बुलाता है
+corre e ataca de perto
+दौड़कर पास से हमला
+blindado: aguenta muito
+बख़्तरबंद: बहुत झेलता है
+barreira: acerte DE CIMA · 2ª forma
+ढाल: ऊपर से मारो · दूसरा रूप
+pedra viva: forte de perto
+जीवित पत्थर: पास से ताकतवर
+se cura · tiros envenenam
+खुद को ठीक करता है · गोलियाँ ज़हरीली
+magia de longe
+दूर से जादू
+REGENERA a cada vez
+हर बार ठीक हो जाता है
+serra de perto, dano alto
+पास से आरा, भारी नुकसान
+ARMADURA a cada 3 vezes · chama magos
+हर 3 बार कवच · जादूगर बुलाता है
+machado de perto, resistente
+पास से कुल्हाड़ी, मज़बूत
+atira estrelas de longe
+दूर से सितारे फेंकता है
+a cada 3 vezes o tiro CONGELA
+हर 3 बार गोली जमा देती है
+corre e golpeia de perto
+दौड़कर पास से वार
+canhão de longe, blindado
+दूर से तोप, बख़्तरबंद
+avança e atropela de perto
+आगे बढ़कर कुचलता है
+sempre atira 3 balas de canhão
+हमेशा 3 तोप के गोले
+bombardeia do alto
+ऊपर से बमबारी
+rápido, atira de longe
+तेज़, दूर से गोली
+cura os aliados · derrube primeiro
+साथियों को ठीक करती है · पहले गिराओ
+a cada 4 vezes BOMBARDEIA todo mundo
+हर 4 बार सब पर बमबारी
+muito rápida, ataca de perto
+बहुत तेज़, पास से हमला
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+हर 3 बार गोली जलाती है · हर 4 बार आग की बारिश
+armadura a cada 3 · veneno · chama ELITE
+हर 3 बार कवच · ज़हर · एलीट बुलाता है
+NINHO DAS BOMBAS
+बमों का घोंसला
+FORTALEZA DE AÇO
+इस्पात का किला
+TEMPLO SOMBRIO
+अंधेरा मंदिर
+SANTUÁRIO CELESTE
+आकाशीय धाम
+PICO CONGELADO
+जमी हुई चोटी
+ESTALEIRO PIRATA
+समुद्री डाकू गोदी
+CÉU DE GUERRA
+युद्ध का आसमान
+TRONO DO CAOS
+अराजकता का सिंहासन
+COVIL DO DRAGÃO
+ड्रैगन की मांद
+TRONO DO VAZIO
+शून्य का सिंहासन
+Ondas: Bombinhas que explodem, Lança-Bombas
+लहरें: फटने वाले छोटे बम, बम फेंकू
+e Brutamontes. Chefe: REI BOMBA
+और दैत्य। बॉस: बम राजा
+Ondas: Vikings, Blindados e Lança-Bombas.
+लहरें: वाइकिंग, बख़्तरबंद और बम फेंकू।
+Chefe: TANQUE COLOSSAL
+बॉस: विशाल टैंक
+barreira: acerte DE CIMA · tem 2ª forma
+ढाल: ऊपर से मारो · दूसरा रूप है
+Ondas: Bandidos, Golens e Curandeiros.
+लहरें: डाकू, गोलेम और वैद्य।
+Chefe: FEITICEIRO SOMBRIO
+बॉस: अंधेरा जादूगर
+se cura (mate os curandeiros) · veneno
+खुद को ठीक करता है (वैद्यों को मारो) · ज़हर
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+लहरें: जादूगर, बर्बर (ठीक होते हैं) और आरा मशीन।
+Chefe: CAVALEIRO SOMBRIO
+बॉस: अंधेरा योद्धा
+armadura a cada 3 vezes · chama magos
+हर 3 बार कवच · जादूगर बुलाता है
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+लहरें: लकड़हारे और बर्फ़ निंजा। इस्पात पत्थर
+Chefe: LORDE DO GELO
+बॉस: बर्फ़ का स्वामी
+a cada 3 vezes o tiro dele CONGELA
+हर 3 बार उसकी गोली जमा देती है
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+लहरें: ग्लैडिएटर, ट्रक और टैंक। इस्पात पत्थर
+Chefe: ENCOURAÇADO PIRATA
+बॉस: समुद्री डाकू युद्धपोत
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+लहरें: लड़ाकू विमान, हवाई जहाज़ और नकाबपोश (ठीक करती हैं)। मिथकीय
+Chefe: DIRIGÍVEL COLOSSAL
+बॉस: विशाल हवाई जहाज़
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+लहरें: तेज़ छायाएँ और ग्लैडिएटर। मिथकीय पत्थर
+Chefes: FEITICEIRO + CAVALEIRO juntos
+बॉस: जादूगर + योद्धा साथ
+dois chefes: cura, veneno e armadura
+दो बॉस: उपचार, ज़हर और कवच
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+लहरें: बर्बर, ग्लैडिएटर और निंजा। पौराणिक
+Chefe: DRAGÃO ANCESTRAL
+बॉस: प्राचीन ड्रैगन
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+लहरें: छायाएँ, जादूगर और नकाबपोश। पौराणिक
+Chefe: REI DO VAZIO
+बॉस: शून्य का राजा
+Bênção da Força: +10% de dano
+शक्ति का आशीर्वाद: +10% नुकसान
+Bênção da Fúria: começa com 25 de fúria
+क्रोध का आशीर्वाद: 25 क्रोध से शुरू
+Bênção do Arsenal: +1 uso de cada ferramenta
+शस्त्रागार का आशीर्वाद: हर औज़ार +1 बार
+Bênção da Pedra: -15% de dano recebido
+पत्थर का आशीर्वाद: -15% नुकसान लगता है
+Bênção da Vida: +20% de vida
+जीवन का आशीर्वाद: +20% जान
+Bênção da Sorte: +8% de chance de crítico
+भाग्य का आशीर्वाद: +8% क्रिटिकल मौका
+Bênção do Guia: +2 usos da mira guiada
+मार्गदर्शक का आशीर्वाद: निर्देशित निशाना +2 बार
+Bênção do Escudo: começa com escudo
+ढाल का आशीर्वाद: ढाल के साथ शुरू
+ e 
+ और 
+Vença os 2 anteriores{0}
+पिछले 2 जीतो{0}
+ainda não jogou
+अभी तक नहीं खेला
+chegou ao chefe
+बॉस तक पहुँचे
+onda {0}
+लहर {0}
+Recorde: {0}
+रिकॉर्ड: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+इनाम: {0} क्रिस्टल · {1} {2}-{3}
+chance de Trevo e Bênção
+तिपतिया और आशीर्वाद का मौका
+DIFICULDADE DOS MONSTROS
+राक्षसों की कठिनाई
+EQUIPE: só jogadores (sem bots)
+टीम: सिर्फ़ खिलाड़ी (कोई बॉट नहीं)
+Aqui você entra SOZINHO.
+यहाँ तुम अकेले जाते हो।
+Lendário: vença as 4 primeiras masmorras
+पौराणिक: पहले 4 डंजन जीतो
+Monstros
+राक्षस
+ENTRAR NA MASMORRA
+डंजन में जाओ
+BLOQUEADA
+बंद
+MONSTROS DAS MASMORRAS · {0} / {1}
+डंजन के राक्षस · {0} / {1}
+vida {0}   defesa {1}
+जान {0}   रक्षा {1}
+Enfrente-o numa masmorra para revelar
+दिखाने के लिए डंजन में इससे लड़ो
+masmorra
+डंजन
+Masmorras
+डंजन
+Bestiário
+जीव-सूची
+VISUAL
+रूप
+EM USO
+उपयोग में
+toque para usar
+इस्तेमाल के लिए टैप करें
+Rastro {0}!
+निशान {0}!
+Clássico
+क्लासिक
+Fogo
+आग
+Arco-íris
+इंद्रधनुष
+Veneno
+ज़हर
+Sombra
+छाया
+Chiclete
+च्युइंग गम
+Neon
+नियॉन
+PRESENTE DIÁRIO
+रोज़ का तोहफ़ा
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+हर दिन आओ: इनाम बढ़ता है। एक दिन छूटा तो दिन 1 से शुरू।
+DIA {0}
+दिन {0}
+COLETAR DIA {0}
+दिन {0} लो
+volte amanhã
+कल फिर आओ
+{0} cristais
+{0} क्रिस्टल
+2 pedras do seu nível
+आपके स्तर के 2 पत्थर
+1 Trevo
+1 तिपतिया
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} क्रिस्टल + आपके स्तर के 3 पत्थर + आशीर्वाद का मौका
+Dia {0}: {1}
+दिन {0}: {1}
+10 masmorras · monstros e chefes
+10 कालकोठरियाँ · राक्षस और बॉस
+você contra os bots · 1x1 a 4x4
+आप बनाम बॉट · 1x1 से 4x4
+2 a 8 no mesmo aparelho
+एक ही डिवाइस पर 2 से 8
+cada um por si
+हर कोई अपने लिए
+monte os times como quiser: 1x3, 2x4...
+टीमें जैसे चाहें बनाएं: 1x3, 2x4...
+LUTADORES  {0}/{1}
+योद्धा  {0}/{1}
+BOT
+बॉट
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+जानवर चुनने के लिए उस पर टैप करें, नाम पर टैप कर नियंत्रक बदलें (खिलाड़ी या बॉट)
+animal sorteado
+रैंडम जानवर
+jogador {0}
+खिलाड़ी {0}
+JOGADORES NO APARELHO
+इस डिवाइस पर खिलाड़ी
+bots com o mesmo nível e força do jogador
+बॉट का स्तर और ताकत खिलाड़ी जितनी
+bots mais fortes que o jogador
+बॉट खिलाड़ी से ज़्यादा ताकतवर
+{0} não controla nenhum animal
+{0} कोई जानवर नियंत्रित नहीं करता
+Sorteado
+रैंडम
+TIME VERDE
+हरी टीम
+TIME AMARELO
+पीली टीम
+TIME
+टीम
+OUTROS TIMES
+दूसरी टीमें
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+सभी खिलाड़ी दूसरी टीमों में हैं - + बॉट इस्तेमाल करें या नाम पर टैप करें
+{0} mudou de time com todos os seus animais
+{0} अपने सभी जानवरों के साथ टीम बदल गया
+{0} já está no {1}
+{0} पहले से {1} में है
+na próxima vez
+अगली बारी में
+PADRÃO
+सामान्य
+SOMBRIA
+छाया
+JADE
+जेड
+BRASA
+अंगारा
+CÓSMICA
+ब्रह्मांडीय
+Skin
+स्किन
+SKINS
+स्किन
+Skins
+स्किन
+Em uso
+उपयोग में
+Usar
+इस्तेमाल करो
+OK
+ठीक
+Derrote {0} inimigos com este animal
+इस जानवर से {0} दुश्मन हराओ
+Vença {0} partidas com este animal
+इस जानवर से {0} मैच जीतो
+Vença a masmorra {0} no Normal (ou mais) com este animal
+इस जानवर से कालकोठरी {0} नॉर्मल (या ऊपर) पर जीतो
+Acerte {0} tiros NA MOSCA com este animal
+इस जानवर से {0} बार ठीक निशाने पर मारो
+Cause {0} de dano num só tiro com este animal
+इस जानवर से एक ही शॉट में {0} नुकसान करो
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+इस जानवर से AI के खिलाफ कठिन या लेजेंडरी में {0} मैच जीतो
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+इस जानवर से कालकोठरी {0} कठिन (या ऊपर) पर जीतो
+Cumpra a missão para liberar a compra
+खरीदने के लिए मिशन पूरा करो
+Compre o animal para usar skins
+स्किन के लिए जानवर खरीदो
+Liberada!
+खुल गई!
+Skin {0} comprada!
+स्किन {0} खरीदी!
+Não foi possível comprar
+खरीद नहीं सके
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+स्किन मैच में दिखती है और उपकरण के रूप के साथ मिलती है। बॉट भी स्किन इस्तेमाल करते हैं।
+Skin liberada: {0} {1}!
+स्किन खुली: {0} {1}!
+Compre na tela Skins por {0} cristais
+स्किन स्क्रीन पर {0} क्रिस्टल में खरीदो
+SEU NOME  (3 a {0} letras ou números)
+आपका नाम  (3 से {0} अक्षर या अंक)
+SORTEAR
+रैंडम
+LIMPAR
+साफ़
+Use pelo menos 3 letras ou números
+कम से कम 3 अक्षर या अंक इस्तेमाल करो
+Nome não permitido - escolha outro
+यह नाम अनुमति नहीं है - दूसरा चुनो
+Seu animal: {0}  (troque nas setas)
+आपका जानवर: {0}  (तीरों से बदलो)
+Pets
+पालतू
+Equipado
+लगा हुआ
+EQUIPAR
+साथ लो
+TIRAR
+हटाओ
+Buff
+बोनस
+Pet: {0}
+पालतू: {0}
+Sem pet
+कोई पालतू नहीं
+toque para escolher um pet
+पालतू चुनने के लिए टैप करो
+Pets a partir do nível {0}
+पालतू स्तर {0} से
+só visual no treino
+अभ्यास में सिर्फ दिखावट
+Liberado no nível {0}
+स्तर {0} पर खुला
+Libera no nível {0}
+स्तर {0} पर खुलेगा
+Truques (na partida, toque no pet):
+करतब (मैच में पालतू को टैप करो):
+{0} é seu!
+{0} अब आपका है!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+एक बार में एक पालतू। बोनस AI के खिलाफ, कालकोठरी और टूर्नामेंट में मिलता है (अभ्यास में सिर्फ दिखता है)। लोकल मैच में नहीं।
+Novo pet disponível!
+नया पालतू उपलब्ध!
+Compre na tela Pets por {0} cristais
+पालतू स्क्रीन पर {0} क्रिस्टल में खरीदो
+ESCOLHA MAIS 2 CARTAS!
+2 और कार्ड चुनो!
+vídeo assistido: vire mais 2 cartas!
+वीडियो देखा: 2 और कार्ड पलटो!
++2 CARTAS (vídeo)
++2 कार्ड (वीडियो)
+XP x2 (vídeo)
+XP x2 (वीडियो)
+XP x2 ativo
+XP x2 चालू
+sem vídeo
+वीडियो नहीं
+Pinguinzinho
+छोटा पेंगुइन
+Corujinha
+छोटा उल्लू
+Patinho
+बत्तख का बच्चा
+Tartaruguinha
+छोटा कछुआ
+Esquilinho
+छोटी गिलहरी
+Hamster
+हैम्स्टर
+Tartaruga azul
+नीला कछुआ
+Gatinho
+बिल्ली का बच्चा
+Coelhinho
+खरगोश का बच्चा
+Raposinha
+छोटी लोमड़ी
+Porquinho cinza
+स्लेटी सूअर का बच्चा
+Porquinho
+सूअर का बच्चा
+Cachorrinho
+पिल्ला
+Pandinha
+छोटा पांडा
+Ursinho
+भालू का बच्चा
+Unicórnio
+यूनिकॉर्न
+Raposa-fênix
+फ़ीनिक्स लोमड़ी
+Dragão Negro
+काला ड्रैगन
+Dragãozinho
+छोटा ड्रैगन
+Sentar
+बैठो
+Rolar
+लुढ़को
+Mortal
+कलाबाज़ी
+Dançar
+नाचो
+Pulo de Alegria
+खुशी की छलांग
+-30% de efeito do vento nos seus tiros
+आपके शॉट पर हवा का असर -30%
++10% de chance de crítico
+क्रिटिकल मौका +10%
++15% de dano em alvos a mais de 60 m
+60 मी से दूर लक्ष्य पर नुकसान +15%
+-35% de empurrão das explosões
+धमाकों से धक्का -35%
+Sem dano de queda
+गिरने से नुकसान नहीं
++1 Mira guiada por partida
+हर मैच में +1 गाइडेड निशाना
+-50% de dano de fogo e veneno
+आग और ज़हर का नुकसान -50%
+Crítico causa x1,8 (normal x1,5)
+क्रिटिकल x1.8 (सामान्य x1.5)
++15% de energia em cada vez
+हर बारी में ऊर्जा +15%
+Começa a partida com 30% de fúria
+मैच 30% गुस्से से शुरू
+Começa com escudo (metade do dano) até a 2ª vez
+दूसरी बारी तक ढाल (आधा नुकसान)
++15% de fúria ganha
+मिलने वाला गुस्सा +15%
+Recupera 10% do dano que causa
+दिए गए नुकसान का 10% वापस
+-15% de dano recebido
+मिलने वाला नुकसान -15%
++10% de vida máxima
+अधिकतम जान +10%
++15% de raio de explosão
+धमाके का दायरा +15%
+Recupera 20 de vida no início de cada vez
+हर बारी की शुरुआत में 20 जान वापस
++15% de dano
+नुकसान +15%
+{1} pedras do seu nível
+आपके स्तर के {1} पत्थर
+1 Trevo + {1} pedras do seu nível
+1 तिपतिया + आपके स्तर के {1} पत्थर
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} क्रिस्टल + आपके स्तर के {1} पत्थर + आशीर्वाद का मौका
+Vitória: {0}+ cristais
+जीत: {0}+ क्रिस्टल
+prêmio x{0}
+इनाम x{0}
+mapa do dia +50%
+आज का मैप +50%
+1ª vitória do dia +{0}
+दिन की पहली जीत +{0}
+energia
+ऊर्जा
+aguarde...
+रुकें...
+errou
+चूका
+escudo
+ढाल
+congelado
+जमा हुआ
+acabou
+खत्म
+ativo
+सक्रिय
+emprestado
+उधार
+envenenado
+ज़हर लगा
+jogando
+खेल रहा
+queimando
+जल रहा
+viga
+बीम
+armando
+तैयार हो रहा
+fogo
+आग
+veneno
+ज़हर
+derrotado
+हारा
+coletada
+ली गई
++15% de dano do Especial
+स्पेशल नुकसान +15%
+Derrote {0} inimigos com o Especial deste animal
+इस जानवर के स्पेशल से {0} दुश्मन हराओ
+ENTRAR
+प्रवेश
+equipamento dos bots um pouco abaixo do seu
+बॉट्स का सामान आपसे थोड़ा कम
+bots com o mesmo equipamento que você
+बॉट्स के पास आपके जैसा ही सामान
+equipamento dos bots um pouco acima do seu
+बॉट्स का सामान आपसे थोड़ा बेहतर
+equipamento dos bots bem acima do seu
+बॉट्स का सामान आपसे काफ़ी बेहतर
+Ande até a bandeira
+झंडे तक चलें
+Mire em {0}°
+{0}° पर निशाना
+Segure e solte na marca
+दबाएँ, निशान पर छोड़ें
+Acerte o inimigo!
+दुश्मन को मारें!
+Muito bem! Vença!
+शाबाश! जीतें!
+Use a habilidade verde
+हरा कौशल चलाएँ
+Agora a habilidade roxa
+अब बैंगनी कौशल
+Use um item e atire
+आइटम लें और चलाएँ
+Fúria cheia: use o Especial!
+रोष भरा: स्पेशल चलाएँ!
+Use a granada
+ग्रेनेड चलाएँ
+Coloque uma viga
+बीम लगाएँ
+Voe de jetpack
+जेटपैक से उड़ें
+Lance a corda no teto
+छत पर रस्सी फेंकें
+Pronto! Vença!
+हो गया! जीतें!
+Muito bem!
+शाबाश!
+PULAR TUTORIAL
+ट्यूटोरियल छोड़ें
+Pular o tutorial?
+ट्यूटोरियल छोड़ें?
+Você vai direto para o menu. Dá para refazer em Opções.
+आप सीधे मेन्यू पर जाएँगे। विकल्प में फिर कर सकते हैं।
+PULAR
+छोड़ें
+PRÓXIMO TUTORIAL ({0}/3)
+अगला ट्यूटोरियल ({0}/3)
+IR PARA O MENU
+मेन्यू पर जाएँ
+MENU
+मेन्यू
+Refazer tutorial
+ट्यूटोरियल फिर करें
+Bem-vindo à batalha!
+लड़ाई में स्वागत है!
+Tutorial concluído: +{0} cristais
+ट्यूटोरियल पूरा: +{0} क्रिस्टल
+SEGURE o botão para voar · setas para os lados
+उड़ने के लिए बटन दबाए रखें · तीर से दाएँ-बाएँ
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+इस्तेमाल से चालू · उड़ने के लिए बटन दबाए रखें (13 से ईंधन) · तीर से दिशा · धीमी लैंडिंग · उतरकर चलाएँ
+partida rápida 1x1
+तेज़ 1v1 मैच
+1x1 a 4x4 · escolha mapa e dificuldade
+1v1 से 4v4 · मैप और कठिनाई चुनें
+Mostrar todos os controles
+सभी नियंत्रण दिखाएँ
+ANDE: segure as setas
+चलें: तीर दबाकर रखें
+MIRE: setas para cima e para baixo
+निशाना: ऊपर-नीचे तीर
+SEGURE para dar força e SOLTE para atirar!
+ताकत के लिए दबाएँ, छोड़कर चलाएँ!
+PULE com este botão (gasta energia)
+इस बटन से कूदें (ऊर्जा लगती है)
+O VENTO empurra o tiro: olhe aqui em cima
+हवा गोले को धकेलती है: यहाँ ऊपर देखें
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+पास करने से थोड़ा ठीक होते हैं। सब देखने के लिए मैप पर 2 बार टैप करें
+NOVO: ITENS
+नया: आइटम
+NOVO: HABILIDADES
+नया: कौशल
+NOVO: ESPECIAL
+नया: स्पेशल
+NOVO: FERRAMENTAS
+नया: औज़ार
+TODOS OS CONTROLES LIBERADOS!
+सभी नियंत्रण खुल गए!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+चलाने से पहले आइटम टैप करें: 3 शॉट, +1, +2 या डैमेज। ये ऊर्जा लेते हैं।
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+हर जानवर के 2 कौशल हैं: पास के ऊपर वाले बटन।
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+रोष भरने के लिए डैमेज दें और लें। भर गया? ऑर्ब टैप करें और स्पेशल चलाएँ!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+बाएँ कॉलम में औज़ार: ग्रेनेड, रस्सी, जेटपैक, बीम और ज़्यादा।
+Emotes e todas as ferramentas. Boa batalha!
+इमोट और सभी औज़ार। अच्छी लड़ाई!
+toque para acelerar
+तेज़ करने के लिए टैप करें
+Longe demais: até 600 m de você
+बहुत दूर: आपसे 600 मी तक
+Tem alguém aí: escolha outro lugar
+वहाँ कोई है: दूसरी जगह चुनें
+Muito dentro do chão
+ज़मीन में बहुत अंदर
+longa
+लंबी
+curta
+छोटी
+Não alcançou: mire e lance de novo
+नहीं पहुँची: निशाना लगाकर फिर फेंकें
+A corda não alcançou nada
+रस्सी कहीं नहीं पहुँची
+Pousou: agora atire!
+उतर गए: अब चलाएँ!
+O tempo na corda acabou
+रस्सी का समय खत्म
+Acabou o combustível: pouso suave
+ईंधन खत्म: धीरे से उतरना
+SOLTAR
+छोड़ें
+CORDA
+रस्सी
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+तीर: झूलें और ऊपर/नीचे · छोड़ें तो गति बनी रहे
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+ऊपर तीर से उड़ें · बगल के तीर · दबाएँ तो बंद होकर चलाएँ
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+खींचें या माउस चलाएँ · तीर: घुमाएँ और आकार · पुष्टि
+Mire e toque em USAR para lançar o gancho
+निशाना लगाकर हुक फेंकने के लिए इस्तेमाल दबाएँ
+Toque em USAR para ligar o jetpack
+जेटपैक चालू करने के लिए इस्तेमाल दबाएँ
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+बीम: खींचकर रखें · तीर घुमाते और आकार बदलते हैं · पुष्टि से लगाएँ (पुल, आड़ या ढलान)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+इस्तेमाल से चालू · ऊपर तीर उठाता, बगल के धकेलते · 4 से ईंधन · धीमी लैंडिंग · दबाएँ तो बंद होकर चलाएँ
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+इस्तेमाल से निशाने पर हुक (520 मी तक) · तीर झुलाते, ऊपर/नीचे · छोड़ें तो गति बनी रहे · हवा में दोबारा फेंकें
+Solte na marca amarela!
+पीले निशान पर छोड़ें!
+Agora atire!
+अब चलाएँ!
+Toque em {0}
+{0} पर टैप करें
+Segure para voar
+उड़ने के लिए दबाए रखें
+Balance e toque para soltar
+झूलें, छोड़ने को टैप करें
+Segure o botão até a marca amarela e solte
+पीले निशान तक बटन दबाएँ, फिर छोड़ें
+Segure a seta até chegar na bandeira
+झंडे तक पहुँचने तक तीर दबाए रखें
+Segure o botão que brilha
+चमकता बटन दबाए रखें
+Toque no botão que brilha
+चमकते बटन पर टैप करें
+Teclado
+कीबोर्ड
+Perfeito!
+शानदार!
+Acabe com ele!
+उसे खत्म करें!
+PARTE {0} CONCLUÍDA!
+भाग {0} पूरा!
+Você aprendeu
+आपने सीखा
+Andar
+चलना
+Mirar
+निशाना
+Atirar
+चलाना
+Itens
+आइटम
+De volta!
+वापस!
+JOGAR!
+खेलें!
+inclui +{0} de bônus do tutorial
+ट्यूटोरियल बोनस +{0} शामिल
+Refazer o tutorial?
+ट्यूटोरियल फिर करें?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+सिर्फ़ गाइड वाले मैच। इनाम दोबारा नहीं मिलेंगे और आपकी प्रगति नहीं बदलेगी।
+Cancelar
+रद्द करें
+Refazer
+फिर करें
+Tutorial refeito: sem prêmios
+ट्यूटोरियल दोबारा: कोई इनाम नहीं
+Gire o celular para continuar
+जारी रखने के लिए फ़ोन घुमाएँ
+Controles
+नियंत्रण
+Jogue 80 partidas
+80 मैच खेलें
+Vença 150 partidas
+150 मैच जीतें
+Acerte 400 tiros
+400 शॉट लगाएँ
+Cause 100.000 de dano
+100,000 डैमेज करें
+Cause 1000 de dano num só tiro
+एक ही शॉट में 1000 डैमेज करें
+Vença 6 seguidas
+लगातार 6 जीतें
+Derrote 200 inimigos
+200 दुश्मन हराएँ
+Jogue 300 partidas
+300 मैच खेलें
+Vença 400 partidas
+400 मैच जीतें
+Acerte 1500 tiros
+1500 शॉट लगाएँ
+Cause 1400 num só tiro
+एक ही शॉट में 1400 करें
+Derrote 800 inimigos
+800 दुश्मन हराएँ
+15 vitórias perfeitas
+15 परफ़ेक्ट जीत
+80 tiros longos
+80 लंबे शॉट
+30 vinganças
+30 बदले
+Derrote 2500 inimigos
+2500 दुश्मन हराएँ
+Vença em 14 mapas diferentes
+14 अलग मैप पर जीतें
+Vença 15 vezes no mapa do dia
+आज के मैप पर 15 बार जीतें
+Use a Fúria 150 vezes
+क्रोध 150 बार इस्तेमाल करें
+Pegue 200 caixas
+200 बक्से उठाएँ
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+3 शॉट/+1/+2/डैमेज+% 800 बार इस्तेमाल करें
+Derrube 80 rivais de muito alto
+80 विरोधियों को बहुत ऊँचाई से गिराएँ
+Faça 200 tiros rápidos (<5 s)
+200 तेज़ शॉट लगाएँ (<5 s)
+Acerte 2+ rivais num tiro 80 vezes
+एक शॉट में 2+ विरोधियों को 80 बार मारें
+Use o PASSAR 100 vezes
+पास 100 बार इस्तेमाल करें
+Acerte 300 críticos
+300 क्रिटिकल लगाएँ
+Use 200 habilidades
+200 स्किल इस्तेमाल करें
+Coloque 80 vigas
+80 बीम लगाएँ
+Cave 30 túneis/poços
+30 सुरंगें/गड्ढे खोदें
+Voe de jetpack 25 vezes
+जेटपैक से 25 बार उड़ें
+Use a corda ninja 25 vezes
+निंजा रस्सी 25 बार इस्तेमाल करें
+Exploda 25 dinamites
+25 डायनामाइट फोड़ें
+Solte 25 ovelhas
+25 भेड़ें छोड़ें
+Arremesse 50 granadas
+50 ग्रेनेड फेंकें
+Use 12 cachos de granadas
+12 ग्रेनेड गुच्छे इस्तेमाल करें
+Plante 25 minas
+25 माइन लगाएँ
+Chame 10 ataques aéreos
+10 हवाई हमले बुलाएँ
+Use a Britadeira 15 vezes
+ड्रिल मशीन 15 बार इस्तेमाल करें
+Cause 400.000 de dano
+4,00,000 डैमेज करें
+Mire na linha amarela
+पीली लाइन पर निशाना लगाओ
+Quanto mais tempo segurar, mais longe vai o tiro
+जितनी देर दबाओगे, गोला उतनी दूर जाएगा
+As setas andam pelo mapa
+तीरों से मैप पर चलो
+A mira muda a altura do tiro
+निशाना गोले की ऊँचाई बदलता है
+Acerte o rival para vencer!
+जीतने के लिए विरोधी को मारो!
+Atira 3 balas de uma vez
+एक साथ 3 गोले चलाता है
+Vira chão: uma ponte ou um escudo
+ज़मीन बन जाती है: पुल या ढाल
+Segure para voar até outro lugar
+दबाए रखो और दूसरी जगह उड़ो
+Pendure-se e balance para ir longe
+लटको और झूलकर दूर जाओ
+Vira chão: ponte, abrigo ou rampa
+ज़मीन बनती है: पुल, आड़ या ढलान
+Abre um túnel e passa por dentro do morro
+सुरंग खोदकर पहाड़ी के आर-पार जाओ
+Voe para outro lugar do mapa
+मैप पर दूसरी जगह उड़ो
+Cava um poço e você desce por ele
+गड्ढा खोदकर नीचे उतरो
+Deixe aos seus pés e fuja: explode forte
+पैरों के पास रखो और भागो: ज़ोरदार धमाका
+Anda sozinha até o rival e explode
+खुद विरोधी तक चलकर फटती है
+Explode quando alguém chega perto
+कोई पास आए तो फटती है
+Marque o alvo: 5 mísseis caem do céu
+निशाना चुनो: आसमान से 5 मिसाइलें गिरती हैं
+NOVO!
+नया!
+Cristais x2 (vídeo)
+क्रिस्टल x2 (वीडियो)
+Empurra o tiro: a bandeira mostra para onde
+यह गोले को धकेलती है: झंडा दिशा दिखाता है
+TUTORIAL CONCLUÍDO!
+ट्यूटोरियल पूरा!
+O resto você aprende jogando, com dicas na hora certa
+बाकी आप खेलते हुए सीखेंगे, सही समय पर टिप्स के साथ
+Quica no chão e explode depois
+ज़मीन पर उछलकर फटता है
+Melhor com o celular deitado
+फ़ोन को आड़ा करके खेलें
+Gire o celular: a tela fica maior e os controles mais fáceis
+फ़ोन घुमाएँ: स्क्रीन बड़ी और कंट्रोल आसान
+JOGAR MASMORRA
+डंजन खेलें
+JOGAR VS
+VS खेलें
+JOGAR ASSIM MESMO
+ऐसे ही खेलें

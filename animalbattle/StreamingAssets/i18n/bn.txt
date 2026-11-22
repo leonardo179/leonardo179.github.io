@@ -1,0 +1,3332 @@
+VOLTAR
+ফিরে যাও
+Carregando
+লোড হচ্ছে
+Masmorra
+ডানজন
+Contra IA
+AI-এর বিরুদ্ধে
+Partida local
+লোকাল ম্যাচ
+MASMORRA
+ডানজন
+CONTRA IA
+AI-এর সাথে লড়াই
+PARTIDA LOCAL
+লোকাল ম্যাচ
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: medalhas, pedras, trevo e bênção.
+বস সহ ১০টি ডানজন, ৪টি কঠিনতা আর তারকা। পুরস্কার: মেডেল, পাথর, ক্লোভার আর আশীর্বাদ।
+Dois ou mais jogadores no mesmo aparelho, revezando a vez. Equipamento equalizado, sem prêmios.
+একই ডিভাইসে দুই বা তার বেশি খেলোয়াড়, পালা করে। সমান সরঞ্জাম, কোনো পুরস্কার নেই।
+Música
+সংগীত
+Sons
+শব্দ
+Som
+শব্দ
+Idioma
+ভাষা
+Batalha de artilharia entre animais
+প্রাণীদের কামান যুদ্ধ
+Ferreiro
+কামার
+Armeiro
+অস্ত্রাগার
+Animais
+প্রাণী
+Opções
+অপশন
+versão de teste
+পরীক্ষামূলক সংস্করণ
+Nível {0}
+লেভেল {0}
+Todos os animais disponíveis!
+সব প্রাণী পাওয়া যাচ্ছে!
+Próximo animal: {0} no nível {1}
+পরের প্রাণী: লেভেল {1}-এ {0}
+Em construção
+নির্মাণাধীন
+Batalha em construção
+যুদ্ধ নির্মাণাধীন
+Raposa
+শিয়াল
+Urso
+ভালুক
+Coruja
+পেঁচা
+Salamandra
+স্যালাম্যান্ডার
+Rinoceronte
+গন্ডার
+Cobra
+সাপ
+Tartaruga
+কচ্ছপ
+Guaxinim
+র‍্যাকুন
+Gato
+বিড়াল
+Águia
+ঈগল
+Tigre
+বাঘ
+Pinguim
+পেঙ্গুইন
+Gorila
+গরিলা
+Tubarão
+হাঙর
+Jacaré
+কুমির
+Texugo
+ব্যাজার
+Ouriço
+সজারু
+Morcego
+বাদুড়
+Arma
+অস্ত্র
+Chapéu
+টুপি
+Roupa
+পোশাক
+Amuleto
+তাবিজ
+Madeira
+কাঠ
+Ferro
+লোহা
+Aço
+ইস্পাত
+Mítico
+পৌরাণিক
+Lendário
+কিংবদন্তি
+Pedras
+পাথর
+Trevo
+ক্লোভার
+Bênção
+আশীর্বাদ
+Troque o equipamento de tier (Madeira, Ferro, Aço, Mítico, Lendário) e compre pedras.
+সরঞ্জামের স্তর বদলাও (কাঠ, লোহা, ইস্পাত, পৌরাণিক, কিংবদন্তি) আর পাথর কেনো।
+Medalhas
+মেডেল
+Escolhido
+বাছাই করা
+Escolher
+বাছাই করো
+cristais
+ক্রিস্টাল
+{0} comprado!
+{0} আনলক হয়েছে!
+Cristais insuficientes
+যথেষ্ট ক্রিস্টাল নেই
+Disponível no nível {0}
+লেভেল {0}-এ পাওয়া যাবে
+Jogador
+খেলোয়াড়
+Aliado
+মিত্র
+Rival
+প্রতিপক্ষ
+Não foi possível baixar o mapa. Verifique a conexão.
+ম্যাপ ডাউনলোড করা যায়নি। কানেকশন দেখো।
+Carregando os animais
+প্রাণীরা লোড হচ্ছে
+Mapa inválido
+অবৈধ ম্যাপ
+Colinas Verdes
+সবুজ পাহাড়
+Picos Nevados
+তুষারঢাকা চূড়া
+Deserto Dourado
+সোনালি মরুভূমি
+Floresta Encantada
+জাদুর বন
+Vulcão
+আগ্নেয়গিরি
+Praia Pirata
+জলদস্যু সৈকত
+Terra dos Doces
+মিষ্টির দেশ
+Castelo
+দুর্গ
+Caverna de Cristal
+ক্রিস্টাল গুহা
+Pântano
+জলাভূমি
+Cemitério Assombrado
+ভুতুড়ে কবরস্থান
+Ruínas Celestes
+আকাশের ধ্বংসাবশেষ
+Fábrica Steampunk
+স্টিমপাঙ্ক কারখানা
+Recife de Coral
+প্রবাল প্রাচীর
+Templo da Selva
+জঙ্গলের মন্দির
+Cidade Neon
+নিয়ন সিটি
+Base Lunar
+চাঁদের ঘাঁটি
+Faroeste
+বুনো পশ্চিম
+caiu na lava
+লাভায় পড়ে গেল
+caiu no chocolate
+চকলেটে পড়ে গেল
+caiu no lodo
+কাদায় পড়ে গেল
+sumiu na névoa
+কুয়াশায় হারিয়ে গেল
+caiu das nuvens
+মেঘ থেকে পড়ে গেল
+caiu no metal derretido
+গলিত ধাতুতে পড়ে গেল
+foi levado pela correnteza
+স্রোতে ভেসে গেল
+caiu no vazio neon
+নিয়ন শূন্যে পড়ে গেল
+flutuou para o espaço
+মহাকাশে ভেসে গেল
+afundou na areia movediça
+চোরাবালিতে ডুবে গেল
+caiu na água
+পানিতে পড়ে গেল
+4 TxT
+4 FFA
+6 TxT
+6 FFA
+8 TxT
+8 FFA
+Fácil
+সহজ
+Normal
+সাধারণ
+Difícil
+কঠিন
+erram muito
+অনেক মিস করে
+erram um pouco
+একটু মিস করে
+quase não erram
+প্রায় মিস করে না
+mira perfeita
+নিখুঁত নিশানা
+Valente
+সাহসী
+Veloz
+দ্রুত
+Sombrio
+ছায়া
+Feroz
+হিংস্র
+Astuto
+চালাক
+Dourado
+সোনালি
+Furioso
+রাগী
+Sereno
+শান্ত
+Selvagem
+বুনো
+Teimoso
+জেদি
+Ligeiro
+চটপটে
+Brabo
+তেজি
+Sorrateiro
+চুপিচুপি
+Bravo
+শক্ত
+Esperto
+বুদ্ধিমান
+Trovão
+বজ্র
+Relâmpago
+বিদ্যুৎ
+Pimenta
+ঝাল
+Corajoso
+নির্ভীক
+ÁRVORE 1 NÍVEL 4
+গাছ 1 লেভেল 4
+DEUS 1
+দেব 1
+DEUS 2
+দেব 2
+DEUS 3
+দেব 3
+SEU TIME
+তোমার দল
+VOCÊ
+তুমি
+TODOS CONTRA TODOS
+সবাই বনাম সবাই
+RIVAIS
+প্রতিপক্ষ
+Nv {0}
+লেভেল {0}
+PAUSADO
+বিরতি
+Sair agora encerra a partida sem prêmio.
+এখন বের হলে ম্যাচ পুরস্কার ছাড়াই শেষ হবে।
+turno {0}
+টার্ন {0}
+dano {0}  ·  recebido {1}  ·  abates {2}  ·  precisão {3}%
+ড্যামেজ {0}  ·  খেয়েছে {1}  ·  কিল {2}  ·  নির্ভুলতা {3}%
+Tremor
+স্ক্রিন কাঁপা
+CONTINUAR
+চালিয়ে যাও
+RENDER-SE
+হার মানো
+SAIR
+বের হও
+EMPATE
+ড্র
+VITÓRIA!
+জয়!
+DERROTA
+পরাজয়
+VER PLACAR
+স্কোরবোর্ড দেখো
+DE NOVO
+আবার
+REVANCHE
+রিম্যাচ
+{0} turnos
+{0} টার্ন
+mais dano: {0}
+সবচেয়ে বেশি ড্যামেজ: {0}
+JOGADOR
+খেলোয়াড়
+DANO
+ড্যামেজ
+ABATES
+কিল
+PRECISÃO
+নির্ভুলতা
+MAIOR TIRO
+সবচেয়ে বড় শট
+precisão: {0} {1}%
+নির্ভুলতা: {0} {1}%
+maior tiro: {0} {1}
+সবচেয়ে বড় শট: {0} {1}
+abates: {0} x{1}
+কিল: {0} x{1}
+prêmios da partida: em breve
+ম্যাচের পুরস্কার: শীঘ্রই আসছে
+Você se rendeu
+তুমি হার মেনেছ
+O tiro saiu do mapa!
+শট ম্যাপের বাইরে চলে গেল!
+na água
+পানিতে
+ALELUIA!
+হালেলুইয়া!
+era uma armadilha!
+এটা ফাঁদ ছিল!
+caixa destruída
+বাক্স ভেঙে গেল
+atingido por um raio
+বাজ পড়ল
+o gelo quebrou!
+বরফ ভেঙে গেল!
+TIRO LONGO! {0}m
+লম্বা শট! {0}m
+CRÍTICO
+ক্রিটিক্যাল
+ANIQUILADO!
+নিশ্চিহ্ন!
+congelado {0} turno(s)
+{0} টার্নের জন্য জমাট
+NA MOSCA!
+একদম নিশানায়!
+ÓTIMO!
+দারুণ!
+BOM
+ভালো
+DE RASPÃO
+ছুঁয়ে গেল
+MULTI-ACERTO x{0}
+মাল্টি-হিট x{0}
+ABATE QUÁDRUPLO!
+কোয়াড্রা কিল!
+ABATE TRIPLO!
+ট্রিপল কিল!
+ABATE DUPLO!
+ডাবল কিল!
+COMBO x{0}
+কম্বো x{0}
+FÚRIA PRONTA!
+ক্রোধ প্রস্তুত!
+caiu de muito alto
+অনেক উঁচু থেকে পড়ল
+TSSSS!
+ছস্স্স্স!
+PLOFT!
+ধপ!
+TCHIBUM!
+ঝপাং!
+caiu do mapa
+ম্যাপ থেকে পড়ে গেল
+Precisa estar no chão
+মাটিতে থাকতে হবে
+Energia insuficiente para pular
+লাফানোর জন্য এনার্জি কম
+água!
+পানি!
+ESPECIAL
+স্পেশাল
+invisível
+অদৃশ্য
+Ninguém colado — chegue mais (energia gasta)
+কেউ কাছে নেই — আরও কাছে যাও (এনার্জি খরচ)
+{0} (pronta em {1}): {2}
+{0} ({1}-এ প্রস্তুত): {2}
+{0} precisa de {1} de energia
+{0}-এর {1} এনার্জি দরকার
+TELETRANSPORTE: toque no lugar do mapa para onde quer ir e confirme (toque na habilidade para cancelar)
+টেলিপোর্ট: ম্যাপে যেখানে যেতে চাও সেখানে ট্যাপ করে কনফার্ম করো (বাতিল করতে স্কিলে ট্যাপ করো)
+Teletransporte cancelado
+টেলিপোর্ট বাতিল
+Aí não dá — escolha um chão firme e livre
+ওখানে যাওয়া যাবে না — শক্ত ও ফাঁকা জায়গা বাছো
+{0} se teletransportou!
+{0} টেলিপোর্ট করল!
+CONGELADO (protegido)
+জমাট (সুরক্ষিত)
+patada de urso
+ভালুকের থাবা
+cutucão
+খোঁচা
+soco de fogo
+আগুনের ঘুসি
+machado de batalha
+যুদ্ধের কুড়াল
+martelada sísmica
+ভূকম্পী হাতুড়ি
+Nenhum rival à vista (energia gasta)
+কোনো প্রতিপক্ষ চোখে পড়ছে না (এনার্জি খরচ)
+revólver
+রিভলভার
+{0} usou {1}
+{0} {1} ব্যবহার করল
+SINERGIA +10
+সিনার্জি +10
+arco longo
+লম্বা ধনুক
+Não acertou ninguém no caminho
+পথে কারও গায়ে লাগেনি
+orbe arcano
+জাদুর গোলক
+BUM ARCANO!
+জাদুর বিস্ফোরণ!
+Ninguém ao alcance (energia gasta)
+কেউ রেঞ্জে নেই (এনার্জি খরচ)
+Ninguém na sua frente — chegue mais (energia gasta)
+সামনে কেউ নেই — আরও কাছে যাও (এনার্জি খরচ)
+grito sônico
+সোনিক চিৎকার
+Ninguém na sua frente (energia gasta)
+সামনে কেউ নেই (এনার্জি খরচ)
+enrolado nas vinhas
+লতায় জড়িয়ে গেল
+bola de dragão
+ড্রাগন বল
+machado giratório
+ঘূর্ণি কুড়াল
+pisão do gorila
+গরিলার পদাঘাত
+Sem combustível
+জ্বালানি শেষ
+Toque no mapa para marcar o alvo
+টার্গেট ঠিক করতে ম্যাপে ট্যাপ করো
+SUA VEZ!
+তোমার পালা!
+VEZ DE {0}
+{0}-এর পালা
+RETIRADA: {0} s - corra para um lugar seguro!
+সরে যাও: {0} s - নিরাপদ জায়গায় দৌড়াও!
+VOCÊ CAIU
+তুমি পড়ে গেছ
+últ.
+শেষ
+MIRA
+নিশানা
+na sua vez
+তোমার পালায়
+ESPECIAL PRONTO
+স্পেশাল প্রস্তুত
+fúria
+ক্রোধ
+FORÇA
+শক্তি
+último
+শেষ
+FÚRIA
+ক্রোধ
+FÚRIA!
+ক্রোধ!
+PASSAR
+পাস
+EXPLODIR
+ফাটাও
+AGUARDE
+অপেক্ষা
+VOANDO!
+উড়ছে!
+VOAR
+ওড়ো
+SEM GÁS
+গ্যাস শেষ
+SOLTE!
+ছাড়ো!
+USAR
+ব্যবহার
+SEGURE
+চেপে ধরো
+atire ou PASSE!
+গুলি করো বা পাস!
+{0} no próximo tiro
+পরের শটে {0}
+DANO x2
+ড্যামেজ x2
+Você foi derrotado - assistindo
+তুমি হেরে গেছ - দেখছ
+PRÓX.
+পরের
+VENTO
+বাতাস
+A FAVOR
+অনুকূলে
+CONTRA
+প্রতিকূলে
+SUBINDO!
+বাড়ছে!
+água sobe em {0}
+{0}-এ পানি বাড়বে
+TURNO {0}
+টার্ন {0}
+SUA VEZ
+তোমার পালা
+RETIRADA
+সরে যাও
+{0} está mirando...
+{0} নিশানা করছে...
+VERDADEIRO
+আসল
+DANO +{0}%
+ড্যামেজ +{0}%
+ITENS
+আইটেম
+MAIS
+আরও
+em {0} vezes
+{0} বারে
+rod. {0}
+রাউন্ড {0}
+espera {0}
+অপেক্ষা {0}
+CONFIRMAR
+কনফার্ম
+Nv {0}  
+লেভেল {0}  
+joga em {0}º
+ক্রম #{0}
+vida {0} / {1}
+জীবন {0} / {1}
+ATQ {0}   DEF {1}   AGI {2}   SORTE {3}    (crítico {4}% · leva -{5}%)
+আক্রমণ {0}   রক্ষা {1}   ক্ষিপ্রতা {2}   ভাগ্য {3}    (ক্রিটিক্যাল {4}% · ড্যামেজ -{5}%)
+Especial: {0}
+স্পেশাল: {0}
+ (em {0})
+ ({0}-এ)
+ferramentas restantes: {0}   ·   {1} de energia por vez
+বাকি টুল: {0}   ·   প্রতিবার {1} এনার্জি
+{0} de dano · acertos {1}/{2} · abates {3}
+{0} ড্যামেজ · হিট {1}/{2} · কিল {3}
+ · sequência {0}
+ · টানা {0}
+ · combo {0}
+ · কম্বো {0}
+coragem +15%
+সাহস +15%
+último tiro: {0}° · força {1}
+শেষ শট: {0}° · শক্তি {1}
+dano +
+ড্যামেজ +
+dano 
+ড্যামেজ 
+raio +
+পরিধি +
+raio 
+পরিধি 
+bala pesada
+ভারী গুলি
+bala leve (vai longe)
+হালকা গুলি (দূরে যায়)
+sofre pouco com o vento
+বাতাসের প্রভাব কম
+sofre mais com o vento
+বাতাসের প্রভাব বেশি
+arma equilibrada
+ভারসাম্যপূর্ণ অস্ত্র
+{0} desmarcado
+{0} বাদ দেওয়া হলো
+Nada para prender nessa mira
+এই নিশানায় আটকানোর কিছু নেই
+A corda não alcança nada nessa direção (até {0})
+দড়ি এই দিকে কিছুতে পৌঁছায় না ({0} পর্যন্ত)
+andar balança · as setas sobem/descem · PULAR solta
+হাঁটলে দোলা · তীর ওঠা/নামা · লাফ = ছাড়ো
+{0} libera na rodada {1} (faltam {2})
+{0} রাউন্ড {1}-এ খুলবে ({2} বাকি)
+{0} já está ativo
+{0} আগেই চালু আছে
+Acabou: {0} ({1}x por partida)
+শেষ: {0} (প্রতি ম্যাচে {1}x)
+{0}: recarrega em {1} turno(s)
+{0}: {1} টার্নে রিচার্জ
+Vida já está cheia
+জীবন আগেই পূর্ণ
+Na masmorra o cenário não se destrói
+ডানজনে মাটি ভাঙে না
+A granada não soma com a Fúria nem com o Avião
+গ্রেনেড ক্রোধ বা বিমানের সাথে মেলে না
+{0} é o ataque da vez (não soma com Fúria, +1, +2 ou 3 Tiros)
+{0} এই পালার আক্রমণ (ক্রোধ, +1, +2 বা 3 শটের সাথে মেলে না)
+{0} não leva Dano +% nem Gelo (eles valem só para o tiro)
+{0}-এ ড্যামেজ +% বা বরফ কাজ করে না (ওগুলো শুধু শটের জন্য)
+{0} vale só para o tiro (não para a ferramenta)
+{0} শুধু শটে কাজ করে (টুলে নয়)
+Energia insuficiente ({0})
+এনার্জি কম ({0})
+O golpe ESPECIAL não soma com 3 Tiros, +1 ou +2
+স্পেশাল আঘাত 3 শট, +1 বা +2-এর সাথে মেলে না
+Só uma: 3 Tiros, +1 OU +2 (só 3 Tiros + +1 vão juntos)
+শুধু একটা: 3 শট, +1 বা +2 (শুধু 3 শট + +1 একসাথে চলে)
+Toque no TERRENO (até 520 de você) para prender a corda
+দড়ি আটকাতে মাটিতে ট্যাপ করো (তোমার থেকে 520 পর্যন্ত)
+o fogo apagou
+আগুন নিভে গেল
+veneno curado
+বিষ সেরে গেল
+{0} se curou (+{1}) e encerrou a vez
+{0} সেরে উঠল (+{1}) আর পালা শেষ
+Nada para prender nessa mira — toque no TERRENO para lançar a corda
+এই নিশানায় আটকানোর কিছু নেই — দড়ি ছুড়তে মাটিতে ট্যাপ করো
+Voando! SEGURE o botão VOAR · ande no ar · pousou, acabou
+উড়ছ! ওড়ো বোতাম চেপে ধরো · বাতাসে চলো · নামলেই শেষ
+Pavio da granada: {0} s (toque de novo para mudar)
+গ্রেনেডের ফিউজ: {0} s (বদলাতে আবার ট্যাপ করো)
+as setas inclinam o túnel · USAR acende
+তীর সুড়ঙ্গ বাঁকায় · ব্যবহার চাপলে জ্বলে
+Toque no mapa para marcar o alvo · as setas trocam o lado do avião · CONFIRMAR
+টার্গেট ঠিক করতে ম্যাপে ট্যাপ করো · তীর বিমানের দিক বদলায় · কনফার্ম
+Toque no mapa para posicionar · as setas giram · CONFIRMAR
+বসাতে ম্যাপে ট্যাপ করো · তীর ঘোরায় · কনফার্ম
+{0} pronto — toque em USAR
+{0} প্রস্তুত — ব্যবহার-এ ট্যাপ করো
+paraquedas pronto
+প্যারাশুট প্রস্তুত
+CORRA!
+দৌড়াও!
+BÉÉÉ!
+ব্যা-অ্যা!
+cacho de granadas!
+গ্রেনেডের গুচ্ছ!
+mina plantada
+মাইন বসানো হলো
+granada na mão
+হাতে গ্রেনেড
+jetpack pronto
+জেটপ্যাক প্রস্তুত
+Não cabe aí
+এখানে আঁটে না
+Longe demais — até 600 de você
+অনেক দূরে — তোমার থেকে 600 পর্যন্ত
+Tem alguém aí — escolha outro lugar
+ওখানে কেউ আছে — অন্য জায়গা বাছো
+britadeira!
+ড্রিল মেশিন!
+maçarico!
+ব্লোটর্চ!
+maçarico
+ব্লোটর্চ
+Acabou o combustível
+জ্বালানি শেষ
+Pousou — o botão volta a atirar
+নেমে গেছ — বোতাম আবার গুলি করে
+ATAQUE AÉREO!
+বিমান হামলা!
+3 Tiros
+3 শট
+Ataque +1
+আক্রমণ +1
+Ataque +2
+আক্রমণ +2
+Dano +10%
+ড্যামেজ +10%
+Dano +20%
+ড্যামেজ +20%
+Dano +30%
+ড্যামেজ +30%
+Dano +40%
+ড্যামেজ +40%
+Dano +50%
+ড্যামেজ +50%
+Avião
+বিমান
+Gelo
+বরফ
+Invisível
+অদৃশ্য
+Cura
+হিল
+Guia
+গাইডেড
+Mudar Vento
+বাতাস বদলাও
+Paraquedas
+প্যারাশুট
+Baixa gravidade
+কম গ্র্যাভিটি
+Viga
+বিম
+Maçarico
+ব্লোটর্চ
+Jetpack
+জেটপ্যাক
+Cipó
+লতা
+Britadeira
+ড্রিল মেশিন
+Passo Rápido
+দ্রুত পা
+Elástico
+বাঞ্জি
+Dinamite
+ডিনামাইট
+Ovelha
+ভেড়া
+Granada
+গ্রেনেড
+Mina
+মাইন
+Cacho de Granadas
+গ্রেনেড গুচ্ছ
+Teletransporte
+টেলিপোর্ট
+Ataque Aéreo
+বিমান হামলা
+Pombo-bomba
+বোমা পায়রা
+Bolha-escudo
+বুদবুদ ঢাল
+Ampulheta
+বালিঘড়ি
+Ataque
+আক্রমণ
+Ataques
+আক্রমণ
+Dano
+ড্যামেজ
+Vento
+বাতাস
+Paraq.
+প্যারা.
+Gravid.
+গ্র্যাভি.
+Corda
+দড়ি
+Britad.
+ড্রিল
+Rápido
+দ্রুত
+Cacho
+গুচ্ছ
+Portal
+পোর্টাল
+Aéreo
+বিমান
+Pombo
+পায়রা
+Bolha
+বুদবুদ
+Tempo
+সময়
+3 tiros em leque (-50% cada) · com o +1 = combo 1+2 (6 balas)
+পাখার মতো 3 শট (প্রতিটি -50%) · +1 সহ = কম্বো 1+2 (6 গুলি)
+atira mais 1 vez (-10% cada)
+আরও 1 বার গুলি (প্রতিটি -10%)
+atira mais 2 vezes (-40% cada)
+আরও 2 বার গুলি (প্রতিটি -40%)
++10% de dano (soma com os outros)
++10% ড্যামেজ (অন্যগুলোর সাথে যোগ হয়)
++20% de dano (soma com os outros)
++20% ড্যামেজ (অন্যগুলোর সাথে যোগ হয়)
++30% de dano (soma com os outros)
++30% ড্যামেজ (অন্যগুলোর সাথে যোগ হয়)
++40% de dano (soma com os outros)
++40% ড্যামেজ (অন্যগুলোর সাথে যোগ হয়)
++50% de dano (soma com os outros)
++50% ড্যামেজ (অন্যগুলোর সাথে যোগ হয়)
+você vai voando até onde a bala cair (sem dano)
+গুলি যেখানে পড়ে তুমি সেখানে উড়ে যাও (ড্যামেজ নেই)
+congela quem for atingido por 2 turnos
+যার গায়ে লাগে সে 2 টার্ন জমে যায়
+invisível para os rivais por 3 rodadas
+3 রাউন্ড প্রতিপক্ষের কাছে অদৃশ্য
+recupera 30% da vida e ENCERRA o turno
+30% জীবন ফেরত আর টার্ন শেষ
+o tiro persegue o rival mais perto se passar perto dele (-20% de dano)
+শট কাছ দিয়ে গেলে সবচেয়ে কাছের প্রতিপক্ষকে তাড়া করে (-20% ড্যামেজ)
+inverte o vento nesta rodada
+এই রাউন্ডে বাতাস উল্টে যায়
+cai devagar e sem dano de queda até a sua próxima vez
+পরের পালা পর্যন্ত ধীরে পড়ো, পড়ার ড্যামেজ নেই
+os tiros deste turno voam mais longe (gravidade baixa)
+এই টার্নের শট দূরে যায় (কম গ্র্যাভিটি)
+VIGA de aço: toque no mapa para posicionar, as setas giram e CONFIRMAR coloca — ponte, abrigo ou rampa
+স্টিলের বিম: বসাতে ম্যাপে ট্যাপ করো, তীর ঘোরায়, কনফার্ম দিলে বসে — সেতু, আড়াল বা র‍্যাম্প
+abre um TÚNEL e passa por dentro do morro; as setas inclinam antes de usar; quem estiver no caminho leva 40
+সুড়ঙ্গ খুঁড়ে পাহাড়ের ভেতর দিয়ে যাও; ব্যবহারের আগে তীর বাঁকায়; পথে যে থাকে সে 40 খায়
+USAR decola; SEGURE o botão de ataque para subir e ande no ar — 3 s de combustível, sem dano de queda
+ব্যবহার চাপলে ওড়া; উঠতে আক্রমণ বোতাম চেপে ধরো, বাতাসে চলো — 3 s জ্বালানি, পড়ার ড্যামেজ নেই
+USAR lança a corda na direção da mira (até 520); andar balança, as setas encurtam/alongam, PULAR solta
+ব্যবহার চাপলে দড়ি নিশানার দিকে যায় (520 পর্যন্ত); হাঁটলে দোলা, তীর ছোট/বড় করে, লাফ দিলে ছাড়ে
+cava um poço PARA BAIXO e você desce por ele; quem estiver embaixo leva 40
+নিচের দিকে গর্ত খুঁড়ে তুমি নেমে যাও; নিচে যে থাকে সে 40 খায়
+nesta vez você anda quase o DOBRO gastando metade da energia
+এবার অর্ধেক এনার্জিতে প্রায় দ্বিগুণ হাঁটো
+nesta vez, se cair na água ou para fora do mapa, o elástico te puxa de volta
+এবার পানিতে বা ম্যাপের বাইরে পড়লে বাঞ্জি টেনে ফিরিয়ে আনবে
+larga uma DINAMITE aos seus pés (300 de dano) com pavio de 5 s — é o seu ataque da vez
+পায়ের কাছে ডিনামাইট রাখো (300 ড্যামেজ), 5 s ফিউজ — এটাই এই পালার আক্রমণ
+solta uma OVELHA explosiva: anda sozinha para onde você olha, pula obstáculos e explode no 1º rival (ou em 6 s) — é o seu ataque da vez
+বিস্ফোরক ভেড়া ছাড়ো: তুমি যেদিকে তাকাও সেদিকে নিজে হাঁটে, বাধা টপকায় আর প্রথম প্রতিপক্ষে ফাটে (বা 6 s পরে) — এটাই এই পালার আক্রমণ
+o próximo tiro é uma GRANADA: quica no chão e nos animais e explode em 6 s
+পরের শট গ্রেনেড: মাটি আর প্রাণীতে লাফিয়ে 6 s পরে ফাটে
+deixa uma MINA no chão à sua frente: arma em 2,5 s; quando QUALQUER um chega perto (você e aliados também!), apita e explode 1,5 s depois (às vezes falha) — é o seu ataque da vez
+তোমার সামনে মাটিতে মাইন: 2.5 s-এ চালু; যে-ই কাছে আসুক (তুমি আর মিত্ররাও!) বিপ করে 1.5 s পরে ফাটে (মাঝে মাঝে ফাটে না) — এটাই এই পালার আক্রমণ
+o próximo tiro é um CACHO DE GRANADAS: quica, explode em 6 s e se divide em 5 granadas menores
+পরের শট গ্রেনেড গুচ্ছ: লাফায়, 6 s পরে ফাটে আর 5টি ছোট গ্রেনেডে ভাগ হয়
+toque/arraste no mapa para escolher o destino e USAR teleporta — gasta a vez
+ম্যাপে ট্যাপ/ড্র্যাগ করে জায়গা বাছো, ব্যবহার চাপলে টেলিপোর্ট — পালা খরচ হয়
+toque no mapa para marcar o alvo, as setas escolhem de que lado o avião vem e CONFIRMAR chama 5 mísseis — é o seu ataque da vez
+টার্গেট ঠিক করতে ম্যাপে ট্যাপ করো, তীর দিয়ে বিমানের দিক বাছো, কনফার্ম দিলে 5টি মিসাইল আসে — এটাই এই পালার আক্রমণ
+toque no mapa para marcar o alvo e USAR solta o POMBO: voa reto até lá (sem vento) e explode — é o seu ataque da vez
+টার্গেট ঠিক করতে ম্যাপে ট্যাপ করো, ব্যবহার চাপলে পায়রা ছাড়ে: সোজা উড়ে যায় (বাতাস ছাড়া) আর ফাটে — এটাই এই পালার আক্রমণ
+uma BOLHA te protege: metade do dano até a sua próxima vez
+বুদবুদ তোমাকে রক্ষা করে: পরের পালা পর্যন্ত অর্ধেক ড্যামেজ
++10 s nesta vez para mirar com calma
+ধীরে নিশানা করতে এবার +10 s
+Tiro Especial
+স্পেশাল শট
+Chuva de Flechas
+তীরের বৃষ্টি
+Terremoto
+ভূমিকম্প
+Orbe Teleguiado
+গাইডেড গোলক
+Inferno
+ইনফার্নো
+Bala Quicante
+লাফানো গুলি
+Picada Venenosa
+বিষাক্ত হুল
+Casco de Gelo
+বরফের খোলস
+Chuva Curativa
+আরোগ্যের বৃষ্টি
+Corte Duplo
+ডাবল কোপ
+Garras em Fúria
+ক্রোধের থাবা
+Avalanche
+তুষারধস
+Pedregulho
+বড় পাথর
+Gêiser
+গিজার
+Broca
+ড্রিল
+Fragmentação
+খণ্ডন
+Explosão de Espinhos
+কাঁটার বিস্ফোরণ
+Mordida Vampira
+ভ্যাম্পায়ার কামড়
+tiro forte e cratera grande
+জোরালো শট আর বড় গর্ত
+6 flechas caem do céu em volta
+চারপাশে আকাশ থেকে 6টি তীর পড়ে
+cratera gigante e tremor
+বিশাল গর্ত আর কম্পন
+persegue o inimigo mais perto
+সবচেয়ে কাছের শত্রুকে তাড়া করে
+queima 3 turnos
+3 টার্ন পোড়ায়
+raio cai do céu na coluna do impacto
+আঘাতের জায়গায় আকাশ থেকে বাজ পড়ে
+quica 2 vezes explodindo
+ফাটতে ফাটতে 2 বার লাফায়
+envenena 3 turnos
+3 টার্ন বিষ দেয়
+congela quem atingir + escudo 2 turnos
+যাকে লাগে তাকে জমায় + 2 টার্ন ঢাল
+cura os aliados e fere os rivais
+মিত্রদের সারায়, প্রতিপক্ষকে আঘাত করে
+2 tiros especiais seguidos
+পরপর 2টি স্পেশাল শট
+3 explosões em linha
+এক লাইনে 3টি বিস্ফোরণ
+congela tudo numa área grande
+বড় এলাকায় সব জমিয়ে দেয়
+pedra enorme e pesada
+বিশাল ভারী পাথর
+lança os rivais para o alto
+প্রতিপক্ষকে শূন্যে ছুড়ে দেয়
+atravessa o chão e explode por dentro
+মাটি ভেদ করে ভেতর থেকে ফাটে
+se parte em 5 bombas
+5টি বোমায় ভাগ হয়
+8 espinhos para todo lado
+চারদিকে 8টি কাঁটা
+cura você com 60% do dano
+ড্যামেজের 60% দিয়ে তোমাকে সারায়
+Flecha Certeira
+নিখুঁত তীর
+Patada de Urso
+ভালুকের থাবা
+Rastro de Brasas
+অঙ্গারের রেখা
+Mergulho Teleguiado
+গাইডেড ঝাঁপ
+Bala Colossal
+বিশাল গুলি
+Tiro Duplo
+ডাবল শট
+Bloco de Gelo
+বরফের ব্লক
+Ferrão
+হুল
+Ervas Curativas
+আরোগ্যের ভেষজ
+Cutucão
+খোঁচা
+Chuva de Bolotas
+ওক ফলের বৃষ্টি
+Soco de Fogo
+আগুনের ঘুসি
+Machado de Batalha
+যুদ্ধের কুড়াল
+Martelada Sísmica
+ভূকম্পী হাতুড়ি
+Lança Afiada
+ধারালো বর্শা
+Revólver
+রিভলভার
+Sentinela
+সেন্ট্রি
+Espinhos
+কাঁটা
+Eco Teleguiado
+গাইডেড প্রতিধ্বনি
+o próximo tiro é CRÍTICO
+পরের শট ক্রিটিক্যাল
+patada no rival colado: joga ele LONGE
+পাশের প্রতিপক্ষে থাবা: তাকে দূরে ছুড়ে দেয়
+toque em qualquer lugar do mapa e apareça lá (encerra a vez)
+ম্যাপে যেকোনো জায়গায় ট্যাপ করো আর সেখানে হাজির হও (পালা শেষ)
+o próximo tiro deixa BRASAS no chão
+পরের শট মাটিতে অঙ্গার ফেলে
+o próximo tiro persegue o rival (mergulho da águia)
+পরের শট প্রতিপক্ষকে তাড়া করে (ঈগলের ঝাঁপ)
+o próximo tiro vira uma BALA COLOSSAL: área enorme e muito dano
+পরের শট বিশাল গুলি হয়: বড় এলাকা আর অনেক ড্যামেজ
+dois tiros certeiros no rival à vista
+চোখে পড়া প্রতিপক্ষে দুটি নিখুঁত শট
+você se fecha num bloco de gelo: quase não leva dano até a sua próxima vez
+তুমি বরফের ব্লকে বন্দি: পরের পালা পর্যন্ত প্রায় ড্যামেজ নেই
+o próximo tiro envenena
+পরের শট বিষ দেয়
+cura 15% de você e dos aliados perto
+তোমাকে আর কাছের মিত্রদের 15% সারায়
+cutucão de katana: empurra forte o rival colado (ótimo na beira)
+কাটানার খোঁচা: পাশের প্রতিপক্ষকে জোরে ঠেলে দেয় (কিনারায় দারুণ)
+3 bolotas caem em cima do rival mais perto
+সবচেয়ে কাছের প্রতিপক্ষের ওপর 3টি ওক ফল পড়ে
+soco de fogo: joga o rival colado lá no alto
+আগুনের ঘুসি: পাশের প্রতিপক্ষকে উঁচুতে ছুড়ে দেয়
+corta METADE da vida do rival colado
+পাশের প্রতিপক্ষের অর্ধেক জীবন কেটে নেয়
+martelo no chão: dano e joga para o alto quem está perto
+মাটিতে হাতুড়ি: কাছের সবাইকে ড্যামেজ আর শূন্যে ছোড়ে
+a lança afia: o próximo tiro dá +35%
+বর্শা ধার হয়: পরের শট +35%
+seis tiros de revólver no rival à vista
+চোখে পড়া প্রতিপক্ষে রিভলভারের ছয়টি শট
+torreta que atira sozinha em quem chega perto (4 tiros)
+টারেট যা কাছে এলে নিজে গুলি করে (4 শট)
+espinhos no chão ferem o 1º rival que pisar
+মাটিতে কাঁটা প্রথম পা দেওয়া প্রতিপক্ষকে আঘাত করে
+eco do morcego: o próximo tiro segue as ondas de som até o rival
+বাদুড়ের প্রতিধ্বনি: পরের শট শব্দতরঙ্গ ধরে প্রতিপক্ষের কাছে যায়
+Arco Longo
+লম্বা ধনুক
+Investida do Urso
+ভালুকের ধাক্কা
+Orbe Arcano
+জাদুর গোলক
+Lança-chamas
+ফ্লেমথ্রোয়ার
+Tempestade
+ঝড়
+Morteiro
+মর্টার
+Rajada de Precisão
+নিখুঁত ঝাঁক
+Nevasca
+তুষারঝড়
+Nuvem Venenosa
+বিষাক্ত মেঘ
+Vinhas
+লতা
+Corte Relâmpago
+বিদ্যুৎ কোপ
+Toca Explosiva
+বিস্ফোরক গর্ত
+Cometa de Brasa
+অঙ্গার ধূমকেতু
+Machado Giratório
+ঘূর্ণি কুড়াল
+Pisão do Gorila
+গরিলার পদাঘাত
+Cutucão de Lança
+বর্শার খোঁচা
+Chuva de Balas
+গুলির বৃষ্টি
+Minigun
+মিনিগান
+Chuva de Espinhos
+কাঁটার বৃষ্টি
+Grito Sônico
+সোনিক চিৎকার
+duas flechas RETAS no rival à vista (até 1000): dano e empurrão
+চোখে পড়া প্রতিপক্ষে দুটি সোজা তীর (1000 পর্যন্ত): ড্যামেজ আর ধাক্কা
+o urso corre em frente atropelando quem estiver no caminho (-8% de vida)
+ভালুক সামনে দৌড়ে পথের সবাইকে পিষে দেয় (-8% জীবন)
+um orbe mágico voa até o rival mais perto e EXPLODE
+জাদুর গোলক সবচেয়ে কাছের প্রতিপক্ষের কাছে উড়ে গিয়ে ফাটে
+jato de fogo nos rivais à sua frente: dano e queimadura
+সামনের প্রতিপক্ষে আগুনের ধারা: ড্যামেজ আর পোড়া
+um raio cai no rival mais perto (até 900)
+সবচেয়ে কাছের প্রতিপক্ষে বাজ পড়ে (900 পর্যন্ত)
+3 tiros de morteiro caem em volta do rival mais perto
+সবচেয়ে কাছের প্রতিপক্ষের চারপাশে 3টি মর্টার পড়ে
+rajada de 5 tiros no rival à vista (até 800)
+চোখে পড়া প্রতিপক্ষে 5 শটের ঝাঁক (800 পর্যন্ত)
+congela os rivais perto por 1 turno
+কাছের প্রতিপক্ষদের 1 টার্ন জমায়
+nuvem venenosa: envenena TODOS os rivais perto por 3 turnos
+বিষাক্ত মেঘ: কাছের সব প্রতিপক্ষকে 3 টার্ন বিষ
+puxa o rival mais perto para junto de você e fere
+সবচেয়ে কাছের প্রতিপক্ষকে কাছে টেনে আঘাত করে
+dispara para a frente cortando quem estiver no caminho
+সামনে ঝাঁপিয়ে পথের সবাইকে কাটে
+o próximo tiro CAVA uma toca pelo chão e explode por dentro
+পরের শট মাটিতে গর্ত খুঁড়ে ভেতর থেকে ফাটে
+bola de energia reta para a frente: dano e empurrão no 1º rival
+সোজা সামনে শক্তির গোলা: প্রথম প্রতিপক্ষে ড্যামেজ আর ধাক্কা
+machado que vai e volta: fere os rivais na sua frente (até 500)
+যাওয়া-আসা কুড়াল: সামনের প্রতিপক্ষদের আঘাত (500 পর্যন্ত)
+PISÃO: o chão treme e todos os rivais do mapa levam dano e são sacudidos
+পদাঘাত: মাটি কাঁপে, ম্যাপের সব প্রতিপক্ষ ড্যামেজ আর ঝাঁকুনি খায়
+estocada longa na frente (até 380): dano e empurrão
+সামনে লম্বা খোঁচা (380 পর্যন্ত): ড্যামেজ আর ধাক্কা
+rajada de pistolas em TODOS os rivais à vista (até 700)
+চোখে পড়া সব প্রতিপক্ষে পিস্তলের ঝাঁক (700 পর্যন্ত)
+rajada de 6 tiros no rival à vista (até 800)
+চোখে পড়া প্রতিপক্ষে 6 শটের ঝাঁক (800 পর্যন্ত)
+3 armadilhas de espinhos caem em volta do rival mais perto
+সবচেয়ে কাছের প্রতিপক্ষের চারপাশে 3টি কাঁটার ফাঁদ পড়ে
+grito sônico: dano e empurrão em todos os rivais à sua frente (até 450)
+সোনিক চিৎকার: সামনের সব প্রতিপক্ষে ড্যামেজ আর ধাক্কা (450 পর্যন্ত)
+Poção: +25% de vida e cura veneno
+ওষুধ: +25% জীবন আর বিষ সারায়
+Energético: +120 de energia
+এনার্জি ড্রিংক: +120 এনার্জি
+Baú: +1 uso de cada ferramenta
+সিন্দুক: প্রতিটি টুলের +1 ব্যবহার
+Fúria: +40
+ক্রোধ: +40
+ARMADILHA! O baú explodiu
+ফাঁদ! সিন্দুক ফেটে গেল
+Escudo: -50% de dano por 2 vezes
+ঢাল: 2 বার -50% ড্যামেজ
+Luneta: +1 Mira Guiada
+দূরবিন: +1 গাইডেড নিশানা
+Arma Surpresa: Fúria de outro animal no próximo tiro
+সারপ্রাইজ অস্ত্র: পরের শটে অন্য প্রাণীর ক্রোধ
+Golpe Certeiro: o próximo tiro é CRÍTICO
+নিখুঁত আঘাত: পরের শট ক্রিটিক্যাল
+Paraquedas: +1 uso
+প্যারাশুট: +1 ব্যবহার
+Recarga: as 2 habilidades prontas
+রিচার্জ: দুটো স্কিলই প্রস্তুত
+Balança da Justiça: a vida dos times é dividida igual
+ন্যায়ের দাঁড়িপাল্লা: দলগুলোর জীবন সমান ভাগ হয়
+Dano em Dobro: o próximo tiro causa 2x
+ডাবল ড্যামেজ: পরের শটে 2x ড্যামেজ
+Tempo Extra: +15 s na sua próxima vez
+বাড়তি সময়: পরের পালায় +15 s
+Caixa de Arsenal: +1 de um utilitário
+অস্ত্রাগার বাক্স: একটি ইউটিলিটির +1
+Ai, meu rabo!
+উফ, আমার লেজ!
+Astúcia pura!
+খাঁটি চালাকি!
+O vento me enganou!
+বাতাস ধোঁকা দিল!
+GRRRAU!
+গ্র্র্রাউ!
+Abraço de urso!
+ভালুকের আলিঙ্গন!
+Cadê o mel?
+মধু কোথায়?
+Uh-uh! Doeu!
+হু-হু! ব্যথা লাগল!
+Previsível.
+আগেই জানতাম।
+Calculei errado...
+ভুল হিসাব করলাম...
+Tô pegando fogo!
+আমি জ্বলছি!
+Queimou!
+পুড়ে গেল!
+Esfriou...
+ঠান্ডা হয়ে গেল...
+Penas pra todo lado!
+চারদিকে পালক!
+Visão de águia!
+ঈগলের চোখ!
+Vento traiçoeiro!
+বিশ্বাসঘাতক বাতাস!
+Nem senti... ai!
+কিছুই টের পাইনি... উফ!
+ATROPELADO!
+পিষে দিল!
+Mira de rinoceronte...
+গন্ডারের নিশানা...
+Sssocorro!
+বাঁচাওস্স্স!
+Sssó um bote!
+শুধুস্স্স এক ছোবল!
+Errei o bote...
+ছোবল ফসকে গেল...
+Meu casco!
+আমার খোলস!
+Devagar e sempre!
+ধীরে ধীরে, কিন্তু নিশ্চিত!
+Calma, tô mirando...
+দাঁড়াও, নিশানা করছি...
+Minha lixeira!
+আমার ডাস্টবিন!
+Achado não é roubado!
+যে পায়, তার!
+Era pra lá?
+ওদিকে ছিল নাকি?
+Miau! Seis vidas...
+মিয়াও! ছয়টা প্রাণ বাকি...
+Caiu de pé? Não!
+পায়ের ওপর পড়লাম? না!
+Hmpf. Foi de propósito.
+হুম্‌ফ। ইচ্ছে করেই করেছি।
+Arranhão de nada!
+শুধু একটা আঁচড়!
+Rugido final!
+শেষ গর্জন!
+Grrr... quase!
+গ্র্র... প্রায়!
+Gelou!
+জমে গেল!
+Escorregou, hein?
+পিছলে গেলে, হ্যাঁ?
+Patinei...
+পিছলে গেলাম...
+UH UH AH AH!
+উ উ আ আ!
+Força bruta!
+পেশিশক্তি!
+Bananas!
+কলা!
+Sangue na água!
+পানিতে রক্ত!
+Mordida certa!
+নিখুঁত কামড়!
+Nadei e morri na praia
+তীরে এসে তরী ডুবল
+Couro duro!
+মোটা চামড়া!
+Abocanhei!
+কচ!
+Lágrimas de jacaré...
+কুমিরের কান্না...
+Ninguém mexe comigo!
+আমার সাথে কেউ লাগতে আসে না!
+Cavei sua cova!
+তোর কবর খুঁড়ে দিলাম!
+Terra no olho!
+চোখে মাটি!
+Espinhos pra quê?!
+কাঁটার কী দরকার?!
+Espetado!
+বিঁধে গেল!
+Furou...
+ফুটো হয়ে গেল...
+Ecoou na cabeça!
+মাথায় প্রতিধ্বনি!
+Na escuridão!
+অন্ধকারে!
+Sonar falhou!
+সোনার ব্যর্থ!
+Ai!
+উফ!
+Essa doeu!
+এটা লাগল!
+Ei!
+এই!
+Ui ui ui!
+উফ উফ উফ!
+Tá louco?!
+পাগল নাকি?!
+Toma!
+নে!
+Um a menos!
+একজন কম!
+Próximo!
+পরের জন!
+Vai pra casa!
+বাড়ি যাও!
+Quase!
+প্রায়!
+Errei feio...
+বাজেভাবে মিস...
+Era pra lá!
+ওদিকে যাওয়ার কথা ছিল!
+Ninguém viu.
+কেউ দেখেনি।
+hahaha!
+হাহাহা!
+fácil demais
+খুবই সহজ
+grrr!
+গ্র্র!
+socorro!
+বাঁচাও!
+boa!
+দারুণ!
+foi mal!
+আমার ভুল!
+pegou fogo!
+আগুন লেগেছে!
+já era!
+খেল খতম!
+bom jogo!
+ভালো খেলা!
+na mosca!
+একদম নিশানায়!
+acorda!
+জাগো!
+que sorte!
+কী কপাল!
+chorei!
+কেঁদে ফেললাম!
+vamos!
+চলো!
+respeito!
+সম্মান!
+anda logo!
+তাড়াতাড়ি!
+isso aí!
+এই তো!
+agressivo: empilha Dano +%
+আক্রমণাত্মক: ড্যামেজ +% জমায়
+preciso: erra menos
+নিখুঁত: কম মিস করে
+sorrateiro: some quando apanha
+চুপিচুপি: আঘাত পেলে উধাও
+apressado: atira rápido
+তাড়াহুড়ো: দ্রুত গুলি
+teimoso: nunca se cura
+জেদি: কখনো সারে না
+REAÇÃO EM CADEIA!
+চেইন রিঅ্যাকশন!
+BARRIL!
+ব্যারেল!
+BUUUM!
+বুউউম!
+BÉÉÉ-BUM!
+ব্যা-বুম!
+MINA!
+মাইন!
+Sentinela destruída!
+সেন্ট্রি ধ্বংস!
+pisou nos espinhos
+কাঁটায় পা দিল
+mina falhou!
+মাইন ফাটেনি!
+Rastro de fogo no chão!
+মাটিতে আগুনের রেখা!
+queimado no fogo
+আগুনে পুড়ল
+abatido pela sentinela
+সেন্ট্রির হাতে কুপোকাত
+A sentinela de {0} atirou em {1}
+{0}-এর সেন্ট্রি {1}-কে গুলি করল
+Um GALÃO EXPLOSIVO está caindo!
+একটা বিস্ফোরক ব্যারেল পড়ছে!
+Uma MINA está caindo!
+একটা মাইন পড়ছে!
+Uma caixa de suprimento está caindo!
+সাপ্লাই বাক্স পড়ছে!
++{0} {1} (agora {2})
++{0} {1} (এখন {2})
+{0} pegou {1}
+{0} {1} তুলে নিল
+curado do {0}
+{0} থেকে সেরে উঠল
+Arsenal: +1 {0}
+অস্ত্রাগার: +1 {0}
+{0} abriu uma ARMADILHA!
+{0} ফাঁদ খুলে ফেলল!
+BÉÉ!
+ব্যা!
+TIMES
+দল
+TxT = todos contra todos
+FFA = সবাই বনাম সবাই
+DIFICULDADE DOS BOTS
+বটের কাঠিন্য
+equip. dos bots {0}
+বটের সরঞ্জাম {0}
+{0} lutadores, cada um por si
+{0} যোদ্ধা, যে যার নিজের
+{0} contra {1}
+{0} বনাম {1}
+1 bot
+1 বট
+{0} bots
+{0} বট
+Teclado: setas andam e miram · ESPAÇO segura e solta o tiro · J pula · P passa · F especial · V visão geral · Esc pausa
+কীবোর্ড: তীর দিয়ে হাঁটা ও নিশানা · SPACE চেপে ছাড়লে গুলি · J লাফ · P পাস · F স্পেশাল · V পুরো দৃশ্য · Esc বিরতি
+JOGAR
+খেলো
+Aleatório
+এলোমেলো
+MAPA
+ম্যাপ
+FECHADO + TETO
+বন্ধ + ছাদ
+FECHADO
+বন্ধ
+ABERTO
+খোলা
+sorteia entre {0}
+{0} থেকে এলোমেলো
+toque para ver todos
+সব দেখতে ট্যাপ করো
+MAPAS
+সব ম্যাপ
+TETO
+ছাদ
+Sorte
+ভাগ্য
+Defesa
+প্রতিরক্ষা
+Agilidade
+ক্ষিপ্রতা
+PODER {0}
+শক্তি {0}
+ARMA VERDADEIRA
+আসল অস্ত্র
+Contra a IA o seu equipamento conta.
+AI-এর বিরুদ্ধে তোমার সরঞ্জাম গোনা হয়।
+TROCAR
+বদলাও
+dano {0}%
+ড্যামেজ {0}%
+raio {0}%
+পরিধি {0}%
+ t
+ টার্ন
+ bot
+ বট
+ humano
+ মানুষ
+A água começa a subir em 3 turnos!
+3 টার্ন পরে পানি বাড়তে শুরু করবে!
+MORTE SÚBITA: a água subiu!
+সাডেন ডেথ: পানি বেড়েছে!
+MORTE SÚBITA! A água sobe a cada turno
+সাডেন ডেথ! প্রতি টার্নে পানি বাড়ে
+O vento VIROU para {0}
+বাতাস {0} ঘুরে গেল
+a direita
+ডানদিকে
+a esquerda
+বাঁদিকে
+{0} joga DE NOVO (pouco atraso)!
+{0} আবার খেলবে (কম দেরি)!
+Tempo Extra: +15 s nesta vez
+বাড়তি সময়: এবার +15 s
+CORAGEM: último do time causa +15% de dano!
+সাহস: দলের শেষজন +15% ড্যামেজ দেয়!
+{0} está congelado!
+{0} জমে আছে!
+{0} PRONTA! (botão roxo)
+{0} প্রস্তুত! (বেগুনি বোতাম)
+{0} pronta! (botão verde)
+{0} প্রস্তুত! (সবুজ বোতাম)
+Você tem uma FÚRIA EMPRESTADA: toque no orbe!
+তোমার কাছে ধার করা ক্রোধ: গোলকে ট্যাপ করো!
+FÚRIA PRONTA! Toque no orbe para armar o especial
+ক্রোধ প্রস্তুত! স্পেশাল চালু করতে গোলকে ট্যাপ করো
+Rodada {0}: {1} liberado!
+রাউন্ড {0}: {1} খুলে গেল!
+time 
+দল 
+{0} passou a vez
+{0} পালা ছেড়ে দিল
+RÁPIDO! (joga antes)
+দ্রুত! (আগে খেলে)
+pino fora!
+পিন খোলা!
+glub glub...
+গুড়ুপ গুড়ুপ...
+DUELO FINAL: {0} x {1}
+চূড়ান্ত লড়াই: {0} x {1}
+DUELO FINAL!
+চূড়ান্ত লড়াই!
+Só falta 1 rival!
+মাত্র 1 প্রতিপক্ষ বাকি!
+Você é o último do time!
+তুমি দলের শেষজন!
+PRIMEIRO SANGUE: {0}
+ফার্স্ট ব্লাড: {0}
+VINGANÇA! {0} vingou {1}
+প্রতিশোধ! {0} {1}-এর প্রতিশোধ নিল
+EM CHAMAS!
+আগুন ঝরাচ্ছে!
+IMPARÁVEL!
+অপ্রতিরোধ্য!
+DOMINANDO!
+আধিপত্য!
+LENDÁRIO!
+কিংবদন্তি!
+DIVINO!
+ঐশ্বরিক!
+{0}  {1} ({2} abates)
+{0}  {1} ({2} কিল)
+FOGO AMIGO: {0} derrubou {1}
+ফ্রেন্ডলি ফায়ার: {0} {1}-কে ফেলে দিল
+Tempo esgotado
+সময় শেষ
+PEGOU NO AR!
+শূন্যে ধরা!
+BUM!
+বুম!
+{0} causou {1} de dano
+{0} {1} ড্যামেজ দিল
+Fúria desarmada
+ক্রোধ বাতিল
+{0}: a fúria está em {1}% (dê e leve dano)
+{0}: ক্রোধ {1}%-এ (ড্যামেজ দাও আর খাও)
+Fúria: {0} — {1}
+ক্রোধ: {0} — {1}
+Lobo
+নেকড়ে
+Aguia
+ঈগল
+Ourico
+সজারু
+Jacare
+কুমির
+Tubarao
+হাঙর
+Coelho
+খরগোশ
+Sabio
+জ্ঞানী
+Agil
+চটপটে
+Forte
+শক্তিশালী
+Lendario
+কিংবদন্তি
+Boneco {0}
+ডামি {0}
+BOT 
+বট 
+ TxT
+ FFA
+BONECOS
+ডামি
+TIME AZUL
+নীল দল
+TIME VERMELHO
+লাল দল
+OS HUMANOS VENCERAM!
+মানুষরা জিতেছে!
+OS BOTS VENCERAM
+বটরা জিতেছে
+TIME {0} VENCEU!
+{0} দল জিতেছে!
+AZUL
+নীল
+VERMELHO
+লাল
+{0} VENCEU!
+{0} জিতেছে!
+JOGAR DE NOVO
+আবার খেলো
+PRÓXIMA LUTA ({0}/3)
+পরের লড়াই ({0}/3)
+FIM DO TORNEIO
+টুর্নামেন্ট শেষ
+Cristais dobrados!
+ক্রিস্টাল দ্বিগুণ!
+Cristais x2
+ক্রিস্টাল x2
+XP dobrado!
+XP দ্বিগুণ!
+Anúncio indisponível: sem prêmio desta vez
+বিজ্ঞাপন নেই: এবার কোনো পুরস্কার নেই
+ESCOLHA UMA CARTA!
+একটা কার্ড বাছো!
+vitória! vire uma carta para ganhar um prêmio extra
+জয়! বাড়তি পুরস্কারের জন্য একটা কার্ড উল্টাও
+PASSE O APARELHO
+ডিভাইস পরের জনকে দাও
+Vez de {0}
+{0}-এর পালা
+{0}  ·  vida {1} / {2}  ·  fúria {3}%
+{0}  ·  জীবন {1} / {2}  ·  ক্রোধ {3}%
+time {0}
+দল {0}
+Quem jogou antes: não espie · o relógio só corre depois do ESTOU PRONTO
+আগের খেলোয়াড়: উঁকি দিও না · ঘড়ি চলবে 'আমি প্রস্তুত' চাপার পরেই
+ESTOU PRONTO
+আমি প্রস্তুত
+PAUSA
+বিরতি
+DICA {0}/{1}
+টিপ {0}/{1}
+PULAR DICAS
+টিপস বাদ দাও
+ENTENDI
+বুঝেছি
+PRÓXIMA
+পরের
+Jogo local: sem prêmio nem estatística
+লোকাল খেলা: পুরস্কার বা পরিসংখ্যান নেই
+TREINO · sem prêmio
+ট্রেনিং · পুরস্কার নেই
+(NÍVEL {0}!)
+(লেভেল {0}!)
++{0} cristais
++{0} ক্রিস্টাল
++{0} cristais pelo nível
+লেভেলের জন্য +{0} ক্রিস্টাল
+TREVO DA SORTE!
+ভাগ্যের ক্লোভার!
+BÊNÇÃO DIVINA!
+ঐশ্বরিক আশীর্বাদ!
+PERFEITA +{0}
+পারফেক্ট +{0}
+1ª VITÓRIA DO DIA +{0}
+দিনের প্রথম জয় +{0}
+MAPA DO DIA +{0}
+আজকের ম্যাপ +{0}
+VOLTA POR CIMA +{0}
+দারুণ প্রত্যাবর্তন +{0}
+CAMPEÃO DO TORNEIO! +{0} cristais +3 pedras +1 trevo
+টুর্নামেন্ট চ্যাম্পিয়ন! +{0} ক্রিস্টাল +3 পাথর +1 ক্লোভার
+RECORDE de tiro: {0}!
+শটের রেকর্ড: {0}!
+RECORDE de dano: {0}!
+ড্যামেজের রেকর্ড: {0}!
+NÍVEL {0}!
+লেভেল {0}!
+NÍVEL {0}  ·  {1} / {2} XP
+লেভেল {0}  ·  {1} / {2} XP
+missões prontas: {0}
+মিশন প্রস্তুত: {0}
+conquistas para coletar: {0}
+নেওয়ার মতো অর্জন: {0}
+Novo: {0} disponível!
+নতুন: {0} পাওয়া যাচ্ছে!
+faltou {0} m
+{0} m কম পড়ল
+ANDE com os botões de seta (gasta energia). Desníveis baixos você escala.
+তীর বোতাম দিয়ে হাঁটো (এনার্জি লাগে)। ছোট উঁচু জায়গা তুমি বেয়ে উঠতে পারো।
+MUDE O ÂNGULO com os botões de cima e de baixo. A seta mostra a direção do tiro.
+ওপর-নিচের বোতাম দিয়ে কোণ বদলাও। তীর শটের দিক দেখায়।
+SEGURE para dar FORÇA e SOLTE para atirar. Olhe o VENTO lá em cima!
+শক্তির জন্য চেপে ধরো, গুলি করতে ছাড়ো। ওপরে বাতাস দেখো!
+FERRAMENTAS: só UM de +1, +2 ou 3 Tiros por vez (3 Tiros + +1 = combo de 6 balas); Dano +% soma com tudo (gastam energia).
+টুল: একবারে +1, +2 বা 3 শটের মধ্যে শুধু একটা (3 শট + +1 = 6 গুলির কম্বো); ড্যামেজ +% সবকিছুর সাথে যোগ হয় (এনার্জি লাগে)।
+Encha a FÚRIA dando e levando dano e toque no orbe: ESPECIAL!
+ড্যামেজ দিয়ে আর খেয়ে ক্রোধ ভরো, তারপর গোলকে ট্যাপ করো: স্পেশাল!
+Toque 2x no mapa: vê o campo todo. Toque num animal: vê a ficha. Queda alta tira vida! Boa batalha!
+ম্যাপে 2 বার ট্যাপ: পুরো মাঠ দেখো। প্রাণীতে ট্যাপ: তার তথ্য দেখো। উঁচু থেকে পড়লে জীবন কমে! ভালো লড়াই হোক!
+Mire com as setas e SEGURE o botão de ataque para atirar
+তীর দিয়ে নিশানা করো, গুলি করতে আক্রমণ বোতাম চেপে ধরো
+Acerte um boneco (olhe o VENTO lá em cima)
+একটা ডামিকে মারো (ওপরে বাতাস দেখো)
+Use uma ferramenta da coluna da esquerda
+বাঁ কলাম থেকে একটা টুল ব্যবহার করো
+Pegue uma caixa (ande até ela ou acerte quando cair)
+একটা বাক্স নাও (হেঁটে যাও বা পড়ার সময় মারো)
+Feito!
+হয়ে গেছে!
+Você já sabe o básico!
+তুমি বেসিক শিখে গেছ!
+do dia: {0} +50%
+আজকের: {0} +50%
+DO DIA +50%
+আজকের +50%
+{0} vit.
+{0} জয়
+1ª partida com dicas
+প্রথম ম্যাচ টিপস সহ
+boneco de novo!
+আবার ডামি!
+10 masmorras com chefes, 4 dificuldades e estrelas. Prêmios: cristais, pedras, trevo e bênção.
+বসসহ 10টি ডানজন, 4টি কাঠিন্য আর স্টার। পুরস্কার: ক্রিস্টাল, পাথর, ক্লোভার আর আশীর্বাদ।
+TORNEIO
+টুর্নামেন্ট
+TREINO
+ট্রেনিং
+Missões
+মিশন
+Conquistas
+অর্জন
+Compre na tela Animais por {0} cristais
+প্রাণী স্ক্রিনে {0} ক্রিস্টালে কেনো
+VER
+দেখো
+Seu
+তোমার
+ESCOLHER
+বাছো
+COMPRAR {0}
+কেনো {0}
+Especial
+স্পেশাল
+{0} vitórias em {1} partidas
+{1} ম্যাচে {0} জয়
+renovam em {0}h {1}
+{0}ঘ {1}-এ নতুন হবে
+complete as 3 para chance de Trevo
+ক্লোভারের সুযোগ পেতে 3টিই শেষ করো
+prêmio: +{0} cristais · +1 pedra
+পুরস্কার: +{0} ক্রিস্টাল · +1 পাথর
+FEITA
+সম্পূর্ণ
+COLETAR
+নাও
+em andamento
+চলছে
+TORNEIO DO DIA
+আজকের টুর্নামেন্ট
+3 lutas 1x1 seguidas contra bots cada vez mais fortes · perdeu, recomeça da luta 1 · vença as 3 para o prêmio
+পরপর 3টি 1x1 লড়াই, বট প্রতিবার আরও শক্তিশালী · হারলে লড়াই 1 থেকে আবার · পুরস্কারের জন্য 3টিই জেতো
+que erra um pouco
+যে একটু মিস করে
+que quase não erra
+যে প্রায় মিস করে না
+de mira perfeita
+নিখুঁত নিশানার
+LUTA {0}  ·  {1}
+লড়াই {0}  ·  {1}
+1x1 contra bot {0}
+বট {0}-এর বিরুদ্ধে 1x1
+PRÊMIO vencendo as 3: +{0} cristais  +3 pedras de força  +1 Trevo
+3টিই জিতলে পুরস্কার: +{0} ক্রিস্টাল  +3 শক্তি পাথর  +1 ক্লোভার
+campeão {0} vez(es)
+{0} বার চ্যাম্পিয়ন
+o prêmio sai 1 vez por dia
+পুরস্কার দিনে 1 বার মেলে
+Você já jogou o torneio de hoje - ele volta amanhã!
+আজকের টুর্নামেন্ট খেলা হয়ে গেছে - কাল আবার আসবে!
+Seu animal: {0}  (troque na tela Animais)
+তোমার প্রাণী: {0}  (প্রাণী স্ক্রিনে বদলাও)
+VOLTA AMANHÃ
+কাল আবার এসো
+COMEÇAR A LUTA 1
+লড়াই 1 শুরু করো
+Rever as dicas na próxima partida
+পরের ম্যাচে টিপস আবার দেখো
+ATQ
+আক্রমণ
+SOR
+ভাগ্য
+DEF
+রক্ষা
+AGI
+ক্ষিপ্রতা
+PODER DE COMBATE
+যুদ্ধ শক্তি
+forma normal
+সাধারণ রূপ
+FERREIRO
+কামার
+ARMEIRO
+অস্ত্রাগার
+Cada animal tem o PRÓPRIO aprimoramento. A falha só gasta as pedras - o item nunca piora.
+প্রতিটি প্রাণীর নিজস্ব আপগ্রেড। ব্যর্থ হলে শুধু পাথর যায় - আইটেম কখনো খারাপ হয় না।
+Vale no Contra IA, no Torneio e na Masmorra · no Local todos ficam iguais · a aparência vale em todos os modos
+AI-এর বিরুদ্ধে, টুর্নামেন্ট আর ডানজনে কাজ করে · লোকালে সবাই সমান · চেহারা সব মোডে কাজ করে
+{0} no máximo do tier {1} (+12)
+{0} টিয়ার {1}-এ সর্বোচ্চ (+12)
+compre {0} no Armeiro
+অস্ত্রাগারে {0} কেনো
+SUCESSO {0}%  ·  FALHA {1}%  ·  custo {2} (você tem {3})
+সফল {0}%  ·  ব্যর্থ {1}%  ·  খরচ {2} (তোমার আছে {3})
++{0}% pelas falhas
+ব্যর্থতার জন্য +{0}%
+Trevo ({0})
+ক্লোভার ({0})
+-20% de falha
+-20% ব্যর্থতা
+Bênção ({0})
+আশীর্বাদ ({0})
+nunca falha
+কখনো ব্যর্থ হয় না
+MÁXIMO
+সর্বোচ্চ
+APRIMORAR
+আপগ্রেড
+SUCESSO! +{0}
+সফল! +{0}
+FALHOU…
+ব্যর্থ…
++{0}% na próxima pelas falhas
+ব্যর্থতার জন্য পরের বার +{0}%
+Faltam pedras: {0}
+পাথর কম: {0}
+custo {0} · tem {1}
+খরচ {0} · আছে {1}
+{0} {1} usa {2}.
+{0} {1}-এ {2} লাগে।
+Pedras: vitórias, cartas, missões e o Baú do Ferreiro (Armeiro).
+পাথর: জয়, কার্ড, মিশন আর কামারের সিন্দুক (অস্ত্রাগার)।
+FORMA máxima: DEUS 3
+সর্বোচ্চ রূপ: দেব 3
+faltam {0} itens em {1} para a próxima forma (a forma segue o item de tier mais baixo)
+পরের রূপের জন্য {1}-এ আরও {0} আইটেম বাকি (রূপ সবচেয়ে নিচের টিয়ারের আইটেম ধরে চলে)
+EQUIPAMENTO
+সরঞ্জাম
+MATERIAIS
+উপকরণ
+precisa +12 (está +{0})
++12 দরকার (এখন +{0})
+Leve ao +12 no Ferreiro antes de trocar o tier
+আগে কামারের কাছে +12 পর্যন্ত নাও
+NOVA FORMA: {0}!
+নতুন রূপ: {0}!
+Só troca de tier com o item no +12. O tier novo começa em +0 e aprimora com a pedra dele. Os 4 no mesmo tier mudam a forma.
+টিয়ার বদলায় শুধু আইটেম +12-এ থাকলে। নতুন টিয়ার +0 থেকে শুরু হয় আর নিজের পাথরে আপগ্রেড হয়। 4টিই এক টিয়ারে হলে রূপ বদলায়।
+ESTATÍSTICAS
+পরিসংখ্যান
+GERAL
+সাধারণ
+CARREIRA
+ক্যারিয়ার
+Partidas
+ম্যাচ
+Vitórias
+জয়
+Melhor sequência
+সেরা টানা জয়
+Abates
+কিল
+Dano total
+মোট ড্যামেজ
+Maior dano num tiro
+এক শটে সর্বোচ্চ ড্যামেজ
+Tiros
+শট
+Precisão
+নির্ভুলতা
+Animal favorito
+প্রিয় প্রাণী
+Vitórias perfeitas
+পারফেক্ট জয়
+Mais dano numa partida
+এক ম্যাচে সর্বোচ্চ ড্যামেজ
+Tiros longos · vinganças
+লম্বা শট · প্রতিশোধ
+Partidas hoje
+আজকের ম্যাচ
+Fúrias
+ক্রোধ
+Caixas
+বাক্স
+Ferramentas
+টুল
+Suporte
+সাপোর্ট
+Quedas
+ফেলে দেওয়া
+Tiros rápidos
+দ্রুত শট
+Multi-acertos
+মাল্টি-হিট
+Críticos
+ক্রিটিক্যাল
+NA MOSCA
+একদম নিশানায়
+Passou
+পাস
+Habilidades
+স্কিল
+Torneios vencidos
+জেতা টুর্নামেন্ট
+Nível
+লেভেল
+Liga
+লিগ
+CONQUISTAS {0}/{1}
+অর্জন {0}/{1}
+COLETAR TODAS ({0})
+সব নাও ({0})
+{0} conquistas: +{1} cristais
+{0} অর্জন: +{1} ক্রিস্টাল
+(masmorra)
+(ডানজন)
+toque: +{0} cristais
+ট্যাপ: +{0} ক্রিস্টাল
+página {0}/{1}
+পেজ {0}/{1}
+Bronze
+ব্রোঞ্জ
+Prata
+সিলভার
+Ouro
+গোল্ড
+Platina
+প্ল্যাটিনাম
+Diamante
+ডায়মন্ড
+HUMANOS × BOTS
+মানুষ × বট
+cada um por si (+ bots, se quiser)
+যে যার নিজের (+ বট, চাইলে)
+2x2 · 3x3 · 4x4 (bots completam)
+2x2 · 3x3 · 4x4 (বট পূরণ করে)
+todos juntos contra o PC
+সবাই মিলে কম্পিউটারের বিরুদ্ধে
+Jogador {0}
+খেলোয়াড় {0}
+1234567890QWERTYUIOPASDFGHJKLÇZXCVBNM
+1234567890QWERTYUIOPASDFGHJKL-ZXCVBNM
+Cada um joga na sua vez e passa o aparelho  ·  atributos IGUAIS para todos  ·  sem prêmio nem ranking
+সবাই নিজের পালায় খেলে ডিভাইস পরের জনকে দাও  ·  সবার গুণ সমান  ·  পুরস্কার বা র‍্যাংকিং নেই
+JOGADORES
+খেলোয়াড়
+TAMANHO
+আকার
+BOTS EXTRAS
+বাড়তি বট
+BOTS
+বট
+DIFICULDADE
+কাঠিন্য
+sem bots
+বট ছাড়া
+Toque no NOME para trocar e no ANIMAL para escolher
+বদলাতে নামে আর বাছতে প্রাণীতে ট্যাপ করো
+no TIME para mudar de lado
+দিক বদলাতে দলে
+pode repetir animal
+প্রাণী একাধিকবার নেওয়া যায়
+Mapa aleatório
+এলোমেলো ম্যাপ
+{0} TODOS CONTRA TODOS
+{0} সবাই বনাম সবাই
+{0} HUMANOS × {1} BOTS
+{0} মানুষ × {1} বট
+{0} no aparelho
+ডিভাইসে {0}
+COMEÇAR
+শুরু করো
+NOME DO JOGADOR {0}  (até 12 letras)
+খেলোয়াড় {0}-এর নাম  (12 অক্ষর পর্যন্ত)
+vazio = Jogador {0}
+ফাঁকা = খেলোয়াড় {0}
+APAGAR
+মোছো
+ESPAÇO
+স্পেস
+Animal de {0}
+{0}-এর প্রাণী
+Compre mais animais na tela ANIMAIS
+প্রাণী স্ক্রিনে আরও প্রাণী কেনো
++dano dos tiros
++শটের ড্যামেজ
++chance de crítico
++ক্রিটিক্যালের সুযোগ
+-dano recebido
+-খাওয়া ড্যামেজ
++energia e joga antes
++এনার্জি আর আগে খেলে
+Pedra de força
+শক্তি পাথর
+Pedra de ferro
+লোহার পাথর
+Pedra de aço
+ইস্পাতের পাথর
+Pedra mítica
+মিথিক পাথর
+Pedra lendária
+কিংবদন্তি পাথর
+5 Pedras de Força
+5 শক্তি পাথর
+20 Pedras de Força
+20 শক্তি পাথর
+Baú do Ferreiro
+কামারের সিন্দুক
+aprimora itens de MADEIRA no Ferreiro
+কামারের কাছে কাঠের আইটেম আপগ্রেড করে
+pacote grande: 4 pedras de brinde
+বড় প্যাক: 4টি পাথর ফ্রি
+3 a 6 pedras do MESMO tipo, sorteado (Força 60% · Ferro 25% · Aço 10% · Mítica 4% · Lendária 1%) · chance de Trevo (5%) e Bênção (0,5%)
+একই ধরনের 3 থেকে 6টি পাথর, এলোমেলো (শক্তি 60% · লোহা 25% · ইস্পাত 10% · মিথিক 4% · কিংবদন্তি 1%) · ক্লোভার (5%) আর আশীর্বাদ (0.5%) পাওয়ার সুযোগ
++5 pedras de força
++5 শক্তি পাথর
++20 pedras de força
++20 শক্তি পাথর
+BÊNÇÃO!
+আশীর্বাদ!
+TREVO!
+ক্লোভার!
+Vença {0} partidas
+{0} ম্যাচ জেতো
+Cause {0} de dano
+{0} ড্যামেজ দাও
+Acerte {0} tiros
+{0} শট লাগাও
+Use a Fúria {0} vezes
+ক্রোধ {0} বার ব্যবহার করো
+Pegue {0} caixas de suprimento
+{0}টি সাপ্লাই বাক্স নাও
+Derrote {0} inimigos
+{0} শত্রু হারাও
+Vença {0} masmorra
+{0}টি ডানজন জেতো
+Use {0} vezes 3 Tiros/+1/+2/Dano+%
+3 শট/+1/+2/ড্যামেজ+% {0} বার ব্যবহার করো
+Derrube rivais de muito alto {0} vezes
+প্রতিপক্ষকে অনেক উঁচু থেকে {0} বার ফেলো
+Consiga {0} vitória perfeita
+{0}টি পারফেক্ট জয় পাও
+Faça {0} tiros rápidos (<5 s)
+{0}টি দ্রুত শট নাও (<5 s)
+Acerte 2+ rivais num só tiro {0} vezes
+এক শটে 2+ প্রতিপক্ষকে {0} বার মারো
+Acerte {0} tiros longos
+{0}টি লম্বা শট লাগাও
+Vença {0} vez no mapa do dia
+আজকের ম্যাপে {0} বার জেতো
+Jogue {0} partidas
+{0} ম্যাচ খেলো
+Vença {0} partidas em time (2x2+)
+দলে {0} ম্যাচ জেতো (2x2+)
+Faça {0} vingança
+{0}টি প্রতিশোধ নাও
+Cause 600+ de dano em {0} partida
+{0} ম্যাচে 600+ ড্যামেজ দাও
+Use o PASSAR {0} vezes
+পাস {0} বার ব্যবহার করো
+Acerte {0} críticos
+{0}টি ক্রিটিক্যাল লাগাও
+Derrote {0} monstros na masmorra
+ডানজনে {0}টি দানব হারাও
+Vença {0} partida no Todos x Todos
+সবাই বনাম সবাই-এ {0} ম্যাচ জেতো
+Vença {0} partida no Difícil+
+কঠিন+ এ {0} ম্যাচ জেতো
+Jogue {0} partida online
+{0}টি অনলাইন ম্যাচ খেলো
+Cause {0} de dano na masmorra
+ডানজনে {0} ড্যামেজ দাও
+Acerte {0} tiros NA MOSCA
+{0}টি শট একদম নিশানায় লাগাও
+Use {0} ferramentas do Arsenal
+অস্ত্রাগারের {0}টি টুল ব্যবহার করো
+Use {0} itens de suporte
+{0}টি সাপোর্ট আইটেম ব্যবহার করো
+Use {0} habilidades
+{0}টি স্কিল ব্যবহার করো
+Coloque {0} vigas
+{0}টি বিম বসাও
+Primeiro sangue
+ফার্স্ট ব্লাড
+Veterano
+অভিজ্ঞ
+Lenda da Arena
+অ্যারেনার কিংবদন্তি
+Atirador
+বন্দুকবাজ
+Demolidor
+ধ্বংসকারী
+Tiro perfeito
+পারফেক্ট শট
+Invicto
+অপরাজিত
+Exterminador
+সংহারক
+Caçador de chefes
+বস শিকারি
+Conquistador
+বিজয়ী
+Ferreiro mestre
+ওস্তাদ কামার
+Nível 20
+লেভেল 20
+Centenário
+শতজয়ী
+Imperador
+সম্রাট
+Olho de águia
+ঈগলের চোখ
+Apocalipse
+প্রলয়
+Golpe divino
+ঐশ্বরিক আঘাত
+Imparável
+অপ্রতিরোধ্য
+Ceifador
+যমদূত
+Perfeccionista
+নিখুঁতবাদী
+Franco-atirador
+স্নাইপার
+Vingador
+প্রতিশোধকারী
+Mestre do modo
+মোড মাস্টার
+Colecionador
+সংগ্রাহক
+Maratonista
+ম্যারাথনার
+Imortal
+অমর
+Atirador de elite
+অব্যর্থ বন্দুকবাজ
+Destruidor
+বিধ্বংসী
+Golpe lendário
+কিংবদন্তি আঘাত
+Exterminador supremo
+মহা সংহারক
+Sempre perfeito
+সবসময় নিখুঁত
+Explorador
+অভিযাত্রী
+Domador
+পোষ মানানো ওস্তাদ
+Lenda das masmorras
+ডানজনের কিংবদন্তি
+Campeão do torneio
+টুর্নামেন্ট চ্যাম্পিয়ন
+Rei do mapa do dia
+আজকের ম্যাপের রাজা
+Desbravador
+পথপ্রদর্শক
+Senhor das masmorras
+ডানজনের অধিপতি
+Naturalista
+প্রকৃতিবিদ
+Enciclopédia
+বিশ্বকোষ
+Rei da Fúria
+ক্রোধের রাজা
+Caçador de caixas
+বাক্স শিকারি
+Mestre das ferramentas
+টুল মাস্টার
+Derrubador
+ফেলে দেওয়ার ওস্তাদ
+Chuva de golpes
+আঘাতের বৃষ্টি
+Estrategista
+কৌশলী
+Golpe crítico
+ক্রিটিক্যাল আঘাত
+Desarmador
+নিরস্ত্রকারী
+Quebra-aço
+ইস্পাত ভাঙা
+Exorcista
+ওঝা
+Guardião do céu
+আকাশের রক্ষক
+Quebra-gelo
+বরফ ভাঙা
+Caça-piratas
+জলদস্যু শিকারি
+Ás dos céus
+আকাশের টেক্কা
+Fim do caos
+বিশৃঙ্খলার অবসান
+Matador de dragões
+ড্রাগন সংহারক
+Senhor do vazio
+শূন্যের অধিপতি
+Mestre das habilidades
+স্কিল মাস্টার
+Engenheiro
+ইঞ্জিনিয়ার
+Constelação
+নক্ষত্রমণ্ডল
+Céu estrelado
+তারাভরা আকাশ
+Escavador
+খননকারী
+Piloto
+পাইলট
+Ninja
+নিনজা
+Pirotécnico
+আতশবাজ
+Pastor
+রাখাল
+Granadeiro
+গ্রেনেডিয়ার
+Chuva de granadas
+গ্রেনেডের বৃষ্টি
+Sapador
+মাইনবাজ
+Piloto de caça
+ফাইটার পাইলট
+Britador
+ড্রিল মেশিন
+Vença 1 partida
+1 ম্যাচ জেতো
+Jogue 50 partidas
+50 ম্যাচ খেলো
+Vença 100 partidas
+100 ম্যাচ জেতো
+Acerte 200 tiros
+200 শট লাগাও
+Cause 50.000 de dano
+50,000 ড্যামেজ দাও
+Cause 800 de dano num só tiro
+এক শটেই 800 ড্যামেজ দাও
+Vença 5 seguidas
+টানা 5 বার জেতো
+Derrote 100 inimigos
+100 শত্রু হারাও
+Vença a 1ª masmorra
+প্রথম ডানজন জেতো
+Vença as 4 masmorras
+4টি ডানজনই জেতো
+Aprimore um item até +10
+একটা আইটেম +10 পর্যন্ত আপগ্রেড করো
+Chegue ao nível 20
+লেভেল 20-এ পৌঁছাও
+Jogue 200 partidas
+200 ম্যাচ খেলো
+Vença 300 partidas
+300 ম্যাচ জেতো
+Acerte 1000 tiros
+1000 শট লাগাও
+Cause 250.000 de dano
+2,50,000 ড্যামেজ দাও
+Cause 1200 num só tiro
+এক শটেই 1200 দাও
+Vença 10 seguidas
+টানা 10 বার জেতো
+Derrote 500 inimigos
+500 শত্রু হারাও
+10 vitórias perfeitas
+10টি পারফেক্ট জয়
+50 tiros longos
+50টি লম্বা শট
+20 vinganças
+20টি প্রতিশোধ
+Chegue ao nível 40
+লেভেল 40-এ পৌঁছাও
+Vença com 10 animais diferentes
+10টি আলাদা প্রাণী দিয়ে জেতো
+Jogue 500 partidas
+500 ম্যাচ খেলো
+Vença 20 seguidas
+টানা 20 বার জেতো
+Acerte 3000 tiros
+3000 শট লাগাও
+Cause 1.000.000 de dano
+10,00,000 ড্যামেজ দাও
+Cause 1500 num só tiro
+এক শটেই 1500 দাও
+Derrote 1500 inimigos
+1500 শত্রু হারাও
+50 vitórias perfeitas
+50টি পারফেক্ট জয়
+Vença em 10 mapas diferentes
+10টি আলাদা ম্যাপে জেতো
+Vença com 18 animais diferentes
+18টি আলাদা প্রাণী দিয়ে জেতো
+Vença uma masmorra no Lendário
+কিংবদন্তি স্তরে একটা ডানজন জেতো
+Vença o Torneio do Dia
+আজকের টুর্নামেন্ট জেতো
+Vença 10 vezes no mapa do dia
+আজকের ম্যাপে 10 বার জেতো
+Vença 6 masmorras diferentes
+6টি আলাদা ডানজন জেতো
+Vença as 10 masmorras
+10টি ডানজনই জেতো
+Descubra 15 monstros no bestiário
+বেস্টিয়ারিতে 15টি দানব খোঁজো
+Descubra todos os monstros
+সব দানব খোঁজো
+Use a Fúria 100 vezes
+ক্রোধ 100 বার ব্যবহার করো
+Pegue 100 caixas
+100টি বাক্স নাও
+Use 500 vezes 3 Tiros/+1/+2/Dano+%
+3 শট/+1/+2/ড্যামেজ+% 500 বার ব্যবহার করো
+Derrube 50 rivais de muito alto
+50 প্রতিপক্ষকে অনেক উঁচু থেকে ফেলো
+Faça 100 tiros rápidos (<5 s)
+100টি দ্রুত শট নাও (<5 s)
+Acerte 2+ rivais num tiro 50 vezes
+এক শটে 2+ প্রতিপক্ষকে 50 বার মারো
+Use o PASSAR 50 vezes
+পাস 50 বার ব্যবহার করো
+Acerte 200 críticos
+200টি ক্রিটিক্যাল লাগাও
+Vença o Ninho das Bombas
+বোমার বাসা জেতো
+Vença a Fortaleza de Aço
+ইস্পাতের দুর্গ জেতো
+Vença o Templo Sombrio
+অন্ধকার মন্দির জেতো
+Vença o Santuário Celeste
+স্বর্গীয় মন্দির জেতো
+Vença o Pico Congelado
+জমাট চূড়া জেতো
+Vença o Estaleiro Pirata
+জলদস্যু জাহাজঘাট জেতো
+Vença o Céu de Guerra
+যুদ্ধের আকাশ জেতো
+Vença o Trono do Caos
+বিশৃঙ্খলার সিংহাসন জেতো
+Vença o Covil do Dragão
+ড্রাগনের গুহা জেতো
+Vença o Trono do Vazio
+শূন্যের সিংহাসন জেতো
+Use 100 habilidades
+100টি স্কিল ব্যবহার করো
+Coloque 50 vigas
+50টি বিম বসাও
+Tire 3 estrelas numa masmorra
+একটা ডানজনে 3 স্টার পাও
+Junte 30 estrelas nas masmorras
+ডানজনে 30 স্টার জমাও
+Cave 20 túneis/poços
+20টি সুড়ঙ্গ/গর্ত খোঁড়ো
+Voe de jetpack 15 vezes
+জেটপ্যাকে 15 বার ওড়ো
+Use a corda ninja 15 vezes
+নিনজা দড়ি 15 বার ব্যবহার করো
+Exploda 15 dinamites
+15টি ডিনামাইট ফাটাও
+Solte 15 ovelhas
+15টি ভেড়া ছাড়ো
+Arremesse 30 granadas
+30টি গ্রেনেড ছোড়ো
+Use 8 cachos de granadas
+8টি গ্রেনেড গুচ্ছ ব্যবহার করো
+Plante 15 minas
+15টি মাইন বসাও
+Chame 6 ataques aéreos
+6টি বিমান হামলা ডাকো
+Use a Britadeira 10 vezes
+ড্রিল মেশিন 10 বার ব্যবহার করো
++1 Trevo
++1 ক্লোভার
+TREVO
+ক্লোভার
+BÊNÇÃO
+আশীর্বাদ
+FERRO
+লোহা
+AÇO
+ইস্পাত
+MÍTICA
+মিথিক
+LENDÁRIA
+কিংবদন্তি
+INIMIGOS
+শত্রু
+ELITE
+এলিট
+CHEFE
+বস
+Sair agora encerra a masmorra sem prêmio.
+এখন বের হলে ডানজন পুরস্কার ছাড়াই শেষ হবে।
+chefe derrotado
+বস পরাজিত
+parou no chefe
+বসে থেমে গেছে
+onda {0}/2
+ঢেউ {0}/2
+venceu
+জিতেছ
+sem baixas
+কেউ পড়েনি
+teve baixa
+কেউ পড়েছে
+não
+না
+até {0} turnos
+{0} টার্নের মধ্যে
+3 estrelas pela 1ª vez: +{0} cristais
+প্রথমবার ৩ তারা: +{0} ক্রিস্টাল
+novo recorde de estrelas!
+তারার নতুন রেকর্ড!
+PONTO FRACO!
+দুর্বল জায়গা!
+BLOQUEADO - acerte de cima
+আটকে গেছে - উপর থেকে মারো
+2ª FORMA: o Tanque virou PORTA-TANQUES!
+২য় রূপ: ট্যাংক হলো ট্যাংক-বাহক!
+restam {0}
+বাকি {0}
+ONDA {0}/2
+ঢেউ {0}/2
+avança...
+এগোচ্ছে...
+arremessa...
+ছুঁড়ছে...
+cura...
+সারাচ্ছে...
+ataca...
+আক্রমণ করছে...
+chama os lacaios...
+অনুচরদের ডাকছে...
+está mirando...
+নিশানা করছে...
+enfurecido
+ক্রুদ্ধ
+defesa {0}  (leva -{1}%)
+রক্ষা {0}  (-{1}% ক্ষতি)
+ELITE: +50% vida, +20% dano · 
+এলিট: +৫০% প্রাণ, +২০% ক্ষতি · 
+ENFURECIDO: +20% dano · 
+ক্রুদ্ধ: +২০% ক্ষতি · 
+anda até você e bate de perto{0}
+কাছে এসে মারে{0}
+ (explode!)
+ (বিস্ফোরিত হয়!)
+cura os aliados - derrube primeiro
+সঙ্গীদের সারায় - আগে ফেলো
+atira de longe
+দূর থেকে গুলি করে
+ONDA {0} VENCIDA · {1} abates · {2} de dano · +{3} de vida
+ঢেউ {0} জয় · {1} হত্যা · {2} ক্ষতি · +{3} প্রাণ
+NOVO no bestiário: {0}
+বেস্টিয়ারিতে নতুন: {0}
+Onda {0}: 
+ঢেউ {0}: 
+ONDA {0} de 2: {1} inimigos!
+ঢেউ {0} / ২: {1} শত্রু!
+({0} elite)
+({0} এলিট)
+ONDA {0} DE 2 - {1} INIMIGOS
+ঢেউ {0} / ২ - {1} শত্রু
+OS SENHORES DO CAOS!
+বিশৃঙ্খলার প্রভুরা!
+FEITICEIRO e CAVALEIRO juntos! Derrube o Feiticeiro antes que ele cure o outro
+জাদুকর আর নাইট একসাথে! অন্যজনকে সারানোর আগে জাদুকরকে ফেলো
+CHEFE: {0}
+বস: {0}
+O DRAGÃO ANCESTRAL despertou! A cada 3 vezes o tiro queima e a cada 4 chove fogo
+প্রাচীন ড্রাগন জেগেছে! প্রতি ৩ বার গুলি পোড়ায়, প্রতি ৪ বার আগুন বৃষ্টি
+O REI DO VAZIO chegou! Armadura a cada 3 vezes e chama lacaio ELITE
+শূন্যের রাজা এসেছে! প্রতি ৩ বার বর্ম আর এলিট অনুচর ডাকে
+O LORDE DO GELO chegou! A cada 3 vezes o tiro dele congela
+বরফের প্রভু এসেছে! প্রতি ৩ বার তার গুলি জমিয়ে দেয়
+O ENCOURAÇADO chegou! Ele dispara 3 balas por vez - espalhem-se
+যুদ্ধজাহাজ এসেছে! একসাথে ৩টি গোলা - ছড়িয়ে পড়ো
+O DIRIGÍVEL COLOSSAL chegou! A cada 4 vezes ele bombardeia todo mundo
+বিশাল এয়ারশিপ এসেছে! প্রতি ৪ বার সবার উপর বোমা
+O TANQUE COLOSSAL chegou! A barreira só cede a tiros que caem DE CIMA
+বিশাল ট্যাংক এসেছে! ঢাল শুধু উপর থেকে পড়া গুলিতে ভাঙে
+O FEITICEIRO SOMBRIO chegou! Mate os curandeiros primeiro
+অন্ধকার জাদুকর এসেছে! আগে চিকিৎসকদের মারো
+O CAVALEIRO SOMBRIO chegou! Ataque quando a armadura cair
+অন্ধকার নাইট এসেছে! বর্ম খসলে আক্রমণ করো
+O REI BOMBA chegou! Mire na CABEÇA (ponto fraco)
+বোমা রাজা এসেছে! মাথায় নিশানা করো (দুর্বল জায়গা)
+cura
+সারানো
+Ritual de cura!
+আরোগ্যের আচার!
+Lacaios, ataquem!
+অনুচরেরা, আক্রমণ!
+{0} ENFURECEU! (+20% de dano)
+{0} ক্রুদ্ধ হলো! (+২০% ক্ষতি)
+O CHEFE ENFURECEU!
+বস ক্রুদ্ধ হলো!
+ARMADURA NEGRA!
+কালো বর্ম!
+O Cavaleiro ergueu a armadura (-50% por 2 vezes)
+নাইট বর্ম পরল (২ বার -৫০%)
+NEVASCA!
+তুষারঝড়!
+CHUVA DE FOGO!
+আগুনের বৃষ্টি!
+BOMBARDEIO!
+বোমাবর্ষণ!
+FURIOSO!
+রাগান্বিত!
+bravo
+রেগে
+CHEFE  ·  {0}
+বস  ·  {0}
+{0} de vida
+{0} প্রাণ
+toque para pular
+এড়াতে ট্যাপ করো
+o tempo acabou
+সময় শেষ
+Faltam 5 turnos: {0} vai desabar!
+আর ৫ টার্ন: {0} ধসে পড়বে!
+ELITE derrotado por {0} (+20 de fúria)
+{0} এলিটকে হারাল (+২০ ক্রোধ)
+{0} deixou cair uma caixa!
+{0} একটা বাক্স ফেলল!
+fugiu!
+পালাল!
+{0} caiu! Os lacaios fugiram!
+{0} পড়ে গেল! অনুচরেরা পালাল!
+Bombinha
+ছোট বোমা
+Lança-Bombas
+বোমা নিক্ষেপক
+Brutamontes
+দানব
+REI BOMBA
+বোমা রাজা
+Viking
+ভাইকিং
+Blindado
+সাঁজোয়া
+TANQUE COLOSSAL
+বিশাল ট্যাংক
+Bandido
+দস্যু
+Golem
+গোলেম
+Curandeiro
+চিকিৎসক
+FEITICEIRO SOMBRIO
+অন্ধকার জাদুকর
+Mago
+জাদুকর
+Bárbaro
+বর্বর
+Motosserra
+চেইনস
+CAVALEIRO SOMBRIO
+অন্ধকার নাইট
+Lenhador
+কাঠুরে
+Ninja do Gelo
+বরফ নিনজা
+LORDE DO GELO
+বরফের প্রভু
+Gladiador
+গ্ল্যাডিয়েটর
+Tanque Pirata
+জলদস্যু ট্যাংক
+Caminhão Viking
+ভাইকিং ট্রাক
+ENCOURAÇADO PIRATA
+জলদস্যু যুদ্ধজাহাজ
+Dirigível
+এয়ারশিপ
+Caça
+যুদ্ধবিমান
+Encapuzada
+আলখাল্লাধারী
+DIRIGÍVEL COLOSSAL
+বিশাল এয়ারশিপ
+Sombra Veloz
+দ্রুত ছায়া
+DRAGÃO ANCESTRAL
+প্রাচীন ড্রাগন
+REI DO VAZIO
+শূন্যের রাজা
+anda até você e EXPLODE
+কাছে এসে বিস্ফোরিত হয়
+atira bombas de longe
+দূর থেকে বোমা ছোঁড়ে
+lento, muito resistente
+ধীর, খুব শক্ত
+ponto fraco na cabeça · invoca lacaios
+মাথায় দুর্বলতা · অনুচর ডাকে
+corre e ataca de perto
+দৌড়ে কাছ থেকে আক্রমণ
+blindado: aguenta muito
+সাঁজোয়া: অনেক সহ্য করে
+barreira: acerte DE CIMA · 2ª forma
+ঢাল: উপর থেকে মারো · ২য় রূপ
+pedra viva: forte de perto
+জীবন্ত পাথর: কাছে শক্তিশালী
+se cura · tiros envenenam
+নিজেকে সারায় · গুলিতে বিষ
+magia de longe
+দূর থেকে জাদু
+REGENERA a cada vez
+প্রতি বার পুনরুদ্ধার করে
+serra de perto, dano alto
+কাছ থেকে করাত, বেশি ক্ষতি
+ARMADURA a cada 3 vezes · chama magos
+প্রতি ৩ বার বর্ম · জাদুকর ডাকে
+machado de perto, resistente
+কাছ থেকে কুড়াল, শক্ত
+atira estrelas de longe
+দূর থেকে তারা ছোঁড়ে
+a cada 3 vezes o tiro CONGELA
+প্রতি ৩ বার গুলি জমিয়ে দেয়
+corre e golpeia de perto
+দৌড়ে কাছ থেকে আঘাত
+canhão de longe, blindado
+দূর থেকে কামান, সাঁজোয়া
+avança e atropela de perto
+এগিয়ে এসে পিষে দেয়
+sempre atira 3 balas de canhão
+সবসময় ৩টি কামানের গোলা
+bombardeia do alto
+উপর থেকে বোমা ফেলে
+rápido, atira de longe
+দ্রুত, দূর থেকে গুলি
+cura os aliados · derrube primeiro
+সঙ্গীদের সারায় · আগে ফেলো
+a cada 4 vezes BOMBARDEIA todo mundo
+প্রতি ৪ বার সবার উপর বোমা
+muito rápida, ataca de perto
+খুব দ্রুত, কাছ থেকে আক্রমণ
+a cada 3 vezes o tiro queima · a cada 4 CHUVA DE FOGO
+প্রতি ৩ বার গুলি পোড়ায় · প্রতি ৪ বার আগুন বৃষ্টি
+armadura a cada 3 · veneno · chama ELITE
+প্রতি ৩ বার বর্ম · বিষ · এলিট ডাকে
+NINHO DAS BOMBAS
+বোমার বাসা
+FORTALEZA DE AÇO
+ইস্পাতের দুর্গ
+TEMPLO SOMBRIO
+অন্ধকার মন্দির
+SANTUÁRIO CELESTE
+স্বর্গীয় পবিত্রস্থান
+PICO CONGELADO
+জমাট চূড়া
+ESTALEIRO PIRATA
+জলদস্যু জাহাজঘাট
+CÉU DE GUERRA
+যুদ্ধের আকাশ
+TRONO DO CAOS
+বিশৃঙ্খলার সিংহাসন
+COVIL DO DRAGÃO
+ড্রাগনের গুহা
+TRONO DO VAZIO
+শূন্যের সিংহাসন
+Ondas: Bombinhas que explodem, Lança-Bombas
+ঢেউ: বিস্ফোরিত ছোট বোমা, বোমা নিক্ষেপক
+e Brutamontes. Chefe: REI BOMBA
+আর দানব। বস: বোমা রাজা
+Ondas: Vikings, Blindados e Lança-Bombas.
+ঢেউ: ভাইকিং, সাঁজোয়া আর বোমা নিক্ষেপক।
+Chefe: TANQUE COLOSSAL
+বস: বিশাল ট্যাংক
+barreira: acerte DE CIMA · tem 2ª forma
+ঢাল: উপর থেকে মারো · ২য় রূপ আছে
+Ondas: Bandidos, Golens e Curandeiros.
+ঢেউ: দস্যু, গোলেম আর চিকিৎসক।
+Chefe: FEITICEIRO SOMBRIO
+বস: অন্ধকার জাদুকর
+se cura (mate os curandeiros) · veneno
+নিজেকে সারায় (চিকিৎসকদের মারো) · বিষ
+Ondas: Magos, Bárbaros (regeneram) e Motosserras.
+ঢেউ: জাদুকর, বর্বর (পুনরুদ্ধার করে) আর চেইনস।
+Chefe: CAVALEIRO SOMBRIO
+বস: অন্ধকার নাইট
+armadura a cada 3 vezes · chama magos
+প্রতি ৩ বার বর্ম · জাদুকর ডাকে
+Ondas: Lenhadores e Ninjas do Gelo. pedra de AÇO
+ঢেউ: কাঠুরে আর বরফ নিনজা। ইস্পাত পাথর
+Chefe: LORDE DO GELO
+বস: বরফের প্রভু
+a cada 3 vezes o tiro dele CONGELA
+প্রতি ৩ বার তার গুলি জমিয়ে দেয়
+Ondas: Gladiadores, Caminhões e Tanques. pedra de AÇO
+ঢেউ: গ্ল্যাডিয়েটর, ট্রাক আর ট্যাংক। ইস্পাত পাথর
+Chefe: ENCOURAÇADO PIRATA
+বস: জলদস্যু যুদ্ধজাহাজ
+Ondas: Caças, Dirigíveis e Encapuzadas (curam). MÍTICA
+ঢেউ: যুদ্ধবিমান, এয়ারশিপ আর আলখাল্লাধারী (সারায়)। পৌরাণিক
+Chefe: DIRIGÍVEL COLOSSAL
+বস: বিশাল এয়ারশিপ
+Ondas: Sombras Velozes e Gladiadores. pedra MÍTICA
+ঢেউ: দ্রুত ছায়া আর গ্ল্যাডিয়েটর। পৌরাণিক পাথর
+Chefes: FEITICEIRO + CAVALEIRO juntos
+বস: জাদুকর + নাইট একসাথে
+dois chefes: cura, veneno e armadura
+দুই বস: আরোগ্য, বিষ আর বর্ম
+Ondas: Bárbaros, Gladiadores e Ninjas. LENDÁRIA
+ঢেউ: বর্বর, গ্ল্যাডিয়েটর আর নিনজা। কিংবদন্তি
+Chefe: DRAGÃO ANCESTRAL
+বস: প্রাচীন ড্রাগন
+Ondas: Sombras, Magos e Encapuzadas. LENDÁRIA
+ঢেউ: ছায়া, জাদুকর আর আলখাল্লাধারী। কিংবদন্তি
+Chefe: REI DO VAZIO
+বস: শূন্যের রাজা
+Bênção da Força: +10% de dano
+শক্তির আশীর্বাদ: +১০% ক্ষতি
+Bênção da Fúria: começa com 25 de fúria
+ক্রোধের আশীর্বাদ: ২৫ ক্রোধ নিয়ে শুরু
+Bênção do Arsenal: +1 uso de cada ferramenta
+অস্ত্রাগারের আশীর্বাদ: প্রতিটি সরঞ্জাম +১ বার
+Bênção da Pedra: -15% de dano recebido
+পাথরের আশীর্বাদ: -১৫% ক্ষতি লাগে
+Bênção da Vida: +20% de vida
+জীবনের আশীর্বাদ: +২০% প্রাণ
+Bênção da Sorte: +8% de chance de crítico
+ভাগ্যের আশীর্বাদ: +৮% ক্রিটিক্যাল সম্ভাবনা
+Bênção do Guia: +2 usos da mira guiada
+পথপ্রদর্শকের আশীর্বাদ: নির্দেশিত নিশানা +২ বার
+Bênção do Escudo: começa com escudo
+ঢালের আশীর্বাদ: ঢাল নিয়ে শুরু
+ e 
+ আর 
+Vença os 2 anteriores{0}
+আগের ২টি জেতো{0}
+ainda não jogou
+এখনো খেলোনি
+chegou ao chefe
+বস পর্যন্ত পৌঁছেছ
+onda {0}
+ঢেউ {0}
+Recorde: {0}
+রেকর্ড: {0}
+Prêmio: {0} cristais · {1} {2}-{3}
+পুরস্কার: {0} ক্রিস্টাল · {1} {2}-{3}
+chance de Trevo e Bênção
+ক্লোভার আর আশীর্বাদের সম্ভাবনা
+DIFICULDADE DOS MONSTROS
+দানবদের কঠিনতা
+EQUIPE: só jogadores (sem bots)
+দল: শুধু খেলোয়াড় (বট নেই)
+Aqui você entra SOZINHO.
+এখানে তুমি একা ঢুকবে।
+Lendário: vença as 4 primeiras masmorras
+কিংবদন্তি: প্রথম ৪টি ডানজন জেতো
+Monstros
+দানব
+ENTRAR NA MASMORRA
+ডানজনে ঢোকো
+BLOQUEADA
+বন্ধ
+MONSTROS DAS MASMORRAS · {0} / {1}
+ডানজনের দানব · {0} / {1}
+vida {0}   defesa {1}
+প্রাণ {0}   রক্ষা {1}
+Enfrente-o numa masmorra para revelar
+দেখতে ডানজনে এর মুখোমুখি হও
+masmorra
+ডানজন
+Masmorras
+ডানজন
+Bestiário
+বেস্টিয়ারি
+VISUAL
+রূপ
+EM USO
+ব্যবহৃত
+toque para usar
+ব্যবহার করতে ট্যাপ করো
+Rastro {0}!
+রেখা {0}!
+Clássico
+ক্লাসিক
+Fogo
+আগুন
+Arco-íris
+রংধনু
+Veneno
+বিষ
+Sombra
+ছায়া
+Chiclete
+চুইংগাম
+Neon
+নিয়ন
+PRESENTE DIÁRIO
+দৈনিক উপহার
+Volte todo dia: o prêmio cresce. Se faltar um dia, recomeça do dia 1.
+প্রতিদিন এসো: পুরস্কার বাড়ে। একদিন বাদ গেলে দিন ১ থেকে শুরু।
+DIA {0}
+দিন {0}
+COLETAR DIA {0}
+দিন {0} নাও
+volte amanhã
+কাল আবার এসো
+{0} cristais
+{0} ক্রিস্টাল
+2 pedras do seu nível
+তোমার স্তরের ২টি পাথর
+1 Trevo
+১টি ক্লোভার
+{0} cristais + 3 pedras do seu nível + chance de Bênção
+{0} ক্রিস্টাল + তোমার স্তরের ৩টি পাথর + আশীর্বাদের সম্ভাবনা
+Dia {0}: {1}
+দিন {0}: {1}
+10 masmorras · monstros e chefes
+১০টি ডানজন · দানব আর বস
+você contra os bots · 1x1 a 4x4
+তুমি বনাম বট · ১x১ থেকে ৪x৪
+2 a 8 no mesmo aparelho
+একই ডিভাইসে ২ থেকে ৮ জন
+cada um por si
+যে যার নিজের জন্য
+monte os times como quiser: 1x3, 2x4...
+যেমন খুশি দল বানাও: ১x৩, ২x৪...
+LUTADORES  {0}/{1}
+যোদ্ধা  {0}/{1}
+BOT
+বট
+Toque no ANIMAL para escolher e no NOME para trocar quem controla (jogador ou bot)
+প্রাণী বাছতে প্রাণীতে চাপো, কে চালাবে বদলাতে নামে চাপো (খেলোয়াড় বা বট)
+animal sorteado
+এলোমেলো প্রাণী
+jogador {0}
+খেলোয়াড় {0}
+JOGADORES NO APARELHO
+এই ডিভাইসে খেলোয়াড়
+bots com o mesmo nível e força do jogador
+বটের স্তর ও শক্তি খেলোয়াড়ের সমান
+bots mais fortes que o jogador
+বট খেলোয়াড়ের চেয়ে শক্তিশালী
+{0} não controla nenhum animal
+{0} কোনো প্রাণী চালাচ্ছে না
+Sorteado
+এলোমেলো
+TIME VERDE
+সবুজ দল
+TIME AMARELO
+হলুদ দল
+TIME
+দল
+OUTROS TIMES
+অন্য দলগুলো
+Todos os jogadores já estão em outros times - use + BOT ou toque no nome
+সব খেলোয়াড় অন্য দলে আছে - + বট ব্যবহার করো বা নামে চাপো
+{0} mudou de time com todos os seus animais
+{0} তার সব প্রাণী নিয়ে দল বদলাল
+{0} já está no {1}
+{0} আগে থেকেই {1}-এ আছে
+na próxima vez
+পরের পালায়
+PADRÃO
+সাধারণ
+SOMBRIA
+ছায়া
+JADE
+জেড
+BRASA
+অঙ্গার
+CÓSMICA
+মহাজাগতিক
+Skin
+স্কিন
+SKINS
+স্কিন
+Skins
+স্কিন
+Em uso
+ব্যবহারে
+Usar
+ব্যবহার করো
+OK
+ঠিক আছে
+Derrote {0} inimigos com este animal
+এই প্রাণী দিয়ে {0} শত্রু হারাও
+Vença {0} partidas com este animal
+এই প্রাণী দিয়ে {0}টি ম্যাচ জেতো
+Vença a masmorra {0} no Normal (ou mais) com este animal
+এই প্রাণী দিয়ে {0} অন্ধকূপ নরমাল (বা বেশি) এ জেতো
+Acerte {0} tiros NA MOSCA com este animal
+এই প্রাণী দিয়ে {0}বার একদম নিশানায় মারো
+Cause {0} de dano num só tiro com este animal
+এই প্রাণী দিয়ে এক শটে {0} ক্ষতি করো
+Vença {0} partidas no Contra IA Difícil ou Lendário com este animal
+এই প্রাণী দিয়ে AI-এর বিরুদ্ধে কঠিন বা কিংবদন্তিতে {0}টি ম্যাচ জেতো
+Vença a masmorra {0} no Difícil (ou mais) com este animal
+এই প্রাণী দিয়ে {0} অন্ধকূপ কঠিন (বা বেশি) এ জেতো
+Cumpra a missão para liberar a compra
+কিনতে মিশন সম্পূর্ণ করো
+Compre o animal para usar skins
+স্কিন ব্যবহার করতে প্রাণীটি কেনো
+Liberada!
+খুলে গেছে!
+Skin {0} comprada!
+স্কিন {0} কেনা হলো!
+Não foi possível comprar
+কেনা গেল না
+A skin aparece nas partidas e combina com a forma do equipamento. Os bots também usam skins.
+স্কিন ম্যাচে দেখা যায় এবং সরঞ্জামের রূপের সাথে মিলে যায়। বটরাও স্কিন ব্যবহার করে।
+Skin liberada: {0} {1}!
+স্কিন খুলেছে: {0} {1}!
+Compre na tela Skins por {0} cristais
+স্কিন স্ক্রিনে {0} ক্রিস্টালে কেনো
+SEU NOME  (3 a {0} letras ou números)
+তোমার নাম  (৩ থেকে {0} অক্ষর বা সংখ্যা)
+SORTEAR
+এলোমেলো
+LIMPAR
+মুছুন
+Use pelo menos 3 letras ou números
+কমপক্ষে ৩টি অক্ষর বা সংখ্যা দাও
+Nome não permitido - escolha outro
+এই নাম চলবে না - অন্যটি বেছে নাও
+Seu animal: {0}  (troque nas setas)
+তোমার প্রাণী: {0}  (তীর দিয়ে বদলাও)
+Pets
+পোষা প্রাণী
+Equipado
+সাথে আছে
+EQUIPAR
+সাথে নাও
+TIRAR
+সরাও
+Buff
+বোনাস
+Pet: {0}
+পোষা: {0}
+Sem pet
+কোনো পোষা নেই
+toque para escolher um pet
+পোষা বেছে নিতে ট্যাপ করো
+Pets a partir do nível {0}
+পোষা প্রাণী লেভেল {0} থেকে
+só visual no treino
+অনুশীলনে শুধু দেখার জন্য
+Liberado no nível {0}
+লেভেল {0}-এ খুলেছে
+Libera no nível {0}
+লেভেল {0}-এ খুলবে
+Truques (na partida, toque no pet):
+কৌশল (ম্যাচে পোষাকে ট্যাপ করো):
+{0} é seu!
+{0} এখন তোমার!
+Um pet por vez. O buff vale no Contra IA, na Masmorra e no Torneio (no treino o pet só aparece). Não vale na partida local.
+একবারে একটি পোষা। বোনাস AI-এর বিরুদ্ধে, অন্ধকূপ ও টুর্নামেন্টে কাজ করে (অনুশীলনে শুধু দেখা যায়)। লোকাল ম্যাচে নয়।
+Novo pet disponível!
+নতুন পোষা প্রাণী এসেছে!
+Compre na tela Pets por {0} cristais
+পোষা স্ক্রিনে {0} ক্রিস্টালে কেনো
+ESCOLHA MAIS 2 CARTAS!
+আরও ২টি কার্ড বেছে নাও!
+vídeo assistido: vire mais 2 cartas!
+ভিডিও দেখা হয়েছে: আরও ২টি কার্ড উল্টাও!
++2 CARTAS (vídeo)
++২ কার্ড (ভিডিও)
+XP x2 (vídeo)
+XP x2 (ভিডিও)
+XP x2 ativo
+XP x2 চালু
+sem vídeo
+ভিডিও নেই
+Pinguinzinho
+ছোট্ট পেঙ্গুইন
+Corujinha
+ছোট্ট পেঁচা
+Patinho
+হাঁসের ছানা
+Tartaruguinha
+ছোট্ট কচ্ছপ
+Esquilinho
+ছোট্ট কাঠবিড়ালি
+Hamster
+হ্যামস্টার
+Tartaruga azul
+নীল কচ্ছপ
+Gatinho
+বিড়ালছানা
+Coelhinho
+খরগোশছানা
+Raposinha
+ছোট্ট শিয়াল
+Porquinho cinza
+ধূসর শূকরছানা
+Porquinho
+শূকরছানা
+Cachorrinho
+কুকুরছানা
+Pandinha
+ছোট্ট পান্ডা
+Ursinho
+ভালুকছানা
+Unicórnio
+ইউনিকর্ন
+Raposa-fênix
+ফিনিক্স শিয়াল
+Dragão Negro
+কালো ড্রাগন
+Dragãozinho
+ছোট্ট ড্রাগন
+Sentar
+বসো
+Rolar
+গড়াও
+Mortal
+ডিগবাজি
+Dançar
+নাচো
+Pulo de Alegria
+আনন্দের লাফ
+-30% de efeito do vento nos seus tiros
+তোমার শটে বাতাসের প্রভাব -30%
++10% de chance de crítico
+ক্রিটিক্যাল সম্ভাবনা +10%
++15% de dano em alvos a mais de 60 m
+60 মি-এর বেশি দূরের লক্ষ্যে ক্ষতি +15%
+-35% de empurrão das explosões
+বিস্ফোরণের ধাক্কা -35%
+Sem dano de queda
+পড়ে গেলে ক্ষতি নেই
++1 Mira guiada por partida
+প্রতি ম্যাচে +1 গাইডেড নিশানা
+-50% de dano de fogo e veneno
+আগুন ও বিষের ক্ষতি -50%
+Crítico causa x1,8 (normal x1,5)
+ক্রিটিক্যাল x1.8 (সাধারণ x1.5)
++15% de energia em cada vez
+প্রতি পালায় শক্তি +15%
+Começa a partida com 30% de fúria
+৩০% রাগ নিয়ে ম্যাচ শুরু
+Começa com escudo (metade do dano) até a 2ª vez
+দ্বিতীয় পালা পর্যন্ত ঢাল (অর্ধেক ক্ষতি)
++15% de fúria ganha
+পাওয়া রাগ +15%
+Recupera 10% do dano que causa
+দেওয়া ক্ষতির ১০% ফেরত
+-15% de dano recebido
+পাওয়া ক্ষতি -15%
++10% de vida máxima
+সর্বোচ্চ জীবন +10%
++15% de raio de explosão
+বিস্ফোরণের পরিধি +15%
+Recupera 20 de vida no início de cada vez
+প্রতি পালার শুরুতে ২০ জীবন ফেরত
++15% de dano
+ক্ষতি +15%
+{1} pedras do seu nível
+তোমার স্তরের {1}টি পাথর
+1 Trevo + {1} pedras do seu nível
+১টি ক্লোভার + তোমার স্তরের {1}টি পাথর
+{0} cristais + {1} pedras do seu nível + chance de Bênção
+{0} ক্রিস্টাল + তোমার স্তরের {1}টি পাথর + আশীর্বাদের সম্ভাবনা
+Vitória: {0}+ cristais
+জয়: {0}+ ক্রিস্টাল
+prêmio x{0}
+পুরস্কার x{0}
+mapa do dia +50%
+আজকের ম্যাপ +50%
+1ª vitória do dia +{0}
+দিনের প্রথম জয় +{0}
+energia
+শক্তি
+aguarde...
+অপেক্ষা...
+errou
+ফসকেছে
+escudo
+ঢাল
+congelado
+জমে গেছে
+acabou
+শেষ
+ativo
+সক্রিয়
+emprestado
+ধার করা
+envenenado
+বিষাক্ত
+jogando
+খেলছে
+queimando
+পুড়ছে
+viga
+বিম
+armando
+প্রস্তুত হচ্ছে
+fogo
+আগুন
+veneno
+বিষ
+derrotado
+পরাজিত
+coletada
+নেওয়া হয়েছে
++15% de dano do Especial
+স্পেশাল ক্ষতি +15%
+Derrote {0} inimigos com o Especial deste animal
+এই প্রাণীর স্পেশাল দিয়ে {0} শত্রু হারাও
+ENTRAR
+প্রবেশ
+equipamento dos bots um pouco abaixo do seu
+বটদের সরঞ্জাম তোমার চেয়ে একটু কম
+bots com o mesmo equipamento que você
+বটদের সরঞ্জাম তোমার মতোই
+equipamento dos bots um pouco acima do seu
+বটদের সরঞ্জাম তোমার চেয়ে একটু বেশি
+equipamento dos bots bem acima do seu
+বটদের সরঞ্জাম তোমার চেয়ে অনেক বেশি
+Ande até a bandeira
+পতাকা পর্যন্ত হাঁটো
+Mire em {0}°
+{0}° তে লক্ষ্য
+Segure e solte na marca
+চেপে ধরে দাগে ছাড়ো
+Acerte o inimigo!
+শত্রুকে আঘাত করো!
+Muito bem! Vença!
+দারুণ! জিতে নাও!
+Use a habilidade verde
+সবুজ দক্ষতা চালাও
+Agora a habilidade roxa
+এবার বেগুনি দক্ষতা
+Use um item e atire
+আইটেম নিয়ে ছোড়ো
+Fúria cheia: use o Especial!
+ক্রোধ ভরা: স্পেশাল চালাও!
+Use a granada
+গ্রেনেড চালাও
+Coloque uma viga
+একটা বিম বসাও
+Voe de jetpack
+জেটপ্যাকে ওড়ো
+Lance a corda no teto
+ছাদে দড়ি ছোড়ো
+Pronto! Vença!
+হয়ে গেছে! জিতে নাও!
+Muito bem!
+দারুণ!
+PULAR TUTORIAL
+টিউটোরিয়াল বাদ দাও
+Pular o tutorial?
+টিউটোরিয়াল বাদ দেবে?
+Você vai direto para o menu. Dá para refazer em Opções.
+সরাসরি মেনুতে যাবে। অপশনে আবার করা যাবে।
+PULAR
+বাদ দাও
+PRÓXIMO TUTORIAL ({0}/3)
+পরের টিউটোরিয়াল ({0}/3)
+IR PARA O MENU
+মেনুতে যাও
+MENU
+মেনু
+Refazer tutorial
+টিউটোরিয়াল আবার করো
+Bem-vindo à batalha!
+লড়াইয়ে স্বাগতম!
+Tutorial concluído: +{0} cristais
+টিউটোরিয়াল শেষ: +{0} ক্রিস্টাল
+SEGURE o botão para voar · setas para os lados
+উড়তে বোতাম চেপে ধরো · তীরে ডানে-বামে
+USAR liga · SEGURE o botão para voar (13 s de combustível) · setas para os lados · pouso suave · pousou, atire
+ব্যবহারে চালু · উড়তে বোতাম চেপে ধরো (১৩ সে জ্বালানি) · তীরে দিক · আস্তে নামা · নেমে ছোড়ো
+partida rápida 1x1
+দ্রুত ১ বনাম ১
+1x1 a 4x4 · escolha mapa e dificuldade
+১ বনাম ১ থেকে ৪ বনাম ৪ · ম্যাপ ও কঠিনতা
+Mostrar todos os controles
+সব কন্ট্রোল দেখাও
+ANDE: segure as setas
+হাঁটো: তীর চেপে ধরো
+MIRE: setas para cima e para baixo
+লক্ষ্য: উপর-নিচের তীর
+SEGURE para dar força e SOLTE para atirar!
+শক্তির জন্য চেপে ধরো, ছেড়ে দিয়ে ছোড়ো!
+PULE com este botão (gasta energia)
+এই বোতামে লাফাও (শক্তি লাগে)
+O VENTO empurra o tiro: olhe aqui em cima
+বাতাস গোলাকে ঠেলে: এখানে উপরে দেখো
+PASSAR guarda a vez e cura um pouco. Toque 2x no mapa para ver tudo
+পাস করলে একটু সেরে ওঠো। সব দেখতে ম্যাপে ২ বার ট্যাপ করো
+NOVO: ITENS
+নতুন: আইটেম
+NOVO: HABILIDADES
+নতুন: দক্ষতা
+NOVO: ESPECIAL
+নতুন: স্পেশাল
+NOVO: FERRAMENTAS
+নতুন: সরঞ্জাম
+TODOS OS CONTROLES LIBERADOS!
+সব কন্ট্রোল খুলে গেছে!
+Toque num item antes de atirar: 3 Tiros, +1, +2 ou Dano. Eles gastam energia.
+ছোড়ার আগে আইটেম ট্যাপ করো: ৩ শট, +১, +২ বা ড্যামেজ। শক্তি লাগে।
+Cada animal tem 2 habilidades: os botões acima do PASSAR.
+প্রতিটি প্রাণীর ২টি দক্ষতা: পাস-এর উপরের বোতাম।
+Dê e leve dano para encher a FÚRIA. Cheia? Toque no orbe e atire o Especial!
+ক্রোধ ভরাতে ড্যামেজ দাও ও নাও। ভরে গেছে? অর্ব ট্যাপ করে স্পেশাল ছোড়ো!
+Ferramentas na coluna da esquerda: granada, corda, jetpack, viga e mais.
+বাম কলামে সরঞ্জাম: গ্রেনেড, দড়ি, জেটপ্যাক, বিম এবং আরও।
+Emotes e todas as ferramentas. Boa batalha!
+ইমোট আর সব সরঞ্জাম। ভালো লড়াই!
+toque para acelerar
+দ্রুত করতে ট্যাপ করো
+Longe demais: até 600 m de você
+অনেক দূরে: তোমার থেকে ৬০০ মি পর্যন্ত
+Tem alguém aí: escolha outro lugar
+ওখানে কেউ আছে: অন্য জায়গা বাছো
+Muito dentro do chão
+মাটির বেশি ভেতরে
+longa
+লম্বা
+curta
+ছোট
+Não alcançou: mire e lance de novo
+পৌঁছায়নি: লক্ষ্য করে আবার ছোড়ো
+A corda não alcançou nada
+দড়ি কিছুতে পৌঁছায়নি
+Pousou: agora atire!
+নেমেছ: এবার ছোড়ো!
+O tempo na corda acabou
+দড়ির সময় শেষ
+Acabou o combustível: pouso suave
+জ্বালানি শেষ: আস্তে নামা
+SOLTAR
+ছাড়ো
+CORDA
+দড়ি
+Setas: balança e sobe/desce · SOLTAR mantém o embalo
+তীর: দোলো ও ওঠো/নামো · ছাড়লে গতি থাকে
+Seta para cima sobe · setas dos lados · SEGURE desliga e atira
+উপরের তীরে ওঠো · পাশের তীর · চেপে ধরলে বন্ধ হয়ে ছোড়ো
+Arraste ou mova o mouse · setas: gira e tamanho · CONFIRMAR
+টেনে আনো বা মাউস নাড়াও · তীর: ঘোরাও ও আকার · নিশ্চিত
+Mire e toque em USAR para lançar o gancho
+লক্ষ্য করে হুক ছুড়তে ব্যবহার চাপো
+Toque em USAR para ligar o jetpack
+জেটপ্যাক চালু করতে ব্যবহার চাপো
+VIGA: arraste para posicionar · setas giram e trocam o tamanho · CONFIRMAR coloca (ponte, abrigo ou rampa)
+বিম: টেনে বসাও · তীরে ঘোরাও ও আকার বদলাও · নিশ্চিত করলে বসে (সেতু, আড়াল বা ঢাল)
+USAR liga · seta para cima sobe, setas dos lados empurram · 4 s de combustível · pouso suave · SEGURE desliga e atira
+ব্যবহারে চালু · উপরের তীরে ওঠো, পাশের তীরে ঠেলো · ৪ সে জ্বালানি · আস্তে নামা · চেপে ধরলে বন্ধ হয়ে ছোড়ো
+USAR lança o gancho na mira (até 520 m) · setas balançam e sobem/descem · SOLTAR mantém o embalo · relança no ar
+ব্যবহারে লক্ষ্যে হুক (৫২০ মি পর্যন্ত) · তীরে দোলো ও ওঠো/নামো · ছাড়লে গতি থাকে · বাতাসে আবার ছোড়ো
+Solte na marca amarela!
+হলুদ দাগে ছাড়ো!
+Agora atire!
+এবার ছোড়ো!
+Toque em {0}
+{0} চাপো
+Segure para voar
+উড়তে চেপে ধরো
+Balance e toque para soltar
+দোলো, ছাড়তে চাপো
+Segure o botão até a marca amarela e solte
+হলুদ দাগ পর্যন্ত চেপে ধরে ছাড়ো
+Segure a seta até chegar na bandeira
+পতাকায় পৌঁছানো পর্যন্ত তীর চেপে ধরো
+Segure o botão que brilha
+জ্বলজ্বলে বোতাম চেপে ধরো
+Toque no botão que brilha
+জ্বলজ্বলে বোতামে চাপো
+Teclado
+কীবোর্ড
+Perfeito!
+নিখুঁত!
+Acabe com ele!
+ওকে শেষ করো!
+PARTE {0} CONCLUÍDA!
+পর্ব {0} সম্পূর্ণ!
+Você aprendeu
+তুমি শিখেছ
+Andar
+হাঁটা
+Mirar
+লক্ষ্য
+Atirar
+ছোড়া
+Itens
+আইটেম
+De volta!
+ফিরে এলাম!
+JOGAR!
+খেলো!
+inclui +{0} de bônus do tutorial
+টিউটোরিয়াল বোনাস +{0} সহ
+Refazer o tutorial?
+টিউটোরিয়াল আবার করবে?
+Só as partidas guiadas. Sem prêmios de novo e o seu progresso não muda.
+শুধু গাইড করা ম্যাচ। আবার পুরস্কার নেই, তোমার অগ্রগতি বদলাবে না।
+Cancelar
+বাতিল
+Refazer
+আবার করো
+Tutorial refeito: sem prêmios
+টিউটোরিয়াল আবার: পুরস্কার নেই
+Gire o celular para continuar
+চালিয়ে যেতে ফোন ঘোরাও
+Controles
+নিয়ন্ত্রণ
+Jogue 80 partidas
+80 ম্যাচ খেলো
+Vença 150 partidas
+150 ম্যাচ জেতো
+Acerte 400 tiros
+400 শট লাগাও
+Cause 100.000 de dano
+100,000 ড্যামেজ দাও
+Cause 1000 de dano num só tiro
+এক শটেই 1000 ড্যামেজ দাও
+Vença 6 seguidas
+টানা 6 বার জেতো
+Derrote 200 inimigos
+200 শত্রু হারাও
+Jogue 300 partidas
+300 ম্যাচ খেলো
+Vença 400 partidas
+400 ম্যাচ জেতো
+Acerte 1500 tiros
+1500 শট লাগাও
+Cause 1400 num só tiro
+এক শটেই 1400 দাও
+Derrote 800 inimigos
+800 শত্রু হারাও
+15 vitórias perfeitas
+15টি পারফেক্ট জয়
+80 tiros longos
+80টি লম্বা শট
+30 vinganças
+30টি প্রতিশোধ
+Derrote 2500 inimigos
+2500 শত্রু হারাও
+Vença em 14 mapas diferentes
+14টি আলাদা ম্যাপে জেতো
+Vença 15 vezes no mapa do dia
+আজকের ম্যাপে 15 বার জেতো
+Use a Fúria 150 vezes
+ক্রোধ 150 বার ব্যবহার করো
+Pegue 200 caixas
+200টি বাক্স নাও
+Use 800 vezes 3 Tiros/+1/+2/Dano+%
+3 শট/+1/+2/ড্যামেজ+% 800 বার ব্যবহার করো
+Derrube 80 rivais de muito alto
+80 প্রতিপক্ষকে অনেক উঁচু থেকে ফেলো
+Faça 200 tiros rápidos (<5 s)
+200টি দ্রুত শট নাও (<5 s)
+Acerte 2+ rivais num tiro 80 vezes
+এক শটে 2+ প্রতিপক্ষকে 80 বার মারো
+Use o PASSAR 100 vezes
+পাস 100 বার ব্যবহার করো
+Acerte 300 críticos
+300টি ক্রিটিক্যাল লাগাও
+Use 200 habilidades
+200টি স্কিল ব্যবহার করো
+Coloque 80 vigas
+80টি বিম বসাও
+Cave 30 túneis/poços
+30টি সুড়ঙ্গ/গর্ত খোঁড়ো
+Voe de jetpack 25 vezes
+জেটপ্যাকে 25 বার ওড়ো
+Use a corda ninja 25 vezes
+নিনজা দড়ি 25 বার ব্যবহার করো
+Exploda 25 dinamites
+25টি ডিনামাইট ফাটাও
+Solte 25 ovelhas
+25টি ভেড়া ছাড়ো
+Arremesse 50 granadas
+50টি গ্রেনেড ছোড়ো
+Use 12 cachos de granadas
+12টি গ্রেনেড গুচ্ছ ব্যবহার করো
+Plante 25 minas
+25টি মাইন বসাও
+Chame 10 ataques aéreos
+10টি বিমান হামলা ডাকো
+Use a Britadeira 15 vezes
+ড্রিল মেশিন 15 বার ব্যবহার করো
+Cause 400.000 de dano
+4,00,000 ড্যামেজ দাও
+Mire na linha amarela
+হলুদ লাইনে নিশানা করো
+Quanto mais tempo segurar, mais longe vai o tiro
+যত বেশি চেপে রাখবে, গোলা তত দূরে যাবে
+As setas andam pelo mapa
+তীর দিয়ে ম্যাপে হাঁটো
+A mira muda a altura do tiro
+নিশানা গোলার উচ্চতা বদলায়
+Acerte o rival para vencer!
+জিততে প্রতিপক্ষকে মারো!
+Atira 3 balas de uma vez
+একসাথে ৩টি গোলা ছোড়ে
+Vira chão: uma ponte ou um escudo
+মাটি হয়ে যায়: সেতু বা ঢাল
+Segure para voar até outro lugar
+চেপে ধরে অন্য জায়গায় উড়ে যাও
+Pendure-se e balance para ir longe
+ঝুলে দোল খেয়ে দূরে যাও
+Vira chão: ponte, abrigo ou rampa
+মাটি হয়: সেতু, আড়াল বা ঢাল
+Abre um túnel e passa por dentro do morro
+সুড়ঙ্গ খুঁড়ে পাহাড়ের ভেতর দিয়ে যাও
+Voe para outro lugar do mapa
+ম্যাপের অন্য জায়গায় উড়ে যাও
+Cava um poço e você desce por ele
+গর্ত খুঁড়ে নিচে নামো
+Deixe aos seus pés e fuja: explode forte
+পায়ের কাছে রেখে পালাও: জোরে ফাটে
+Anda sozinha até o rival e explode
+নিজে প্রতিপক্ষের কাছে গিয়ে ফাটে
+Explode quando alguém chega perto
+কেউ কাছে এলে ফাটে
+Marque o alvo: 5 mísseis caem do céu
+লক্ষ্য ঠিক করো: আকাশ থেকে ৫টি মিসাইল পড়ে
+NOVO!
+নতুন!
+Cristais x2 (vídeo)
+ক্রিস্টাল x2 (ভিডিও)
+Empurra o tiro: a bandeira mostra para onde
+এটি গোলা ঠেলে দেয়: পতাকা দিক দেখায়
+TUTORIAL CONCLUÍDO!
+টিউটোরিয়াল শেষ!
+O resto você aprende jogando, com dicas na hora certa
+বাকিটা খেলতে খেলতে শিখবে, ঠিক সময়ে টিপস পাবে
+Quica no chão e explode depois
+মাটিতে লাফিয়ে পরে ফাটে
+Melhor com o celular deitado
+ফোন আড়াআড়ি করে খেলুন
+Gire o celular: a tela fica maior e os controles mais fáceis
+ফোন ঘোরান: স্ক্রিন বড় আর কন্ট্রোল সহজ
+JOGAR MASMORRA
+ডানজন খেলুন
+JOGAR VS
+VS খেলুন
+JOGAR ASSIM MESMO
+এভাবেই খেলুন
