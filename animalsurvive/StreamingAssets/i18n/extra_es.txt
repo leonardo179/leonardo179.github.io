@@ -1,0 +1,226 @@
+(jogável numa próxima atualização)
+(jugable en una próxima actualización)
+Alcance o nível 30 numa partida com o personagem
+Alcanza el nivel 30 en una partida con el personaje
+Arma: {0}
+Arma: {0}
+Arraste para andar  ·  WASD / setas no teclado
+Arrastra para moverte  ·  WASD / flechas
+As relíquias saem dos baús durante a partida. Cumpra a missão de cada uma para poder comprá-la com cristais; depois ela passa a sair nos baús. Toque numa relíquia comprada para ligar ou desligar.
+Las reliquias salen de los cofres durante la partida. Cumple la misión de cada una para poder comprarla con cristales; después empieza a salir en los cofres. Toca una reliquia comprada para activarla o desactivarla.
+BUFFS  {0}/{1}
+BUFFS  {0}/{1}
+Bônus: {0}
+Bonus: {0}
+Começa com: {0}
+Empieza con: {0}
+Comprar personagem?
+¿Comprar personaje?
+Comprar relíquia?
+¿Comprar reliquia?
+Comprar skin?
+¿Comprar skin?
+Compre o personagem para usar as skins dele.
+Compra el personaje para usar sus skins.
+Cristais x2 (+{0})
+Cristales x2 (+{0})
+DESISTIR
+RENDIRSE
+DESLIGADA (não sai nos baús)
+DESACTIVADA (no sale en los cofres)
+Derrube 5 chefes numa partida com o personagem
+Derriba 5 jefes en una partida con el personaje
+Desligar
+Desactivar
+Disponível!
+¡Disponible!
+Em breve
+Próximamente
+Este animal chega numa próxima atualização da versão web.
+Este animal llega en una próxima actualización de la versión web.
+Faltam {0} cristais
+Faltan {0} cristales
+LIGADA: sai nos baús
+ACTIVADA: sale en los cofres
+Ligar
+Activar
+Mantenha pelo menos 10 relíquias ligadas
+Mantén al menos 10 reliquias activadas
+Melhorias
+Mejoras
+Mestre 1
+Maestro 1
+Mestre 2
+Maestro 2
+Mestre 3
+Maestro 3
+Missão: 
+Misión: 
+Missões bônus: os cristais entram sozinhos no fim da partida em que você cumprir.
+Misiones extra: los cristales se suman solos al final de la partida en la que las cumplas.
+Mouse, toque ou WASD/setas
+Ratón, toque o WASD/flechas
+Novo animal disponível!
+¡Nuevo animal disponible!
+Novo: {0} disponível!
+Nuevo: ¡{0} disponible!
+NÍVEL {0}!
+¡NIVEL {0}!
+Nível {0}
+Nivel {0}
+Nível {0} de {1}.
+Nivel {0} de {1}.
+P, Esc ou Espaço: pausa
+P, Esc o Espacio: pausa
+PERIGO
+PELIGRO
+Personagens
+Personajes
+Próximo animal: {0} no nível {1}
+Próximo animal: {0} en el nivel {1}
+Recorde: {0}   ·   nível {1}   ·   Perigo vencido: {2}
+Récord: {0}   ·   nivel {1}   ·   Peligro superado: {2}
+Skins
+Skins
+Sobreviva 5:00 com o personagem
+Sobrevive 5:00 con el personaje
+Sobreviva até 10:00 para liberar o Perigo {0}
+Sobrevive hasta las 10:00 para desbloquear el Peligro {0}
+Suba ao nível {0} de jogador para liberar. Depois: {1} cristais.
+Sube al nivel {0} de jugador para desbloquear. Después: {1} cristales.
+Todos os animais disponíveis!
+¡Todos los animales disponibles!
+Usando
+Equipada
+Usar
+Usar
+Vença (10:00) com o personagem
+Gana (llega a las 10:00) con el personaje
+Vença no Perigo 3 com o personagem
+Gana en Peligro 3 con el personaje
+Vença no Perigo 5 com o personagem
+Gana en Peligro 5 con el personaje
+Ver personagem
+Ver personaje
+XP x2
+XP x2
+XP x2 ativo
+XP x2 activo
+cristais
+cristales
+destrave por {0} cristais no menu
+desbloquea por {0} cristales en el menú
+recorde {0}
+récord {0}
+toque numa arma, buff ou item para ver os detalhes
+toca un arma, buff u objeto para ver los detalles
+você: nível {0}
+tú: nivel {0}
+{0} de {1} relíquias
+{0} de {1} reliquias
+única
+única
+Bônus  {0}/{1}
+Extra  {0}/{1}
+Concluída
+Completada
+Recebido
+Recibido
+Cristais dobrados!
+¡Cristales duplicados!
+XP dobrado!
+¡XP duplicada!
+XP x2 (+{0})
+XP x2 (+{0})
+Arraste o dedo para andar
+Arrastra el dedo para moverte
+Use WASD ou as setas para andar
+Usa WASD o las flechas para moverte
+Fuja da horda!
+¡Huye de la horda!
+Seu animal ataca sozinho!
+¡Tu animal ataca solo!
+Você só precisa se mover
+Solo tienes que moverte
+Pegue as gemas azuis
+Recoge las gemas azules
+Elas sobem seu nível
+Te suben de nivel
+Escolha uma melhoria
+Elige una mejora
+Sobreviva até o Ceifador!
+¡Sobrevive hasta la Parca!
+Abra baús e use os totens do mapa
+Abre cofres y usa los tótems del mapa
+PULAR TUTORIAL
+SALTAR TUTORIAL
+SEU MELHOR HOJE
+TU MEJOR DE HOY
+Desafio cumprido! Volte amanhã para um novo.
+¡Desafío cumplido! Vuelve mañana por uno nuevo.
+Tente de novo: o prêmio sai quando bater a meta.
+Inténtalo de nuevo: el premio llega al alcanzar la meta.
+Você ainda não jogou o desafio de hoje.
+Todavía no jugaste el desafío de hoy.
+clique na carta ou use as teclas 1, 2 e 3
+haz clic en una carta o pulsa 1, 2 o 3
+Infusão
+Infusión
+Som
+Sonido
+muda o elemento da arma
+cambia el elemento del arma
+{0}: {1}
+{0}: {1}
+Espada de Fogo
+Espada de Fuego
+Flecha Congelante
+Flecha Congelante
+Bumerangue Venenoso
+Bumerán Venenoso
+Bala Venenosa
+Bala Venenosa
+Escudo de Gelo
+Escudo de Hielo
+Garras Sangrentas
+Garras Sangrientas
+Terremoto de Lava
+Terremoto de Lava
+Arpão Glacial
+Arpón Glacial
+Bala Incendiária
+Bala Incendiaria
+Napalm
+Napalm
+Disco Serrilhado
+Disco Dentado
+o golpe fica VERMELHO e INCENDEIA quem acertar
+el golpe se vuelve ROJO e INCENDIA a quien acierte
+o golpe fica VERDE e ENVENENA quem acertar
+el golpe se vuelve VERDE y ENVENENA a quien acierte
+o golpe fica SANGRENTO e faz SANGRAR quem acertar
+el golpe se vuelve SANGRIENTO y hace SANGRAR a quien acierte
+o golpe fica AZUL e CONGELA (desacelera) quem acertar
+el golpe se vuelve AZUL y CONGELA (ralentiza) a quien acierte
+Espada
+Espada
+Opções
+Opciones
+muda sozinha na partida
+cambia sola en la partida
+Volume da música
+Volumen de la música
+Volume dos efeitos
+Volumen de efectos
+Sons: JC Sounds (CC-BY 4.0), Kenney e Tabasco (CC0). Músicas: Google Gemini.
+Sonidos: JC Sounds (CC-BY 4.0), Kenney y Tabasco (CC0). Música: Google Gemini.
+Automática
+Automática
+Floresta Aconchegante
+Bosque Acogedor
+Aventura
+Aventura
+Batalha Intensa
+Batalla Intensa
+O Ceifador
+La Parca

@@ -1,0 +1,226 @@
+(jogável numa próxima atualização)
+(playable in an upcoming update)
+Alcance o nível 30 numa partida com o personagem
+Reach level 30 in a run with this character
+Arma: {0}
+Weapon: {0}
+Arraste para andar  ·  WASD / setas no teclado
+Drag to move  ·  WASD / arrow keys
+As relíquias saem dos baús durante a partida. Cumpra a missão de cada uma para poder comprá-la com cristais; depois ela passa a sair nos baús. Toque numa relíquia comprada para ligar ou desligar.
+Relics drop from chests during a run. Complete each relic's mission to be able to buy it with crystals; after that it starts dropping from chests. Tap a bought relic to turn it on or off.
+BUFFS  {0}/{1}
+BUFFS  {0}/{1}
+Bônus: {0}
+Bonus: {0}
+Começa com: {0}
+Starts with: {0}
+Comprar personagem?
+Buy character?
+Comprar relíquia?
+Buy relic?
+Comprar skin?
+Buy skin?
+Compre o personagem para usar as skins dele.
+Buy the character to use its skins.
+Cristais x2 (+{0})
+Crystals x2 (+{0})
+DESISTIR
+GIVE UP
+DESLIGADA (não sai nos baús)
+OFF (won't drop from chests)
+Derrube 5 chefes numa partida com o personagem
+Defeat 5 bosses in a run with this character
+Desligar
+Turn off
+Disponível!
+Available!
+Em breve
+Coming soon
+Este animal chega numa próxima atualização da versão web.
+This animal arrives in an upcoming update of the web version.
+Faltam {0} cristais
+You need {0} more crystals
+LIGADA: sai nos baús
+ON: drops from chests
+Ligar
+Turn on
+Mantenha pelo menos 10 relíquias ligadas
+Keep at least 10 relics turned on
+Melhorias
+Upgrades
+Mestre 1
+Master 1
+Mestre 2
+Master 2
+Mestre 3
+Master 3
+Missão: 
+Mission: 
+Missões bônus: os cristais entram sozinhos no fim da partida em que você cumprir.
+Bonus missions: the crystals are added automatically at the end of the run where you complete them.
+Mouse, toque ou WASD/setas
+Mouse, touch or WASD/arrows
+Novo animal disponível!
+New animal available!
+Novo: {0} disponível!
+New: {0} available!
+NÍVEL {0}!
+LEVEL {0}!
+Nível {0}
+Level {0}
+Nível {0} de {1}.
+Level {0} of {1}.
+P, Esc ou Espaço: pausa
+P, Esc or Space: pause
+PERIGO
+DANGER
+Personagens
+Characters
+Próximo animal: {0} no nível {1}
+Next animal: {0} at level {1}
+Recorde: {0}   ·   nível {1}   ·   Perigo vencido: {2}
+Best: {0}   ·   level {1}   ·   Danger beaten: {2}
+Skins
+Skins
+Sobreviva 5:00 com o personagem
+Survive 5:00 with this character
+Sobreviva até 10:00 para liberar o Perigo {0}
+Survive until 10:00 to unlock Danger {0}
+Suba ao nível {0} de jogador para liberar. Depois: {1} cristais.
+Reach player level {0} to unlock. Then: {1} crystals.
+Todos os animais disponíveis!
+All animals available!
+Usando
+Equipped
+Usar
+Use
+Vença (10:00) com o personagem
+Win (reach 10:00) with this character
+Vença no Perigo 3 com o personagem
+Win on Danger 3 with this character
+Vença no Perigo 5 com o personagem
+Win on Danger 5 with this character
+Ver personagem
+See character
+XP x2
+XP x2
+XP x2 ativo
+XP x2 on
+cristais
+crystals
+destrave por {0} cristais no menu
+unlock for {0} crystals in the menu
+recorde {0}
+best {0}
+toque numa arma, buff ou item para ver os detalhes
+tap a weapon, buff or item to see the details
+você: nível {0}
+you: level {0}
+{0} de {1} relíquias
+{0} of {1} relics
+única
+unique
+Bônus  {0}/{1}
+Bonus  {0}/{1}
+Concluída
+Complete
+Recebido
+Received
+Cristais dobrados!
+Crystals doubled!
+XP dobrado!
+XP doubled!
+XP x2 (+{0})
+XP x2 (+{0})
+Arraste o dedo para andar
+Drag your finger to move
+Use WASD ou as setas para andar
+Use WASD or the arrow keys to move
+Fuja da horda!
+Run from the horde!
+Seu animal ataca sozinho!
+Your animal attacks on its own!
+Você só precisa se mover
+You just need to move
+Pegue as gemas azuis
+Grab the blue gems
+Elas sobem seu nível
+They level you up
+Escolha uma melhoria
+Pick an upgrade
+Sobreviva até o Ceifador!
+Survive until the Reaper!
+Abra baús e use os totens do mapa
+Open chests and use the map totems
+PULAR TUTORIAL
+SKIP TUTORIAL
+SEU MELHOR HOJE
+YOUR BEST TODAY
+Desafio cumprido! Volte amanhã para um novo.
+Challenge complete! Come back tomorrow for a new one.
+Tente de novo: o prêmio sai quando bater a meta.
+Try again: you get the reward when you hit the goal.
+Você ainda não jogou o desafio de hoje.
+You haven't played today's challenge yet.
+clique na carta ou use as teclas 1, 2 e 3
+click a card or press 1, 2 or 3
+Infusão
+Infusion
+Som
+Sound
+muda o elemento da arma
+changes the weapon's element
+{0}: {1}
+{0}: {1}
+Espada de Fogo
+Fire Sword
+Flecha Congelante
+Freezing Arrow
+Bumerangue Venenoso
+Poison Boomerang
+Bala Venenosa
+Poison Bullet
+Escudo de Gelo
+Ice Shield
+Garras Sangrentas
+Bloody Claws
+Terremoto de Lava
+Lava Quake
+Arpão Glacial
+Glacial Harpoon
+Bala Incendiária
+Incendiary Bullet
+Napalm
+Napalm
+Disco Serrilhado
+Serrated Disc
+o golpe fica VERMELHO e INCENDEIA quem acertar
+attacks turn RED and SET enemies ON FIRE
+o golpe fica VERDE e ENVENENA quem acertar
+attacks turn GREEN and POISON enemies
+o golpe fica SANGRENTO e faz SANGRAR quem acertar
+attacks turn BLOODY and make enemies BLEED
+o golpe fica AZUL e CONGELA (desacelera) quem acertar
+attacks turn BLUE and FREEZE (slow) enemies
+Espada
+Sword
+Opções
+Options
+muda sozinha na partida
+changes by itself during the run
+Volume da música
+Music volume
+Volume dos efeitos
+Effects volume
+Sons: JC Sounds (CC-BY 4.0), Kenney e Tabasco (CC0). Músicas: Google Gemini.
+Sounds: JC Sounds (CC-BY 4.0), Kenney and Tabasco (CC0). Music: Google Gemini.
+Automática
+Automatic
+Floresta Aconchegante
+Cozy Forest
+Aventura
+Adventure
+Batalha Intensa
+Intense Battle
+O Ceifador
+The Reaper
